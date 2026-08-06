@@ -1,6 +1,6 @@
-# Every advancement these two add-ons add
+# Every advancement in Fellowship
 
-Generated from the built packs with `python3 generator/list_advancements.py`.
+Generated from the built pack with `python3 generator/list_advancements.py`.
 
 Legend: `·` task · `◆` goal · `★` challenge · `★★` super challenge
 
@@ -283,64 +283,64 @@ Milestones unlock as you finish each tab, chaining into the pack's capstone. The
 
 # Alphabetical index
 
-All 55 new advancements, A to Z, with the tab each one appears in.
+All 55 advancements, A to Z, with the tab each one appears in.
 
-| Advancement | Tab | Pack | | What you do |
-|---|---|---|---|---|
-| **Aerial Superiority** | Weaponry | Fellowship | ★★ | Kill another Elytra-flying player while flying with an Elytra yourself |
-| **All For One** | Super Challenges | Fellowship | ★★ | Have every online player in full Netherite armour carrying an Elytra, at once |
-| **Assist** | Monsters | Fellowship | ◆ | Finish off a monster that a teammate had already beaten down below two hearts |
-| **Barn Raising** | Building | Fellowship | ◆ | Have three players each place a hundred blocks inside the same chunk |
-| **Carpool** | Animals | Fellowship | · | Share a boat with another player |
-| **Catch of the Day** | Weaponry | Fellowship | · | Hook another player with a fishing rod and reel them in |
-| **Cavalry Charge** | Animals | Fellowship | ◆ | Four players in the saddle on four Horses, all inside fifteen blocks |
-| **Chemical Warfare** | Potions | Fellowship | ★ | Poison three different players with a single Lingering Potion |
-| **Community Beacon** | Building | Fellowship | ★ | Have four players receiving an effect from the same beacon at once |
-| **Conduit Club** | Biomes | Fellowship | ◆ | Have three players share Conduit Power at the same conduit |
-| **Congregation** | The End | Fellowship | ★ | Have every online player present in the End at the same time |
-| **Convoy** | Redstone | Fellowship | ◆ | Four players rolling along in four Minecarts at the same time |
-| **Dress Code** | Adventure | Fellowship | ◆ | Three players in full armour of the same material with the same armour trim |
-| **Fair Trade** | Adventure | Fellowship | ◆ | Swap items with another player: you each pick up what the other dropped within 5 seconds |
-| **Falling Out** | Weaponry | Fellowship | ★ | Kill another player with an anvil you dropped on them |
-| **Fashion Police** | Adventure | Fellowship | ★ | Five players each wearing a full suit trimmed with a different material at the same time |
-| **Field Medic** | Potions | Fellowship | ◆ | Heal a player who is below three hearts with a Splash Potion of Regeneration |
-| **Firework Finale** | Building | Fellowship | ◆ | Have four players launch fireworks together within three seconds |
-| **First Blood** | Weaponry | Fellowship | · | Kill another player |
-| **Formation Flying** | Super Challenges | Fellowship | ★ | Hold a three-player Elytra formation within ten blocks above Y=200 |
-| **Ghast Fleet** | Nether | Fellowship | ★ | Four players out on four separate Happy Ghasts, all within twenty blocks |
-| **Group Buff** | Potions | Fellowship | ◆ | Have four players together share an identical set of three or more effects |
-| **Group Nap** | Adventure | Fellowship | ◆ | Every online player sleeps during the same night |
-| **Hot Potato** | Adventure | Fellowship | ★ | Pass items down a line of four players within ten seconds |
-| **Insurance Policy** | Super Challenges | Fellowship | ★★ | Have four players burn a Totem of Undying in one fight within five seconds |
-| **Long Distance Relationship** | Statistics | Fellowship | ◆ | Have two players at least 10,000 blocks apart in the same dimension |
-| **Long Shot Rivalry** | Weaponry | Fellowship | ★ | Kill another player with a bow from at least 100 blocks away |
-| **Matching Outfits** | Adventure | Fellowship | · | Two players wearing identically dyed leather armour, all four pieces |
-| **Mutually Assured Destruction** | Weaponry | Fellowship | ★ | Trade kills with another player within the same second |
-| **Orchestra** | Adventure | Fellowship | ★ | Four players sound four different Goat Horns within five seconds |
-| **Pack Leaders** | Animals | Fellowship | ★ | Three players each with an armoured Wolf at heel, all within ten blocks |
-| **Raid Party** | Adventure | Fellowship | ★ | Three players holding Hero of the Village at the same time |
-| **Reunion** | Adventure | Fellowship | ◆ | Meet another player after you have each spent ten minutes with nobody within 5,000 blocks |
-| **Sculk Silence** | Super Challenges | Fellowship | ★★ | Have three players survive two minutes together in the Deep Dark with no Warden |
-| **Secret Santa** | Adventure | Fellowship | ★ | Four players in one place swapping items within ten seconds |
-| **Shared Custody** | Adventure | Fellowship | ★ | Feed an animal that another player named with a Name Tag |
-| **Shield Wall** | Weaponry | Fellowship | ◆ | Three players within eight blocks all block a hit with their shields at once |
-| **Snowball War** | Weaponry | Fellowship | ◆ | Hit three different players with snowballs within ten seconds |
-| **Spear Joust** | Weaponry | Fellowship | ★ | Land a Spear charge attack on another player while both of you are riding Horses |
-| **Split the Party** | Adventure | Fellowship | ◆ | Have three players in three different dimensions at the same moment |
-| **Submarine Crew** | Biomes | Fellowship | ◆ | Three players riding three Nautiluses within fifteen blocks of each other |
-| **Tag Team** | The End | Fellowship | ◆ | Finish the Ender Dragon after at least two different players have wounded it |
-| **Team Photo** | Adventure | Fellowship | · | Squeeze four players into a three-block radius |
-| **The Gauntlet** | Super Challenges | Fellowship | ★★ | Pass one Shulker Box through five different players across all three dimensions |
-| **The Nether Express** | Nether | Fellowship | ◆ | Have four players pass through the same Nether portal within ten seconds |
-| **The Wave** | Adventure | Fellowship | ★ | Four players jump one after another, each within half a second of the last |
-| **Total Party Kill** | Monsters | Fellowship | ★ | Wipe out: every player on the server dead inside the same ten seconds |
-| **Trapped!** | Redstone | Fellowship | · | Have another player set off a trapped chest that you just placed |
-| **Trident Tag** | Weaponry | Fellowship | ◆ | Hit another player with a thrown trident and catch a Loyalty trident on the return |
-| **Trust Fall** | Redstone | Fellowship | ★ | Survive a thirty-block fall into water another player placed for you |
-| **Two-Hump Transit** | Animals | Fellowship | · | Take a Camel out with a second player riding the other hump |
-| **Vault Crew** | Adventure | Fellowship | ★ | Four players each unlock the same Ominous Vault |
-| **Warden Party** | Monsters | Fellowship | ★★ | Put down a Warden with three players inside sixteen blocks, none of them recently killed |
-| **Wind Duel** | Weaponry | Fellowship | ◆ | Launch another player six blocks into the air with your Wind Charge |
-| **Wither Committee** | Monsters | Fellowship | ★ | Bring down a Wither with three or more players standing within twenty blocks |
+| Advancement | Tab | | What you do |
+|---|---|---|---|
+| **Aerial Superiority** | Weaponry | ★★ | Kill another Elytra-flying player while flying with an Elytra yourself |
+| **All For One** | Super Challenges | ★★ | Have every online player in full Netherite armour carrying an Elytra, at once |
+| **Assist** | Monsters | ◆ | Finish off a monster that a teammate had already beaten down below two hearts |
+| **Barn Raising** | Building | ◆ | Have three players each place a hundred blocks inside the same chunk |
+| **Carpool** | Animals | · | Share a boat with another player |
+| **Catch of the Day** | Weaponry | · | Hook another player with a fishing rod and reel them in |
+| **Cavalry Charge** | Animals | ◆ | Four players in the saddle on four Horses, all inside fifteen blocks |
+| **Chemical Warfare** | Potions | ★ | Poison three different players with a single Lingering Potion |
+| **Community Beacon** | Building | ★ | Have four players receiving an effect from the same beacon at once |
+| **Conduit Club** | Biomes | ◆ | Have three players share Conduit Power at the same conduit |
+| **Congregation** | The End | ★ | Have every online player present in the End at the same time |
+| **Convoy** | Redstone | ◆ | Four players rolling along in four Minecarts at the same time |
+| **Dress Code** | Adventure | ◆ | Three players in full armour of the same material with the same armour trim |
+| **Fair Trade** | Adventure | ◆ | Swap items with another player: you each pick up what the other dropped within 5 seconds |
+| **Falling Out** | Weaponry | ★ | Kill another player with an anvil you dropped on them |
+| **Fashion Police** | Adventure | ★ | Five players each wearing a full suit trimmed with a different material at the same time |
+| **Field Medic** | Potions | ◆ | Heal a player who is below three hearts with a Splash Potion of Regeneration |
+| **Firework Finale** | Building | ◆ | Have four players launch fireworks together within three seconds |
+| **First Blood** | Weaponry | · | Kill another player |
+| **Formation Flying** | Super Challenges | ★ | Hold a three-player Elytra formation within ten blocks above Y=200 |
+| **Ghast Fleet** | Nether | ★ | Four players out on four separate Happy Ghasts, all within twenty blocks |
+| **Group Buff** | Potions | ◆ | Have four players together share an identical set of three or more effects |
+| **Group Nap** | Adventure | ◆ | Every online player sleeps during the same night |
+| **Hot Potato** | Adventure | ★ | Pass items down a line of four players within ten seconds |
+| **Insurance Policy** | Super Challenges | ★★ | Have four players burn a Totem of Undying in one fight within five seconds |
+| **Long Distance Relationship** | Statistics | ◆ | Have two players at least 10,000 blocks apart in the same dimension |
+| **Long Shot Rivalry** | Weaponry | ★ | Kill another player with a bow from at least 100 blocks away |
+| **Matching Outfits** | Adventure | · | Two players wearing identically dyed leather armour, all four pieces |
+| **Mutually Assured Destruction** | Weaponry | ★ | Trade kills with another player within the same second |
+| **Orchestra** | Adventure | ★ | Four players sound four different Goat Horns within five seconds |
+| **Pack Leaders** | Animals | ★ | Three players each with an armoured Wolf at heel, all within ten blocks |
+| **Raid Party** | Adventure | ★ | Three players holding Hero of the Village at the same time |
+| **Reunion** | Adventure | ◆ | Meet another player after you have each spent ten minutes with nobody within 5,000 blocks |
+| **Sculk Silence** | Super Challenges | ★★ | Have three players survive two minutes together in the Deep Dark with no Warden |
+| **Secret Santa** | Adventure | ★ | Four players in one place swapping items within ten seconds |
+| **Shared Custody** | Adventure | ★ | Feed an animal that another player named with a Name Tag |
+| **Shield Wall** | Weaponry | ◆ | Three players within eight blocks all block a hit with their shields at once |
+| **Snowball War** | Weaponry | ◆ | Hit three different players with snowballs within ten seconds |
+| **Spear Joust** | Weaponry | ★ | Land a Spear charge attack on another player while both of you are riding Horses |
+| **Split the Party** | Adventure | ◆ | Have three players in three different dimensions at the same moment |
+| **Submarine Crew** | Biomes | ◆ | Three players riding three Nautiluses within fifteen blocks of each other |
+| **Tag Team** | The End | ◆ | Finish the Ender Dragon after at least two different players have wounded it |
+| **Team Photo** | Adventure | · | Squeeze four players into a three-block radius |
+| **The Gauntlet** | Super Challenges | ★★ | Pass one Shulker Box through five different players across all three dimensions |
+| **The Nether Express** | Nether | ◆ | Have four players pass through the same Nether portal within ten seconds |
+| **The Wave** | Adventure | ★ | Four players jump one after another, each within half a second of the last |
+| **Total Party Kill** | Monsters | ★ | Wipe out: every player on the server dead inside the same ten seconds |
+| **Trapped!** | Redstone | · | Have another player set off a trapped chest that you just placed |
+| **Trident Tag** | Weaponry | ◆ | Hit another player with a thrown trident and catch a Loyalty trident on the return |
+| **Trust Fall** | Redstone | ★ | Survive a thirty-block fall into water another player placed for you |
+| **Two-Hump Transit** | Animals | · | Take a Camel out with a second player riding the other hump |
+| **Vault Crew** | Adventure | ★ | Four players each unlock the same Ominous Vault |
+| **Warden Party** | Monsters | ★★ | Put down a Warden with three players inside sixteen blocks, none of them recently killed |
+| **Wind Duel** | Weaponry | ◆ | Launch another player six blocks into the air with your Wind Charge |
+| **Wither Committee** | Monsters | ★ | Bring down a Wither with three or more players standing within twenty blocks |
 
-**55 new advancements in total.**
+**55 advancements in total.**
