@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:emerald",
+          "pattern": "minecraft:sentry"
+        }
+      }
+    },
+    "title": {
+      "translate": "Fashion Police"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Five players each wearing a full suit trimmed with a different material at the same time"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/chromatic_armory",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacapfel_rewards:adventure/fashion_police"
+  }
+}

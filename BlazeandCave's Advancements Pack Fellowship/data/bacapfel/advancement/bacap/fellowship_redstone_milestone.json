@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "Fellowship Redstone Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Fellowship advancement in the Redstone tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacapfel:bacap/fellowship_adventure_milestone",
+  "criteria": {
+    "convoy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:redstone/convoy": true
+            }
+          }
+        }
+      }
+    },
+    "trust_fall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:redstone/trust_fall": true
+            }
+          }
+        }
+      }
+    },
+    "trapped": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:redstone/trapped": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacapfel_rewards:bacap/fellowship_redstone_milestone"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+    "title": {
+      "translate": "Matching Outfits"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Two players wearing identically dyed leather armour, all four pieces"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/retro_future_knight",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacapfel_rewards:adventure/matching_outfits"
+  }
+}

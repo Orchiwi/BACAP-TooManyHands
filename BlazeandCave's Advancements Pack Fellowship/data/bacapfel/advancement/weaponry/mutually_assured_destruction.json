@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "Mutually Assured Destruction"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Trade kills with another player within the same second"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/loser",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacapfel_rewards:weaponry/mutually_assured_destruction"
+  }
+}

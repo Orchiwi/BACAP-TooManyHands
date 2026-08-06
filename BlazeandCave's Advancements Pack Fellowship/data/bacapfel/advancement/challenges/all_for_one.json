@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "translate": "All For One"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Have every online player in full Netherite armour carrying an Elytra, at once"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/all_the_items",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacapfel_rewards:challenges/all_for_one"
+  }
+}

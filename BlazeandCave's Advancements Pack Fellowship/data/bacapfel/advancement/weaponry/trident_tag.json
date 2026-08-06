@@ -1,0 +1,81 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Trident Tag"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hit another player with a thrown trident and catch a Loyalty trident on the return"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/king_of_the_sea",
+  "criteria": {
+    "hit_player": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "minecraft:trident"
+            }
+          }
+        }
+      }
+    },
+    "caught": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:trident"
+            ],
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:loyalty"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "blocked": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacapfel_rewards:weaponry/trident_tag"
+  },
+  "requirements": [
+    [
+      "hit_player"
+    ],
+    [
+      "caught"
+    ],
+    [
+      "blocked"
+    ]
+  ]
+}

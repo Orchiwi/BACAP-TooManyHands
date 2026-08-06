@@ -1,0 +1,202 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:map"
+    },
+    "title": {
+      "translate": "Fellowship Adventure Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Fellowship advancement in the Adventure tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacapfel:bacap/fellowship_biomes_milestone",
+  "criteria": {
+    "fair_trade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/fair_trade": true
+            }
+          }
+        }
+      }
+    },
+    "secret_santa": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/secret_santa": true
+            }
+          }
+        }
+      }
+    },
+    "hot_potato": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/hot_potato": true
+            }
+          }
+        }
+      }
+    },
+    "reunion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/reunion": true
+            }
+          }
+        }
+      }
+    },
+    "split_the_party": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/split_the_party": true
+            }
+          }
+        }
+      }
+    },
+    "team_photo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/team_photo": true
+            }
+          }
+        }
+      }
+    },
+    "the_wave": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/the_wave": true
+            }
+          }
+        }
+      }
+    },
+    "matching_outfits": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/matching_outfits": true
+            }
+          }
+        }
+      }
+    },
+    "dress_code": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/dress_code": true
+            }
+          }
+        }
+      }
+    },
+    "fashion_police": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/fashion_police": true
+            }
+          }
+        }
+      }
+    },
+    "shared_custody": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/shared_custody": true
+            }
+          }
+        }
+      }
+    },
+    "group_nap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/group_nap": true
+            }
+          }
+        }
+      }
+    },
+    "raid_party": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/raid_party": true
+            }
+          }
+        }
+      }
+    },
+    "vault_crew": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/vault_crew": true
+            }
+          }
+        }
+      }
+    },
+    "orchestra": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:adventure/orchestra": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacapfel_rewards:bacap/fellowship_adventure_milestone"
+  }
+}

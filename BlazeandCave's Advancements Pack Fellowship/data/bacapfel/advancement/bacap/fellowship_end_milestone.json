@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "Fellowship The End Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Fellowship advancement in the The End tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacapfel:bacap/fellowship_potion_milestone",
+  "criteria": {
+    "tag_team": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:end/tag_team": true
+            }
+          }
+        }
+      }
+    },
+    "congregation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:end/congregation": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacapfel_rewards:bacap/fellowship_end_milestone"
+  }
+}

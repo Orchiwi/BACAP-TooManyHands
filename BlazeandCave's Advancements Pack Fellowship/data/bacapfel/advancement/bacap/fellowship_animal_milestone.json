@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "Fellowship Animals Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Fellowship advancement in the Animals tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacapfel:bacap/fellowship_building_milestone",
+  "criteria": {
+    "carpool": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:animal/carpool": true
+            }
+          }
+        }
+      }
+    },
+    "two_hump_transit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:animal/two_hump_transit": true
+            }
+          }
+        }
+      }
+    },
+    "cavalry_charge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:animal/cavalry_charge": true
+            }
+          }
+        }
+      }
+    },
+    "pack_leaders": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:animal/pack_leaders": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacapfel_rewards:bacap/fellowship_animal_milestone"
+  }
+}

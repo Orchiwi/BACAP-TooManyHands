@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "The Gauntlet"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Pass one Shulker Box through five different players across all three dimensions"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/the_devils_distance",
+  "criteria": {
+    "hand_off": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": "#minecraft:shulker_boxes"
+        }
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacapfel_rewards:challenges/the_gauntlet"
+  },
+  "requirements": [
+    [
+      "hand_off"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

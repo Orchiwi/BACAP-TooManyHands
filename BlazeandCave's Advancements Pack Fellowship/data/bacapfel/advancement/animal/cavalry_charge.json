@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Cavalry Charge"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Four players in the saddle on four Horses, all inside fifteen blocks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/cowboy",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacapfel_rewards:animal/cavalry_charge"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_head"
+    },
+    "title": {
+      "translate": "Fellowship Monsters Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Fellowship advancement in the Monsters tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacapfel:bacap/fellowship_animal_milestone",
+  "criteria": {
+    "wither_committee": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:monsters/wither_committee": true
+            }
+          }
+        }
+      }
+    },
+    "warden_party": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:monsters/warden_party": true
+            }
+          }
+        }
+      }
+    },
+    "assist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:monsters/assist": true
+            }
+          }
+        }
+      }
+    },
+    "total_party_kill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacapfel:monsters/total_party_kill": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacapfel_rewards:bacap/fellowship_monsters_milestone"
+  }
+}
