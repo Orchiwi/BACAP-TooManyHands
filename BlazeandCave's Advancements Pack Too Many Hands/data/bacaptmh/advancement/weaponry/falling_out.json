@@ -1,0 +1,93 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "Falling Out"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player with an anvil you dropped on them"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/there_it_goes",
+  "criteria": {
+    "dropped": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:anvil",
+                  "minecraft:chipped_anvil",
+                  "minecraft:damaged_anvil"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crushed_anvil": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "entity_type": "minecraft:falling_block",
+            "nbt": "{BlockState:{Name:\"minecraft:anvil\"}}"
+          }
+        }
+      }
+    },
+    "crushed_chipped": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "entity_type": "minecraft:falling_block",
+            "nbt": "{BlockState:{Name:\"minecraft:chipped_anvil\"}}"
+          }
+        }
+      }
+    },
+    "crushed_damaged": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "entity_type": "minecraft:falling_block",
+            "nbt": "{BlockState:{Name:\"minecraft:damaged_anvil\"}}"
+          }
+        }
+      }
+    },
+    "blocked": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/falling_out"
+  },
+  "requirements": [
+    [
+      "dropped"
+    ],
+    [
+      "crushed_anvil",
+      "crushed_chipped",
+      "crushed_damaged"
+    ],
+    [
+      "blocked"
+    ]
+  ]
+}

@@ -1,0 +1,9 @@
+# Age every short-lived pairing window by one medium tick.
+execute as @a[scores={bacaptmh_medic=1..}] run scoreboard players remove @s bacaptmh_medic 1
+execute as @a[scores={bacaptmh_ling=1..}] run scoreboard players remove @s bacaptmh_ling 1
+execute as @a[scores={bacaptmh_gas=1..}] run scoreboard players remove @s bacaptmh_gas 1
+execute as @a[scores={bacaptmh_fwt=1..}] run scoreboard players remove @s bacaptmh_fwt 1
+execute as @a[scores={bacaptmh_tott=1..}] run scoreboard players remove @s bacaptmh_tott 1
+execute as @a[scores={bacaptmh_wt=1..}] run scoreboard players remove @s bacaptmh_wt 1
+execute as @a[scores={bacaptmh_tct=1..}] run scoreboard players remove @s bacaptmh_tct 1
+execute as @a[scores={bacaptmh_pt=1..}] run scoreboard players remove @s bacaptmh_pt 1

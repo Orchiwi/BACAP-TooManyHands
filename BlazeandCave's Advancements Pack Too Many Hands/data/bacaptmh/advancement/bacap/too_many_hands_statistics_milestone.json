@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:book"
+    },
+    "title": {
+      "translate": "Too Many Hands Statistics Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Too Many Hands advancement in the Statistics tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:bacap/too_many_hands_redstone_milestone",
+  "criteria": {
+    "long_distance_relationship": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/long_distance_relationship": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:bacap/too_many_hands_statistics_milestone"
+  }
+}

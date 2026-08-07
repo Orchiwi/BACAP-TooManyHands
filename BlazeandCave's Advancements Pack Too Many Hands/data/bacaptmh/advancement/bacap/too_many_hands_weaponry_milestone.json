@@ -1,0 +1,154 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "Too Many Hands Weaponry Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Too Many Hands advancement in the Weaponry tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:bacap/too_many_hands_monsters_milestone",
+  "criteria": {
+    "first_blood": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/first_blood": true
+            }
+          }
+        }
+      }
+    },
+    "mutually_assured_destruction": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/mutually_assured_destruction": true
+            }
+          }
+        }
+      }
+    },
+    "catch_of_the_day": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/catch_of_the_day": true
+            }
+          }
+        }
+      }
+    },
+    "snowball_war": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/snowball_war": true
+            }
+          }
+        }
+      }
+    },
+    "trident_tag": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/trident_tag": true
+            }
+          }
+        }
+      }
+    },
+    "falling_out": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/falling_out": true
+            }
+          }
+        }
+      }
+    },
+    "long_shot_rivalry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/long_shot_rivalry": true
+            }
+          }
+        }
+      }
+    },
+    "aerial_superiority": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/aerial_superiority": true
+            }
+          }
+        }
+      }
+    },
+    "shield_wall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/shield_wall": true
+            }
+          }
+        }
+      }
+    },
+    "wind_duel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/wind_duel": true
+            }
+          }
+        }
+      }
+    },
+    "spear_joust": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/spear_joust": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:bacap/too_many_hands_weaponry_milestone"
+  }
+}

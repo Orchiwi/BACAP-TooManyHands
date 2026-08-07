@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "Too Many Hands Animals Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Too Many Hands advancement in the Animals tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:bacap/too_many_hands_building_milestone",
+  "criteria": {
+    "carpool": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/carpool": true
+            }
+          }
+        }
+      }
+    },
+    "two_hump_transit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/two_hump_transit": true
+            }
+          }
+        }
+      }
+    },
+    "cavalry_charge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/cavalry_charge": true
+            }
+          }
+        }
+      }
+    },
+    "pack_leaders": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/pack_leaders": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:bacap/too_many_hands_animal_milestone"
+  }
+}

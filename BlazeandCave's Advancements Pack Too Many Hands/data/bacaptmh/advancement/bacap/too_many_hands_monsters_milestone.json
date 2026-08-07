@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_head"
+    },
+    "title": {
+      "translate": "Too Many Hands Monsters Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Too Many Hands advancement in the Monsters tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:bacap/too_many_hands_animal_milestone",
+  "criteria": {
+    "wither_committee": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/wither_committee": true
+            }
+          }
+        }
+      }
+    },
+    "warden_party": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/warden_party": true
+            }
+          }
+        }
+      }
+    },
+    "assist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/assist": true
+            }
+          }
+        }
+      }
+    },
+    "total_party_kill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/total_party_kill": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:bacap/too_many_hands_monsters_milestone"
+  }
+}

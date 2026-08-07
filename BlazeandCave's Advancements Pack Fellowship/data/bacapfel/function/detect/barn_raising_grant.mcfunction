@@ -1,1 +1,0 @@
-execute as @a[gamemode=!spectator,scores={bacapfel_barn=100..}] if score @s bacapfel_cx = #brx bacapfel_tmp4 if score @s bacapfel_cz = #brz bacapfel_tmp4 if score @s bacapfel_cd = #brd bacapfel_tmp4 run function bacapfel:detect/barn_raising_give

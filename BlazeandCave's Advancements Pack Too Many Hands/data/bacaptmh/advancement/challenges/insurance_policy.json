@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Insurance Policy"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Have four players burn a Totem of Undying in one fight within five seconds"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/immortal",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/insurance_policy"
+  }
+}

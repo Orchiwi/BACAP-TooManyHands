@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": {
+      "translate": "Long Distance Relationship"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have two players at least 10,000 blocks apart in the same dimension"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/i_enjoy_long_walks_and_playing_minecraft",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/long_distance_relationship"
+  }
+}

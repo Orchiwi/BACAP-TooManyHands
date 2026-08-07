@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "Too Many Hands Super Challenges Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Too Many Hands advancement in the Super Challenges tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:bacap/too_many_hands_end_milestone",
+  "criteria": {
+    "insurance_policy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/insurance_policy": true
+            }
+          }
+        }
+      }
+    },
+    "the_gauntlet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/the_gauntlet": true
+            }
+          }
+        }
+      }
+    },
+    "all_for_one": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/all_for_one": true
+            }
+          }
+        }
+      }
+    },
+    "sculk_silence": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/sculk_silence": true
+            }
+          }
+        }
+      }
+    },
+    "formation_flying": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/formation_flying": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:bacap/too_many_hands_challenges_milestone"
+  }
+}

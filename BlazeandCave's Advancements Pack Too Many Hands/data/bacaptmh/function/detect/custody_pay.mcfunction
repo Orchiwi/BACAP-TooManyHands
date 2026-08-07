@@ -1,0 +1,5 @@
+# Runs as the animal. Both halves of the pair are credited: whoever just fed it, and
+# whoever named it, found by matching the stamp against player ids.
+scoreboard players operation #cuown bacaptmh_sys = @s bacaptmh_owner
+advancement grant @a[tag=bacaptmh_cu_feeder] only bacaptmh:adventure/shared_custody
+execute as @a[gamemode=!spectator] if score @s bacaptmh_pid = #cuown bacaptmh_sys run advancement grant @s only bacaptmh:adventure/shared_custody

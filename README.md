@@ -1,4 +1,4 @@
-# BlazeandCave's Advancements Pack Fellowship
+# BlazeandCave's Advancements Pack Too Many Hands
 
 An add-on for **BlazeandCave's Advancements Pack** adding **55 advancements that cannot be
 earned alone**. Every one needs between two and five players. None duplicates any of the
@@ -7,13 +7,13 @@ earned alone**. Every one needs between two and five players. None duplicates an
 ## Install
 
 Download this repository (**Code → Download ZIP**, or clone it) and copy the folder
-`BlazeandCave's Advancements Pack Fellowship` into your world's `datapacks/` folder, next to the
+`BlazeandCave's Advancements Pack Too Many Hands` into your world's `datapacks/` folder, next to the
 BACAP zip. Then `/reload`, or restart the server.
 
 ```
 <world>/datapacks/
   BlazeandCave's Advancements Pack 1.21.zip   <- required, install this first
-  BlazeandCave's Advancements Pack Fellowship/   <- this pack
+  BlazeandCave's Advancements Pack Too Many Hands/   <- this pack
 ```
 
 Minecraft accepts datapacks as plain folders, so no zipping is needed. If you would rather
@@ -24,7 +24,7 @@ root of the archive, not inside another folder.
 (`bacap_fanpacks:update_score` and `update_points`) so scoreboard totals, points and
 `/trigger bac_progress` stay correct. Without BACAP it does nothing. It hooks onto BACAP's
 existing tabs rather than adding new ones, and adds its own milestone chain ending in
-*Fellowship Legend*.
+*Too Many Hands Legend*.
 
 ## Before you play
 
@@ -62,13 +62,13 @@ alone cannot express "two *different* players did X". They are split across thre
 every tick for timing-critical pairings, every 0.5 s for proximity, every 5 s for distance
 and inventory sweeps. Every check exits early when too few players are online and is gated
 on players who do not yet hold the advancement, so completed entries stop costing anything.
-If the server strains, `data/bacapfel/function/bucket_fast.mcfunction` is the first thing
+If the server strains, `data/bacaptmh/function/bucket_fast.mcfunction` is the first thing
 to slow down.
 
 ## Diagnostics
 
 ```
-/function bacapfel:diagnose
+/function bacaptmh:diagnose
 ```
 
 Run it twice a few seconds apart. It prints a heartbeat for the tick function and each of
