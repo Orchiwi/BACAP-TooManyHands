@@ -12,7 +12,9 @@ scoreboard players remove #mp4skcut bacaptmh_tmp 600
 execute unless score @s bacaptmh_dtime > #mp4skcut bacaptmh_tmp run advancement revoke @s only bacaptmh:adventure/starter_kit sword
 execute unless score @s bacaptmh_dtime > #mp4skcut bacaptmh_tmp run advancement revoke @s only bacaptmh:adventure/starter_kit pickaxe
 execute unless score @s bacaptmh_dtime > #mp4skcut bacaptmh_tmp run advancement revoke @s only bacaptmh:adventure/starter_kit food
-# All three inside the window: the resupplied player and everyone standing around them get it,
-# because nothing in the criteria can name the givers. Cooperative Mode is off, so this grant
-# is the only thing that pays the helpers.
-execute if entity @s[advancements={bacaptmh:adventure/starter_kit={sword=true,pickaxe=true,food=true}}] run advancement grant @a[gamemode=!spectator,distance=..12] only bacaptmh:adventure/starter_kit
+# All three inside the window pays the RESUPPLIED player only. It used to grant to
+# @a within 12 blocks so the givers would be paid too, but nothing in the criteria can
+# name a giver, so that also paid anyone who happened to be standing nearby - a third
+# player at a furnace, or a creative-mode admin. Someone still has to throw the items,
+# so this remains unearnable alone.
+execute if entity @s[advancements={bacaptmh:adventure/starter_kit={sword=true,pickaxe=true,food=true}}] run advancement grant @s only bacaptmh:adventure/starter_kit

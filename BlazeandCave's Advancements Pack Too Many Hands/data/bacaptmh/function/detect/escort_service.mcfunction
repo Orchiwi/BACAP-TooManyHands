@@ -1,15 +1,24 @@
 # Escort Service - 500 blocks of Nether on foot, carrying nothing, guarded, untouched.
 # Medium bucket, as each non-spectator non-creative player without it, at themselves.
 # Every mirror used here is seeded in bacaptmh:seed, never below.
-scoreboard players operation #hd bacaptmh_esc = @s bacaptmh_hurt
-scoreboard players operation #hd bacaptmh_esc -= @s bacaptmh_hurtm
-scoreboard players operation @s bacaptmh_hurtm = @s bacaptmh_hurt
-scoreboard players operation #d bacaptmh_esc = @s bacaptmh_walk
-scoreboard players operation #d bacaptmh_esc -= @s bacaptmh_walkm
-scoreboard players operation @s bacaptmh_walkm = @s bacaptmh_walk
-scoreboard players operation #d2 bacaptmh_esc = @s bacaptmh_sprint
-scoreboard players operation #d2 bacaptmh_esc -= @s bacaptmh_sprm
-scoreboard players operation @s bacaptmh_sprm = @s bacaptmh_sprint
+# The shared scratch below is zeroed first and both copies are gated on the source
+# and mirror actually being SET. `scoreboard players operation` does not run at all
+# while either side is unset, and a statistic has no entry until the player first
+# performs the action - so an untouched player used to inherit the delta computed
+# for whoever was iterated before them in the same sweep. `matches 0..` is false on
+# an unset score, which is what makes the gate work.
+scoreboard players set #hd bacaptmh_esc 0
+execute if score @s bacaptmh_hurt matches 0.. if score @s bacaptmh_hurtm matches 0.. run scoreboard players operation #hd bacaptmh_esc = @s bacaptmh_hurt
+execute if score @s bacaptmh_hurt matches 0.. if score @s bacaptmh_hurtm matches 0.. run scoreboard players operation #hd bacaptmh_esc -= @s bacaptmh_hurtm
+execute if score @s bacaptmh_hurt matches 0.. run scoreboard players operation @s bacaptmh_hurtm = @s bacaptmh_hurt
+scoreboard players set #d bacaptmh_esc 0
+execute if score @s bacaptmh_walk matches 0.. if score @s bacaptmh_walkm matches 0.. run scoreboard players operation #d bacaptmh_esc = @s bacaptmh_walk
+execute if score @s bacaptmh_walk matches 0.. if score @s bacaptmh_walkm matches 0.. run scoreboard players operation #d bacaptmh_esc -= @s bacaptmh_walkm
+execute if score @s bacaptmh_walk matches 0.. run scoreboard players operation @s bacaptmh_walkm = @s bacaptmh_walk
+scoreboard players set #d2 bacaptmh_esc 0
+execute if score @s bacaptmh_sprint matches 0.. if score @s bacaptmh_sprm matches 0.. run scoreboard players operation #d2 bacaptmh_esc = @s bacaptmh_sprint
+execute if score @s bacaptmh_sprint matches 0.. if score @s bacaptmh_sprm matches 0.. run scoreboard players operation #d2 bacaptmh_esc -= @s bacaptmh_sprm
+execute if score @s bacaptmh_sprint matches 0.. run scoreboard players operation @s bacaptmh_sprm = @s bacaptmh_sprint
 scoreboard players operation #d bacaptmh_esc += #d2 bacaptmh_esc
 # Eligibility for THIS sample. The tag is the self-exclusion for the bodyguard test.
 scoreboard players set #ok bacaptmh_esc 0

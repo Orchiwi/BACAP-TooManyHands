@@ -14,8 +14,11 @@ tag @s remove bacaptmh_finisher
 # One flag per boss. Mirrors are consumed at the end of bucket_medium, after Noble Sacrifice has
 # read the same Wither delta.
 execute if score #fallen bacaptmh_m9 matches 1.. if score @s bacaptmh_kwither > @s bacaptmh_kwitherp run scoreboard players set #wither bacaptmh_relay 1
+execute if score #fallen bacaptmh_m9 matches 1.. if score @s bacaptmh_kwither > @s bacaptmh_kwitherp run tag @a[gamemode=!spectator,distance=..128] add bacaptmh.relay_w
 execute if score #fallen bacaptmh_m9 matches 1.. if score @s bacaptmh_kwarden > @s bacaptmh_kwardenp run scoreboard players set #warden bacaptmh_relay 1
+execute if score #fallen bacaptmh_m9 matches 1.. if score @s bacaptmh_kwarden > @s bacaptmh_kwardenp run tag @a[gamemode=!spectator,distance=..128] add bacaptmh.relay_wa
 execute if score #fallen bacaptmh_m9 matches 1.. if score @s bacaptmh_kdragon > @s bacaptmh_kdragonp run scoreboard players set #dragon bacaptmh_relay 1
+execute if score #fallen bacaptmh_m9 matches 1.. if score @s bacaptmh_kdragon > @s bacaptmh_kdragonp run tag @a[gamemode=!spectator,distance=..128] add bacaptmh.relay_d
 
 # All three standing pays the crew present at the last kill and then consumes the flags,
 # so the next relay has to be run from scratch.
