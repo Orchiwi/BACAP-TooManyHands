@@ -332,7 +332,7 @@ execute if score #players bacaptmh_sys matches 2.. as @a[gamemode=!spectator,adv
 execute as @a[gamemode=!spectator,advancements={bacaptmh:statistics/bread_winner={fed=true,impossible=false}}] run function bacaptmh:detect/bread_winner
 # Ghost Protocol - the Tag Team dragon sampler, on its own private stamp so it keeps running
 # after everybody holds Tag Team and that detector stops being dispatched.
-execute if score #players bacaptmh_sys matches 3.. if entity @a[gamemode=!spectator,advancements={bacaptmh:end/ghost_protocol=false},limit=1] in minecraft:the_end as @e[type=ender_dragon,limit=1] at @s run function bacaptmh:detect/ghost_protocol
+execute if score #players bacaptmh_sys matches 4.. if entity @a[gamemode=!spectator,advancements={bacaptmh:end/ghost_protocol=false},limit=1] in minecraft:the_end as @e[type=ender_dragon,limit=1] at @s run function bacaptmh:detect/ghost_protocol
 # Synchronised Swimming - swim_one_cm only accrues in the swimming pose, so a positive delta
 # over this window means 'was swimming', never 'walked through a puddle'. The mirror is
 # refreshed for every eligible player every window, UNGATED, so it can never go stale while

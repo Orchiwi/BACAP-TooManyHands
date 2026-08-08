@@ -18,4 +18,4 @@ scoreboard players set #g13n bacaptmh_tmp 0
 scoreboard players set #g13d bacaptmh_tmp 0
 execute as @a[gamemode=!spectator,distance=..256] if score @s bacaptmh_gpt > #f3cut2400 bacaptmh_tmp run scoreboard players add #g13n bacaptmh_tmp 1
 execute as @a[gamemode=!spectator,distance=..256] if score @s bacaptmh_gpt > #f3cut2400 bacaptmh_tmp if score @s bacaptmh_dtime > #f3cut2400 bacaptmh_tmp run scoreboard players add #g13d bacaptmh_tmp 1
-execute if score #g13n bacaptmh_tmp matches 3.. if score #g13d bacaptmh_tmp = #g13n bacaptmh_tmp as @a[gamemode=!spectator,distance=..256] if score @s bacaptmh_gpt > #f3cut2400 bacaptmh_tmp run advancement grant @s only bacaptmh:end/ghost_protocol
+execute if score #g13n bacaptmh_tmp matches 4.. if score #g13d bacaptmh_tmp = #g13n bacaptmh_tmp as @a[gamemode=!spectator,distance=..256] if score @s bacaptmh_gpt > #f3cut2400 bacaptmh_tmp run advancement grant @s only bacaptmh:end/ghost_protocol
