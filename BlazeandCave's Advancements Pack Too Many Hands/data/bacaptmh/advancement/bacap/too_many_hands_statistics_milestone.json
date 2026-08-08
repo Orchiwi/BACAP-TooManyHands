@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:bacap/too_many_hands_redstone_milestone",
+  "parent": "bacaptmh:bacap/too_many_hands_enchanting_milestone",
   "criteria": {
     "long_distance_relationship": {
       "trigger": "minecraft:location",
@@ -22,6 +22,162 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:statistics/long_distance_relationship": true
+            }
+          }
+        }
+      }
+    },
+    "serial_offender": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/serial_offender": true
+            }
+          }
+        }
+      }
+    },
+    "philanthropist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/philanthropist": true
+            }
+          }
+        }
+      }
+    },
+    "blimpin_aint_easy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/blimpin_aint_easy": true
+            }
+          }
+        }
+      }
+    },
+    "crash_test_dummy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/crash_test_dummy": true
+            }
+          }
+        }
+      }
+    },
+    "the_amazing_race": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/the_amazing_race": true
+            }
+          }
+        }
+      }
+    },
+    "trading_floor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/trading_floor": true
+            }
+          }
+        }
+      }
+    },
+    "heart_surgeon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/heart_surgeon": true
+            }
+          }
+        }
+      }
+    },
+    "sparring_partners": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/sparring_partners": true
+            }
+          }
+        }
+      }
+    },
+    "antipodes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/antipodes": true
+            }
+          }
+        }
+      }
+    },
+    "gift_economy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/gift_economy": true
+            }
+          }
+        }
+      }
+    },
+    "bread_winner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/bread_winner": true
+            }
+          }
+        }
+      }
+    },
+    "death_and_taxes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/death_and_taxes": true
+            }
+          }
+        }
+      }
+    },
+    "body_count": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/body_count": true
             }
           }
         }

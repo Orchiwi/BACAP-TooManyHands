@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lantern"
+    },
+    "title": {
+      "translate": "Night Watch"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have another player kill a monster within ten blocks of you while you sleep"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/night_runner",
+  "criteria": {
+    "slept": {
+      "trigger": "minecraft:slept_in_bed"
+    },
+    "killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "#blazeandcave:hostile_monsters"
+        }
+      }
+    },
+    "guard": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/night_watch"
+  },
+  "requirements": [
+    [
+      "slept"
+    ],
+    [
+      "killed"
+    ],
+    [
+      "guard"
+    ]
+  ]
+}

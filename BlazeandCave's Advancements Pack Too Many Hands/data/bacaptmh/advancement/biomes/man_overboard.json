@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Man Overboard"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Reel a swimming player back to your boat with a Fishing Rod, out over the deep ocean"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/boaty_mcboatface",
+  "criteria": {
+    "man_overboard": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "flags": {
+            "is_swimming": true
+          },
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "#blazeandcave:all_boats"
+          },
+          "location": {
+            "biomes": "#minecraft:is_deep_ocean"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/man_overboard"
+  }
+}

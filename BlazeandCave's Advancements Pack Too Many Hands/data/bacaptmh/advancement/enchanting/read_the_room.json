@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bookshelf"
+    },
+    "title": {
+      "translate": "Read the Room"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Enchant an item at a table another player ringed with bookshelves"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "enchanted": {
+      "trigger": "minecraft:enchanted_item"
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/read_the_room"
+  },
+  "requirements": [
+    [
+      "enchanted"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powered_rail"
+    },
+    "title": {
+      "translate": "Drag Strip"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Race another player in Minecarts on parallel rails, side by side within four blocks at full speed"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/on_a_rail",
+  "criteria": {
+    "drag_strip": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart",
+                "location": {
+                  "block": {
+                    "blocks": [
+                      "minecraft:rail",
+                      "minecraft:powered_rail",
+                      "minecraft:detector_rail",
+                      "minecraft:activator_rail"
+                    ]
+                  }
+                }
+              },
+              "movement": {
+                "speed": {
+                  "min": 7.0
+                }
+              },
+              "minecraft:type_specific/player": {
+                "looking_at": {
+                  "entity_type": "minecraft:player",
+                  "vehicle": {
+                    "entity_type": "minecraft:minecart",
+                    "location": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:rail",
+                          "minecraft:powered_rail",
+                          "minecraft:detector_rail",
+                          "minecraft:activator_rail"
+                        ]
+                      }
+                    }
+                  },
+                  "distance": {
+                    "absolute": {
+                      "max": 4
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator",
+                    "creative"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/drag_strip"
+  }
+}

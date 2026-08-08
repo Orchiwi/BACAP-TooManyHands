@@ -38,6 +38,150 @@
           }
         }
       }
+    },
+    "thar_she_blows": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/thar_she_blows": true
+            }
+          }
+        }
+      }
+    },
+    "cold_shoulder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/cold_shoulder": true
+            }
+          }
+        }
+      }
+    },
+    "ferrymans_fee": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/ferrymans_fee": true
+            }
+          }
+        }
+      }
+    },
+    "the_cousteau_manoeuvre": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/the_cousteau_manoeuvre": true
+            }
+          }
+        }
+      }
+    },
+    "crows_nest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/crows_nest": true
+            }
+          }
+        }
+      }
+    },
+    "man_overboard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/man_overboard": true
+            }
+          }
+        }
+      }
+    },
+    "sea_legs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/sea_legs": true
+            }
+          }
+        }
+      }
+    },
+    "the_merchant_of_venice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/the_merchant_of_venice": true
+            }
+          }
+        }
+      }
+    },
+    "synchronised_swimming": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/synchronised_swimming": true
+            }
+          }
+        }
+      }
+    },
+    "cold_chain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/cold_chain": true
+            }
+          }
+        }
+      }
+    },
+    "warm_welcome": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/warm_welcome": true
+            }
+          }
+        }
+      }
+    },
+    "torpedo_run": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/torpedo_run": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

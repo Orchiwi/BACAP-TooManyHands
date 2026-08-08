@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head"
+    },
+    "title": {
+      "translate": "Head of the Household"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Come away with another player's head after a Charged Creeper goes off"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/revenge",
+  "criteria": {
+    "blown_up": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:creeper",
+          "nbt": "{powered:1b}"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_explosion",
+              "expected": true
+            }
+          ]
+        }
+      }
+    },
+    "took_the_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:player_head"
+            ]
+          }
+        ]
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/head_of_the_household"
+  },
+  "requirements": [
+    [
+      "blown_up",
+      "took_the_head"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

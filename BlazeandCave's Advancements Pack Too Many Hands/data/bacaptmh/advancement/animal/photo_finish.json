@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Photo Finish"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Two players gallop across the same ground within three blocks of each other, both moving faster than ten blocks a second"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/its_high_noon",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/photo_finish"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "Too Many Hands Mining Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every Too Many Hands advancement in the Mining tab"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:bacap/time_to_farm",
+  "criteria": {
+    "bring_a_torch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/bring_a_torch": true
+            }
+          }
+        }
+      }
+    },
+    "dig_me_out": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/dig_me_out": true
+            }
+          }
+        }
+      }
+    },
+    "outsourced": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/outsourced": true
+            }
+          }
+        }
+      }
+    },
+    "deep_recovery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/deep_recovery": true
+            }
+          }
+        }
+      }
+    },
+    "tunnel_vision": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/tunnel_vision": true
+            }
+          }
+        }
+      }
+    },
+    "passing_the_torch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/passing_the_torch": true
+            }
+          }
+        }
+      }
+    },
+    "loan_shark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/loan_shark": true
+            }
+          }
+        }
+      }
+    },
+    "homing_pigeon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/homing_pigeon": true
+            }
+          }
+        }
+      }
+    },
+    "silent_duel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/silent_duel": true
+            }
+          }
+        }
+      }
+    },
+    "split_shift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/split_shift": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:bacap/too_many_hands_mining_milestone"
+  }
+}

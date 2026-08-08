@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creeper_head"
+    },
+    "title": {
+      "translate": "Death Do Us Part"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have two players killed by Creepers in the same instant, in the same place"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/what_a_creep",
+  "criteria": {
+    "creeper": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:creeper"
+        }
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/death_do_us_part"
+  },
+  "requirements": [
+    [
+      "creeper"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

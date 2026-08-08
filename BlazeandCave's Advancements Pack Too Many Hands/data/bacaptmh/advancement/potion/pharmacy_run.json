@@ -1,0 +1,115 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:healing"
+        }
+      }
+    },
+    "title": {
+      "translate": "Pharmacy Run"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand out Potions of Healing, Strength and Swiftness to other players"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/hyper_healing",
+  "criteria": {
+    "healing": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion",
+            "minecraft:splash_potion"
+          ],
+          "predicates": {
+            "minecraft:potion_contents": [
+              "minecraft:healing",
+              "minecraft:strong_healing"
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "strength": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion",
+            "minecraft:splash_potion"
+          ],
+          "predicates": {
+            "minecraft:potion_contents": [
+              "minecraft:strength",
+              "minecraft:long_strength",
+              "minecraft:strong_strength"
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "swiftness": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion",
+            "minecraft:splash_potion"
+          ],
+          "predicates": {
+            "minecraft:potion_contents": [
+              "minecraft:swiftness",
+              "minecraft:long_swiftness",
+              "minecraft:strong_swiftness"
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/pharmacy_run"
+  },
+  "requirements": [
+    [
+      "healing"
+    ],
+    [
+      "strength"
+    ],
+    [
+      "swiftness"
+    ]
+  ]
+}

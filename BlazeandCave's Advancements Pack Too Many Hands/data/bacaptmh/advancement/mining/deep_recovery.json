@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass"
+    },
+    "title": {
+      "translate": "Deep Recovery"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be there when another player falls below Y=-50, then hand their belongings back at sea level"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/death_pointer",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/deep_recovery"
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

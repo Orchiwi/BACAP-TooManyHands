@@ -1,0 +1,79 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_bookshelf"
+    },
+    "title": {
+      "translate": "Library Card"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stock a Chiseled Bookshelf, then lend one of the books out to another player"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/shelf_expression",
+  "criteria": {
+    "stocked": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:chiseled_bookshelf"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:book",
+                "minecraft:enchanted_book",
+                "minecraft:writable_book",
+                "minecraft:written_book"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "lent": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:book",
+            "minecraft:enchanted_book",
+            "minecraft:writable_book",
+            "minecraft:written_book"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/library_card"
+  },
+  "requirements": [
+    [
+      "stocked"
+    ],
+    [
+      "lent"
+    ]
+  ]
+}

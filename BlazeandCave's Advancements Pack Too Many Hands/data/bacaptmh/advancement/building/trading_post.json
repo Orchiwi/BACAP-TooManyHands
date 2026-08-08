@@ -1,0 +1,86 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Trading Post"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Run a shop: stock a Shelf, put up a Sign, and be paid in Emeralds by a customer"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/shelfception",
+  "criteria": {
+    "stocked": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:wooden_shelves"
+              }
+            }
+          }
+        ],
+        "item": {
+          "count": {
+            "min": 1
+          }
+        }
+      }
+    },
+    "priced": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:all_signs"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "paid": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:emerald"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/trading_post"
+  },
+  "requirements": [
+    [
+      "stocked"
+    ],
+    [
+      "priced"
+    ],
+    [
+      "paid"
+    ]
+  ]
+}

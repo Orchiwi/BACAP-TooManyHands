@@ -194,6 +194,318 @@
           }
         }
       }
+    },
+    "pay_it_forward": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/pay_it_forward": true
+            }
+          }
+        }
+      }
+    },
+    "charity_case": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/charity_case": true
+            }
+          }
+        }
+      }
+    },
+    "dying_wish": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/dying_wish": true
+            }
+          }
+        }
+      }
+    },
+    "starter_kit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/starter_kit": true
+            }
+          }
+        }
+      }
+    },
+    "distraction_tactics": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/distraction_tactics": true
+            }
+          }
+        }
+      }
+    },
+    "ferryman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/ferryman": true
+            }
+          }
+        }
+      }
+    },
+    "escort_mission": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/escort_mission": true
+            }
+          }
+        }
+      }
+    },
+    "care_package": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/care_package": true
+            }
+          }
+        }
+      }
+    },
+    "twin_maps": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/twin_maps": true
+            }
+          }
+        }
+      }
+    },
+    "diamond_hands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/diamond_hands": true
+            }
+          }
+        }
+      }
+    },
+    "pocket_money": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/pocket_money": true
+            }
+          }
+        }
+      }
+    },
+    "even_split": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/even_split": true
+            }
+          }
+        }
+      }
+    },
+    "fire_sale": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/fire_sale": true
+            }
+          }
+        }
+      }
+    },
+    "required_reading": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/required_reading": true
+            }
+          }
+        }
+      }
+    },
+    "drop_shipping": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/drop_shipping": true
+            }
+          }
+        }
+      }
+    },
+    "lost_and_found": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/lost_and_found": true
+            }
+          }
+        }
+      }
+    },
+    "inheritance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/inheritance": true
+            }
+          }
+        }
+      }
+    },
+    "going_going_gone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/going_going_gone": true
+            }
+          }
+        }
+      }
+    },
+    "swap_meet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/swap_meet": true
+            }
+          }
+        }
+      }
+    },
+    "allay_express": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/allay_express": true
+            }
+          }
+        }
+      }
+    },
+    "pony_express": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/pony_express": true
+            }
+          }
+        }
+      }
+    },
+    "double_booking": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/double_booking": true
+            }
+          }
+        }
+      }
+    },
+    "closing_time": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/closing_time": true
+            }
+          }
+        }
+      }
+    },
+    "bedside_manner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/bedside_manner": true
+            }
+          }
+        }
+      }
+    },
+    "market_day": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/market_day": true
+            }
+          }
+        }
+      }
+    },
+    "schadenfreude": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/schadenfreude": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

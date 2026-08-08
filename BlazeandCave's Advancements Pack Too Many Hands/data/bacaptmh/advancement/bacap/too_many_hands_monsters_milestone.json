@@ -62,6 +62,198 @@
           }
         }
       }
+    },
+    "bounty_hunter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/bounty_hunter": true
+            }
+          }
+        }
+      }
+    },
+    "night_watch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/night_watch": true
+            }
+          }
+        }
+      }
+    },
+    "trial_by_fire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/trial_by_fire": true
+            }
+          }
+        }
+      }
+    },
+    "hold_the_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/hold_the_line": true
+            }
+          }
+        }
+      }
+    },
+    "guardian_angel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/guardian_angel": true
+            }
+          }
+        }
+      }
+    },
+    "bomb_disposal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/bomb_disposal": true
+            }
+          }
+        }
+      }
+    },
+    "pincer_movement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/pincer_movement": true
+            }
+          }
+        }
+      }
+    },
+    "noble_sacrifice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/noble_sacrifice": true
+            }
+          }
+        }
+      }
+    },
+    "death_do_us_part": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/death_do_us_part": true
+            }
+          }
+        }
+      }
+    },
+    "heart_surgery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/heart_surgery": true
+            }
+          }
+        }
+      }
+    },
+    "human_shield": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/human_shield": true
+            }
+          }
+        }
+      }
+    },
+    "last_stand": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/last_stand": true
+            }
+          }
+        }
+      }
+    },
+    "taking_one_for_the_team": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/taking_one_for_the_team": true
+            }
+          }
+        }
+      }
+    },
+    "bait_and_switch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/bait_and_switch": true
+            }
+          }
+        }
+      }
+    },
+    "heads_up": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/heads_up": true
+            }
+          }
+        }
+      }
+    },
+    "avenged": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/avenged": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

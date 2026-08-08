@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "Outsourced"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft a Diamond Pickaxe from three Diamonds another player handed you"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/diamonds_to_you",
+  "criteria": {
+    "diamonds": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:diamond"
+          ],
+          "count": {
+            "min": 3
+          }
+        }
+      }
+    },
+    "pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_pickaxe"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/outsourced"
+  }
+}

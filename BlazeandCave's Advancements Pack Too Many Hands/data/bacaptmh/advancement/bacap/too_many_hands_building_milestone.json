@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:bacap/time_to_farm",
+  "parent": "bacaptmh:bacap/too_many_hands_mining_milestone",
   "criteria": {
     "barn_raising": {
       "trigger": "minecraft:location",
@@ -46,6 +46,126 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:building/firework_finale": true
+            }
+          }
+        }
+      }
+    },
+    "gallery_opening": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/gallery_opening": true
+            }
+          }
+        }
+      }
+    },
+    "guest_room": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/guest_room": true
+            }
+          }
+        }
+      }
+    },
+    "trading_post": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/trading_post": true
+            }
+          }
+        }
+      }
+    },
+    "campfire_stories": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/campfire_stories": true
+            }
+          }
+        }
+      }
+    },
+    "rest_in_pieces": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/rest_in_pieces": true
+            }
+          }
+        }
+      }
+    },
+    "bricked_in": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/bricked_in": true
+            }
+          }
+        }
+      }
+    },
+    "bunk_beds": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/bunk_beds": true
+            }
+          }
+        }
+      }
+    },
+    "trophy_wall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/trophy_wall": true
+            }
+          }
+        }
+      }
+    },
+    "library_card": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/library_card": true
+            }
+          }
+        }
+      }
+    },
+    "cherry_picker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/cherry_picker": true
             }
           }
         }

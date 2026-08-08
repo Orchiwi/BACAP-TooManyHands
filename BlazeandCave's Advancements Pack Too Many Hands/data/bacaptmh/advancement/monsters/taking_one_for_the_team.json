@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_rose"
+    },
+    "title": {
+      "translate": "Taking One For The Team"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Die beside a teammate who is down to half a heart, and have them live out the next minute"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/miracle_drink",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/taking_one_for_the_team"
+  }
+}

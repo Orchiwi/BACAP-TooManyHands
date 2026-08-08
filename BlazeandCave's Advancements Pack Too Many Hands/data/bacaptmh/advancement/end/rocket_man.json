@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "Rocket Man"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pass a Firework Rocket to another player while you are both gliding"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/rocketman",
+  "criteria": {
+    "handoff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:firework_rocket"
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_flying": true
+          },
+          "equipment": {
+            "chest": {
+              "items": "minecraft:elytra"
+            }
+          }
+        },
+        "player": {
+          "flags": {
+            "is_flying": true
+          },
+          "equipment": {
+            "chest": {
+              "items": "minecraft:elytra"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/rocket_man"
+  }
+}

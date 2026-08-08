@@ -1,0 +1,158 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "Swap Meet"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Swap the whole stall with another player: hand over a Shulker Box, a Bundle and a Chest Minecart, and be handed all three back"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/do_you_want_to_trade",
+  "criteria": {
+    "gave_box": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:shulker_boxes"
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "got_box": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:shulker_boxes"
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "gave_bundle": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bundle",
+            "minecraft:black_bundle",
+            "minecraft:blue_bundle",
+            "minecraft:brown_bundle",
+            "minecraft:cyan_bundle",
+            "minecraft:gray_bundle",
+            "minecraft:green_bundle",
+            "minecraft:light_blue_bundle",
+            "minecraft:light_gray_bundle",
+            "minecraft:lime_bundle",
+            "minecraft:magenta_bundle",
+            "minecraft:orange_bundle",
+            "minecraft:pink_bundle",
+            "minecraft:purple_bundle",
+            "minecraft:red_bundle",
+            "minecraft:white_bundle",
+            "minecraft:yellow_bundle"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "got_bundle": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bundle",
+            "minecraft:black_bundle",
+            "minecraft:blue_bundle",
+            "minecraft:brown_bundle",
+            "minecraft:cyan_bundle",
+            "minecraft:gray_bundle",
+            "minecraft:green_bundle",
+            "minecraft:light_blue_bundle",
+            "minecraft:light_gray_bundle",
+            "minecraft:lime_bundle",
+            "minecraft:magenta_bundle",
+            "minecraft:orange_bundle",
+            "minecraft:pink_bundle",
+            "minecraft:purple_bundle",
+            "minecraft:red_bundle",
+            "minecraft:white_bundle",
+            "minecraft:yellow_bundle"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "gave_cart": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chest_minecart"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "got_cart": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chest_minecart"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/swap_meet"
+  }
+}

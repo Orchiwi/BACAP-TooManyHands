@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "translate": "Tunnel Vision"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Dig toward each other from at least 200 blocks apart until your two tunnels meet"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/bulldozer",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/tunnel_vision"
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

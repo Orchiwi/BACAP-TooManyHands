@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow",
+      "components": {
+        "minecraft:charged_projectiles": [
+          {
+            "id": "minecraft:arrow",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "title": {
+      "translate": "Highway Robbery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Collect Emeralds another player dropped while you are holding a loaded Crossbow"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/explosive_fire",
+  "criteria": {
+    "shakedown": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:emerald"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:crossbow"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Inventory:[{id:\"minecraft:crossbow\",components:{\"minecraft:charged_projectiles\":[{id:\"minecraft:arrow\"}]}}]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/highway_robbery"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_harness"
+    },
+    "title": {
+      "translate": "Air Mail"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand an item to another player while you are both flying Happy Ghasts, a hundred and fifty blocks up"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hot_air_balloon",
+  "criteria": {
+    "air_mail": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          },
+          "distance": {
+            "absolute": {
+              "min": 6
+            }
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          },
+          "location": {
+            "position": {
+              "y": {
+                "min": 150.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/air_mail"
+  }
+}

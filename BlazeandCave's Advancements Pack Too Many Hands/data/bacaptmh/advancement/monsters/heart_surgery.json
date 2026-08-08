@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creaking_heart"
+    },
+    "title": {
+      "translate": "Heart Surgery"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Smash a Creaking Heart while its Creaking is fixated on a different player"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/blind_stare",
+  "criteria": {
+    "smashed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:creaking"
+        }
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/heart_surgery"
+  },
+  "requirements": [
+    [
+      "smashed"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

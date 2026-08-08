@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Storm Chasers"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Riptide-launch within a second of another player and land within five blocks of them"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/do_a_barrel_roll",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/storm_chasers"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": {
+      "translate": "Antipodes"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have two players stand on exactly mirrored coordinates, at least three thousand blocks from the world origin"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/i_enjoy_long_walks_and_playing_minecraft",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/antipodes"
+  }
+}

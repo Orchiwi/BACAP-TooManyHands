@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:regeneration"
+        }
+      }
+    },
+    "title": {
+      "translate": "Field Hospital"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Bring a Beacon to full power, then get patched up under it with another player's Regeneration"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/beacon_overlord",
+  "criteria": {
+    "the_ward": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:regeneration": {
+                  "ambient": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "the_medic": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/field_hospital"
+  },
+  "requirements": [
+    [
+      "the_ward"
+    ],
+    [
+      "the_medic"
+    ]
+  ]
+}

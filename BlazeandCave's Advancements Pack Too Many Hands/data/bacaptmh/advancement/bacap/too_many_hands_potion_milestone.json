@@ -50,6 +50,162 @@
           }
         }
       }
+    },
+    "sharpshooter_surgeon": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/sharpshooter_surgeon": true
+            }
+          }
+        }
+      }
+    },
+    "stop_drop_and_roll": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/stop_drop_and_roll": true
+            }
+          }
+        }
+      }
+    },
+    "air_supply": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/air_supply": true
+            }
+          }
+        }
+      }
+    },
+    "milk_run": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/milk_run": true
+            }
+          }
+        }
+      }
+    },
+    "triage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/triage": true
+            }
+          }
+        }
+      }
+    },
+    "fireproof_friendship": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/fireproof_friendship": true
+            }
+          }
+        }
+      }
+    },
+    "detox": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/detox": true
+            }
+          }
+        }
+      }
+    },
+    "the_weakest_link": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/the_weakest_link": true
+            }
+          }
+        }
+      }
+    },
+    "trauma_team": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/trauma_team": true
+            }
+          }
+        }
+      }
+    },
+    "marco_polo": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/marco_polo": true
+            }
+          }
+        }
+      }
+    },
+    "bad_influence": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/bad_influence": true
+            }
+          }
+        }
+      }
+    },
+    "pharmacy_run": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/pharmacy_run": true
+            }
+          }
+        }
+      }
+    },
+    "caveat_emptor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/caveat_emptor": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

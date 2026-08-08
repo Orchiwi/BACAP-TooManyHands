@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": {
+      "translate": "The Amazing Race"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Leave one spot with another player, both cover 5,000 blocks, and both be back inside a minute of each other"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/marathon",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/the_amazing_race"
+  }
+}

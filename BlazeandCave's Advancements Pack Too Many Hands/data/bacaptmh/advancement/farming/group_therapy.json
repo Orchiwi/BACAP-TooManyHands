@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "Group Therapy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have three players all on three hearts or less eat a Golden Apple within three seconds of each other"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/ultra_hardcore",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/group_therapy"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:respawn_anchor"
+    },
+    "title": {
+      "translate": "Blood Brothers"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Have four players die and all come back on the same Respawn Anchor within twenty seconds"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/death_from_all",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/blood_brothers"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "Charity Case"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed a helmet, a chestplate, leggings and boots by other players"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/retro_future_knight",
+  "criteria": {
+    "helmet": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_helmet",
+            "minecraft:copper_helmet",
+            "minecraft:chainmail_helmet",
+            "minecraft:golden_helmet",
+            "minecraft:iron_helmet",
+            "minecraft:diamond_helmet",
+            "minecraft:netherite_helmet",
+            "minecraft:turtle_helmet"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "chestplate": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_chestplate",
+            "minecraft:copper_chestplate",
+            "minecraft:chainmail_chestplate",
+            "minecraft:golden_chestplate",
+            "minecraft:iron_chestplate",
+            "minecraft:diamond_chestplate",
+            "minecraft:netherite_chestplate"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "leggings": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_leggings",
+            "minecraft:copper_leggings",
+            "minecraft:chainmail_leggings",
+            "minecraft:golden_leggings",
+            "minecraft:iron_leggings",
+            "minecraft:diamond_leggings",
+            "minecraft:netherite_leggings"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "boots": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_boots",
+            "minecraft:copper_boots",
+            "minecraft:chainmail_boots",
+            "minecraft:golden_boots",
+            "minecraft:iron_boots",
+            "minecraft:diamond_boots",
+            "minecraft:netherite_boots"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/charity_case"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "Flawless Victory"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player while you are still on full health"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/half_heart_life",
+  "criteria": {
+    "flawless": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player"
+        },
+        "player": {
+          "nbt": "{Health:20.0f}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/flawless_victory"
+  }
+}

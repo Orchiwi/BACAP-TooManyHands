@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "Special Delivery"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drop a parcel on the line and have a teammate scoop it up from a rolling Minecart eight blocks away"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/all_aboard",
+  "criteria": {
+    "mail_run": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 8
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/special_delivery"
+  }
+}

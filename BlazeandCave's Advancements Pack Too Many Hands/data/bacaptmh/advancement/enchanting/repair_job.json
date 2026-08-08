@@ -1,0 +1,83 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "Repair Job"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wear a Pickaxe down to its last few uses, hand it to another player, and get one back with its edge restored"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/heavy_metal",
+  "criteria": {
+    "worn_out": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": "#blazeandcave:pickaxes"
+        },
+        "durability": {
+          "max": 15
+        }
+      }
+    },
+    "handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": "#blazeandcave:pickaxes"
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "got_it_back": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "#blazeandcave:pickaxes",
+          "predicates": {
+            "minecraft:damage": {
+              "durability": {
+                "min": 100
+              }
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/repair_job"
+  },
+  "requirements": [
+    [
+      "worn_out"
+    ],
+    [
+      "handed_over"
+    ],
+    [
+      "got_it_back"
+    ]
+  ]
+}

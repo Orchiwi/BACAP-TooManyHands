@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:bacap/too_many_hands_building_milestone",
+  "parent": "bacaptmh:bacap/too_many_hands_farming_milestone",
   "criteria": {
     "carpool": {
       "trigger": "minecraft:location",
@@ -58,6 +58,150 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:animal/pack_leaders": true
+            }
+          }
+        }
+      }
+    },
+    "caravan_of_love": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/caravan_of_love": true
+            }
+          }
+        }
+      }
+    },
+    "sting_operation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/sting_operation": true
+            }
+          }
+        }
+      }
+    },
+    "reservoir_dogs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/reservoir_dogs": true
+            }
+          }
+        }
+      }
+    },
+    "photo_finish": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/photo_finish": true
+            }
+          }
+        }
+      }
+    },
+    "hog_wild": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/hog_wild": true
+            }
+          }
+        }
+      }
+    },
+    "pit_crew": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/pit_crew": true
+            }
+          }
+        }
+      }
+    },
+    "passing_the_lead": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/passing_the_lead": true
+            }
+          }
+        }
+      }
+    },
+    "release_the_hounds": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/release_the_hounds": true
+            }
+          }
+        }
+      }
+    },
+    "horse_trading": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/horse_trading": true
+            }
+          }
+        }
+      }
+    },
+    "good_boy_someone_elses": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/good_boy_someone_elses": true
+            }
+          }
+        }
+      }
+    },
+    "guard_dog": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/guard_dog": true
+            }
+          }
+        }
+      }
+    },
+    "always_the_passenger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/always_the_passenger": true
             }
           }
         }

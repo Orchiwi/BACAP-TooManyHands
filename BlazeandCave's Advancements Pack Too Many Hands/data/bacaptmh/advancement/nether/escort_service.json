@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Escort Service"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Walk five hundred blocks through the Nether with nothing on you, guarded and untouched"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/stepping_on_legos",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/escort_service"
+  }
+}

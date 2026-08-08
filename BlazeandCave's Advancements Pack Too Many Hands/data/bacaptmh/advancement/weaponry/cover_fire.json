@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Cover Fire"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Snipe a monster that is hunting a player below two hearts, from at least fifty blocks away"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/the_mighty_hunter",
+  "criteria": {
+    "sniped": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": true
+            }
+          ]
+        },
+        "entity": {
+          "entity_type": "#blazeandcave:hostile_monsters",
+          "distance": {
+            "absolute": {
+              "min": 50
+            }
+          },
+          "targeted_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/cover_fire"
+  },
+  "requirements": [
+    [
+      "sniped"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

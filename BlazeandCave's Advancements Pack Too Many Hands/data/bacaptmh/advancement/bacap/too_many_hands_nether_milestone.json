@@ -38,6 +38,234 @@
           }
         }
       }
+    },
+    "emergency_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/emergency_exit": true
+            }
+          }
+        }
+      }
+    },
+    "through_the_looking_glass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/through_the_looking_glass": true
+            }
+          }
+        }
+      }
+    },
+    "medevac": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/medevac": true
+            }
+          }
+        }
+      }
+    },
+    "changing_of_the_guard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/changing_of_the_guard": true
+            }
+          }
+        }
+      }
+    },
+    "scale_model": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/scale_model": true
+            }
+          }
+        }
+      }
+    },
+    "air_mail": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/air_mail": true
+            }
+          }
+        }
+      }
+    },
+    "escort_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/escort_service": true
+            }
+          }
+        }
+      }
+    },
+    "air_rescue": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/air_rescue": true
+            }
+          }
+        }
+      }
+    },
+    "bastion_buddy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/bastion_buddy": true
+            }
+          }
+        }
+      }
+    },
+    "netherite_deal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/netherite_deal": true
+            }
+          }
+        }
+      }
+    },
+    "beacon_of_hope": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/beacon_of_hope": true
+            }
+          }
+        }
+      }
+    },
+    "skull_session": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/skull_session": true
+            }
+          }
+        }
+      }
+    },
+    "dead_drop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/dead_drop": true
+            }
+          }
+        }
+      }
+    },
+    "anchor_management": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/anchor_management": true
+            }
+          }
+        }
+      }
+    },
+    "ghost_train": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/ghost_train": true
+            }
+          }
+        }
+      }
+    },
+    "field_hospital": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/field_hospital": true
+            }
+          }
+        }
+      }
+    },
+    "bodyguard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/bodyguard": true
+            }
+          }
+        }
+      }
+    },
+    "corporate_raiders": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/corporate_raiders": true
+            }
+          }
+        }
+      }
+    },
+    "door_gunner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/door_gunner": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

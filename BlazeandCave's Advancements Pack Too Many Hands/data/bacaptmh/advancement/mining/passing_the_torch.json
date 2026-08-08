@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_torch"
+    },
+    "title": {
+      "translate": "Passing the Torch"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place a Copper Torch that another player handed to you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/youll_never_take_me_alive_copper",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": "minecraft:copper_torch"
+        }
+      }
+    },
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_torch",
+                  "minecraft:copper_wall_torch"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/passing_the_torch"
+  },
+  "requirements": [
+    [
+      "handed"
+    ],
+    [
+      "placed"
+    ]
+  ]
+}

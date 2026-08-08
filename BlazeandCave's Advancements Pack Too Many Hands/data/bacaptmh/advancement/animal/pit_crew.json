@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_carrot"
+    },
+    "title": {
+      "translate": "Pit Crew"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Feed a Horse while another player is sitting in the saddle"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/so_hungry_i_could_eat_a_horse",
+  "criteria": {
+    "feed": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_carrot",
+            "minecraft:golden_apple",
+            "minecraft:hay_block",
+            "minecraft:sugar",
+            "minecraft:apple",
+            "minecraft:wheat"
+          ]
+        },
+        "entity": {
+          "entity_type": "#blazeandcave:all_horses",
+          "passenger": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/pit_crew"
+  }
+}

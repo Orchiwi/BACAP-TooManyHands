@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_harness"
+    },
+    "title": {
+      "translate": "Medevac"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry a player below three hearts two hundred blocks on your Happy Ghast without them dying"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/midport_village",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/medevac"
+  }
+}

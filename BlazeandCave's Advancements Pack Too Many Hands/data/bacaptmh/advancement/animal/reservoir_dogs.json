@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "Reservoir Dogs"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Set your tamed Wolf on another player's tamed Wolf and win"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/armadoggo",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/reservoir_dogs"
+  }
+}

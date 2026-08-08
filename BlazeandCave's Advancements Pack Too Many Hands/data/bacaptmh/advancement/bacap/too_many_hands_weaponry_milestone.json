@@ -146,6 +146,198 @@
           }
         }
       }
+    },
+    "head_of_the_household": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/head_of_the_household": true
+            }
+          }
+        }
+      }
+    },
+    "arms_dealer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/arms_dealer": true
+            }
+          }
+        }
+      }
+    },
+    "cover_fire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/cover_fire": true
+            }
+          }
+        }
+      }
+    },
+    "secret_handshake": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/secret_handshake": true
+            }
+          }
+        }
+      }
+    },
+    "blood_debt": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/blood_debt": true
+            }
+          }
+        }
+      }
+    },
+    "bare_knuckle_boxing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/bare_knuckle_boxing": true
+            }
+          }
+        }
+      }
+    },
+    "butch_and_sundance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/butch_and_sundance": true
+            }
+          }
+        }
+      }
+    },
+    "second_wind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/second_wind": true
+            }
+          }
+        }
+      }
+    },
+    "duel_at_dawn": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/duel_at_dawn": true
+            }
+          }
+        }
+      }
+    },
+    "flawless_victory": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/flawless_victory": true
+            }
+          }
+        }
+      }
+    },
+    "act_of_god": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/act_of_god": true
+            }
+          }
+        }
+      }
+    },
+    "arise_sir_loin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/arise_sir_loin": true
+            }
+          }
+        }
+      }
+    },
+    "rope_a_dope": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/rope_a_dope": true
+            }
+          }
+        }
+      }
+    },
+    "ransom_note": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/ransom_note": true
+            }
+          }
+        }
+      }
+    },
+    "highway_robbery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/highway_robbery": true
+            }
+          }
+        }
+      }
+    },
+    "riding_shotgun": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/riding_shotgun": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

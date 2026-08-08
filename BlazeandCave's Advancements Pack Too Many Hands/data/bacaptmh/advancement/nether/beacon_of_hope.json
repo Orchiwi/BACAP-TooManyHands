@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "Beacon of Hope"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Craft a Beacon from a Nether Star another player handed you"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/beacon_overlord",
+  "criteria": {
+    "handed_the_star": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:nether_star"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "built_it": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:beacon"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/beacon_of_hope"
+  },
+  "requirements": [
+    [
+      "handed_the_star"
+    ],
+    [
+      "built_it"
+    ]
+  ]
+}

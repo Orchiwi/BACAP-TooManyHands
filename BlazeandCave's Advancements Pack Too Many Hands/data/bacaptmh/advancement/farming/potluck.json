@@ -1,0 +1,107 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bread"
+    },
+    "title": {
+      "translate": "Potluck"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have five players each eat a different food within ten seconds, all inside eight blocks"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/a_gluttonous_diet",
+  "criteria": {
+    "f1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cookie",
+            "minecraft:pumpkin_pie"
+          ]
+        }
+      }
+    },
+    "f2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit"
+          ]
+        }
+      }
+    },
+    "f3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:cod",
+            "minecraft:salmon"
+          ]
+        }
+      }
+    },
+    "f4": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:apple",
+            "minecraft:carrot",
+            "minecraft:golden_carrot",
+            "minecraft:baked_potato",
+            "minecraft:melon_slice",
+            "minecraft:sweet_berries",
+            "minecraft:glow_berries",
+            "minecraft:beetroot",
+            "minecraft:dried_kelp"
+          ]
+        }
+      }
+    },
+    "f5": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew",
+            "minecraft:beetroot_soup",
+            "minecraft:rabbit_stew",
+            "minecraft:suspicious_stew"
+          ]
+        }
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/potluck"
+  },
+  "requirements": [
+    [
+      "f1",
+      "f2",
+      "f3",
+      "f4",
+      "f5"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

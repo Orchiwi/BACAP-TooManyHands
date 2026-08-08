@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:happy_ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "Blimpin' Ain't Easy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Fly 5 km on a Happy Ghast without landing, with at least one passenger aboard the whole time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/big_blimp_enthusiast",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/blimpin_aint_easy"
+  }
+}

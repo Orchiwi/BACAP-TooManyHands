@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_lazuli"
+    },
+    "title": {
+      "translate": "Lapis Loan"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Enchant an item using Lapis Lazuli that another player handed you"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/root",
+  "criteria": {
+    "lapis": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lapis_lazuli"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "enchanted": {
+      "trigger": "minecraft:enchanted_item"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/lapis_loan"
+  }
+}

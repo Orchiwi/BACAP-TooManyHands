@@ -1,0 +1,86 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest_minecart"
+    },
+    "title": {
+      "translate": "Rail Retrieval"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lay rail through the Nether and take delivery of a Chest Minecart from another player"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/moving_storage",
+  "criteria": {
+    "laid_the_line": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:the_nether",
+              "block": {
+                "blocks": [
+                  "minecraft:rail",
+                  "minecraft:powered_rail",
+                  "minecraft:detector_rail",
+                  "minecraft:activator_rail"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "the_delivery": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chest_minecart"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/rail_retrieval"
+  },
+  "requirements": [
+    [
+      "laid_the_line"
+    ],
+    [
+      "the_delivery"
+    ]
+  ]
+}

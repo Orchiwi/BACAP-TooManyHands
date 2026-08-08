@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_rod"
+    },
+    "title": {
+      "translate": "The Relay"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Bring down the Wither, the Warden and the Ender Dragon, each of them finished off with a teammate lying dead in that fight"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/the_perfect_run",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/the_relay"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "Mind the Gap"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Lay the rail ahead of another player's rolling Minecart"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/railwayman",
+  "criteria": {
+    "laid_track": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:rail",
+                  "minecraft:powered_rail",
+                  "minecraft:detector_rail",
+                  "minecraft:activator_rail"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/mind_the_gap"
+  },
+  "requirements": [
+    [
+      "laid_track"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}

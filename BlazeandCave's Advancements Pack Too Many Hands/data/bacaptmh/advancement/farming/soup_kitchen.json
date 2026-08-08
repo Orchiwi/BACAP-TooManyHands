@@ -1,0 +1,113 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mushroom_stew"
+    },
+    "title": {
+      "translate": "Soup Kitchen"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed food by another player while your hunger is down to three shanks, and eat it"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/full_stomach",
+  "criteria": {
+    "hungry": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:golden_carrot",
+            "minecraft:golden_apple",
+            "minecraft:apple",
+            "minecraft:carrot",
+            "minecraft:beetroot_soup",
+            "minecraft:mushroom_stew",
+            "minecraft:rabbit_stew",
+            "minecraft:suspicious_stew",
+            "minecraft:pumpkin_pie",
+            "minecraft:melon_slice",
+            "minecraft:sweet_berries",
+            "minecraft:glow_berries",
+            "minecraft:dried_kelp",
+            "minecraft:cookie"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bacaptmh_food": {
+                "max": 6
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ate": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:golden_carrot",
+            "minecraft:golden_apple",
+            "minecraft:apple",
+            "minecraft:carrot",
+            "minecraft:beetroot_soup",
+            "minecraft:mushroom_stew",
+            "minecraft:rabbit_stew",
+            "minecraft:suspicious_stew",
+            "minecraft:pumpkin_pie",
+            "minecraft:melon_slice",
+            "minecraft:sweet_berries",
+            "minecraft:glow_berries",
+            "minecraft:dried_kelp",
+            "minecraft:cookie"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/soup_kitchen"
+  },
+  "requirements": [
+    [
+      "hungry"
+    ],
+    [
+      "ate"
+    ]
+  ]
+}

@@ -38,6 +38,138 @@
           }
         }
       }
+    },
+    "the_ferryman_cometh": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:end/the_ferryman_cometh": true
+            }
+          }
+        }
+      }
+    },
+    "wingman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:end/wingman": true
+            }
+          }
+        }
+      }
+    },
+    "up_and_away": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:end/up_and_away": true
+            }
+          }
+        }
+      }
+    },
+    "eye_contact": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:end/eye_contact": true
+            }
+          }
+        }
+      }
+    },
+    "heir_apparent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:end/heir_apparent": true
+            }
+          }
+        }
+      }
+    },
+    "ashes_to_ashes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:end/ashes_to_ashes": true
+            }
+          }
+        }
+      }
+    },
+    "into_the_void": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:end/into_the_void": true
+            }
+          }
+        }
+      }
+    },
+    "rocket_man": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:end/rocket_man": true
+            }
+          }
+        }
+      }
+    },
+    "ghost_protocol": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:end/ghost_protocol": true
+            }
+          }
+        }
+      }
+    },
+    "pearl_swap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:end/pearl_swap": true
+            }
+          }
+        }
+      }
+    },
+    "tail_gunner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:end/tail_gunner": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

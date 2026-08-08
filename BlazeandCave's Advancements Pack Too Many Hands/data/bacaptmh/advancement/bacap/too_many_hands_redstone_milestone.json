@@ -50,6 +50,174 @@
           }
         }
       }
+    },
+    "mind_the_gap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/mind_the_gap": true
+            }
+          }
+        }
+      }
+    },
+    "toll_booth": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/toll_booth": true
+            }
+          }
+        }
+      }
+    },
+    "bumper_carts": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/bumper_carts": true
+            }
+          }
+        }
+      }
+    },
+    "grand_central": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/grand_central": true
+            }
+          }
+        }
+      }
+    },
+    "vending_machine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/vending_machine": true
+            }
+          }
+        }
+      }
+    },
+    "assembly_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/assembly_line": true
+            }
+          }
+        }
+      }
+    },
+    "drag_strip": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/drag_strip": true
+            }
+          }
+        }
+      }
+    },
+    "signal_boost": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/signal_boost": true
+            }
+          }
+        }
+      }
+    },
+    "conveyor_belt": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/conveyor_belt": true
+            }
+          }
+        }
+      }
+    },
+    "special_delivery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/special_delivery": true
+            }
+          }
+        }
+      }
+    },
+    "park_and_ride": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/park_and_ride": true
+            }
+          }
+        }
+      }
+    },
+    "runaway_train": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/runaway_train": true
+            }
+          }
+        }
+      }
+    },
+    "rail_retrieval": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/rail_retrieval": true
+            }
+          }
+        }
+      }
+    },
+    "great_train_robbery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/great_train_robbery": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {
+      "translate": "Grant Money"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have another player throw a whole stack of Bottles o' Enchanting at your feet and pocket every level of it"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/magical_stockpile",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/grant_money"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass"
+    },
+    "title": {
+      "translate": "Lost and Found"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Get killed out there, then have another player bring you a Recovery Compass"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/rekt",
+  "criteria": {
+    "went_down": {
+      "trigger": "minecraft:entity_killed_player"
+    },
+    "brought_back": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:recovery_compass"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/lost_and_found"
+  },
+  "requirements": [
+    [
+      "went_down"
+    ],
+    [
+      "brought_back"
+    ]
+  ]
+}

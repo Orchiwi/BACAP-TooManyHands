@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "Nobody Dies Tonight"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Keep three or more players alive through a full in-game week with not one death between them"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/death_from_all",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/nobody_dies_tonight"
+  }
+}

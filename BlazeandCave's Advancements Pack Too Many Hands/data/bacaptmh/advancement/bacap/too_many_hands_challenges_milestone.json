@@ -74,6 +74,90 @@
           }
         }
       }
+    },
+    "blood_brothers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/blood_brothers": true
+            }
+          }
+        }
+      }
+    },
+    "nobody_dies_tonight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/nobody_dies_tonight": true
+            }
+          }
+        }
+      }
+    },
+    "king_of_the_hill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/king_of_the_hill": true
+            }
+          }
+        }
+      }
+    },
+    "the_relay": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/the_relay": true
+            }
+          }
+        }
+      }
+    },
+    "no_man_left_behind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/no_man_left_behind": true
+            }
+          }
+        }
+      }
+    },
+    "living_will": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/living_will": true
+            }
+          }
+        }
+      }
+    },
+    "hospital_wing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/hospital_wing": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

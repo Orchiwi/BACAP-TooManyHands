@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "Second Wind"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Burn a Totem of Undying, then kill another player while still under five hearts and the totem's glow"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/half_heart_life",
+  "criteria": {
+    "burn": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "items": "minecraft:totem_of_undying"
+        }
+      }
+    },
+    "finish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:regeneration": {
+                  "amplifier": {
+                    "min": 1
+                  }
+                },
+                "minecraft:fire_resistance": {
+                  "amplifier": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "bacaptmh_hp": {
+                "max": 10
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/second_wind"
+  },
+  "requirements": [
+    [
+      "burn"
+    ],
+    [
+      "finish"
+    ]
+  ]
+}

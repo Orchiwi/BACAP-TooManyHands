@@ -1,0 +1,137 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Double Booking"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Serve two customers at one counter: buy goods from a Villager and hand goods of that kind straight to another player"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/do_you_want_to_trade",
+  "criteria": {
+    "traded": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager"
+        },
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cookie",
+            "minecraft:cake",
+            "minecraft:pumpkin_pie",
+            "minecraft:golden_carrot",
+            "minecraft:suspicious_stew",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:campfire",
+            "minecraft:arrow",
+            "minecraft:bow",
+            "minecraft:crossbow",
+            "minecraft:book",
+            "minecraft:bookshelf",
+            "minecraft:lantern",
+            "minecraft:glass",
+            "minecraft:clock",
+            "minecraft:compass",
+            "minecraft:name_tag",
+            "minecraft:enchanted_book",
+            "minecraft:filled_map",
+            "minecraft:item_frame",
+            "minecraft:redstone",
+            "minecraft:lapis_lazuli",
+            "minecraft:glowstone",
+            "minecraft:ender_pearl",
+            "minecraft:experience_bottle",
+            "minecraft:shield",
+            "minecraft:bell",
+            "minecraft:saddle",
+            "minecraft:leather_horse_armor",
+            "minecraft:shears",
+            "minecraft:painting",
+            "minecraft:iron_pickaxe",
+            "minecraft:iron_axe",
+            "minecraft:iron_sword",
+            "minecraft:diamond_pickaxe",
+            "minecraft:diamond_axe",
+            "minecraft:diamond_sword"
+          ]
+        }
+      }
+    },
+    "handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread",
+            "minecraft:cookie",
+            "minecraft:cake",
+            "minecraft:pumpkin_pie",
+            "minecraft:golden_carrot",
+            "minecraft:suspicious_stew",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:campfire",
+            "minecraft:arrow",
+            "minecraft:bow",
+            "minecraft:crossbow",
+            "minecraft:book",
+            "minecraft:bookshelf",
+            "minecraft:lantern",
+            "minecraft:glass",
+            "minecraft:clock",
+            "minecraft:compass",
+            "minecraft:name_tag",
+            "minecraft:enchanted_book",
+            "minecraft:filled_map",
+            "minecraft:item_frame",
+            "minecraft:redstone",
+            "minecraft:lapis_lazuli",
+            "minecraft:glowstone",
+            "minecraft:ender_pearl",
+            "minecraft:experience_bottle",
+            "minecraft:shield",
+            "minecraft:bell",
+            "minecraft:saddle",
+            "minecraft:leather_horse_armor",
+            "minecraft:shears",
+            "minecraft:painting",
+            "minecraft:iron_pickaxe",
+            "minecraft:iron_axe",
+            "minecraft:iron_sword",
+            "minecraft:diamond_pickaxe",
+            "minecraft:diamond_axe",
+            "minecraft:diamond_sword"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/double_booking"
+  },
+  "requirements": [
+    [
+      "traded"
+    ],
+    [
+      "handed_over"
+    ]
+  ]
+}

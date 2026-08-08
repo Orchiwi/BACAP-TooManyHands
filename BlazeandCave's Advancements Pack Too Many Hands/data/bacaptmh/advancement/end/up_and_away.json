@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Up and Away"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Get three players levitating from Shulker bullets at the same time"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/shouldnt_my_shield_levitate_too",
+  "criteria": {
+    "levitating": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:levitation": {
+            "amplifier": {
+              "min": 0
+            }
+          }
+        }
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/up_and_away"
+  },
+  "requirements": [
+    [
+      "levitating"
+    ],
+    [
+      "impossible"
+    ]
+  ]
+}
