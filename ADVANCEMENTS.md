@@ -4,13 +4,13 @@ Generated from the built pack with `python3 generator/list_advancements.py`.
 
 Legend: `·` task · `◆` goal · `★` challenge · `★★` super challenge
 
-None of these duplicates any of the 1,776 advancements already in BlazeandCave's Advancements Pack or Enhanced Discoveries.
+None of these duplicates any of the 1,776 advancements in BlazeandCave's Advancements Pack or Enhanced Discoveries, nor any of the others listed here.
 
 ---
 
 # Too Many Hands
 
-55 advancements that cannot be earned alone. Every one needs between two and five players.
+Advancements that cannot be earned alone. Every one needs between two and five players.
 
 **255 advancements** across 15 tabs, plus 16 progression entries.
 
