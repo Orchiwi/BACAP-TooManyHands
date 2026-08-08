@@ -66,7 +66,6 @@ advancement revoke @s only bacaptmh:bacap/too_many_hands_challenges_milestone
 advancement revoke @s only bacaptmh:bacap/too_many_hands_enchanting_milestone
 advancement revoke @s only bacaptmh:bacap/too_many_hands_end_milestone
 advancement revoke @s only bacaptmh:bacap/too_many_hands_farming_milestone
-advancement revoke @s only bacaptmh:bacap/too_many_hands_info
 advancement revoke @s only bacaptmh:bacap/too_many_hands_legend
 advancement revoke @s only bacaptmh:bacap/too_many_hands_mining_milestone
 advancement revoke @s only bacaptmh:bacap/too_many_hands_monsters_milestone

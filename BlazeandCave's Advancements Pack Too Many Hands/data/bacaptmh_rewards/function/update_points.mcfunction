@@ -63,7 +63,6 @@ execute as @a[advancements={bacaptmh:bacap/too_many_hands_challenges_milestone=t
 execute as @a[advancements={bacaptmh:bacap/too_many_hands_enchanting_milestone=true}] run scoreboard players operation @s bac_advancements_points += milestone bac_points
 execute as @a[advancements={bacaptmh:bacap/too_many_hands_end_milestone=true}] run scoreboard players operation @s bac_advancements_points += milestone bac_points
 execute as @a[advancements={bacaptmh:bacap/too_many_hands_farming_milestone=true}] run scoreboard players operation @s bac_advancements_points += milestone bac_points
-execute as @a[advancements={bacaptmh:bacap/too_many_hands_info=true}] run scoreboard players operation @s bac_advancements_points += hidden bac_points
 execute as @a[advancements={bacaptmh:bacap/too_many_hands_legend=true}] run scoreboard players operation @s bac_advancements_points += advancement_legend bac_points
 execute as @a[advancements={bacaptmh:bacap/too_many_hands_mining_milestone=true}] run scoreboard players operation @s bac_advancements_points += milestone bac_points
 execute as @a[advancements={bacaptmh:bacap/too_many_hands_monsters_milestone=true}] run scoreboard players operation @s bac_advancements_points += milestone bac_points
