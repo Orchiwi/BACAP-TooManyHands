@@ -3,7 +3,7 @@
 # any particular band. Players who already hold it are picked up by the vanilla
 # sleep_in_bed statistic instead of by the criterion, which they can no longer latch.
 execute store result score #n bacaptmh_n if entity @a[gamemode=!spectator]
-execute if score #n bacaptmh_n matches ..1 run return 0
+execute if score #n bacaptmh_n matches ..3 run return 0
 scoreboard players remove @a[scores={bacaptmh_nap=1..}] bacaptmh_nap 1
 execute as @a[gamemode=!spectator,advancements={bacaptmh:adventure/group_nap={slept=true,guard=false}}] run scoreboard players set @s bacaptmh_nap 120
 advancement revoke @a[advancements={bacaptmh:adventure/group_nap=false}] only bacaptmh:adventure/group_nap slept

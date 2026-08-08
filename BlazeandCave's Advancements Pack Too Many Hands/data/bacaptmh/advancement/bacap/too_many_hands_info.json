@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": {
+      "translate": "About Too Many Hands"
+    },
+    "description": {
+      "color": "light_purple",
+      "translate": "\"Every player on the server\" advancements need at least four players online"
+    },
+    "frame": "challenge",
+    "announce_to_chat": false
+  },
+  "parent": "blazeandcave:bacap/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:bacap/too_many_hands_info"
+  }
+}

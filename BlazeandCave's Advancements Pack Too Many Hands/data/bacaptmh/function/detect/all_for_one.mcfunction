@@ -15,7 +15,7 @@ execute as @a[tag=bacaptmh_afo,tag=!bacaptmh_afoe] run tag @s remove bacaptmh_af
 
 execute store result score #afo bacaptmh_tmp4 if entity @a[tag=bacaptmh_afo]
 execute store result score #afot bacaptmh_tmp4 if entity @a[gamemode=!spectator]
-execute if score #afo bacaptmh_tmp4 = #afot bacaptmh_tmp4 if score #afot bacaptmh_tmp4 matches 3.. run advancement grant @a[tag=bacaptmh_afo] only bacaptmh:challenges/all_for_one
+execute if score #afo bacaptmh_tmp4 = #afot bacaptmh_tmp4 if score #afot bacaptmh_tmp4 matches 4.. run advancement grant @a[tag=bacaptmh_afo] only bacaptmh:challenges/all_for_one
 
 tag @a remove bacaptmh_afo
 tag @a remove bacaptmh_afoe

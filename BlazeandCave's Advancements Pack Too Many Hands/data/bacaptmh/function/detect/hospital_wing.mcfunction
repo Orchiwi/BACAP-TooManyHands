@@ -20,8 +20,8 @@ execute store result score #hw_low bacaptmh_mf3 if entity @a[gamemode=!spectator
 #    server. 120 medium passes = 1200 game ticks = one minute. If they are all still down
 #    on the next pass the window simply refreshes; the clock starts from the last moment
 #    the whole server was on the floor, which is the reading the description promises.
-execute if score #hw_all bacaptmh_mf3 matches 3.. if score #hw_low bacaptmh_mf3 = #hw_all bacaptmh_mf3 run scoreboard players set @a[gamemode=!spectator] bacaptmh_hw 1
-execute if score #hw_all bacaptmh_mf3 matches 3.. if score #hw_low bacaptmh_mf3 = #hw_all bacaptmh_mf3 run scoreboard players set #hw_win bacaptmh_mf3 120
+execute if score #hw_all bacaptmh_mf3 matches 4.. if score #hw_low bacaptmh_mf3 = #hw_all bacaptmh_mf3 run scoreboard players set @a[gamemode=!spectator] bacaptmh_hw 1
+execute if score #hw_all bacaptmh_mf3 matches 4.. if score #hw_low bacaptmh_mf3 = #hw_all bacaptmh_mf3 run scoreboard players set #hw_win bacaptmh_mf3 120
 
 # 4. Inside the window, count the ward and how much of it is back on full hearts.
 scoreboard players set #hw_p bacaptmh_mf3 0

@@ -171,3 +171,5 @@ execute as @a unless score @s bacaptmh_tw matches -2147483648..2147483647 run sc
 execute as @a unless score @s bacaptmh_tw matches -2147483648..2147483647 run scoreboard players set @s bacaptmh_tw 0
 # --- expansion seeding ---
 execute as @a unless score @s bacaptmh_bcd matches -2147483648..2147483647 run scoreboard players set @s bacaptmh_bcd 0
+# The info note: handed to every player once, so the four-player rule is visible in the tab.
+execute as @a[gamemode=!spectator,advancements={bacaptmh:bacap/too_many_hands_info=false}] run advancement grant @s only bacaptmh:bacap/too_many_hands_info

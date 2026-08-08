@@ -11,7 +11,7 @@
       "translate": "Complete every single advancement in Too Many Hands"
     },
     "frame": "challenge",
-    "announce_to_chat": true
+    "announce_to_chat": false
   },
   "parent": "bacaptmh:bacap/too_many_hands_challenges_milestone",
   "criteria": {
@@ -3070,6 +3070,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:animal/always_the_passenger": true
+            }
+          }
+        }
+      }
+    },
+    "bacap_too_many_hands_info": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:bacap/too_many_hands_info": true
             }
           }
         }

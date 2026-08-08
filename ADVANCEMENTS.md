@@ -12,7 +12,7 @@ None of these duplicates any of the 1,776 advancements in BlazeandCave's Advance
 
 Advancements that cannot be earned alone. Every one needs between two and five players.
 
-**255 advancements** across 15 tabs, plus 16 progression entries.
+**255 advancements** across 15 tabs, plus 17 progression entries.
 
 | Tab | Count |
 |---|---|
@@ -706,6 +706,7 @@ Milestones unlock as you finish each tab, chaining into the pack's capstone. The
 | ◆ | **Too Many Hands Enchanting Milestone** | BlazeandCave's Advancements | Complete every Too Many Hands advancement in the Enchanting tab | 500 |
 | ◆ | **Too Many Hands The End Milestone** | BlazeandCave's Advancements | Complete every Too Many Hands advancement in the The End tab | 500 |
 | ◆ | **Too Many Hands Farming Milestone** | BlazeandCave's Advancements | Complete every Too Many Hands advancement in the Farming tab | 500 |
+| · | **About Too Many Hands** | BlazeandCave's Advancements | "Every player on the server" advancements need at least four players online | 0 |
 | ★★★ | **Too Many Hands Legend** | BlazeandCave's Advancements | Complete every single advancement in Too Many Hands | 1500 |
 | ◆ | **Too Many Hands Mining Milestone** | BlazeandCave's Advancements | Complete every Too Many Hands advancement in the Mining tab | 500 |
 | ◆ | **Too Many Hands Monsters Milestone** | BlazeandCave's Advancements | Complete every Too Many Hands advancement in the Monsters tab | 500 |
