@@ -36,47 +36,47 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| ◆ | **Allay Express** | Adventure | Put an Allay to work at a Note Block sorting Paper, then hand the post on to another player | 50 |
-| ★ | **Bedside Manner** | Adventure | Cure a Zombie Villager with a Golden Apple another player handed you, then open the surgery and trade with your patient | 130 |
-| ◆ | **Care Package** | Adventure | Hand another player every piece of an Iron armour set | 45 |
-| ◆ | **Charity Case** | Adventure | Be handed a helmet, a chestplate, leggings and boots by other players | 55 |
-| ◆ | **Closing Time** | Adventure | Last orders: buy Ice from a Wandering Trader with Emeralds another player handed you, and pass the ice straight back | 55 |
-| ◆ | **Diamond Hands** | Adventure | Hand another player a full stack of sixty-four Diamonds | 55 |
-| · | **Distraction Tactics** | Adventure | Ring a Bell to pull raiders off a teammate who is down to three hearts or less | 25 |
-| · | **Double Booking** | Adventure | Serve two customers at one counter: buy goods from a Villager and hand goods of that kind straight to another player | 30 |
-| ◆ | **Dress Code** | Adventure | Three players in full armour of the same material with the same armour trim | 60 |
-| ◆ | **Drop Shipping** | Adventure | Throw an item down to another player standing a hundred blocks below you | 55 |
-| ◆ | **Dying Wish** | Adventure | Hand your belongings to another player, then let them kill you | 40 |
-| ◆ | **Escort Mission** | Adventure | Guide a player blinded by a Carved Pumpkin two hundred blocks while they stay within five blocks of you | 60 |
-| · | **Even Split** | Adventure | Hand another player exactly thirty-two Gold Ingots while still holding thirty-two yourself | 30 |
-| ◆ | **Fair Trade** | Adventure | Swap items with another player: you each pick up what the other dropped within 5 seconds | 40 |
-| ★ | **Fashion Police** | Adventure | Five players each wearing a full suit trimmed with a different material at the same time | 160 |
-| ◆ | **Ferryman** | Adventure | Row a player who has just respawned with nothing a thousand blocks in a boat | 75 |
-| ◆ | **Fire Sale** | Adventure | Catch a Water Bucket thrown by another player while you are burning | 40 |
-| ★★ | **Going, Going, Gone** | Adventure | Hold an auction: three players pass Emeralds hand to hand on one spot inside thirty seconds | 250 |
-| ◆ | **Group Nap** | Adventure | Every online player sleeps during the same night | 50 |
-| ★ | **Hot Potato** | Adventure | Pass items down a line of four players within ten seconds | 150 |
-| ◆ | **Inheritance** | Adventure | Bank thirty experience levels off Bottles o' Enchanting another player handed you | 50 |
-| ◆ | **Lost and Found** | Adventure | Get killed out there, then have another player bring you a Recovery Compass | 45 |
-| ★ | **Market Day** | Adventure | Work the whole market on somebody else's coin: trade with a Farmer, a Butcher, a Cartographer and a Mason using Emeralds another player keeps handing you | 150 |
-| · | **Matching Outfits** | Adventure | Two players wearing identically dyed leather armour, all four pieces | 25 |
-| ★ | **Orchestra** | Adventure | Four players sound four different Goat Horns within five seconds | 150 |
-| ◆ | **Pay It Forward** | Adventure | Cheat death with a Totem of Undying that another player dropped for you | 45 |
-| · | **Pocket Money** | Adventure | Hand another player a Bundle already packed with Bread, Torches, Arrows and Coal | 30 |
-| ◆ | **Pony Express** | Adventure | Carry the post: take a Written Book from another player in the Overworld and hand it on in the Nether | 60 |
-| ★ | **Raid Party** | Adventure | Three players holding Hero of the Village at the same time | 110 |
-| · | **Required Reading** | Adventure | Take a signed Written Book off another player and set it out on a Lectern | 25 |
-| ◆ | **Reunion** | Adventure | Meet another player after you have each spent ten minutes with nobody within 5,000 blocks | 35 |
-| · | **Schadenfreude** | Adventure | Watch another player burn through a Spyglass from at least twenty blocks away | 25 |
-| ★ | **Secret Santa** | Adventure | Four players in one place swapping items within ten seconds | 170 |
-| ★ | **Shared Custody** | Adventure | Feed an animal that another player named with a Name Tag | 90 |
-| ◆ | **Split the Party** | Adventure | Have three players in three different dimensions at the same moment | 45 |
-| ◆ | **Starter Kit** | Adventure | Take a sword, a pickaxe and something to eat from other players within thirty seconds of dying | 45 |
-| ★ | **Swap Meet** | Adventure | Swap the whole stall with another player: hand over a Shulker Box, a Bundle and a Chest Minecart, and be handed all three back | 130 |
-| · | **Team Photo** | Adventure | Squeeze four players into a three-block radius | 20 |
-| ★ | **The Wave** | Adventure | Four players jump one after another, each within half a second of the last | 130 |
-| · | **Twin Maps** | Adventure | Copy a Map and hand the duplicate to another player, so you are both reading the same ground | 20 |
-| ★ | **Vault Crew** | Adventure | Four players each unlock the same Ominous Vault | 180 |
+| ◆ | **Allay Express** | Adventure | Put an Allay to work at a Note Block sorting Paper, then hand the post on to another player (2 players) | 50 |
+| ★ | **Bedside Manner** | Adventure | Cure a Zombie Villager with a Golden Apple another player handed you, then open the surgery and trade with your patient (2 players) | 130 |
+| ◆ | **Care Package** | Adventure | Hand another player every piece of an Iron armour set (2 players) | 45 |
+| ◆ | **Charity Case** | Adventure | Be handed a helmet, a chestplate, leggings and boots by other players (2 players) | 55 |
+| ◆ | **Closing Time** | Adventure | Last orders: buy Ice from a Wandering Trader with Emeralds another player handed you, and pass the ice straight back (2 players) | 55 |
+| ◆ | **Diamond Hands** | Adventure | Hand another player a full stack of sixty-four Diamonds (2 players) | 55 |
+| · | **Distraction Tactics** | Adventure | Ring a Bell to pull raiders off a teammate who is down to three hearts or less (2 players) | 25 |
+| · | **Double Booking** | Adventure | Serve two customers at one counter: buy goods from a Villager and hand goods of that kind straight to another player (2 players) | 30 |
+| ◆ | **Dress Code** | Adventure | Three players in full armour of the same material with the same armour trim (3 players) | 60 |
+| ◆ | **Drop Shipping** | Adventure | Throw an item down to another player standing a hundred blocks below you (2 players) | 55 |
+| ◆ | **Dying Wish** | Adventure | Hand your belongings to another player, then let them kill you (2 players) | 40 |
+| ◆ | **Escort Mission** | Adventure | Guide a player blinded by a Carved Pumpkin two hundred blocks while they stay within five blocks of you (2 players) | 60 |
+| · | **Even Split** | Adventure | Hand another player exactly thirty-two Gold Ingots while still holding thirty-two yourself (2 players) | 30 |
+| ◆ | **Fair Trade** | Adventure | Swap items with another player: you each pick up what the other dropped within 5 seconds (2 players) | 40 |
+| ★ | **Fashion Police** | Adventure | Five players each wearing a full suit trimmed with a different material at the same time (5 players) | 160 |
+| ◆ | **Ferryman** | Adventure | Row a player who has just respawned with nothing a thousand blocks in a boat (2 players) | 75 |
+| ◆ | **Fire Sale** | Adventure | Catch a Water Bucket thrown by another player while you are burning (2 players) | 40 |
+| ★★ | **Going, Going, Gone** | Adventure | Hold an auction: three players pass Emeralds hand to hand on one spot inside thirty seconds (3 players) | 250 |
+| ◆ | **Group Nap** | Adventure | Every online player sleeps during the same night (2 players) | 50 |
+| ★ | **Hot Potato** | Adventure | Pass items down a line of four players within ten seconds (4 players) | 150 |
+| ◆ | **Inheritance** | Adventure | Bank thirty experience levels off Bottles o' Enchanting another player handed you (2 players) | 50 |
+| ◆ | **Lost and Found** | Adventure | Get killed out there, then have another player bring you a Recovery Compass (2 players) | 45 |
+| ★ | **Market Day** | Adventure | Work the whole market on somebody else's coin: trade with a Farmer, a Butcher, a Cartographer and a Mason using Emeralds another player keeps handing you (2 players) | 150 |
+| · | **Matching Outfits** | Adventure | Two players wearing identically dyed leather armour, all four pieces (2 players) | 25 |
+| ★ | **Orchestra** | Adventure | Four players sound four different Goat Horns within five seconds (4 players) | 150 |
+| ◆ | **Pay It Forward** | Adventure | Cheat death with a Totem of Undying that another player dropped for you (2 players) | 45 |
+| · | **Pocket Money** | Adventure | Hand another player a Bundle already packed with Bread, Torches, Arrows and Coal (2 players) | 30 |
+| ◆ | **Pony Express** | Adventure | Carry the post: take a Written Book from another player in the Overworld and hand it on in the Nether (2 players) | 60 |
+| ★ | **Raid Party** | Adventure | Three players holding Hero of the Village at the same time (3 players) | 110 |
+| · | **Required Reading** | Adventure | Take a signed Written Book off another player and set it out on a Lectern (2 players) | 25 |
+| ◆ | **Reunion** | Adventure | Meet another player after you have each spent ten minutes with nobody within 5,000 blocks (2 players) | 35 |
+| · | **Schadenfreude** | Adventure | Watch another player burn through a Spyglass from at least twenty blocks away (2 players) | 25 |
+| ★ | **Secret Santa** | Adventure | Four players in one place swapping items within ten seconds (4 players) | 170 |
+| ★ | **Shared Custody** | Adventure | Feed an animal that another player named with a Name Tag (2 players) | 90 |
+| ◆ | **Split the Party** | Adventure | Have three players in three different dimensions at the same moment (3 players) | 45 |
+| ◆ | **Starter Kit** | Adventure | Take a sword, a pickaxe and something to eat from other players within thirty seconds of dying (2 players) | 45 |
+| ★ | **Swap Meet** | Adventure | Swap the whole stall with another player: hand over a Shulker Box, a Bundle and a Chest Minecart, and be handed all three back (2 players) | 130 |
+| · | **Team Photo** | Adventure | Squeeze four players into a three-block radius (4 players) | 20 |
+| ★ | **The Wave** | Adventure | Four players jump one after another, each within half a second of the last (4 players) | 130 |
+| · | **Twin Maps** | Adventure | Copy a Map and hand the duplicate to another player, so you are both reading the same ground (2 players) | 20 |
+| ★ | **Vault Crew** | Adventure | Four players each unlock the same Ominous Vault (4 players) | 180 |
 
 <details><summary>How these are detected</summary>
 
@@ -128,22 +128,22 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| ★ | **Always the Passenger** | Animals | Climb aboard a Boat, a Camel and a Happy Ghast that another player is already riding | 130 |
-| ◆ | **Caravan of Love** | Animals | Hitch your Llama to another player's caravan with a Lead they handed you | 45 |
-| · | **Carpool** | Animals | Share a boat with another player | 15 |
-| ◆ | **Cavalry Charge** | Animals | Four players in the saddle on four Horses, all inside fifteen blocks | 50 |
-| · | **Good Boy, Someone Else's** | Animals | Repair a Wolf's armour with Armadillo Scutes out of another player's pocket | 25 |
-| · | **Guard Dog** | Animals | Tame a Wolf with Bones another player dug up for you | 20 |
-| · | **Hog Wild** | Animals | Ride a saddled Pig and look across at another player riding one, within five blocks | 30 |
-| ◆ | **Horse Trading** | Animals | Pass a spare Saddle to another player while you are both mounted on Horses | 45 |
-| ★ | **Pack Leaders** | Animals | Three players each with an armoured Wolf at heel, all within ten blocks | 140 |
-| · | **Passing the Lead** | Animals | Take a Lead from another player's hand and leash an animal with it | 20 |
-| ◆ | **Photo Finish** | Animals | Two players gallop across the same ground within three blocks of each other, both moving faster than ten blocks a second | 60 |
-| · | **Pit Crew** | Animals | Feed a Horse while another player is sitting in the saddle | 15 |
-| · | **Release the Hounds** | Animals | Have your tamed Wolves finish off another player | 30 |
-| ◆ | **Reservoir Dogs** | Animals | Set your tamed Wolf on another player's tamed Wolf and win | 45 |
-| ◆ | **Sting Operation** | Animals | Anger a beehive so that the bees kill another player | 55 |
-| · | **Two-Hump Transit** | Animals | Take a Camel out with a second player riding the other hump | 15 |
+| ★ | **Always the Passenger** | Animals | Climb aboard a Boat, a Camel and a Happy Ghast that another player is already riding (2 players) | 130 |
+| ◆ | **Caravan of Love** | Animals | Hitch your Llama to another player's caravan with a Lead they handed you (2 players) | 45 |
+| · | **Carpool** | Animals | Share a boat with another player (2 players) | 15 |
+| ◆ | **Cavalry Charge** | Animals | Four players in the saddle on four Horses, all inside fifteen blocks (4 players) | 50 |
+| · | **Good Boy, Someone Else's** | Animals | Repair a Wolf's armour with Armadillo Scutes out of another player's pocket (2 players) | 25 |
+| · | **Guard Dog** | Animals | Tame a Wolf with Bones another player dug up for you (2 players) | 20 |
+| · | **Hog Wild** | Animals | Ride a saddled Pig and look across at another player riding one, within five blocks (2 players) | 30 |
+| ◆ | **Horse Trading** | Animals | Pass a spare Saddle to another player while you are both mounted on Horses (2 players) | 45 |
+| ★ | **Pack Leaders** | Animals | Three players each with an armoured Wolf at heel, all within ten blocks (3 players) | 140 |
+| · | **Passing the Lead** | Animals | Take a Lead from another player's hand and leash an animal with it (2 players) | 20 |
+| ◆ | **Photo Finish** | Animals | Two players gallop across the same ground within three blocks of each other, both moving faster than ten blocks a second (2 players) | 60 |
+| · | **Pit Crew** | Animals | Feed a Horse while another player is sitting in the saddle (2 players) | 15 |
+| · | **Release the Hounds** | Animals | Have your tamed Wolves finish off another player (2 players) | 30 |
+| ◆ | **Reservoir Dogs** | Animals | Set your tamed Wolf on another player's tamed Wolf and win (2 players) | 45 |
+| ◆ | **Sting Operation** | Animals | Anger a beehive so that the bees kill another player (2 players) | 55 |
+| · | **Two-Hump Transit** | Animals | Take a Camel out with a second player riding the other hump (2 players) | 15 |
 
 <details><summary>How these are detected</summary>
 
@@ -170,20 +170,20 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| ◆ | **Cold Chain** | Biomes | Deliver a Bucket of Powder Snow to another player standing in a desert | 50 |
-| ◆ | **Cold Shoulder** | Biomes | Finish off another player who is frozen solid inside Powder Snow | 60 |
-| ◆ | **Conduit Club** | Biomes | Have three players share Conduit Power huddled within eight blocks of each other | 40 |
-| · | **Crow's Nest** | Biomes | Look through a Spyglass out over the deep ocean from a Boat you are sharing with another player | 25 |
-| ◆ | **Ferryman's Fee** | Biomes | Sail 2,000 blocks in one Boat with another player aboard | 60 |
-| · | **Man Overboard** | Biomes | Reel a swimming player back to your boat with a Fishing Rod, out over the deep ocean | 40 |
-| · | **Sea Legs** | Biomes | Stand on the roof of a Boat another player is sailing for two hundred blocks | 35 |
-| ◆ | **Submarine Crew** | Biomes | Three players riding three Nautiluses within fifteen blocks of each other | 50 |
-| · | **Synchronised Swimming** | Biomes | Have four players all swimming at the same moment within six blocks of each other | 25 |
-| ◆ | **Thar She Blows** | Biomes | Kill a Drowned with a thrown Trident from a boat another player is sharing with you | 50 |
-| ★ | **The Cousteau Manoeuvre** | Biomes | Ride Nautiluses forty blocks through an Ocean Monument with another player, neither surfacing nor dismounting | 220 |
-| · | **The Merchant of Venice** | Biomes | Complete an item swap with another player while you are both sitting in boats on water | 30 |
-| ◆ | **Torpedo Run** | Biomes | Hit another player riding a Nautilus with a thrown Trident while riding one yourself | 75 |
-| · | **Warm Welcome** | Biomes | Reach a player sunk in Powder Snow with Flint and Steel already in your hand | 25 |
+| ◆ | **Cold Chain** | Biomes | Deliver a Bucket of Powder Snow to another player standing in a desert (2 players) | 50 |
+| ◆ | **Cold Shoulder** | Biomes | Finish off another player who is frozen solid inside Powder Snow (2 players) | 60 |
+| ◆ | **Conduit Club** | Biomes | Have three players share Conduit Power huddled within eight blocks of each other (3 players) | 40 |
+| · | **Crow's Nest** | Biomes | Look through a Spyglass out over the deep ocean from a Boat you are sharing with another player (2 players) | 25 |
+| ◆ | **Ferryman's Fee** | Biomes | Sail 2,000 blocks in one Boat with another player aboard (2 players) | 60 |
+| · | **Man Overboard** | Biomes | Reel a swimming player back to your boat with a Fishing Rod, out over the deep ocean (2 players) | 40 |
+| · | **Sea Legs** | Biomes | Stand on the roof of a Boat another player is sailing for two hundred blocks (2 players) | 35 |
+| ◆ | **Submarine Crew** | Biomes | Three players riding three Nautiluses within fifteen blocks of each other (3 players) | 50 |
+| · | **Synchronised Swimming** | Biomes | Have four players all swimming at the same moment within six blocks of each other (4 players) | 25 |
+| ◆ | **Thar She Blows** | Biomes | Kill a Drowned with a thrown Trident from a boat another player is sharing with you (2 players) | 50 |
+| ★ | **The Cousteau Manoeuvre** | Biomes | Ride Nautiluses forty blocks through an Ocean Monument with another player, neither surfacing nor dismounting (2 players) | 220 |
+| · | **The Merchant of Venice** | Biomes | Complete an item swap with another player while you are both sitting in boats on water (2 players) | 30 |
+| ◆ | **Torpedo Run** | Biomes | Hit another player riding a Nautilus with a thrown Trident while riding one yourself (2 players) | 75 |
+| · | **Warm Welcome** | Biomes | Reach a player sunk in Powder Snow with Flint and Steel already in your hand (2 players) | 25 |
 
 <details><summary>How these are detected</summary>
 
@@ -208,19 +208,19 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| ◆ | **Barn Raising** | Building | Have three players each place a hundred blocks inside the same chunk | 60 |
-| · | **Bricked In** | Building | Get walled in on all six sides by another player | 40 |
-| · | **Bunk Beds** | Building | Two players sleep at the same time in beds stacked one directly above the other | 20 |
-| · | **Campfire Stories** | Building | Get four players crouched together beside one lit Campfire at night | 25 |
-| ◆ | **Cherry Picker** | Building | Place a block above Y=200 from a Happy Ghast that another player is flying | 60 |
-| ★ | **Community Beacon** | Building | Have four players receiving an effect from the same beacon at once | 130 |
-| ◆ | **Firework Finale** | Building | Have four players launch fireworks together within three seconds | 45 |
-| ◆ | **Gallery Opening** | Building | Have four players each hang a Painting on the same wall inside a minute | 60 |
-| · | **Guest Room** | Building | Sleep in a bed another player made and handed to you | 20 |
-| · | **Library Card** | Building | Stock a Chiseled Bookshelf, then lend one of the books out to another player | 30 |
-| · | **Rest In Pieces** | Building | Cut another player down in melee, then plant a Wither Rose in their memory | 35 |
-| ◆ | **Trading Post** | Building | Run a shop: stock a Shelf, put up a Sign, and be paid in Emeralds by a customer | 70 |
-| · | **Trophy Wall** | Building | Take another player's head off their hands and mount it in an Item Frame | 30 |
+| ◆ | **Barn Raising** | Building | Have three players each place a hundred blocks inside the same chunk (3 players) | 60 |
+| · | **Bricked In** | Building | Get walled in on all six sides by another player (2 players) | 40 |
+| · | **Bunk Beds** | Building | Two players sleep at the same time in beds stacked one directly above the other (2 players) | 20 |
+| · | **Campfire Stories** | Building | Get four players crouched together beside one lit Campfire at night (4 players) | 25 |
+| ◆ | **Cherry Picker** | Building | Place a block above Y=200 from a Happy Ghast that another player is flying (2 players) | 60 |
+| ★ | **Community Beacon** | Building | Have four players receiving an effect from the same beacon at once (4 players) | 130 |
+| ◆ | **Firework Finale** | Building | Have four players launch fireworks together within three seconds (4 players) | 45 |
+| ◆ | **Gallery Opening** | Building | Have four players each hang a Painting on the same wall inside a minute (4 players) | 60 |
+| · | **Guest Room** | Building | Sleep in a bed another player made and handed to you (2 players) | 20 |
+| · | **Library Card** | Building | Stock a Chiseled Bookshelf, then lend one of the books out to another player (2 players) | 30 |
+| · | **Rest In Pieces** | Building | Cut another player down in melee, then plant a Wither Rose in their memory (2 players) | 35 |
+| ◆ | **Trading Post** | Building | Run a shop: stock a Shelf, put up a Sign, and be paid in Emeralds by a customer (2 players) | 70 |
+| · | **Trophy Wall** | Building | Take another player's head off their hands and mount it in an Item Frame (2 players) | 30 |
 
 <details><summary>How these are detected</summary>
 
@@ -244,18 +244,18 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| · | **Book Club** | Enchanting | Enchant a Book and put the Enchanted Book straight into another player's hands | 20 |
-| ★ | **Grant Money** | Enchanting | Have another player throw a whole stack of Bottles o' Enchanting at your feet and pocket every level of it | 150 |
-| · | **Hand-Me-Down** | Enchanting | Wear a piece of armour with Curse of Binding that another player handed to you | 30 |
-| · | **Lapis Loan** | Enchanting | Enchant an item using Lapis Lazuli that another player handed you | 20 |
-| ◆ | **Parting Gift** | Enchanting | Take a Curse of Vanishing item from a teammate, then die and watch it disappear | 45 |
-| ◆ | **Read the Room** | Enchanting | Enchant an item at a table another player ringed with bookshelves | 45 |
-| ◆ | **Repair Job** | Enchanting | Wear a Pickaxe down to its last few uses, hand it to another player, and get one back with its edge restored | 50 |
-| ★ | **Riptide Rampage** | Enchanting | Riptide-launch yourself into another player and kill them with the Trident on the way through | 220 |
-| ◆ | **Second-Hand Knowledge** | Enchanting | Take an Enchanted Book from another player and end up with an enchanted tool | 45 |
-| ★ | **Sparring Partner** | Enchanting | Take ten hearts off another player with one swing, no Mace and no Spear charge | 150 |
-| ◆ | **Storm Chasers** | Enchanting | Riptide-launch within a second of another player and land within five blocks of them | 75 |
-| ★ | **Thorn in Your Side** | Enchanting | Kill another player with nothing but the Thorns on your own armour | 150 |
+| · | **Book Club** | Enchanting | Enchant a Book and put the Enchanted Book straight into another player's hands (2 players) | 20 |
+| ★ | **Grant Money** | Enchanting | Have another player throw a whole stack of Bottles o' Enchanting at your feet and pocket every level of it (2 players) | 150 |
+| · | **Hand-Me-Down** | Enchanting | Wear a piece of armour with Curse of Binding that another player handed to you (2 players) | 30 |
+| · | **Lapis Loan** | Enchanting | Enchant an item using Lapis Lazuli that another player handed you (2 players) | 20 |
+| ◆ | **Parting Gift** | Enchanting | Take a Curse of Vanishing item from a teammate, then die and watch it disappear (2 players) | 45 |
+| ◆ | **Read the Room** | Enchanting | Enchant an item at a table another player ringed with bookshelves (2 players) | 45 |
+| ◆ | **Repair Job** | Enchanting | Wear a Pickaxe down to its last few uses, hand it to another player, and get one back with its edge restored (2 players) | 50 |
+| ★ | **Riptide Rampage** | Enchanting | Riptide-launch yourself into another player and kill them with the Trident on the way through (2 players) | 220 |
+| ◆ | **Second-Hand Knowledge** | Enchanting | Take an Enchanted Book from another player and end up with an enchanted tool (2 players) | 45 |
+| ★ | **Sparring Partner** | Enchanting | Take ten hearts off another player with one swing, no Mace and no Spear charge (2 players) | 150 |
+| ◆ | **Storm Chasers** | Enchanting | Riptide-launch within a second of another player and land within five blocks of them (2 players) | 75 |
+| ★ | **Thorn in Your Side** | Enchanting | Kill another player with nothing but the Thorns on your own armour (2 players) | 150 |
 
 <details><summary>How these are detected</summary>
 
@@ -278,15 +278,15 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| ◆ | **Farm Share** | Farming | Give another player a stack of Bread and take a stack of their crops back | 50 |
-| ◆ | **Golden Handshake** | Farming | Eat an Enchanted Golden Apple another player threw you, while you are below two hearts | 45 |
-| ◆ | **Group Therapy** | Farming | Have three players all on three hearts or less eat a Golden Apple within three seconds of each other | 80 |
-| · | **Have Your Cake** | Farming | Have four players eat Cake side by side inside thirty seconds | 45 |
-| · | **Piece of Cake** | Farming | Hand a Cake to another player and have one handed back to you | 15 |
-| ◆ | **Potluck** | Farming | Have five players each eat a different food within ten seconds, all inside eight blocks | 80 |
-| ◆ | **Seed Exchange** | Farming | Trade ancient seeds with another player: hand a Sniffer seed over and be handed one back | 50 |
-| ◆ | **Soup Kitchen** | Farming | Be handed food by another player while your hunger is down to three shanks, and eat it | 50 |
-| · | **Stew Roulette** | Farming | Eat a Suspicious Stew another player cooked and served you | 20 |
+| ◆ | **Farm Share** | Farming | Give another player a stack of Bread and take a stack of their crops back (2 players) | 50 |
+| ◆ | **Golden Handshake** | Farming | Eat an Enchanted Golden Apple another player threw you, while you are below two hearts (2 players) | 45 |
+| ◆ | **Group Therapy** | Farming | Have three players all on three hearts or less eat a Golden Apple within three seconds of each other (3 players) | 80 |
+| · | **Have Your Cake** | Farming | Have four players eat Cake side by side inside thirty seconds (4 players) | 45 |
+| · | **Piece of Cake** | Farming | Hand a Cake to another player and have one handed back to you (2 players) | 15 |
+| ◆ | **Potluck** | Farming | Have five players each eat a different food within ten seconds, all inside eight blocks (5 players) | 80 |
+| ◆ | **Seed Exchange** | Farming | Trade ancient seeds with another player: hand a Sniffer seed over and be handed one back (2 players) | 50 |
+| ◆ | **Soup Kitchen** | Farming | Be handed food by another player while your hunger is down to three shanks, and eat it (2 players) | 50 |
+| · | **Stew Roulette** | Farming | Eat a Suspicious Stew another player cooked and served you (2 players) | 20 |
 
 <details><summary>How these are detected</summary>
 
@@ -306,16 +306,16 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| · | **Bring a Torch** | Mining | Take a Torch off another player while you are standing in pitch darkness | 20 |
-| ◆ | **Deep Recovery** | Mining | Be there when another player falls below Y=-50, then hand their belongings back at sea level | 55 |
-| · | **Dig Me Out** | Mining | Free a player buried in Gravel by breaking the block over their head | 30 |
-| ★ | **Homing Pigeon** | Mining | Be handed a Compass by another player and use it on a Lodestone at least 64 blocks away | 90 |
-| ★ | **Loan Shark** | Mining | Lend another player a Diamond Pickaxe and take it back worn past half its life | 90 |
-| ◆ | **Outsourced** | Mining | Craft a Diamond Pickaxe from three Diamonds another player handed you | 40 |
-| · | **Passing the Torch** | Mining | Place a Copper Torch that another player handed to you | 15 |
-| ★ | **Silent Duel** | Mining | Kill another player in the Deep Dark while neither of you is under the Darkness a Shrieker inflicts | 180 |
-| ◆ | **Split Shift** | Mining | Hand a full stack of sixty-four Iron Ingots straight into another player's hands | 45 |
-| ◆ | **Tunnel Vision** | Mining | Dig toward each other from at least 200 blocks apart until your two tunnels meet | 85 |
+| · | **Bring a Torch** | Mining | Take a Torch off another player while you are standing in pitch darkness (2 players) | 20 |
+| ◆ | **Deep Recovery** | Mining | Be there when another player falls below Y=-50, then hand their belongings back at sea level (2 players) | 55 |
+| · | **Dig Me Out** | Mining | Free a player buried in Gravel by breaking the block over their head (2 players) | 30 |
+| ★ | **Homing Pigeon** | Mining | Be handed a Compass by another player and use it on a Lodestone at least 64 blocks away (2 players) | 90 |
+| ★ | **Loan Shark** | Mining | Lend another player a Diamond Pickaxe and take it back worn past half its life (2 players) | 90 |
+| ◆ | **Outsourced** | Mining | Craft a Diamond Pickaxe from three Diamonds another player handed you (2 players) | 40 |
+| · | **Passing the Torch** | Mining | Place a Copper Torch that another player handed to you (2 players) | 15 |
+| ★ | **Silent Duel** | Mining | Kill another player in the Deep Dark while neither of you is under the Darkness a Shrieker inflicts (2 players) | 180 |
+| ◆ | **Split Shift** | Mining | Hand a full stack of sixty-four Iron Ingots straight into another player's hands (2 players) | 45 |
+| ◆ | **Tunnel Vision** | Mining | Dig toward each other from at least 200 blocks apart until your two tunnels meet (2 players) | 85 |
 
 <details><summary>How these are detected</summary>
 
@@ -336,26 +336,26 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| ◆ | **Assist** | Monsters | Finish off a monster that a teammate had already beaten down below two hearts | 40 |
-| ◆ | **Avenged** | Monsters | Shoot down a monster that has locked onto another player at least eight blocks away | 55 |
-| ★ | **Bait and Switch** | Monsters | Loot an Ancient City chest while a Warden is chasing another player at least thirty blocks away | 160 |
-| ◆ | **Bomb Disposal** | Monsters | Put a Creeper down while it is about to go off in another player's face | 60 |
-| · | **Bounty Hunter** | Monsters | Get paid in Emeralds by another player within a minute of hunting a monster down | 20 |
-| · | **Death Do Us Part** | Monsters | Have two players killed by Creepers in the same instant, in the same place | 30 |
-| ◆ | **Guardian Angel** | Monsters | Cut down in melee a monster that was hunting another player | 50 |
-| · | **Heads Up** | Monsters | Hand another player a mob head | 15 |
-| ★ | **Heart Surgery** | Monsters | Smash a Creaking Heart while its Creaking is fixated on a different player | 150 |
-| ◆ | **Hold the Line** | Monsters | Block a Ravager's charge with your shield while a teammate kills it from behind | 55 |
-| ★ | **Human Shield** | Monsters | Bring down a Warden while it is locked on to another player instead of you | 200 |
-| ★ | **Last Stand** | Monsters | Kill a Warden after every other player who joined the fight has already died | 300 |
-| · | **Night Watch** | Monsters | Have another player kill a monster within ten blocks of you while you sleep | 30 |
-| ★ | **Noble Sacrifice** | Monsters | Be killed by the Wither in a fight that a teammate goes on to win | 140 |
-| · | **Pincer Movement** | Monsters | Have two players hit the same monster from opposite sides at the same moment | 25 |
-| ★ | **Taking One For The Team** | Monsters | Die beside a teammate who is down to half a heart, and have them live out the next minute | 140 |
-| ★ | **Total Party Kill** | Monsters | Wipe out: all three or more players on the server dead inside the same ten seconds | 120 |
-| · | **Trial by Fire** | Monsters | Set three players alight at once and have all three put themselves out and live | 30 |
-| ★★ | **Warden Party** | Monsters | Put down a Warden with three players inside sixteen blocks, none of them recently killed | 500 |
-| ★ | **Wither Committee** | Monsters | Bring down a Wither with three or more players standing within twenty blocks | 180 |
+| ◆ | **Assist** | Monsters | Finish off a monster that a teammate had already beaten down below two hearts (2 players) | 40 |
+| ◆ | **Avenged** | Monsters | Shoot down a monster that has locked onto another player at least eight blocks away (2 players) | 55 |
+| ★ | **Bait and Switch** | Monsters | Loot an Ancient City chest while a Warden is chasing another player at least thirty blocks away (2 players) | 160 |
+| ◆ | **Bomb Disposal** | Monsters | Put a Creeper down while it is about to go off in another player's face (2 players) | 60 |
+| · | **Bounty Hunter** | Monsters | Get paid in Emeralds by another player within a minute of hunting a monster down (2 players) | 20 |
+| · | **Death Do Us Part** | Monsters | Have two players killed by Creepers in the same instant, in the same place (2 players) | 30 |
+| ◆ | **Guardian Angel** | Monsters | Cut down in melee a monster that was hunting another player (2 players) | 50 |
+| · | **Heads Up** | Monsters | Hand another player a mob head (2 players) | 15 |
+| ★ | **Heart Surgery** | Monsters | Smash a Creaking Heart while its Creaking is fixated on a different player (2 players) | 150 |
+| ◆ | **Hold the Line** | Monsters | Block a Ravager's charge with your shield while a teammate kills it from behind (2 players) | 55 |
+| ★ | **Human Shield** | Monsters | Bring down a Warden while it is locked on to another player instead of you (2 players) | 200 |
+| ★ | **Last Stand** | Monsters | Kill a Warden after every other player who joined the fight has already died (3 players) | 300 |
+| · | **Night Watch** | Monsters | Have another player kill a monster within ten blocks of you while you sleep (2 players) | 30 |
+| ★ | **Noble Sacrifice** | Monsters | Be killed by the Wither in a fight that a teammate goes on to win (2 players) | 140 |
+| · | **Pincer Movement** | Monsters | Have two players hit the same monster from opposite sides at the same moment (2 players) | 25 |
+| ★ | **Taking One For The Team** | Monsters | Die beside a teammate who is down to half a heart, and have them live out the next minute (2 players) | 140 |
+| ★ | **Total Party Kill** | Monsters | Wipe out: all three or more players on the server dead inside the same ten seconds (3 players) | 120 |
+| · | **Trial by Fire** | Monsters | Set three players alight at once and have all three put themselves out and live (3 players) | 30 |
+| ★★ | **Warden Party** | Monsters | Put down a Warden with three players inside sixteen blocks, none of them recently killed (3 players) | 500 |
+| ★ | **Wither Committee** | Monsters | Bring down a Wither with three or more players standing within twenty blocks (3 players) | 180 |
 
 <details><summary>How these are detected</summary>
 
@@ -386,27 +386,27 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| ★ | **Air Mail** | Nether | Hand an item to another player while you are both flying Happy Ghasts, a hundred and fifty blocks up | 160 |
-| ★ | **Air Rescue** | Nether | Fly your Happy Ghast under a falling player so they land on it after a fifty-block drop | 200 |
-| ◆ | **Anchor Management** | Nether | Charge a Respawn Anchor with Glowstone another player brought you | 45 |
-| ◆ | **Bastion Buddy** | Nether | Loot a Bastion treasure chest in the Golden Helmet another player handed you | 55 |
-| ★ | **Beacon of Hope** | Nether | Craft a Beacon from a Nether Star another player handed you | 200 |
-| · | **Bodyguard** | Nether | Block a Ghast's fireball with a Shield another player put in your hands | 20 |
-| ★ | **Changing of the Guard** | Nether | Climb aboard a Happy Ghast above Y=150 that another player is already flying | 130 |
-| ◆ | **Corporate Raiders** | Nether | Raid a Bastion's Piglins with a partner: barter inside it on gold they threw you | 45 |
-| ◆ | **Dead Drop** | Nether | Leave a parcel on the ground in the Nether and be a hundred blocks away when another player collects it | 50 |
-| ◆ | **Door Gunner** | Nether | Shoot a Ghast down with a Crossbow from the passenger seat of a Happy Ghast another player is flying | 70 |
-| ◆ | **Emergency Exit** | Nether | Get a player who is below two hearts out of the Nether — both of you through the portal inside five seconds | 55 |
-| ★ | **Escort Service** | Nether | Walk five hundred blocks through the Nether with nothing on you, guarded and untouched | 220 |
-| ★ | **Field Hospital** | Nether | Bring a Beacon to full power, then get patched up under it with another player's Regeneration | 100 |
-| ★ | **Ghast Fleet** | Nether | Four players out on four separate Happy Ghasts, all within twenty blocks | 200 |
-| ◆ | **Ghost Train** | Nether | Take a Chest Minecart through a Nether portal and hand it to another player on the far side | 55 |
-| ◆ | **Medevac** | Nether | Carry a player below three hearts two hundred blocks on your Happy Ghast without them dying | 65 |
-| ★ | **Netherite Deal** | Nether | Take a Netherite Ingot off another player and be seen in the Netherite Chestplate it became | 160 |
-| · | **Scale Model** | Nether | Stand together in the Nether, then come out of two Overworld portals more than 800 blocks apart | 30 |
-| ★ | **Skull Session** | Nether | Summon the Wither with a Wither Skeleton Skull another player pulled out of the Nether for you | 220 |
-| ◆ | **The Nether Express** | Nether | Have four players pass through the same Nether portal within ten seconds | 55 |
-| ◆ | **Through the Looking Glass** | Nether | Share one Boat with another player on both sides of a Nether portal | 70 |
+| ★ | **Air Mail** | Nether | Hand an item to another player while you are both flying Happy Ghasts, a hundred and fifty blocks up (2 players) | 160 |
+| ★ | **Air Rescue** | Nether | Fly your Happy Ghast under a falling player so they land on it after a fifty-block drop (2 players) | 200 |
+| ◆ | **Anchor Management** | Nether | Charge a Respawn Anchor with Glowstone another player brought you (2 players) | 45 |
+| ◆ | **Bastion Buddy** | Nether | Loot a Bastion treasure chest in the Golden Helmet another player handed you (2 players) | 55 |
+| ★ | **Beacon of Hope** | Nether | Craft a Beacon from a Nether Star another player handed you (2 players) | 200 |
+| · | **Bodyguard** | Nether | Block a Ghast's fireball with a Shield another player put in your hands (2 players) | 20 |
+| ★ | **Changing of the Guard** | Nether | Climb aboard a Happy Ghast above Y=150 that another player is already flying (2 players) | 130 |
+| ◆ | **Corporate Raiders** | Nether | Raid a Bastion's Piglins with a partner: barter inside it on gold they threw you (2 players) | 45 |
+| ◆ | **Dead Drop** | Nether | Leave a parcel on the ground in the Nether and be a hundred blocks away when another player collects it (2 players) | 50 |
+| ◆ | **Door Gunner** | Nether | Shoot a Ghast down with a Crossbow from the passenger seat of a Happy Ghast another player is flying (2 players) | 70 |
+| ◆ | **Emergency Exit** | Nether | Get a player who is below two hearts out of the Nether — both of you through the portal inside five seconds (2 players) | 55 |
+| ★ | **Escort Service** | Nether | Walk five hundred blocks through the Nether with nothing on you, guarded and untouched (2 players) | 220 |
+| ★ | **Field Hospital** | Nether | Bring a Beacon to full power, then get patched up under it with another player's Regeneration (2 players) | 100 |
+| ★ | **Ghast Fleet** | Nether | Four players out on four separate Happy Ghasts, all within twenty blocks (4 players) | 200 |
+| ◆ | **Ghost Train** | Nether | Take a Chest Minecart through a Nether portal and hand it to another player on the far side (2 players) | 55 |
+| ◆ | **Medevac** | Nether | Carry a player below three hearts two hundred blocks on your Happy Ghast without them dying (2 players) | 65 |
+| ★ | **Netherite Deal** | Nether | Take a Netherite Ingot off another player and be seen in the Netherite Chestplate it became (2 players) | 160 |
+| · | **Scale Model** | Nether | Stand together in the Nether, then come out of two Overworld portals more than 800 blocks apart (2 players) | 30 |
+| ★ | **Skull Session** | Nether | Summon the Wither with a Wither Skeleton Skull another player pulled out of the Nether for you (2 players) | 220 |
+| ◆ | **The Nether Express** | Nether | Have four players pass through the same Nether portal within ten seconds (4 players) | 55 |
+| ◆ | **Through the Looking Glass** | Nether | Share one Boat with another player on both sides of a Nether portal (2 players) | 70 |
 
 <details><summary>How these are detected</summary>
 
@@ -438,22 +438,22 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| · | **Air Supply** | Potions | Have another player splash you with Water Breathing while you are underwater | 25 |
-| ◆ | **Bad Influence** | Potions | Drink an Ominous Bottle a teammate handed you, then go on to win the raid | 60 |
-| · | **Caveat Emptor** | Potions | Drink a Potion of Harming that another player handed you | 30 |
-| ★ | **Chemical Warfare** | Potions | Poison three different players with a single Lingering Potion | 120 |
-| · | **Detox** | Potions | Drink a Milk Bucket another player gave you to wash the Wither effect off | 30 |
-| ◆ | **Field Medic** | Potions | Heal a player who is below three hearts with a Splash Potion of Regeneration | 45 |
-| ◆ | **Fireproof Friendship** | Potions | Be splashed with Fire Resistance by another player while you are standing in lava | 55 |
-| ◆ | **Group Buff** | Potions | Have four players together share an identical set of three or more effects | 50 |
-| ◆ | **Marco Polo** | Potions | Look straight at a player who has the Invisibility effect, from within three blocks | 55 |
-| ◆ | **Milk Run** | Potions | Hand a Bucket of Milk to a player who is Poisoned, so they can wash it off | 40 |
-| ◆ | **Pharmacy Run** | Potions | Hand out Potions of Healing, Strength and Swiftness to other players | 60 |
-| · | **Sharpshooter Surgeon** | Potions | Patch a teammate up by shooting them with an Arrow of Healing | 25 |
-| · | **Stop, Drop and Roll** | Potions | Put out a burning player with a Splash Water Bottle | 30 |
-| · | **The Weakest Link** | Potions | Kill another player while they are under the Weakness effect | 25 |
-| ★ | **Trauma Team** | Potions | Carry Regeneration, Strength, Swiftness, Fire Resistance and Resistance all at once, the last of them splashed onto you by another player | 140 |
-| ◆ | **Triage** | Potions | Heal three players who are all below three hearts with a single Splash Potion of Healing | 80 |
+| · | **Air Supply** | Potions | Have another player splash you with Water Breathing while you are underwater (2 players) | 25 |
+| ◆ | **Bad Influence** | Potions | Drink an Ominous Bottle a teammate handed you, then go on to win the raid (2 players) | 60 |
+| · | **Caveat Emptor** | Potions | Drink a Potion of Harming that another player handed you (2 players) | 30 |
+| ★ | **Chemical Warfare** | Potions | Poison three different players with a single Lingering Potion (3 players) | 120 |
+| · | **Detox** | Potions | Drink a Milk Bucket another player gave you to wash the Wither effect off (2 players) | 30 |
+| ◆ | **Field Medic** | Potions | Heal a player who is below three hearts with a Splash Potion of Regeneration (2 players) | 45 |
+| ◆ | **Fireproof Friendship** | Potions | Be splashed with Fire Resistance by another player while you are standing in lava (2 players) | 55 |
+| ◆ | **Group Buff** | Potions | Have four players together share an identical set of three or more effects (4 players) | 50 |
+| ◆ | **Marco Polo** | Potions | Look straight at a player who has the Invisibility effect, from within three blocks (2 players) | 55 |
+| ◆ | **Milk Run** | Potions | Hand a Bucket of Milk to a player who is Poisoned, so they can wash it off (2 players) | 40 |
+| ◆ | **Pharmacy Run** | Potions | Hand out Potions of Healing, Strength and Swiftness to other players (2 players) | 60 |
+| · | **Sharpshooter Surgeon** | Potions | Patch a teammate up by shooting them with an Arrow of Healing (2 players) | 25 |
+| · | **Stop, Drop and Roll** | Potions | Put out a burning player with a Splash Water Bottle (2 players) | 30 |
+| · | **The Weakest Link** | Potions | Kill another player while they are under the Weakness effect (2 players) | 25 |
+| ★ | **Trauma Team** | Potions | Carry Regeneration, Strength, Swiftness, Fire Resistance and Resistance all at once, the last of them splashed onto you by another player (2 players) | 140 |
+| ◆ | **Triage** | Potions | Heal three players who are all below three hearts with a single Splash Potion of Healing (3 players) | 80 |
 
 <details><summary>How these are detected</summary>
 
@@ -480,23 +480,23 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| ★ | **Assembly Line** | Redstone | Take five Iron Ingots from one player and a Chest from another, craft a Hopper, and hand it on down the line | 110 |
-| · | **Bumper Carts** | Redstone | Ram another player's Minecart hard enough to stop you both dead | 25 |
-| ◆ | **Conveyor Belt** | Redstone | Float an item down a water channel to a player standing fifty blocks away | 60 |
-| ◆ | **Convoy** | Redstone | Four players rolling along in four Minecarts at the same time | 55 |
-| ◆ | **Drag Strip** | Redstone | Race another player in Minecarts on parallel rails, side by side within four blocks at full speed | 65 |
-| ★★ | **Grand Central** | Redstone | Four players who have each laid two hundred Rails all roll into the same station at once | 450 |
-| · | **Mind the Gap** | Redstone | Lay the rail ahead of another player's rolling Minecart | 25 |
-| · | **Park and Ride** | Redstone | Ride a Minecart another player handed you | 25 |
-| ◆ | **Rail Retrieval** | Redstone | Lay rail through the Nether and take delivery of a Chest Minecart from another player | 40 |
-| ◆ | **Runaway Train** | Redstone | Take a TNT blast another player set off while you are riding a Minecart | 55 |
-| ★ | **Signal Boost** | Redstone | Two players place thirty Repeaters each, side by side, inside one minute | 130 |
-| ◆ | **Special Delivery** | Redstone | Drop a parcel on the line and have a teammate scoop it up from a rolling Minecart eight blocks away | 55 |
-| ◆ | **The Great Train Robbery** | Redstone | Kill another player while they are riding in a Minecart | 50 |
-| · | **Toll Booth** | Redstone | Put up an Iron Door and charge another player sixteen Emeralds for passage | 30 |
-| · | **Trapped!** | Redstone | Have another player set off a trapped chest that you just placed | 20 |
-| ★ | **Trust Fall** | Redstone | Survive a thirty-block fall into water another player placed for you | 110 |
-| ★★ | **Vending Machine** | Redstone | Have another player feed an Emerald into your Hopper and take what your Dispenser gives back | 350 |
+| ★ | **Assembly Line** | Redstone | Take five Iron Ingots from one player and a Chest from another, craft a Hopper, and hand it on down the line (2 players) | 110 |
+| · | **Bumper Carts** | Redstone | Ram another player's Minecart hard enough to stop you both dead (2 players) | 25 |
+| ◆ | **Conveyor Belt** | Redstone | Float an item down a water channel to a player standing fifty blocks away (2 players) | 60 |
+| ◆ | **Convoy** | Redstone | Four players rolling along in four Minecarts at the same time (4 players) | 55 |
+| ◆ | **Drag Strip** | Redstone | Race another player in Minecarts on parallel rails, side by side within four blocks at full speed (2 players) | 65 |
+| ★★ | **Grand Central** | Redstone | Four players who have each laid two hundred Rails all roll into the same station at once (4 players) | 450 |
+| · | **Mind the Gap** | Redstone | Lay the rail ahead of another player's rolling Minecart (2 players) | 25 |
+| · | **Park and Ride** | Redstone | Ride a Minecart another player handed you (2 players) | 25 |
+| ◆ | **Rail Retrieval** | Redstone | Lay rail through the Nether and take delivery of a Chest Minecart from another player (2 players) | 40 |
+| ◆ | **Runaway Train** | Redstone | Take a TNT blast another player set off while you are riding a Minecart (2 players) | 55 |
+| ★ | **Signal Boost** | Redstone | Two players place thirty Repeaters each, side by side, inside one minute (2 players) | 130 |
+| ◆ | **Special Delivery** | Redstone | Drop a parcel on the line and have a teammate scoop it up from a rolling Minecart eight blocks away (2 players) | 55 |
+| ◆ | **The Great Train Robbery** | Redstone | Kill another player while they are riding in a Minecart (2 players) | 50 |
+| · | **Toll Booth** | Redstone | Put up an Iron Door and charge another player sixteen Emeralds for passage (2 players) | 30 |
+| · | **Trapped!** | Redstone | Have another player set off a trapped chest that you just placed (2 players) | 20 |
+| ★ | **Trust Fall** | Redstone | Survive a thirty-block fall into water another player placed for you (2 players) | 110 |
+| ★★ | **Vending Machine** | Redstone | Have another player feed an Emerald into your Hopper and take what your Dispenser gives back (2 players) | 350 |
 
 <details><summary>How these are detected</summary>
 
@@ -524,20 +524,20 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| ★ | **Antipodes** | Statistics | Have two players stand on exactly mirrored coordinates, at least three thousand blocks from the world origin | 200 |
-| ◆ | **Blimpin' Ain't Easy** | Statistics | Fly 5 km on a Happy Ghast without landing, with at least one passenger aboard the whole time | 70 |
-| ◆ | **Body Count** | Statistics | Have five players who have each died at least ten times all be online together | 60 |
-| ★ | **Bread Winner** | Statistics | Hand food to other players five hundred times | 200 |
-| ◆ | **Crash Test Dummy** | Statistics | Take five hundred points of damage from other players | 75 |
-| ◆ | **Death and Taxes** | Statistics | Collect the experience another player dropped when they died | 55 |
-| ★ | **Gift Economy** | Statistics | Hand items to other players five hundred times | 250 |
-| ★ | **Heart Surgeon** | Statistics | Supply other players with a hundred hearts of medicine: Golden Apples, Golden Carrots, Steak, and Splash Potions of Healing and Regeneration | 150 |
-| ◆ | **Long Distance Relationship** | Statistics | Have two players at least 10,000 blocks apart in the same dimension | 50 |
-| ★★ | **Philanthropist** | Statistics | Give away a full stack of sixty-four Diamonds in one go | 250 |
-| ★★ | **Serial Offender** | Statistics | Kill fifty other players | 300 |
-| ★ | **Sparring Partners** | Statistics | Trade a hundred hits with another player without either of you dying | 150 |
-| ★★ | **The Amazing Race** | Statistics | Leave one spot with another player, both cover 5,000 blocks, and both be back inside a minute of each other | 500 |
-| ★ | **Trading Floor** | Statistics | Rack up a thousand Villager trades between two or more players | 200 |
+| ★ | **Antipodes** | Statistics | Have two players stand on exactly mirrored coordinates, at least three thousand blocks from the world origin (2 players) | 200 |
+| ◆ | **Blimpin' Ain't Easy** | Statistics | Fly 5 km on a Happy Ghast without landing, with at least one passenger aboard the whole time (2 players) | 70 |
+| ◆ | **Body Count** | Statistics | Have five players who have each died at least ten times all be online together (5 players) | 60 |
+| ★ | **Bread Winner** | Statistics | Hand food to other players five hundred times (2 players) | 200 |
+| ◆ | **Crash Test Dummy** | Statistics | Take five hundred points of damage from other players (2 players) | 75 |
+| ◆ | **Death and Taxes** | Statistics | Collect the experience another player dropped when they died (2 players) | 55 |
+| ★ | **Gift Economy** | Statistics | Hand items to other players five hundred times (2 players) | 250 |
+| ★ | **Heart Surgeon** | Statistics | Supply other players with a hundred hearts of medicine: Golden Apples, Golden Carrots, Steak, and Splash Potions of Healing and Regeneration (2 players) | 150 |
+| ◆ | **Long Distance Relationship** | Statistics | Have two players at least 10,000 blocks apart in the same dimension (2 players) | 50 |
+| ★★ | **Philanthropist** | Statistics | Give away a full stack of sixty-four Diamonds in one go (2 players) | 250 |
+| ★★ | **Serial Offender** | Statistics | Kill fifty other players (2 players) | 300 |
+| ★ | **Sparring Partners** | Statistics | Trade a hundred hits with another player without either of you dying (2 players) | 150 |
+| ★★ | **The Amazing Race** | Statistics | Leave one spot with another player, both cover 5,000 blocks, and both be back inside a minute of each other (2 players) | 500 |
+| ★ | **Trading Floor** | Statistics | Rack up a thousand Villager trades between two or more players (2 players) | 200 |
 
 <details><summary>How these are detected</summary>
 
@@ -562,18 +562,18 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| ★★ | **All For One** | Super Challenges | Have every online player in full Netherite armour carrying an Elytra, at once | 450 |
-| ★★ | **Blood Brothers** | Super Challenges | Have four players die and all come back on the same Respawn Anchor within twenty seconds | 350 |
-| ★ | **Formation Flying** | Super Challenges | Hold a three-player Elytra formation within ten blocks above Y=200 | 200 |
-| ★★ | **Hospital Wing** | Super Challenges | Bring every online player from under two hearts back to full health inside one minute | 300 |
-| ★★ | **Insurance Policy** | Super Challenges | Have four players burn a Totem of Undying in one fight within five seconds | 400 |
-| ★★ | **King of the Hill** | Super Challenges | Stand on one block for sixty seconds while two other players try to knock you off it | 400 |
-| ★★ | **Living Will** | Super Challenges | Sign your estate over: hand another player Protection IV Netherite armour, all four pieces, and a Mending Elytra | 350 |
-| ★★ | **No Man Left Behind** | Super Challenges | Under two hearts, take a Golden Apple from another player in a Trial Chamber, an Ancient City, the Nether and the End | 300 |
-| ★★ | **Nobody Dies Tonight** | Super Challenges | Keep three or more players alive through a full in-game week with not one death between them | 450 |
-| ★★ | **Sculk Silence** | Super Challenges | Have three players survive two minutes together in the Deep Dark with no Warden | 350 |
-| ★★ | **The Gauntlet** | Super Challenges | Pass one Shulker Box through five different players across all three dimensions | 500 |
-| ★★ | **The Relay** | Super Challenges | Bring down the Wither, the Warden and the Ender Dragon, each of them finished off with a teammate lying dead in that fight | 500 |
+| ★★ | **All For One** | Super Challenges | Have every online player in full Netherite armour carrying an Elytra, at once (4 players) | 450 |
+| ★★ | **Blood Brothers** | Super Challenges | Have four players die and all come back on the same Respawn Anchor within twenty seconds (4 players) | 350 |
+| ★ | **Formation Flying** | Super Challenges | Hold a three-player Elytra formation within ten blocks above Y=200 (3 players) | 200 |
+| ★★ | **Hospital Wing** | Super Challenges | Bring every online player from under two hearts back to full health inside one minute (2 players) | 300 |
+| ★★ | **Insurance Policy** | Super Challenges | Have four players burn a Totem of Undying in one fight within five seconds (4 players) | 400 |
+| ★★ | **King of the Hill** | Super Challenges | Stand on one block for sixty seconds while two other players try to knock you off it (3 players) | 400 |
+| ★★ | **Living Will** | Super Challenges | Sign your estate over: hand another player Protection IV Netherite armour, all four pieces, and a Mending Elytra (2 players) | 350 |
+| ★★ | **No Man Left Behind** | Super Challenges | Under two hearts, take a Golden Apple from another player in a Trial Chamber, an Ancient City, the Nether and the End (2 players) | 300 |
+| ★★ | **Nobody Dies Tonight** | Super Challenges | Keep three or more players alive through a full in-game week with not one death between them (2 players) | 450 |
+| ★★ | **Sculk Silence** | Super Challenges | Have three players survive two minutes together in the Deep Dark with no Warden (3 players) | 350 |
+| ★★ | **The Gauntlet** | Super Challenges | Pass one Shulker Box through five different players across all three dimensions (5 players) | 500 |
+| ★★ | **The Relay** | Super Challenges | Bring down the Wither, the Warden and the Ender Dragon, each of them finished off with a teammate lying dead in that fight (3 players) | 500 |
 
 <details><summary>How these are detected</summary>
 
@@ -596,19 +596,19 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| · | **Ashes to Ashes** | The End | Have two players plunge into the End void within ten seconds of each other | 30 |
-| ★ | **Congregation** | The End | Have every online player present in the End at the same time | 150 |
-| ◆ | **Eye Contact** | The End | Fill an End Portal frame with two players seating six Eyes of Ender each | 65 |
-| ★ | **Ghost Protocol** | The End | Kill the Ender Dragon in a fight where every player who wounded it has died at least once | 250 |
-| ◆ | **Heir Apparent** | The End | Hand the Dragon Egg over to another player | 80 |
-| · | **Into the Void** | The End | Put an arrow in another player as they fall below Y=20 in the End | 50 |
-| ★ | **Pearl Swap** | The End | Two players throw Ender Pearls and trade places, each landing where the other was standing | 200 |
-| ★ | **Rocket Man** | The End | Pass a Firework Rocket to another player while you are both gliding | 120 |
-| ◆ | **Tag Team** | The End | Finish the Ender Dragon after at least two different players have wounded it | 60 |
-| ★ | **Tail Gunner** | The End | Land the killing blow on the Ender Dragon from the passenger seat of a Happy Ghast another player is flying | 250 |
-| ★★ | **The Ferryman Cometh** | The End | Carry a passenger on a Happy Ghast from the central End island out past a thousand blocks, using no Gateway | 500 |
-| ◆ | **Up and Away** | The End | Get three players levitating from Shulker bullets at the same time | 60 |
-| ◆ | **Wingman** | The End | Take off in an Elytra another player handed you | 50 |
+| · | **Ashes to Ashes** | The End | Have two players plunge into the End void within ten seconds of each other (2 players) | 30 |
+| ★ | **Congregation** | The End | Have every online player present in the End at the same time (4 players) | 150 |
+| ◆ | **Eye Contact** | The End | Fill an End Portal frame with two players seating six Eyes of Ender each (2 players) | 65 |
+| ★ | **Ghost Protocol** | The End | Kill the Ender Dragon in a fight where every player who wounded it has died at least once (4 players) | 250 |
+| ◆ | **Heir Apparent** | The End | Hand the Dragon Egg over to another player (2 players) | 80 |
+| · | **Into the Void** | The End | Put an arrow in another player as they fall below Y=20 in the End (2 players) | 50 |
+| ★ | **Pearl Swap** | The End | Two players throw Ender Pearls and trade places, each landing where the other was standing (2 players) | 200 |
+| ★ | **Rocket Man** | The End | Pass a Firework Rocket to another player while you are both gliding (2 players) | 120 |
+| ◆ | **Tag Team** | The End | Finish the Ender Dragon after at least two different players have wounded it (2 players) | 60 |
+| ★ | **Tail Gunner** | The End | Land the killing blow on the Ender Dragon from the passenger seat of a Happy Ghast another player is flying (2 players) | 250 |
+| ★★ | **The Ferryman Cometh** | The End | Carry a passenger on a Happy Ghast from the central End island out past a thousand blocks, using no Gateway (2 players) | 500 |
+| ◆ | **Up and Away** | The End | Get three players levitating from Shulker bullets at the same time (3 players) | 60 |
+| ◆ | **Wingman** | The End | Take off in an Elytra another player handed you (2 players) | 50 |
 
 <details><summary>How these are detected</summary>
 
@@ -632,33 +632,33 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
-| ★ | **Act of God** | Weaponry | Call lightning down onto another player with a Channeling Trident during a thunderstorm | 150 |
-| ★★ | **Aerial Superiority** | Weaponry | Kill another Elytra-flying player while flying with an Elytra yourself | 400 |
-| ◆ | **Arise, Sir Loin** | Weaponry | Tap a kneeling player on the shoulder for under half a heart with a Golden Sword, wearing a Golden Helmet | 45 |
-| · | **Arms Dealer** | Weaponry | Give another player a sword, then get killed by a player wielding one | 30 |
-| ★ | **Bare Knuckle Boxing** | Weaponry | Beat another player to death with your bare fists, carrying absolutely nothing yourself | 160 |
-| ◆ | **Blood Debt** | Weaponry | Strike down a player who killed somebody less than a minute ago | 70 |
-| ★ | **Butch and Sundance** | Weaponry | Kill a hostile mob with a Crossbow from a Boat that another player is steering | 130 |
-| · | **Catch of the Day** | Weaponry | Hook another player with a fishing rod and reel them in | 25 |
-| ◆ | **Cover Fire** | Weaponry | Snipe a monster that is hunting a player below two hearts, from at least fifty blocks away | 60 |
-| ★ | **Duel at Dawn** | Weaponry | Stand ten paces from another player and put an arrow in them the moment the sun comes up | 180 |
-| ★ | **Falling Out** | Weaponry | Kill another player with an anvil you dropped on them | 140 |
-| · | **First Blood** | Weaponry | Kill another player | 20 |
-| ★ | **Flawless Victory** | Weaponry | Kill another player while you are still on full health | 110 |
-| ★ | **Head of the Household** | Weaponry | Come away with another player's head after a Charged Creeper goes off | 150 |
-| · | **Highway Robbery** | Weaponry | Collect Emeralds another player dropped while you are holding a loaded Crossbow | 35 |
-| ★ | **Long Shot Rivalry** | Weaponry | Kill another player with a bow from at least 100 blocks away | 160 |
-| ★ | **Mutually Assured Destruction** | Weaponry | Trade kills with another player within the same second | 150 |
-| ★ | **Ransom Note** | Weaponry | Kill another player, then hand back a full set of Diamond armour and a Diamond Sword | 180 |
-| ◆ | **Riding Shotgun** | Weaponry | Land a Spear charge attack on a hostile monster from the back hump of a Camel another player is driving | 65 |
-| ◆ | **Rope-a-Dope** | Weaponry | Block twenty hits from another player with your shield without landing a single hit of your own | 65 |
-| ★ | **Second Wind** | Weaponry | Burn a Totem of Undying, then kill another player while still under five hearts and the totem's glow | 160 |
-| · | **Secret Handshake** | Weaponry | Trade bare-fisted blows with another player: land one and take one back | 25 |
-| ◆ | **Shield Wall** | Weaponry | Three players within eight blocks all block a hit with their shields at once | 70 |
-| ◆ | **Snowball War** | Weaponry | Hit three different players with snowballs within ten seconds | 60 |
-| ★ | **Spear Joust** | Weaponry | Land a Spear charge attack on another player while both of you are riding Horses | 170 |
-| ◆ | **Trident Tag** | Weaponry | Hit another player with a thrown trident and catch a Loyalty trident on the return | 55 |
-| ◆ | **Wind Duel** | Weaponry | Launch another player six blocks into the air with your Wind Charge | 70 |
+| ★ | **Act of God** | Weaponry | Call lightning down onto another player with a Channeling Trident during a thunderstorm (2 players) | 150 |
+| ★★ | **Aerial Superiority** | Weaponry | Kill another Elytra-flying player while flying with an Elytra yourself (2 players) | 400 |
+| ◆ | **Arise, Sir Loin** | Weaponry | Tap a kneeling player on the shoulder for under half a heart with a Golden Sword, wearing a Golden Helmet (2 players) | 45 |
+| · | **Arms Dealer** | Weaponry | Give another player a sword, then get killed by a player wielding one (2 players) | 30 |
+| ★ | **Bare Knuckle Boxing** | Weaponry | Beat another player to death with your bare fists, carrying absolutely nothing yourself (2 players) | 160 |
+| ◆ | **Blood Debt** | Weaponry | Strike down a player who killed somebody less than a minute ago (2 players) | 70 |
+| ★ | **Butch and Sundance** | Weaponry | Kill a hostile mob with a Crossbow from a Boat that another player is steering (2 players) | 130 |
+| · | **Catch of the Day** | Weaponry | Hook another player with a fishing rod and reel them in (2 players) | 25 |
+| ◆ | **Cover Fire** | Weaponry | Snipe a monster that is hunting a player below two hearts, from at least fifty blocks away (2 players) | 60 |
+| ★ | **Duel at Dawn** | Weaponry | Stand ten paces from another player and put an arrow in them the moment the sun comes up (2 players) | 180 |
+| ★ | **Falling Out** | Weaponry | Kill another player with an anvil you dropped on them (2 players) | 140 |
+| · | **First Blood** | Weaponry | Kill another player (2 players) | 20 |
+| ★ | **Flawless Victory** | Weaponry | Kill another player while you are still on full health (2 players) | 110 |
+| ★ | **Head of the Household** | Weaponry | Come away with another player's head after a Charged Creeper goes off (2 players) | 150 |
+| · | **Highway Robbery** | Weaponry | Collect Emeralds another player dropped while you are holding a loaded Crossbow (2 players) | 35 |
+| ★ | **Long Shot Rivalry** | Weaponry | Kill another player with a bow from at least 100 blocks away (2 players) | 160 |
+| ★ | **Mutually Assured Destruction** | Weaponry | Trade kills with another player within the same second (2 players) | 150 |
+| ★ | **Ransom Note** | Weaponry | Kill another player, then hand back a full set of Diamond armour and a Diamond Sword (2 players) | 180 |
+| ◆ | **Riding Shotgun** | Weaponry | Land a Spear charge attack on a hostile monster from the back hump of a Camel another player is driving (2 players) | 65 |
+| ◆ | **Rope-a-Dope** | Weaponry | Block twenty hits from another player with your shield without landing a single hit of your own (2 players) | 65 |
+| ★ | **Second Wind** | Weaponry | Burn a Totem of Undying, then kill another player while still under five hearts and the totem's glow (2 players) | 160 |
+| · | **Secret Handshake** | Weaponry | Trade bare-fisted blows with another player: land one and take one back (2 players) | 25 |
+| ◆ | **Shield Wall** | Weaponry | Three players within eight blocks all block a hit with their shields at once (3 players) | 70 |
+| ◆ | **Snowball War** | Weaponry | Hit three different players with snowballs within ten seconds (3 players) | 60 |
+| ★ | **Spear Joust** | Weaponry | Land a Spear charge attack on another player while both of you are riding Horses (2 players) | 170 |
+| ◆ | **Trident Tag** | Weaponry | Hit another player with a thrown trident and catch a Loyalty trident on the return (2 players) | 55 |
+| ◆ | **Wind Duel** | Weaponry | Launch another player six blocks into the air with your Wind Charge (2 players) | 70 |
 
 <details><summary>How these are detected</summary>
 
@@ -724,260 +724,260 @@ All 255 advancements, A to Z, with the tab each one appears in.
 
 | Advancement | Tab | | What you do |
 |---|---|---|---|
-| **Act of God** | Weaponry | ★ | Call lightning down onto another player with a Channeling Trident during a thunderstorm |
-| **Aerial Superiority** | Weaponry | ★★ | Kill another Elytra-flying player while flying with an Elytra yourself |
-| **Air Mail** | Nether | ★ | Hand an item to another player while you are both flying Happy Ghasts, a hundred and fifty blocks up |
-| **Air Rescue** | Nether | ★ | Fly your Happy Ghast under a falling player so they land on it after a fifty-block drop |
-| **Air Supply** | Potions | · | Have another player splash you with Water Breathing while you are underwater |
-| **All For One** | Super Challenges | ★★ | Have every online player in full Netherite armour carrying an Elytra, at once |
-| **Allay Express** | Adventure | ◆ | Put an Allay to work at a Note Block sorting Paper, then hand the post on to another player |
-| **Always the Passenger** | Animals | ★ | Climb aboard a Boat, a Camel and a Happy Ghast that another player is already riding |
-| **Anchor Management** | Nether | ◆ | Charge a Respawn Anchor with Glowstone another player brought you |
-| **Antipodes** | Statistics | ★ | Have two players stand on exactly mirrored coordinates, at least three thousand blocks from the world origin |
-| **Arise, Sir Loin** | Weaponry | ◆ | Tap a kneeling player on the shoulder for under half a heart with a Golden Sword, wearing a Golden Helmet |
-| **Arms Dealer** | Weaponry | · | Give another player a sword, then get killed by a player wielding one |
-| **Ashes to Ashes** | The End | · | Have two players plunge into the End void within ten seconds of each other |
-| **Assembly Line** | Redstone | ★ | Take five Iron Ingots from one player and a Chest from another, craft a Hopper, and hand it on down the line |
-| **Assist** | Monsters | ◆ | Finish off a monster that a teammate had already beaten down below two hearts |
-| **Avenged** | Monsters | ◆ | Shoot down a monster that has locked onto another player at least eight blocks away |
-| **Bad Influence** | Potions | ◆ | Drink an Ominous Bottle a teammate handed you, then go on to win the raid |
-| **Bait and Switch** | Monsters | ★ | Loot an Ancient City chest while a Warden is chasing another player at least thirty blocks away |
-| **Bare Knuckle Boxing** | Weaponry | ★ | Beat another player to death with your bare fists, carrying absolutely nothing yourself |
-| **Barn Raising** | Building | ◆ | Have three players each place a hundred blocks inside the same chunk |
-| **Bastion Buddy** | Nether | ◆ | Loot a Bastion treasure chest in the Golden Helmet another player handed you |
-| **Beacon of Hope** | Nether | ★ | Craft a Beacon from a Nether Star another player handed you |
-| **Bedside Manner** | Adventure | ★ | Cure a Zombie Villager with a Golden Apple another player handed you, then open the surgery and trade with your patient |
-| **Blimpin' Ain't Easy** | Statistics | ◆ | Fly 5 km on a Happy Ghast without landing, with at least one passenger aboard the whole time |
-| **Blood Brothers** | Super Challenges | ★★ | Have four players die and all come back on the same Respawn Anchor within twenty seconds |
-| **Blood Debt** | Weaponry | ◆ | Strike down a player who killed somebody less than a minute ago |
-| **Body Count** | Statistics | ◆ | Have five players who have each died at least ten times all be online together |
-| **Bodyguard** | Nether | · | Block a Ghast's fireball with a Shield another player put in your hands |
-| **Bomb Disposal** | Monsters | ◆ | Put a Creeper down while it is about to go off in another player's face |
-| **Book Club** | Enchanting | · | Enchant a Book and put the Enchanted Book straight into another player's hands |
-| **Bounty Hunter** | Monsters | · | Get paid in Emeralds by another player within a minute of hunting a monster down |
-| **Bread Winner** | Statistics | ★ | Hand food to other players five hundred times |
-| **Bricked In** | Building | · | Get walled in on all six sides by another player |
-| **Bring a Torch** | Mining | · | Take a Torch off another player while you are standing in pitch darkness |
-| **Bumper Carts** | Redstone | · | Ram another player's Minecart hard enough to stop you both dead |
-| **Bunk Beds** | Building | · | Two players sleep at the same time in beds stacked one directly above the other |
-| **Butch and Sundance** | Weaponry | ★ | Kill a hostile mob with a Crossbow from a Boat that another player is steering |
-| **Campfire Stories** | Building | · | Get four players crouched together beside one lit Campfire at night |
-| **Caravan of Love** | Animals | ◆ | Hitch your Llama to another player's caravan with a Lead they handed you |
-| **Care Package** | Adventure | ◆ | Hand another player every piece of an Iron armour set |
-| **Carpool** | Animals | · | Share a boat with another player |
-| **Catch of the Day** | Weaponry | · | Hook another player with a fishing rod and reel them in |
-| **Cavalry Charge** | Animals | ◆ | Four players in the saddle on four Horses, all inside fifteen blocks |
-| **Caveat Emptor** | Potions | · | Drink a Potion of Harming that another player handed you |
-| **Changing of the Guard** | Nether | ★ | Climb aboard a Happy Ghast above Y=150 that another player is already flying |
-| **Charity Case** | Adventure | ◆ | Be handed a helmet, a chestplate, leggings and boots by other players |
-| **Chemical Warfare** | Potions | ★ | Poison three different players with a single Lingering Potion |
-| **Cherry Picker** | Building | ◆ | Place a block above Y=200 from a Happy Ghast that another player is flying |
-| **Closing Time** | Adventure | ◆ | Last orders: buy Ice from a Wandering Trader with Emeralds another player handed you, and pass the ice straight back |
-| **Cold Chain** | Biomes | ◆ | Deliver a Bucket of Powder Snow to another player standing in a desert |
-| **Cold Shoulder** | Biomes | ◆ | Finish off another player who is frozen solid inside Powder Snow |
-| **Community Beacon** | Building | ★ | Have four players receiving an effect from the same beacon at once |
-| **Conduit Club** | Biomes | ◆ | Have three players share Conduit Power huddled within eight blocks of each other |
-| **Congregation** | The End | ★ | Have every online player present in the End at the same time |
-| **Conveyor Belt** | Redstone | ◆ | Float an item down a water channel to a player standing fifty blocks away |
-| **Convoy** | Redstone | ◆ | Four players rolling along in four Minecarts at the same time |
-| **Corporate Raiders** | Nether | ◆ | Raid a Bastion's Piglins with a partner: barter inside it on gold they threw you |
-| **Cover Fire** | Weaponry | ◆ | Snipe a monster that is hunting a player below two hearts, from at least fifty blocks away |
-| **Crash Test Dummy** | Statistics | ◆ | Take five hundred points of damage from other players |
-| **Crow's Nest** | Biomes | · | Look through a Spyglass out over the deep ocean from a Boat you are sharing with another player |
-| **Dead Drop** | Nether | ◆ | Leave a parcel on the ground in the Nether and be a hundred blocks away when another player collects it |
-| **Death and Taxes** | Statistics | ◆ | Collect the experience another player dropped when they died |
-| **Death Do Us Part** | Monsters | · | Have two players killed by Creepers in the same instant, in the same place |
-| **Deep Recovery** | Mining | ◆ | Be there when another player falls below Y=-50, then hand their belongings back at sea level |
-| **Detox** | Potions | · | Drink a Milk Bucket another player gave you to wash the Wither effect off |
-| **Diamond Hands** | Adventure | ◆ | Hand another player a full stack of sixty-four Diamonds |
-| **Dig Me Out** | Mining | · | Free a player buried in Gravel by breaking the block over their head |
-| **Distraction Tactics** | Adventure | · | Ring a Bell to pull raiders off a teammate who is down to three hearts or less |
-| **Door Gunner** | Nether | ◆ | Shoot a Ghast down with a Crossbow from the passenger seat of a Happy Ghast another player is flying |
-| **Double Booking** | Adventure | · | Serve two customers at one counter: buy goods from a Villager and hand goods of that kind straight to another player |
-| **Drag Strip** | Redstone | ◆ | Race another player in Minecarts on parallel rails, side by side within four blocks at full speed |
-| **Dress Code** | Adventure | ◆ | Three players in full armour of the same material with the same armour trim |
-| **Drop Shipping** | Adventure | ◆ | Throw an item down to another player standing a hundred blocks below you |
-| **Duel at Dawn** | Weaponry | ★ | Stand ten paces from another player and put an arrow in them the moment the sun comes up |
-| **Dying Wish** | Adventure | ◆ | Hand your belongings to another player, then let them kill you |
-| **Emergency Exit** | Nether | ◆ | Get a player who is below two hearts out of the Nether — both of you through the portal inside five seconds |
-| **Escort Mission** | Adventure | ◆ | Guide a player blinded by a Carved Pumpkin two hundred blocks while they stay within five blocks of you |
-| **Escort Service** | Nether | ★ | Walk five hundred blocks through the Nether with nothing on you, guarded and untouched |
-| **Even Split** | Adventure | · | Hand another player exactly thirty-two Gold Ingots while still holding thirty-two yourself |
-| **Eye Contact** | The End | ◆ | Fill an End Portal frame with two players seating six Eyes of Ender each |
-| **Fair Trade** | Adventure | ◆ | Swap items with another player: you each pick up what the other dropped within 5 seconds |
-| **Falling Out** | Weaponry | ★ | Kill another player with an anvil you dropped on them |
-| **Farm Share** | Farming | ◆ | Give another player a stack of Bread and take a stack of their crops back |
-| **Fashion Police** | Adventure | ★ | Five players each wearing a full suit trimmed with a different material at the same time |
-| **Ferryman** | Adventure | ◆ | Row a player who has just respawned with nothing a thousand blocks in a boat |
-| **Ferryman's Fee** | Biomes | ◆ | Sail 2,000 blocks in one Boat with another player aboard |
-| **Field Hospital** | Nether | ★ | Bring a Beacon to full power, then get patched up under it with another player's Regeneration |
-| **Field Medic** | Potions | ◆ | Heal a player who is below three hearts with a Splash Potion of Regeneration |
-| **Fire Sale** | Adventure | ◆ | Catch a Water Bucket thrown by another player while you are burning |
-| **Fireproof Friendship** | Potions | ◆ | Be splashed with Fire Resistance by another player while you are standing in lava |
-| **Firework Finale** | Building | ◆ | Have four players launch fireworks together within three seconds |
-| **First Blood** | Weaponry | · | Kill another player |
-| **Flawless Victory** | Weaponry | ★ | Kill another player while you are still on full health |
-| **Formation Flying** | Super Challenges | ★ | Hold a three-player Elytra formation within ten blocks above Y=200 |
-| **Gallery Opening** | Building | ◆ | Have four players each hang a Painting on the same wall inside a minute |
-| **Ghast Fleet** | Nether | ★ | Four players out on four separate Happy Ghasts, all within twenty blocks |
-| **Ghost Protocol** | The End | ★ | Kill the Ender Dragon in a fight where every player who wounded it has died at least once |
-| **Ghost Train** | Nether | ◆ | Take a Chest Minecart through a Nether portal and hand it to another player on the far side |
-| **Gift Economy** | Statistics | ★ | Hand items to other players five hundred times |
-| **Going, Going, Gone** | Adventure | ★★ | Hold an auction: three players pass Emeralds hand to hand on one spot inside thirty seconds |
-| **Golden Handshake** | Farming | ◆ | Eat an Enchanted Golden Apple another player threw you, while you are below two hearts |
-| **Good Boy, Someone Else's** | Animals | · | Repair a Wolf's armour with Armadillo Scutes out of another player's pocket |
-| **Grand Central** | Redstone | ★★ | Four players who have each laid two hundred Rails all roll into the same station at once |
-| **Grant Money** | Enchanting | ★ | Have another player throw a whole stack of Bottles o' Enchanting at your feet and pocket every level of it |
-| **Group Buff** | Potions | ◆ | Have four players together share an identical set of three or more effects |
-| **Group Nap** | Adventure | ◆ | Every online player sleeps during the same night |
-| **Group Therapy** | Farming | ◆ | Have three players all on three hearts or less eat a Golden Apple within three seconds of each other |
-| **Guard Dog** | Animals | · | Tame a Wolf with Bones another player dug up for you |
-| **Guardian Angel** | Monsters | ◆ | Cut down in melee a monster that was hunting another player |
-| **Guest Room** | Building | · | Sleep in a bed another player made and handed to you |
-| **Hand-Me-Down** | Enchanting | · | Wear a piece of armour with Curse of Binding that another player handed to you |
-| **Have Your Cake** | Farming | · | Have four players eat Cake side by side inside thirty seconds |
-| **Head of the Household** | Weaponry | ★ | Come away with another player's head after a Charged Creeper goes off |
-| **Heads Up** | Monsters | · | Hand another player a mob head |
-| **Heart Surgeon** | Statistics | ★ | Supply other players with a hundred hearts of medicine: Golden Apples, Golden Carrots, Steak, and Splash Potions of Healing and Regeneration |
-| **Heart Surgery** | Monsters | ★ | Smash a Creaking Heart while its Creaking is fixated on a different player |
-| **Heir Apparent** | The End | ◆ | Hand the Dragon Egg over to another player |
-| **Highway Robbery** | Weaponry | · | Collect Emeralds another player dropped while you are holding a loaded Crossbow |
-| **Hog Wild** | Animals | · | Ride a saddled Pig and look across at another player riding one, within five blocks |
-| **Hold the Line** | Monsters | ◆ | Block a Ravager's charge with your shield while a teammate kills it from behind |
-| **Homing Pigeon** | Mining | ★ | Be handed a Compass by another player and use it on a Lodestone at least 64 blocks away |
-| **Horse Trading** | Animals | ◆ | Pass a spare Saddle to another player while you are both mounted on Horses |
-| **Hospital Wing** | Super Challenges | ★★ | Bring every online player from under two hearts back to full health inside one minute |
-| **Hot Potato** | Adventure | ★ | Pass items down a line of four players within ten seconds |
-| **Human Shield** | Monsters | ★ | Bring down a Warden while it is locked on to another player instead of you |
-| **Inheritance** | Adventure | ◆ | Bank thirty experience levels off Bottles o' Enchanting another player handed you |
-| **Insurance Policy** | Super Challenges | ★★ | Have four players burn a Totem of Undying in one fight within five seconds |
-| **Into the Void** | The End | · | Put an arrow in another player as they fall below Y=20 in the End |
-| **King of the Hill** | Super Challenges | ★★ | Stand on one block for sixty seconds while two other players try to knock you off it |
-| **Lapis Loan** | Enchanting | · | Enchant an item using Lapis Lazuli that another player handed you |
-| **Last Stand** | Monsters | ★ | Kill a Warden after every other player who joined the fight has already died |
-| **Library Card** | Building | · | Stock a Chiseled Bookshelf, then lend one of the books out to another player |
-| **Living Will** | Super Challenges | ★★ | Sign your estate over: hand another player Protection IV Netherite armour, all four pieces, and a Mending Elytra |
-| **Loan Shark** | Mining | ★ | Lend another player a Diamond Pickaxe and take it back worn past half its life |
-| **Long Distance Relationship** | Statistics | ◆ | Have two players at least 10,000 blocks apart in the same dimension |
-| **Long Shot Rivalry** | Weaponry | ★ | Kill another player with a bow from at least 100 blocks away |
-| **Lost and Found** | Adventure | ◆ | Get killed out there, then have another player bring you a Recovery Compass |
-| **Man Overboard** | Biomes | · | Reel a swimming player back to your boat with a Fishing Rod, out over the deep ocean |
-| **Marco Polo** | Potions | ◆ | Look straight at a player who has the Invisibility effect, from within three blocks |
-| **Market Day** | Adventure | ★ | Work the whole market on somebody else's coin: trade with a Farmer, a Butcher, a Cartographer and a Mason using Emeralds another player keeps handing you |
-| **Matching Outfits** | Adventure | · | Two players wearing identically dyed leather armour, all four pieces |
-| **Medevac** | Nether | ◆ | Carry a player below three hearts two hundred blocks on your Happy Ghast without them dying |
-| **Milk Run** | Potions | ◆ | Hand a Bucket of Milk to a player who is Poisoned, so they can wash it off |
-| **Mind the Gap** | Redstone | · | Lay the rail ahead of another player's rolling Minecart |
-| **Mutually Assured Destruction** | Weaponry | ★ | Trade kills with another player within the same second |
-| **Netherite Deal** | Nether | ★ | Take a Netherite Ingot off another player and be seen in the Netherite Chestplate it became |
-| **Night Watch** | Monsters | · | Have another player kill a monster within ten blocks of you while you sleep |
-| **No Man Left Behind** | Super Challenges | ★★ | Under two hearts, take a Golden Apple from another player in a Trial Chamber, an Ancient City, the Nether and the End |
-| **Noble Sacrifice** | Monsters | ★ | Be killed by the Wither in a fight that a teammate goes on to win |
-| **Nobody Dies Tonight** | Super Challenges | ★★ | Keep three or more players alive through a full in-game week with not one death between them |
-| **Orchestra** | Adventure | ★ | Four players sound four different Goat Horns within five seconds |
-| **Outsourced** | Mining | ◆ | Craft a Diamond Pickaxe from three Diamonds another player handed you |
-| **Pack Leaders** | Animals | ★ | Three players each with an armoured Wolf at heel, all within ten blocks |
-| **Park and Ride** | Redstone | · | Ride a Minecart another player handed you |
-| **Parting Gift** | Enchanting | ◆ | Take a Curse of Vanishing item from a teammate, then die and watch it disappear |
-| **Passing the Lead** | Animals | · | Take a Lead from another player's hand and leash an animal with it |
-| **Passing the Torch** | Mining | · | Place a Copper Torch that another player handed to you |
-| **Pay It Forward** | Adventure | ◆ | Cheat death with a Totem of Undying that another player dropped for you |
-| **Pearl Swap** | The End | ★ | Two players throw Ender Pearls and trade places, each landing where the other was standing |
-| **Pharmacy Run** | Potions | ◆ | Hand out Potions of Healing, Strength and Swiftness to other players |
-| **Philanthropist** | Statistics | ★★ | Give away a full stack of sixty-four Diamonds in one go |
-| **Photo Finish** | Animals | ◆ | Two players gallop across the same ground within three blocks of each other, both moving faster than ten blocks a second |
-| **Piece of Cake** | Farming | · | Hand a Cake to another player and have one handed back to you |
-| **Pincer Movement** | Monsters | · | Have two players hit the same monster from opposite sides at the same moment |
-| **Pit Crew** | Animals | · | Feed a Horse while another player is sitting in the saddle |
-| **Pocket Money** | Adventure | · | Hand another player a Bundle already packed with Bread, Torches, Arrows and Coal |
-| **Pony Express** | Adventure | ◆ | Carry the post: take a Written Book from another player in the Overworld and hand it on in the Nether |
-| **Potluck** | Farming | ◆ | Have five players each eat a different food within ten seconds, all inside eight blocks |
-| **Raid Party** | Adventure | ★ | Three players holding Hero of the Village at the same time |
-| **Rail Retrieval** | Redstone | ◆ | Lay rail through the Nether and take delivery of a Chest Minecart from another player |
-| **Ransom Note** | Weaponry | ★ | Kill another player, then hand back a full set of Diamond armour and a Diamond Sword |
-| **Read the Room** | Enchanting | ◆ | Enchant an item at a table another player ringed with bookshelves |
-| **Release the Hounds** | Animals | · | Have your tamed Wolves finish off another player |
-| **Repair Job** | Enchanting | ◆ | Wear a Pickaxe down to its last few uses, hand it to another player, and get one back with its edge restored |
-| **Required Reading** | Adventure | · | Take a signed Written Book off another player and set it out on a Lectern |
-| **Reservoir Dogs** | Animals | ◆ | Set your tamed Wolf on another player's tamed Wolf and win |
-| **Rest In Pieces** | Building | · | Cut another player down in melee, then plant a Wither Rose in their memory |
-| **Reunion** | Adventure | ◆ | Meet another player after you have each spent ten minutes with nobody within 5,000 blocks |
-| **Riding Shotgun** | Weaponry | ◆ | Land a Spear charge attack on a hostile monster from the back hump of a Camel another player is driving |
-| **Riptide Rampage** | Enchanting | ★ | Riptide-launch yourself into another player and kill them with the Trident on the way through |
-| **Rocket Man** | The End | ★ | Pass a Firework Rocket to another player while you are both gliding |
-| **Rope-a-Dope** | Weaponry | ◆ | Block twenty hits from another player with your shield without landing a single hit of your own |
-| **Runaway Train** | Redstone | ◆ | Take a TNT blast another player set off while you are riding a Minecart |
-| **Scale Model** | Nether | · | Stand together in the Nether, then come out of two Overworld portals more than 800 blocks apart |
-| **Schadenfreude** | Adventure | · | Watch another player burn through a Spyglass from at least twenty blocks away |
-| **Sculk Silence** | Super Challenges | ★★ | Have three players survive two minutes together in the Deep Dark with no Warden |
-| **Sea Legs** | Biomes | · | Stand on the roof of a Boat another player is sailing for two hundred blocks |
-| **Second Wind** | Weaponry | ★ | Burn a Totem of Undying, then kill another player while still under five hearts and the totem's glow |
-| **Second-Hand Knowledge** | Enchanting | ◆ | Take an Enchanted Book from another player and end up with an enchanted tool |
-| **Secret Handshake** | Weaponry | · | Trade bare-fisted blows with another player: land one and take one back |
-| **Secret Santa** | Adventure | ★ | Four players in one place swapping items within ten seconds |
-| **Seed Exchange** | Farming | ◆ | Trade ancient seeds with another player: hand a Sniffer seed over and be handed one back |
-| **Serial Offender** | Statistics | ★★ | Kill fifty other players |
-| **Shared Custody** | Adventure | ★ | Feed an animal that another player named with a Name Tag |
-| **Sharpshooter Surgeon** | Potions | · | Patch a teammate up by shooting them with an Arrow of Healing |
-| **Shield Wall** | Weaponry | ◆ | Three players within eight blocks all block a hit with their shields at once |
-| **Signal Boost** | Redstone | ★ | Two players place thirty Repeaters each, side by side, inside one minute |
-| **Silent Duel** | Mining | ★ | Kill another player in the Deep Dark while neither of you is under the Darkness a Shrieker inflicts |
-| **Skull Session** | Nether | ★ | Summon the Wither with a Wither Skeleton Skull another player pulled out of the Nether for you |
-| **Snowball War** | Weaponry | ◆ | Hit three different players with snowballs within ten seconds |
-| **Soup Kitchen** | Farming | ◆ | Be handed food by another player while your hunger is down to three shanks, and eat it |
-| **Sparring Partner** | Enchanting | ★ | Take ten hearts off another player with one swing, no Mace and no Spear charge |
-| **Sparring Partners** | Statistics | ★ | Trade a hundred hits with another player without either of you dying |
-| **Spear Joust** | Weaponry | ★ | Land a Spear charge attack on another player while both of you are riding Horses |
-| **Special Delivery** | Redstone | ◆ | Drop a parcel on the line and have a teammate scoop it up from a rolling Minecart eight blocks away |
-| **Split Shift** | Mining | ◆ | Hand a full stack of sixty-four Iron Ingots straight into another player's hands |
-| **Split the Party** | Adventure | ◆ | Have three players in three different dimensions at the same moment |
-| **Starter Kit** | Adventure | ◆ | Take a sword, a pickaxe and something to eat from other players within thirty seconds of dying |
-| **Stew Roulette** | Farming | · | Eat a Suspicious Stew another player cooked and served you |
-| **Sting Operation** | Animals | ◆ | Anger a beehive so that the bees kill another player |
-| **Stop, Drop and Roll** | Potions | · | Put out a burning player with a Splash Water Bottle |
-| **Storm Chasers** | Enchanting | ◆ | Riptide-launch within a second of another player and land within five blocks of them |
-| **Submarine Crew** | Biomes | ◆ | Three players riding three Nautiluses within fifteen blocks of each other |
-| **Swap Meet** | Adventure | ★ | Swap the whole stall with another player: hand over a Shulker Box, a Bundle and a Chest Minecart, and be handed all three back |
-| **Synchronised Swimming** | Biomes | · | Have four players all swimming at the same moment within six blocks of each other |
-| **Tag Team** | The End | ◆ | Finish the Ender Dragon after at least two different players have wounded it |
-| **Tail Gunner** | The End | ★ | Land the killing blow on the Ender Dragon from the passenger seat of a Happy Ghast another player is flying |
-| **Taking One For The Team** | Monsters | ★ | Die beside a teammate who is down to half a heart, and have them live out the next minute |
-| **Team Photo** | Adventure | · | Squeeze four players into a three-block radius |
-| **Thar She Blows** | Biomes | ◆ | Kill a Drowned with a thrown Trident from a boat another player is sharing with you |
-| **The Amazing Race** | Statistics | ★★ | Leave one spot with another player, both cover 5,000 blocks, and both be back inside a minute of each other |
-| **The Cousteau Manoeuvre** | Biomes | ★ | Ride Nautiluses forty blocks through an Ocean Monument with another player, neither surfacing nor dismounting |
-| **The Ferryman Cometh** | The End | ★★ | Carry a passenger on a Happy Ghast from the central End island out past a thousand blocks, using no Gateway |
-| **The Gauntlet** | Super Challenges | ★★ | Pass one Shulker Box through five different players across all three dimensions |
-| **The Great Train Robbery** | Redstone | ◆ | Kill another player while they are riding in a Minecart |
-| **The Merchant of Venice** | Biomes | · | Complete an item swap with another player while you are both sitting in boats on water |
-| **The Nether Express** | Nether | ◆ | Have four players pass through the same Nether portal within ten seconds |
-| **The Relay** | Super Challenges | ★★ | Bring down the Wither, the Warden and the Ender Dragon, each of them finished off with a teammate lying dead in that fight |
-| **The Wave** | Adventure | ★ | Four players jump one after another, each within half a second of the last |
-| **The Weakest Link** | Potions | · | Kill another player while they are under the Weakness effect |
-| **Thorn in Your Side** | Enchanting | ★ | Kill another player with nothing but the Thorns on your own armour |
-| **Through the Looking Glass** | Nether | ◆ | Share one Boat with another player on both sides of a Nether portal |
-| **Toll Booth** | Redstone | · | Put up an Iron Door and charge another player sixteen Emeralds for passage |
-| **Torpedo Run** | Biomes | ◆ | Hit another player riding a Nautilus with a thrown Trident while riding one yourself |
-| **Total Party Kill** | Monsters | ★ | Wipe out: all three or more players on the server dead inside the same ten seconds |
-| **Trading Floor** | Statistics | ★ | Rack up a thousand Villager trades between two or more players |
-| **Trading Post** | Building | ◆ | Run a shop: stock a Shelf, put up a Sign, and be paid in Emeralds by a customer |
-| **Trapped!** | Redstone | · | Have another player set off a trapped chest that you just placed |
-| **Trauma Team** | Potions | ★ | Carry Regeneration, Strength, Swiftness, Fire Resistance and Resistance all at once, the last of them splashed onto you by another player |
-| **Triage** | Potions | ◆ | Heal three players who are all below three hearts with a single Splash Potion of Healing |
-| **Trial by Fire** | Monsters | · | Set three players alight at once and have all three put themselves out and live |
-| **Trident Tag** | Weaponry | ◆ | Hit another player with a thrown trident and catch a Loyalty trident on the return |
-| **Trophy Wall** | Building | · | Take another player's head off their hands and mount it in an Item Frame |
-| **Trust Fall** | Redstone | ★ | Survive a thirty-block fall into water another player placed for you |
-| **Tunnel Vision** | Mining | ◆ | Dig toward each other from at least 200 blocks apart until your two tunnels meet |
-| **Twin Maps** | Adventure | · | Copy a Map and hand the duplicate to another player, so you are both reading the same ground |
-| **Two-Hump Transit** | Animals | · | Take a Camel out with a second player riding the other hump |
-| **Up and Away** | The End | ◆ | Get three players levitating from Shulker bullets at the same time |
-| **Vault Crew** | Adventure | ★ | Four players each unlock the same Ominous Vault |
-| **Vending Machine** | Redstone | ★★ | Have another player feed an Emerald into your Hopper and take what your Dispenser gives back |
-| **Warden Party** | Monsters | ★★ | Put down a Warden with three players inside sixteen blocks, none of them recently killed |
-| **Warm Welcome** | Biomes | · | Reach a player sunk in Powder Snow with Flint and Steel already in your hand |
-| **Wind Duel** | Weaponry | ◆ | Launch another player six blocks into the air with your Wind Charge |
-| **Wingman** | The End | ◆ | Take off in an Elytra another player handed you |
-| **Wither Committee** | Monsters | ★ | Bring down a Wither with three or more players standing within twenty blocks |
+| **Act of God** | Weaponry | ★ | Call lightning down onto another player with a Channeling Trident during a thunderstorm (2 players) |
+| **Aerial Superiority** | Weaponry | ★★ | Kill another Elytra-flying player while flying with an Elytra yourself (2 players) |
+| **Air Mail** | Nether | ★ | Hand an item to another player while you are both flying Happy Ghasts, a hundred and fifty blocks up (2 players) |
+| **Air Rescue** | Nether | ★ | Fly your Happy Ghast under a falling player so they land on it after a fifty-block drop (2 players) |
+| **Air Supply** | Potions | · | Have another player splash you with Water Breathing while you are underwater (2 players) |
+| **All For One** | Super Challenges | ★★ | Have every online player in full Netherite armour carrying an Elytra, at once (4 players) |
+| **Allay Express** | Adventure | ◆ | Put an Allay to work at a Note Block sorting Paper, then hand the post on to another player (2 players) |
+| **Always the Passenger** | Animals | ★ | Climb aboard a Boat, a Camel and a Happy Ghast that another player is already riding (2 players) |
+| **Anchor Management** | Nether | ◆ | Charge a Respawn Anchor with Glowstone another player brought you (2 players) |
+| **Antipodes** | Statistics | ★ | Have two players stand on exactly mirrored coordinates, at least three thousand blocks from the world origin (2 players) |
+| **Arise, Sir Loin** | Weaponry | ◆ | Tap a kneeling player on the shoulder for under half a heart with a Golden Sword, wearing a Golden Helmet (2 players) |
+| **Arms Dealer** | Weaponry | · | Give another player a sword, then get killed by a player wielding one (2 players) |
+| **Ashes to Ashes** | The End | · | Have two players plunge into the End void within ten seconds of each other (2 players) |
+| **Assembly Line** | Redstone | ★ | Take five Iron Ingots from one player and a Chest from another, craft a Hopper, and hand it on down the line (2 players) |
+| **Assist** | Monsters | ◆ | Finish off a monster that a teammate had already beaten down below two hearts (2 players) |
+| **Avenged** | Monsters | ◆ | Shoot down a monster that has locked onto another player at least eight blocks away (2 players) |
+| **Bad Influence** | Potions | ◆ | Drink an Ominous Bottle a teammate handed you, then go on to win the raid (2 players) |
+| **Bait and Switch** | Monsters | ★ | Loot an Ancient City chest while a Warden is chasing another player at least thirty blocks away (2 players) |
+| **Bare Knuckle Boxing** | Weaponry | ★ | Beat another player to death with your bare fists, carrying absolutely nothing yourself (2 players) |
+| **Barn Raising** | Building | ◆ | Have three players each place a hundred blocks inside the same chunk (3 players) |
+| **Bastion Buddy** | Nether | ◆ | Loot a Bastion treasure chest in the Golden Helmet another player handed you (2 players) |
+| **Beacon of Hope** | Nether | ★ | Craft a Beacon from a Nether Star another player handed you (2 players) |
+| **Bedside Manner** | Adventure | ★ | Cure a Zombie Villager with a Golden Apple another player handed you, then open the surgery and trade with your patient (2 players) |
+| **Blimpin' Ain't Easy** | Statistics | ◆ | Fly 5 km on a Happy Ghast without landing, with at least one passenger aboard the whole time (2 players) |
+| **Blood Brothers** | Super Challenges | ★★ | Have four players die and all come back on the same Respawn Anchor within twenty seconds (4 players) |
+| **Blood Debt** | Weaponry | ◆ | Strike down a player who killed somebody less than a minute ago (2 players) |
+| **Body Count** | Statistics | ◆ | Have five players who have each died at least ten times all be online together (5 players) |
+| **Bodyguard** | Nether | · | Block a Ghast's fireball with a Shield another player put in your hands (2 players) |
+| **Bomb Disposal** | Monsters | ◆ | Put a Creeper down while it is about to go off in another player's face (2 players) |
+| **Book Club** | Enchanting | · | Enchant a Book and put the Enchanted Book straight into another player's hands (2 players) |
+| **Bounty Hunter** | Monsters | · | Get paid in Emeralds by another player within a minute of hunting a monster down (2 players) |
+| **Bread Winner** | Statistics | ★ | Hand food to other players five hundred times (2 players) |
+| **Bricked In** | Building | · | Get walled in on all six sides by another player (2 players) |
+| **Bring a Torch** | Mining | · | Take a Torch off another player while you are standing in pitch darkness (2 players) |
+| **Bumper Carts** | Redstone | · | Ram another player's Minecart hard enough to stop you both dead (2 players) |
+| **Bunk Beds** | Building | · | Two players sleep at the same time in beds stacked one directly above the other (2 players) |
+| **Butch and Sundance** | Weaponry | ★ | Kill a hostile mob with a Crossbow from a Boat that another player is steering (2 players) |
+| **Campfire Stories** | Building | · | Get four players crouched together beside one lit Campfire at night (4 players) |
+| **Caravan of Love** | Animals | ◆ | Hitch your Llama to another player's caravan with a Lead they handed you (2 players) |
+| **Care Package** | Adventure | ◆ | Hand another player every piece of an Iron armour set (2 players) |
+| **Carpool** | Animals | · | Share a boat with another player (2 players) |
+| **Catch of the Day** | Weaponry | · | Hook another player with a fishing rod and reel them in (2 players) |
+| **Cavalry Charge** | Animals | ◆ | Four players in the saddle on four Horses, all inside fifteen blocks (4 players) |
+| **Caveat Emptor** | Potions | · | Drink a Potion of Harming that another player handed you (2 players) |
+| **Changing of the Guard** | Nether | ★ | Climb aboard a Happy Ghast above Y=150 that another player is already flying (2 players) |
+| **Charity Case** | Adventure | ◆ | Be handed a helmet, a chestplate, leggings and boots by other players (2 players) |
+| **Chemical Warfare** | Potions | ★ | Poison three different players with a single Lingering Potion (3 players) |
+| **Cherry Picker** | Building | ◆ | Place a block above Y=200 from a Happy Ghast that another player is flying (2 players) |
+| **Closing Time** | Adventure | ◆ | Last orders: buy Ice from a Wandering Trader with Emeralds another player handed you, and pass the ice straight back (2 players) |
+| **Cold Chain** | Biomes | ◆ | Deliver a Bucket of Powder Snow to another player standing in a desert (2 players) |
+| **Cold Shoulder** | Biomes | ◆ | Finish off another player who is frozen solid inside Powder Snow (2 players) |
+| **Community Beacon** | Building | ★ | Have four players receiving an effect from the same beacon at once (4 players) |
+| **Conduit Club** | Biomes | ◆ | Have three players share Conduit Power huddled within eight blocks of each other (3 players) |
+| **Congregation** | The End | ★ | Have every online player present in the End at the same time (4 players) |
+| **Conveyor Belt** | Redstone | ◆ | Float an item down a water channel to a player standing fifty blocks away (2 players) |
+| **Convoy** | Redstone | ◆ | Four players rolling along in four Minecarts at the same time (4 players) |
+| **Corporate Raiders** | Nether | ◆ | Raid a Bastion's Piglins with a partner: barter inside it on gold they threw you (2 players) |
+| **Cover Fire** | Weaponry | ◆ | Snipe a monster that is hunting a player below two hearts, from at least fifty blocks away (2 players) |
+| **Crash Test Dummy** | Statistics | ◆ | Take five hundred points of damage from other players (2 players) |
+| **Crow's Nest** | Biomes | · | Look through a Spyglass out over the deep ocean from a Boat you are sharing with another player (2 players) |
+| **Dead Drop** | Nether | ◆ | Leave a parcel on the ground in the Nether and be a hundred blocks away when another player collects it (2 players) |
+| **Death and Taxes** | Statistics | ◆ | Collect the experience another player dropped when they died (2 players) |
+| **Death Do Us Part** | Monsters | · | Have two players killed by Creepers in the same instant, in the same place (2 players) |
+| **Deep Recovery** | Mining | ◆ | Be there when another player falls below Y=-50, then hand their belongings back at sea level (2 players) |
+| **Detox** | Potions | · | Drink a Milk Bucket another player gave you to wash the Wither effect off (2 players) |
+| **Diamond Hands** | Adventure | ◆ | Hand another player a full stack of sixty-four Diamonds (2 players) |
+| **Dig Me Out** | Mining | · | Free a player buried in Gravel by breaking the block over their head (2 players) |
+| **Distraction Tactics** | Adventure | · | Ring a Bell to pull raiders off a teammate who is down to three hearts or less (2 players) |
+| **Door Gunner** | Nether | ◆ | Shoot a Ghast down with a Crossbow from the passenger seat of a Happy Ghast another player is flying (2 players) |
+| **Double Booking** | Adventure | · | Serve two customers at one counter: buy goods from a Villager and hand goods of that kind straight to another player (2 players) |
+| **Drag Strip** | Redstone | ◆ | Race another player in Minecarts on parallel rails, side by side within four blocks at full speed (2 players) |
+| **Dress Code** | Adventure | ◆ | Three players in full armour of the same material with the same armour trim (3 players) |
+| **Drop Shipping** | Adventure | ◆ | Throw an item down to another player standing a hundred blocks below you (2 players) |
+| **Duel at Dawn** | Weaponry | ★ | Stand ten paces from another player and put an arrow in them the moment the sun comes up (2 players) |
+| **Dying Wish** | Adventure | ◆ | Hand your belongings to another player, then let them kill you (2 players) |
+| **Emergency Exit** | Nether | ◆ | Get a player who is below two hearts out of the Nether — both of you through the portal inside five seconds (2 players) |
+| **Escort Mission** | Adventure | ◆ | Guide a player blinded by a Carved Pumpkin two hundred blocks while they stay within five blocks of you (2 players) |
+| **Escort Service** | Nether | ★ | Walk five hundred blocks through the Nether with nothing on you, guarded and untouched (2 players) |
+| **Even Split** | Adventure | · | Hand another player exactly thirty-two Gold Ingots while still holding thirty-two yourself (2 players) |
+| **Eye Contact** | The End | ◆ | Fill an End Portal frame with two players seating six Eyes of Ender each (2 players) |
+| **Fair Trade** | Adventure | ◆ | Swap items with another player: you each pick up what the other dropped within 5 seconds (2 players) |
+| **Falling Out** | Weaponry | ★ | Kill another player with an anvil you dropped on them (2 players) |
+| **Farm Share** | Farming | ◆ | Give another player a stack of Bread and take a stack of their crops back (2 players) |
+| **Fashion Police** | Adventure | ★ | Five players each wearing a full suit trimmed with a different material at the same time (5 players) |
+| **Ferryman** | Adventure | ◆ | Row a player who has just respawned with nothing a thousand blocks in a boat (2 players) |
+| **Ferryman's Fee** | Biomes | ◆ | Sail 2,000 blocks in one Boat with another player aboard (2 players) |
+| **Field Hospital** | Nether | ★ | Bring a Beacon to full power, then get patched up under it with another player's Regeneration (2 players) |
+| **Field Medic** | Potions | ◆ | Heal a player who is below three hearts with a Splash Potion of Regeneration (2 players) |
+| **Fire Sale** | Adventure | ◆ | Catch a Water Bucket thrown by another player while you are burning (2 players) |
+| **Fireproof Friendship** | Potions | ◆ | Be splashed with Fire Resistance by another player while you are standing in lava (2 players) |
+| **Firework Finale** | Building | ◆ | Have four players launch fireworks together within three seconds (4 players) |
+| **First Blood** | Weaponry | · | Kill another player (2 players) |
+| **Flawless Victory** | Weaponry | ★ | Kill another player while you are still on full health (2 players) |
+| **Formation Flying** | Super Challenges | ★ | Hold a three-player Elytra formation within ten blocks above Y=200 (3 players) |
+| **Gallery Opening** | Building | ◆ | Have four players each hang a Painting on the same wall inside a minute (4 players) |
+| **Ghast Fleet** | Nether | ★ | Four players out on four separate Happy Ghasts, all within twenty blocks (4 players) |
+| **Ghost Protocol** | The End | ★ | Kill the Ender Dragon in a fight where every player who wounded it has died at least once (4 players) |
+| **Ghost Train** | Nether | ◆ | Take a Chest Minecart through a Nether portal and hand it to another player on the far side (2 players) |
+| **Gift Economy** | Statistics | ★ | Hand items to other players five hundred times (2 players) |
+| **Going, Going, Gone** | Adventure | ★★ | Hold an auction: three players pass Emeralds hand to hand on one spot inside thirty seconds (3 players) |
+| **Golden Handshake** | Farming | ◆ | Eat an Enchanted Golden Apple another player threw you, while you are below two hearts (2 players) |
+| **Good Boy, Someone Else's** | Animals | · | Repair a Wolf's armour with Armadillo Scutes out of another player's pocket (2 players) |
+| **Grand Central** | Redstone | ★★ | Four players who have each laid two hundred Rails all roll into the same station at once (4 players) |
+| **Grant Money** | Enchanting | ★ | Have another player throw a whole stack of Bottles o' Enchanting at your feet and pocket every level of it (2 players) |
+| **Group Buff** | Potions | ◆ | Have four players together share an identical set of three or more effects (4 players) |
+| **Group Nap** | Adventure | ◆ | Every online player sleeps during the same night (2 players) |
+| **Group Therapy** | Farming | ◆ | Have three players all on three hearts or less eat a Golden Apple within three seconds of each other (3 players) |
+| **Guard Dog** | Animals | · | Tame a Wolf with Bones another player dug up for you (2 players) |
+| **Guardian Angel** | Monsters | ◆ | Cut down in melee a monster that was hunting another player (2 players) |
+| **Guest Room** | Building | · | Sleep in a bed another player made and handed to you (2 players) |
+| **Hand-Me-Down** | Enchanting | · | Wear a piece of armour with Curse of Binding that another player handed to you (2 players) |
+| **Have Your Cake** | Farming | · | Have four players eat Cake side by side inside thirty seconds (4 players) |
+| **Head of the Household** | Weaponry | ★ | Come away with another player's head after a Charged Creeper goes off (2 players) |
+| **Heads Up** | Monsters | · | Hand another player a mob head (2 players) |
+| **Heart Surgeon** | Statistics | ★ | Supply other players with a hundred hearts of medicine: Golden Apples, Golden Carrots, Steak, and Splash Potions of Healing and Regeneration (2 players) |
+| **Heart Surgery** | Monsters | ★ | Smash a Creaking Heart while its Creaking is fixated on a different player (2 players) |
+| **Heir Apparent** | The End | ◆ | Hand the Dragon Egg over to another player (2 players) |
+| **Highway Robbery** | Weaponry | · | Collect Emeralds another player dropped while you are holding a loaded Crossbow (2 players) |
+| **Hog Wild** | Animals | · | Ride a saddled Pig and look across at another player riding one, within five blocks (2 players) |
+| **Hold the Line** | Monsters | ◆ | Block a Ravager's charge with your shield while a teammate kills it from behind (2 players) |
+| **Homing Pigeon** | Mining | ★ | Be handed a Compass by another player and use it on a Lodestone at least 64 blocks away (2 players) |
+| **Horse Trading** | Animals | ◆ | Pass a spare Saddle to another player while you are both mounted on Horses (2 players) |
+| **Hospital Wing** | Super Challenges | ★★ | Bring every online player from under two hearts back to full health inside one minute (2 players) |
+| **Hot Potato** | Adventure | ★ | Pass items down a line of four players within ten seconds (4 players) |
+| **Human Shield** | Monsters | ★ | Bring down a Warden while it is locked on to another player instead of you (2 players) |
+| **Inheritance** | Adventure | ◆ | Bank thirty experience levels off Bottles o' Enchanting another player handed you (2 players) |
+| **Insurance Policy** | Super Challenges | ★★ | Have four players burn a Totem of Undying in one fight within five seconds (4 players) |
+| **Into the Void** | The End | · | Put an arrow in another player as they fall below Y=20 in the End (2 players) |
+| **King of the Hill** | Super Challenges | ★★ | Stand on one block for sixty seconds while two other players try to knock you off it (3 players) |
+| **Lapis Loan** | Enchanting | · | Enchant an item using Lapis Lazuli that another player handed you (2 players) |
+| **Last Stand** | Monsters | ★ | Kill a Warden after every other player who joined the fight has already died (3 players) |
+| **Library Card** | Building | · | Stock a Chiseled Bookshelf, then lend one of the books out to another player (2 players) |
+| **Living Will** | Super Challenges | ★★ | Sign your estate over: hand another player Protection IV Netherite armour, all four pieces, and a Mending Elytra (2 players) |
+| **Loan Shark** | Mining | ★ | Lend another player a Diamond Pickaxe and take it back worn past half its life (2 players) |
+| **Long Distance Relationship** | Statistics | ◆ | Have two players at least 10,000 blocks apart in the same dimension (2 players) |
+| **Long Shot Rivalry** | Weaponry | ★ | Kill another player with a bow from at least 100 blocks away (2 players) |
+| **Lost and Found** | Adventure | ◆ | Get killed out there, then have another player bring you a Recovery Compass (2 players) |
+| **Man Overboard** | Biomes | · | Reel a swimming player back to your boat with a Fishing Rod, out over the deep ocean (2 players) |
+| **Marco Polo** | Potions | ◆ | Look straight at a player who has the Invisibility effect, from within three blocks (2 players) |
+| **Market Day** | Adventure | ★ | Work the whole market on somebody else's coin: trade with a Farmer, a Butcher, a Cartographer and a Mason using Emeralds another player keeps handing you (2 players) |
+| **Matching Outfits** | Adventure | · | Two players wearing identically dyed leather armour, all four pieces (2 players) |
+| **Medevac** | Nether | ◆ | Carry a player below three hearts two hundred blocks on your Happy Ghast without them dying (2 players) |
+| **Milk Run** | Potions | ◆ | Hand a Bucket of Milk to a player who is Poisoned, so they can wash it off (2 players) |
+| **Mind the Gap** | Redstone | · | Lay the rail ahead of another player's rolling Minecart (2 players) |
+| **Mutually Assured Destruction** | Weaponry | ★ | Trade kills with another player within the same second (2 players) |
+| **Netherite Deal** | Nether | ★ | Take a Netherite Ingot off another player and be seen in the Netherite Chestplate it became (2 players) |
+| **Night Watch** | Monsters | · | Have another player kill a monster within ten blocks of you while you sleep (2 players) |
+| **No Man Left Behind** | Super Challenges | ★★ | Under two hearts, take a Golden Apple from another player in a Trial Chamber, an Ancient City, the Nether and the End (2 players) |
+| **Noble Sacrifice** | Monsters | ★ | Be killed by the Wither in a fight that a teammate goes on to win (2 players) |
+| **Nobody Dies Tonight** | Super Challenges | ★★ | Keep three or more players alive through a full in-game week with not one death between them (2 players) |
+| **Orchestra** | Adventure | ★ | Four players sound four different Goat Horns within five seconds (4 players) |
+| **Outsourced** | Mining | ◆ | Craft a Diamond Pickaxe from three Diamonds another player handed you (2 players) |
+| **Pack Leaders** | Animals | ★ | Three players each with an armoured Wolf at heel, all within ten blocks (3 players) |
+| **Park and Ride** | Redstone | · | Ride a Minecart another player handed you (2 players) |
+| **Parting Gift** | Enchanting | ◆ | Take a Curse of Vanishing item from a teammate, then die and watch it disappear (2 players) |
+| **Passing the Lead** | Animals | · | Take a Lead from another player's hand and leash an animal with it (2 players) |
+| **Passing the Torch** | Mining | · | Place a Copper Torch that another player handed to you (2 players) |
+| **Pay It Forward** | Adventure | ◆ | Cheat death with a Totem of Undying that another player dropped for you (2 players) |
+| **Pearl Swap** | The End | ★ | Two players throw Ender Pearls and trade places, each landing where the other was standing (2 players) |
+| **Pharmacy Run** | Potions | ◆ | Hand out Potions of Healing, Strength and Swiftness to other players (2 players) |
+| **Philanthropist** | Statistics | ★★ | Give away a full stack of sixty-four Diamonds in one go (2 players) |
+| **Photo Finish** | Animals | ◆ | Two players gallop across the same ground within three blocks of each other, both moving faster than ten blocks a second (2 players) |
+| **Piece of Cake** | Farming | · | Hand a Cake to another player and have one handed back to you (2 players) |
+| **Pincer Movement** | Monsters | · | Have two players hit the same monster from opposite sides at the same moment (2 players) |
+| **Pit Crew** | Animals | · | Feed a Horse while another player is sitting in the saddle (2 players) |
+| **Pocket Money** | Adventure | · | Hand another player a Bundle already packed with Bread, Torches, Arrows and Coal (2 players) |
+| **Pony Express** | Adventure | ◆ | Carry the post: take a Written Book from another player in the Overworld and hand it on in the Nether (2 players) |
+| **Potluck** | Farming | ◆ | Have five players each eat a different food within ten seconds, all inside eight blocks (5 players) |
+| **Raid Party** | Adventure | ★ | Three players holding Hero of the Village at the same time (3 players) |
+| **Rail Retrieval** | Redstone | ◆ | Lay rail through the Nether and take delivery of a Chest Minecart from another player (2 players) |
+| **Ransom Note** | Weaponry | ★ | Kill another player, then hand back a full set of Diamond armour and a Diamond Sword (2 players) |
+| **Read the Room** | Enchanting | ◆ | Enchant an item at a table another player ringed with bookshelves (2 players) |
+| **Release the Hounds** | Animals | · | Have your tamed Wolves finish off another player (2 players) |
+| **Repair Job** | Enchanting | ◆ | Wear a Pickaxe down to its last few uses, hand it to another player, and get one back with its edge restored (2 players) |
+| **Required Reading** | Adventure | · | Take a signed Written Book off another player and set it out on a Lectern (2 players) |
+| **Reservoir Dogs** | Animals | ◆ | Set your tamed Wolf on another player's tamed Wolf and win (2 players) |
+| **Rest In Pieces** | Building | · | Cut another player down in melee, then plant a Wither Rose in their memory (2 players) |
+| **Reunion** | Adventure | ◆ | Meet another player after you have each spent ten minutes with nobody within 5,000 blocks (2 players) |
+| **Riding Shotgun** | Weaponry | ◆ | Land a Spear charge attack on a hostile monster from the back hump of a Camel another player is driving (2 players) |
+| **Riptide Rampage** | Enchanting | ★ | Riptide-launch yourself into another player and kill them with the Trident on the way through (2 players) |
+| **Rocket Man** | The End | ★ | Pass a Firework Rocket to another player while you are both gliding (2 players) |
+| **Rope-a-Dope** | Weaponry | ◆ | Block twenty hits from another player with your shield without landing a single hit of your own (2 players) |
+| **Runaway Train** | Redstone | ◆ | Take a TNT blast another player set off while you are riding a Minecart (2 players) |
+| **Scale Model** | Nether | · | Stand together in the Nether, then come out of two Overworld portals more than 800 blocks apart (2 players) |
+| **Schadenfreude** | Adventure | · | Watch another player burn through a Spyglass from at least twenty blocks away (2 players) |
+| **Sculk Silence** | Super Challenges | ★★ | Have three players survive two minutes together in the Deep Dark with no Warden (3 players) |
+| **Sea Legs** | Biomes | · | Stand on the roof of a Boat another player is sailing for two hundred blocks (2 players) |
+| **Second Wind** | Weaponry | ★ | Burn a Totem of Undying, then kill another player while still under five hearts and the totem's glow (2 players) |
+| **Second-Hand Knowledge** | Enchanting | ◆ | Take an Enchanted Book from another player and end up with an enchanted tool (2 players) |
+| **Secret Handshake** | Weaponry | · | Trade bare-fisted blows with another player: land one and take one back (2 players) |
+| **Secret Santa** | Adventure | ★ | Four players in one place swapping items within ten seconds (4 players) |
+| **Seed Exchange** | Farming | ◆ | Trade ancient seeds with another player: hand a Sniffer seed over and be handed one back (2 players) |
+| **Serial Offender** | Statistics | ★★ | Kill fifty other players (2 players) |
+| **Shared Custody** | Adventure | ★ | Feed an animal that another player named with a Name Tag (2 players) |
+| **Sharpshooter Surgeon** | Potions | · | Patch a teammate up by shooting them with an Arrow of Healing (2 players) |
+| **Shield Wall** | Weaponry | ◆ | Three players within eight blocks all block a hit with their shields at once (3 players) |
+| **Signal Boost** | Redstone | ★ | Two players place thirty Repeaters each, side by side, inside one minute (2 players) |
+| **Silent Duel** | Mining | ★ | Kill another player in the Deep Dark while neither of you is under the Darkness a Shrieker inflicts (2 players) |
+| **Skull Session** | Nether | ★ | Summon the Wither with a Wither Skeleton Skull another player pulled out of the Nether for you (2 players) |
+| **Snowball War** | Weaponry | ◆ | Hit three different players with snowballs within ten seconds (3 players) |
+| **Soup Kitchen** | Farming | ◆ | Be handed food by another player while your hunger is down to three shanks, and eat it (2 players) |
+| **Sparring Partner** | Enchanting | ★ | Take ten hearts off another player with one swing, no Mace and no Spear charge (2 players) |
+| **Sparring Partners** | Statistics | ★ | Trade a hundred hits with another player without either of you dying (2 players) |
+| **Spear Joust** | Weaponry | ★ | Land a Spear charge attack on another player while both of you are riding Horses (2 players) |
+| **Special Delivery** | Redstone | ◆ | Drop a parcel on the line and have a teammate scoop it up from a rolling Minecart eight blocks away (2 players) |
+| **Split Shift** | Mining | ◆ | Hand a full stack of sixty-four Iron Ingots straight into another player's hands (2 players) |
+| **Split the Party** | Adventure | ◆ | Have three players in three different dimensions at the same moment (3 players) |
+| **Starter Kit** | Adventure | ◆ | Take a sword, a pickaxe and something to eat from other players within thirty seconds of dying (2 players) |
+| **Stew Roulette** | Farming | · | Eat a Suspicious Stew another player cooked and served you (2 players) |
+| **Sting Operation** | Animals | ◆ | Anger a beehive so that the bees kill another player (2 players) |
+| **Stop, Drop and Roll** | Potions | · | Put out a burning player with a Splash Water Bottle (2 players) |
+| **Storm Chasers** | Enchanting | ◆ | Riptide-launch within a second of another player and land within five blocks of them (2 players) |
+| **Submarine Crew** | Biomes | ◆ | Three players riding three Nautiluses within fifteen blocks of each other (3 players) |
+| **Swap Meet** | Adventure | ★ | Swap the whole stall with another player: hand over a Shulker Box, a Bundle and a Chest Minecart, and be handed all three back (2 players) |
+| **Synchronised Swimming** | Biomes | · | Have four players all swimming at the same moment within six blocks of each other (4 players) |
+| **Tag Team** | The End | ◆ | Finish the Ender Dragon after at least two different players have wounded it (2 players) |
+| **Tail Gunner** | The End | ★ | Land the killing blow on the Ender Dragon from the passenger seat of a Happy Ghast another player is flying (2 players) |
+| **Taking One For The Team** | Monsters | ★ | Die beside a teammate who is down to half a heart, and have them live out the next minute (2 players) |
+| **Team Photo** | Adventure | · | Squeeze four players into a three-block radius (4 players) |
+| **Thar She Blows** | Biomes | ◆ | Kill a Drowned with a thrown Trident from a boat another player is sharing with you (2 players) |
+| **The Amazing Race** | Statistics | ★★ | Leave one spot with another player, both cover 5,000 blocks, and both be back inside a minute of each other (2 players) |
+| **The Cousteau Manoeuvre** | Biomes | ★ | Ride Nautiluses forty blocks through an Ocean Monument with another player, neither surfacing nor dismounting (2 players) |
+| **The Ferryman Cometh** | The End | ★★ | Carry a passenger on a Happy Ghast from the central End island out past a thousand blocks, using no Gateway (2 players) |
+| **The Gauntlet** | Super Challenges | ★★ | Pass one Shulker Box through five different players across all three dimensions (5 players) |
+| **The Great Train Robbery** | Redstone | ◆ | Kill another player while they are riding in a Minecart (2 players) |
+| **The Merchant of Venice** | Biomes | · | Complete an item swap with another player while you are both sitting in boats on water (2 players) |
+| **The Nether Express** | Nether | ◆ | Have four players pass through the same Nether portal within ten seconds (4 players) |
+| **The Relay** | Super Challenges | ★★ | Bring down the Wither, the Warden and the Ender Dragon, each of them finished off with a teammate lying dead in that fight (3 players) |
+| **The Wave** | Adventure | ★ | Four players jump one after another, each within half a second of the last (4 players) |
+| **The Weakest Link** | Potions | · | Kill another player while they are under the Weakness effect (2 players) |
+| **Thorn in Your Side** | Enchanting | ★ | Kill another player with nothing but the Thorns on your own armour (2 players) |
+| **Through the Looking Glass** | Nether | ◆ | Share one Boat with another player on both sides of a Nether portal (2 players) |
+| **Toll Booth** | Redstone | · | Put up an Iron Door and charge another player sixteen Emeralds for passage (2 players) |
+| **Torpedo Run** | Biomes | ◆ | Hit another player riding a Nautilus with a thrown Trident while riding one yourself (2 players) |
+| **Total Party Kill** | Monsters | ★ | Wipe out: all three or more players on the server dead inside the same ten seconds (3 players) |
+| **Trading Floor** | Statistics | ★ | Rack up a thousand Villager trades between two or more players (2 players) |
+| **Trading Post** | Building | ◆ | Run a shop: stock a Shelf, put up a Sign, and be paid in Emeralds by a customer (2 players) |
+| **Trapped!** | Redstone | · | Have another player set off a trapped chest that you just placed (2 players) |
+| **Trauma Team** | Potions | ★ | Carry Regeneration, Strength, Swiftness, Fire Resistance and Resistance all at once, the last of them splashed onto you by another player (2 players) |
+| **Triage** | Potions | ◆ | Heal three players who are all below three hearts with a single Splash Potion of Healing (3 players) |
+| **Trial by Fire** | Monsters | · | Set three players alight at once and have all three put themselves out and live (3 players) |
+| **Trident Tag** | Weaponry | ◆ | Hit another player with a thrown trident and catch a Loyalty trident on the return (2 players) |
+| **Trophy Wall** | Building | · | Take another player's head off their hands and mount it in an Item Frame (2 players) |
+| **Trust Fall** | Redstone | ★ | Survive a thirty-block fall into water another player placed for you (2 players) |
+| **Tunnel Vision** | Mining | ◆ | Dig toward each other from at least 200 blocks apart until your two tunnels meet (2 players) |
+| **Twin Maps** | Adventure | · | Copy a Map and hand the duplicate to another player, so you are both reading the same ground (2 players) |
+| **Two-Hump Transit** | Animals | · | Take a Camel out with a second player riding the other hump (2 players) |
+| **Up and Away** | The End | ◆ | Get three players levitating from Shulker bullets at the same time (3 players) |
+| **Vault Crew** | Adventure | ★ | Four players each unlock the same Ominous Vault (4 players) |
+| **Vending Machine** | Redstone | ★★ | Have another player feed an Emerald into your Hopper and take what your Dispenser gives back (2 players) |
+| **Warden Party** | Monsters | ★★ | Put down a Warden with three players inside sixteen blocks, none of them recently killed (3 players) |
+| **Warm Welcome** | Biomes | · | Reach a player sunk in Powder Snow with Flint and Steel already in your hand (2 players) |
+| **Wind Duel** | Weaponry | ◆ | Launch another player six blocks into the air with your Wind Charge (2 players) |
+| **Wingman** | The End | ◆ | Take off in an Elytra another player handed you (2 players) |
+| **Wither Committee** | Monsters | ★ | Bring down a Wither with three or more players standing within twenty blocks (3 players) |
 
 **255 advancements in total.**
