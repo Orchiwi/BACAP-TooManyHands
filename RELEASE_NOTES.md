@@ -8,13 +8,13 @@ already in BACAP or BACAP Enhanced Discoveries.
 
 ### Install
 
-Download **`BACAP-TooManyHands-v0.1.0-alpha.3.zip`** below and drop it into your
+Download **`BACAP-TooManyHands-v0.1.0-alpha.4.zip`** below and drop it into your
 world's `datapacks/` folder next to the BACAP zip, then `/reload`.
 
 ```
 <world>/datapacks/
   BlazeandCave's Advancements Pack 1.21.zip          <- required, install first
-  BACAP-TooManyHands-v0.1.0-alpha.3.zip                        <- this pack (rename freely)
+  BACAP-TooManyHands-v0.1.0-alpha.4.zip                        <- this pack (rename freely)
 ```
 
 **BACAP is required.** This pack registers through BACAP's fanpack hooks, so scoreboard
