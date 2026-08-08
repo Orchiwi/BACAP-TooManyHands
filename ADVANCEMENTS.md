@@ -570,7 +570,7 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 | ★★ | **King of the Hill** | Super Challenges | Stand on one block for sixty seconds while two other players try to knock you off it (3 players) | 400 |
 | ★★ | **Living Will** | Super Challenges | Sign your estate over: hand another player Protection IV Netherite armour, all four pieces, and a Mending Elytra (2 players) | 350 |
 | ★★ | **No Man Left Behind** | Super Challenges | Under two hearts, take a Golden Apple from another player in a Trial Chamber, an Ancient City, the Nether and the End (2 players) | 300 |
-| ★★ | **Nobody Dies Tonight** | Super Challenges | Keep three or more players alive through a full in-game week with not one death between them (2 players) | 450 |
+| ★★ | **Nobody Dies Tonight** | Super Challenges | Keep three or more players alive through a full in-game week with not one death between them (3 players) | 450 |
 | ★★ | **Sculk Silence** | Super Challenges | Have three players survive two minutes together in the Deep Dark with no Warden (3 players) | 350 |
 | ★★ | **The Gauntlet** | Super Challenges | Pass one Shulker Box through five different players across all three dimensions (5 players) | 500 |
 | ★★ | **The Relay** | Super Challenges | Bring down the Wither, the Warden and the Ender Dragon, each of them finished off with a teammate lying dead in that fight (3 players) | 500 |
@@ -872,7 +872,7 @@ All 255 advancements, A to Z, with the tab each one appears in.
 | **Night Watch** | Monsters | · | Have another player kill a monster within ten blocks of you while you sleep (2 players) |
 | **No Man Left Behind** | Super Challenges | ★★ | Under two hearts, take a Golden Apple from another player in a Trial Chamber, an Ancient City, the Nether and the End (2 players) |
 | **Noble Sacrifice** | Monsters | ★ | Be killed by the Wither in a fight that a teammate goes on to win (2 players) |
-| **Nobody Dies Tonight** | Super Challenges | ★★ | Keep three or more players alive through a full in-game week with not one death between them (2 players) |
+| **Nobody Dies Tonight** | Super Challenges | ★★ | Keep three or more players alive through a full in-game week with not one death between them (3 players) |
 | **Orchestra** | Adventure | ★ | Four players sound four different Goat Horns within five seconds (4 players) |
 | **Outsourced** | Mining | ◆ | Craft a Diamond Pickaxe from three Diamonds another player handed you (2 players) |
 | **Pack Leaders** | Animals | ★ | Three players each with an armoured Wolf at heel, all within ten blocks (3 players) |
