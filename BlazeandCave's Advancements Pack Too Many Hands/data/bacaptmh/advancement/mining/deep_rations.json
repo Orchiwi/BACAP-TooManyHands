@@ -7,10 +7,10 @@
       "translate": "Deep Rations"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Be handed food by another player while you are both below Y=0 (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:mining/deep_slate_nine",

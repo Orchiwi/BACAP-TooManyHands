@@ -7,10 +7,10 @@
       "translate": "Pick of the Bunch"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Be handed a Pickaxe of all seven materials by other players (2 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:mining/rest_in_pickaxes",

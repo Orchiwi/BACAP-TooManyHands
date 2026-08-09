@@ -7,10 +7,10 @@
       "translate": "Statuary Trade"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Be handed a Copper Golem Statue by another player and stand it up (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:mining/statue_of_limitations",

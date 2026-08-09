@@ -15,6 +15,18 @@
   },
   "parent": "bacaptmh:bacap/too_many_hands_biomes_milestone",
   "criteria": {
+    "trust_fall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/trust_fall": true
+            }
+          }
+        }
+      }
+    },
     "fair_trade": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -118,30 +130,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:adventure/dress_code": true
-            }
-          }
-        }
-      }
-    },
-    "fashion_police": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:adventure/fashion_police": true
-            }
-          }
-        }
-      }
-    },
-    "shared_custody": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:adventure/shared_custody": true
             }
           }
         }
@@ -351,18 +339,6 @@
         }
       }
     },
-    "required_reading": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:adventure/required_reading": true
-            }
-          }
-        }
-      }
-    },
     "drop_shipping": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -375,6 +351,18 @@
         }
       }
     },
+    "no_man_left_behind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/no_man_left_behind": true
+            }
+          }
+        }
+      }
+    },
     "lost_and_found": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -382,18 +370,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:adventure/lost_and_found": true
-            }
-          }
-        }
-      }
-    },
-    "inheritance": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:adventure/inheritance": true
             }
           }
         }
@@ -526,18 +502,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:adventure/brush_with_greatness": true
-            }
-          }
-        }
-      }
-    },
-    "quartermasters_round": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:adventure/quartermasters_round": true
             }
           }
         }
@@ -831,18 +795,6 @@
         }
       }
     },
-    "aegis_trade": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:adventure/aegis_trade": true
-            }
-          }
-        }
-      }
-    },
     "trimmed_in_debris": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -850,18 +802,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:adventure/trimmed_in_debris": true
-            }
-          }
-        }
-      }
-    },
-    "chainbreaker": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:adventure/chainbreaker": true
             }
           }
         }
@@ -970,18 +910,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:adventure/mansion_massacre": true
-            }
-          }
-        }
-      }
-    },
-    "on_the_scent": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:adventure/on_the_scent": true
             }
           }
         }

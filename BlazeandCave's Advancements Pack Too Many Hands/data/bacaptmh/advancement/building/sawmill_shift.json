@@ -7,10 +7,10 @@
       "translate": "Sawmill Shift"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Take Logs from another player and hand back the Planks you cut out of them (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:building/master_logger",

@@ -195,6 +195,18 @@
         }
       }
     },
+    "hospital_wing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/hospital_wing": true
+            }
+          }
+        }
+      }
+    },
     "caveat_emptor": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -202,6 +214,114 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:potion/caveat_emptor": true
+            }
+          }
+        }
+      }
+    },
+    "plague_ward": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/plague_ward": true
+            }
+          }
+        }
+      }
+    },
+    "salt_in_the_wound": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/salt_in_the_wound": true
+            }
+          }
+        }
+      }
+    },
+    "hexed_hunt": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/hexed_hunt": true
+            }
+          }
+        }
+      }
+    },
+    "second_hand_venom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/second_hand_venom": true
+            }
+          }
+        }
+      }
+    },
+    "beam_top_up": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/beam_top_up": true
+            }
+          }
+        }
+      }
+    },
+    "beacon_pharmacy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/beacon_pharmacy": true
+            }
+          }
+        }
+      }
+    },
+    "full_quiver": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/full_quiver": true
+            }
+          }
+        }
+      }
+    },
+    "patient_zero": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/patient_zero": true
+            }
+          }
+        }
+      }
+    },
+    "apothecary_wars": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/apothecary_wars": true
             }
           }
         }

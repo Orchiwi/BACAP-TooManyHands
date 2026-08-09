@@ -15,6 +15,18 @@
   },
   "parent": "bacaptmh:bacap/too_many_hands_end_milestone",
   "criteria": {
+    "warden_party": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/warden_party": true
+            }
+          }
+        }
+      }
+    },
     "insurance_policy": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -51,37 +63,13 @@
         }
       }
     },
-    "sculk_silence": {
+    "fashion_police": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/sculk_silence": true
-            }
-          }
-        }
-      }
-    },
-    "formation_flying": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/formation_flying": true
-            }
-          }
-        }
-      }
-    },
-    "blood_brothers": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/blood_brothers": true
+              "bacaptmh:challenges/fashion_police": true
             }
           }
         }
@@ -99,13 +87,13 @@
         }
       }
     },
-    "king_of_the_hill": {
+    "grand_central": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/king_of_the_hill": true
+              "bacaptmh:challenges/grand_central": true
             }
           }
         }
@@ -123,42 +111,6 @@
         }
       }
     },
-    "no_man_left_behind": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/no_man_left_behind": true
-            }
-          }
-        }
-      }
-    },
-    "living_will": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/living_will": true
-            }
-          }
-        }
-      }
-    },
-    "hospital_wing": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/hospital_wing": true
-            }
-          }
-        }
-      }
-    },
     "the_whole_menu": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -166,18 +118,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:challenges/the_whole_menu": true
-            }
-          }
-        }
-      }
-    },
-    "breaking_bread": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/breaking_bread": true
             }
           }
         }
@@ -243,30 +183,6 @@
         }
       }
     },
-    "three_man_lift": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/three_man_lift": true
-            }
-          }
-        }
-      }
-    },
-    "hells_consignment": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/hells_consignment": true
-            }
-          }
-        }
-      }
-    },
     "full_spectrum": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -279,54 +195,6 @@
         }
       }
     },
-    "the_sword_ledger": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/the_sword_ledger": true
-            }
-          }
-        }
-      }
-    },
-    "the_whole_toolbox": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/the_whole_toolbox": true
-            }
-          }
-        }
-      }
-    },
-    "the_firing_squad": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/the_firing_squad": true
-            }
-          }
-        }
-      }
-    },
-    "full_quiver": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/full_quiver": true
-            }
-          }
-        }
-      }
-    },
     "unhorsed": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -334,18 +202,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:challenges/unhorsed": true
-            }
-          }
-        }
-      }
-    },
-    "nowhere_is_safe": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/nowhere_is_safe": true
             }
           }
         }
@@ -387,42 +243,6 @@
         }
       }
     },
-    "patient_zero": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/patient_zero": true
-            }
-          }
-        }
-      }
-    },
-    "apothecary_wars": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/apothecary_wars": true
-            }
-          }
-        }
-      }
-    },
-    "blood_feud": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/blood_feud": true
-            }
-          }
-        }
-      }
-    },
     "shot_from_the_saddle": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -430,18 +250,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:challenges/shot_from_the_saddle": true
-            }
-          }
-        }
-      }
-    },
-    "beast_master": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:challenges/beast_master": true
             }
           }
         }

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:respawn_anchor"
+    },
+    "title": {
+      "translate": "Blood Brothers"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have four players die and all come back on the same Respawn Anchor within twenty seconds (4 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hot_air_balloon",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/blood_brothers"
+  }
+}

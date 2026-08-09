@@ -7,10 +7,10 @@
       "translate": "Shell Shock"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Be locked down by another player's Splash Potion of the Turtle Master (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:potion/tank",

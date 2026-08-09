@@ -63,6 +63,18 @@
         }
       }
     },
+    "shared_custody": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/shared_custody": true
+            }
+          }
+        }
+      }
+    },
     "caravan_of_love": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -202,6 +214,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:animal/always_the_passenger": true
+            }
+          }
+        }
+      }
+    },
+    "undead_chauffeur": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/undead_chauffeur": true
             }
           }
         }
@@ -399,18 +423,6 @@
         }
       }
     },
-    "spore_war": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:animal/spore_war": true
-            }
-          }
-        }
-      }
-    },
     "jockeys_little_helper": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -538,6 +550,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:animal/leash_of_the_realms": true
+            }
+          }
+        }
+      }
+    },
+    "on_the_scent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/on_the_scent": true
+            }
+          }
+        }
+      }
+    },
+    "beast_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/beast_master": true
             }
           }
         }

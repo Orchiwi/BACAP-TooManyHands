@@ -7,5 +7,5 @@
 tag @e[type=minecart,distance=..16] remove bacaptmh_gc
 execute as @a[gamemode=!spectator,gamemode=!creative,distance=..16,scores={bacaptmh_rail=200..,bacaptmh_cartd=1..}] on vehicle if entity @s[type=minecart,distance=..16] run tag @s add bacaptmh_gc
 execute store result score #gcn bacaptmh_tmp run execute if entity @e[type=minecart,tag=bacaptmh_gc,distance=..16]
-execute if score #gcn bacaptmh_tmp matches 4.. as @e[type=minecart,tag=bacaptmh_gc,distance=..16] on passengers if entity @s[type=player,gamemode=!spectator,gamemode=!creative] run advancement grant @s only bacaptmh:redstone/grand_central
+execute if score #gcn bacaptmh_tmp matches 4.. as @e[type=minecart,tag=bacaptmh_gc,distance=..16] on passengers if entity @s[type=player,gamemode=!spectator,gamemode=!creative] run advancement grant @s only bacaptmh:challenges/grand_central
 tag @e[type=minecart,distance=..16] remove bacaptmh_gc

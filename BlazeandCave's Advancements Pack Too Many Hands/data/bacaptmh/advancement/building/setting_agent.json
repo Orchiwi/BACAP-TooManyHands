@@ -7,10 +7,10 @@
       "translate": "Setting Agent"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Hand another player Concrete Powder and take the set Concrete back (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:building/concrete_evidence",

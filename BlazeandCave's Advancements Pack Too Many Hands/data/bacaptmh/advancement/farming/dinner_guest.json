@@ -7,10 +7,10 @@
       "translate": "Dinner Guest"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Sit down to eat: take food from a player crouched within three blocks of you while you crouch too, and eat it (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:farming/a_gluttonous_diet",

@@ -7,10 +7,10 @@
       "translate": "Cake Walk"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Be handed a Cake by another player and set it out for the party (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:farming/must_be_your_birthday",

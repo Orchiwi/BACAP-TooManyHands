@@ -7,10 +7,10 @@
       "translate": "Three Square Meals"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Be handed Bread, cooked meat and a bowl of stew by another player, and eat all three (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:farming/a_gluttonous_diet",

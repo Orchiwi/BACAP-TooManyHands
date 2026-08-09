@@ -39,6 +39,18 @@
         }
       }
     },
+    "sculk_silence": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/sculk_silence": true
+            }
+          }
+        }
+      }
+    },
     "thar_she_blows": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -178,6 +190,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:biomes/torpedo_run": true
+            }
+          }
+        }
+      }
+    },
+    "spore_war": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/spore_war": true
+            }
+          }
+        }
+      }
+    },
+    "painted_desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/painted_desert": true
             }
           }
         }

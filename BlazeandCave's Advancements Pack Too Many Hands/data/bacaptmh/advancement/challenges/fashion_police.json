@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots",
+      "components": {
+        "minecraft:trim": {
+          "material": "minecraft:emerald",
+          "pattern": "minecraft:sentry"
+        }
+      }
+    },
+    "title": {
+      "translate": "Fashion Police"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Five players each wearing a full suit trimmed with a different material at the same time (5 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/death_from_all",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/fashion_police"
+  }
+}

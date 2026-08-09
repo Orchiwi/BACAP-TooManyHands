@@ -7,10 +7,10 @@
       "translate": "Vending Machine"
     },
     "description": {
-      "color": "#FF2A2A",
+      "color": "#75E1FF",
       "translate": "Have another player feed an Emerald into your Hopper and take what your Dispenser gives back (2 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:redstone/space_hopper",

@@ -159,6 +159,18 @@
         }
       }
     },
+    "king_of_the_hill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/king_of_the_hill": true
+            }
+          }
+        }
+      }
+    },
     "arms_dealer": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -243,6 +255,18 @@
         }
       }
     },
+    "rest_in_pieces": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/rest_in_pieces": true
+            }
+          }
+        }
+      }
+    },
     "duel_at_dawn": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -279,6 +303,18 @@
         }
       }
     },
+    "overkill_rivalry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/overkill_rivalry": true
+            }
+          }
+        }
+      }
+    },
     "arise_sir_loin": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -298,6 +334,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:weaponry/rope_a_dope": true
+            }
+          }
+        }
+      }
+    },
+    "living_will": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/living_will": true
             }
           }
         }
@@ -334,6 +382,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:weaponry/riding_shotgun": true
+            }
+          }
+        }
+      }
+    },
+    "pumpkin_spiced": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/pumpkin_spiced": true
+            }
+          }
+        }
+      }
+    },
+    "two_faced": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/two_faced": true
             }
           }
         }
@@ -1438,6 +1510,174 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:weaponry/braced_for_the_charge": true
+            }
+          }
+        }
+      }
+    },
+    "nosebleed_seats": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/nosebleed_seats": true
+            }
+          }
+        }
+      }
+    },
+    "axe_feud": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/axe_feud": true
+            }
+          }
+        }
+      }
+    },
+    "first_to_fall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/first_to_fall": true
+            }
+          }
+        }
+      }
+    },
+    "well_padded": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/well_padded": true
+            }
+          }
+        }
+      }
+    },
+    "hit_with_everything": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/hit_with_everything": true
+            }
+          }
+        }
+      }
+    },
+    "grand_tour_of_grudges": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/grand_tour_of_grudges": true
+            }
+          }
+        }
+      }
+    },
+    "three_graves": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/three_graves": true
+            }
+          }
+        }
+      }
+    },
+    "quartermasters_round": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/quartermasters_round": true
+            }
+          }
+        }
+      }
+    },
+    "aegis_trade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/aegis_trade": true
+            }
+          }
+        }
+      }
+    },
+    "chainbreaker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/chainbreaker": true
+            }
+          }
+        }
+      }
+    },
+    "the_sword_ledger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/the_sword_ledger": true
+            }
+          }
+        }
+      }
+    },
+    "the_whole_toolbox": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/the_whole_toolbox": true
+            }
+          }
+        }
+      }
+    },
+    "the_firing_squad": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/the_firing_squad": true
+            }
+          }
+        }
+      }
+    },
+    "nowhere_is_safe": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:weaponry/nowhere_is_safe": true
             }
           }
         }

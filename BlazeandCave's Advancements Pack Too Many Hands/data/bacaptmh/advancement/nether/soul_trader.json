@@ -7,10 +7,10 @@
       "translate": "Soul Trader"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Take both Soul Sand and Soul Soil out of another player's hands (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:nether/a_soul_for_a_soul",

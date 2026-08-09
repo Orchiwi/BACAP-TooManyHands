@@ -7,10 +7,10 @@
       "translate": "Regicide"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Kill another player who is holding the Dragon Egg (2 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:end/ring_of_the_end",

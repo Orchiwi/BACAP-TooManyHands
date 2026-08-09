@@ -11,7 +11,7 @@ execute if entity @a[gamemode=!spectator,advancements={bacaptmh:adventure/the_wa
 execute as @a run scoreboard players operation @s bacaptmh_jumpp = @s bacaptmh_jump
 # --- expansion ---
 execute as @a[gamemode=!spectator,advancements={bacaptmh:biomes/thar_she_blows={harpooned=true,impossible=false}}] run function bacaptmh:detect/thar_she_blows
-execute if score #players bacaptmh_sys matches 3.. as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaptmh:challenges/king_of_the_hill=false}] at @s run function bacaptmh:detect/king_of_the_hill
+execute if score #players bacaptmh_sys matches 3.. as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaptmh:weaponry/king_of_the_hill=false}] at @s run function bacaptmh:detect/king_of_the_hill
 # ---- mp1: Cover Fire (weaponry). Per tick, not per ten, because the rescued player's health
 # is read live and half a second is long enough for them to heal past the bar or die.
 # The rescued player is granted FIRST: granting the sniper first would flip his impossible

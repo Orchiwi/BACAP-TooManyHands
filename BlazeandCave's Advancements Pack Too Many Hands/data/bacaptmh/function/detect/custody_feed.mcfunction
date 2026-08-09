@@ -9,4 +9,4 @@ scoreboard players set #cudone bacaptmh_sys 0
 tag @s add bacaptmh_cu_feeder
 execute as @e[type=!minecraft:player,distance=..5,scores={bacaptmh_owner=1..},sort=nearest,limit=16] if score #cudone bacaptmh_sys matches 0 unless score @s bacaptmh_owner = #cufeed bacaptmh_sys run function bacaptmh:detect/custody_pay
 tag @s remove bacaptmh_cu_feeder
-advancement revoke @s only bacaptmh:adventure/shared_custody fed
+advancement revoke @s only bacaptmh:animal/shared_custody fed

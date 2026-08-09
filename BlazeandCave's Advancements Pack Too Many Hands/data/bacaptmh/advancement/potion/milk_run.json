@@ -7,10 +7,10 @@
       "translate": "Milk Run"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Hand a Bucket of Milk to a player who is Poisoned, so they can wash it off (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:potion/medic",

@@ -7,10 +7,10 @@
       "translate": "Charity Case"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Be handed a helmet, a chestplate, leggings and boots by other players (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:adventure/retro_future_knight",

@@ -27,18 +27,6 @@
         }
       }
     },
-    "trust_fall": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:redstone/trust_fall": true
-            }
-          }
-        }
-      }
-    },
     "trapped": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -82,18 +70,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:redstone/bumper_carts": true
-            }
-          }
-        }
-      }
-    },
-    "grand_central": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:redstone/grand_central": true
             }
           }
         }
@@ -178,6 +154,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:redstone/park_and_ride": true
+            }
+          }
+        }
+      }
+    },
+    "ghost_train": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/ghost_train": true
             }
           }
         }

@@ -7,10 +7,10 @@
       "translate": "Chemical Warfare"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Poison three different players with a single Lingering Potion (3 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:potion/gas",

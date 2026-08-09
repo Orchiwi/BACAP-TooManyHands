@@ -12,10 +12,10 @@
       "translate": "Marco Polo"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Look straight at a player who has the Invisibility effect, from within three blocks (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:potion/the_invisible_player",

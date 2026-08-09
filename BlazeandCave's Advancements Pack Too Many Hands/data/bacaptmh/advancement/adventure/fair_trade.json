@@ -7,10 +7,10 @@
       "translate": "Fair Trade"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Swap items with another player: you each pick up what the other dropped within 5 seconds (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:adventure/do_you_want_to_trade",

@@ -7,10 +7,10 @@
       "translate": "Boarding Party"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Kill another player with an Axe while a third player shares your Boat (3 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:biomes/boaty_mcboatface",

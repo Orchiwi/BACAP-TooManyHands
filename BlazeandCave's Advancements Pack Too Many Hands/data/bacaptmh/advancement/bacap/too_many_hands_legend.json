@@ -39,13 +39,13 @@
         }
       }
     },
-    "monsters_warden_party": {
+    "challenges_warden_party": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:monsters/warden_party": true
+              "bacaptmh:challenges/warden_party": true
             }
           }
         }
@@ -231,13 +231,13 @@
         }
       }
     },
-    "redstone_trust_fall": {
+    "adventure_trust_fall": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:redstone/trust_fall": true
+              "bacaptmh:adventure/trust_fall": true
             }
           }
         }
@@ -339,25 +339,25 @@
         }
       }
     },
-    "challenges_sculk_silence": {
+    "biomes_sculk_silence": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/sculk_silence": true
+              "bacaptmh:biomes/sculk_silence": true
             }
           }
         }
       }
     },
-    "challenges_formation_flying": {
+    "end_formation_flying": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/formation_flying": true
+              "bacaptmh:end/formation_flying": true
             }
           }
         }
@@ -603,25 +603,25 @@
         }
       }
     },
-    "adventure_fashion_police": {
+    "challenges_fashion_police": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:adventure/fashion_police": true
+              "bacaptmh:challenges/fashion_police": true
             }
           }
         }
       }
     },
-    "adventure_shared_custody": {
+    "animal_shared_custody": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:adventure/shared_custody": true
+              "bacaptmh:animal/shared_custody": true
             }
           }
         }
@@ -723,13 +723,13 @@
         }
       }
     },
-    "challenges_blood_brothers": {
+    "nether_blood_brothers": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/blood_brothers": true
+              "bacaptmh:nether/blood_brothers": true
             }
           }
         }
@@ -975,13 +975,13 @@
         }
       }
     },
-    "challenges_king_of_the_hill": {
+    "weaponry_king_of_the_hill": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/king_of_the_hill": true
+              "bacaptmh:weaponry/king_of_the_hill": true
             }
           }
         }
@@ -1239,13 +1239,13 @@
         }
       }
     },
-    "redstone_grand_central": {
+    "challenges_grand_central": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:redstone/grand_central": true
+              "bacaptmh:challenges/grand_central": true
             }
           }
         }
@@ -1815,13 +1815,13 @@
         }
       }
     },
-    "building_rest_in_pieces": {
+    "weaponry_rest_in_pieces": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:building/rest_in_pieces": true
+              "bacaptmh:weaponry/rest_in_pieces": true
             }
           }
         }
@@ -2199,13 +2199,13 @@
         }
       }
     },
-    "enchanting_overkill_rivalry": {
+    "weaponry_overkill_rivalry": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:enchanting/overkill_rivalry": true
+              "bacaptmh:weaponry/overkill_rivalry": true
             }
           }
         }
@@ -2391,13 +2391,13 @@
         }
       }
     },
-    "statistics_death_and_taxes": {
+    "enchanting_death_and_taxes": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:statistics/death_and_taxes": true
+              "bacaptmh:enchanting/death_and_taxes": true
             }
           }
         }
@@ -2463,13 +2463,13 @@
         }
       }
     },
-    "adventure_required_reading": {
+    "building_required_reading": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:adventure/required_reading": true
+              "bacaptmh:building/required_reading": true
             }
           }
         }
@@ -2511,37 +2511,37 @@
         }
       }
     },
-    "challenges_no_man_left_behind": {
+    "adventure_no_man_left_behind": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/no_man_left_behind": true
+              "bacaptmh:adventure/no_man_left_behind": true
             }
           }
         }
       }
     },
-    "challenges_living_will": {
+    "weaponry_living_will": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/living_will": true
+              "bacaptmh:weaponry/living_will": true
             }
           }
         }
       }
     },
-    "challenges_hospital_wing": {
+    "potion_hospital_wing": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/hospital_wing": true
+              "bacaptmh:potion/hospital_wing": true
             }
           }
         }
@@ -2703,13 +2703,13 @@
         }
       }
     },
-    "adventure_inheritance": {
+    "enchanting_inheritance": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:adventure/inheritance": true
+              "bacaptmh:enchanting/inheritance": true
             }
           }
         }
@@ -2907,13 +2907,13 @@
         }
       }
     },
-    "nether_ghost_train": {
+    "redstone_ghost_train": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:nether/ghost_train": true
+              "bacaptmh:redstone/ghost_train": true
             }
           }
         }
@@ -3471,13 +3471,13 @@
         }
       }
     },
-    "monsters_pumpkin_spiced": {
+    "weaponry_pumpkin_spiced": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:monsters/pumpkin_spiced": true
+              "bacaptmh:weaponry/pumpkin_spiced": true
             }
           }
         }
@@ -3495,13 +3495,13 @@
         }
       }
     },
-    "monsters_plague_ward": {
+    "potion_plague_ward": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:monsters/plague_ward": true
+              "bacaptmh:potion/plague_ward": true
             }
           }
         }
@@ -3519,13 +3519,13 @@
         }
       }
     },
-    "monsters_salt_in_the_wound": {
+    "potion_salt_in_the_wound": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:monsters/salt_in_the_wound": true
+              "bacaptmh:potion/salt_in_the_wound": true
             }
           }
         }
@@ -3543,13 +3543,13 @@
         }
       }
     },
-    "monsters_hexed_hunt": {
+    "potion_hexed_hunt": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:monsters/hexed_hunt": true
+              "bacaptmh:potion/hexed_hunt": true
             }
           }
         }
@@ -3567,37 +3567,37 @@
         }
       }
     },
-    "monsters_second_hand_venom": {
+    "potion_second_hand_venom": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:monsters/second_hand_venom": true
+              "bacaptmh:potion/second_hand_venom": true
             }
           }
         }
       }
     },
-    "monsters_two_faced": {
+    "weaponry_two_faced": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:monsters/two_faced": true
+              "bacaptmh:weaponry/two_faced": true
             }
           }
         }
       }
     },
-    "monsters_undead_chauffeur": {
+    "animal_undead_chauffeur": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:monsters/undead_chauffeur": true
+              "bacaptmh:animal/undead_chauffeur": true
             }
           }
         }
@@ -3795,13 +3795,13 @@
         }
       }
     },
-    "animal_spore_war": {
+    "biomes_spore_war": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:animal/spore_war": true
+              "bacaptmh:biomes/spore_war": true
             }
           }
         }
@@ -5475,37 +5475,37 @@
         }
       }
     },
-    "building_nosebleed_seats": {
+    "weaponry_nosebleed_seats": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:building/nosebleed_seats": true
+              "bacaptmh:weaponry/nosebleed_seats": true
             }
           }
         }
       }
     },
-    "building_beam_top_up": {
+    "potion_beam_top_up": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:building/beam_top_up": true
+              "bacaptmh:potion/beam_top_up": true
             }
           }
         }
       }
     },
-    "building_beacon_pharmacy": {
+    "potion_beacon_pharmacy": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:building/beacon_pharmacy": true
+              "bacaptmh:potion/beacon_pharmacy": true
             }
           }
         }
@@ -6411,97 +6411,97 @@
         }
       }
     },
-    "statistics_quartermaster": {
+    "farming_quartermaster": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:statistics/quartermaster": true
+              "bacaptmh:farming/quartermaster": true
             }
           }
         }
       }
     },
-    "statistics_feeding_frenzy": {
+    "farming_feeding_frenzy": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:statistics/feeding_frenzy": true
+              "bacaptmh:farming/feeding_frenzy": true
             }
           }
         }
       }
     },
-    "statistics_axe_feud": {
+    "weaponry_axe_feud": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:statistics/axe_feud": true
+              "bacaptmh:weaponry/axe_feud": true
             }
           }
         }
       }
     },
-    "statistics_first_to_fall": {
+    "weaponry_first_to_fall": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:statistics/first_to_fall": true
+              "bacaptmh:weaponry/first_to_fall": true
             }
           }
         }
       }
     },
-    "statistics_well_padded": {
+    "weaponry_well_padded": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:statistics/well_padded": true
+              "bacaptmh:weaponry/well_padded": true
             }
           }
         }
       }
     },
-    "statistics_hit_with_everything": {
+    "weaponry_hit_with_everything": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:statistics/hit_with_everything": true
+              "bacaptmh:weaponry/hit_with_everything": true
             }
           }
         }
       }
     },
-    "statistics_grand_tour_of_grudges": {
+    "weaponry_grand_tour_of_grudges": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:statistics/grand_tour_of_grudges": true
+              "bacaptmh:weaponry/grand_tour_of_grudges": true
             }
           }
         }
       }
     },
-    "statistics_three_graves": {
+    "weaponry_three_graves": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:statistics/three_graves": true
+              "bacaptmh:weaponry/three_graves": true
             }
           }
         }
@@ -6843,13 +6843,13 @@
         }
       }
     },
-    "mining_painted_desert": {
+    "biomes_painted_desert": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:mining/painted_desert": true
+              "bacaptmh:biomes/painted_desert": true
             }
           }
         }
@@ -7011,13 +7011,13 @@
         }
       }
     },
-    "adventure_quartermasters_round": {
+    "weaponry_quartermasters_round": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:adventure/quartermasters_round": true
+              "bacaptmh:weaponry/quartermasters_round": true
             }
           }
         }
@@ -7311,13 +7311,13 @@
         }
       }
     },
-    "adventure_aegis_trade": {
+    "weaponry_aegis_trade": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:adventure/aegis_trade": true
+              "bacaptmh:weaponry/aegis_trade": true
             }
           }
         }
@@ -7335,13 +7335,13 @@
         }
       }
     },
-    "adventure_chainbreaker": {
+    "weaponry_chainbreaker": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:adventure/chainbreaker": true
+              "bacaptmh:weaponry/chainbreaker": true
             }
           }
         }
@@ -7455,13 +7455,13 @@
         }
       }
     },
-    "adventure_on_the_scent": {
+    "animal_on_the_scent": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:adventure/on_the_scent": true
+              "bacaptmh:animal/on_the_scent": true
             }
           }
         }
@@ -7479,13 +7479,13 @@
         }
       }
     },
-    "challenges_breaking_bread": {
+    "farming_breaking_bread": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/breaking_bread": true
+              "bacaptmh:farming/breaking_bread": true
             }
           }
         }
@@ -7551,25 +7551,25 @@
         }
       }
     },
-    "challenges_three_man_lift": {
+    "nether_three_man_lift": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/three_man_lift": true
+              "bacaptmh:nether/three_man_lift": true
             }
           }
         }
       }
     },
-    "challenges_hells_consignment": {
+    "nether_hells_consignment": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/hells_consignment": true
+              "bacaptmh:nether/hells_consignment": true
             }
           }
         }
@@ -7587,49 +7587,49 @@
         }
       }
     },
-    "challenges_the_sword_ledger": {
+    "weaponry_the_sword_ledger": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/the_sword_ledger": true
+              "bacaptmh:weaponry/the_sword_ledger": true
             }
           }
         }
       }
     },
-    "challenges_the_whole_toolbox": {
+    "weaponry_the_whole_toolbox": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/the_whole_toolbox": true
+              "bacaptmh:weaponry/the_whole_toolbox": true
             }
           }
         }
       }
     },
-    "challenges_the_firing_squad": {
+    "weaponry_the_firing_squad": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/the_firing_squad": true
+              "bacaptmh:weaponry/the_firing_squad": true
             }
           }
         }
       }
     },
-    "challenges_full_quiver": {
+    "potion_full_quiver": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/full_quiver": true
+              "bacaptmh:potion/full_quiver": true
             }
           }
         }
@@ -7647,13 +7647,13 @@
         }
       }
     },
-    "challenges_nowhere_is_safe": {
+    "weaponry_nowhere_is_safe": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/nowhere_is_safe": true
+              "bacaptmh:weaponry/nowhere_is_safe": true
             }
           }
         }
@@ -7695,37 +7695,37 @@
         }
       }
     },
-    "challenges_patient_zero": {
+    "potion_patient_zero": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/patient_zero": true
+              "bacaptmh:potion/patient_zero": true
             }
           }
         }
       }
     },
-    "challenges_apothecary_wars": {
+    "potion_apothecary_wars": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/apothecary_wars": true
+              "bacaptmh:potion/apothecary_wars": true
             }
           }
         }
       }
     },
-    "challenges_blood_feud": {
+    "statistics_blood_feud": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/blood_feud": true
+              "bacaptmh:statistics/blood_feud": true
             }
           }
         }
@@ -7743,13 +7743,13 @@
         }
       }
     },
-    "challenges_beast_master": {
+    "animal_beast_master": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:challenges/beast_master": true
+              "bacaptmh:animal/beast_master": true
             }
           }
         }

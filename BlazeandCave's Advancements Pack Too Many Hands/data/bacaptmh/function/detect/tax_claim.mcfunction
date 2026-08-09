@@ -7,7 +7,7 @@ execute store result score #tcy bacaptmh_tmp run data get entity @s Pos[1] 1
 execute store result score #tcz bacaptmh_tmp run data get entity @s Pos[2] 1
 scoreboard players set #taxok bacaptmh_tmp 0
 execute as @a[scores={bacaptmh_tw=1..},tag=!bacaptmh_taxman] run function bacaptmh:detect/tax_near
-execute if score #taxok bacaptmh_tmp matches 1 run advancement grant @a[tag=bacaptmh_taxed] only bacaptmh:statistics/death_and_taxes
-execute if score #taxok bacaptmh_tmp matches 1 run advancement grant @s only bacaptmh:statistics/death_and_taxes
+execute if score #taxok bacaptmh_tmp matches 1 run advancement grant @a[tag=bacaptmh_taxed] only bacaptmh:enchanting/death_and_taxes
+execute if score #taxok bacaptmh_tmp matches 1 run advancement grant @s only bacaptmh:enchanting/death_and_taxes
 tag @a[tag=bacaptmh_taxed] remove bacaptmh_taxed
 tag @s remove bacaptmh_taxman

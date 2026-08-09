@@ -7,10 +7,10 @@
       "translate": "Tortoise and the Hare"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Be hit with a Potion of the Turtle Master by another player, then be cut down by a player while you are still crawling (2 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:potion/tank",

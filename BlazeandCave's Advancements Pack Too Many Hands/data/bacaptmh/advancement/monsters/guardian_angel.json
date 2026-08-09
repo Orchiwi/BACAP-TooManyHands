@@ -7,10 +7,10 @@
       "translate": "Guardian Angel"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Cut down in melee a monster that was hunting another player (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:monsters/night_runner",

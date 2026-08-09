@@ -7,10 +7,10 @@
       "translate": "Iron Chef"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Cook a raw ingredient on a Campfire and hand the finished meal to another player (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:farming/meat_lovers",

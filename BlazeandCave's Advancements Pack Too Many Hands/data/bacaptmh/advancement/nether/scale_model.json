@@ -7,10 +7,10 @@
       "translate": "Scale Model"
     },
     "description": {
-      "color": "green",
+      "color": "#75E1FF",
       "translate": "Stand together in the Nether, then come out of two Overworld portals more than 800 blocks apart (2 players)"
     },
-    "frame": "task",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:nether/ancient_restoration",

@@ -7,10 +7,10 @@
       "translate": "Void Insurance"
     },
     "description": {
-      "color": "green",
+      "color": "#75E1FF",
       "translate": "Catch a Chorus Fruit from another player while you are falling below Y=0 in the End (2 players)"
     },
-    "frame": "task",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:end/the_point_of_no_return",

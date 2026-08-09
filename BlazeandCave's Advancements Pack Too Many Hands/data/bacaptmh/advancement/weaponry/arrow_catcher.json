@@ -7,10 +7,10 @@
       "translate": "Arrow Catcher"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Block another player's arrow with your Shield (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:weaponry/shield_luck",

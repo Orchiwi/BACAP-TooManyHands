@@ -482,6 +482,42 @@
           }
         }
       }
+    },
+    "quartermaster": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:farming/quartermaster": true
+            }
+          }
+        }
+      }
+    },
+    "feeding_frenzy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:farming/feeding_frenzy": true
+            }
+          }
+        }
+      }
+    },
+    "breaking_bread": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:farming/breaking_bread": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

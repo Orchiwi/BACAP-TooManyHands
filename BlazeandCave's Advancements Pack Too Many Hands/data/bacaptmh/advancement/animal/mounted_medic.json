@@ -7,10 +7,10 @@
       "translate": "Mounted Medic"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Take a Regeneration splash from a player four blocks off while you ride pillion behind a third (3 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:animal/cowboy",

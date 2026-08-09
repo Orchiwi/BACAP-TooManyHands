@@ -4,8 +4,8 @@
 # contest window and revoked in the same pass, so a defender left alone runs the window down and
 # the timer stops. Requirements on the advancement are [["hurt"],["impossible"]] - two AND-ed
 # groups - so latching 'hurt' can never complete it by itself.
-execute if entity @s[advancements={bacaptmh:challenges/king_of_the_hill={hurt=true}}] run scoreboard players set @s bacaptmh_kh 200
-execute if entity @s[advancements={bacaptmh:challenges/king_of_the_hill={hurt=true}}] run advancement revoke @s only bacaptmh:challenges/king_of_the_hill hurt
+execute if entity @s[advancements={bacaptmh:weaponry/king_of_the_hill={hurt=true}}] run scoreboard players set @s bacaptmh_kh 200
+execute if entity @s[advancements={bacaptmh:weaponry/king_of_the_hill={hurt=true}}] run advancement revoke @s only bacaptmh:weaponry/king_of_the_hill hurt
 execute if score @s bacaptmh_kh matches 1.. run scoreboard players remove @s bacaptmh_kh 1
 # Which block cell are they in? Pos is read raw and truncated, so the score only changes when
 # they leave the one-block cell. Y is deliberately not part of the key: knockback lifts a player
@@ -28,4 +28,4 @@ execute if score #mp4kn bacaptmh_tmp matches 2.. if score @s bacaptmh_kh matches
 # only the ones the contest itself counted: same gamemode filters, same twelve blocks. The
 # wider unfiltered grant paid any creative-mode or uninvolved bystander who happened to be
 # standing there on the final tick.
-execute if score @s bacaptmh_kt matches 1200.. run advancement grant @a[gamemode=!spectator,gamemode=!creative,distance=..12] only bacaptmh:challenges/king_of_the_hill
+execute if score @s bacaptmh_kt matches 1200.. run advancement grant @a[gamemode=!spectator,gamemode=!creative,distance=..12] only bacaptmh:weaponry/king_of_the_hill

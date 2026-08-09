@@ -32,5 +32,5 @@ execute if score #hw_win bacaptmh_mf3 matches 1.. store result score #hw_ok baca
 # 5. Everyone admitted is paid, not only whoever happened to heal last - Cooperative Mode
 #    is off, so the grant has to name them all. Closing the window here makes step 1 clear
 #    the flags on the next pass.
-execute if score #hw_p bacaptmh_mf3 matches 3.. if score #hw_ok bacaptmh_mf3 = #hw_p bacaptmh_mf3 run advancement grant @a[gamemode=!spectator,scores={bacaptmh_hw=1}] only bacaptmh:challenges/hospital_wing
+execute if score #hw_p bacaptmh_mf3 matches 3.. if score #hw_ok bacaptmh_mf3 = #hw_p bacaptmh_mf3 run advancement grant @a[gamemode=!spectator,scores={bacaptmh_hw=1}] only bacaptmh:potion/hospital_wing
 execute if score #hw_p bacaptmh_mf3 matches 3.. if score #hw_ok bacaptmh_mf3 = #hw_p bacaptmh_mf3 run scoreboard players set #hw_win bacaptmh_mf3 0

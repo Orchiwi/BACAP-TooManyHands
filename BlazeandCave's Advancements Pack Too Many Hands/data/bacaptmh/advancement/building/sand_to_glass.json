@@ -7,10 +7,10 @@
       "translate": "Sand to Glass"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Hand another player Sand, take the smelted Glass back, and build with it (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:building/classy_glassy",

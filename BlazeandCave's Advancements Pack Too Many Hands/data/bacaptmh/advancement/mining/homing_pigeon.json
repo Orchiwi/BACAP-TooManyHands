@@ -7,10 +7,10 @@
       "translate": "Homing Pigeon"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Be handed a Compass by another player and use it on a Lodestone at least 64 blocks away (2 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:mining/get_a_lode_of_this",

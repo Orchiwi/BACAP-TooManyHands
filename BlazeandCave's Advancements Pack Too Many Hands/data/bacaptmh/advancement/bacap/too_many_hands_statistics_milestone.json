@@ -159,18 +159,6 @@
         }
       }
     },
-    "death_and_taxes": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:statistics/death_and_taxes": true
-            }
-          }
-        }
-      }
-    },
     "body_count": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -183,97 +171,13 @@
         }
       }
     },
-    "quartermaster": {
+    "blood_feud": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
           "minecraft:type_specific/player": {
             "advancements": {
-              "bacaptmh:statistics/quartermaster": true
-            }
-          }
-        }
-      }
-    },
-    "feeding_frenzy": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:statistics/feeding_frenzy": true
-            }
-          }
-        }
-      }
-    },
-    "axe_feud": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:statistics/axe_feud": true
-            }
-          }
-        }
-      }
-    },
-    "first_to_fall": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:statistics/first_to_fall": true
-            }
-          }
-        }
-      }
-    },
-    "well_padded": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:statistics/well_padded": true
-            }
-          }
-        }
-      }
-    },
-    "hit_with_everything": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:statistics/hit_with_everything": true
-            }
-          }
-        }
-      }
-    },
-    "grand_tour_of_grudges": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:statistics/grand_tour_of_grudges": true
-            }
-          }
-        }
-      }
-    },
-    "three_graves": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:statistics/three_graves": true
+              "bacaptmh:statistics/blood_feud": true
             }
           }
         }

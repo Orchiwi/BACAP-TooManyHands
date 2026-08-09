@@ -7,10 +7,10 @@
       "translate": "Star Broker"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "dark_purple",
       "translate": "Hand another player a Nether Star and be handed a finished Beacon back (2 players)"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:nether/beacon_overlord",

@@ -39,6 +39,18 @@
         }
       }
     },
+    "blood_brothers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/blood_brothers": true
+            }
+          }
+        }
+      }
+    },
     "emergency_exit": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -207,18 +219,6 @@
         }
       }
     },
-    "ghost_train": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:nether/ghost_train": true
-            }
-          }
-        }
-      }
-    },
     "field_hospital": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -262,6 +262,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:nether/door_gunner": true
+            }
+          }
+        }
+      }
+    },
+    "three_man_lift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/three_man_lift": true
+            }
+          }
+        }
+      }
+    },
+    "hells_consignment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:nether/hells_consignment": true
             }
           }
         }

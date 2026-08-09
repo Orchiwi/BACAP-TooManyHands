@@ -7,10 +7,10 @@
       "translate": "Assembly Line"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "green",
       "translate": "Take five Iron Ingots from one player and a Chest from another, craft a Hopper, and hand it on down the line (2 players)"
     },
-    "frame": "challenge",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:redstone/space_hopper",

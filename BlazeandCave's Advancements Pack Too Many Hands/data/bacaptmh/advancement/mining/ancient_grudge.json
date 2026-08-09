@@ -7,10 +7,10 @@
       "translate": "Ancient Grudge"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Kill another player inside an Ancient City (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:mining/fallen_kingdom",

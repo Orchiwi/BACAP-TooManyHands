@@ -18,7 +18,7 @@ scoreboard players remove #f3cut2400 bacaptmh_tmp 2400
 execute as @a[gamemode=!spectator] run function bacaptmh:detect/sample
 execute if score #players bacaptmh_sys matches 2.. if entity @a[gamemode=!spectator,advancements={bacaptmh:end/tag_team=false},limit=1] in minecraft:the_end as @e[type=ender_dragon,limit=1] at @s run function bacaptmh:detect/tag_team
 execute if score #players bacaptmh_sys matches 3.. as @a[gamemode=!spectator,advancements={bacaptmh:monsters/wither_committee=false}] at @s if entity @e[type=wither,distance=..20] run function bacaptmh:detect/wither_committee
-execute if score #players bacaptmh_sys matches 3.. as @a[gamemode=!spectator,advancements={bacaptmh:monsters/warden_party=false}] at @s if entity @e[type=warden,distance=..16] run function bacaptmh:detect/warden_party
+execute if score #players bacaptmh_sys matches 3.. as @a[gamemode=!spectator,advancements={bacaptmh:challenges/warden_party=false}] at @s if entity @e[type=warden,distance=..16] run function bacaptmh:detect/warden_party
 execute if score #players bacaptmh_sys matches 2.. if entity @a[gamemode=!spectator,advancements={bacaptmh:monsters/assist=false},limit=1] as @a[gamemode=!spectator,gamemode=!creative,scores={bacaptmh_dmgd=1..}] at @s run function bacaptmh:detect/assist
 execute if score #players bacaptmh_sys matches 3.. if entity @a[gamemode=!spectator,advancements={bacaptmh:monsters/total_party_kill=false},limit=1] run function bacaptmh:detect/total_party_kill
 execute if score #players bacaptmh_sys matches 2.. as @a[gamemode=!spectator,advancements={bacaptmh:animal/carpool=false}] run function bacaptmh:detect/carpool
@@ -36,7 +36,7 @@ execute as @a[gamemode=!spectator,advancements={bacaptmh:redstone/trapped={opene
 execute if score #players bacaptmh_sys matches 4.. if entity @a[advancements={bacaptmh:building/firework_finale=false},limit=1] as @a[gamemode=!spectator,scores={bacaptmh_fwt=1..}] at @s run function bacaptmh:detect/firework_finale
 execute if score #players bacaptmh_sys matches 4.. if entity @a[advancements={bacaptmh:nether/nether_express=false},limit=1] run function bacaptmh:detect/nether_express
 execute if score #players bacaptmh_sys matches 4.. if entity @a[advancements={bacaptmh:challenges/insurance_policy=false},limit=1] as @a[gamemode=!spectator,scores={bacaptmh_tott=1..}] at @s run function bacaptmh:detect/insurance_policy
-execute if score #players bacaptmh_sys matches 3.. if entity @a[advancements={bacaptmh:challenges/formation_flying=false},limit=1] run function bacaptmh:detect/formation_flying
+execute if score #players bacaptmh_sys matches 3.. if entity @a[advancements={bacaptmh:end/formation_flying=false},limit=1] run function bacaptmh:detect/formation_flying
 scoreboard players set #f2players bacaptmh_sys 0
 execute if entity @a[limit=1] run function bacaptmh:detect/f2_events
 execute if score #f2players bacaptmh_sys matches 2.. if entity @a[scores={bacaptmh_ekill=1..,bacaptmh_edeath=1..},limit=1] run function bacaptmh:detect/mutual_destruction
@@ -55,8 +55,8 @@ execute as @a run scoreboard players operation @s bacaptmh_sleepp = @s bacaptmh_
 execute as @a run scoreboard players operation @s bacaptmh_ghornp = @s bacaptmh_ghorn
 execute as @a run scoreboard players operation @s bacaptmh_dropp = @s bacaptmh_drop
 # A11 Shared Custody - stamp on naming, pay out on feeding somebody else's animal.
-execute as @a[gamemode=!spectator,advancements={bacaptmh:adventure/shared_custody={named=true,guard=false}}] at @s run function bacaptmh:detect/custody_name
-execute as @a[gamemode=!spectator,advancements={bacaptmh:adventure/shared_custody={fed=true,guard=false}}] at @s run function bacaptmh:detect/custody_feed
+execute as @a[gamemode=!spectator,advancements={bacaptmh:animal/shared_custody={named=true,guard=false}}] at @s run function bacaptmh:detect/custody_name
+execute as @a[gamemode=!spectator,advancements={bacaptmh:animal/shared_custody={fed=true,guard=false}}] at @s run function bacaptmh:detect/custody_feed
 # --- expansion ---
 # --- Too Many Hands batch MP6 ------------------------------------------------------
 # Online players are COUNTED into a fake player of this batch's own; 'if entity @a[limit=N]'
@@ -87,7 +87,7 @@ execute as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaptmh:reds
 execute as @a[gamemode=!spectator] if score @s bacaptmh_bbd matches 1.. run scoreboard players set @s bacaptmh_bb 41
 execute as @a run scoreboard players set @s bacaptmh_bbd 0
 execute as @a[scores={bacaptmh_bb=1..}] run scoreboard players remove @s bacaptmh_bb 1
-execute if score #mp6players bacaptmh_mp6 matches 4.. as @a[gamemode=!spectator,advancements={bacaptmh:challenges/blood_brothers=false},scores={bacaptmh_bb=1..},nbt=!{Health:0.0f}] at @s if dimension minecraft:the_nether run function bacaptmh:detect/blood_brothers
+execute if score #mp6players bacaptmh_mp6 matches 4.. as @a[gamemode=!spectator,advancements={bacaptmh:nether/blood_brothers=false},scores={bacaptmh_bb=1..},nbt=!{Health:0.0f}] at @s if dimension minecraft:the_nether run function bacaptmh:detect/blood_brothers
 # --- mp5 -------------------------------------------------------------------------
 # Both of these are called UNGATED: each maintains statistic mirrors that must not freeze.
 # Their internal grants carry their own '#players matches 2..' gate.
@@ -216,7 +216,7 @@ execute if score #players bacaptmh_sys matches 2.. as @a[gamemode=!spectator,adv
 # E3 Eye Contact
 execute if score #players bacaptmh_sys matches 2.. as @a[gamemode=!spectator,advancements={bacaptmh:end/eye_contact={seated=true,impossible=false}}] at @s run function bacaptmh:detect/eye_contact
 # R4 Grand Central
-execute if score #players bacaptmh_sys matches 4.. as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaptmh:redstone/grand_central=false}] at @s run function bacaptmh:detect/grand_central
+execute if score #players bacaptmh_sys matches 4.. as @a[gamemode=!spectator,gamemode=!creative,advancements={bacaptmh:challenges/grand_central=false}] at @s run function bacaptmh:detect/grand_central
 # S5 Crash Test Dummy - the criterion is the attribution; the delta above is the amount.
 execute as @a[gamemode=!spectator,advancements={bacaptmh:statistics/crash_test_dummy={hurt=true,impossible=false}}] run function bacaptmh:detect/crash_test_dummy
 # W6 Blood Debt - three lines, NO new detection function. bacaptmh_ekill / bacaptmh_edeath are
@@ -374,7 +374,7 @@ execute as @a[scores={bacaptmh_dmgd=1..}] run scoreboard players set @s bacaptmh
 execute as @a store result score @s bacaptmh_xpd run experience query @s points
 execute as @a run scoreboard players operation @s bacaptmh_xpd -= @s bacaptmh_xpn
 execute as @a run scoreboard players operation @s bacaptmh_xpn += @s bacaptmh_xpd
-execute if entity @a[gamemode=!spectator,advancements={bacaptmh:statistics/death_and_taxes=false},limit=1] if entity @a[scores={bacaptmh_tw=1..},limit=1] as @a[gamemode=!spectator,gamemode=!creative,scores={bacaptmh_xpd=1..},advancements={bacaptmh:statistics/death_and_taxes=false}] at @s run function bacaptmh:detect/tax_claim
+execute if entity @a[gamemode=!spectator,advancements={bacaptmh:enchanting/death_and_taxes=false},limit=1] if entity @a[scores={bacaptmh_tw=1..},limit=1] as @a[gamemode=!spectator,gamemode=!creative,scores={bacaptmh_xpd=1..},advancements={bacaptmh:enchanting/death_and_taxes=false}] at @s run function bacaptmh:detect/tax_claim
 # --- expansion ---
 # --- mpfill3: Hospital Wing. Runs every medium pass; it counts players and ages its own
 # --- window internally, so there is nothing to gate the call on.
@@ -444,11 +444,11 @@ execute as @a[gamemode=!spectator,tag=bacaptmh_wing,advancements={bacaptmh:end/w
 tag @a[tag=bacaptmh_wing,advancements={bacaptmh:end/wingman=true}] remove bacaptmh_wing
 # Rest In Pieces - the kill has to come first. 'felled_them' now demands a melee killing
 # blow, so the mourner is the one who was standing over the body.
-advancement revoke @a[tag=!bacaptmh_rip,advancements={bacaptmh:building/rest_in_pieces={planted_the_rose=true,impossible=false}}] only bacaptmh:building/rest_in_pieces planted_the_rose
-execute as @a[gamemode=!spectator,advancements={bacaptmh:building/rest_in_pieces={felled_them=true,impossible=false}}] run tag @s add bacaptmh_rip
-advancement revoke @a[advancements={bacaptmh:building/rest_in_pieces={felled_them=true,impossible=false}}] only bacaptmh:building/rest_in_pieces felled_them
-execute as @a[gamemode=!spectator,tag=bacaptmh_rip,advancements={bacaptmh:building/rest_in_pieces={planted_the_rose=true,impossible=false}}] run advancement grant @s only bacaptmh:building/rest_in_pieces
-tag @a[tag=bacaptmh_rip,advancements={bacaptmh:building/rest_in_pieces=true}] remove bacaptmh_rip
+advancement revoke @a[tag=!bacaptmh_rip,advancements={bacaptmh:weaponry/rest_in_pieces={planted_the_rose=true,impossible=false}}] only bacaptmh:weaponry/rest_in_pieces planted_the_rose
+execute as @a[gamemode=!spectator,advancements={bacaptmh:weaponry/rest_in_pieces={felled_them=true,impossible=false}}] run tag @s add bacaptmh_rip
+advancement revoke @a[advancements={bacaptmh:weaponry/rest_in_pieces={felled_them=true,impossible=false}}] only bacaptmh:weaponry/rest_in_pieces felled_them
+execute as @a[gamemode=!spectator,tag=bacaptmh_rip,advancements={bacaptmh:weaponry/rest_in_pieces={planted_the_rose=true,impossible=false}}] run advancement grant @s only bacaptmh:weaponry/rest_in_pieces
+tag @a[tag=bacaptmh_rip,advancements={bacaptmh:weaponry/rest_in_pieces=true}] remove bacaptmh_rip
 # Parting Gift - minecraft:entity_killed_player only fires when an ENTITY kills you, so
 # lava, falls, drowning and the void never counted, and the pair was unordered besides.
 # The death is read from bacaptmh_dtime instead, which detect/sample stamps for every

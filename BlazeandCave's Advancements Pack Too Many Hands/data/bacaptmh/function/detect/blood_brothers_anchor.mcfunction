@@ -81,4 +81,4 @@ execute if block ~2 ~1 ~-1 minecraft:respawn_anchor run scoreboard players set #
 execute if block ~2 ~1 ~ minecraft:respawn_anchor run scoreboard players set #bba bacaptmh_mp6 1
 execute if block ~2 ~1 ~1 minecraft:respawn_anchor run scoreboard players set #bba bacaptmh_mp6 1
 execute if block ~2 ~1 ~2 minecraft:respawn_anchor run scoreboard players set #bba bacaptmh_mp6 1
-execute if score #bba bacaptmh_mp6 matches 1 run advancement grant @a[gamemode=!spectator,distance=..8,scores={bacaptmh_bb=1..},nbt=!{Health:0.0f}] only bacaptmh:challenges/blood_brothers
+execute if score #bba bacaptmh_mp6 matches 1 run advancement grant @a[gamemode=!spectator,distance=..8,scores={bacaptmh_bb=1..},nbt=!{Health:0.0f}] only bacaptmh:nether/blood_brothers

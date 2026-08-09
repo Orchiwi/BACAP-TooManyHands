@@ -7,10 +7,10 @@
       "translate": "Riptide Rampage"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Riptide-launch yourself into another player and kill them with the Trident on the way through (2 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:enchanting/do_a_barrel_roll",

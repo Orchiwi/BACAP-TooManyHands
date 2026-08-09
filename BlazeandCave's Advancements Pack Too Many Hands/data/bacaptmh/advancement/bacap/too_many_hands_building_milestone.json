@@ -99,18 +99,6 @@
         }
       }
     },
-    "rest_in_pieces": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:building/rest_in_pieces": true
-            }
-          }
-        }
-      }
-    },
     "bricked_in": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -142,6 +130,18 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:building/trophy_wall": true
+            }
+          }
+        }
+      }
+    },
+    "required_reading": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/required_reading": true
             }
           }
         }
@@ -598,42 +598,6 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:building/hyphae_haulage": true
-            }
-          }
-        }
-      }
-    },
-    "nosebleed_seats": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:building/nosebleed_seats": true
-            }
-          }
-        }
-      }
-    },
-    "beam_top_up": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:building/beam_top_up": true
-            }
-          }
-        }
-      }
-    },
-    "beacon_pharmacy": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:building/beacon_pharmacy": true
             }
           }
         }

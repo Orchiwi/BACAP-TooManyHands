@@ -7,10 +7,10 @@
       "translate": "Bullion Run"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "dark_purple",
       "translate": "Hand another player a Block of Netherite (2 players)"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:nether/master_netherite_miner",

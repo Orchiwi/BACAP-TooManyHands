@@ -135,18 +135,6 @@
         }
       }
     },
-    "overkill_rivalry": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:enchanting/overkill_rivalry": true
-            }
-          }
-        }
-      }
-    },
     "parting_gift": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -154,6 +142,30 @@
           "minecraft:type_specific/player": {
             "advancements": {
               "bacaptmh:enchanting/parting_gift": true
+            }
+          }
+        }
+      }
+    },
+    "death_and_taxes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/death_and_taxes": true
+            }
+          }
+        }
+      }
+    },
+    "inheritance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/inheritance": true
             }
           }
         }

@@ -7,10 +7,10 @@
       "translate": "Gilded Betrayal"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Kill another player with a Golden Sword inside a Bastion Remnant (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:nether/brute_force",

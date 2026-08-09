@@ -7,10 +7,10 @@
       "translate": "Fugu"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Eat a Pufferfish another player served you (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:animal/sushi",

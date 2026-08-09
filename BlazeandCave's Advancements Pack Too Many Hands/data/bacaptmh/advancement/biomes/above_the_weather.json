@@ -7,10 +7,10 @@
       "translate": "Above the Weather"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Kill another player above Y=200 while a thunderstorm rages far below you (2 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:biomes/top_of_the_world",

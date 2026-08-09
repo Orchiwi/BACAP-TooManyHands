@@ -7,10 +7,10 @@
       "translate": "Wingman"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Take off in an Elytra another player handed you (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:end/divers_dozen",

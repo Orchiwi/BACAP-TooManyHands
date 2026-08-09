@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:name_tag"
+    },
+    "title": {
+      "translate": "Shared Custody"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Feed an animal that another player named with a Name Tag (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/cowboy",
+  "criteria": {
+    "named": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:name_tag"
+        }
+      }
+    },
+    "fed": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wheat",
+            "minecraft:carrot",
+            "minecraft:potato",
+            "minecraft:wheat_seeds",
+            "minecraft:golden_carrot",
+            "minecraft:apple",
+            "minecraft:sweet_berries",
+            "minecraft:bamboo",
+            "minecraft:cod",
+            "minecraft:salmon",
+            "minecraft:seagrass",
+            "minecraft:beetroot",
+            "minecraft:hay_block"
+          ]
+        }
+      }
+    },
+    "guard": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/shared_custody"
+  }
+}

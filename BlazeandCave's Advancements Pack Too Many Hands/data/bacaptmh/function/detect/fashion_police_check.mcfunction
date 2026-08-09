@@ -15,5 +15,5 @@ tag @a[gamemode=!spectator,distance=..32,scores={bacaptmh_dress_t=9},limit=1] ad
 tag @a[gamemode=!spectator,distance=..32,scores={bacaptmh_dress_t=10},limit=1] add bacaptmh_fashion
 tag @a[gamemode=!spectator,distance=..32,scores={bacaptmh_dress_t=11},limit=1] add bacaptmh_fashion
 execute store result score #c bacaptmh_n if entity @a[tag=bacaptmh_fashion]
-execute if score #c bacaptmh_n matches 5.. run advancement grant @a[tag=bacaptmh_fashion] only bacaptmh:adventure/fashion_police
+execute if score #c bacaptmh_n matches 5.. run advancement grant @a[tag=bacaptmh_fashion] only bacaptmh:challenges/fashion_police
 tag @a remove bacaptmh_fashion

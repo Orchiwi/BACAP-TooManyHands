@@ -7,10 +7,10 @@
       "translate": "Quartz Consortium"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Have another player hand you all five carved forms of Quartz (2 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:redstone/quartz_miner",

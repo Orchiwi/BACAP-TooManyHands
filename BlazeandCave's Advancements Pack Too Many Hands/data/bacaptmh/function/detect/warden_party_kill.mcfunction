@@ -5,4 +5,4 @@ execute store result score #f3wahp bacaptmh_tmp run data get entity @s Health 10
 execute if score #f3wahp bacaptmh_tmp matches 1.. run return 0
 scoreboard players set #f3wan bacaptmh_tmp 0
 execute as @a[gamemode=!spectator,gamemode=!creative,distance=..16,nbt=!{Health:0.0f}] unless score @s bacaptmh_dtime > #f3cut1200 bacaptmh_tmp run scoreboard players add #f3wan bacaptmh_tmp 1
-execute if score #f3wan bacaptmh_tmp matches 3.. as @a[gamemode=!spectator,gamemode=!creative,distance=..16,nbt=!{Health:0.0f}] unless score @s bacaptmh_dtime > #f3cut1200 bacaptmh_tmp run advancement grant @s only bacaptmh:monsters/warden_party
+execute if score #f3wan bacaptmh_tmp matches 3.. as @a[gamemode=!spectator,gamemode=!creative,distance=..16,nbt=!{Health:0.0f}] unless score @s bacaptmh_dtime > #f3cut1200 bacaptmh_tmp run advancement grant @s only bacaptmh:challenges/warden_party

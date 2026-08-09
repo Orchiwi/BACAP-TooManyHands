@@ -7,10 +7,10 @@
       "translate": "Hot Rocks"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "green",
       "translate": "Have another player hand you Netherrack, Basalt, Blackstone and a Magma Block (2 players)"
     },
-    "frame": "challenge",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:nether/nether_rock_collection",

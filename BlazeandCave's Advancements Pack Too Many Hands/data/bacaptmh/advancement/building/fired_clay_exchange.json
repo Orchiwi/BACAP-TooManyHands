@@ -7,10 +7,10 @@
       "translate": "Fired Clay Exchange"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Hand another player Clay Balls, take the fired Bricks back, and lay a Brick block (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:building/bricks",

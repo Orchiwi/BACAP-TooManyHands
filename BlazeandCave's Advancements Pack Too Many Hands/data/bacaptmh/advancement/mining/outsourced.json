@@ -7,10 +7,10 @@
       "translate": "Outsourced"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Craft a Diamond Pickaxe from three Diamonds another player handed you (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:mining/diamonds_to_you",

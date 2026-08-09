@@ -9,4 +9,4 @@
 scoreboard players operation #cuowner bacaptmh_sys = @s bacaptmh_pid
 scoreboard players set #cudone bacaptmh_sys 0
 execute if score #cuowner bacaptmh_sys matches 1.. as @e[type=!minecraft:player,type=!minecraft:item,type=!minecraft:experience_orb,type=!minecraft:armor_stand,type=!minecraft:leash_knot,distance=..5,sort=nearest,limit=16] if score #cudone bacaptmh_sys matches 0 if data entity @s CustomName run function bacaptmh:detect/custody_stamp
-advancement revoke @s only bacaptmh:adventure/shared_custody named
+advancement revoke @s only bacaptmh:animal/shared_custody named

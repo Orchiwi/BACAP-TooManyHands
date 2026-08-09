@@ -7,10 +7,10 @@
       "translate": "Pearl Swap"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Two players throw Ender Pearls and trade places, each landing where the other was standing (2 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:end/im_coming_back_murph",

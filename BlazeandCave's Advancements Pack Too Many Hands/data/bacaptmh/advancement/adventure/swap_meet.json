@@ -7,10 +7,10 @@
       "translate": "Swap Meet"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Swap the whole stall with another player: hand over a Shulker Box, a Bundle and a Chest Minecart, and be handed all three back (2 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:adventure/do_you_want_to_trade",

@@ -7,10 +7,10 @@
       "translate": "Loan Shark"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Lend another player a Diamond Pickaxe and take it back worn past half its life (2 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:mining/rest_in_pickaxes",

@@ -7,10 +7,10 @@
       "translate": "Signal Boost"
     },
     "description": {
-      "color": "dark_purple",
+      "color": "#75E1FF",
       "translate": "Two players place thirty Repeaters each, side by side, inside one minute (2 players)"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:redstone/repeating_repeater",

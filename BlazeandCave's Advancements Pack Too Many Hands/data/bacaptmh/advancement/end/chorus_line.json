@@ -7,10 +7,10 @@
       "translate": "Chorus Line"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Be handed Chorus Fruit in the End by another player and eat it there (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:end/a_wizards_breakfast",

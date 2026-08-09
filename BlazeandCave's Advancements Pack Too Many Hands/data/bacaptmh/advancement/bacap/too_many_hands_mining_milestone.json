@@ -471,18 +471,6 @@
         }
       }
     },
-    "painted_desert": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "minecraft:type_specific/player": {
-            "advancements": {
-              "bacaptmh:mining/painted_desert": true
-            }
-          }
-        }
-      }
-    },
     "lantern_light": {
       "trigger": "minecraft:location",
       "conditions": {

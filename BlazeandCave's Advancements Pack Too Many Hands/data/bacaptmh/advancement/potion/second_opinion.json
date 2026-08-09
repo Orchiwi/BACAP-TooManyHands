@@ -7,10 +7,10 @@
       "translate": "Second Opinion"
     },
     "description": {
-      "color": "#75E1FF",
+      "color": "green",
       "translate": "Be given Regeneration by another player while Poison is still running through you (2 players)"
     },
-    "frame": "goal",
+    "frame": "task",
     "announce_to_chat": true
   },
   "parent": "blazeandcave:potion/medic",

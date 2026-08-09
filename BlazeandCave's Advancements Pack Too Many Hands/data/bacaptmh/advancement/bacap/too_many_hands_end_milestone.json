@@ -39,6 +39,18 @@
         }
       }
     },
+    "formation_flying": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:end/formation_flying": true
+            }
+          }
+        }
+      }
+    },
     "the_ferryman_cometh": {
       "trigger": "minecraft:location",
       "conditions": {
