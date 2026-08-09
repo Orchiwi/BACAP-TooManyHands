@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:trident"
+      "id": "minecraft:nautilus_shell"
     },
     "title": {
       "translate": "Neptune Denied"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/master_shieldsman",
+  "parent": "bacaptmh:weaponry/fletchers_regret",
   "criteria": {
     "turned": {
       "trigger": "minecraft:entity_hurt_player",

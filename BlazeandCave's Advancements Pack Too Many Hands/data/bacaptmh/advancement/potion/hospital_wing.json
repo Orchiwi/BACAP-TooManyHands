@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:healing"
-        }
-      }
+      "id": "minecraft:white_bed"
     },
     "title": {
       "translate": "Hospital Wing"
@@ -18,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/a_weak_brew",
+  "parent": "bacaptmh:potion/triage",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"

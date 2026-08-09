@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:chorus_fruit"
+      "id": "minecraft:chorus_plant"
     },
     "title": {
       "translate": "Outer Islands Incident"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:end/taking_the_scenic_route",
+  "parent": "bacaptmh:end/exit_wound",
   "criteria": {
     "outer_kill": {
       "trigger": "minecraft:player_killed_entity",

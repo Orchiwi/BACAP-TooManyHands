@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:lead"
+      "id": "minecraft:oak_fence"
     },
     "title": {
       "translate": "Hitching Post"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:animal/lead_the_way",
+  "parent": "bacaptmh:animal/passing_the_lead",
   "criteria": {
     "handed_the_lead": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

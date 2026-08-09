@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:fermented_spider_eye"
+      "id": "minecraft:glass"
     },
     "title": {
       "translate": "Now You See Them"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/the_invisible_player",
+  "parent": "bacaptmh:potion/marco_polo",
   "criteria": {
     "unmasked": {
       "trigger": "minecraft:player_killed_entity",

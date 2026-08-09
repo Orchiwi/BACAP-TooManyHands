@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:bow"
+      "id": "minecraft:flint_and_steel"
     },
     "title": {
       "translate": "Fan the Flames"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:weaponry/first_blood",
+  "parent": "bacaptmh:weaponry/flushed_out",
   "criteria": {
     "fan_the_flames": {
       "trigger": "minecraft:player_hurt_entity",

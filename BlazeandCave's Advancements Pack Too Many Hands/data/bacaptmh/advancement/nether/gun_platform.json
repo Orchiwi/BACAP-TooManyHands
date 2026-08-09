@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:crossbow"
+      "id": "minecraft:firework_rocket"
     },
     "title": {
       "translate": "Gun Platform"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:nether/hot_air_balloon",
+  "parent": "bacaptmh:nether/door_gunner",
   "criteria": {
     "gunner": {
       "trigger": "minecraft:player_killed_entity",

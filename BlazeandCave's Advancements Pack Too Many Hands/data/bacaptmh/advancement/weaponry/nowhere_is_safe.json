@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_sword"
+      "id": "minecraft:filled_map"
     },
     "title": {
       "translate": "Nowhere Is Safe"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/multiclassed",
+  "parent": "bacaptmh:weaponry/nosebleed_seats",
   "criteria": {
     "overworld": {
       "trigger": "minecraft:player_killed_entity",

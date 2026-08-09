@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:dragon_breath"
+      "id": "minecraft:skeleton_skull"
     },
     "title": {
       "translate": "Ghost Protocol"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:end/dragon_shield",
+  "parent": "bacaptmh:end/tag_team",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"

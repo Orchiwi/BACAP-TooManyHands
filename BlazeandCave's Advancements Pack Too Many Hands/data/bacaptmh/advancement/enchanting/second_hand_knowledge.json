@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:enchanted_book"
+      "id": "minecraft:knowledge_book"
     },
     "title": {
       "translate": "Second-Hand Knowledge"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:enchanting/librarian",
+  "parent": "bacaptmh:enchanting/book_club",
   "criteria": {
     "gift": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

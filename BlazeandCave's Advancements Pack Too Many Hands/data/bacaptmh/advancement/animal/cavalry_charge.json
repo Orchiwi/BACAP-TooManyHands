@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:saddle"
+      "id": "minecraft:horse_spawn_egg"
     },
     "title": {
       "translate": "Cavalry Charge"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:animal/cowboy",
+  "parent": "bacaptmh:animal/photo_finish",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"

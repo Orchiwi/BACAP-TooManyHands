@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion"
+      "id": "minecraft:camel_spawn_egg"
     },
     "title": {
       "translate": "Mounted Medic"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:animal/cowboy",
+  "parent": "bacaptmh:animal/jockeys_little_helper",
   "criteria": {
     "dosed": {
       "trigger": "minecraft:effects_changed",

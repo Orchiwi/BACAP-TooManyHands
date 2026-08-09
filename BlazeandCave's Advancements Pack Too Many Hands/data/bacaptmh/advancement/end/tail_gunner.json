@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:dragon_head"
+      "id": "minecraft:white_harness"
     },
     "title": {
       "translate": "Tail Gunner"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:end/dragon_vs_dragon",
+  "parent": "bacaptmh:end/not_my_sword",
   "criteria": {
     "back_seat_dragon": {
       "trigger": "minecraft:player_killed_entity",

@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:weaponry/first_blood",
+  "parent": "bacaptmh:weaponry/chainbreaker",
   "criteria": {
     "executed": {
       "trigger": "minecraft:player_killed_entity",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:minecart"
+      "id": "minecraft:powered_rail"
     },
     "title": {
       "translate": "Trolley Problem"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:redstone/all_aboard",
+  "parent": "bacaptmh:redstone/drive_by",
   "criteria": {
     "rail_war": {
       "trigger": "minecraft:player_killed_entity",

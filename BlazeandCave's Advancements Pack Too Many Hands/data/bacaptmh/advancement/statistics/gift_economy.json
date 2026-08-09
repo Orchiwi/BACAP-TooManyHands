@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:chest"
+      "id": "minecraft:red_bundle"
     },
     "title": {
       "translate": "Gift Economy"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:statistics/big_spender",
+  "parent": "bacaptmh:statistics/philanthropist",
   "criteria": {
     "gave": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

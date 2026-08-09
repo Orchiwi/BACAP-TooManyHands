@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:bow"
+      "id": "minecraft:daylight_detector"
     },
     "title": {
       "translate": "Duel at Dawn"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/point_blank",
+  "parent": "bacaptmh:weaponry/lead_the_target",
   "criteria": {
     "duel_at_dawn": {
       "trigger": "minecraft:player_hurt_entity",

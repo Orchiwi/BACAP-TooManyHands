@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_chestplate"
+      "id": "minecraft:writable_book"
     },
     "title": {
       "translate": "Living Will"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/multiclassed",
+  "parent": "bacaptmh:weaponry/weapon_cache",
   "criteria": {
     "helmet": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

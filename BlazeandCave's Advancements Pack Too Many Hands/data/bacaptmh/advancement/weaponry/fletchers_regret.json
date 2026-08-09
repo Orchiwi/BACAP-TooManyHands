@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:shield"
+      "id": "minecraft:fletching_table"
     },
     "title": {
       "translate": "Fletcher's Regret"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/shield_luck",
+  "parent": "bacaptmh:weaponry/arrow_catcher",
   "criteria": {
     "long_range": {
       "trigger": "minecraft:entity_hurt_player",

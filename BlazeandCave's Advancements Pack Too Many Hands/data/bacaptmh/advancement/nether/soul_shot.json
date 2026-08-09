@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:bow"
+      "id": "minecraft:arrow"
     },
     "title": {
       "translate": "Soul Shot"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:nether/giant_floating_jellyfish",
+  "parent": "bacaptmh:nether/soul_debt",
   "criteria": {
     "soul_shot": {
       "trigger": "minecraft:player_hurt_entity",

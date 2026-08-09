@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:experience_bottle"
+      "id": "minecraft:player_head"
     },
     "title": {
       "translate": "Death and Taxes"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:enchanting/armor_for_the_masses",
+  "parent": "blazeandcave:enchanting/magical_stockpile",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"

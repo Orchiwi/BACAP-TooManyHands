@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:weaponry/first_blood",
+  "parent": "bacaptmh:weaponry/punching_up",
   "criteria": {
     "kindling": {
       "trigger": "minecraft:player_killed_entity",

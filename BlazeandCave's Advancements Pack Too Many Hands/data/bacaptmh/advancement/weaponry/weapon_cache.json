@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_sword"
+      "id": "minecraft:barrel"
     },
     "title": {
       "translate": "Weapon Cache"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:weaponry/arms_dealer",
+  "parent": "bacaptmh:weaponry/blades_for_hire",
   "criteria": {
     "sword": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

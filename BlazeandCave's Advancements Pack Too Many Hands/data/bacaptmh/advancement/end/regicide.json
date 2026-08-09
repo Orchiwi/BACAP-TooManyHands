@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:dragon_egg"
+      "id": "minecraft:golden_sword"
     },
     "title": {
       "translate": "Regicide"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:end/ring_of_the_end",
+  "parent": "bacaptmh:end/heir_apparent",
   "criteria": {
     "claimed": {
       "trigger": "minecraft:player_killed_entity",

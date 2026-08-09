@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:sculk_shrieker"
+      "id": "minecraft:sculk_catalyst"
     },
     "title": {
       "translate": "Warded in the Dark"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:monsters/stealth_is_optional",
+  "parent": "bacaptmh:monsters/fight_in_the_dark",
   "criteria": {
     "warded": {
       "trigger": "minecraft:effects_changed",

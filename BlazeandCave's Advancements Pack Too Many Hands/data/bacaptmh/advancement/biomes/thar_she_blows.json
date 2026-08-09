@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:trident"
+      "id": "minecraft:drowned_spawn_egg"
     },
     "title": {
       "translate": "Thar She Blows"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:biomes/boaty_mcboatface",
+  "parent": "bacaptmh:biomes/ferrymans_fee",
   "criteria": {
     "harpooned": {
       "trigger": "minecraft:player_killed_entity",

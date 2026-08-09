@@ -1,12 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion",
-      "components": {
-        "minecraft:potion_contents": {
-          "potion": "minecraft:healing"
-        }
-      }
+      "id": "minecraft:glistering_melon_slice"
     },
     "title": {
       "translate": "Triage"
@@ -18,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/medic",
+  "parent": "bacaptmh:potion/field_medic",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"

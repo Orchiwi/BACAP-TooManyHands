@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:happy_ghast_spawn_egg"
+      "id": "minecraft:netherite_ingot"
     },
     "title": {
       "translate": "Air Freight"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:nether/hot_air_balloon",
+  "parent": "bacaptmh:nether/air_mail",
   "criteria": {
     "air_freight": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

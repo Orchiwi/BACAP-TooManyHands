@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:bundle"
+      "id": "minecraft:stone_sword"
     },
     "title": {
       "translate": "Starter Kit"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:adventure/budget_vex",
+  "parent": "bacaptmh:adventure/lost_and_found",
   "criteria": {
     "sword": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

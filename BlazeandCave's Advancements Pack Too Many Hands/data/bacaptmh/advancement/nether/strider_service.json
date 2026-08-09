@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick"
+      "id": "minecraft:strider_spawn_egg"
     },
     "title": {
       "translate": "Strider Service"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:nether/im_in_lava_with_you",
+  "parent": "bacaptmh:nether/lava_lifeline",
   "criteria": {
     "serviced": {
       "trigger": "minecraft:effects_changed",

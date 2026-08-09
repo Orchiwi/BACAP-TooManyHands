@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion"
+      "id": "minecraft:brewer_pottery_sherd"
     },
     "title": {
       "translate": "Apothecary Wars"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/a_weak_brew",
+  "parent": "bacaptmh:potion/patient_zero",
   "criteria": {
     "saturated": {
       "trigger": "minecraft:entity_hurt_player",

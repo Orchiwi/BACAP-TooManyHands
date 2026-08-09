@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:elytra"
+      "id": "minecraft:firework_rocket"
     },
     "title": {
       "translate": "Formation Flying"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:end/dragon_shield",
+  "parent": "bacaptmh:end/two_man_ascent",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"

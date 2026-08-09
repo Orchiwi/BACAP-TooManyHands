@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:mace"
+      "id": "minecraft:firework_star"
     },
     "title": {
       "translate": "Falling Star"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/nice_to_mace_you",
+  "parent": "bacaptmh:weaponry/under_the_hammer",
   "criteria": {
     "midair_smash": {
       "trigger": "minecraft:player_killed_entity",

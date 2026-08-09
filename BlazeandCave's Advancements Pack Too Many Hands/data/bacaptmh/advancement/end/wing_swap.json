@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:end/wingman",
+  "parent": "bacaptmh:end/spare_set",
   "criteria": {
     "gave": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

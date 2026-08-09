@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:turtle_helmet"
+      "id": "minecraft:turtle_egg"
     },
     "title": {
       "translate": "Shell Shocked"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/tank",
+  "parent": "bacaptmh:potion/tortoise_and_the_hare",
   "criteria": {
     "cracked_the_shell": {
       "trigger": "minecraft:player_killed_entity",

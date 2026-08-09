@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_sword"
+      "id": "minecraft:pink_petals"
     },
     "title": {
       "translate": "Petal to the Metal"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:biomes/pretty_in_pink",
+  "parent": "bacaptmh:biomes/blossom_duel",
   "criteria": {
     "petal": {
       "trigger": "minecraft:player_killed_entity",

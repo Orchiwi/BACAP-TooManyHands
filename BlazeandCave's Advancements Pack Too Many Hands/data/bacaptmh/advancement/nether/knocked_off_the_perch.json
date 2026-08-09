@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:bow"
+      "id": "minecraft:light_blue_harness"
     },
     "title": {
       "translate": "Knocked Off the Perch"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:nether/giant_floating_jellyfish",
+  "parent": "bacaptmh:nether/flak",
   "criteria": {
     "knocked": {
       "trigger": "minecraft:player_hurt_entity",

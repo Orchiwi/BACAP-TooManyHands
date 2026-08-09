@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:elytra"
+      "id": "minecraft:phantom_membrane"
     },
     "title": {
       "translate": "Spare Set"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:end/wingman",
+  "parent": "bacaptmh:end/spare_wings",
   "criteria": {
     "drop_off": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:mace"
+      "id": "minecraft:breeze_rod"
     },
     "title": {
       "translate": "Trial by Combat"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:adventure/break_wind",
+  "parent": "bacaptmh:adventure/heavy_lifting",
   "criteria": {
     "trial_by_combat": {
       "trigger": "minecraft:player_killed_entity",

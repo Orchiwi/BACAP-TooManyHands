@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:trident"
+      "id": "minecraft:happy_ghast_spawn_egg"
     },
     "title": {
       "translate": "Sky Lance"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:nether/pillow_fight",
+  "parent": "bacaptmh:nether/knocked_off_the_perch",
   "criteria": {
     "lanced": {
       "trigger": "minecraft:player_hurt_entity",

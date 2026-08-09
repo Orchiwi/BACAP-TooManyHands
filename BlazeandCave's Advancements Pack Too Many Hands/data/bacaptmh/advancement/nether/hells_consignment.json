@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:ancient_debris"
+      "id": "minecraft:bundle"
     },
     "title": {
       "translate": "Hell's Consignment"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:nether/hot_air_balloon",
+  "parent": "bacaptmh:nether/blackstone_market",
   "criteria": {
     "quartz": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

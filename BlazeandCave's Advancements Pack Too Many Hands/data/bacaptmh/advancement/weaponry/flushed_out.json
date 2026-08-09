@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:bow"
+      "id": "minecraft:spyglass"
     },
     "title": {
       "translate": "Flushed Out"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:weaponry/first_blood",
+  "parent": "bacaptmh:weaponry/warning_shot",
   "criteria": {
     "flushed_out": {
       "trigger": "minecraft:player_hurt_entity",

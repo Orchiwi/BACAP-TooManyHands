@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:enchanted_book"
+      "id": "minecraft:golden_chestplate"
     },
     "title": {
       "translate": "Protection Racket"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:enchanting/armor_for_the_masses",
+  "parent": "bacaptmh:enchanting/spread_the_risk",
   "criteria": {
     "through_the_plating": {
       "trigger": "minecraft:entity_killed_player",

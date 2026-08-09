@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:bow"
+      "id": "minecraft:heartbreak_pottery_sherd"
     },
     "title": {
       "translate": "Last Arrow"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/half_heart_life",
+  "parent": "bacaptmh:weaponry/last_gasp",
   "criteria": {
     "last_arrow": {
       "trigger": "minecraft:player_killed_entity",

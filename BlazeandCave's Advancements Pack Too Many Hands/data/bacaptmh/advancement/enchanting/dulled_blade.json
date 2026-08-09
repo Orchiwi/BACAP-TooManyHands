@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_sword"
+      "id": "minecraft:fermented_spider_eye"
     },
     "title": {
       "translate": "Dulled Blade"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:enchanting/needle_sharp",
+  "parent": "bacaptmh:enchanting/sharpened_elsewhere",
   "criteria": {
     "dulled_blade": {
       "trigger": "minecraft:player_hurt_entity",

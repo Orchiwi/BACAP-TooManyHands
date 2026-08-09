@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:animal/passing_the_lead",
+  "parent": "bacaptmh:animal/on_the_scent",
   "criteria": {
     "handed_the_lead": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

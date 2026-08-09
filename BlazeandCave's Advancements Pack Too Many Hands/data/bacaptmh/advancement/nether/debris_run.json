@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:nether/netherite_miner",
+  "parent": "bacaptmh:nether/debris_delivery",
   "criteria": {
     "delivered": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

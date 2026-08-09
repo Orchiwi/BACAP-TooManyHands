@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/gas",
+  "parent": "bacaptmh:potion/gas_attack",
   "criteria": {
     "gassed": {
       "trigger": "minecraft:effects_changed",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:bone"
+      "id": "minecraft:cooked_porkchop"
     },
     "title": {
       "translate": "Table Scraps"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/the_mighty_hunter",
+  "parent": "bacaptmh:weaponry/food_chain",
   "criteria": {
     "scraps": {
       "trigger": "minecraft:player_killed_entity",

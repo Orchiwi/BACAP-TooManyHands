@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:minecart"
+      "id": "minecraft:hopper_minecart"
     },
     "title": {
       "translate": "Special Delivery"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:redstone/all_aboard",
+  "parent": "bacaptmh:redstone/park_and_ride",
   "criteria": {
     "mail_run": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

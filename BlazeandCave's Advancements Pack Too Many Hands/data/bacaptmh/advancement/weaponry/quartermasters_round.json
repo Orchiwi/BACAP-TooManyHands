@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:iron_sword"
+      "id": "minecraft:barrel"
     },
     "title": {
       "translate": "Quartermaster's Round"
@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/multiclassed",
+  "parent": "bacaptmh:weaponry/arms_dealer",
   "criteria": {
     "sword": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

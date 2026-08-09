@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:splash_potion"
+      "id": "minecraft:target"
     },
     "title": {
       "translate": "Two Fronts"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/gas",
+  "parent": "bacaptmh:potion/toxic_shock",
   "criteria": {
     "two_fronts": {
       "trigger": "minecraft:effects_changed",

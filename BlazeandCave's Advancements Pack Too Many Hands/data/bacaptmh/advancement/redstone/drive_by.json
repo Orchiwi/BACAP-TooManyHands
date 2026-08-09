@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:minecart"
+      "id": "minecraft:diamond_axe"
     },
     "title": {
       "translate": "Drive-By"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:redstone/on_a_rail",
+  "parent": "bacaptmh:redstone/great_train_robbery",
   "criteria": {
     "drive_by": {
       "trigger": "minecraft:player_killed_entity",

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:nether_star"
+      "id": "minecraft:beacon"
     },
     "title": {
       "translate": "Beacon Pharmacy"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/a_weak_brew",
+  "parent": "bacaptmh:potion/beam_top_up",
   "criteria": {
     "stocked": {
       "trigger": "minecraft:effects_changed",

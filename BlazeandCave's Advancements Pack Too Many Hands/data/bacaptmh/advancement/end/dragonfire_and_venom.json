@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:end_crystal"
+      "id": "minecraft:spider_eye"
     },
     "title": {
       "translate": "Dragonfire and Venom"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:end/dragon_shield",
+  "parent": "bacaptmh:end/dragons_pharmacy",
   "criteria": {
     "dragonfire_and_venom": {
       "trigger": "minecraft:player_killed_entity",

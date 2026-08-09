@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:tipped_arrow"
+      "id": "minecraft:bundle"
     },
     "title": {
       "translate": "Full Quiver"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/a_weak_brew",
+  "parent": "bacaptmh:potion/snipers_pharmacy",
   "criteria": {
     "poison": {
       "trigger": "minecraft:player_hurt_entity",

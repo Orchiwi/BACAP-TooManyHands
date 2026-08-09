@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/point_blank",
+  "parent": "bacaptmh:weaponry/warning_shot",
   "criteria": {
     "lead_the_target": {
       "trigger": "minecraft:player_hurt_entity",

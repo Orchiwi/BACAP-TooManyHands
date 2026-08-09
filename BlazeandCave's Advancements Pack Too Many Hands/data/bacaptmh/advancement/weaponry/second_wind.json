@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_sword"
+      "id": "minecraft:totem_of_undying"
     },
     "title": {
       "translate": "Second Wind"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/half_heart_life",
+  "parent": "bacaptmh:weaponry/last_arrow",
   "criteria": {
     "burn": {
       "trigger": "minecraft:used_totem",

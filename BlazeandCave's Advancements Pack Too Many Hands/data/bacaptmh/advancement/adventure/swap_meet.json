@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:shulker_box"
+      "id": "minecraft:chest_minecart"
     },
     "title": {
       "translate": "Swap Meet"
@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:adventure/do_you_want_to_trade",
+  "parent": "bacaptmh:adventure/fair_trade",
   "criteria": {
     "gave_box": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

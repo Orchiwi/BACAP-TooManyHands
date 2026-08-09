@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:netherite_chestplate"
+      "id": "minecraft:armor_stand"
     },
     "title": {
       "translate": "All For One"
@@ -13,7 +13,7 @@
     "frame": "challenge",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:challenges/all_the_items",
+  "parent": "bacaptmh:challenges/masters_bequest",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"
