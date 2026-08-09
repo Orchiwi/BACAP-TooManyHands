@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "Floating Target"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Shoot another player with an arrow while they are levitating in the End (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/dogfight",
+  "criteria": {
+    "floating_target": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:levitation": {
+              "amplifier": {
+                "min": 0
+              }
+            }
+          },
+          "location": {
+            "dimension": "the_end"
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "#blazeandcave:arrows"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/floating_target"
+  }
+}

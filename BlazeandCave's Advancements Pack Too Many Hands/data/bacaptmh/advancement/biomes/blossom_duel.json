@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_petals"
+    },
+    "title": {
+      "translate": "Blossom Duel"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cut another player down beneath the falling petals of a Cherry Grove (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/pretty_in_pink",
+  "criteria": {
+    "cherry_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "location": {
+            "biomes": "minecraft:cherry_grove"
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:cherry_grove"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/blossom_duel"
+  }
+}

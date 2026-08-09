@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "Pearl Loan"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed sixteen Ender Pearls by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/im_coming_back_murph",
+  "criteria": {
+    "loan": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ender_pearl"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/pearl_loan"
+  }
+}

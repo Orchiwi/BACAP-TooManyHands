@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fermented_spider_eye"
+    },
+    "title": {
+      "translate": "Shared Misery"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry Poison, Slowness and Weakness all at once, the last of them splashed onto you by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_furious_test_subject",
+  "criteria": {
+    "shared_misery": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:poison": {},
+          "minecraft:slowness": {},
+          "minecraft:weakness": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/shared_misery"
+  }
+}

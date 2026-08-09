@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_sand"
+    },
+    "title": {
+      "translate": "Soul Searching"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill another player with a Sword while you are both standing on Soul Sand (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/a_soul_for_a_soul",
+  "criteria": {
+    "soul_searching": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:soul_sand"
+              ]
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#blazeandcave:swords"
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:soul_sand"
+              ]
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/soul_searching"
+  }
+}

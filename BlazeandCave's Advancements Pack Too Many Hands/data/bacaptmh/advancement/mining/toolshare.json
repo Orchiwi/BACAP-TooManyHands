@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
+    },
+    "title": {
+      "translate": "Toolshare"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a Netherite Axe, Shovel and Hoe out of another player's hands (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/even_moar_tools",
+  "criteria": {
+    "axe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_axe"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "shovel": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_shovel"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "hoe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_hoe"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/toolshare"
+  }
+}

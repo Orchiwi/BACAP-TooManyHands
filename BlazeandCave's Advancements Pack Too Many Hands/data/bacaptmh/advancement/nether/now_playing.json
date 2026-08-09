@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_pigstep"
+    },
+    "title": {
+      "translate": "Now Playing"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Spin Pigstep on a Jukebox using the disc another player looted for you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/brute_force",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:music_disc_pigstep"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "played": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:music_disc_pigstep"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/now_playing"
+  }
+}

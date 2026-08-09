@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_tear"
+    },
+    "title": {
+      "translate": "Fermentation Partners"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take every Nether brewing reagent from another player: Nether Wart, Blaze Powder, Magma Cream and a Ghast Tear (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/mad_scientist",
+  "criteria": {
+    "wart": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:nether_wart"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "powder": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blaze_powder"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "cream": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:magma_cream"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "tear": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ghast_tear"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/fermentation_partners"
+  }
+}

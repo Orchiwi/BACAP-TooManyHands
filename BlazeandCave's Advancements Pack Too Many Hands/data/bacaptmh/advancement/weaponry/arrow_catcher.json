@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Arrow Catcher"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Block another player's arrow with your Shield (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/shield_luck",
+  "criteria": {
+    "arrow_catcher": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "#blazeandcave:arrows"
+            },
+            "source_entity": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          },
+          "blocked": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/arrow_catcher"
+  }
+}

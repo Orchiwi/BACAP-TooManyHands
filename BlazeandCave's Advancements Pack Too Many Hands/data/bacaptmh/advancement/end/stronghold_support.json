@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "Stronghold Support"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed an Eye of Ender by another player inside a Stronghold (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/eye_contact",
+  "criteria": {
+    "reinforcement": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ender_eye"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:stronghold"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/stronghold_support"
+  }
+}

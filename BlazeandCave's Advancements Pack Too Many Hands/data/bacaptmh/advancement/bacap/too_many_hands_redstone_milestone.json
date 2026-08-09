@@ -218,6 +218,102 @@
           }
         }
       }
+    },
+    "freight_forwarder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/freight_forwarder": true
+            }
+          }
+        }
+      }
+    },
+    "quartz_courier": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/quartz_courier": true
+            }
+          }
+        }
+      }
+    },
+    "split_the_signal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/split_the_signal": true
+            }
+          }
+        }
+      }
+    },
+    "solar_partnership": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/solar_partnership": true
+            }
+          }
+        }
+      }
+    },
+    "ore_consignment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/ore_consignment": true
+            }
+          }
+        }
+      }
+    },
+    "quartz_consortium": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/quartz_consortium": true
+            }
+          }
+        }
+      }
+    },
+    "trolley_problem": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/trolley_problem": true
+            }
+          }
+        }
+      }
+    },
+    "drive_by": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:redstone/drive_by": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:poisonous_potato"
+    },
+    "title": {
+      "translate": "Toxic Shock"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Finish off another player while Poison is still eating away at them (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/gas",
+  "criteria": {
+    "toxic_shock": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:poison": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/toxic_shock"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cut_copper_stairs"
+    },
+    "title": {
+      "translate": "Cut and Shut"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player Copper Blocks and take Cut Copper Stairs and Slabs back (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/dont_come_a_copper",
+  "criteria": {
+    "blocks_out": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_block"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "stairs_in": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cut_copper_stairs"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "slabs_in": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cut_copper_slab"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/cut_and_shut"
+  }
+}

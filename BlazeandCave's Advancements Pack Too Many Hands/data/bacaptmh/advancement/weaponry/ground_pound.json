@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mace"
+    },
+    "title": {
+      "translate": "Ground Pound"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Land a Mace smash squarely on another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/nice_to_mace_you",
+  "criteria": {
+    "ground_pound": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:mace_smash",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:mace"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/ground_pound"
+  }
+}

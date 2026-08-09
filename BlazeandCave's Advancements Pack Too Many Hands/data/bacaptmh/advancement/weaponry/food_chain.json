@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "Food Chain"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player who is holding a Golden Apple, then eat one yourself (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "mugged": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:golden_apple",
+                "minecraft:enchanted_golden_apple"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "feasted": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_apple",
+            "minecraft:enchanted_golden_apple"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/food_chain"
+  }
+}

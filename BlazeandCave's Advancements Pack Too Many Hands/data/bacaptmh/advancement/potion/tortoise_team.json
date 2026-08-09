@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_helmet"
+    },
+    "title": {
+      "translate": "Tortoise Team"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Slowness and Resistance together from another player's Potion of the Turtle Master (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/tank",
+  "criteria": {
+    "shelled": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {},
+          "minecraft:resistance": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/tortoise_team"
+  }
+}

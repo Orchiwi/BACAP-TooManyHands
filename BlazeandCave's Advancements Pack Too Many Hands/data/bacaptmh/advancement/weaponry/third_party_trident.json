@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Third-Party Trident"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a mob with a Trident that came out of another player's inventory (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/king_of_the_sea",
+  "criteria": {
+    "handed_the_trident": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:trident"
+          ]
+        }
+      }
+    },
+    "skewered": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "#blazeandcave:hostile_monsters"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:trident"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/third_party_trident"
+  }
+}

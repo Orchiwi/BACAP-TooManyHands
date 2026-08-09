@@ -1,0 +1,81 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_helmet"
+    },
+    "title": {
+      "translate": "Tortoise and the Hare"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be hit with a Potion of the Turtle Master by another player, then be cut down by a player while you are still crawling (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/tank",
+  "criteria": {
+    "shelled": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {
+            "amplifier": {
+              "min": 3
+            }
+          },
+          "minecraft:resistance": {
+            "amplifier": {
+              "min": 2
+            }
+          }
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "finished": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:slowness": {
+                  "amplifier": {
+                    "min": 3
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/tortoise_and_the_hare"
+  }
+}

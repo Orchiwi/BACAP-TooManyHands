@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass"
+    },
+    "title": {
+      "translate": "Sand to Glass"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player Sand, take the smelted Glass back, and build with it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/classy_glassy",
+  "criteria": {
+    "sand_out": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sand",
+            "minecraft:red_sand"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "glass_in": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glass"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "built": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:glass"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/sand_to_glass"
+  }
+}

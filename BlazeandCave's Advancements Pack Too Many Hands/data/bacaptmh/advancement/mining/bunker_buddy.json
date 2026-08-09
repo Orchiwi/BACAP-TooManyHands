@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk"
+    },
+    "title": {
+      "translate": "Bunker Buddy"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Resistance from another player while you are down in the Deep Dark (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/fallen_kingdom",
+  "criteria": {
+    "shielded": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:resistance": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:deep_dark"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/bunker_buddy"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_bottle"
+    },
+    "title": {
+      "translate": "Honey Trap"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink a Honey Bottle another player handed you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/winnie_the_pooh",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "drunk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/honey_trap"
+  }
+}

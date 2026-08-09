@@ -1,0 +1,90 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_concrete_powder"
+    },
+    "title": {
+      "translate": "Wet Cement"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed Concrete Powder by another player and set a block of Concrete (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/rainbow_sand",
+  "criteria": {
+    "powder": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_concrete_powder",
+            "minecraft:orange_concrete_powder",
+            "minecraft:magenta_concrete_powder",
+            "minecraft:light_blue_concrete_powder",
+            "minecraft:yellow_concrete_powder",
+            "minecraft:lime_concrete_powder",
+            "minecraft:pink_concrete_powder",
+            "minecraft:gray_concrete_powder",
+            "minecraft:light_gray_concrete_powder",
+            "minecraft:cyan_concrete_powder",
+            "minecraft:purple_concrete_powder",
+            "minecraft:blue_concrete_powder",
+            "minecraft:brown_concrete_powder",
+            "minecraft:green_concrete_powder",
+            "minecraft:red_concrete_powder",
+            "minecraft:black_concrete_powder"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "set": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:white_concrete",
+                  "minecraft:orange_concrete",
+                  "minecraft:magenta_concrete",
+                  "minecraft:light_blue_concrete",
+                  "minecraft:yellow_concrete",
+                  "minecraft:lime_concrete",
+                  "minecraft:pink_concrete",
+                  "minecraft:gray_concrete",
+                  "minecraft:light_gray_concrete",
+                  "minecraft:cyan_concrete",
+                  "minecraft:purple_concrete",
+                  "minecraft:blue_concrete",
+                  "minecraft:brown_concrete",
+                  "minecraft:green_concrete",
+                  "minecraft:red_concrete",
+                  "minecraft:black_concrete"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/wet_cement"
+  }
+}

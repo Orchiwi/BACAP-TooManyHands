@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_rod"
+    },
+    "title": {
+      "translate": "Lighting the Way"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put up an End Rod another player handed you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/getting_chorus",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:end_rod"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "mounted": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:end_rod"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/lighting_the_way"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "The Long Drop"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Shoot another player dead down at Y=0 or lower while you stand above Y=100 (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/there_it_goes",
+  "criteria": {
+    "plunging_shot": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "location": {
+            "dimension": "minecraft:overworld",
+            "position": {
+              "y": {
+                "max": 0.0
+              }
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld",
+            "position": {
+              "y": {
+                "min": 100.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/the_long_drop"
+  }
+}

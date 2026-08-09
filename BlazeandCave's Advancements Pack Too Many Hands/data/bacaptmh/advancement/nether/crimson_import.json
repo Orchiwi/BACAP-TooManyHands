@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_planks"
+    },
+    "title": {
+      "translate": "Crimson Import"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Crimson Planks from another player in the Nether and build with them there (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/i_am_root",
+  "criteria": {
+    "delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crimson_planks"
+          ],
+          "count": {
+            "min": 32
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "built": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:the_nether",
+              "block": {
+                "blocks": [
+                  "minecraft:crimson_planks"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/crimson_import"
+  }
+}

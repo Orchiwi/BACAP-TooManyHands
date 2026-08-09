@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:feather"
+    },
+    "title": {
+      "translate": "High-Altitude Dose"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Slow Falling from a player twenty blocks off while a second player rides the Happy Ghast with you (3 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/changing_of_the_guard",
+  "criteria": {
+    "dosed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slow_falling": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "horizontal": {
+                  "min": 20
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "passenger": {
+                  "entity_type": "minecraft:player",
+                  "distance": {
+                    "absolute": {
+                      "min": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/high_altitude_dose"
+  }
+}

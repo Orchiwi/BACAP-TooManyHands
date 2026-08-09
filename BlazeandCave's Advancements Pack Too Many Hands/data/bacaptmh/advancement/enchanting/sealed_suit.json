@@ -1,0 +1,148 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate"
+    },
+    "title": {
+      "translate": "Sealed Suit"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player all four armour pieces cursed with Curse of Binding (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/hand_me_down",
+  "criteria": {
+    "helm": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_helmet",
+            "minecraft:chainmail_helmet",
+            "minecraft:iron_helmet",
+            "minecraft:golden_helmet",
+            "minecraft:diamond_helmet",
+            "minecraft:netherite_helmet",
+            "minecraft:copper_helmet",
+            "minecraft:turtle_helmet"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:binding_curse"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "body": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_chestplate",
+            "minecraft:chainmail_chestplate",
+            "minecraft:iron_chestplate",
+            "minecraft:golden_chestplate",
+            "minecraft:diamond_chestplate",
+            "minecraft:netherite_chestplate",
+            "minecraft:copper_chestplate",
+            "minecraft:elytra"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:binding_curse"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "legs": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_leggings",
+            "minecraft:chainmail_leggings",
+            "minecraft:iron_leggings",
+            "minecraft:golden_leggings",
+            "minecraft:diamond_leggings",
+            "minecraft:netherite_leggings",
+            "minecraft:copper_leggings"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:binding_curse"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "feet": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_boots",
+            "minecraft:chainmail_boots",
+            "minecraft:iron_boots",
+            "minecraft:golden_boots",
+            "minecraft:diamond_boots",
+            "minecraft:netherite_boots",
+            "minecraft:copper_boots"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:binding_curse"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/sealed_suit"
+  }
+}

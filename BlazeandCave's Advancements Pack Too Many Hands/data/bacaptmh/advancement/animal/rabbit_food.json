@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_stew"
+    },
+    "title": {
+      "translate": "Rabbit Food"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a Rabbit Stew and take a Cooked Rabbit back (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/getting_into_a_stew",
+  "criteria": {
+    "gave_stew": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rabbit_stew"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "got_rabbit": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_rabbit"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/rabbit_food"
+  }
+}

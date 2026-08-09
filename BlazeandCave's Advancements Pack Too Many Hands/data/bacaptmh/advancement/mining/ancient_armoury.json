@@ -1,0 +1,103 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "Ancient Armoury"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed a Sword, a Pickaxe and an Axe by another player inside an Ancient City (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/fallen_kingdom",
+  "criteria": {
+    "sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": "#blazeandcave:swords"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:ancient_city"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pickaxe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": "#blazeandcave:pickaxes"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:ancient_city"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "axe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": "#blazeandcave:axes"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:ancient_city"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/ancient_armoury"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath"
+    },
+    "title": {
+      "translate": "Breath Sample"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed a Bottle of Dragon's Breath by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/dragon_shield",
+  "criteria": {
+    "sample": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dragon_breath"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/breath_sample"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Borrowed Bow"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill a player with a Bow that another player dropped into your hands (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/root",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bow"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": true
+            }
+          ],
+          "direct_entity": {
+            "entity_type": "#blazeandcave:arrows",
+            "nbt": "{weapon:{id:\"minecraft:bow\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/borrowed_bow"
+  }
+}

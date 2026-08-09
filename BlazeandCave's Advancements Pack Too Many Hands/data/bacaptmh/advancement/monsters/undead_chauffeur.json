@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Undead Chauffeur"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a Skeleton Horse using a Saddle another player threw you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/the_undead_cavalry",
+  "criteria": {
+    "handed_the_saddle": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:saddle"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "rode": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:skeleton_horse"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/undead_chauffeur"
+  }
+}

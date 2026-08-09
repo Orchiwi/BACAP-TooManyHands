@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "translate": "Riding Two Deep"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Catch Crying Obsidian thrown from forty blocks away while sharing one Boat with another player (3 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/jenga",
+  "criteria": {
+    "boat_catch": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crying_obsidian"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 40
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#minecraft:boat",
+                "passenger": {
+                  "entity_type": "minecraft:player",
+                  "distance": {
+                    "absolute": {
+                      "min": 0.3
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/riding_two_deep"
+  }
+}

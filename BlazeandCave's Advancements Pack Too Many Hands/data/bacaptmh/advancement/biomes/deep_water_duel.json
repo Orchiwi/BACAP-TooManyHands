@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Deep Water Duel"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Skewer another player with a thrown Trident while you are both swimming (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/free_diver",
+  "criteria": {
+    "speared": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_swimming": true
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": [
+                "minecraft:trident"
+              ]
+            }
+          }
+        },
+        "player": {
+          "flags": {
+            "is_swimming": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/deep_water_duel"
+  }
+}

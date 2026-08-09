@@ -1,0 +1,102 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "translate": "Killing Fields"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player in a Desert, a Jungle, an Ice Spikes field, a Cherry Grove and Mushroom Fields (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/root",
+  "criteria": {
+    "desert": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 0.1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:desert"
+          }
+        }
+      }
+    },
+    "jungle": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 0.1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:jungle"
+          }
+        }
+      }
+    },
+    "ice_spikes": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 0.1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:ice_spikes"
+          }
+        }
+      }
+    },
+    "cherry_grove": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 0.1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:cherry_grove"
+          }
+        }
+      }
+    },
+    "mushroom_fields": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 0.1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:mushroom_fields"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/killing_fields"
+  }
+}

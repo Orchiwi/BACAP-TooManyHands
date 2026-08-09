@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "Line Cook"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player raw meat and take it back cooked (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/meat_lovers",
+  "criteria": {
+    "gave_raw": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:beef",
+            "minecraft:porkchop",
+            "minecraft:chicken",
+            "minecraft:mutton",
+            "minecraft:rabbit"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "got_cooked": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/line_cook"
+  }
+}

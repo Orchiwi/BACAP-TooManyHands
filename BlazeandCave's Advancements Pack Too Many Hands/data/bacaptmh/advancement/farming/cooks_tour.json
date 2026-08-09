@@ -1,0 +1,142 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "Cook's Tour"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a hot meal from another player in the Overworld, the Nether and the End (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/full_stomach",
+  "criteria": {
+    "overworld": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:bread"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "nether": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:bread"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "the_end": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:bread"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/cooks_tour"
+  }
+}

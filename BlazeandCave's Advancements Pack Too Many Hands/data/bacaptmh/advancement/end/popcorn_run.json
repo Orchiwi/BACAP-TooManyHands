@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:popped_chorus_fruit"
+    },
+    "title": {
+      "translate": "Popcorn Run"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player sixty-four Popped Chorus Fruit (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/getting_chorus",
+  "criteria": {
+    "delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:popped_chorus_fruit"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/popcorn_run"
+  }
+}

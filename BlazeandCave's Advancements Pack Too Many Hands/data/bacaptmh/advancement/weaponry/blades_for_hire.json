@@ -1,0 +1,148 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "Blades for Hire"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a Sword of every material, wood through Netherite (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "wooden": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:wooden_sword"
+          ]
+        }
+      }
+    },
+    "stone": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:stone_sword"
+          ]
+        }
+      }
+    },
+    "copper": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:copper_sword"
+          ]
+        }
+      }
+    },
+    "iron": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:iron_sword"
+          ]
+        }
+      }
+    },
+    "golden": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_sword"
+          ]
+        }
+      }
+    },
+    "diamond": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:diamond_sword"
+          ]
+        }
+      }
+    },
+    "netherite": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_sword"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/blades_for_hire"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "Ground Crew"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Throw a spare Elytra to a player who is already gliding (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/divers_dozen",
+  "criteria": {
+    "resupply": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:elytra"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_flying": true
+          },
+          "equipment": {
+            "chest": {
+              "items": "minecraft:elytra"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/ground_crew"
+  }
+}

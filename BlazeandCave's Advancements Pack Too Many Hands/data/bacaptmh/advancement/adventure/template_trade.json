@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dune_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Template Trade"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player an armour trim Smithing Template (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/good_lookin_treasure",
+  "criteria": {
+    "traded": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bolt_armor_trim_smithing_template",
+            "minecraft:coast_armor_trim_smithing_template",
+            "minecraft:dune_armor_trim_smithing_template",
+            "minecraft:eye_armor_trim_smithing_template",
+            "minecraft:flow_armor_trim_smithing_template",
+            "minecraft:host_armor_trim_smithing_template",
+            "minecraft:raiser_armor_trim_smithing_template",
+            "minecraft:rib_armor_trim_smithing_template",
+            "minecraft:sentry_armor_trim_smithing_template",
+            "minecraft:shaper_armor_trim_smithing_template",
+            "minecraft:silence_armor_trim_smithing_template",
+            "minecraft:snout_armor_trim_smithing_template",
+            "minecraft:spire_armor_trim_smithing_template",
+            "minecraft:tide_armor_trim_smithing_template",
+            "minecraft:vex_armor_trim_smithing_template",
+            "minecraft:ward_armor_trim_smithing_template",
+            "minecraft:wayfinder_armor_trim_smithing_template",
+            "minecraft:wild_armor_trim_smithing_template"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/template_trade"
+  }
+}

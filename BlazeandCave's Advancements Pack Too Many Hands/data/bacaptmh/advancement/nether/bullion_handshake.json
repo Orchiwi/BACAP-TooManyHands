@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_block"
+    },
+    "title": {
+      "translate": "Bullion Handshake"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand a whole Block of Netherite to another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/netherite_mad_lad",
+  "criteria": {
+    "passed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_block"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/bullion_handshake"
+  }
+}

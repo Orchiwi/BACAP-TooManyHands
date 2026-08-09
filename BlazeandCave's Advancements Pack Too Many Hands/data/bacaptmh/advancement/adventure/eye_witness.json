@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:eye_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Eye Witness"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take the Eye Armour Trim off another player inside a Stronghold (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/genesis_of_the_end",
+  "criteria": {
+    "eye_witness": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:eye_armor_trim_smithing_template"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:stronghold"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/eye_witness"
+  }
+}

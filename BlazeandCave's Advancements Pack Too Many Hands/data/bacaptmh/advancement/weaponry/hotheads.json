@@ -1,0 +1,100 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate": "Hotheads"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Trade bare-handed blows with another player while you are both on fire (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/secret_handshake",
+  "criteria": {
+    "gave": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_on_fire": true
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "count": 0
+            },
+            "offhand": {
+              "count": 0
+            }
+          },
+          "flags": {
+            "is_on_fire": true
+          }
+        }
+      }
+    },
+    "took": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          },
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "count": 0
+              },
+              "offhand": {
+                "count": 0
+              }
+            },
+            "flags": {
+              "is_on_fire": true
+            }
+          }
+        },
+        "player": {
+          "flags": {
+            "is_on_fire": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/hotheads"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_fruit"
+    },
+    "title": {
+      "translate": "The Chorus Chain"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed a Chorus Fruit by another player while gliding, while levitating, and while falling below Y=0 in the End (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/a_wizards_breakfast",
+  "criteria": {
+    "gliding": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chorus_fruit"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "flags": {
+            "is_flying": true
+          },
+          "equipment": {
+            "chest": {
+              "items": "minecraft:elytra"
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "levitating": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chorus_fruit"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:levitation": {}
+          },
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    "falling": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chorus_fruit"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end",
+            "position": {
+              "y": {
+                "max": 0.0
+              }
+            }
+          },
+          "flags": {
+            "is_on_ground": false
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/the_chorus_chain"
+  }
+}

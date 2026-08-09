@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_ingot"
+    },
+    "title": {
+      "translate": "Forged Favour"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Forge a Netherite Ingot out of Scrap another player threw you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/diamonds_are_not_forever",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_scrap"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "forged": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_ingot"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/forged_favour"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Two Fronts"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Poison splash from a player at least ten blocks away while you stand face to face with a different player (3 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/gas",
+  "criteria": {
+    "two_fronts": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:poison": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 10
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/player": {
+                "looking_at": {
+                  "entity_type": "minecraft:player",
+                  "distance": {
+                    "absolute": {
+                      "max": 5
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/two_fronts"
+  }
+}

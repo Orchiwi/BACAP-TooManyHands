@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "Freight Forwarder"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a Shulker Box while you are riding a Minecart (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/moving_storage",
+  "criteria": {
+    "forwarded": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:shulker_boxes"
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/freight_forwarder"
+  }
+}

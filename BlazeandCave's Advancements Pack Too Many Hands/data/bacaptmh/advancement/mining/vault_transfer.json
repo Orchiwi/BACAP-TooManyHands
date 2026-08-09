@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_gray_shulker_box"
+    },
+    "title": {
+      "translate": "Vault Transfer"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Shulker Box off another player below Y=-50 (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/deep_slate_nine",
+  "criteria": {
+    "transferred": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:shulker_boxes"
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": -50.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/vault_transfer"
+  }
+}

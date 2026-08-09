@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Outrider"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Cut a mounted player out of the saddle with a Sword from the back hump of a Camel a third player is driving (3 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/riding_shotgun",
+  "criteria": {
+    "outrider": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "vehicle": {
+            "entity_type": "#blazeandcave:all_horses"
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#blazeandcave:swords"
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:camel",
+            "passenger": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 0.3
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/outrider"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_sand"
+    },
+    "title": {
+      "translate": "Ash and Bone"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill another player among the bones of a Soul Sand Valley (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/a_soul_for_a_soul",
+  "criteria": {
+    "valley_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "location": {
+            "biomes": "minecraft:soul_sand_valley"
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:soul_sand_valley"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/ash_and_bone"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:baked_potato"
+    },
+    "title": {
+      "translate": "Quartermaster"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Issue the rations: hand other players a full stack of Bread, a full stack of Steak and a full stack of Baked Potato (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/om_nom_nom",
+  "criteria": {
+    "bread": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "steak": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "spuds": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:baked_potato"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/quartermaster"
+  }
+}

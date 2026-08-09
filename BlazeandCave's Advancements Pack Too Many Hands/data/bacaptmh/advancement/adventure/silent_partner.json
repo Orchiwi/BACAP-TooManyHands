@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:silence_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Silent Partner"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take the Silence Armour Trim off another player inside an Ancient City (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/the_sound_of_silence",
+  "criteria": {
+    "silent_partner": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:silence_armor_trim_smithing_template"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:ancient_city"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/silent_partner"
+  }
+}

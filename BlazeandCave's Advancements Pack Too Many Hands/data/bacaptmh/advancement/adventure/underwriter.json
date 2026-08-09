@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "translate": "Underwriter"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Burn a Totem of Undying in a Netherite Chestplate another player handed you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/pay_it_forward",
+  "criteria": {
+    "loaned": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_chestplate"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "claimed": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        },
+        "player": {
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:netherite_chestplate"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/underwriter"
+  }
+}

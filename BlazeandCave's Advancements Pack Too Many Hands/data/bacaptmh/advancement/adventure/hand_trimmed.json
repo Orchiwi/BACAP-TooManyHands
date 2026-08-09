@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {
+      "translate": "Hand-Trimmed"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a chestplate already trimmed with Netherite off another player and wear it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/coordinated_flair",
+  "criteria": {
+    "handed_the_suit": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:chest_armor",
+          "predicates": {
+            "minecraft:trim": {
+              "material": "minecraft:netherite"
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "wearing_it": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "items": "#minecraft:chest_armor",
+                  "predicates": {
+                    "minecraft:trim": {
+                      "material": "minecraft:netherite"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/hand_trimmed"
+  }
+}

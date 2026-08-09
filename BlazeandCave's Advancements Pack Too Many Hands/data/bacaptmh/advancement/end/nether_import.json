@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_fruit"
+    },
+    "title": {
+      "translate": "Nether Import"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed a Chorus Fruit by another player in the Nether (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/unending_hell",
+  "criteria": {
+    "contraband": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chorus_fruit"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/nether_import"
+  }
+}

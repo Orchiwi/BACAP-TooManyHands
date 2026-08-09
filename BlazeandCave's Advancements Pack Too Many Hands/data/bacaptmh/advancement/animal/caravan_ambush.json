@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lead"
+    },
+    "title": {
+      "translate": "Caravan Ambush"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put an arrow into another player riding a Llama while you sit on a Llama yourself (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/llama_festival",
+  "criteria": {
+    "llama_shot": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "vehicle": {
+            "entity_type": "#blazeandcave:llamas"
+          },
+          "distance": {
+            "absolute": {
+              "min": 3
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "#blazeandcave:arrows"
+            }
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "#blazeandcave:llamas"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/caravan_ambush"
+  }
+}

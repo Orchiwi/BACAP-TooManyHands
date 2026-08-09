@@ -1,0 +1,94 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lime_concrete"
+    },
+    "title": {
+      "translate": "Setting Agent"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player Concrete Powder and take the set Concrete back (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/concrete_evidence",
+  "criteria": {
+    "powder_out": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_concrete_powder",
+            "minecraft:orange_concrete_powder",
+            "minecraft:magenta_concrete_powder",
+            "minecraft:light_blue_concrete_powder",
+            "minecraft:yellow_concrete_powder",
+            "minecraft:lime_concrete_powder",
+            "minecraft:pink_concrete_powder",
+            "minecraft:gray_concrete_powder",
+            "minecraft:light_gray_concrete_powder",
+            "minecraft:cyan_concrete_powder",
+            "minecraft:purple_concrete_powder",
+            "minecraft:blue_concrete_powder",
+            "minecraft:brown_concrete_powder",
+            "minecraft:green_concrete_powder",
+            "minecraft:red_concrete_powder",
+            "minecraft:black_concrete_powder"
+          ],
+          "count": {
+            "min": 32
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "concrete_in": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_concrete",
+            "minecraft:orange_concrete",
+            "minecraft:magenta_concrete",
+            "minecraft:light_blue_concrete",
+            "minecraft:yellow_concrete",
+            "minecraft:lime_concrete",
+            "minecraft:pink_concrete",
+            "minecraft:gray_concrete",
+            "minecraft:light_gray_concrete",
+            "minecraft:cyan_concrete",
+            "minecraft:purple_concrete",
+            "minecraft:blue_concrete",
+            "minecraft:brown_concrete",
+            "minecraft:green_concrete",
+            "minecraft:red_concrete",
+            "minecraft:black_concrete"
+          ],
+          "count": {
+            "min": 32
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/setting_agent"
+  }
+}

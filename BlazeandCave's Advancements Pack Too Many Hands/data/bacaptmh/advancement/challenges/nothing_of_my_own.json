@@ -1,0 +1,328 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "Nothing of My Own"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Carry nothing you made yourself: be handed every Netherite tool and Spear, a Mace, Trident, Bow, Crossbow, Shield, Elytra, Fishing Rod, Flint and Steel, Shears, Brush and Spyglass by other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/all_the_items",
+  "criteria": {
+    "netherite_pickaxe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_pickaxe"
+          ]
+        }
+      }
+    },
+    "netherite_axe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_axe"
+          ]
+        }
+      }
+    },
+    "netherite_shovel": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_shovel"
+          ]
+        }
+      }
+    },
+    "netherite_hoe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_hoe"
+          ]
+        }
+      }
+    },
+    "netherite_sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_sword"
+          ]
+        }
+      }
+    },
+    "netherite_spear": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_spear"
+          ]
+        }
+      }
+    },
+    "mace": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:mace"
+          ]
+        }
+      }
+    },
+    "trident": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:trident"
+          ]
+        }
+      }
+    },
+    "bow": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:bow"
+          ]
+        }
+      }
+    },
+    "crossbow": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        }
+      }
+    },
+    "shield": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:shield"
+          ]
+        }
+      }
+    },
+    "elytra": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:elytra"
+          ]
+        }
+      }
+    },
+    "fishing_rod": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:fishing_rod"
+          ]
+        }
+      }
+    },
+    "flint_and_steel": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        }
+      }
+    },
+    "shears": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:shears"
+          ]
+        }
+      }
+    },
+    "brush": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:brush"
+          ]
+        }
+      }
+    },
+    "spyglass": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/nothing_of_my_own"
+  }
+}

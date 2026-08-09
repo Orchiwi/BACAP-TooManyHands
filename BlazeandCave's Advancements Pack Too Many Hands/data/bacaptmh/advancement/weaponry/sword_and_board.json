@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Sword and Board"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Sword and a Shield off another player, then kill a monster holding both (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/master_shieldsman",
+  "criteria": {
+    "got_sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": "#blazeandcave:swords"
+        }
+      }
+    },
+    "got_shield": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:shield"
+          ]
+        }
+      }
+    },
+    "fought": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "#blazeandcave:hostile_monsters"
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#blazeandcave:swords"
+            },
+            "offhand": {
+              "items": [
+                "minecraft:shield"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/sword_and_board"
+  }
+}

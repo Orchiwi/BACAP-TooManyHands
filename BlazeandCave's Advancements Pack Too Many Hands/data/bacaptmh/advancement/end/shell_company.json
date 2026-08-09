@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Shell Company"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player thirty-two Shulker Shells in one throw (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/shulker_breaker",
+  "criteria": {
+    "consignment": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shulker_shell"
+          ],
+          "count": {
+            "min": 32
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/shell_company"
+  }
+}

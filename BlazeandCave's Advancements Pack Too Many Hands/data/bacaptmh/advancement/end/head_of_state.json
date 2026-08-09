@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_head"
+    },
+    "title": {
+      "translate": "Head of State"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take an Ender Dragon Head off another player and wear it in the End (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/off_with_his_head",
+  "criteria": {
+    "handed_the_crown": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dragon_head"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "crowned": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": "minecraft:dragon_head"
+                }
+              },
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/head_of_state"
+  }
+}

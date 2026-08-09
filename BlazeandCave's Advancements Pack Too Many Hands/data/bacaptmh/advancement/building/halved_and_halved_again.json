@@ -1,0 +1,88 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_slab"
+    },
+    "title": {
+      "translate": "Halved and Halved Again"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player Wooden Slabs and take Wooden Stairs back (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/cut_in_half",
+  "criteria": {
+    "gave_slabs": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:oak_slab",
+            "minecraft:spruce_slab",
+            "minecraft:birch_slab",
+            "minecraft:jungle_slab",
+            "minecraft:acacia_slab",
+            "minecraft:dark_oak_slab",
+            "minecraft:mangrove_slab",
+            "minecraft:cherry_slab",
+            "minecraft:pale_oak_slab",
+            "minecraft:bamboo_slab",
+            "minecraft:crimson_slab",
+            "minecraft:warped_slab",
+            "minecraft:bamboo_mosaic_slab"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "got_stairs": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:oak_stairs",
+            "minecraft:spruce_stairs",
+            "minecraft:birch_stairs",
+            "minecraft:jungle_stairs",
+            "minecraft:acacia_stairs",
+            "minecraft:dark_oak_stairs",
+            "minecraft:mangrove_stairs",
+            "minecraft:cherry_stairs",
+            "minecraft:pale_oak_stairs",
+            "minecraft:bamboo_stairs",
+            "minecraft:crimson_stairs",
+            "minecraft:warped_stairs",
+            "minecraft:bamboo_mosaic_stairs"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/halved_and_halved_again"
+  }
+}

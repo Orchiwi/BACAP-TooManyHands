@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick"
+    },
+    "title": {
+      "translate": "Strider Chauffeur"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand a Warped Fungus on a Stick to a player already sitting on a Strider (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hot_reels",
+  "criteria": {
+    "passed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:warped_fungus_on_a_stick"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:strider"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/strider_chauffeur"
+  }
+}

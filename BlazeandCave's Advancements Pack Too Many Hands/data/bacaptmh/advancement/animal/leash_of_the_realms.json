@@ -1,0 +1,103 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lead"
+    },
+    "title": {
+      "translate": "Leash of the Realms"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a Lead from another player's hand and leash something with it in the Overworld, the Nether and the End (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/passing_the_lead",
+  "criteria": {
+    "handed_the_lead": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "overworld": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "nether": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "the_end": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/leash_of_the_realms"
+  }
+}

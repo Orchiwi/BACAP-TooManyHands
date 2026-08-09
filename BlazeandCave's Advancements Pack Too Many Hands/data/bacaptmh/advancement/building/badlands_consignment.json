@@ -1,0 +1,127 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:orange_terracotta"
+    },
+    "title": {
+      "translate": "Badlands Consignment"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed plain Terracotta and four stained colours of it by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_terracotta_army",
+  "criteria": {
+    "terracotta": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:terracotta"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "orange_terracotta": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:orange_terracotta"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "white_terracotta": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_terracotta"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "yellow_terracotta": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:yellow_terracotta"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "brown_terracotta": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:brown_terracotta"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/badlands_consignment"
+  }
+}

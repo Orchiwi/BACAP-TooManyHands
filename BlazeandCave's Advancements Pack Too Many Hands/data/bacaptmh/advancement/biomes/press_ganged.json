@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "Press-Ganged"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a melee blow from another player while a third shares your Boat (3 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/cargo_carrier",
+  "criteria": {
+    "press_ganged": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          },
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 2
+              }
+            }
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "#blazeandcave:all_boats",
+            "passenger": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 0.3,
+                  "max": 1.5
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/press_ganged"
+  }
+}

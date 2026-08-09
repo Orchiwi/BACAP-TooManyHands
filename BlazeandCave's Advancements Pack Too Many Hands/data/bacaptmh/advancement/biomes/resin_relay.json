@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:resin_bricks"
+    },
+    "title": {
+      "translate": "Resin Relay"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Resin Bricks from another player inside a Pale Garden (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/fake_copper",
+  "criteria": {
+    "delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:resin_bricks",
+            "minecraft:resin_block",
+            "minecraft:resin_brick"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:pale_garden"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/resin_relay"
+  }
+}

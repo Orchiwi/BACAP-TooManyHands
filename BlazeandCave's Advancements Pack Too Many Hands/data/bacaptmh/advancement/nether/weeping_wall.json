@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "translate": "Weeping Wall"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Place Crying Obsidian that another player bartered for and handed over (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/anchorman",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crying_obsidian"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:crying_obsidian"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/weeping_wall"
+  }
+}

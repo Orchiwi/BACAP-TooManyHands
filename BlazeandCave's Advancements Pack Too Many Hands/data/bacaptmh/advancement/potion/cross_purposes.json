@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "Cross-Purposes"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be sped up by another player while Slowness is still weighing you down (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/failed_concoctions",
+  "criteria": {
+    "conflicted": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {},
+          "minecraft:slowness": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/cross_purposes"
+  }
+}

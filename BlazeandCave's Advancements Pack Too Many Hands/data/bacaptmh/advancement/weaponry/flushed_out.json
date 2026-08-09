@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Flushed Out"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put an arrow into a player who is trying to sneak away (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/first_blood",
+  "criteria": {
+    "flushed_out": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_sneaking": true
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "#blazeandcave:arrows"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/flushed_out"
+  }
+}

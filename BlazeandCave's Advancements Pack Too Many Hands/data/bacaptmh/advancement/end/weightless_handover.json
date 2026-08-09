@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Weightless Handover"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch a Shulker Shell thrown by another player while you are levitating (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/up_and_away",
+  "criteria": {
+    "floating_catch": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shulker_shell"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:levitation": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/weightless_handover"
+  }
+}

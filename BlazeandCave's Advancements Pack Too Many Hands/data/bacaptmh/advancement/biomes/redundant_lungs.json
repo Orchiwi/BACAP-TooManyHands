@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:conduit"
+    },
+    "title": {
+      "translate": "Redundant Lungs"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be splashed with Water Breathing by another player while a Conduit is already keeping you breathing (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/moskstraumen",
+  "criteria": {
+    "double_lunged": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:water_breathing": {},
+          "minecraft:conduit_power": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/redundant_lungs"
+  }
+}

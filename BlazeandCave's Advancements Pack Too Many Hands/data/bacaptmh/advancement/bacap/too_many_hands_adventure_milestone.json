@@ -506,6 +506,486 @@
           }
         }
       }
+    },
+    "waiter_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/waiter_service": true
+            }
+          }
+        }
+      }
+    },
+    "brush_with_greatness": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/brush_with_greatness": true
+            }
+          }
+        }
+      }
+    },
+    "quartermasters_round": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/quartermasters_round": true
+            }
+          }
+        }
+      }
+    },
+    "grave_goods": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/grave_goods": true
+            }
+          }
+        }
+      }
+    },
+    "guest_dj": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/guest_dj": true
+            }
+          }
+        }
+      }
+    },
+    "b_side": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/b_side": true
+            }
+          }
+        }
+      }
+    },
+    "rare_groove": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/rare_groove": true
+            }
+          }
+        }
+      }
+    },
+    "template_trade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/template_trade": true
+            }
+          }
+        }
+      }
+    },
+    "silent_partner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/silent_partner": true
+            }
+          }
+        }
+      }
+    },
+    "vexed_vendor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/vexed_vendor": true
+            }
+          }
+        }
+      }
+    },
+    "eye_witness": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/eye_witness": true
+            }
+          }
+        }
+      }
+    },
+    "hand_trimmed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/hand_trimmed": true
+            }
+          }
+        }
+      }
+    },
+    "tailors_bill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/tailors_bill": true
+            }
+          }
+        }
+      }
+    },
+    "mould_share": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/mould_share": true
+            }
+          }
+        }
+      }
+    },
+    "sherd_swap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/sherd_swap": true
+            }
+          }
+        }
+      }
+    },
+    "four_faces": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/four_faces": true
+            }
+          }
+        }
+      }
+    },
+    "dig_dividend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/dig_dividend": true
+            }
+          }
+        }
+      }
+    },
+    "heavy_lifting": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/heavy_lifting": true
+            }
+          }
+        }
+      }
+    },
+    "mansion_rules": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/mansion_rules": true
+            }
+          }
+        }
+      }
+    },
+    "trial_by_combat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/trial_by_combat": true
+            }
+          }
+        }
+      }
+    },
+    "tourist_trap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/tourist_trap": true
+            }
+          }
+        }
+      }
+    },
+    "monument_massacre": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/monument_massacre": true
+            }
+          }
+        }
+      }
+    },
+    "copper_conscript": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/copper_conscript": true
+            }
+          }
+        }
+      }
+    },
+    "chain_of_supply": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/chain_of_supply": true
+            }
+          }
+        }
+      }
+    },
+    "gilded_gift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/gilded_gift": true
+            }
+          }
+        }
+      }
+    },
+    "the_milliners_round": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/the_milliners_round": true
+            }
+          }
+        }
+      }
+    },
+    "cobblers_rounds": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/cobblers_rounds": true
+            }
+          }
+        }
+      }
+    },
+    "aegis_trade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/aegis_trade": true
+            }
+          }
+        }
+      }
+    },
+    "trimmed_in_debris": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/trimmed_in_debris": true
+            }
+          }
+        }
+      }
+    },
+    "chainbreaker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/chainbreaker": true
+            }
+          }
+        }
+      }
+    },
+    "quartered_colours": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/quartered_colours": true
+            }
+          }
+        }
+      }
+    },
+    "double_indemnity": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/double_indemnity": true
+            }
+          }
+        }
+      }
+    },
+    "underwriter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/underwriter": true
+            }
+          }
+        }
+      }
+    },
+    "victory_tonic": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/victory_tonic": true
+            }
+          }
+        }
+      }
+    },
+    "omen_insurance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/omen_insurance": true
+            }
+          }
+        }
+      }
+    },
+    "ominous_assistance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/ominous_assistance": true
+            }
+          }
+        }
+      }
+    },
+    "trial_by_poison": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/trial_by_poison": true
+            }
+          }
+        }
+      }
+    },
+    "bad_apple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/bad_apple": true
+            }
+          }
+        }
+      }
+    },
+    "mansion_massacre": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/mansion_massacre": true
+            }
+          }
+        }
+      }
+    },
+    "on_the_scent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/on_the_scent": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

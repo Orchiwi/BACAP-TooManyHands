@@ -134,6 +134,486 @@
           }
         }
       }
+    },
+    "deep_rations": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/deep_rations": true
+            }
+          }
+        }
+      }
+    },
+    "tools_of_the_trade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/tools_of_the_trade": true
+            }
+          }
+        }
+      }
+    },
+    "run_it_into_the_ground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/run_it_into_the_ground": true
+            }
+          }
+        }
+      }
+    },
+    "upgrade_path": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/upgrade_path": true
+            }
+          }
+        }
+      }
+    },
+    "second_set_of_eyes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/second_set_of_eyes": true
+            }
+          }
+        }
+      }
+    },
+    "copper_bottomed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/copper_bottomed": true
+            }
+          }
+        }
+      }
+    },
+    "ancient_armoury": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/ancient_armoury": true
+            }
+          }
+        }
+      }
+    },
+    "fresh_steel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/fresh_steel": true
+            }
+          }
+        }
+      }
+    },
+    "pick_of_the_bunch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/pick_of_the_bunch": true
+            }
+          }
+        }
+      }
+    },
+    "full_kit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/full_kit": true
+            }
+          }
+        }
+      }
+    },
+    "quarry_crew": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/quarry_crew": true
+            }
+          }
+        }
+      }
+    },
+    "blackout_blinds": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/blackout_blinds": true
+            }
+          }
+        }
+      }
+    },
+    "patina_pipeline": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/patina_pipeline": true
+            }
+          }
+        }
+      }
+    },
+    "sealed_with_wax": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/sealed_with_wax": true
+            }
+          }
+        }
+      }
+    },
+    "cut_and_shut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/cut_and_shut": true
+            }
+          }
+        }
+      }
+    },
+    "through_the_grate": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/through_the_grate": true
+            }
+          }
+        }
+      }
+    },
+    "bars_and_chains": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/bars_and_chains": true
+            }
+          }
+        }
+      }
+    },
+    "statuary_trade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/statuary_trade": true
+            }
+          }
+        }
+      }
+    },
+    "deep_delivery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/deep_delivery": true
+            }
+          }
+        }
+      }
+    },
+    "fragment_pool": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/fragment_pool": true
+            }
+          }
+        }
+      }
+    },
+    "mineshaft_mixtape": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/mineshaft_mixtape": true
+            }
+          }
+        }
+      }
+    },
+    "vault_transfer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/vault_transfer": true
+            }
+          }
+        }
+      }
+    },
+    "golden_seam": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/golden_seam": true
+            }
+          }
+        }
+      }
+    },
+    "borrowed_bite": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/borrowed_bite": true
+            }
+          }
+        }
+      }
+    },
+    "toolshare": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/toolshare": true
+            }
+          }
+        }
+      }
+    },
+    "deep_cut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/deep_cut": true
+            }
+          }
+        }
+      }
+    },
+    "claim_jumper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/claim_jumper": true
+            }
+          }
+        }
+      }
+    },
+    "sixty_below": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/sixty_below": true
+            }
+          }
+        }
+      }
+    },
+    "painted_desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/painted_desert": true
+            }
+          }
+        }
+      }
+    },
+    "lantern_light": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/lantern_light": true
+            }
+          }
+        }
+      }
+    },
+    "stalactite_standoff": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/stalactite_standoff": true
+            }
+          }
+        }
+      }
+    },
+    "oxidised_opponent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/oxidised_opponent": true
+            }
+          }
+        }
+      }
+    },
+    "stripped_to_the_studs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/stripped_to_the_studs": true
+            }
+          }
+        }
+      }
+    },
+    "gilded_corpse": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/gilded_corpse": true
+            }
+          }
+        }
+      }
+    },
+    "hard_hat_handover": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/hard_hat_handover": true
+            }
+          }
+        }
+      }
+    },
+    "miners_lamp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/miners_lamp": true
+            }
+          }
+        }
+      }
+    },
+    "bunker_buddy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/bunker_buddy": true
+            }
+          }
+        }
+      }
+    },
+    "deep_prescription": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/deep_prescription": true
+            }
+          }
+        }
+      }
+    },
+    "ancient_city_apothecary": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/ancient_city_apothecary": true
+            }
+          }
+        }
+      }
+    },
+    "ancient_grudge": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:mining/ancient_grudge": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

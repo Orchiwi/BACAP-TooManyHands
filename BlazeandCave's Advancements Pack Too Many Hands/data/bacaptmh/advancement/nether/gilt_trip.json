@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gilded_blackstone"
+    },
+    "title": {
+      "translate": "Gilt Trip"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Gilded Blackstone from another player while you are both inside a Bastion Remnant (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/gilty",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gilded_blackstone"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "bastion_remnant"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/gilt_trip"
+  }
+}

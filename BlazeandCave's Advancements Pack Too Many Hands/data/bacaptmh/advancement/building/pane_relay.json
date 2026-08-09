@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass_pane"
+    },
+    "title": {
+      "translate": "Pane Relay"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Glass Panes from another player and glaze a window with them (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/what_a_pane",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glass_pane"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "glazed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:glass_pane"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/pane_relay"
+  }
+}

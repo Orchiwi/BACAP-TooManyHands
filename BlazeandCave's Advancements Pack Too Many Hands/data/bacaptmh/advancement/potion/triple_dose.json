@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brewing_stand"
+    },
+    "title": {
+      "translate": "Triple Dose"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry Speed, Strength and Jump Boost all at once, the last of them thrown onto you by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/super_strength",
+  "criteria": {
+    "stacked": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {},
+          "minecraft:strength": {},
+          "minecraft:jump_boost": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/triple_dose"
+  }
+}

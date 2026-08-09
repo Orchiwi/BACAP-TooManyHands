@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:phantom_membrane"
+    },
+    "title": {
+      "translate": "Caught Mid-Air"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get Slow Falling from another player while your feet are off the ground (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/true_feather_falling",
+  "criteria": {
+    "caught": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slow_falling": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_on_ground": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/caught_mid_air"
+  }
+}

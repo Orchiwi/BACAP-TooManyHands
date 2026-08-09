@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Quiver Run"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Arrows out of another player's hands and shoot them straight back (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/that_is_so_fletch",
+  "criteria": {
+    "took": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:arrow"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "shot": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "#blazeandcave:arrows"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/quiver_run"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_planks"
+    },
+    "title": {
+      "translate": "Sawmill Shift"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Logs from another player and hand back the Planks you cut out of them (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/master_logger",
+  "criteria": {
+    "logs_in": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:oak_log",
+            "minecraft:spruce_log",
+            "minecraft:birch_log",
+            "minecraft:jungle_log",
+            "minecraft:acacia_log",
+            "minecraft:dark_oak_log"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "planks_out": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:oak_planks",
+            "minecraft:spruce_planks",
+            "minecraft:birch_planks",
+            "minecraft:jungle_planks",
+            "minecraft:acacia_planks",
+            "minecraft:dark_oak_planks"
+          ],
+          "count": {
+            "min": 32
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/sawmill_shift"
+  }
+}

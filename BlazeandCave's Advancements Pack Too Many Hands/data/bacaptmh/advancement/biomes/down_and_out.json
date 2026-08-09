@@ -1,0 +1,80 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pufferfish"
+    },
+    "title": {
+      "translate": "Down and Out"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be poisoned by another player while you are underwater in a Deep Ocean (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/20_leagues_under_the_sea",
+  "criteria": {
+    "down_and_out": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:poison": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water",
+                    "minecraft:flowing_water"
+                  ]
+                },
+                "biomes": [
+                  "minecraft:deep_ocean",
+                  "minecraft:deep_cold_ocean",
+                  "minecraft:deep_frozen_ocean",
+                  "minecraft:deep_lukewarm_ocean"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/down_and_out"
+  }
+}

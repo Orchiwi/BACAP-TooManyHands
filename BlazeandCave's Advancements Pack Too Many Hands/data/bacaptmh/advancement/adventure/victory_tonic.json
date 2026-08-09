@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bell"
+    },
+    "title": {
+      "translate": "Victory Tonic"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be splashed with Regeneration by another player while you are still riding Hero of the Village (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/were_being_attacked",
+  "criteria": {
+    "toasted": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {},
+          "minecraft:hero_of_the_village": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/victory_tonic"
+  }
+}

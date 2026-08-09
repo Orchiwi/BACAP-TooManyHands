@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_chest"
+    },
+    "title": {
+      "translate": "Shared Locker"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed an Ender Chest by another player, the one box they can never look inside (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/organizational_wizard",
+  "criteria": {
+    "gifted": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ender_chest"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/shared_locker"
+  }
+}

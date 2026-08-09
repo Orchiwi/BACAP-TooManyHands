@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lodestone"
+    },
+    "title": {
+      "translate": "Magnetic Personality"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Bind your Compass to a Lodestone another player spent their Netherite on (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/diamonds_are_not_forever",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lodestone"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "bound": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lodestone"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:compass"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/magnetic_personality"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "Beggars and Choosers"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Choke down Rotten Flesh another player handed you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/iron_belly",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rotten_flesh"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "eaten": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rotten_flesh"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/beggars_and_choosers"
+  }
+}

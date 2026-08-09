@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_tear"
+    },
+    "title": {
+      "translate": "Crocodile Tears"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Ghast Tear from another player while you are both down in the Nether (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/ghast_slayer",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ghast_tear"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/crocodile_tears"
+  }
+}

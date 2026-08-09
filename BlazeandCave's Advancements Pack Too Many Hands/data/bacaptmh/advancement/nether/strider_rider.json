@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick"
+    },
+    "title": {
+      "translate": "Strider Rider"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player who is riding a Strider (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/bobbleheads",
+  "criteria": {
+    "unseated": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 0.1
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:strider"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/strider_rider"
+  }
+}

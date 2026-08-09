@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "Nothing in Hand"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Punch a player who is wielding a Netherite Sword with both of your hands empty (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/bare_knuckle_boxing",
+  "criteria": {
+    "nothing_in_hand": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:netherite_sword"
+              ]
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "count": 0
+            },
+            "offhand": {
+              "count": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/nothing_in_hand"
+  }
+}

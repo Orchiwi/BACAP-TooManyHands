@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Hamstrung"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be splashed with Slowness by another player while you are sprinting (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/performance_enhancing_drugs",
+  "criteria": {
+    "hamstrung": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sprinting": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/hamstrung"
+  }
+}

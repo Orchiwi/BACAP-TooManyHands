@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate"
+    },
+    "title": {
+      "translate": "Deep Delivery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Deepslate from another player while you are both below Y=0 (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/deep_slate_nine",
+  "criteria": {
+    "handover": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:deepslate",
+            "minecraft:cobbled_deepslate"
+          ],
+          "count": {
+            "min": 32
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "position": {
+              "y": {
+                "max": 0.0
+              }
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": 0.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/deep_delivery"
+  }
+}

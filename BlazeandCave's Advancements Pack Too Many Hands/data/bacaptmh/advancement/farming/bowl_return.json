@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bowl"
+    },
+    "title": {
+      "translate": "Bowl Return"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a bowl of stew from another player and hand the empty Bowl straight back (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/mushroom_mushroom",
+  "criteria": {
+    "served": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew",
+            "minecraft:rabbit_stew",
+            "minecraft:beetroot_soup",
+            "minecraft:suspicious_stew"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "returned": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bowl"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/bowl_return"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Lead the Target"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put an arrow into a player at a full sprint (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/point_blank",
+  "criteria": {
+    "lead_the_target": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_sprinting": true
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "#blazeandcave:arrows"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/lead_the_target"
+  }
+}

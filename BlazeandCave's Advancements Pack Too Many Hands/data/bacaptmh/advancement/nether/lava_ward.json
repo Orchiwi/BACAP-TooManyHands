@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "Lava Ward"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry Fire Resistance, Resistance and Regeneration while standing in lava, the last of them thrown by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hot_spring",
+  "criteria": {
+    "warded": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:fire_resistance": {},
+          "minecraft:resistance": {},
+          "minecraft:regeneration": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:lava",
+                    "minecraft:flowing_lava"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/lava_ward"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:scaffolding"
+    },
+    "title": {
+      "translate": "Scaffold Crew"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed Scaffolding by another player and run it up past Y=150 (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/construction_worker",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:scaffolding"
+          ],
+          "count": {
+            "min": 32
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "raised": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "y": {
+                  "min": 150.0
+                }
+              },
+              "block": {
+                "blocks": [
+                  "minecraft:scaffolding"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/scaffold_crew"
+  }
+}

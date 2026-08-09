@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_golem_statue"
+    },
+    "title": {
+      "translate": "Statuary Trade"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed a Copper Golem Statue by another player and stand it up (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/statue_of_limitations",
+  "criteria": {
+    "delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_golem_statue",
+            "minecraft:exposed_copper_golem_statue",
+            "minecraft:weathered_copper_golem_statue",
+            "minecraft:oxidized_copper_golem_statue"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "erected": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_golem_statue",
+                  "minecraft:exposed_copper_golem_statue",
+                  "minecraft:weathered_copper_golem_statue",
+                  "minecraft:oxidized_copper_golem_statue"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/statuary_trade"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:daylight_detector"
+    },
+    "title": {
+      "translate": "Solar Partnership"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Place a Daylight Detector built from Quartz another player brought back (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/solar_power",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:quartz"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:daylight_detector"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/solar_partnership"
+  }
+}

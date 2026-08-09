@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "Eyes Front"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player twelve Eyes of Ender, a full portal's worth (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/eye_contact",
+  "criteria": {
+    "stake": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ender_eye"
+          ],
+          "count": {
+            "min": 12
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/eyes_front"
+  }
+}

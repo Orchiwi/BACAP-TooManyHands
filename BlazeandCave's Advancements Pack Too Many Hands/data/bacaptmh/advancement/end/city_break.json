@@ -1,0 +1,91 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "City Break"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed Chorus Fruit, a Shulker Shell and an Elytra by other players, every one of them inside an End City (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/off_with_his_head",
+  "criteria": {
+    "fruit": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chorus_fruit"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:end_city"
+          }
+        }
+      }
+    },
+    "shell": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shulker_shell"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:end_city"
+          }
+        }
+      }
+    },
+    "wings": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:elytra"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:end_city"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/city_break"
+  }
+}

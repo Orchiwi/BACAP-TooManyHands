@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "Salvage Rights"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a Heart of the Sea while you are both underwater (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/x_marks_the_spot",
+  "criteria": {
+    "salvage_rights": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:heart_of_the_sea"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "fluid": {
+              "fluids": [
+                "minecraft:water",
+                "minecraft:flowing_water"
+              ]
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water",
+                    "minecraft:flowing_water"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/salvage_rights"
+  }
+}

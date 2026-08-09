@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_cream"
+    },
+    "title": {
+      "translate": "Heatproof Handover"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand Magma Cream to a player who is already under Fire Resistance (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/tank",
+  "criteria": {
+    "delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:magma_cream"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:fire_resistance": {
+              "amplifier": {
+                "min": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/heatproof_handover"
+  }
+}

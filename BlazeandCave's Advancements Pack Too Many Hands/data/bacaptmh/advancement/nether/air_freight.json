@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:happy_ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "Air Freight"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a Netherite Ingot from a player on another Happy Ghast while a third player shares yours (3 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hot_air_balloon",
+  "criteria": {
+    "air_freight": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_ingot"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 6
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "passenger": {
+                  "entity_type": "minecraft:player",
+                  "distance": {
+                    "absolute": {
+                      "min": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/air_freight"
+  }
+}

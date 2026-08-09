@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "translate": "Cake Walk"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed a Cake by another player and set it out for the party (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/must_be_your_birthday",
+  "criteria": {
+    "gifted": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cake"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:cake"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/cake_walk"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purpur_block"
+    },
+    "title": {
+      "translate": "Popped Over"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed four Popped Chorus Fruit by another player, then place the Purpur Block you make from them (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/purpurfect",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:popped_chorus_fruit"
+          ],
+          "count": {
+            "min": 4
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "built": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:purpur_block"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/popped_over"
+  }
+}

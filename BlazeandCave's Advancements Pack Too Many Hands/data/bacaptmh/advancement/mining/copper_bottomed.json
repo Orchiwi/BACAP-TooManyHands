@@ -1,0 +1,112 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_pickaxe"
+    },
+    "title": {
+      "translate": "Copper Bottomed"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a full set of Copper tools and a Copper Sword (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/copper_age",
+  "criteria": {
+    "pickaxe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:copper_pickaxe"
+          ]
+        }
+      }
+    },
+    "axe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:copper_axe"
+          ]
+        }
+      }
+    },
+    "shovel": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:copper_shovel"
+          ]
+        }
+      }
+    },
+    "hoe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:copper_hoe"
+          ]
+        }
+      }
+    },
+    "sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:copper_sword"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/copper_bottomed"
+  }
+}

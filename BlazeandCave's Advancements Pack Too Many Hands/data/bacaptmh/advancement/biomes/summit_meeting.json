@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "Summit Meeting"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player on the Jagged Peaks above Y=200 (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/high_feet",
+  "criteria": {
+    "summit_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "location": {
+            "biomes": [
+              "minecraft:jagged_peaks",
+              "minecraft:frozen_peaks"
+            ],
+            "position": {
+              "y": {
+                "min": 200.0
+              }
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:jagged_peaks",
+              "minecraft:frozen_peaks"
+            ],
+            "position": {
+              "y": {
+                "min": 200.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/summit_meeting"
+  }
+}

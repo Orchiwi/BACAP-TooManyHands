@@ -1,0 +1,277 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "Master's Bequest"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Sign the whole workshop over: hand another player Mending, Unbreaking III Netherite Pickaxe, Axe, Shovel, Hoe and Sword, plus a Mending Bow, Crossbow, Trident and Elytra (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:challenges/living_will",
+  "criteria": {
+    "netherite_pickaxe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_pickaxe"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:mending"
+              },
+              {
+                "enchantments": "minecraft:unbreaking",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "netherite_axe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_axe"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:mending"
+              },
+              {
+                "enchantments": "minecraft:unbreaking",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "netherite_shovel": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_shovel"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:mending"
+              },
+              {
+                "enchantments": "minecraft:unbreaking",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "netherite_hoe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_hoe"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:mending"
+              },
+              {
+                "enchantments": "minecraft:unbreaking",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "netherite_sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_sword"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:mending"
+              },
+              {
+                "enchantments": "minecraft:unbreaking",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "bow": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:bow"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:mending"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "crossbow": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:mending"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "trident": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:trident"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:mending"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "elytra": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:elytra"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:mending"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/masters_bequest"
+  }
+}

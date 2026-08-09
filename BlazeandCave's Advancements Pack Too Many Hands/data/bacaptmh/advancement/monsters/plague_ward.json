@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "Plague Ward"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed Regeneration by another player while Poison, Wither, Weakness, Slowness and Hunger are all eating at you (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/night_runner",
+  "criteria": {
+    "wardened": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {},
+          "minecraft:poison": {},
+          "minecraft:wither": {},
+          "minecraft:weakness": {},
+          "minecraft:slowness": {},
+          "minecraft:hunger": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/plague_ward"
+  }
+}

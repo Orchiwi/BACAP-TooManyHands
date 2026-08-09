@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Bug Bomb"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be seeded with Infested by another player's Splash Potion (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/gas_bomb",
+  "criteria": {
+    "bug_bomb": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:infested": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/bug_bomb"
+  }
+}

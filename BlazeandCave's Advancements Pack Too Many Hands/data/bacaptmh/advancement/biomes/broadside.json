@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "Broadside"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill another player sitting in a Boat while you fight from a Boat of your own on the deep ocean (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/cargo_carrier",
+  "criteria": {
+    "naval": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "vehicle": {
+            "entity_type": "#blazeandcave:all_boats"
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "#blazeandcave:all_boats"
+          },
+          "location": {
+            "biomes": "#minecraft:is_deep_ocean"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/broadside"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath"
+    },
+    "title": {
+      "translate": "Breath Work"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Bottle of Dragon's Breath off another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/noxious_fumes",
+  "criteria": {
+    "inherited": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dragon_breath"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/breath_work"
+  }
+}

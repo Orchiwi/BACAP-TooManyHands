@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_planks"
+    },
+    "title": {
+      "translate": "Warped Export"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player Warped Planks and Warped Hyphae back in the Overworld (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/spreading_corruption",
+  "criteria": {
+    "planks": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:warped_planks"
+          ],
+          "count": {
+            "min": 32
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "hyphae": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:warped_hyphae"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/warped_export"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:breeze_rod"
+    },
+    "title": {
+      "translate": "Windswept"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Prime another player with Wind Charged using a Tipped Arrow (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/final_shout",
+  "criteria": {
+    "windswept": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:wind_charged\"}}}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/windswept"
+  }
+}

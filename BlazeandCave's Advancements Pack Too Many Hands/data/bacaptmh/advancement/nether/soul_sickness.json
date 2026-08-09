@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_sand"
+    },
+    "title": {
+      "translate": "Soul Sickness"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Slowness from another player's brew while you are standing on Soul Sand (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/soul_runnings",
+  "criteria": {
+    "soul_sickness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil"
+                  ]
+                }
+              },
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/soul_sickness"
+  }
+}

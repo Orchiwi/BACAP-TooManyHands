@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:baked_potato"
+    },
+    "title": {
+      "translate": "Second Breakfast"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed Bread and a Baked Potato by another player and eat both (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/die_potato",
+  "criteria": {
+    "got_bread": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "got_spud": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:baked_potato"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "ate_bread": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ]
+        }
+      }
+    },
+    "ate_spud": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:baked_potato"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/second_breakfast"
+  }
+}

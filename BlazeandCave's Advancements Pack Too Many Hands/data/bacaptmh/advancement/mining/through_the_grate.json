@@ -1,0 +1,88 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_grate"
+    },
+    "title": {
+      "translate": "Through the Grate"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed a Copper Grate and a Copper Bulb by another player and place them both (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/grate_expectations",
+  "criteria": {
+    "grate": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_grate",
+            "minecraft:exposed_copper_grate",
+            "minecraft:weathered_copper_grate",
+            "minecraft:oxidized_copper_grate"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "bulb": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_bulb",
+            "minecraft:exposed_copper_bulb",
+            "minecraft:weathered_copper_bulb",
+            "minecraft:oxidized_copper_bulb"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "installed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_grate",
+                  "minecraft:exposed_copper_grate",
+                  "minecraft:weathered_copper_grate",
+                  "minecraft:oxidized_copper_grate",
+                  "minecraft:copper_bulb",
+                  "minecraft:exposed_copper_bulb",
+                  "minecraft:weathered_copper_bulb",
+                  "minecraft:oxidized_copper_bulb"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/through_the_grate"
+  }
+}

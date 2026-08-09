@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "Beacon Pharmacy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Regeneration and Strength from another player while a Beacon holds you under Resistance (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/community_beacon",
+  "criteria": {
+    "stocked": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {},
+          "minecraft:strength": {},
+          "minecraft:resistance": {
+            "ambient": true
+          }
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/beacon_pharmacy"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purpur_pillar"
+    },
+    "title": {
+      "translate": "Purpur Post"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Purpur Blocks and Purpur Pillars from another player out in the End (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/purpurfect",
+  "criteria": {
+    "blocks": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:purpur_block"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pillars": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:purpur_pillar"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/purpur_post"
+  }
+}

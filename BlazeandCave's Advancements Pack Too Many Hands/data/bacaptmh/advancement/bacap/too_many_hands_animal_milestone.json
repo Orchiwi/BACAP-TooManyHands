@@ -206,6 +206,342 @@
           }
         }
       }
+    },
+    "empties": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/empties": true
+            }
+          }
+        }
+      }
+    },
+    "fish_course": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/fish_course": true
+            }
+          }
+        }
+      }
+    },
+    "surf_and_turf": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/surf_and_turf": true
+            }
+          }
+        }
+      }
+    },
+    "honey_trap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/honey_trap": true
+            }
+          }
+        }
+      }
+    },
+    "rabbit_food": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/rabbit_food": true
+            }
+          }
+        }
+      }
+    },
+    "sushi_bar": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/sushi_bar": true
+            }
+          }
+        }
+      }
+    },
+    "cold_cuts": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/cold_cuts": true
+            }
+          }
+        }
+      }
+    },
+    "fugu": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/fugu": true
+            }
+          }
+        }
+      }
+    },
+    "milk_and_honey": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/milk_and_honey": true
+            }
+          }
+        }
+      }
+    },
+    "nose_to_tail": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/nose_to_tail": true
+            }
+          }
+        }
+      }
+    },
+    "catch_and_cook": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/catch_and_cook": true
+            }
+          }
+        }
+      }
+    },
+    "hog_cavalry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/hog_cavalry": true
+            }
+          }
+        }
+      }
+    },
+    "tourney_ground": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/tourney_ground": true
+            }
+          }
+        }
+      }
+    },
+    "boar_war": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/boar_war": true
+            }
+          }
+        }
+      }
+    },
+    "desert_cavalry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/desert_cavalry": true
+            }
+          }
+        }
+      }
+    },
+    "caravan_ambush": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/caravan_ambush": true
+            }
+          }
+        }
+      }
+    },
+    "spore_war": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/spore_war": true
+            }
+          }
+        }
+      }
+    },
+    "jockeys_little_helper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/jockeys_little_helper": true
+            }
+          }
+        }
+      }
+    },
+    "saddle_sore": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/saddle_sore": true
+            }
+          }
+        }
+      }
+    },
+    "pillion_post": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/pillion_post": true
+            }
+          }
+        }
+      }
+    },
+    "mounted_medic": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/mounted_medic": true
+            }
+          }
+        }
+      }
+    },
+    "taken_for_a_ride": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/taken_for_a_ride": true
+            }
+          }
+        }
+      }
+    },
+    "dangled_carrot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/dangled_carrot": true
+            }
+          }
+        }
+      }
+    },
+    "loaner_saddle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/loaner_saddle": true
+            }
+          }
+        }
+      }
+    },
+    "sponsored_ride": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/sponsored_ride": true
+            }
+          }
+        }
+      }
+    },
+    "carpet_bagger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/carpet_bagger": true
+            }
+          }
+        }
+      }
+    },
+    "hitching_post": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/hitching_post": true
+            }
+          }
+        }
+      }
+    },
+    "leash_of_the_realms": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/leash_of_the_realms": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

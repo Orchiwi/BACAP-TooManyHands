@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "translate": "Well Padded"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a twenty-point swing from another player and lose no more than five hearts of it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/kill_or_be_killed",
+  "criteria": {
+    "soaked_it_up": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 20.0
+          },
+          "taken": {
+            "max": 10.0
+          },
+          "blocked": false,
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/well_padded"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brush"
+    },
+    "title": {
+      "translate": "Brush With Greatness"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Excavate a suspicious block with a Brush another player handed you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/brushed_away",
+  "criteria": {
+    "handed_the_brush": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:brush"
+          ]
+        }
+      }
+    },
+    "dusted": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:suspicious_sand",
+                  "minecraft:suspicious_gravel"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:brush"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/brush_with_greatness"
+  }
+}

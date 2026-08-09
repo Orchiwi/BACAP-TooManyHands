@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_fruit"
+    },
+    "title": {
+      "translate": "Chorus Sickness"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Weakness from another player's brew out in the End (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/getting_chorus",
+  "criteria": {
+    "chorus_sickness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:weakness": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/chorus_sickness"
+  }
+}

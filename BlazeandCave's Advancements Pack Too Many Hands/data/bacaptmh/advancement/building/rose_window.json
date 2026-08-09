@@ -1,0 +1,390 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_stained_glass_pane"
+    },
+    "title": {
+      "translate": "Rose Window"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed all sixteen colours of Stained Glass Pane by other players and set one in a wall (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/pane_in_the_glass",
+  "criteria": {
+    "white_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "orange_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:orange_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "magenta_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:magenta_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "light_blue_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:light_blue_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "yellow_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:yellow_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "lime_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lime_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "pink_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pink_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "gray_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gray_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "light_gray_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:light_gray_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "cyan_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cyan_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "purple_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:purple_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "blue_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blue_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "brown_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:brown_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "green_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:green_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "red_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:red_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "black_pane": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:black_stained_glass_pane"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "glazed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:white_stained_glass_pane",
+                  "minecraft:orange_stained_glass_pane",
+                  "minecraft:magenta_stained_glass_pane",
+                  "minecraft:light_blue_stained_glass_pane",
+                  "minecraft:yellow_stained_glass_pane",
+                  "minecraft:lime_stained_glass_pane",
+                  "minecraft:pink_stained_glass_pane",
+                  "minecraft:gray_stained_glass_pane",
+                  "minecraft:light_gray_stained_glass_pane",
+                  "minecraft:cyan_stained_glass_pane",
+                  "minecraft:purple_stained_glass_pane",
+                  "minecraft:blue_stained_glass_pane",
+                  "minecraft:brown_stained_glass_pane",
+                  "minecraft:green_stained_glass_pane",
+                  "minecraft:red_stained_glass_pane",
+                  "minecraft:black_stained_glass_pane"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/rose_window"
+  }
+}

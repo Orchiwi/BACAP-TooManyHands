@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sand"
+    },
+    "title": {
+      "translate": "Mirage"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Put an arrow into another player from fifty blocks across open desert (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/warm_feet",
+  "criteria": {
+    "long_desert_shot": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 50
+            }
+          },
+          "location": {
+            "biomes": "minecraft:desert"
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "#blazeandcave:arrows"
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:desert"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/mirage"
+  }
+}

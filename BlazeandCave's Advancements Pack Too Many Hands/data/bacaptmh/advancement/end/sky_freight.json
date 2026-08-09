@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Sky Freight"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch a Shulker Shell thrown by another player above Y=100 in the End (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/sky_high",
+  "criteria": {
+    "airborne_catch": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shulker_shell"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end",
+            "position": {
+              "y": {
+                "min": 100.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/sky_freight"
+  }
+}

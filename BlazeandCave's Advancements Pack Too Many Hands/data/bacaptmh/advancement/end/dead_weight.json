@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Dead Weight"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Shoot another player out of the air in the End while a Shulker's Levitation has hold of them (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/shulker_breaker",
+  "criteria": {
+    "dead_weight": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:levitation": {}
+          },
+          "location": {
+            "dimension": "minecraft:the_end"
+          },
+          "flags": {
+            "is_on_ground": false
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": [
+                "minecraft:arrow",
+                "minecraft:spectral_arrow"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/dead_weight"
+  }
+}

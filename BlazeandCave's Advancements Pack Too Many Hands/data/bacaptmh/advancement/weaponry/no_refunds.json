@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "No Refunds"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill another player who is clutching an Enchanted Golden Apple in their off hand (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/half_heart_life",
+  "criteria": {
+    "no_refunds": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:enchanted_golden_apple"
+              ]
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/no_refunds"
+  }
+}

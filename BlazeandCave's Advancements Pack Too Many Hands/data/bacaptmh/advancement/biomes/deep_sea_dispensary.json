@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_lantern"
+    },
+    "title": {
+      "translate": "Deep Sea Dispensary"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Carry Conduit Power, Water Breathing, Night Vision and Speed at once underwater, the last of them from another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/conduit_club",
+  "criteria": {
+    "dispensed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:conduit_power": {},
+          "minecraft:water_breathing": {},
+          "minecraft:night_vision": {},
+          "minecraft:speed": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water",
+                    "minecraft:flowing_water"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/deep_sea_dispensary"
+  }
+}

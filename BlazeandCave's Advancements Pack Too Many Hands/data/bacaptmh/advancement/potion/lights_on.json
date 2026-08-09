@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_carrot"
+    },
+    "title": {
+      "translate": "Lights On"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Night Vision from another player's Splash Potion while you are below Y=0 (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/nocturnal",
+  "criteria": {
+    "lights_on": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:night_vision": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": 0.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/lights_on"
+  }
+}

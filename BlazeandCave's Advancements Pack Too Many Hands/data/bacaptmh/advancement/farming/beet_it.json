@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot_soup"
+    },
+    "title": {
+      "translate": "Beet It"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drink Beetroot Soup another player made for you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/souperman",
+  "criteria": {
+    "served": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:beetroot_soup"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "drunk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:beetroot_soup"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/beet_it"
+  }
+}

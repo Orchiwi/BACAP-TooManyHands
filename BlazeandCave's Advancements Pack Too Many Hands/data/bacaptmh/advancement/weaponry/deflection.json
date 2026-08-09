@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Deflection"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Block a Trident thrown by another player on your Shield (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/flying_colors",
+  "criteria": {
+    "deflected": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          },
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:trident"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/deflection"
+  }
+}

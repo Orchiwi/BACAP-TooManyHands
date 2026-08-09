@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_sapling"
+    },
+    "title": {
+      "translate": "Running Battle"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill another player out on the open savanna while you are both sprinting (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/warm_feet",
+  "criteria": {
+    "chase_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "flags": {
+            "is_sprinting": true
+          },
+          "location": {
+            "biomes": [
+              "minecraft:savanna",
+              "minecraft:savanna_plateau",
+              "minecraft:windswept_savanna"
+            ]
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "flags": {
+            "is_sprinting": true
+          },
+          "location": {
+            "biomes": [
+              "minecraft:savanna",
+              "minecraft:savanna_plateau",
+              "minecraft:windswept_savanna"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/running_battle"
+  }
+}

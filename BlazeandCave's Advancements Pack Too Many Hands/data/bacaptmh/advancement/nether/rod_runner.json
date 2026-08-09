@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_rod"
+    },
+    "title": {
+      "translate": "Rod Runner"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Blaze Rods from another player inside the Nether Fortress you are raiding together (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/blaze_extinguisher",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blaze_rod"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "fortress"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/rod_runner"
+  }
+}

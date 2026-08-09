@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "Bad Apple"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand a Golden Apple to a player you have Weakened, as though they were a Zombie Villager (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/feeling_ill",
+  "criteria": {
+    "bad_apple": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_apple",
+            "minecraft:enchanted_golden_apple"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              },
+              "effects": {
+                "minecraft:weakness": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/bad_apple"
+  }
+}

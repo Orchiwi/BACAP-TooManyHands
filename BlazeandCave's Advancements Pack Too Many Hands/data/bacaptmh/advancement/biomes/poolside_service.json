@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_shard"
+    },
+    "title": {
+      "translate": "Poolside Service"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be dosed with Regeneration by another player while you are swimming underwater (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/free_diver",
+  "criteria": {
+    "dosed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_swimming": true
+              },
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water",
+                    "minecraft:flowing_water"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/poolside_service"
+  }
+}

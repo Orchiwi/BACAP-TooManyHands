@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mud_bricks"
+    },
+    "title": {
+      "translate": "Mudlarking"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Packed Mud and Mud Bricks from another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/elmer_mudd",
+  "criteria": {
+    "packed_mud": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:packed_mud"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "mud_bricks": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mud_bricks"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/mudlarking"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "Wing and a Prayer"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch an Elytra thrown by another player while you are falling below Y=20 in the End (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/event_horizon",
+  "criteria": {
+    "rescue": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:elytra"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end",
+            "position": {
+              "y": {
+                "max": 20.0
+              }
+            }
+          },
+          "flags": {
+            "is_on_ground": false
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/wing_and_a_prayer"
+  }
+}

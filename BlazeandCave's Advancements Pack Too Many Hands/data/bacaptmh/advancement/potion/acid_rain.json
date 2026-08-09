@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Acid Rain"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Drop a Splash Potion of Harming on another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/death_by_magic",
+  "criteria": {
+    "acid_rain": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:splash_potion"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/acid_rain"
+  }
+}

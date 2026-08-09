@@ -1,0 +1,100 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod"
+    },
+    "title": {
+      "translate": "Wet Fish Duel"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Trade blows with another player while you are both armed with nothing but a raw Cod (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/slapfish",
+  "criteria": {
+    "slapped": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:cod"
+              ]
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:cod"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "slapped_back": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          },
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:cod"
+                ]
+              }
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:cod"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/wet_fish_duel"
+  }
+}

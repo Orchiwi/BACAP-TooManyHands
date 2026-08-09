@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_moss_block"
+    },
+    "title": {
+      "translate": "Pale Reckoning"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill another player in the grey silence of the Pale Garden (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/eyeball_forest",
+  "criteria": {
+    "pale_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "location": {
+            "biomes": "minecraft:pale_garden"
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:pale_garden"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/pale_reckoning"
+  }
+}

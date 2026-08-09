@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Protection Racket"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be killed by another player while wearing four pieces of Protection IV (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/armor_for_the_masses",
+  "criteria": {
+    "through_the_plating": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  }
+                ]
+              }
+            },
+            "chest": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  }
+                ]
+              }
+            },
+            "legs": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  }
+                ]
+              }
+            },
+            "feet": {
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/protection_racket"
+  }
+}

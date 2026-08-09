@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
+    },
+    "title": {
+      "translate": "Guard Break"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land an Axe blow on another player that their raised Shield fails to stop (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/shield_luck",
+  "criteria": {
+    "guard_break": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:shield"
+              ]
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#blazeandcave:axes"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/guard_break"
+  }
+}

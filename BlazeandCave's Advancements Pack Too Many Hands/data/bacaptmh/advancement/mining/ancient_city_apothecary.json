@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:echo_shard"
+    },
+    "title": {
+      "translate": "Ancient City Apothecary"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Carry Resistance, Night Vision and a Shrieker's Darkness at once in the Deep Dark, the last dose thrown by another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/frigid_diversions",
+  "criteria": {
+    "stocked": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:resistance": {},
+          "minecraft:night_vision": {},
+          "minecraft:darkness": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:deep_dark"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/ancient_city_apothecary"
+  }
+}

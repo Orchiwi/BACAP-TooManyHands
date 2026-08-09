@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_hoe"
+    },
+    "title": {
+      "translate": "Peasant Revolt"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player with a Hoe while you are both standing on a Dirt Path (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/root",
+  "criteria": {
+    "peasant_revolt": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:dirt_path"
+              ]
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#blazeandcave:hoes"
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:dirt_path"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/peasant_revolt"
+  }
+}

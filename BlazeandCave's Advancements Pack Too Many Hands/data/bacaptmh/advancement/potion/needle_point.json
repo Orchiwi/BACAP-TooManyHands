@@ -1,0 +1,92 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tipped_arrow"
+    },
+    "title": {
+      "translate": "Needle Point"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put an Arrow of Poison into another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/imbued_projectiles",
+  "criteria": {
+    "poison": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:poison\"}}}}"
+            }
+          }
+        }
+      }
+    },
+    "long_poison": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_poison\"}}}}"
+            }
+          }
+        }
+      }
+    },
+    "strong_poison": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_poison\"}}}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/needle_point"
+  },
+  "requirements": [
+    [
+      "poison",
+      "long_poison",
+      "strong_poison"
+    ]
+  ]
+}

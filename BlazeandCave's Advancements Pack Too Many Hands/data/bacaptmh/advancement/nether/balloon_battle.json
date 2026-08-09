@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_harness"
+    },
+    "title": {
+      "translate": "Balloon Battle"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player who is riding a Happy Ghast while you ride one of your own over the Nether (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/pillow_fight",
+  "criteria": {
+    "blimp_war": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          },
+          "distance": {
+            "absolute": {
+              "min": 5
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          },
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/balloon_battle"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_horse_armor"
+    },
+    "title": {
+      "translate": "Sponsored Ride"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a Horse wearing Diamond Horse Armour that another player put in your hands (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/a_horse_in_shining_armor",
+  "criteria": {
+    "handed_the_barding": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_horse_armor"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "rode": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#blazeandcave:all_horses",
+                "equipment": {
+                  "body": {
+                    "items": "minecraft:diamond_horse_armor"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/sponsored_ride"
+  }
+}

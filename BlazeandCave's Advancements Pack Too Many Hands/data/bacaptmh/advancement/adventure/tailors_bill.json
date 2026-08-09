@@ -1,0 +1,102 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
+    },
+    "title": {
+      "translate": "Tailor's Bill"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed armour trimmed with Gold, Diamond, Emerald and Amethyst by other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/chromatic_armory",
+  "criteria": {
+    "gold": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:trim": {
+              "material": "minecraft:gold"
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "diamond": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:trim": {
+              "material": "minecraft:diamond"
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "emerald": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:trim": {
+              "material": "minecraft:emerald"
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "amethyst": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:trim": {
+              "material": "minecraft:amethyst"
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/tailors_bill"
+  }
+}

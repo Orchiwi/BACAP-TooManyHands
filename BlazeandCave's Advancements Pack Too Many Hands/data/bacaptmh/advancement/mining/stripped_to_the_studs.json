@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {
+      "translate": "Stripped to the Studs"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wear a Diamond Chestplate down to nothing under another player's blows (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/where_are_all_your_clothes",
+  "criteria": {
+    "pummelled": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:diamond_chestplate"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "wrecked": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond_chestplate"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/stripped_to_the_studs"
+  }
+}

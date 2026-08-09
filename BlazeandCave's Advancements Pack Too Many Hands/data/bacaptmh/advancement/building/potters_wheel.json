@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:decorated_pot"
+    },
+    "title": {
+      "translate": "Potter's Wheel"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a Decorated Pot (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/pot_planter",
+  "criteria": {
+    "handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:decorated_pot"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/potters_wheel"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "translate": "Trimmed in Debris"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed a piece of armour trimmed with Netherite by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/raiders_of_the_lost_trim",
+  "criteria": {
+    "gifted": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:trim": {
+              "material": "minecraft:netherite"
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/trimmed_in_debris"
+  }
+}

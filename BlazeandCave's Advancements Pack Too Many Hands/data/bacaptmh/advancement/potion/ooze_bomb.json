@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_ball"
+    },
+    "title": {
+      "translate": "Ooze Bomb"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Load another player up with Oozing using a Tipped Arrow (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/secret_of_the_ooze",
+  "criteria": {
+    "ooze_bomb": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:oozing\"}}}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/ooze_bomb"
+  }
+}

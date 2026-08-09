@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Soul Shot"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put an arrow into another player while they stand on Soul Sand (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/giant_floating_jellyfish",
+  "criteria": {
+    "soul_shot": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:soul_sand"
+              ]
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "#blazeandcave:arrows"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/soul_shot"
+  }
+}

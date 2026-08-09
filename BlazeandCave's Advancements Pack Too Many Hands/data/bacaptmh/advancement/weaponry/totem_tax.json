@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "Totem Tax"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player who is holding a Totem of Undying in their off-hand (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/first_blood",
+  "criteria": {
+    "collected": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:totem_of_undying"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/totem_tax"
+  }
+}

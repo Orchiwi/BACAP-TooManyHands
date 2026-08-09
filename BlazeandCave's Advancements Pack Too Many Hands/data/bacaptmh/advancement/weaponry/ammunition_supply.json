@@ -1,0 +1,84 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Ammunition Supply"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Crossbow and a full stack of Arrows from another player, then bring a monster down with them (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/artillery",
+  "criteria": {
+    "got_crossbow": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        }
+      }
+    },
+    "got_arrows": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:arrow"
+          ],
+          "count": 64
+        }
+      }
+    },
+    "bolt_home": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "#blazeandcave:hostile_monsters"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:crossbow"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/ammunition_supply"
+  }
+}

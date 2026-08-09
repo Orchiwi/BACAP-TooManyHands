@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fermented_spider_eye"
+    },
+    "title": {
+      "translate": "Disarmed"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have the strength splashed out of your arms by another player's Potion of Weakness (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/a_weak_brew",
+  "criteria": {
+    "disarmed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:weakness": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/disarmed"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "Boiling Point"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land a hit on another player while the pair of you are standing in lava (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/im_in_lava_with_you",
+  "criteria": {
+    "lava_scuffle": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "fluid": {
+              "fluids": [
+                "minecraft:lava",
+                "minecraft:flowing_lava"
+              ]
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "fluid": {
+              "fluids": [
+                "minecraft:lava",
+                "minecraft:flowing_lava"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/boiling_point"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Fletcher's Regret"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Block another player's arrow with your Shield from at least thirty blocks away (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/shield_luck",
+  "criteria": {
+    "long_range": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 30
+              }
+            }
+          },
+          "type": {
+            "direct_entity": {
+              "entity_type": "#minecraft:arrows"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/fletchers_regret"
+  }
+}

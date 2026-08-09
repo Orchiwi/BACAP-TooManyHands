@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ice"
+    },
+    "title": {
+      "translate": "Mountain Sickness"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be given Slowness by another player above Y=200 (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/top_of_the_world",
+  "criteria": {
+    "mountain_sickness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 200.0
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/mountain_sickness"
+  }
+}

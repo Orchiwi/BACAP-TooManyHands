@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet"
+    },
+    "title": {
+      "translate": "Gilded Corpse"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill another player wearing a full set of Golden armour (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/living_like_kings",
+  "criteria": {
+    "tarnished_gold": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:golden_helmet"
+              ]
+            },
+            "chest": {
+              "items": [
+                "minecraft:golden_chestplate"
+              ]
+            },
+            "legs": {
+              "items": [
+                "minecraft:golden_leggings"
+              ]
+            },
+            "feet": {
+              "items": [
+                "minecraft:golden_boots"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/gilded_corpse"
+  }
+}

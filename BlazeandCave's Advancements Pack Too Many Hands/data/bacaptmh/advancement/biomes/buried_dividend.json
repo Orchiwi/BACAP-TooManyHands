@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "Buried Dividend"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Heart of the Sea off another player standing in the Buried Treasure it came out of (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/atlantis",
+  "criteria": {
+    "split_the_haul": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:heart_of_the_sea"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:buried_treasure"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/buried_dividend"
+  }
+}

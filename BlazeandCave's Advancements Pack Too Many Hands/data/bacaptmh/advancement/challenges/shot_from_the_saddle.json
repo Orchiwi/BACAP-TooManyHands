@@ -1,0 +1,186 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Shot from the Saddle"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Land an Arrow, a Trident, a Firework Rocket and a Spear charge on a third player, every one of them from the back hump of a Camel another player is driving (3 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/at_the_rim_of_the_sky",
+  "criteria": {
+    "arrow": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 4
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": [
+                "minecraft:arrow",
+                "minecraft:spectral_arrow"
+              ]
+            }
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:camel",
+            "passenger": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 0.3,
+                  "max": 2
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "trident": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 4
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": [
+                "minecraft:trident"
+              ]
+            }
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:camel",
+            "passenger": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 0.3,
+                  "max": 2
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "firework": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 4
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": [
+                "minecraft:firework_rocket"
+              ]
+            }
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:camel",
+            "passenger": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 0.3,
+                  "max": 2
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "spear": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 3
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "blazeandcave:spear",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:camel",
+            "passenger": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 0.3,
+                  "max": 2
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/shot_from_the_saddle"
+  }
+}

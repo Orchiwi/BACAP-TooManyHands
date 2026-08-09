@@ -1,0 +1,120 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_mutton"
+    },
+    "title": {
+      "translate": "Three Square Meals"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed Bread, cooked meat and a bowl of stew by another player, and eat all three (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/a_gluttonous_diet",
+  "criteria": {
+    "got_bread": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "got_meat": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "got_stew": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew",
+            "minecraft:rabbit_stew",
+            "minecraft:beetroot_soup",
+            "minecraft:suspicious_stew"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "ate_bread": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bread"
+          ]
+        }
+      }
+    },
+    "ate_meat": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit"
+          ]
+        }
+      }
+    },
+    "ate_stew": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew",
+            "minecraft:rabbit_stew",
+            "minecraft:beetroot_soup",
+            "minecraft:suspicious_stew"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/three_square_meals"
+  }
+}

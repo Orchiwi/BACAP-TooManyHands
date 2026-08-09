@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Two Up"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Put an arrow into a distant player from the back hump of a Camel a third player is driving (3 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/hit_and_run",
+  "criteria": {
+    "two_up": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 10
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "#blazeandcave:arrows"
+            }
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:camel",
+            "passenger": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 0.3
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/two_up"
+  }
+}

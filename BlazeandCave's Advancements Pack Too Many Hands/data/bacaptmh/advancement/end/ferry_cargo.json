@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Ferry Cargo"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Riding a Happy Ghast another player is flying, catch a Shulker Shell thrown by a third player who is gliding past (3 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/the_ferryman_cometh",
+  "criteria": {
+    "midair_transfer": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shulker_shell"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_flying": true
+          },
+          "equipment": {
+            "chest": {
+              "items": "minecraft:elytra"
+            }
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast",
+            "passenger": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/ferry_cargo"
+  }
+}

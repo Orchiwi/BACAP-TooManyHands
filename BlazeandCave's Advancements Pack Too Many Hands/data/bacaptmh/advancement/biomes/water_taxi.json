@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Water Taxi"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be paid an Emerald thrown from six blocks away while riding in a Boat another player is steering (3 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/boatception",
+  "criteria": {
+    "fare": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:emerald"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 6
+            }
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "#minecraft:boat",
+            "passenger": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 0.3,
+                  "max": 2
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/water_taxi"
+  }
+}

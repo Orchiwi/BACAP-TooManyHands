@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate": "Slow Roast"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player with a Fire Aspect Sword while they are already burning (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/newtons_flaming_laser_sword",
+  "criteria": {
+    "slow_roast": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_on_fire": true
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#blazeandcave:swords",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:fire_aspect"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/slow_roast"
+  }
+}

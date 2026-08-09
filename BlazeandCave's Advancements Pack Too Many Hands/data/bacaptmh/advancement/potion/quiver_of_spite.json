@@ -1,0 +1,252 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Quiver of Spite"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land Arrows of Poison, Slowness, Weakness and Harming on other players (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/furious_ammunition",
+  "criteria": {
+    "poison": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:poison\"}}}}"
+            }
+          }
+        }
+      }
+    },
+    "long_poison": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_poison\"}}}}"
+            }
+          }
+        }
+      }
+    },
+    "strong_poison": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_poison\"}}}}"
+            }
+          }
+        }
+      }
+    },
+    "slowness": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:slowness\"}}}}"
+            }
+          }
+        }
+      }
+    },
+    "long_slowness": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_slowness\"}}}}"
+            }
+          }
+        }
+      }
+    },
+    "strong_slowness": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_slowness\"}}}}"
+            }
+          }
+        }
+      }
+    },
+    "weakness": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:weakness\"}}}}"
+            }
+          }
+        }
+      }
+    },
+    "long_weakness": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:long_weakness\"}}}}"
+            }
+          }
+        }
+      }
+    },
+    "harming": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:harming\"}}}}"
+            }
+          }
+        }
+      }
+    },
+    "strong_harming": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:strong_harming\"}}}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/quiver_of_spite"
+  },
+  "requirements": [
+    [
+      "poison",
+      "long_poison",
+      "strong_poison"
+    ],
+    [
+      "slowness",
+      "long_slowness",
+      "strong_slowness"
+    ],
+    [
+      "weakness",
+      "long_weakness"
+    ],
+    [
+      "harming",
+      "strong_harming"
+    ]
+  ]
+}

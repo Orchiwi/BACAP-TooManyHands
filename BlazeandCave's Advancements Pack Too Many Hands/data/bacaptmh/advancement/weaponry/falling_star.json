@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mace"
+    },
+    "title": {
+      "translate": "Falling Star"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player with a Mace while neither of you is touching the ground (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/nice_to_mace_you",
+  "criteria": {
+    "midair_smash": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "flags": {
+            "is_on_ground": false
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:mace"
+              ]
+            }
+          },
+          "flags": {
+            "is_on_ground": false
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/falling_star"
+  }
+}

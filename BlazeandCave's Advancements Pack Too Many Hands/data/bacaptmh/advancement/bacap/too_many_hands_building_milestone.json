@@ -170,6 +170,474 @@
           }
         }
       }
+    },
+    "room_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/room_service": true
+            }
+          }
+        }
+      }
+    },
+    "timber_run": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/timber_run": true
+            }
+          }
+        }
+      }
+    },
+    "sawmill_shift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/sawmill_shift": true
+            }
+          }
+        }
+      }
+    },
+    "plank_by_plank": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/plank_by_plank": true
+            }
+          }
+        }
+      }
+    },
+    "bark_swap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/bark_swap": true
+            }
+          }
+        }
+      }
+    },
+    "cherry_consignment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/cherry_consignment": true
+            }
+          }
+        }
+      }
+    },
+    "grave_timber": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/grave_timber": true
+            }
+          }
+        }
+      }
+    },
+    "mosaic_partner": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/mosaic_partner": true
+            }
+          }
+        }
+      }
+    },
+    "split_the_staircase": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/split_the_staircase": true
+            }
+          }
+        }
+      }
+    },
+    "halved_and_halved_again": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/halved_and_halved_again": true
+            }
+          }
+        }
+      }
+    },
+    "fired_clay_exchange": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/fired_clay_exchange": true
+            }
+          }
+        }
+      }
+    },
+    "stonewalled": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/stonewalled": true
+            }
+          }
+        }
+      }
+    },
+    "slate_exchange": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/slate_exchange": true
+            }
+          }
+        }
+      }
+    },
+    "rough_trade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/rough_trade": true
+            }
+          }
+        }
+      }
+    },
+    "igneous_trio": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/igneous_trio": true
+            }
+          }
+        }
+      }
+    },
+    "polish_detail": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/polish_detail": true
+            }
+          }
+        }
+      }
+    },
+    "fortress_facade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/fortress_facade": true
+            }
+          }
+        }
+      }
+    },
+    "quartz_consignment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/quartz_consignment": true
+            }
+          }
+        }
+      }
+    },
+    "sandbagging": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/sandbagging": true
+            }
+          }
+        }
+      }
+    },
+    "mudlarking": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/mudlarking": true
+            }
+          }
+        }
+      }
+    },
+    "monument_kit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/monument_kit": true
+            }
+          }
+        }
+      }
+    },
+    "red_handed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/red_handed": true
+            }
+          }
+        }
+      }
+    },
+    "brimstone_barter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/brimstone_barter": true
+            }
+          }
+        }
+      }
+    },
+    "smooth_operation": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/smooth_operation": true
+            }
+          }
+        }
+      }
+    },
+    "wet_cement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/wet_cement": true
+            }
+          }
+        }
+      }
+    },
+    "setting_agent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/setting_agent": true
+            }
+          }
+        }
+      }
+    },
+    "badlands_consignment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/badlands_consignment": true
+            }
+          }
+        }
+      }
+    },
+    "the_glaze_trade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/the_glaze_trade": true
+            }
+          }
+        }
+      }
+    },
+    "pane_relay": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/pane_relay": true
+            }
+          }
+        }
+      }
+    },
+    "sand_to_glass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/sand_to_glass": true
+            }
+          }
+        }
+      }
+    },
+    "rose_window": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/rose_window": true
+            }
+          }
+        }
+      }
+    },
+    "potters_wheel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/potters_wheel": true
+            }
+          }
+        }
+      }
+    },
+    "bricklayers_mate": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/bricklayers_mate": true
+            }
+          }
+        }
+      }
+    },
+    "red_brick_road": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/red_brick_road": true
+            }
+          }
+        }
+      }
+    },
+    "blackstone_consortium": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/blackstone_consortium": true
+            }
+          }
+        }
+      }
+    },
+    "hyphae_haulage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/hyphae_haulage": true
+            }
+          }
+        }
+      }
+    },
+    "nosebleed_seats": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/nosebleed_seats": true
+            }
+          }
+        }
+      }
+    },
+    "beam_top_up": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/beam_top_up": true
+            }
+          }
+        }
+      }
+    },
+    "beacon_pharmacy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/beacon_pharmacy": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

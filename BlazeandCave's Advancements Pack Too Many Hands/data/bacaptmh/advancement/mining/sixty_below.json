@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate"
+    },
+    "title": {
+      "translate": "Sixty Below"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player at the very bottom of the world, both of you below Y=-60 (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/rock_bottom",
+  "criteria": {
+    "bedrock_brawl": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "location": {
+            "dimension": "minecraft:overworld",
+            "position": {
+              "y": {
+                "max": -60.0
+              }
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld",
+            "position": {
+              "y": {
+                "max": -60.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/sixty_below"
+  }
+}

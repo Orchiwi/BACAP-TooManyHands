@@ -1,0 +1,102 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_leggings"
+    },
+    "title": {
+      "translate": "Quartered Colours"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed four armour pieces, each trimmed with a different material (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/coordinated_flair",
+  "criteria": {
+    "quartz": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:trim": {
+              "material": "minecraft:quartz"
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "redstone": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:trim": {
+              "material": "minecraft:redstone"
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "emerald": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:trim": {
+              "material": "minecraft:emerald"
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "amethyst": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:trim": {
+              "material": "minecraft:amethyst"
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/quartered_colours"
+  }
+}

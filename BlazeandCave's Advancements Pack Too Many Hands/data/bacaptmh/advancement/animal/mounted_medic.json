@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Mounted Medic"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a Regeneration splash from a player four blocks off while you ride pillion behind a third (3 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/cowboy",
+  "criteria": {
+    "dosed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 4
+                }
+              }
+            }
+          }
+        ],
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:camel",
+            "passenger": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 0.3,
+                  "max": 2
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/mounted_medic"
+  }
+}

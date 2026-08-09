@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "Duellist's Courtesy"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player a Netherite Sword, then beat them down with a Wooden one (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/duel_at_dawn",
+  "criteria": {
+    "armed_the_foe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_sword"
+          ]
+        }
+      }
+    },
+    "still_won": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:netherite_sword"
+              ]
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_sword"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/duellists_courtesy"
+  }
+}

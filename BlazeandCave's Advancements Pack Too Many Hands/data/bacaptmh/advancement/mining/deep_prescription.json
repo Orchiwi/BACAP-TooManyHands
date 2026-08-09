@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_berries"
+    },
+    "title": {
+      "translate": "Deep Prescription"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Night Vision from another player below Y=0 while a Beacon down there gives you Haste (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/a_shiny_treat",
+  "criteria": {
+    "prescribed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:night_vision": {},
+          "minecraft:haste": {
+            "ambient": true
+          }
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "max": 0.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/deep_prescription"
+  }
+}

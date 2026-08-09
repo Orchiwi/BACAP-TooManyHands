@@ -1,0 +1,106 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "translate": "Waiter Service"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Work the whole service for another player - a bowl of stew, a cooked main and a pudding - and take a full stack of Emeralds as your tip (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/do_you_want_to_trade",
+  "criteria": {
+    "starter": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew",
+            "minecraft:rabbit_stew",
+            "minecraft:beetroot_soup",
+            "minecraft:suspicious_stew"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "main": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "pudding": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cake",
+            "minecraft:pumpkin_pie",
+            "minecraft:cookie"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "tip": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/waiter_service"
+  }
+}

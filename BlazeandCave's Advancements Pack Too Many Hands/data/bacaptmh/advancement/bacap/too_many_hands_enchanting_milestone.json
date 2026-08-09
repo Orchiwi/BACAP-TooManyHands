@@ -158,6 +158,258 @@
           }
         }
       }
+    },
+    "sharpened_elsewhere": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/sharpened_elsewhere": true
+            }
+          }
+        }
+      }
+    },
+    "silk_road": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/silk_road": true
+            }
+          }
+        }
+      }
+    },
+    "dug_by_proxy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/dug_by_proxy": true
+            }
+          }
+        }
+      }
+    },
+    "efficiency_expert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/efficiency_expert": true
+            }
+          }
+        }
+      }
+    },
+    "crossbow_battery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/crossbow_battery": true
+            }
+          }
+        }
+      }
+    },
+    "mended_fences": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/mended_fences": true
+            }
+          }
+        }
+      }
+    },
+    "borrowed_lightning": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/borrowed_lightning": true
+            }
+          }
+        }
+      }
+    },
+    "godsend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/godsend": true
+            }
+          }
+        }
+      }
+    },
+    "someone_elses_masterpiece": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/someone_elses_masterpiece": true
+            }
+          }
+        }
+      }
+    },
+    "slow_roast": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/slow_roast": true
+            }
+          }
+        }
+      }
+    },
+    "endless_quiver": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/endless_quiver": true
+            }
+          }
+        }
+      }
+    },
+    "spread_the_risk": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/spread_the_risk": true
+            }
+          }
+        }
+      }
+    },
+    "full_coverage": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/full_coverage": true
+            }
+          }
+        }
+      }
+    },
+    "pincushioned": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/pincushioned": true
+            }
+          }
+        }
+      }
+    },
+    "lungs_on_loan": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/lungs_on_loan": true
+            }
+          }
+        }
+      }
+    },
+    "sealed_suit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/sealed_suit": true
+            }
+          }
+        }
+      }
+    },
+    "sole_traders": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/sole_traders": true
+            }
+          }
+        }
+      }
+    },
+    "dulled_blade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/dulled_blade": true
+            }
+          }
+        }
+      }
+    },
+    "punch_line": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/punch_line": true
+            }
+          }
+        }
+      }
+    },
+    "protection_racket": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/protection_racket": true
+            }
+          }
+        }
+      }
+    },
+    "locked_in": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/locked_in": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

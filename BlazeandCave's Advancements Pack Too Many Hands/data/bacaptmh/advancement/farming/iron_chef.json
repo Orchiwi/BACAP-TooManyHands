@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "Iron Chef"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Cook a raw ingredient on a Campfire and hand the finished meal to another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/meat_lovers",
+  "criteria": {
+    "cooked": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:campfire",
+                  "minecraft:soul_campfire"
+                ]
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:beef",
+            "minecraft:porkchop",
+            "minecraft:chicken",
+            "minecraft:mutton",
+            "minecraft:rabbit",
+            "minecraft:cod",
+            "minecraft:salmon",
+            "minecraft:potato"
+          ]
+        }
+      }
+    },
+    "served": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef",
+            "minecraft:cooked_porkchop",
+            "minecraft:cooked_chicken",
+            "minecraft:cooked_mutton",
+            "minecraft:cooked_rabbit",
+            "minecraft:cooked_cod",
+            "minecraft:cooked_salmon",
+            "minecraft:baked_potato",
+            "minecraft:bread"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/iron_chef"
+  }
+}

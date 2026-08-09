@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sulfur_bricks"
+    },
+    "title": {
+      "translate": "Brimstone Barter"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player Sulfur Bricks and take Polished Sulfur back (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_smell_of_rotten_eggs",
+  "criteria": {
+    "gave_bricks": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sulfur_bricks"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "got_polished": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:polished_sulfur"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/brimstone_barter"
+  }
+}

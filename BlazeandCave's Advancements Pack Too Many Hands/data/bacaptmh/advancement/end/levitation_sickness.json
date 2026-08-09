@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Levitation Sickness"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill another player while a Shulker has them floating (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/dogfight",
+  "criteria": {
+    "grounded": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 0.1
+            }
+          },
+          "effects": {
+            "minecraft:levitation": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/levitation_sickness"
+  }
+}

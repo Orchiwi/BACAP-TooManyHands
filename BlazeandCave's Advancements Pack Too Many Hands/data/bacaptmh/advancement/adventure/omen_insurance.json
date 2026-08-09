@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_bottle"
+    },
+    "title": {
+      "translate": "Omen Insurance"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be splashed with Resistance by another player while Bad Omen is hanging over you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/war_is_coming",
+  "criteria": {
+    "insured": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:resistance": {},
+          "minecraft:bad_omen": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/omen_insurance"
+  }
+}

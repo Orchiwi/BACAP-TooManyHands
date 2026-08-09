@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_chain"
+    },
+    "title": {
+      "translate": "Bars and Chains"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Copper Bars and Copper Chains from another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/chain_gang",
+  "criteria": {
+    "bars": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_bars",
+            "minecraft:exposed_copper_bars",
+            "minecraft:weathered_copper_bars",
+            "minecraft:oxidized_copper_bars"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "chains": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_chain",
+            "minecraft:exposed_copper_chain",
+            "minecraft:weathered_copper_chain",
+            "minecraft:oxidized_copper_chain"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/bars_and_chains"
+  }
+}

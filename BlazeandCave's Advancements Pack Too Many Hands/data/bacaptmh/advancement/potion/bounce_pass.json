@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_foot"
+    },
+    "title": {
+      "translate": "Bounce Pass"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have another player land Jump Boost on you from at least five blocks of vertical separation (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/hopping_mad",
+  "criteria": {
+    "lobbed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:jump_boost": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "y": {
+                  "min": 5
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/bounce_pass"
+  }
+}

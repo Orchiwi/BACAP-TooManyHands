@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "Lava Lifeline"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be made fireproof by a player who is standing in lava themselves (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/im_in_lava_with_you",
+  "criteria": {
+    "doused": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:fire_resistance": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              },
+              "location": {
+                "fluid": {
+                  "fluids": [
+                    "minecraft:lava",
+                    "minecraft:flowing_lava"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/lava_lifeline"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_helmet"
+    },
+    "title": {
+      "translate": "Shell Shock"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be locked down by another player's Splash Potion of the Turtle Master (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/tank",
+  "criteria": {
+    "shell_shock": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {
+            "amplifier": {
+              "min": 3
+            }
+          },
+          "minecraft:resistance": {
+            "amplifier": {
+              "min": 2
+            }
+          }
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/shell_shock"
+  }
+}

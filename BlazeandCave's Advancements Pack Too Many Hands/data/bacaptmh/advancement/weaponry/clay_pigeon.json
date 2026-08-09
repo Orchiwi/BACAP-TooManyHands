@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Clay Pigeon"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Put a Crossbow bolt into an Elytra-flying player from twenty blocks away with both your feet on the ground (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/x_bow",
+  "criteria": {
+    "skeet": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "flags": {
+            "is_fall_flying": true
+          },
+          "distance": {
+            "absolute": {
+              "min": 20
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "#blazeandcave:arrows",
+              "nbt": "{weapon:{id:\"minecraft:crossbow\"}}"
+            }
+          }
+        },
+        "player": {
+          "flags": {
+            "is_on_ground": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/clay_pigeon"
+  }
+}

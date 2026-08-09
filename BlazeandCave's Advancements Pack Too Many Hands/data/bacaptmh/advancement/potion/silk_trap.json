@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobweb"
+    },
+    "title": {
+      "translate": "Silk Trap"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Web another player up with a Tipped Arrow of Weaving (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/string_shot",
+  "criteria": {
+    "silk_trap": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "minecraft:arrow",
+              "nbt": "{item:{components:{\"minecraft:potion_contents\":{potion:\"minecraft:weaving\"}}}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/silk_trap"
+  }
+}

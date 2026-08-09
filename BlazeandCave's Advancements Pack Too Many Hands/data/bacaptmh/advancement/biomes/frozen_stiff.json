@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "Frozen Stiff"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be splashed with Slowness by another player while you are stuck in Powder Snow (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/powder_full",
+  "criteria": {
+    "frozen_stiff": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:powder_snow"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "gamemode": [
+                    "spectator"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/frozen_stiff"
+  }
+}

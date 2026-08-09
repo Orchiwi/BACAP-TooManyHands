@@ -2,19 +2,19 @@
 > advancements have not been played through on a live server. Expect some not to fire, and
 > please open an issue when one doesn't — that feedback is the point of the alpha.
 
-**255 advancements for BlazeandCave's Advancements Pack that cannot be earned alone.**
+**855 advancements for BlazeandCave's Advancements Pack that cannot be earned alone.**
 Every one needs between two and five players. None duplicates any of the advancements
 already in BACAP or BACAP Enhanced Discoveries.
 
 ### Install
 
-Download **`BACAP-TooManyHands-v0.1.0-alpha.4.zip`** below and drop it into your
+Download **`BACAP-TooManyHands-v0.1.0-alpha.5.zip`** below and drop it into your
 world's `datapacks/` folder next to the BACAP zip, then `/reload`.
 
 ```
 <world>/datapacks/
   BlazeandCave's Advancements Pack 1.21.zip          <- required, install first
-  BACAP-TooManyHands-v0.1.0-alpha.4.zip                        <- this pack (rename freely)
+  BACAP-TooManyHands-v0.1.0-alpha.5.zip                        <- this pack (rename freely)
 ```
 
 **BACAP is required.** This pack registers through BACAP's fanpack hooks, so scoreboard
@@ -24,8 +24,8 @@ chain ending in *Too Many Hands Legend*.
 
 ### Before you play
 
-- **Every description ends with its player minimum in parentheses.** 204 need two players,
-  24 need three, 23 need four, and 4 need five. Nothing needs six.
+- **Every description ends with its player minimum in parentheses.** 784 need two players,
+  44 need three, 23 need four, and 4 need five. Nothing needs six.
 - **PvP must be enabled** for a subset of them — anything built around players damaging
   each other. Everything else works with PvP off.
 - **Cooperative Mode is assumed off.** Advancements grant to *every participant*, not just
@@ -41,7 +41,7 @@ dimensions.
 
 ### Notes
 
-Built for **Paper 26.2** with BACAP and Enhanced Discoveries installed. 79 of the 255 use
+Built for **Paper 26.2** with BACAP and Enhanced Discoveries installed. 78 of the 855 use
 tick-driven detection, because advancement criteria alone cannot express "two *different*
 players did X"; checks are bucketed and exit early when too few players are online.
 

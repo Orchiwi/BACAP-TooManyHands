@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_torch"
+    },
+    "title": {
+      "translate": "Withering Welcome"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a hit from another player in the Nether while the Wither's decay is on you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/the_hunt_begins",
+  "criteria": {
+    "withering_welcome": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:wither": {}
+              },
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/withering_welcome"
+  }
+}

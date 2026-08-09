@@ -1,0 +1,110 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {
+      "translate": "Spread the Risk"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand out four armour pieces, each carrying a different Protection enchantment (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/armor_for_the_masses",
+  "criteria": {
+    "plain": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:protection"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "fire": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:fire_protection"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "blast": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:blast_protection"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "projectile": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:projectile_protection"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/spread_the_risk"
+  }
+}

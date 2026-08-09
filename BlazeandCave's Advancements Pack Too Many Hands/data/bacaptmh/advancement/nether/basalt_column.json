@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_basalt"
+    },
+    "title": {
+      "translate": "Basalt Column"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand Polished Basalt to another player standing in the Basalt Deltas (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/nether_rock_collection",
+  "criteria": {
+    "handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:polished_basalt"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:basalt_deltas"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/basalt_column"
+  }
+}

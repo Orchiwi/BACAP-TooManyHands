@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather"
+    },
+    "title": {
+      "translate": "Pillion Post"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch an item thrown from at least six blocks away while riding behind another player on a Camel (3 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/hump_day",
+  "criteria": {
+    "caught": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 6
+            }
+          }
+        },
+        "player": {
+          "vehicle": {
+            "entity_type": "minecraft:camel",
+            "passenger": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 0.3,
+                  "max": 2
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/pillion_post"
+  }
+}

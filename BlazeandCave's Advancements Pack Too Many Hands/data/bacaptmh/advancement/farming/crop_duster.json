@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "Crop Duster"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hit another player with a Splash Potion of Harming while they are standing in a Wheat field (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/combine_harvester",
+  "criteria": {
+    "crop_duster": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:wheat"
+              ]
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:splash_potion"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/crop_duster"
+  }
+}

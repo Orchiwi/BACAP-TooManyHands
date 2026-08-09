@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_berries"
+    },
+    "title": {
+      "translate": "Lantern Light"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill another player under the glow berries of a Lush Cave (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/lush_hour",
+  "criteria": {
+    "lush_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "location": {
+            "biomes": "minecraft:lush_caves"
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:lush_caves"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/lantern_light"
+  }
+}

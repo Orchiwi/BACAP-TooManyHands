@@ -206,6 +206,714 @@
           }
         }
       }
+    },
+    "breath_work": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/breath_work": true
+            }
+          }
+        }
+      }
+    },
+    "fuel_supply": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/fuel_supply": true
+            }
+          }
+        }
+      }
+    },
+    "fermentation_partners": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/fermentation_partners": true
+            }
+          }
+        }
+      }
+    },
+    "bitter_draught": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/bitter_draught": true
+            }
+          }
+        }
+      }
+    },
+    "heatproof_handover": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/heatproof_handover": true
+            }
+          }
+        }
+      }
+    },
+    "acid_rain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/acid_rain": true
+            }
+          }
+        }
+      }
+    },
+    "gas_attack": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/gas_attack": true
+            }
+          }
+        }
+      }
+    },
+    "ball_and_chain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/ball_and_chain": true
+            }
+          }
+        }
+      }
+    },
+    "disarmed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/disarmed": true
+            }
+          }
+        }
+      }
+    },
+    "now_you_dont": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/now_you_dont": true
+            }
+          }
+        }
+      }
+    },
+    "catch_the_fall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/catch_the_fall": true
+            }
+          }
+        }
+      }
+    },
+    "shell_shock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/shell_shock": true
+            }
+          }
+        }
+      }
+    },
+    "silk_trap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/silk_trap": true
+            }
+          }
+        }
+      }
+    },
+    "ooze_bomb": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/ooze_bomb": true
+            }
+          }
+        }
+      }
+    },
+    "bug_bomb": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/bug_bomb": true
+            }
+          }
+        }
+      }
+    },
+    "windswept": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/windswept": true
+            }
+          }
+        }
+      }
+    },
+    "lights_on": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/lights_on": true
+            }
+          }
+        }
+      }
+    },
+    "venom_dart": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/venom_dart": true
+            }
+          }
+        }
+      }
+    },
+    "deadshot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/deadshot": true
+            }
+          }
+        }
+      }
+    },
+    "hobbling_shot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/hobbling_shot": true
+            }
+          }
+        }
+      }
+    },
+    "pace_setter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/pace_setter": true
+            }
+          }
+        }
+      }
+    },
+    "lend_me_your_eyes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/lend_me_your_eyes": true
+            }
+          }
+        }
+      }
+    },
+    "bounce_pass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/bounce_pass": true
+            }
+          }
+        }
+      }
+    },
+    "caught_mid_air": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/caught_mid_air": true
+            }
+          }
+        }
+      }
+    },
+    "ghost_detail": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/ghost_detail": true
+            }
+          }
+        }
+      }
+    },
+    "do_as_i_say": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/do_as_i_say": true
+            }
+          }
+        }
+      }
+    },
+    "prep_the_cure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/prep_the_cure": true
+            }
+          }
+        }
+      }
+    },
+    "tortoise_team": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/tortoise_team": true
+            }
+          }
+        }
+      }
+    },
+    "marked_man": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/marked_man": true
+            }
+          }
+        }
+      }
+    },
+    "slime_courier": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/slime_courier": true
+            }
+          }
+        }
+      }
+    },
+    "tangled_together": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/tangled_together": true
+            }
+          }
+        }
+      }
+    },
+    "uninvited_guests": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/uninvited_guests": true
+            }
+          }
+        }
+      }
+    },
+    "tailwind_gift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/tailwind_gift": true
+            }
+          }
+        }
+      }
+    },
+    "pinned_down": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/pinned_down": true
+            }
+          }
+        }
+      }
+    },
+    "triple_dose": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/triple_dose": true
+            }
+          }
+        }
+      }
+    },
+    "invisible_hand": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/invisible_hand": true
+            }
+          }
+        }
+      }
+    },
+    "second_opinion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/second_opinion": true
+            }
+          }
+        }
+      }
+    },
+    "cross_purposes": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/cross_purposes": true
+            }
+          }
+        }
+      }
+    },
+    "full_course_of_treatment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/full_course_of_treatment": true
+            }
+          }
+        }
+      }
+    },
+    "bad_batch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/bad_batch": true
+            }
+          }
+        }
+      }
+    },
+    "snipers_pharmacy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/snipers_pharmacy": true
+            }
+          }
+        }
+      }
+    },
+    "malpractice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/malpractice": true
+            }
+          }
+        }
+      }
+    },
+    "hamstrung": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/hamstrung": true
+            }
+          }
+        }
+      }
+    },
+    "limp_grip": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/limp_grip": true
+            }
+          }
+        }
+      }
+    },
+    "pest_control": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/pest_control": true
+            }
+          }
+        }
+      }
+    },
+    "gut_punch": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/gut_punch": true
+            }
+          }
+        }
+      }
+    },
+    "apothecary_duel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/apothecary_duel": true
+            }
+          }
+        }
+      }
+    },
+    "toxic_shock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/toxic_shock": true
+            }
+          }
+        }
+      }
+    },
+    "needle_point": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/needle_point": true
+            }
+          }
+        }
+      }
+    },
+    "quiver_of_spite": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/quiver_of_spite": true
+            }
+          }
+        }
+      }
+    },
+    "double_dose": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/double_dose": true
+            }
+          }
+        }
+      }
+    },
+    "shared_misery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/shared_misery": true
+            }
+          }
+        }
+      }
+    },
+    "tortoise_and_the_hare": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/tortoise_and_the_hare": true
+            }
+          }
+        }
+      }
+    },
+    "plague_doctor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/plague_doctor": true
+            }
+          }
+        }
+      }
+    },
+    "no_hard_feelings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/no_hard_feelings": true
+            }
+          }
+        }
+      }
+    },
+    "two_fronts": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/two_fronts": true
+            }
+          }
+        }
+      }
+    },
+    "bitter_medicine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/bitter_medicine": true
+            }
+          }
+        }
+      }
+    },
+    "now_you_see_them": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/now_you_see_them": true
+            }
+          }
+        }
+      }
+    },
+    "shell_shocked": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/shell_shocked": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

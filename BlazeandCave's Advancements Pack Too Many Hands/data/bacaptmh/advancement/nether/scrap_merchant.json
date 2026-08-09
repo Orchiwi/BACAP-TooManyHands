@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_scrap"
+    },
+    "title": {
+      "translate": "Scrap Merchant"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player four Netherite Scrap in one go (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/holy_scrap",
+  "criteria": {
+    "handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_scrap"
+          ],
+          "count": {
+            "min": 4
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/scrap_merchant"
+  }
+}

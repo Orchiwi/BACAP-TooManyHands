@@ -1,0 +1,89 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "Two-Man Ascent"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Glide above Y=250 on an Elytra and a full stack of Rockets another player supplied (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/sky_high",
+  "criteria": {
+    "got_wings": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:elytra"
+          ]
+        }
+      }
+    },
+    "got_fuel": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:firework_rocket"
+          ],
+          "count": 64
+        }
+      }
+    },
+    "soared": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_fall_flying": true
+              },
+              "equipment": {
+                "chest": {
+                  "items": [
+                    "minecraft:elytra"
+                  ]
+                }
+              },
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 250.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/two_man_ascent"
+  }
+}

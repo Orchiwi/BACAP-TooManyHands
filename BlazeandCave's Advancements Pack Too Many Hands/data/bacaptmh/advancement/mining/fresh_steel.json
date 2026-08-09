@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "Fresh Steel"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Break your own Sword and take a brand-new Diamond Sword off another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/aww_it_broke",
+  "criteria": {
+    "snapped": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": "#blazeandcave:swords"
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "replacement": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:diamond_sword"
+          ],
+          "predicates": {
+            "minecraft:damage": {
+              "damage": {
+                "max": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/fresh_steel"
+  }
+}

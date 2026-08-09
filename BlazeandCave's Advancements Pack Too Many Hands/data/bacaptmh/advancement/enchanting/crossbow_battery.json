@@ -1,0 +1,103 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Crossbow Battery"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a Multishot Crossbow, a Piercing IV Crossbow and a Quick Charge III Crossbow (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_arbalist",
+  "criteria": {
+    "multishot": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:multishot"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "piercing": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:piercing",
+                "levels": {
+                  "min": 4
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "quick_charge": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:quick_charge",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/crossbow_battery"
+  }
+}

@@ -254,6 +254,174 @@
           }
         }
       }
+    },
+    "beggars_and_choosers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/beggars_and_choosers": true
+            }
+          }
+        }
+      }
+    },
+    "lend_me_your_axe": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/lend_me_your_axe": true
+            }
+          }
+        }
+      }
+    },
+    "last_rites": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/last_rites": true
+            }
+          }
+        }
+      }
+    },
+    "pumpkin_spiced": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/pumpkin_spiced": true
+            }
+          }
+        }
+      }
+    },
+    "warded_in_the_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/warded_in_the_dark": true
+            }
+          }
+        }
+      }
+    },
+    "plague_ward": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/plague_ward": true
+            }
+          }
+        }
+      }
+    },
+    "curse_of_the_deep": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/curse_of_the_deep": true
+            }
+          }
+        }
+      }
+    },
+    "salt_in_the_wound": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/salt_in_the_wound": true
+            }
+          }
+        }
+      }
+    },
+    "fight_in_the_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/fight_in_the_dark": true
+            }
+          }
+        }
+      }
+    },
+    "hexed_hunt": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/hexed_hunt": true
+            }
+          }
+        }
+      }
+    },
+    "hunger_pangs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/hunger_pangs": true
+            }
+          }
+        }
+      }
+    },
+    "second_hand_venom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/second_hand_venom": true
+            }
+          }
+        }
+      }
+    },
+    "two_faced": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/two_faced": true
+            }
+          }
+        }
+      }
+    },
+    "undead_chauffeur": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/undead_chauffeur": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

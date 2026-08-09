@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "One-Way Ticket"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player below Y=0 in the End while Slowness holds them (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/void_walker",
+  "criteria": {
+    "one_way_ticket": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:slowness": {}
+          },
+          "location": {
+            "dimension": "minecraft:the_end",
+            "position": {
+              "y": {
+                "max": 0.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/one_way_ticket"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "Tagged"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Light another player up with a Spectral Arrow so your whole team can see them (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/artillery",
+  "criteria": {
+    "tagged": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "minecraft:spectral_arrow"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/tagged"
+  }
+}

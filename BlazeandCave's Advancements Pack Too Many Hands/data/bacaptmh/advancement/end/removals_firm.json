@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "Removals Firm"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a Shulker Box packed with nothing but a full stack of Diamonds in its first slot (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/portable_storage",
+  "criteria": {
+    "removals": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:shulker_boxes",
+          "components": {
+            "minecraft:container": [
+              {
+                "slot": 0,
+                "item": {
+                  "id": "minecraft:diamond",
+                  "count": 64
+                }
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/removals_firm"
+  }
+}

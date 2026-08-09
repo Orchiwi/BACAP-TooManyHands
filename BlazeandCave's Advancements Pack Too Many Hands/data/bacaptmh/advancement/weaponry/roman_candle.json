@@ -1,0 +1,86 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "Roman Candle"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hit another player with a Firework Rocket fired from a Crossbow (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/explosive_fire",
+  "criteria": {
+    "rocket_mainhand": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:firework_rocket"
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:crossbow"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "rocket_offhand": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:firework_rocket"
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:crossbow"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/roman_candle"
+  },
+  "requirements": [
+    [
+      "rocket_mainhand",
+      "rocket_offhand"
+    ]
+  ]
+}

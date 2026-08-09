@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "Mould Share"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pay another player seven Diamonds and take a duplicated Smithing Template back (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/mold_maker",
+  "criteria": {
+    "paid_the_smith": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond"
+          ],
+          "count": {
+            "min": 7
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "took_the_copy": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bolt_armor_trim_smithing_template",
+            "minecraft:coast_armor_trim_smithing_template",
+            "minecraft:dune_armor_trim_smithing_template",
+            "minecraft:eye_armor_trim_smithing_template",
+            "minecraft:flow_armor_trim_smithing_template",
+            "minecraft:host_armor_trim_smithing_template",
+            "minecraft:raiser_armor_trim_smithing_template",
+            "minecraft:rib_armor_trim_smithing_template",
+            "minecraft:sentry_armor_trim_smithing_template",
+            "minecraft:shaper_armor_trim_smithing_template",
+            "minecraft:silence_armor_trim_smithing_template",
+            "minecraft:snout_armor_trim_smithing_template",
+            "minecraft:spire_armor_trim_smithing_template",
+            "minecraft:tide_armor_trim_smithing_template",
+            "minecraft:vex_armor_trim_smithing_template",
+            "minecraft:ward_armor_trim_smithing_template",
+            "minecraft:wayfinder_armor_trim_smithing_template",
+            "minecraft:wild_armor_trim_smithing_template"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/mould_share"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:basalt"
+    },
+    "title": {
+      "translate": "Delta Force"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player in the Basalt Deltas while the pair of you are on fire (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/dark_ages",
+  "criteria": {
+    "burning_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "flags": {
+            "is_on_fire": true
+          },
+          "location": {
+            "biomes": "minecraft:basalt_deltas"
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "flags": {
+            "is_on_fire": true
+          },
+          "location": {
+            "biomes": "minecraft:basalt_deltas"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/delta_force"
+  }
+}

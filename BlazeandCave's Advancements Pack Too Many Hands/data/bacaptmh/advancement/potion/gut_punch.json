@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Gut Punch"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Splash Potion of Harming full in the chest from another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/death_by_magic",
+  "criteria": {
+    "gut_punch": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:splash_potion"
+            },
+            "source_entity": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/gut_punch"
+  }
+}

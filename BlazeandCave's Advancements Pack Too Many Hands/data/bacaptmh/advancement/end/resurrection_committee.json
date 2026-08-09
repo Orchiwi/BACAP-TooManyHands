@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "Resurrection Committee"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Bring the Ender Dragon back with four End Crystals another player handed you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/ring_of_the_end",
+  "criteria": {
+    "crystals": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:end_crystal"
+          ],
+          "count": {
+            "min": 4
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "revived": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:ender_dragon"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/resurrection_committee"
+  }
+}

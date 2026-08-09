@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "Powder Monkey"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft an Eye of Ender from Blaze Powder another player ground up for you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/blaze_extinguisher",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blaze_powder"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:ender_eye"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/powder_monkey"
+  }
+}

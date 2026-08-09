@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "Gust Front"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be blasted off your feet by another player's Wind Charge (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/wind_duel",
+  "criteria": {
+    "gust_front": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "minecraft:wind_charge"
+            },
+            "source_entity": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/gust_front"
+  }
+}

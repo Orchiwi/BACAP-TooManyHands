@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snout_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Snout to Snout"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Snout Armour Trim from another player inside the Bastion Remnant it came out of (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/brute_force",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:snout_armor_trim_smithing_template"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "bastion_remnant"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/snout_to_snout"
+  }
+}

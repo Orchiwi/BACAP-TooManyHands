@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purpur_block"
+    },
+    "title": {
+      "translate": "Mason's Mate"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player sixty-four Purpur Blocks while you are standing on Purpur (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/purpurfect",
+  "criteria": {
+    "supply": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:purpur_block"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:purpur_block",
+                "minecraft:purpur_pillar",
+                "minecraft:purpur_slab",
+                "minecraft:purpur_stairs"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/masons_mate"
+  }
+}

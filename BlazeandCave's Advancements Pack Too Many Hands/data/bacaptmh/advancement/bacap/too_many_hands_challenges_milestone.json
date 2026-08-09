@@ -158,6 +158,294 @@
           }
         }
       }
+    },
+    "the_whole_menu": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/the_whole_menu": true
+            }
+          }
+        }
+      }
+    },
+    "breaking_bread": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/breaking_bread": true
+            }
+          }
+        }
+      }
+    },
+    "nothing_of_my_own": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/nothing_of_my_own": true
+            }
+          }
+        }
+      }
+    },
+    "masters_bequest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/masters_bequest": true
+            }
+          }
+        }
+      }
+    },
+    "the_whole_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/the_whole_forest": true
+            }
+          }
+        }
+      }
+    },
+    "sixteen_shades": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/sixteen_shades": true
+            }
+          }
+        }
+      }
+    },
+    "the_royal_estate": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/the_royal_estate": true
+            }
+          }
+        }
+      }
+    },
+    "three_man_lift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/three_man_lift": true
+            }
+          }
+        }
+      }
+    },
+    "hells_consignment": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/hells_consignment": true
+            }
+          }
+        }
+      }
+    },
+    "full_spectrum": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/full_spectrum": true
+            }
+          }
+        }
+      }
+    },
+    "the_sword_ledger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/the_sword_ledger": true
+            }
+          }
+        }
+      }
+    },
+    "the_whole_toolbox": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/the_whole_toolbox": true
+            }
+          }
+        }
+      }
+    },
+    "the_firing_squad": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/the_firing_squad": true
+            }
+          }
+        }
+      }
+    },
+    "full_quiver": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/full_quiver": true
+            }
+          }
+        }
+      }
+    },
+    "unhorsed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/unhorsed": true
+            }
+          }
+        }
+      }
+    },
+    "nowhere_is_safe": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/nowhere_is_safe": true
+            }
+          }
+        }
+      }
+    },
+    "tailored_by_committee": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/tailored_by_committee": true
+            }
+          }
+        }
+      }
+    },
+    "the_whole_dispensary": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/the_whole_dispensary": true
+            }
+          }
+        }
+      }
+    },
+    "apothecarys_oath": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/apothecarys_oath": true
+            }
+          }
+        }
+      }
+    },
+    "patient_zero": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/patient_zero": true
+            }
+          }
+        }
+      }
+    },
+    "apothecary_wars": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/apothecary_wars": true
+            }
+          }
+        }
+      }
+    },
+    "blood_feud": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/blood_feud": true
+            }
+          }
+        }
+      }
+    },
+    "shot_from_the_saddle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/shot_from_the_saddle": true
+            }
+          }
+        }
+      }
+    },
+    "beast_master": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:challenges/beast_master": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

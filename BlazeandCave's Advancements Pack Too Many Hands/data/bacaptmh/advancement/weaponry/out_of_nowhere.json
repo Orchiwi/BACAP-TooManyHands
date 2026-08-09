@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Out of Nowhere"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Crossbow bolt from a player at least forty blocks away (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/long_shot_rivalry",
+  "criteria": {
+    "out_of_nowhere": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "#blazeandcave:arrows",
+              "nbt": "{weapon:{id:\"minecraft:crossbow\"}}"
+            },
+            "source_entity": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 40
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/out_of_nowhere"
+  }
+}

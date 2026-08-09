@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel"
+    },
+    "title": {
+      "translate": "Run It Into the Ground"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Shovel off another player and dig with it until it snaps (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/weve_broken_our_last_shovel",
+  "criteria": {
+    "handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": "#blazeandcave:shovels"
+        }
+      }
+    },
+    "snapped": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": "#blazeandcave:shovels"
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/run_it_into_the_ground"
+  }
+}
