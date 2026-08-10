@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:globe_banner_pattern"
+    },
+    "title": {
+      "translate": "The Flag Factory"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 8 or more Banners 1,700 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_banner_baton_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_banner_baton_9"
+  }
+}

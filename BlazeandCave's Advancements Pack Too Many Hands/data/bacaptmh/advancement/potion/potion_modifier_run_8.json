@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_lantern"
+    },
+    "title": {
+      "translate": "Nothing Stays Level One"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have another player pick up 3,000 Glowstone Dust or Redstone that you threw (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_modifier_run_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_modifier_run_8"
+  }
+}

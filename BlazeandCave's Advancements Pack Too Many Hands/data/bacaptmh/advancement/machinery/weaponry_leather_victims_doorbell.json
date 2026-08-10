@@ -1,0 +1,43 @@
+{
+  "parent": "blazeandcave:weaponry/expelliarmus",
+  "criteria": {
+    "leather_clad_victim": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:leather_helmet"
+              ]
+            },
+            "chest": {
+              "items": [
+                "minecraft:leather_chestplate"
+              ]
+            },
+            "legs": {
+              "items": [
+                "minecraft:leather_leggings"
+              ]
+            },
+            "feet": {
+              "items": [
+                "minecraft:leather_boots"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/weaponry_leather_victims_doorbell"
+  }
+}

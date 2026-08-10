@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:squid_spawn_egg"
+    },
+    "title": {
+      "translate": "Squid Pro Quo"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand Ink Sacs to other players 8 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_ink_relay_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_ink_relay_2"
+  }
+}

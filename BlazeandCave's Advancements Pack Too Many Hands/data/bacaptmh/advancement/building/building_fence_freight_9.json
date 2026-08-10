@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mangrove_fence"
+    },
+    "title": {
+      "translate": "The Boundary Commission"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 32 or more Fences or Fence Gates 1,700 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_fence_freight_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_fence_freight_9"
+  }
+}

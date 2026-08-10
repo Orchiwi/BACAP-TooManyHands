@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:respawn_anchor"
+    },
+    "title": {
+      "translate": "Home Is Where They Hand It"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take Crying Obsidian from another player in the Nether 2,000,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_crying_obsidian_run_16",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_crying_obsidian_run_17"
+  }
+}

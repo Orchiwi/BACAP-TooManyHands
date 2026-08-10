@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:armadillo_scute"
+    },
+    "title": {
+      "translate": "Scute Swap"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand Scutes to other players 8 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_scute_relay_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_scute_relay_2"
+  }
+}

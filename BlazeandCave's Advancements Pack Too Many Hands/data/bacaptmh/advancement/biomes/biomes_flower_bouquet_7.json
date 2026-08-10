@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_orchid"
+    },
+    "title": {
+      "translate": "A Wreath for Every Hour"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand 1,800 flowers to another player in a Flower Forest (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_flower_bouquet_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_flower_bouquet_7"
+  }
+}

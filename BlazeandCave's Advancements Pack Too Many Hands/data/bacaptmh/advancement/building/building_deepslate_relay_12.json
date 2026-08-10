@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_brick_slab"
+    },
+    "title": {
+      "translate": "The Cold Ledger"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 32 or more Deepslate blocks 13,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_deepslate_relay_11",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_deepslate_relay_12"
+  }
+}

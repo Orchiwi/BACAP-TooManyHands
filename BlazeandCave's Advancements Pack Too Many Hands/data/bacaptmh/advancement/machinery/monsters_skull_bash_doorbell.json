@@ -1,0 +1,35 @@
+{
+  "parent": "blazeandcave:monsters/creepy_heads",
+  "criteria": {
+    "clubbed_with_a_head": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:skeleton_skull",
+                "minecraft:wither_skeleton_skull",
+                "minecraft:zombie_head",
+                "minecraft:creeper_head",
+                "minecraft:piglin_head",
+                "minecraft:dragon_head"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_skull_bash_doorbell"
+  }
+}

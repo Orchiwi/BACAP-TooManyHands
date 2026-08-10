@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_carpet"
+    },
+    "title": {
+      "translate": "Every Slope Is a Snare"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand 8,000 Powder Snow Buckets to another player on a snowy slope (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_powder_pass_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_powder_pass_9"
+  }
+}

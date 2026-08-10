@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_gold_ore"
+    },
+    "title": {
+      "translate": "Sluice Duty"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Wash 32 Raw Gold down the line to a partner (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_raw_gold_relay_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_gold_relay_4"
+  }
+}

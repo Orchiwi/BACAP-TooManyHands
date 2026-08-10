@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "A Generation Of Turtles"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have another player pick up 2,750 Turtle Scutes that you threw (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_scute_tithe_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_scute_tithe_9"
+  }
+}

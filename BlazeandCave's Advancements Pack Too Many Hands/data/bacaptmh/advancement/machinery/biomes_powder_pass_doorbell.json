@@ -1,0 +1,34 @@
+{
+  "parent": "blazeandcave:biomes/this_snow_is_snowier",
+  "criteria": {
+    "powder_handoff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:powder_snow_bucket"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:snowy_slopes",
+              "minecraft:grove",
+              "minecraft:jagged_peaks",
+              "minecraft:frozen_peaks"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_powder_pass_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_deepslate"
+    },
+    "title": {
+      "translate": "Two Hearts in the Dark"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up Echo Shards thrown to you by another player 8,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_echo_relay_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_echo_relay_10"
+  }
+}

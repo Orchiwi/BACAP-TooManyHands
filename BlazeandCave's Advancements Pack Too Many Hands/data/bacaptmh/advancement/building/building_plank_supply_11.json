@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_pale_oak_log"
+    },
+    "title": {
+      "translate": "The Planing Never Stops"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player a full stack of Planks 6,500 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_plank_supply_10",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_plank_supply_11"
+  }
+}

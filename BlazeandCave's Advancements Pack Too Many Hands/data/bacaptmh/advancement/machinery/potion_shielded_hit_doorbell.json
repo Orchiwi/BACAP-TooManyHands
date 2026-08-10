@@ -1,0 +1,28 @@
+{
+  "parent": "blazeandcave:potion/tank",
+  "criteria": {
+    "absorbed": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:resistance": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/potion_shielded_hit_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sponge"
+    },
+    "title": {
+      "translate": "Respiration by Committee"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be given Water Breathing by another player 3,200,000 times while underwater (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_borrowed_breath_15",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_borrowed_breath_16"
+  }
+}

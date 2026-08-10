@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_block"
+    },
+    "title": {
+      "translate": "White Gold Handoff"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up Nether Quartz thrown to you by another player 30 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_quartz_consignment_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_quartz_consignment_3"
+  }
+}

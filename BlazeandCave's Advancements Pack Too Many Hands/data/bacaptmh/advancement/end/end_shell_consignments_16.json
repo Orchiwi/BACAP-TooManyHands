@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_spawn_egg"
+    },
+    "title": {
+      "translate": "Shulker Shortage"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 370,000 Shulker Shells by other players in the End (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_shell_consignments_15",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_shell_consignments_16"
+  }
+}

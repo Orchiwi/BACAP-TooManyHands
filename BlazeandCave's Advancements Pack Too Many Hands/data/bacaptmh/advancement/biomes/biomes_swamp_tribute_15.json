@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mangrove_boat"
+    },
+    "title": {
+      "translate": "The Fen Trades in Fistfuls"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand 1,300,000 Slimeballs to another player standing in a swamp (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_swamp_tribute_14",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_swamp_tribute_15"
+  }
+}

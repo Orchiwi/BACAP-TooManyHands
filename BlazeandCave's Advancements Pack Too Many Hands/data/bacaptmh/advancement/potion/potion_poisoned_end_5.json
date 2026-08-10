@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lily_of_the_valley"
+    },
+    "title": {
+      "translate": "Died Owing A Bucket"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be killed by another player while you have Poison 96 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_poisoned_end_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_poisoned_end_5"
+  }
+}

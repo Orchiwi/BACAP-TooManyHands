@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_void"
+    },
+    "title": {
+      "translate": "The Only One Still Flying"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 1,800,000 other players in the End (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_last_flights_18",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_last_flights_19"
+  }
+}

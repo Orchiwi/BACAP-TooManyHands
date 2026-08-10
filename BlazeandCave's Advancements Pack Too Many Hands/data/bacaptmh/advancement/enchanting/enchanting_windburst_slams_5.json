@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_key"
+    },
+    "title": {
+      "translate": "Two Hundred Fifty Launches"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 250 hits on another player with a Mace enchanted with Wind Burst (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_windburst_slams_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_windburst_slams_5"
+  }
+}

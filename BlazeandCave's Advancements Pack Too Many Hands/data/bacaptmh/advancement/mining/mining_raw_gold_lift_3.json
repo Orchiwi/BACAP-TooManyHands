@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_gold_ore"
+    },
+    "title": {
+      "translate": "The Nugget Wagon"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have another player take a bundle of 8 or more Raw Gold you threw 30 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_raw_gold_lift_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_gold_lift_3"
+  }
+}

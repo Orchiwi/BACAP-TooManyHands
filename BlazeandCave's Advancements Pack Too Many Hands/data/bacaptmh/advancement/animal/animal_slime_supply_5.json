@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_spawn_egg"
+    },
+    "title": {
+      "translate": "The Slime Round"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take 110 Slimeballs from another player's hand (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_slime_supply_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_slime_supply_5"
+  }
+}

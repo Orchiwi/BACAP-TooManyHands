@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sheaf_pottery_sherd"
+    },
+    "title": {
+      "translate": "Scythe of the Smallholder"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 6,000 Hoe hits on other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_hoe_hits_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_hoe_hits_9"
+  }
+}

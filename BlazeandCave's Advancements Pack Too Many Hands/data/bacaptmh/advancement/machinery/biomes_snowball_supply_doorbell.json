@@ -1,0 +1,35 @@
+{
+  "parent": "blazeandcave:biomes/captain_america",
+  "criteria": {
+    "ammo_run": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:snowball"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:snowy_plains",
+              "minecraft:snowy_taiga",
+              "minecraft:snowy_beach",
+              "minecraft:snowy_slopes",
+              "minecraft:ice_spikes"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_snowball_supply_doorbell"
+  }
+}

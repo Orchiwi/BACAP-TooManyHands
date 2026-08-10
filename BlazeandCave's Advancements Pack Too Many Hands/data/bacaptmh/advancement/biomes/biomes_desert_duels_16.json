@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_red_sandstone"
+    },
+    "title": {
+      "translate": "The Oasis Is Closed"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 2,500,000 players in a desert (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_desert_duels_15",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_desert_duels_16"
+  }
+}

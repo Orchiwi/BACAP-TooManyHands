@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_spawn_egg"
+    },
+    "title": {
+      "translate": "Unscheduled Ascent"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Suffer 10 levitation effects handed to you by a fellow player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_lift_curse_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_lift_curse_2"
+  }
+}

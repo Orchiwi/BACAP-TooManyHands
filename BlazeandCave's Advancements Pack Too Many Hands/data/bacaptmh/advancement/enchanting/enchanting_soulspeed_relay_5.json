@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_boots"
+    },
+    "title": {
+      "translate": "Fifty Sprints On Souls"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 50 boots enchanted with Soul Speed (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_soulspeed_relay_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_soulspeed_relay_5"
+  }
+}

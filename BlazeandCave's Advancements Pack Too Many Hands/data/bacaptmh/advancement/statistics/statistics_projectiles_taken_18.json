@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:danger_pottery_sherd"
+    },
+    "title": {
+      "translate": "Arrowproof by Habit"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be hit 8,000,000 times by another player's projectiles (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_projectiles_taken_17",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_projectiles_taken_18"
+  }
+}

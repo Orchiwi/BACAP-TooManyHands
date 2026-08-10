@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:end/for_mother_clarence",
+  "criteria": {
+    "floater_struck": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:levitation": {}
+          },
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_levitating_targets_doorbell"
+  }
+}

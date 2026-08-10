@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_wool"
+    },
+    "title": {
+      "translate": "Nobody Heard That"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 130 items enchanted with Swift Sneak from another player's hand (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_swiftsneak_tomes_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_swiftsneak_tomes_7"
+  }
+}

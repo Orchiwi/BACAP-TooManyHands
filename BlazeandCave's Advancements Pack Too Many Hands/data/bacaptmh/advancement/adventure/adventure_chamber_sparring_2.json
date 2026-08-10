@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tuff"
+    },
+    "title": {
+      "translate": "Sparring Between Waves"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hit another player 12 times inside a Trial Chamber (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_chamber_sparring_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_chamber_sparring_2"
+  }
+}

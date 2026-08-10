@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_tear"
+    },
+    "title": {
+      "translate": "An Ocean of Tears"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Lob a Ghast Tear across five blocks to another player 72,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_ghast_tear_toll_11",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_ghast_tear_toll_12"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tall_grass"
+    },
+    "title": {
+      "translate": "The Sunflowers Follow Two"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand 25,000 tall flowers to another player on the plains (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_sunflower_sortie_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_sunflower_sortie_10"
+  }
+}

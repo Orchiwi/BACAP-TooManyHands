@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heartbreak_pottery_sherd"
+    },
+    "title": {
+      "translate": "Four Thousand Big Ones"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 4,000 single blows of 10 damage or more from other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_heavy_blows_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_heavy_blows_9"
+  }
+}

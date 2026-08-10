@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_cobblestone_stairs"
+    },
+    "title": {
+      "translate": "Quarry Line Steps"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have another player pick up 30 stone stairs you dropped (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_stone_stair_relay_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stone_stair_relay_3"
+  }
+}

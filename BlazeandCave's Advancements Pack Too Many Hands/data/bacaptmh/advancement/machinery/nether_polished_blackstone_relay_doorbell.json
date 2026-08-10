@@ -1,0 +1,32 @@
+{
+  "parent": "blazeandcave:nether/dark_ages",
+  "criteria": {
+    "polished_bulk_handoff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:polished_blackstone",
+            "minecraft:polished_blackstone_bricks",
+            "minecraft:chiseled_polished_blackstone",
+            "minecraft:cracked_polished_blackstone_bricks"
+          ],
+          "count": {
+            "min": 32
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_polished_blackstone_relay_doorbell"
+  }
+}

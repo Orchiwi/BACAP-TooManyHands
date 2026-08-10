@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_leggings"
+    },
+    "title": {
+      "translate": "Steel for Every Shoulder"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 720,000 armour pieces enchanted with Protection IV from another player's hand (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_protection_details_17",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_protection_details_18"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clay_ball"
+    },
+    "title": {
+      "translate": "Repainting the World"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Catch 5,000 Terracotta thrown to you by another player in the badlands (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_badlands_freight_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_badlands_freight_8"
+  }
+}

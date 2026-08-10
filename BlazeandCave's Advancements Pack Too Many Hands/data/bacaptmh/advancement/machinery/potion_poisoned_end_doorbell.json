@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:potion/death_by_magic",
+  "criteria": {
+    "rotted_out": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:poison": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/potion_poisoned_end_doorbell"
+  }
+}

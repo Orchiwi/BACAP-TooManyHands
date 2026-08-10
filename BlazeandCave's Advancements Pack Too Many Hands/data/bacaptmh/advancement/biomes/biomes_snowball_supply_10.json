@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_carpet"
+    },
+    "title": {
+      "translate": "Nobody Throws Alone"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand 50,000 Snowballs to another player in a snowy biome (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_snowball_supply_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_snowball_supply_10"
+  }
+}

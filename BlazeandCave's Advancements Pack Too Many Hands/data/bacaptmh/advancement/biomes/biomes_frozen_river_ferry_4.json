@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_boat"
+    },
+    "title": {
+      "translate": "Frozen Fleet Supply"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand 100 Boats to another player on frozen water (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_frozen_river_ferry_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_frozen_river_ferry_4"
+  }
+}

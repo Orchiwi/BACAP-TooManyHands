@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_iron_ore"
+    },
+    "title": {
+      "translate": "The Ferry of Ferrous"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ferry 64 Raw Iron across to a mining partner (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_raw_iron_relay_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_iron_relay_4"
+  }
+}

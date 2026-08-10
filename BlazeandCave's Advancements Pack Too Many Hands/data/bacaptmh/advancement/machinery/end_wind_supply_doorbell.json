@@ -1,0 +1,32 @@
+{
+  "parent": "blazeandcave:end/unstoppable_force_vs_immovable_object",
+  "criteria": {
+    "gale_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wind_charge",
+            "minecraft:breeze_rod"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_wind_supply_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace"
+    },
+    "title": {
+      "translate": "The Assayer's Backlog"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have another player take a bundle of 8 or more Raw Gold you threw 400 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_raw_gold_lift_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_gold_lift_6"
+  }
+}

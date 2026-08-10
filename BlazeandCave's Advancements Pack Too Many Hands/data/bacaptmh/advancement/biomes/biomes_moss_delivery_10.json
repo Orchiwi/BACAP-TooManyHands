@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_planks"
+    },
+    "title": {
+      "translate": "A Whole Garden, Handed Over"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand 25,000 Pale Moss to another player in a Pale Garden (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_moss_delivery_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_moss_delivery_10"
+  }
+}

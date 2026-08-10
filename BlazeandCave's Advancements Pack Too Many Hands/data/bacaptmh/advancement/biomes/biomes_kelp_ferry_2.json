@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dried_kelp"
+    },
+    "title": {
+      "translate": "The Kelp Round"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand 25 Kelp to another player in a cold ocean (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_kelp_ferry_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_kelp_ferry_2"
+  }
+}

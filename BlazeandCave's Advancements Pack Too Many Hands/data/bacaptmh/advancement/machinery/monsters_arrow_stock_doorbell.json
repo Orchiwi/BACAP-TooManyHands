@@ -1,0 +1,28 @@
+{
+  "parent": "blazeandcave:monsters/anti_air",
+  "criteria": {
+    "caught_the_arrows": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:arrow",
+            "minecraft:spectral_arrow",
+            "minecraft:tipped_arrow"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_arrow_stock_doorbell"
+  }
+}

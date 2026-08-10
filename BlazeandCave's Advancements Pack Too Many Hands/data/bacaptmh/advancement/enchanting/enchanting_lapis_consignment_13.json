@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_ore"
+    },
+    "title": {
+      "translate": "Powers of Blue"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 65,536 Lapis Lazuli (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_lapis_consignment_12",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_lapis_consignment_13"
+  }
+}

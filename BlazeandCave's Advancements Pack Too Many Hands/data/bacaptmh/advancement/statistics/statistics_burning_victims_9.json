@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:burn_pottery_sherd"
+    },
+    "title": {
+      "translate": "Combustion Is My Co-Author"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 6,000 hits on other players while they are on fire (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_burning_victims_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_burning_victims_9"
+  }
+}

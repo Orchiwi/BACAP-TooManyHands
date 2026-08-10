@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torchflower"
+    },
+    "title": {
+      "translate": "Reintroduced by Hand"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand Torchflower Seeds or Pitcher Pods to another player 200 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_ancient_seeds_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_ancient_seeds_7"
+  }
+}

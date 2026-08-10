@@ -1,0 +1,28 @@
+{
+  "parent": "blazeandcave:animal/when_pigs_used_to_fly",
+  "criteria": {
+    "carrots_taken": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:carrot",
+            "minecraft:golden_carrot",
+            "minecraft:carrot_on_a_stick"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_carrot_convoy_doorbell"
+  }
+}

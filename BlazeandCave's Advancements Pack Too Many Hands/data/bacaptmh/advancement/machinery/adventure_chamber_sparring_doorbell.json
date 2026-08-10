@@ -1,0 +1,39 @@
+{
+  "parent": "blazeandcave:adventure/hard_mode_activated",
+  "criteria": {
+    "chamber_brawl": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "structures": "minecraft:trial_chambers"
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:trial_chambers"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/adventure_chamber_sparring_doorbell"
+  }
+}

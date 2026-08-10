@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:camel_spawn_egg"
+    },
+    "title": {
+      "translate": "Hasty Hump"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be given Speed by another player 2 times while riding a Camel (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/desert_rider",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_desert_pace_1"
+  }
+}

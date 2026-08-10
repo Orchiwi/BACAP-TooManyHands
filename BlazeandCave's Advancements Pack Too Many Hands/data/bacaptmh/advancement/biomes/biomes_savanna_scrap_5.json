@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_fence"
+    },
+    "title": {
+      "translate": "Where the Antelope Flee"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 350 hits on another player in a savanna (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_savanna_scrap_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_savanna_scrap_5"
+  }
+}

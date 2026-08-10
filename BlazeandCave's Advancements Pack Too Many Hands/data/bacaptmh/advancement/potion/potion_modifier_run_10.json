@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "The Recipe Is Mine To Alter"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have another player pick up 15,500 Glowstone Dust or Redstone that you threw (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_modifier_run_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_modifier_run_10"
+  }
+}

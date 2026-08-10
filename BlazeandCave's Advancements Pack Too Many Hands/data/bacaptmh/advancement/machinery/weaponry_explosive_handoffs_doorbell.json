@@ -1,0 +1,30 @@
+{
+  "parent": "blazeandcave:weaponry/bombs_away",
+  "criteria": {
+    "handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:tnt",
+            "minecraft:gunpowder",
+            "minecraft:fire_charge",
+            "minecraft:wind_charge",
+            "minecraft:tnt_minecart"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/weaponry_explosive_handoffs_doorbell"
+  }
+}

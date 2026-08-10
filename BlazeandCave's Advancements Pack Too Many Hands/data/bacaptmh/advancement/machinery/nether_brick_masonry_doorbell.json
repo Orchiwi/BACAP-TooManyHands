@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:nether/spreading_corruption",
+  "criteria": {
+    "decorative_brick_handoff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chiseled_nether_bricks",
+            "minecraft:cracked_nether_bricks"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_brick_masonry_doorbell"
+  }
+}

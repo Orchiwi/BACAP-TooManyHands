@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "The Nugget Exchange"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Iron, Gold or Copper Nuggets thrown to you by another player 350 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_nugget_nickels_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_nugget_nickels_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gravel"
+    },
+    "title": {
+      "translate": "Nobody Wanted the Gravel"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take bartered leftovers from another player's hand in the Nether 25 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_barter_spoils_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_barter_spoils_2"
+  }
+}

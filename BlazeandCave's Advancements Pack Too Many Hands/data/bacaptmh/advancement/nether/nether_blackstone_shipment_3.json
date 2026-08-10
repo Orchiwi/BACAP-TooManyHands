@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blackstone_stairs"
+    },
+    "title": {
+      "translate": "The Dark Mason's Cart"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a full stack of Blackstone in the Nether 50 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_blackstone_shipment_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_blackstone_shipment_3"
+  }
+}

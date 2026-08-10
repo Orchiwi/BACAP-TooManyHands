@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_stairs"
+    },
+    "title": {
+      "translate": "A Tower of Treads"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 16 or more Wooden Stairs by another player 1,150 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_stair_carry_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stair_carry_8"
+  }
+}

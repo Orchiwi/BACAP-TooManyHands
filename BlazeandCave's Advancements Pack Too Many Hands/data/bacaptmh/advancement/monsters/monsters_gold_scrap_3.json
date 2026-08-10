@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_gold"
+    },
+    "title": {
+      "translate": "Scrap From the Swine"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Receive 50 pieces of gold without one grunt of aggro (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_gold_scrap_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_gold_scrap_3"
+  }
+}

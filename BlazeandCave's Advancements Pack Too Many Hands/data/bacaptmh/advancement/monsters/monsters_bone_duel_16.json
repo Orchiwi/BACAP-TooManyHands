@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_spawn_egg"
+    },
+    "title": {
+      "translate": "Bludgeon Laureate"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 300000 bone strikes against other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_bone_duel_15",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_bone_duel_16"
+  }
+}

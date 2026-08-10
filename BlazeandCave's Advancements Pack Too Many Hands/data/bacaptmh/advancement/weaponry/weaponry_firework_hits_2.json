@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star"
+    },
+    "title": {
+      "translate": "Sparks and Screams"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Blast other players 25 times with Firework Rockets (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_firework_hits_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_firework_hits_2"
+  }
+}

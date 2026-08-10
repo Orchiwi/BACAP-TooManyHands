@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
+    },
+    "title": {
+      "translate": "A Hundred Useless Breastplates"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 100 armour-piercing hits from other players (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_armour_piercing_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_armour_piercing_5"
+  }
+}

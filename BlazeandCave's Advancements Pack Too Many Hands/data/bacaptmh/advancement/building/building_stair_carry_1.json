@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_stairs"
+    },
+    "title": {
+      "translate": "Step One"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed 16 or more Wooden Stairs by another player 3 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/ah_my_old_enemy",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stair_carry_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cracked_nether_bricks"
+    },
+    "title": {
+      "translate": "Cracks in the Fortress"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player Chiseled or Cracked Nether Bricks 12 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_brick_masonry_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_brick_masonry_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_shovel"
+    },
+    "title": {
+      "translate": "The Trench Tussle"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hit another player while holding a Shovel 600 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_shovel_scrap_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_shovel_scrap_7"
+  }
+}

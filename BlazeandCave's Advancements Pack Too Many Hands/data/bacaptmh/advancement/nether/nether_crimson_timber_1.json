@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_stem"
+    },
+    "title": {
+      "translate": "Red Timber Handoff"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Crimson wood from another player's hand in a Crimson Forest 10 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/what_about_corruption_planks",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_crimson_timber_1"
+  }
+}

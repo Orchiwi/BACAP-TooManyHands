@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_block"
+    },
+    "title": {
+      "translate": "Ten Thousand Bars of Trust"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a Netherite Ingot from another player's hand in the Nether 10,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_netherite_handover_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_netherite_handover_10"
+  }
+}

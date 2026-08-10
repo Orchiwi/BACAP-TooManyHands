@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:mining/master_iron_miner",
+  "criteria": {
+    "raw_iron_block_handoff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:raw_iron_block"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/mining_raw_iron_block_freight_doorbell"
+  }
+}

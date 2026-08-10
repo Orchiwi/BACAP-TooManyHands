@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vine"
+    },
+    "title": {
+      "translate": "Bonemeal Partnership"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 16 or more Moss or Vines by another player 95 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_moss_and_vine_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_moss_and_vine_5"
+  }
+}

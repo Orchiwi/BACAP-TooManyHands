@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "Escape Velocity Equestrian"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be given Jump Boost by another player 200,000 times while in the saddle (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_hoof_tonic_15",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_hoof_tonic_16"
+  }
+}

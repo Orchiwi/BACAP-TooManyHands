@@ -1,0 +1,37 @@
+{
+  "parent": "blazeandcave:end/the_beginning",
+  "criteria": {
+    "pyramid_stock": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:beacon",
+            "minecraft:nether_star",
+            "minecraft:iron_block",
+            "minecraft:gold_block",
+            "minecraft:diamond_block",
+            "minecraft:emerald_block",
+            "minecraft:netherite_block"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_beacon_convoy_doorbell"
+  }
+}

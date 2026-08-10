@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:farming/a_mangrove_grove",
+  "criteria": {
+    "propagule_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mangrove_propagule"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_propagule_pass_doorbell"
+  }
+}

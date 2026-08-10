@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_bed"
+    },
+    "title": {
+      "translate": "Night Shift Dividend"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be paid 250 phantom membranes by hand (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_phantom_tithe_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_phantom_tithe_5"
+  }
+}

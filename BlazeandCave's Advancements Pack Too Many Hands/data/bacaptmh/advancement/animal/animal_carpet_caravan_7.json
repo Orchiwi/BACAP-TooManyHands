@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cyan_carpet"
+    },
+    "title": {
+      "translate": "Carpet Commerce"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Carpet from another player's hand 1,200 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_carpet_caravan_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_carpet_caravan_7"
+  }
+}

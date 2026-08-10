@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin_seeds"
+    },
+    "title": {
+      "translate": "Disguise Distribution"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Distribute 100 masks to the crew in the end (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_pumpkin_masks_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_pumpkin_masks_4"
+  }
+}

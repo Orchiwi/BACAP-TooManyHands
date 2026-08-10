@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone_brick_stairs"
+    },
+    "title": {
+      "translate": "The Brick Line"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand End Stone Bricks to another player in the End 45 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_brick_convoy_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_brick_convoy_3"
+  }
+}

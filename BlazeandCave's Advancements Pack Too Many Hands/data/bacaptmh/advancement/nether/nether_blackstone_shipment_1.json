@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blackstone"
+    },
+    "title": {
+      "translate": "Black Rock Delivery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a full stack of Blackstone in the Nether 10 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/dark_ages",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_blackstone_shipment_1"
+  }
+}

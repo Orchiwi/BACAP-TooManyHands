@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:resin_brick_stairs"
+    },
+    "title": {
+      "translate": "Creaking Wholesale"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch 800 Resin thrown to you by another player in a Pale Garden (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_resin_freight_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_resin_freight_6"
+  }
+}

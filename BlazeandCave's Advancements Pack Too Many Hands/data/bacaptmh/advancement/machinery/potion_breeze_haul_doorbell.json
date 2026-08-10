@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:potion/final_shout",
+  "criteria": {
+    "rods_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:breeze_rod"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/potion_breeze_haul_doorbell"
+  }
+}

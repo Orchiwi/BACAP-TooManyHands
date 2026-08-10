@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:potion/water_balloon",
+  "criteria": {
+    "splashed": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "direct_entity": {
+            "entity_type": "minecraft:splash_potion"
+          },
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/potion_incoming_splash_doorbell"
+  }
+}

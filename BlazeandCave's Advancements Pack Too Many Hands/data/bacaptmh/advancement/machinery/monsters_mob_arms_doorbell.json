@@ -1,0 +1,35 @@
+{
+  "parent": "blazeandcave:monsters/house_of_freaks",
+  "criteria": {
+    "beaten_with_mob_gear": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:golden_sword",
+                  "minecraft:stone_sword",
+                  "minecraft:iron_sword",
+                  "minecraft:golden_axe",
+                  "minecraft:stone_axe",
+                  "minecraft:iron_axe"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_mob_arms_doorbell"
+  }
+}

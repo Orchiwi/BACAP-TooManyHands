@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:horse_spawn_egg"
+    },
+    "title": {
+      "translate": "A Seat for Every Beast"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand 400,000 Saddles to other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_saddle_relay_15",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_saddle_relay_16"
+  }
+}

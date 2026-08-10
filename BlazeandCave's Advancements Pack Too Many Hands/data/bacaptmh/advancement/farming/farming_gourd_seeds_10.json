@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glistering_melon_slice"
+    },
+    "title": {
+      "translate": "The Whole Patch, Handed Over"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed Melon or Pumpkin Seeds by another player 4,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_gourd_seeds_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_gourd_seeds_10"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "Precious Cargo"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ship 160 Raw Gold or Raw Copper Blocks to a mining partner (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_raw_bullion_freight_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_bullion_freight_8"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:redstone/mobile_explosion",
+  "criteria": {
+    "tnt_cart_in_hand": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tnt_minecart"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/redstone_tnt_cart_handoff_doorbell"
+  }
+}

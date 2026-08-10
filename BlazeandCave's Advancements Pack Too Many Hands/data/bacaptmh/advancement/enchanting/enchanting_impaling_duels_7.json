@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "Aquatic Damage, Terrestrial Target"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player 200 times with a Trident enchanted with Impaling V (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_impaling_duels_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_impaling_duels_7"
+  }
+}

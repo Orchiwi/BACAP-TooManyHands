@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ore"
+    },
+    "title": {
+      "translate": "Unrefined Generosity"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have another player take a bundle of 8 or more Raw Gold you threw 12 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_raw_gold_lift_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_gold_lift_2"
+  }
+}

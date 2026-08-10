@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polar_bear_spawn_egg"
+    },
+    "title": {
+      "translate": "Polar Predator"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 250 players on frozen water or a snowy beach (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_frozen_coast_kills_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_frozen_coast_kills_5"
+  }
+}

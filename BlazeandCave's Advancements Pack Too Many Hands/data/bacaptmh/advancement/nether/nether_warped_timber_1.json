@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_stem"
+    },
+    "title": {
+      "translate": "Blue Timber Passed"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player Warped wood in a Warped Forest 10 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/welcome_to_warp_zone",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_warped_timber_1"
+  }
+}

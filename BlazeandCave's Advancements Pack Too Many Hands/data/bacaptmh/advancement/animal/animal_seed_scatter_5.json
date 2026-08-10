@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot_seeds"
+    },
+    "title": {
+      "translate": "The Seed Round"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand Seeds to other players 240 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_seed_scatter_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_seed_scatter_5"
+  }
+}

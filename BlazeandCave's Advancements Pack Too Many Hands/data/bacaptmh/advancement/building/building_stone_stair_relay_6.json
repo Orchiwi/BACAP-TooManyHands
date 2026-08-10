@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:granite_stairs"
+    },
+    "title": {
+      "translate": "Grit Between Us"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have another player pick up 250 stone stairs you dropped (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_stone_stair_relay_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stone_stair_relay_6"
+  }
+}

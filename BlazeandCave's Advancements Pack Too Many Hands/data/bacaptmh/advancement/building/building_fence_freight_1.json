@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_fence"
+    },
+    "title": {
+      "translate": "Post and Rail"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 32 or more Fences or Fence Gates 2 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/en_garde",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_fence_freight_1"
+  }
+}

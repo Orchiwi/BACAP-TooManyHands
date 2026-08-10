@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_quartz_ore"
+    },
+    "title": {
+      "translate": "Quartz for Comparators"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Throw 21 Nether Quartz for another player to pick up (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_quartz_handoffs_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_quartz_handoffs_2"
+  }
+}

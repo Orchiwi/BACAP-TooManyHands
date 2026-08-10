@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_gold_ore"
+    },
+    "title": {
+      "translate": "Auric Assist"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ferry 64 Raw Gold across to a mining partner (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_raw_gold_relay_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_gold_relay_5"
+  }
+}

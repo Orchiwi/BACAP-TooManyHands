@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:angler_pottery_sherd"
+    },
+    "title": {
+      "translate": "Supplier to the Trowel Crowd"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 750 suspicious blocks (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_dig_site_supply_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_dig_site_supply_7"
+  }
+}

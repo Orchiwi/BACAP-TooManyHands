@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:seagrass"
+    },
+    "title": {
+      "translate": "Grazing Rights"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch 10 Seagrass thrown to you by another player in the open ocean (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/dolphin_dasher",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_seagrass_supply_1"
+  }
+}

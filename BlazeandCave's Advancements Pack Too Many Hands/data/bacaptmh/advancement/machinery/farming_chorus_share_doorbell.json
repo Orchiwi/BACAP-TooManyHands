@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:farming/vegetarian",
+  "criteria": {
+    "chorus_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chorus_fruit",
+            "minecraft:popped_chorus_fruit"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_chorus_share_doorbell"
+  }
+}

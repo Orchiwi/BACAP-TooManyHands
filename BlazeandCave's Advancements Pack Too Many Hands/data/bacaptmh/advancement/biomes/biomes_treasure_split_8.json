@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "Fifty-Fifty Under the Ice"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Catch 3,500 Nautilus Shells or Hearts of the Sea thrown to you by another player in a frozen ocean (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_treasure_split_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_treasure_split_8"
+  }
+}

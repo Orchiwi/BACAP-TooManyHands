@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_egg"
+    },
+    "title": {
+      "translate": "Ammunition, Sort Of"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Throw 21 Eggs for another player to pick up (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_egg_barrage_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_egg_barrage_2"
+  }
+}

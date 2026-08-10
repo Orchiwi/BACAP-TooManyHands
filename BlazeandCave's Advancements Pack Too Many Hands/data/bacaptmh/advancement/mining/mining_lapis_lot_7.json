@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_candle"
+    },
+    "title": {
+      "translate": "The Lazuli Line"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Lapis Lazuli thrown to you by another player 900 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_lapis_lot_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_lapis_lot_7"
+  }
+}

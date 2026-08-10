@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mushroom_stem"
+    },
+    "title": {
+      "translate": "Damp and Delivered"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player Mushrooms 175 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_mushroom_swap_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_mushroom_swap_5"
+  }
+}

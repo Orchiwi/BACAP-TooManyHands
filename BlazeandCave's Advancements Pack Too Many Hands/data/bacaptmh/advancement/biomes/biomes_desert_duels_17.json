@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_red_sandstone"
+    },
+    "title": {
+      "translate": "Cartographer of Shallow Graves"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 5,500,000 players in a desert (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_desert_duels_16",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_desert_duels_17"
+  }
+}

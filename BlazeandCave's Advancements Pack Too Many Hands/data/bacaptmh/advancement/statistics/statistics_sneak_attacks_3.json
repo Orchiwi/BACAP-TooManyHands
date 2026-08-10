@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_wool"
+    },
+    "title": {
+      "translate": "The Silent Tap"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Land 25 hits on other players while sneaking (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_sneak_attacks_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_sneak_attacks_3"
+  }
+}

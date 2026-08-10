@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_axe"
+    },
+    "title": {
+      "translate": "Johnny Would Approve"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take down 10 players using an axe (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_axe_bounty_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_axe_bounty_2"
+  }
+}

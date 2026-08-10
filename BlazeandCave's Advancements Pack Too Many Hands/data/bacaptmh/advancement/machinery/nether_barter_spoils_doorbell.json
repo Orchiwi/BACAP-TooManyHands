@@ -1,0 +1,34 @@
+{
+  "parent": "blazeandcave:nether/hung_drawn_and_bartered",
+  "criteria": {
+    "barter_junk": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather",
+            "minecraft:string",
+            "minecraft:gravel",
+            "minecraft:iron_nugget"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_barter_spoils_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_pillar"
+    },
+    "title": {
+      "translate": "Crates of White"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Throw 840 Nether Quartz for another player to pick up (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_quartz_handoffs_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_quartz_handoffs_7"
+  }
+}

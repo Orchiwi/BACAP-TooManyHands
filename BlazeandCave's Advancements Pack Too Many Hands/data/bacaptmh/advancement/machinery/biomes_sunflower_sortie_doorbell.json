@@ -1,0 +1,36 @@
+{
+  "parent": "blazeandcave:biomes/theres_a_zombie_on_the_lawn",
+  "criteria": {
+    "tall_bloom": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sunflower",
+            "minecraft:lilac",
+            "minecraft:rose_bush",
+            "minecraft:peony"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:sunflower_plains",
+              "minecraft:plains",
+              "minecraft:meadow"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_sunflower_sortie_doorbell"
+  }
+}

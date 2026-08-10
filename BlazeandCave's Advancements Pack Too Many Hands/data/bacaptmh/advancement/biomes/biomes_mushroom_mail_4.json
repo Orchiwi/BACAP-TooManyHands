@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_mushroom_block"
+    },
+    "title": {
+      "translate": "Cap and Stem Service"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand 125 mushrooms to another player on Mushroom Fields (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_mushroom_mail_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_mushroom_mail_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone_stairs"
+    },
+    "title": {
+      "translate": "Chiselled and Delivered"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have another player pick up 5 stone stairs you dropped (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/ah_my_old_enemy",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stone_stair_relay_1"
+  }
+}

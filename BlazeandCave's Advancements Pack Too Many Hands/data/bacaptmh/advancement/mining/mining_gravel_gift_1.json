@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gravel"
+    },
+    "title": {
+      "translate": "Gravel Gratuity"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have another player pick up Gravel you threw 10 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/meet_the_flintstones",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_gravel_gift_1"
+  }
+}

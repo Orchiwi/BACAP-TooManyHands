@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:adventure/a_chiptune_relic",
+  "criteria": {
+    "handed_to_me": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:disc_fragment_5"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/adventure_fragment_relay_doorbell"
+  }
+}

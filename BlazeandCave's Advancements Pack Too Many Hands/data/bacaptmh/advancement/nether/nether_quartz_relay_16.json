@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_quartz_block"
+    },
+    "title": {
+      "translate": "Chiseled Into Legend"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take Nether Quartz from another player's hand 650,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_quartz_relay_15",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_quartz_relay_16"
+  }
+}

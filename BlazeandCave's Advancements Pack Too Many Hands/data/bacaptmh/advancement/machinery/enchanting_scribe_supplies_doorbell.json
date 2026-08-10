@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:enchanting/master_enchanter",
+  "criteria": {
+    "writing_stock": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:writable_book",
+            "minecraft:written_book",
+            "minecraft:paper",
+            "minecraft:ink_sac"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/enchanting_scribe_supplies_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clay"
+    },
+    "title": {
+      "translate": "The Dripstone Depot"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Pointed Dripstone thrown to you by another player 900 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_dripstone_dropoff_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_dripstone_dropoff_7"
+  }
+}

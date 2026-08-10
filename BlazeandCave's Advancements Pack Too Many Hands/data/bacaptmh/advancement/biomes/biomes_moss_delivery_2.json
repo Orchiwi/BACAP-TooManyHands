@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_moss_carpet"
+    },
+    "title": {
+      "translate": "The Moss Round"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand 25 Pale Moss to another player in a Pale Garden (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_moss_delivery_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_moss_delivery_2"
+  }
+}

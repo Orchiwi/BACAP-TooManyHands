@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:resin_clump"
+    },
+    "title": {
+      "translate": "Sap Run"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch 10 Resin thrown to you by another player in a Pale Garden (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/le_creak_cest_chic",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_resin_freight_1"
+  }
+}

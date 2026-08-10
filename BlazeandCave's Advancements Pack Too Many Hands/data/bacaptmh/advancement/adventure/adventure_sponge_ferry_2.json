@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sponge"
+    },
+    "title": {
+      "translate": "The Elder's Yellow Tax"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 8 sponges (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_sponge_ferry_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_sponge_ferry_2"
+  }
+}

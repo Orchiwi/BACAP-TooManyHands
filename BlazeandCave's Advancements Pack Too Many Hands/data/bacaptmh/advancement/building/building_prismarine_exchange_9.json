@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_wall"
+    },
+    "title": {
+      "translate": "The Ocean Owes Us Stone"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 16 or more Prismarine 1,700 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_prismarine_exchange_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_prismarine_exchange_9"
+  }
+}

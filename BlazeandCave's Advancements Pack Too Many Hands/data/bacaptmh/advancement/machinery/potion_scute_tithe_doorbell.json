@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:potion/tank",
+  "criteria": {
+    "scute_shipped": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:turtle_scute"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/potion_scute_tithe_doorbell"
+  }
+}

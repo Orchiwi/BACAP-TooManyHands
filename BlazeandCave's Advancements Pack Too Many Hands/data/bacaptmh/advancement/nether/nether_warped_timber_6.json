@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_stairs"
+    },
+    "title": {
+      "translate": "Cyan Forestry Co-op"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player Warped wood in a Warped Forest 500 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_warped_timber_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_warped_timber_6"
+  }
+}

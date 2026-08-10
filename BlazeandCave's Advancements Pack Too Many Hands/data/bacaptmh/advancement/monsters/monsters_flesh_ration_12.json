@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_spawn_egg"
+    },
+    "title": {
+      "translate": "The Putrid Pantry"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 35000 rations of rotten flesh from other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_flesh_ration_11",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_flesh_ration_12"
+  }
+}

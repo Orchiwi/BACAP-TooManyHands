@@ -1,0 +1,41 @@
+{
+  "parent": "blazeandcave:statistics/out_for_a_stroll",
+  "criteria": {
+    "resupplied_their_stack": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dirt",
+            "minecraft:cobblestone",
+            "minecraft:stone",
+            "minecraft:sand",
+            "minecraft:gravel",
+            "minecraft:oak_planks",
+            "minecraft:deepslate",
+            "minecraft:cobbled_deepslate",
+            "minecraft:netherrack",
+            "minecraft:end_stone",
+            "minecraft:obsidian",
+            "minecraft:scaffolding",
+            "minecraft:stone_bricks",
+            "minecraft:smooth_stone",
+            "minecraft:bricks",
+            "minecraft:blackstone"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/statistics_block_supply_doorbell"
+  }
+}

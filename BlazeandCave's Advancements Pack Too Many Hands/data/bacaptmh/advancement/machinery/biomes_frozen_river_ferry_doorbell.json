@@ -1,0 +1,42 @@
+{
+  "parent": "blazeandcave:biomes/smooth_operator",
+  "criteria": {
+    "hull_handoff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:oak_boat",
+            "minecraft:spruce_boat",
+            "minecraft:birch_boat",
+            "minecraft:jungle_boat",
+            "minecraft:acacia_boat",
+            "minecraft:mangrove_boat",
+            "minecraft:cherry_boat",
+            "minecraft:bamboo_raft",
+            "minecraft:pale_oak_boat"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:frozen_river",
+              "minecraft:frozen_ocean",
+              "minecraft:deep_frozen_ocean",
+              "minecraft:ice_spikes"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_frozen_river_ferry_doorbell"
+  }
+}

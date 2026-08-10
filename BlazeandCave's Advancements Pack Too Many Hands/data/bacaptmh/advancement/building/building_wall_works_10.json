@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_stone_brick_wall"
+    },
+    "title": {
+      "translate": "The Great Wall Contract"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 32 or more Wall blocks by another player 3,600 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_wall_works_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_wall_works_10"
+  }
+}

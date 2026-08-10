@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_concrete"
+    },
+    "title": {
+      "translate": "Quartermaster of the Cold"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand 1,500 Snowballs to another player in a snowy biome (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_snowball_supply_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_snowball_supply_6"
+  }
+}

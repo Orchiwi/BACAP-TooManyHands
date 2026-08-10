@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:podzol"
+    },
+    "title": {
+      "translate": "The Landscaping Order"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a full stack of Dirt or Grass 40 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_groundwork_haul_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_groundwork_haul_4"
+  }
+}

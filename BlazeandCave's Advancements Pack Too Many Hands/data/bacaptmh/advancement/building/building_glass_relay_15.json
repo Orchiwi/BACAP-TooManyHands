@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gray_stained_glass"
+    },
+    "title": {
+      "translate": "A Skyline You Can See Through"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 32 or more Glass by another player 140,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_glass_relay_14",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_glass_relay_15"
+  }
+}

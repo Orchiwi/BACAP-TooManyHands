@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_gold_ore"
+    },
+    "title": {
+      "translate": "The Nugget Purse"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player sixteen or more Gold Nuggets in the Nether 100 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_nugget_purse_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_nugget_purse_4"
+  }
+}

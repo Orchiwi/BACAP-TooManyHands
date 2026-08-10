@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_stained_glass_pane"
+    },
+    "title": {
+      "translate": "Sixteen Tinted Frames"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 32 or more Glass Panes 28 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_pane_dispatch_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_pane_dispatch_4"
+  }
+}

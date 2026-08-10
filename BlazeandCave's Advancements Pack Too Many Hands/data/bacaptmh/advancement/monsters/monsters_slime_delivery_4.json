@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:green_dye"
+    },
+    "title": {
+      "translate": "The Ooze Consignment"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Accept 100 slimeballs flung in your direction (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_slime_delivery_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_slime_delivery_4"
+  }
+}

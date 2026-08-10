@@ -1,0 +1,24 @@
+{
+  "parent": "blazeandcave:statistics/this_ride_is_lit_yo",
+  "criteria": {
+    "fought_below_the_overworld": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/statistics_nether_duels_doorbell"
+  }
+}

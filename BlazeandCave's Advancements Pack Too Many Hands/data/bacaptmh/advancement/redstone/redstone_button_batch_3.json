@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_blackstone_button"
+    },
+    "title": {
+      "translate": "Click Supply"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Throw 26 Buttons for another player to pick up (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_button_batch_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_button_batch_3"
+  }
+}

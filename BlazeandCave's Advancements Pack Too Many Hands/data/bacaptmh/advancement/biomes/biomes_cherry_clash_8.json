@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_wool"
+    },
+    "title": {
+      "translate": "Spring Hurts Every Year"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 5,000 hits from another player in a Cherry Grove (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_cherry_clash_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_cherry_clash_8"
+  }
+}

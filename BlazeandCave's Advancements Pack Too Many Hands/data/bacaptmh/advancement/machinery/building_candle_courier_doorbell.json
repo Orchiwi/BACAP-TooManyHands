@@ -1,0 +1,45 @@
+{
+  "parent": "blazeandcave:building/the_ritual_begins",
+  "criteria": {
+    "candles_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:candle",
+            "minecraft:white_candle",
+            "minecraft:orange_candle",
+            "minecraft:magenta_candle",
+            "minecraft:light_blue_candle",
+            "minecraft:yellow_candle",
+            "minecraft:lime_candle",
+            "minecraft:pink_candle",
+            "minecraft:gray_candle",
+            "minecraft:light_gray_candle",
+            "minecraft:cyan_candle",
+            "minecraft:purple_candle",
+            "minecraft:blue_candle",
+            "minecraft:brown_candle",
+            "minecraft:green_candle",
+            "minecraft:red_candle",
+            "minecraft:black_candle"
+          ],
+          "count": {
+            "min": 8
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_candle_courier_doorbell"
+  }
+}

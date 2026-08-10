@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_slab"
+    },
+    "title": {
+      "translate": "Bruised in Bloom"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 350 hits from another player in a Cherry Grove (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_cherry_clash_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_cherry_clash_5"
+  }
+}

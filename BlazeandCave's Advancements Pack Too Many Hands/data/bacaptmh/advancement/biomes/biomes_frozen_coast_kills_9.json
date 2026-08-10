@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod"
+    },
+    "title": {
+      "translate": "The Coast Has No Survivors"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 8,000 players on frozen water or a snowy beach (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_frozen_coast_kills_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_frozen_coast_kills_9"
+  }
+}

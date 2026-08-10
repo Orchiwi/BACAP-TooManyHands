@@ -1,0 +1,35 @@
+{
+  "parent": "blazeandcave:redstone/sticky_parts",
+  "criteria": {
+    "sticky_in_hand": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:slime_ball",
+            "minecraft:slime_block",
+            "minecraft:honey_block",
+            "minecraft:honeycomb_block"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/redstone_slime_and_honey_doorbell"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "blazeandcave:nether/soul_runnings",
+  "criteria": {
+    "souls_passed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:soul_sand",
+            "minecraft:soul_soil"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_soul_sand_ferry_doorbell"
+  }
+}

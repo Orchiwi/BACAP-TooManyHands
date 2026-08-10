@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_shovel"
+    },
+    "title": {
+      "translate": "That's Not a Weapon"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Whack another builder with a Wooden Shovel 3 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/living_dummy",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_site_horseplay_1"
+  }
+}

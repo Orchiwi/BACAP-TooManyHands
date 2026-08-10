@@ -1,0 +1,37 @@
+{
+  "parent": "blazeandcave:end/dragon_vs_dragon",
+  "criteria": {
+    "trophy_taken": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:dragon_head",
+                "minecraft:player_head",
+                "minecraft:zombie_head",
+                "minecraft:skeleton_skull",
+                "minecraft:wither_skeleton_skull",
+                "minecraft:creeper_head",
+                "minecraft:piglin_head"
+              ]
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_headhunter_duels_doorbell"
+  }
+}

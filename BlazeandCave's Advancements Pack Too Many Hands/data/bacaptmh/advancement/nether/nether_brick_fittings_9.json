@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_bricks"
+    },
+    "title": {
+      "translate": "The Fortress Refit"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 16 or more Nether Brick slabs, stairs, walls or fences from another player's hand 650 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_brick_fittings_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_brick_fittings_9"
+  }
+}

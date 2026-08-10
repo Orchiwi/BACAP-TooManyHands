@@ -1,0 +1,41 @@
+{
+  "parent": "blazeandcave:biomes/voyage",
+  "criteria": {
+    "clay_freight": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:terracotta",
+            "minecraft:orange_terracotta",
+            "minecraft:yellow_terracotta",
+            "minecraft:red_terracotta",
+            "minecraft:brown_terracotta",
+            "minecraft:white_terracotta",
+            "minecraft:light_gray_terracotta"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:badlands",
+              "minecraft:eroded_badlands",
+              "minecraft:wooded_badlands"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_badlands_freight_doorbell"
+  }
+}

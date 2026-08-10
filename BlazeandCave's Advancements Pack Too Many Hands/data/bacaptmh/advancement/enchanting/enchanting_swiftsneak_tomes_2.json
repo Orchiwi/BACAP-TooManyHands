@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_vein"
+    },
+    "title": {
+      "translate": "Two Sets of Silent Knees"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take 4 items enchanted with Swift Sneak from another player's hand (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_swiftsneak_tomes_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_swiftsneak_tomes_2"
+  }
+}

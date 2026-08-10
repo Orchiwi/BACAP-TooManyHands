@@ -1,0 +1,33 @@
+{
+  "parent": "blazeandcave:enchanting/do_a_barrel_roll",
+  "criteria": {
+    "storm_spear": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:riptide"
+              }
+            ]
+          },
+          "items": [
+            "minecraft:trident"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/enchanting_riptide_relay_doorbell"
+  }
+}

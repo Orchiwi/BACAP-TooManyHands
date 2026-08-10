@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_block"
+    },
+    "title": {
+      "translate": "Battered Into the Loam"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 3,200,000 hits from another player in a jungle (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_jungle_ambush_15",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_jungle_ambush_16"
+  }
+}

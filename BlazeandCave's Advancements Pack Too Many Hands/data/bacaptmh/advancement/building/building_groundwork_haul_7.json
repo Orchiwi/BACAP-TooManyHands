@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mycelium"
+    },
+    "title": {
+      "translate": "The Groundworks Crew"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a full stack of Dirt or Grass 500 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_groundwork_haul_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_groundwork_haul_7"
+  }
+}

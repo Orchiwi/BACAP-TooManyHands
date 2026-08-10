@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_brick_stairs"
+    },
+    "title": {
+      "translate": "The Stonecut Ascent Guild"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have another player pick up 4000 stone stairs you dropped (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_stone_stair_relay_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stone_stair_relay_10"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creeper_spawn_egg"
+    },
+    "title": {
+      "translate": "The Shrapnel Sponge"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Survive 6000 blasts caused by the people beside you (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_blast_debt_10",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_blast_debt_11"
+  }
+}

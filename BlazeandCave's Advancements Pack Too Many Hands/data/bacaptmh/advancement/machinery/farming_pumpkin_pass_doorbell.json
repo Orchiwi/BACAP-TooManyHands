@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:farming/pumpa_kungen",
+  "criteria": {
+    "pumpkin_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pumpkin",
+            "minecraft:carved_pumpkin",
+            "minecraft:jack_o_lantern",
+            "minecraft:pumpkin_seeds"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_pumpkin_pass_doorbell"
+  }
+}

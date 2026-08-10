@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gray_dye"
+    },
+    "title": {
+      "translate": "The Long Grey Fade"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 2500 wither doses from friendly hands (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_wither_dose_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_wither_dose_9"
+  }
+}

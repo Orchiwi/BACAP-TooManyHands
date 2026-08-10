@@ -1,0 +1,59 @@
+{
+  "parent": "blazeandcave:statistics/loot_em",
+  "criteria": {
+    "hit_them_with_rubbish": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:dead_bush",
+                    "minecraft:feather",
+                    "minecraft:bread",
+                    "minecraft:stick",
+                    "minecraft:bone",
+                    "minecraft:bamboo",
+                    "minecraft:torch",
+                    "minecraft:wheat",
+                    "minecraft:poisonous_potato",
+                    "minecraft:rotten_flesh",
+                    "minecraft:string",
+                    "minecraft:paper",
+                    "minecraft:sugar_cane",
+                    "minecraft:seagrass"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/statistics_improvised_hits_doorbell"
+  }
+}

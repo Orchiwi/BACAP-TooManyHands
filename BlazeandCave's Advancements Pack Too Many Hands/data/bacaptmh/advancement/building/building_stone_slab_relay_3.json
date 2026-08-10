@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_stone_slab"
+    },
+    "title": {
+      "translate": "The Halved Quarry"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 30 stone slabs dropped by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_stone_slab_relay_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stone_slab_relay_3"
+  }
+}

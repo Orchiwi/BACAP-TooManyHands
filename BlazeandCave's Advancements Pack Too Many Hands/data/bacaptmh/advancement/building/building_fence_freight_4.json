@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_fence_gate"
+    },
+    "title": {
+      "translate": "The Fenceline Contract"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 32 or more Fences or Fence Gates 28 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_fence_freight_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_fence_freight_4"
+  }
+}

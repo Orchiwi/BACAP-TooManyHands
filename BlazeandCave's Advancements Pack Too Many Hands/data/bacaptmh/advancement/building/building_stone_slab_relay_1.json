@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone_slab"
+    },
+    "title": {
+      "translate": "Paving Duty Shared"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 5 stone slabs dropped by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/slabs_for_days",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stone_slab_relay_1"
+  }
+}

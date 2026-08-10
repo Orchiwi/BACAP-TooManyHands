@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_dye"
+    },
+    "title": {
+      "translate": "Palette Delivery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand Dyes to other players 240 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_dye_relay_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_dye_relay_5"
+  }
+}

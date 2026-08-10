@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_hoe"
+    },
+    "title": {
+      "translate": "The Grim Farmer"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill another player with a Hoe 20 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_harvest_reaper_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_harvest_reaper_3"
+  }
+}

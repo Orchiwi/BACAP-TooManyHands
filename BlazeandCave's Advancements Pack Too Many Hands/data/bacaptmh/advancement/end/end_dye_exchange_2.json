@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magenta_dye"
+    },
+    "title": {
+      "translate": "Borrowed Pigment"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Dye from another player in the End 25 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_dye_exchange_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_dye_exchange_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_deepslate"
+    },
+    "title": {
+      "translate": "Underworld Rules"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 800 hits on another player below y=-40 (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_deepslate_brawl_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_deepslate_brawl_6"
+  }
+}

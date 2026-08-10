@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:potion/true_feather_falling",
+  "criteria": {
+    "membrane_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:phantom_membrane"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/potion_membrane_run_doorbell"
+  }
+}

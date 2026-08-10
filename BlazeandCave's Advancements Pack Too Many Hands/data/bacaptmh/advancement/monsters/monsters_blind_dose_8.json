@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_stained_glass"
+    },
+    "title": {
+      "translate": "Who Turned Out the Sun"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Endure 1000 player-given blindness effects (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_blind_dose_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_blind_dose_8"
+  }
+}

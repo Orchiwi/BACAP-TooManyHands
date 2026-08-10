@@ -1,0 +1,38 @@
+{
+  "parent": "blazeandcave:adventure/filthy_stinkin_rich",
+  "criteria": {
+    "handed_to_me": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:emerald",
+            "minecraft:emerald_block"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "structures": [
+              "minecraft:village_plains",
+              "minecraft:village_desert",
+              "minecraft:village_savanna",
+              "minecraft:village_snowy",
+              "minecraft:village_taiga"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/adventure_market_emeralds_doorbell"
+  }
+}

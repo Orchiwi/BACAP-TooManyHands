@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cave_vines"
+    },
+    "title": {
+      "translate": "Berry Brigade"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Berries from another player's hand 1,200 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_berry_basket_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_berry_basket_7"
+  }
+}

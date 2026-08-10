@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sheep_spawn_egg"
+    },
+    "title": {
+      "translate": "Sheared Off"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Land 15 hits on another player while holding Shears (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_shear_strike_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_shear_strike_3"
+  }
+}

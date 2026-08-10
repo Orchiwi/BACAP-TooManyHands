@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_diorite"
+    },
+    "title": {
+      "translate": "Load-Bearing Friendship"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed a full stack of Stone or its cousins by another player 34,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_stone_relay_12",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stone_relay_13"
+  }
+}

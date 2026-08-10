@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cyan_dye"
+    },
+    "title": {
+      "translate": "The Colour Swap"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Dye from another player in the End 50 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_dye_exchange_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_dye_exchange_3"
+  }
+}

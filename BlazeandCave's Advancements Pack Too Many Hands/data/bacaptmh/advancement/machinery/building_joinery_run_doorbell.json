@@ -1,0 +1,64 @@
+{
+  "parent": "blazeandcave:building/your_door_was_locked",
+  "criteria": {
+    "joinery_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:oak_door",
+            "minecraft:spruce_door",
+            "minecraft:birch_door",
+            "minecraft:jungle_door",
+            "minecraft:acacia_door",
+            "minecraft:dark_oak_door",
+            "minecraft:mangrove_door",
+            "minecraft:cherry_door",
+            "minecraft:pale_oak_door",
+            "minecraft:bamboo_door",
+            "minecraft:crimson_door",
+            "minecraft:warped_door",
+            "minecraft:iron_door",
+            "minecraft:copper_door",
+            "minecraft:exposed_copper_door",
+            "minecraft:weathered_copper_door",
+            "minecraft:oxidized_copper_door",
+            "minecraft:waxed_copper_door",
+            "minecraft:oak_trapdoor",
+            "minecraft:spruce_trapdoor",
+            "minecraft:birch_trapdoor",
+            "minecraft:jungle_trapdoor",
+            "minecraft:acacia_trapdoor",
+            "minecraft:dark_oak_trapdoor",
+            "minecraft:mangrove_trapdoor",
+            "minecraft:cherry_trapdoor",
+            "minecraft:pale_oak_trapdoor",
+            "minecraft:bamboo_trapdoor",
+            "minecraft:crimson_trapdoor",
+            "minecraft:warped_trapdoor",
+            "minecraft:iron_trapdoor",
+            "minecraft:copper_trapdoor",
+            "minecraft:exposed_copper_trapdoor",
+            "minecraft:weathered_copper_trapdoor",
+            "minecraft:oxidized_copper_trapdoor",
+            "minecraft:waxed_copper_trapdoor"
+          ],
+          "count": {
+            "min": 4
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_joinery_run_doorbell"
+  }
+}

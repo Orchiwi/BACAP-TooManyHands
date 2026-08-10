@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_door"
+    },
+    "title": {
+      "translate": "The Hinge Dynasty"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 4 or more Doors or Trapdoors by another player 3,600 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_joinery_run_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_joinery_run_10"
+  }
+}

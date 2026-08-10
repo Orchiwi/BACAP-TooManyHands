@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fletching_table"
+    },
+    "title": {
+      "translate": "The Job Centre Ships Out"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 320 villager workstations (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_workstation_freight_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_workstation_freight_6"
+  }
+}

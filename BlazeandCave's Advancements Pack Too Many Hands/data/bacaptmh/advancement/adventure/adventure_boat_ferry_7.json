@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_chest_boat"
+    },
+    "title": {
+      "translate": "Chest Boats for Strangers"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 750 boats (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_boat_ferry_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_boat_ferry_7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_concrete"
+    },
+    "title": {
+      "translate": "Below the Islands"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill another player below Y=10 in the End 15 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_void_shoves_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_void_shoves_3"
+  }
+}

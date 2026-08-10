@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_gold_block"
+    },
+    "title": {
+      "translate": "Bullion Buddies"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand 2 Raw Gold or Raw Copper Blocks to another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/mr_bean",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_bullion_freight_1"
+  }
+}

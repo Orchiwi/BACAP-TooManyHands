@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_boat"
+    },
+    "title": {
+      "translate": "Ferry Service, One Way"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 140 boats (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_boat_ferry_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_boat_ferry_5"
+  }
+}

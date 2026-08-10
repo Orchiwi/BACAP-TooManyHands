@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick_stairs"
+    },
+    "title": {
+      "translate": "Fortress Agriculture"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed Nether Wart inside a Nether Fortress 5,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_wart_supply_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_wart_supply_9"
+  }
+}

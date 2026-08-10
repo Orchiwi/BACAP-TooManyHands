@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blackstone"
+    },
+    "title": {
+      "translate": "Blackstone Executioner"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 250 players with a Netherite Axe (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_netherite_axe_kills_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_netherite_axe_kills_6"
+  }
+}

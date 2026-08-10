@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chain"
+    },
+    "title": {
+      "translate": "A Rope Around the World"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 50,000 Leads from another player's hand (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_lead_relay_12",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_lead_relay_13"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mangrove_slab"
+    },
+    "title": {
+      "translate": "The Half-Height Handoff"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 500 wooden slabs dropped by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_wood_slab_relay_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_wood_slab_relay_7"
+  }
+}

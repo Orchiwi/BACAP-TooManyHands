@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "High Air, Hard Landing"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be wounded by another player above Y=150 in the End 750 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_skyfall_hits_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_skyfall_hits_7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_fence"
+    },
+    "title": {
+      "translate": "Rails Around the Estate"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 32 or more Fences or Fence Gates 150 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_fence_freight_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_fence_freight_6"
+  }
+}

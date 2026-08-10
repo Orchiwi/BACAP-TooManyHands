@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fletching_table"
+    },
+    "title": {
+      "translate": "Long Shots, Longer Ledger"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 260 bows enchanted with Power V from another player's hand (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_power_shipments_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_power_shipments_7"
+  }
+}

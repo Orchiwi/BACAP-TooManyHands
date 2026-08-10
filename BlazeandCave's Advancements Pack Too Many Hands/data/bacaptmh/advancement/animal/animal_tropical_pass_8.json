@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_coral"
+    },
+    "title": {
+      "translate": "Every Reef Shared"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand Tropical Fish or Pufferfish to other players 1,200 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_tropical_pass_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_tropical_pass_8"
+  }
+}

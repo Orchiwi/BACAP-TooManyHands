@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow"
+    },
+    "title": {
+      "translate": "Trap Supply Run"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand 40 Powder Snow Buckets to another player on a snowy slope (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_powder_pass_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_powder_pass_3"
+  }
+}

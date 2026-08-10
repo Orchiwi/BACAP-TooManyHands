@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_spawn_egg"
+    },
+    "title": {
+      "translate": "Arachnophobia, Misdirected"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 800 hits on another player with a weapon enchanted with Bane of Arthropods V (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_arthropod_blows_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_arthropod_blows_6"
+  }
+}

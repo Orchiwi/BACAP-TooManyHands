@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_stained_glass_pane"
+    },
+    "title": {
+      "translate": "Panes Beyond Counting"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 32 or more Glass Panes 3,600 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_pane_dispatch_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_pane_dispatch_10"
+  }
+}

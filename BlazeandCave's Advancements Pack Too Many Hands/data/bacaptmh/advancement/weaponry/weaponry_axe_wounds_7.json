@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_spruce_log"
+    },
+    "title": {
+      "translate": "Practice Log of the Realm"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be split by another player's Axe 1,000 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_axe_wounds_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_axe_wounds_7"
+  }
+}

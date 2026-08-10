@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_stained_glass"
+    },
+    "title": {
+      "translate": "Every Window in the World"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 32 or more Glass by another player 950,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_glass_relay_17",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_glass_relay_18"
+  }
+}

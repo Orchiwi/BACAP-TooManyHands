@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fletching_table"
+    },
+    "title": {
+      "translate": "Fletchers Work Overtime"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 100,000 pieces of ammunition thrown to you by other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_ammo_pickups_13",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_ammo_pickups_14"
+  }
+}

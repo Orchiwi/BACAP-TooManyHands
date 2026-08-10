@@ -1,0 +1,35 @@
+{
+  "parent": "blazeandcave:redstone/the_incredible_sculk",
+  "criteria": {
+    "sculk_in_hand": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sculk",
+            "minecraft:sculk_vein",
+            "minecraft:sculk_catalyst",
+            "minecraft:sculk_shrieker"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/redstone_sculk_hauling_doorbell"
+  }
+}

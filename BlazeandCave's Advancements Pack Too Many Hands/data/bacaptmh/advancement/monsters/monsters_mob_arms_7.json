@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pillager_spawn_egg"
+    },
+    "title": {
+      "translate": "Mistaken for the Enemy"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Suffer 1000 strikes from players kitted out as monsters (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_mob_arms_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_mob_arms_7"
+  }
+}

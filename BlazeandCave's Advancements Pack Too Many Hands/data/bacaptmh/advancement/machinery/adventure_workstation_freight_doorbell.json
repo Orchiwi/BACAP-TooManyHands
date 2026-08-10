@@ -1,0 +1,38 @@
+{
+  "parent": "blazeandcave:adventure/town_planner",
+  "criteria": {
+    "handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:composter",
+            "minecraft:barrel",
+            "minecraft:smoker",
+            "minecraft:blast_furnace",
+            "minecraft:cartography_table",
+            "minecraft:fletching_table",
+            "minecraft:lectern",
+            "minecraft:loom",
+            "minecraft:smithing_table",
+            "minecraft:stonecutter",
+            "minecraft:brewing_stand",
+            "minecraft:cauldron",
+            "minecraft:grindstone"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/adventure_workstation_freight_doorbell"
+  }
+}

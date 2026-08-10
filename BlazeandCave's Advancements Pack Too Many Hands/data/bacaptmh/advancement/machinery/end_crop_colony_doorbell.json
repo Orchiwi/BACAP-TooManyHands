@@ -1,0 +1,37 @@
+{
+  "parent": "blazeandcave:end/in_your_face_neil_armstrong",
+  "criteria": {
+    "crops_passed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potato",
+            "minecraft:baked_potato",
+            "minecraft:poisonous_potato",
+            "minecraft:carrot",
+            "minecraft:wheat_seeds",
+            "minecraft:beetroot_seeds",
+            "minecraft:wheat"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_crop_colony_doorbell"
+  }
+}

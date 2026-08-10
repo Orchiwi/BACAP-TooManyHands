@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobweb"
+    },
+    "title": {
+      "translate": "Bane Of The Wrong Species"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Land 50 hits on another player with a weapon enchanted with Bane of Arthropods V (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_arthropod_blows_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_arthropod_blows_2"
+  }
+}

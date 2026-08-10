@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_blackstone"
+    },
+    "title": {
+      "translate": "Two Thieves, One Wall"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Gilded Blackstone from another player inside a Bastion Remnant 50 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_gilded_split_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_gilded_split_3"
+  }
+}

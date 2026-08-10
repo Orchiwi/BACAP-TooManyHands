@@ -1,0 +1,35 @@
+{
+  "parent": "blazeandcave:building/pathways",
+  "criteria": {
+    "groundwork_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:dirt",
+            "minecraft:coarse_dirt",
+            "minecraft:rooted_dirt",
+            "minecraft:podzol",
+            "minecraft:grass_block",
+            "minecraft:mycelium",
+            "minecraft:dirt_path"
+          ],
+          "count": {
+            "min": 64
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_groundwork_haul_doorbell"
+  }
+}

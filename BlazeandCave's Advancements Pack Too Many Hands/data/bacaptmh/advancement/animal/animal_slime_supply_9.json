@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:green_dye"
+    },
+    "title": {
+      "translate": "Slimeball Syndicate"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 2,500 Slimeballs from another player's hand (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_slime_supply_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_slime_supply_9"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vex_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Ghost of the Guest Wing"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be defeated by another player 1,800 times inside a Woodland Mansion (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_mansion_deaths_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_mansion_deaths_9"
+  }
+}

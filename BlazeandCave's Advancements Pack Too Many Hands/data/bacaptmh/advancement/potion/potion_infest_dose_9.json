@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skull_pottery_sherd"
+    },
+    "title": {
+      "translate": "The Swarm Within"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be given Infested by another player 2,750 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_infest_dose_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_infest_dose_9"
+  }
+}

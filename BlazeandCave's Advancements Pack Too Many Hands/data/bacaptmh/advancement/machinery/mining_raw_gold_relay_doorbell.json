@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:mining/gold_miner",
+  "criteria": {
+    "raw_gold_handoff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:raw_gold"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/mining_raw_gold_relay_doorbell"
+  }
+}

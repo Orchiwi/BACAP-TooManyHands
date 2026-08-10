@@ -1,0 +1,32 @@
+{
+  "parent": "blazeandcave:nether/the_struggle_nether_ends",
+  "criteria": {
+    "fitting_bundle_taken": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:nether_brick_slab",
+            "minecraft:nether_brick_stairs",
+            "minecraft:nether_brick_wall",
+            "minecraft:nether_brick_fence"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_brick_fittings_doorbell"
+  }
+}

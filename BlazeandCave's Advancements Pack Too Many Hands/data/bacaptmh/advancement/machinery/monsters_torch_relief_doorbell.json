@@ -1,0 +1,35 @@
+{
+  "parent": "blazeandcave:monsters/night_runner",
+  "criteria": {
+    "gave_the_light": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:torch",
+            "minecraft:soul_torch",
+            "minecraft:lantern",
+            "minecraft:soul_lantern"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_torch_relief_doorbell"
+  }
+}

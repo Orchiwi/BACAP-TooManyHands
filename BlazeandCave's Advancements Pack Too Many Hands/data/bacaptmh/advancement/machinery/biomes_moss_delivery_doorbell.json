@@ -1,0 +1,33 @@
+{
+  "parent": "blazeandcave:biomes/pale_in_comparison",
+  "criteria": {
+    "moss_handoff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pale_moss_block",
+            "minecraft:pale_moss_carpet",
+            "minecraft:pale_hanging_moss"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:pale_garden"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_moss_delivery_doorbell"
+  }
+}

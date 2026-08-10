@@ -1,0 +1,36 @@
+{
+  "parent": "blazeandcave:building/cut_in_half",
+  "criteria": {
+    "wood_slab_handoff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:oak_slab",
+            "minecraft:spruce_slab",
+            "minecraft:birch_slab",
+            "minecraft:jungle_slab",
+            "minecraft:acacia_slab",
+            "minecraft:dark_oak_slab",
+            "minecraft:mangrove_slab",
+            "minecraft:cherry_slab",
+            "minecraft:pale_oak_slab",
+            "minecraft:bamboo_slab",
+            "minecraft:bamboo_mosaic_slab"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_wood_slab_relay_doorbell"
+  }
+}

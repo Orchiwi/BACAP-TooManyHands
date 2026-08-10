@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "Six Thousand Misidentifications"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 6,400 hits on another player with a weapon enchanted with Bane of Arthropods V (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_arthropod_blows_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_arthropod_blows_9"
+  }
+}

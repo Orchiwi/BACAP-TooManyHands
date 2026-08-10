@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:green_banner"
+    },
+    "title": {
+      "translate": "Nobody Marches Under My Own"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 1,700 banners (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_banner_parade_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_banner_parade_8"
+  }
+}

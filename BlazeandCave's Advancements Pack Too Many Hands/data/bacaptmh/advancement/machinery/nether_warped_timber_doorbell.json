@@ -1,0 +1,35 @@
+{
+  "parent": "blazeandcave:nether/welcome_to_warp_zone",
+  "criteria": {
+    "warped_log": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:warped_stem",
+            "minecraft:warped_hyphae",
+            "minecraft:stripped_warped_stem",
+            "minecraft:warped_planks"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether",
+            "biomes": "minecraft:warped_forest"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_warped_timber_doorbell"
+  }
+}

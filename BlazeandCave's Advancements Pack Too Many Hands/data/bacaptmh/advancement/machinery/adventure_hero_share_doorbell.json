@@ -1,0 +1,30 @@
+{
+  "parent": "blazeandcave:adventure/veteran_of_the_village",
+  "criteria": {
+    "hailed_by_a_friend": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:hero_of_the_village": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/adventure_hero_share_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dried_ghast"
+    },
+    "title": {
+      "translate": "Nothing Left to Cry With"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Lob a Ghast Tear across five blocks to another player 300,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_ghast_tear_toll_13",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_ghast_tear_toll_14"
+  }
+}

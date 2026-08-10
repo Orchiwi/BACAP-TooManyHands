@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_sand"
+    },
+    "title": {
+      "translate": "The Suspicion Trade"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 3,800 suspicious blocks (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_dig_site_supply_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_dig_site_supply_9"
+  }
+}

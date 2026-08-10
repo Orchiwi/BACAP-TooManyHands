@@ -1,0 +1,28 @@
+{
+  "parent": "blazeandcave:monsters/handsome_jack",
+  "criteria": {
+    "caught_the_gold": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gold_nugget",
+            "minecraft:gold_ingot",
+            "minecraft:raw_gold"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_gold_scrap_doorbell"
+  }
+}

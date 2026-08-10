@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_brick_slab"
+    },
+    "title": {
+      "translate": "Cut Down the Middle Together"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 60 stone slabs dropped by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_stone_slab_relay_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stone_slab_relay_4"
+  }
+}

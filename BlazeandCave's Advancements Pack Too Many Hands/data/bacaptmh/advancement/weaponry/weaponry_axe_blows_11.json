@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_oak_log"
+    },
+    "title": {
+      "translate": "Splinters Without End"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 15,000 Axe blows on other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_axe_blows_10",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_axe_blows_11"
+  }
+}

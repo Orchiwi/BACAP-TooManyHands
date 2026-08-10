@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mushroom_stew"
+    },
+    "title": {
+      "translate": "Stew for the Whole Island"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand 1,800 mushrooms to another player on Mushroom Fields (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_mushroom_mail_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_mushroom_mail_7"
+  }
+}

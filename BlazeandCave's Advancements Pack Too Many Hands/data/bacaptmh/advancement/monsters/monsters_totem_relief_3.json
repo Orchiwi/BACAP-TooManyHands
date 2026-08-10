@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:evoker_fangs"
+    },
+    "title": {
+      "translate": "Undying Charity"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pass 50 totems into somebody else's inventory (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_totem_relief_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_totem_relief_3"
+  }
+}

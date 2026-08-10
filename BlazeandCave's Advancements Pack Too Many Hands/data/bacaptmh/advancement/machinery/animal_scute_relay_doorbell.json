@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:animal/turtle_army",
+  "criteria": {
+    "scutes_handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:turtle_scute",
+            "minecraft:armadillo_scute"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_scute_relay_doorbell"
+  }
+}

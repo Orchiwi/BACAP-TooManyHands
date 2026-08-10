@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate"
+    },
+    "title": {
+      "translate": "Louder Than the Warden"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Catch 80,000 Echo Shards thrown to you by another player in the Deep Dark (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_echo_handoff_11",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_echo_handoff_12"
+  }
+}

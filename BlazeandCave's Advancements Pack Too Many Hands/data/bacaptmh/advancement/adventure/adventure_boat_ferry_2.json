@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_boat"
+    },
+    "title": {
+      "translate": "The Shipyard Keeps Nothing"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 10 boats (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_boat_ferry_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_boat_ferry_2"
+  }
+}

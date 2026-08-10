@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "A Grave Beneath a Grave"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be killed by another player in the Deep Dark 1,500 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_deep_dark_deaths_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_deep_dark_deaths_7"
+  }
+}

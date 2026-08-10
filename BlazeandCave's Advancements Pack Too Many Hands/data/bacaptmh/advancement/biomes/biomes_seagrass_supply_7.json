@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:kelp"
+    },
+    "title": {
+      "translate": "Herbivores Anonymous"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch 2,000 Seagrass thrown to you by another player in the open ocean (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_seagrass_supply_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_seagrass_supply_7"
+  }
+}

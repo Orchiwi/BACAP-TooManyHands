@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_wool"
+    },
+    "title": {
+      "translate": "Buried Under Someone's Floorboards"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be defeated by another player 780 times inside a Woodland Mansion (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_mansion_deaths_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_mansion_deaths_8"
+  }
+}

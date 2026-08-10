@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick_wall"
+    },
+    "title": {
+      "translate": "Fractured Facade"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player Chiseled or Cracked Nether Bricks 175 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_brick_masonry_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_brick_masonry_6"
+  }
+}

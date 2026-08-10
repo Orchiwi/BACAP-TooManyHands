@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_hoe"
+    },
+    "title": {
+      "translate": "The Toolbox Duel"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Whack another builder with a Wooden Shovel 220 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_site_horseplay_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_site_horseplay_6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_boat"
+    },
+    "title": {
+      "translate": "The Jungle Runs on Sugar"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand 10,000 Cocoa Beans to another player in a jungle (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_cocoa_convoy_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_cocoa_convoy_9"
+  }
+}

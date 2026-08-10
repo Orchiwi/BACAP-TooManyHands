@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blade_pottery_sherd"
+    },
+    "title": {
+      "translate": "Sky Of Broken Glass"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hurt another player with a thrown Splash Potion 10,000,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_bombardier_18",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_bombardier_19"
+  }
+}

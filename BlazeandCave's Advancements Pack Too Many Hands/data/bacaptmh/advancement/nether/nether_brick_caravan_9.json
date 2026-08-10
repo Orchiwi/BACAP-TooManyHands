@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_nether_brick_stairs"
+    },
+    "title": {
+      "translate": "The Second Fortress"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player a full stack of Nether Bricks in the Nether 5,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_brick_caravan_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_brick_caravan_9"
+  }
+}

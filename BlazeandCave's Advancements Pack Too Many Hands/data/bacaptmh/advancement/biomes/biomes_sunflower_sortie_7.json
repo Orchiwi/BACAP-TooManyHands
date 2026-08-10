@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_dye"
+    },
+    "title": {
+      "translate": "The Plains Florist"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand 1,800 tall flowers to another player on the plains (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_sunflower_sortie_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_sunflower_sortie_7"
+  }
+}

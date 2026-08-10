@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "Everyone Is On Fire"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 640 hits on another player with a weapon enchanted with Fire Aspect II (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_scorching_strikes_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_scorching_strikes_6"
+  }
+}

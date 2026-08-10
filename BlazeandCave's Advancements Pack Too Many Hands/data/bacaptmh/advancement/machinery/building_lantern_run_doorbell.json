@@ -1,0 +1,39 @@
+{
+  "parent": "blazeandcave:building/festival_of_lights",
+  "criteria": {
+    "lanterns_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:lantern",
+            "minecraft:soul_lantern",
+            "minecraft:jack_o_lantern",
+            "minecraft:copper_lantern",
+            "minecraft:exposed_copper_lantern",
+            "minecraft:weathered_copper_lantern",
+            "minecraft:oxidized_copper_lantern",
+            "minecraft:waxed_copper_lantern",
+            "minecraft:waxed_exposed_copper_lantern",
+            "minecraft:waxed_weathered_copper_lantern",
+            "minecraft:waxed_oxidized_copper_lantern"
+          ],
+          "count": {
+            "min": 8
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_lantern_run_doorbell"
+  }
+}

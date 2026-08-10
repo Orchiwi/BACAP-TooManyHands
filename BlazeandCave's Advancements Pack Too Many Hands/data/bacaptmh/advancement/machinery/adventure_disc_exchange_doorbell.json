@@ -1,0 +1,45 @@
+{
+  "parent": "blazeandcave:adventure/disc_jockey",
+  "criteria": {
+    "handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:music_disc_13",
+            "minecraft:music_disc_cat",
+            "minecraft:music_disc_blocks",
+            "minecraft:music_disc_chirp",
+            "minecraft:music_disc_far",
+            "minecraft:music_disc_mall",
+            "minecraft:music_disc_mellohi",
+            "minecraft:music_disc_stal",
+            "minecraft:music_disc_strad",
+            "minecraft:music_disc_ward",
+            "minecraft:music_disc_11",
+            "minecraft:music_disc_wait",
+            "minecraft:music_disc_otherside",
+            "minecraft:music_disc_5",
+            "minecraft:music_disc_pigstep",
+            "minecraft:music_disc_relic",
+            "minecraft:music_disc_creator",
+            "minecraft:music_disc_creator_music_box",
+            "minecraft:music_disc_precipice",
+            "minecraft:music_disc_lava_chicken"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/adventure_disc_exchange_doorbell"
+  }
+}

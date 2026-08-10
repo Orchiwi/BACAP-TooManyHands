@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_mangrove_log"
+    },
+    "title": {
+      "translate": "The Timber Cartel"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 16 or more Logs by another player 340,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_timber_relay_16",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_timber_relay_17"
+  }
+}

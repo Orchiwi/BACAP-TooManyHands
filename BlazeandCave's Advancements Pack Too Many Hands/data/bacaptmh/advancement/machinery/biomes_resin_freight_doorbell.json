@@ -1,0 +1,36 @@
+{
+  "parent": "blazeandcave:biomes/le_creak_cest_chic",
+  "criteria": {
+    "resin_haul": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:resin_clump",
+            "minecraft:resin_brick",
+            "minecraft:resin_block",
+            "minecraft:resin_bricks"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:pale_garden"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_resin_freight_doorbell"
+  }
+}

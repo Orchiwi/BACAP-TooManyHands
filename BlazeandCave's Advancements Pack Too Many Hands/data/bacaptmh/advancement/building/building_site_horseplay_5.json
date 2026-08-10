@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_axe"
+    },
+    "title": {
+      "translate": "Two Builders, One Grudge"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Whack another builder with a Wooden Shovel 95 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_site_horseplay_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_site_horseplay_5"
+  }
+}

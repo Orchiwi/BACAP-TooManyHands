@@ -1,0 +1,33 @@
+{
+  "parent": "blazeandcave:nether/limbo_walker",
+  "criteria": {
+    "roof_hit_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether",
+            "position": {
+              "y": {
+                "min": 128
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_pvp_roof_hits_doorbell"
+  }
+}

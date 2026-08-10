@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lime_dye"
+    },
+    "title": {
+      "translate": "Sixteen Shades, Two Hands"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Dye from another player in the End 120 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_dye_exchange_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_dye_exchange_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_stairs"
+    },
+    "title": {
+      "translate": "Landing After Landing"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 16 or more Wooden Stairs by another player 95 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_stair_carry_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stair_carry_5"
+  }
+}

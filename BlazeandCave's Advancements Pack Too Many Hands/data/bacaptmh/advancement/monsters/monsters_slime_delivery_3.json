@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_spawn_egg"
+    },
+    "title": {
+      "translate": "Gelatinous Delivery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Receive 50 slime drops without squashing a cube (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_slime_delivery_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_slime_delivery_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magenta_shulker_box"
+    },
+    "title": {
+      "translate": "Boxes Beyond Counting"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 760,000 Shulker Shells by other players in the End (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_shell_consignments_16",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_shell_consignments_17"
+  }
+}

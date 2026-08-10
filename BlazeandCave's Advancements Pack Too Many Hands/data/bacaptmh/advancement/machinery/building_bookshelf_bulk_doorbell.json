@@ -1,0 +1,33 @@
+{
+  "parent": "blazeandcave:building/writers_block",
+  "criteria": {
+    "shelving_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:bookshelf",
+            "minecraft:chiseled_bookshelf",
+            "minecraft:lectern",
+            "minecraft:book",
+            "minecraft:written_book"
+          ],
+          "count": {
+            "min": 8
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_bookshelf_bulk_doorbell"
+  }
+}

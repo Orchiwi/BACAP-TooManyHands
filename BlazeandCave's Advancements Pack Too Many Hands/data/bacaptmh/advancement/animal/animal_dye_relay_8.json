@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sheep_spawn_egg"
+    },
+    "title": {
+      "translate": "Every Sheep a Colour"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand Dyes to other players 2,600 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_dye_relay_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_dye_relay_8"
+  }
+}

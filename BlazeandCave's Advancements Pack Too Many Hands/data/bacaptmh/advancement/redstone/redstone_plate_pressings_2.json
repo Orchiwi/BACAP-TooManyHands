@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_pressure_plate"
+    },
+    "title": {
+      "translate": "Planks Underfoot"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take 10 wooden Pressure Plates thrown to you by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_plate_pressings_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_plate_pressings_2"
+  }
+}

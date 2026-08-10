@@ -1,0 +1,42 @@
+{
+  "parent": "blazeandcave:biomes/dolphin_dasher",
+  "criteria": {
+    "grass_relay": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:seagrass",
+            "minecraft:tall_seagrass"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:ocean",
+              "minecraft:deep_ocean",
+              "minecraft:lukewarm_ocean"
+            ],
+            "fluid": {
+              "fluids": [
+                "minecraft:water",
+                "minecraft:flowing_water"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_seagrass_supply_doorbell"
+  }
+}

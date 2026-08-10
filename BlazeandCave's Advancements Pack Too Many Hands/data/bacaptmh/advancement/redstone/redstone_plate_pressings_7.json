@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_pressure_plate"
+    },
+    "title": {
+      "translate": "Trodden Together"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 500 wooden Pressure Plates thrown to you by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_plate_pressings_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_plate_pressings_7"
+  }
+}

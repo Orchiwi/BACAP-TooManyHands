@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:andesite"
+    },
+    "title": {
+      "translate": "Two Picks Enter"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hit another player while holding a Pickaxe 175,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_pickaxe_duel_14",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_pickaxe_duel_15"
+  }
+}

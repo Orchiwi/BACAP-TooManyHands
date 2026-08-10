@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_stairs"
+    },
+    "title": {
+      "translate": "Crimson Lumber Company"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Crimson wood from another player's hand in a Crimson Forest 500 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_crimson_timber_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_crimson_timber_6"
+  }
+}

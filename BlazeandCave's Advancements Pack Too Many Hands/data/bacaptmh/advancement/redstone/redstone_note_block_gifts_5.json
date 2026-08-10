@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clay"
+    },
+    "title": {
+      "translate": "Duet Materials"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Throw 105 Note Blocks for another player to pick up (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_note_block_gifts_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_note_block_gifts_5"
+  }
+}

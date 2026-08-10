@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_hoe"
+    },
+    "title": {
+      "translate": "Sown and Reaped"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player with a Hoe 1,600 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_harvest_reaper_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_harvest_reaper_9"
+  }
+}

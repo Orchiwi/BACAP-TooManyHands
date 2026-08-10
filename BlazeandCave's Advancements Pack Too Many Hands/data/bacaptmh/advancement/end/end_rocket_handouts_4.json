@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star"
+    },
+    "title": {
+      "translate": "Powered by Generosity"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand Firework Rockets to another player in the End 70 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_rocket_handouts_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_rocket_handouts_4"
+  }
+}

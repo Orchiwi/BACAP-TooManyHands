@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piston"
+    },
+    "title": {
+      "translate": "Grandmaster of the Recoiling Ribs"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be struck 10,400 times by another player wielding a Knockback II weapon (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_knockback_shoves_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_knockback_shoves_10"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_planks"
+    },
+    "title": {
+      "translate": "Jungle Confectionery"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand 300 Cocoa Beans to another player in a jungle (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_cocoa_convoy_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_cocoa_convoy_5"
+  }
+}

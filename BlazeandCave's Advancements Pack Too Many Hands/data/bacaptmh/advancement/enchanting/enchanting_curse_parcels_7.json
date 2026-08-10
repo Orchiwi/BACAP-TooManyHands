@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trapped_chest"
+    },
+    "title": {
+      "translate": "Every Box Is A Trap"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 200 cursed items (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_curse_parcels_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_curse_parcels_7"
+  }
+}

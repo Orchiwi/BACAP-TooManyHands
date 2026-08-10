@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:enchanting/zeus",
+  "criteria": {
+    "called_down": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "direct_entity": {
+            "entity_type": "minecraft:lightning_bolt"
+          },
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/enchanting_channeling_storms_doorbell"
+  }
+}

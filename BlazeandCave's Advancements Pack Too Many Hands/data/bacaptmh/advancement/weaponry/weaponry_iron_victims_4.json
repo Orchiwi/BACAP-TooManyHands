@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots"
+    },
+    "title": {
+      "translate": "Ferrous Feud"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hit players wearing full Iron armour 100 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_iron_victims_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_iron_victims_4"
+  }
+}

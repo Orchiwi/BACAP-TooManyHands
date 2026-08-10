@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_tiles"
+    },
+    "title": {
+      "translate": "The Deepslate Dispatch"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Cobbled Deepslate thrown to you by another player 350 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_deepslate_delivery_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_deepslate_delivery_5"
+  }
+}

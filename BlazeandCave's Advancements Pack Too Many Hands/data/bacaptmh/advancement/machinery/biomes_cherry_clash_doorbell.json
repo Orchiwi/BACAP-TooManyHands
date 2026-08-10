@@ -1,0 +1,30 @@
+{
+  "parent": "blazeandcave:biomes/for_you_my_sweet",
+  "criteria": {
+    "blossom_beating": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:cherry_grove"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_cherry_clash_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_blackstone_bricks"
+    },
+    "title": {
+      "translate": "The Bastion Belongs to Me"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill 250 players inside a Bastion Remnant (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_pvp_bastion_kills_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_pvp_bastion_kills_6"
+  }
+}

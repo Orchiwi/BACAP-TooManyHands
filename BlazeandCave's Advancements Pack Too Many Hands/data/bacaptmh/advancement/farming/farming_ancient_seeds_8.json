@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pitcher_plant"
+    },
+    "title": {
+      "translate": "Curator of Old Seeds"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand Torchflower Seeds or Pitcher Pods to another player 400 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_ancient_seeds_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_ancient_seeds_8"
+  }
+}

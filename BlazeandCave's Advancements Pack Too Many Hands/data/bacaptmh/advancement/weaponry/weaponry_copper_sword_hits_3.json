@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:exposed_copper"
+    },
+    "title": {
+      "translate": "Oxidised Aggression"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Land 50 Copper Sword blows on other players (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_copper_sword_hits_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_copper_sword_hits_3"
+  }
+}

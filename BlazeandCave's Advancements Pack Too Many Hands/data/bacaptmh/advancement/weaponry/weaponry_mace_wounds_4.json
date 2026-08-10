@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cyan_dye"
+    },
+    "title": {
+      "translate": "Bruises From Above"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be crushed by another player's Mace 50 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_mace_wounds_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_mace_wounds_4"
+  }
+}

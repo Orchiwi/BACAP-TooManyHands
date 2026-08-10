@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pressure_plate"
+    },
+    "title": {
+      "translate": "The Attentive Sleeper"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand 20 Detector Rails to another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_detector_rail_relay_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_detector_rail_relay_2"
+  }
+}

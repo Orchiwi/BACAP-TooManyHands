@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Grandmaster of the Impaling Throw"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player 1,600 times with a Trident enchanted with Impaling V (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_impaling_duels_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_impaling_duels_10"
+  }
+}

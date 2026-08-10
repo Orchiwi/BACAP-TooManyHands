@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lilac"
+    },
+    "title": {
+      "translate": "Two Blocks of Bloom"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand 25 tall flowers to another player on the plains (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_sunflower_sortie_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_sunflower_sortie_2"
+  }
+}

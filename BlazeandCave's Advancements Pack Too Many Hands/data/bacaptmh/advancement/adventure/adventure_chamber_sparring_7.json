@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vault"
+    },
+    "title": {
+      "translate": "Every Vault Heard That"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hit another player 880 times inside a Trial Chamber (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_chamber_sparring_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_chamber_sparring_7"
+  }
+}

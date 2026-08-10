@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gray_concrete"
+    },
+    "title": {
+      "translate": "Mountains of Filler"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have another player pick up Gravel you threw 15,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_gravel_gift_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_gravel_gift_10"
+  }
+}

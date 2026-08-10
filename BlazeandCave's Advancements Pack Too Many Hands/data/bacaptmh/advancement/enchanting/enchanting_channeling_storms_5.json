@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper"
+    },
+    "title": {
+      "translate": "Thirty-Two Thunderclaps"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be struck 32 times by lightning called down by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_channeling_storms_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_channeling_storms_5"
+  }
+}

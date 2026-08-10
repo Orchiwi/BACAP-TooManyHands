@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_basalt"
+    },
+    "title": {
+      "translate": "Grey Rock, Two Hands"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Basalt from another player's hand in the Basalt Deltas 50 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_basalt_freight_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_basalt_freight_3"
+  }
+}

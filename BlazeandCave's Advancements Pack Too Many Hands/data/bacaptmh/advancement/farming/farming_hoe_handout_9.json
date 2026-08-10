@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_hoe"
+    },
+    "title": {
+      "translate": "Arming the Peasantry"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed a Hoe by another player 2,500 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_hoe_handout_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_hoe_handout_9"
+  }
+}

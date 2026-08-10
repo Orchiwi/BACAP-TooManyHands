@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_basalt"
+    },
+    "title": {
+      "translate": "A Thousand Grey Spires"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Basalt from another player's hand in the Basalt Deltas 1,000 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_basalt_freight_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_basalt_freight_7"
+  }
+}

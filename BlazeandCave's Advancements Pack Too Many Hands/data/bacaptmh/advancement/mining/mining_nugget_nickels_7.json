@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_weighted_pressure_plate"
+    },
+    "title": {
+      "translate": "Petty Cash Underground"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Iron, Gold or Copper Nuggets thrown to you by another player 1,750 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_nugget_nickels_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_nugget_nickels_7"
+  }
+}

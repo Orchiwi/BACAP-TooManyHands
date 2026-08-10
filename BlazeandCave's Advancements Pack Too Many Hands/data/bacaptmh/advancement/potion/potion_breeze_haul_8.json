@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flow_pottery_sherd"
+    },
+    "title": {
+      "translate": "Every Breeze Died For This"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 1,150 Breeze Rods thrown to you by another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_breeze_haul_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_breeze_haul_8"
+  }
+}

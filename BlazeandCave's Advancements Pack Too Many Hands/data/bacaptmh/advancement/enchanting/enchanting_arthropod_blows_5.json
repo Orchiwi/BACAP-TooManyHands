@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "The Exterminator's Confusion"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 400 hits on another player with a weapon enchanted with Bane of Arthropods V (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_arthropod_blows_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_arthropod_blows_5"
+  }
+}

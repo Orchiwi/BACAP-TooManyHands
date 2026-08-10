@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:drowned_spawn_egg"
+    },
+    "title": {
+      "translate": "Rancid Royalty"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Collect 175000 portions of rotten flesh handed over by others (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_flesh_ration_14",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_flesh_ration_15"
+  }
+}

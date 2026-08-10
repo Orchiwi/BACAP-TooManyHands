@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_spawn_egg"
+    },
+    "title": {
+      "translate": "Nobody Blows My Horn"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 32,000 Goat Horns (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_horn_signal_12",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_horn_signal_13"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:farming/hay_there",
+  "criteria": {
+    "hay_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wheat",
+            "minecraft:hay_block"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_hay_haul_doorbell"
+  }
+}

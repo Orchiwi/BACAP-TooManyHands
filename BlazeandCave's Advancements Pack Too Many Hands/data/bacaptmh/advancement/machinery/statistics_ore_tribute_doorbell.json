@@ -1,0 +1,39 @@
+{
+  "parent": "blazeandcave:statistics/xp_grinder",
+  "criteria": {
+    "collected_the_tribute": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_ingot",
+            "minecraft:gold_ingot",
+            "minecraft:copper_ingot",
+            "minecraft:diamond",
+            "minecraft:emerald",
+            "minecraft:netherite_ingot",
+            "minecraft:netherite_scrap",
+            "minecraft:ancient_debris",
+            "minecraft:lapis_lazuli",
+            "minecraft:amethyst_shard",
+            "minecraft:quartz",
+            "minecraft:raw_iron",
+            "minecraft:raw_gold",
+            "minecraft:raw_copper"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/statistics_ore_tribute_doorbell"
+  }
+}

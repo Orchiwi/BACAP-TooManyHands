@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_prismarine"
+    },
+    "title": {
+      "translate": "The Tide Turns On You"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 2500 blows with salvaged drowned gear (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_trident_duel_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_trident_duel_8"
+  }
+}

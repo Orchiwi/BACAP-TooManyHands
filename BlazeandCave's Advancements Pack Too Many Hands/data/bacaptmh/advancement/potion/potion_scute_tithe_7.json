@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "Nobody Goes Unshelled"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have another player pick up 520 Turtle Scutes that you threw (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_scute_tithe_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_scute_tithe_7"
+  }
+}

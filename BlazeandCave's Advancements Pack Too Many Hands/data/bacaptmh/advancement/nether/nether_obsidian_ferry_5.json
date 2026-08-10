@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ruined_portal_nether"
+    },
+    "title": {
+      "translate": "Stranded No More"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Obsidian from another player's hand in the Nether 250 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_obsidian_ferry_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_obsidian_ferry_5"
+  }
+}

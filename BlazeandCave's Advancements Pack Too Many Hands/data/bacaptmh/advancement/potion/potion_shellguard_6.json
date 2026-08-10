@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_boots"
+    },
+    "title": {
+      "translate": "The Armoured Loan"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be given Resistance by another player 250 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_shellguard_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_shellguard_6"
+  }
+}

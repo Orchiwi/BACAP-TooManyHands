@@ -1,0 +1,32 @@
+{
+  "parent": "blazeandcave:nether/what_a_fungi",
+  "criteria": {
+    "fungus_swap": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crimson_fungus",
+            "minecraft:warped_fungus"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 3
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_fungus_swap_doorbell"
+  }
+}

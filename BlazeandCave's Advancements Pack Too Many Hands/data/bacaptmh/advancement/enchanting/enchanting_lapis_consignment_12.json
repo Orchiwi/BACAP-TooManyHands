@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_block"
+    },
+    "title": {
+      "translate": "The Cobalt Ledger"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 32,768 Lapis Lazuli (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_lapis_consignment_11",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_lapis_consignment_12"
+  }
+}

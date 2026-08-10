@@ -1,0 +1,69 @@
+{
+  "parent": "blazeandcave:enchanting/bane_of_one_shotting_spiders",
+  "criteria": {
+    "wrong_phylum": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:diamond_sword",
+                    "minecraft:netherite_sword",
+                    "minecraft:wooden_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:diamond_axe",
+                    "minecraft:netherite_axe",
+                    "minecraft:trident",
+                    "minecraft:mace"
+                  ],
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:bane_of_arthropods",
+                        "levels": {
+                          "min": 5
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/enchanting_arthropod_blows_doorbell"
+  }
+}

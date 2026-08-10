@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_nether_bricks"
+    },
+    "title": {
+      "translate": "Brickmaster of the Waste"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take Nether Bricks from another player's hand in the Nether 2500 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_brick_item_relay_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_brick_item_relay_10"
+  }
+}

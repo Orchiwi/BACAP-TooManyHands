@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_glazed_terracotta"
+    },
+    "title": {
+      "translate": "A Cairn for Every Fall"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be killed by another player in a snowy biome 1,100,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_frozen_graves_14",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_frozen_graves_15"
+  }
+}

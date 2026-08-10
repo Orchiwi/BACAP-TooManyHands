@@ -1,0 +1,35 @@
+{
+  "parent": "blazeandcave:nether/ancient_restoration",
+  "criteria": {
+    "brick_caravan": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:nether_bricks",
+            "minecraft:red_nether_bricks"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_brick_caravan_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_planks"
+    },
+    "title": {
+      "translate": "A Stockpile of Other People's Luck"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 150 Totems of Undying by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_totem_relay_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_totem_relay_6"
+  }
+}

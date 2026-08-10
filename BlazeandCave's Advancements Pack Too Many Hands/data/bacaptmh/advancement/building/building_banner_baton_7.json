@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skull_banner_pattern"
+    },
+    "title": {
+      "translate": "Pattern After Pattern"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 8 or more Banners 340 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_banner_baton_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_banner_baton_7"
+  }
+}

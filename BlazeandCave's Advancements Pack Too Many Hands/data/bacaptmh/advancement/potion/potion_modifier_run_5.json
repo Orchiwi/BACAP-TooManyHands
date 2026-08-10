@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "The Tuning Supply"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have another player pick up 245 Glowstone Dust or Redstone that you threw (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_modifier_run_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_modifier_run_5"
+  }
+}

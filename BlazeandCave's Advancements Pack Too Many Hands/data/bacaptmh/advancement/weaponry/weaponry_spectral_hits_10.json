@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ochre_froglight"
+    },
+    "title": {
+      "translate": "Spectral Supremacy"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Mark other players 10,000 times with Spectral Arrows (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_spectral_hits_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_spectral_hits_10"
+  }
+}

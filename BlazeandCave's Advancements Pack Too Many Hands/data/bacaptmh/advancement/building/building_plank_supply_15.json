@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_planks"
+    },
+    "title": {
+      "translate": "The Joiners' Monopoly"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player a full stack of Planks 84,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_plank_supply_14",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_plank_supply_15"
+  }
+}

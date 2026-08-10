@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:farming/natural_fertiliser",
+  "criteria": {
+    "bone_meal_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_bone_meal_bag_doorbell"
+  }
+}

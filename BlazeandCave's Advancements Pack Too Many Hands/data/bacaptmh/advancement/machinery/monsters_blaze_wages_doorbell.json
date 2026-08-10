@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:monsters/hell_hunter",
+  "criteria": {
+    "caught_the_wages": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blaze_rod",
+            "minecraft:blaze_powder"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_blaze_wages_doorbell"
+  }
+}

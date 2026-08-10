@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:animal/tropical_collection",
+  "criteria": {
+    "reef_fish_handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish",
+            "minecraft:pufferfish"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_tropical_pass_doorbell"
+  }
+}

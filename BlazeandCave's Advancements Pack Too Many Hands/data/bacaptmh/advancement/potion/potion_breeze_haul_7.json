@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:guster_pottery_sherd"
+    },
+    "title": {
+      "translate": "The Wind Charging Supply"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 495 Breeze Rods thrown to you by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_breeze_haul_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_breeze_haul_7"
+  }
+}

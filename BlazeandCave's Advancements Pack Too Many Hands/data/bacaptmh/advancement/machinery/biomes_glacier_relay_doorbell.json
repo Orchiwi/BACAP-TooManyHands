@@ -1,0 +1,33 @@
+{
+  "parent": "blazeandcave:biomes/thin_ice",
+  "criteria": {
+    "ice_relay": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ice"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:ice_spikes"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_glacier_relay_doorbell"
+  }
+}

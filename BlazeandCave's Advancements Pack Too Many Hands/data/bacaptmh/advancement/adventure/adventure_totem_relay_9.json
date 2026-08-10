@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vex_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Death Deferred by Committee"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 1,800 Totems of Undying by another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_totem_relay_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_totem_relay_9"
+  }
+}

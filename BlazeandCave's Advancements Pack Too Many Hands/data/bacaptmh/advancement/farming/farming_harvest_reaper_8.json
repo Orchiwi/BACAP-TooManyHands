@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_hoe"
+    },
+    "title": {
+      "translate": "Harvest of Souls"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player with a Hoe 800 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_harvest_reaper_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_harvest_reaper_8"
+  }
+}

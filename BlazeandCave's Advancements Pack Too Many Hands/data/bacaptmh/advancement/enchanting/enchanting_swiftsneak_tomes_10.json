@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk"
+    },
+    "title": {
+      "translate": "Grandmaster of the Shared Hush"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 1,050 items enchanted with Swift Sneak from another player's hand (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_swiftsneak_tomes_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_swiftsneak_tomes_10"
+  }
+}

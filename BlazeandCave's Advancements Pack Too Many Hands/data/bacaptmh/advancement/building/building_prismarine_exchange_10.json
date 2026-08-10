@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_prismarine_stairs"
+    },
+    "title": {
+      "translate": "Emperors of the Seafloor"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 16 or more Prismarine 3,600 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_prismarine_exchange_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_prismarine_exchange_10"
+  }
+}

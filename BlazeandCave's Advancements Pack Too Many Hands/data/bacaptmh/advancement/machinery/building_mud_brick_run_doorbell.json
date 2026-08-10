@@ -1,0 +1,35 @@
+{
+  "parent": "blazeandcave:building/elmer_mudd",
+  "criteria": {
+    "mud_stock_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:mud",
+            "minecraft:packed_mud",
+            "minecraft:mud_bricks",
+            "minecraft:mud_brick_stairs",
+            "minecraft:mud_brick_slab",
+            "minecraft:mud_brick_wall",
+            "minecraft:muddy_mangrove_roots"
+          ],
+          "count": {
+            "min": 32
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_mud_brick_run_doorbell"
+  }
+}

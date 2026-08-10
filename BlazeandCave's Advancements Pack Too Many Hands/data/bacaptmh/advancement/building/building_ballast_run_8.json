@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_sand"
+    },
+    "title": {
+      "translate": "Beaches Moved Wholesale"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed a full stack of Gravel, Sand or Clay by another player 780 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_ballast_run_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_ballast_run_8"
+  }
+}

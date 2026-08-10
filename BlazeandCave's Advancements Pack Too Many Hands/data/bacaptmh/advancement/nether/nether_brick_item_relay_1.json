@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick"
+    },
+    "title": {
+      "translate": "Kiln Courier"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Nether Bricks from another player's hand in the Nether 10 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/basis_of_brewing",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_brick_item_relay_1"
+  }
+}

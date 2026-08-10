@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:redstone/electric_rails",
+  "criteria": {
+    "golden_rail_in_hand": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:powered_rail"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/redstone_golden_rail_handoff_doorbell"
+  }
+}

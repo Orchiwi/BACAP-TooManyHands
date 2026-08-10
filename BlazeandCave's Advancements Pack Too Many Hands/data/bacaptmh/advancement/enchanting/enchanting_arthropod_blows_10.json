@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_eye"
+    },
+    "title": {
+      "translate": "Grandmaster of the Wrong Phylum"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 12,800 hits on another player with a weapon enchanted with Bane of Arthropods V (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_arthropod_blows_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_arthropod_blows_10"
+  }
+}

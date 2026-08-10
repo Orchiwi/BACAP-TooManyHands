@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_banner"
+    },
+    "title": {
+      "translate": "Every Captain Needs a Sheet"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 140 banners (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_banner_parade_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_banner_parade_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "The Sculk Has Your Name"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Catch 50,000,000 Echo Shards thrown to you by another player in the Deep Dark (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_echo_handoff_19",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_echo_handoff_20"
+  }
+}

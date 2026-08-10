@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:activator_rail"
+    },
+    "title": {
+      "translate": "Under the Rails Together"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Throw 210 Hopper Minecarts for another player to pick up (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_hopper_cart_convoy_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_hopper_cart_convoy_6"
+  }
+}

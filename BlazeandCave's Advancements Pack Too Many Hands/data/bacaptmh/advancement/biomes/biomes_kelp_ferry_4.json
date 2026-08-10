@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:seagrass"
+    },
+    "title": {
+      "translate": "Fronds With Benefits"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand 150 Kelp to another player in a cold ocean (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_kelp_ferry_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_kelp_ferry_4"
+  }
+}

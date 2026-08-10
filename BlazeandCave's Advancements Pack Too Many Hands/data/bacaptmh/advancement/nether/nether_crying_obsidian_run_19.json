@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_portal"
+    },
+    "title": {
+      "translate": "Eight Million Ways Back"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take Crying Obsidian from another player in the Nether 8,000,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_crying_obsidian_run_18",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_crying_obsidian_run_19"
+  }
+}

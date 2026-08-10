@@ -1,0 +1,45 @@
+{
+  "parent": "blazeandcave:redstone/click",
+  "criteria": {
+    "buttons_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:stone_button",
+            "minecraft:polished_blackstone_button",
+            "minecraft:oak_button",
+            "minecraft:spruce_button",
+            "minecraft:birch_button",
+            "minecraft:jungle_button",
+            "minecraft:acacia_button",
+            "minecraft:dark_oak_button",
+            "minecraft:pale_oak_button",
+            "minecraft:mangrove_button",
+            "minecraft:cherry_button",
+            "minecraft:bamboo_button",
+            "minecraft:crimson_button",
+            "minecraft:warped_button"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/redstone_button_batch_doorbell"
+  }
+}

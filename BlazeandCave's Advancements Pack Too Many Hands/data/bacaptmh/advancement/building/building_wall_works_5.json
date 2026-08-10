@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:granite_wall"
+    },
+    "title": {
+      "translate": "Keep It Out"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 32 or more Wall blocks by another player 65 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_wall_works_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_wall_works_5"
+  }
+}

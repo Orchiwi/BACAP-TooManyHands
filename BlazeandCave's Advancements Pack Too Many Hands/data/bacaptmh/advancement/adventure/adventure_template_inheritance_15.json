@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flow_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Every Motif Was Handed Down"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 64,000 Smithing Templates by another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_template_inheritance_14",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_template_inheritance_15"
+  }
+}

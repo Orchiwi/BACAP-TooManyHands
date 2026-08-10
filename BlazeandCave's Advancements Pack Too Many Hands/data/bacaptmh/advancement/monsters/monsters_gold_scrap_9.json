@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_gold_block"
+    },
+    "title": {
+      "translate": "Rich Without Digging"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take in 5000 pieces of gold on somebody else's labour (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_gold_scrap_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_gold_scrap_9"
+  }
+}

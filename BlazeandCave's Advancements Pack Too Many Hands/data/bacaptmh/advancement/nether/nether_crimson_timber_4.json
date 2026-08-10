@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_crimson_stem"
+    },
+    "title": {
+      "translate": "The Red Forest Crew"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Crimson wood from another player's hand in a Crimson Forest 100 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_crimson_timber_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_crimson_timber_4"
+  }
+}

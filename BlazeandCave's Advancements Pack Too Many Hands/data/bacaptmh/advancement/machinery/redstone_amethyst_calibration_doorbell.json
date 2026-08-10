@@ -1,0 +1,34 @@
+{
+  "parent": "blazeandcave:redstone/calibration_sensation",
+  "criteria": {
+    "amethyst_in_hand": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:amethyst_shard",
+            "minecraft:amethyst_block",
+            "minecraft:amethyst_cluster"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/redstone_amethyst_calibration_doorbell"
+  }
+}

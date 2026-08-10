@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_door"
+    },
+    "title": {
+      "translate": "The Blue Forest Thins"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player Warped wood in a Warped Forest 2,500 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_warped_timber_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_warped_timber_8"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_stairs"
+    },
+    "title": {
+      "translate": "The Pink Beating"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take 150 hits from another player in a Cherry Grove (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_cherry_clash_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_cherry_clash_4"
+  }
+}

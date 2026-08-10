@@ -1,0 +1,33 @@
+{
+  "parent": "blazeandcave:monsters/camouflage",
+  "criteria": {
+    "gave_a_mask": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:carved_pumpkin",
+            "minecraft:jack_o_lantern"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_pumpkin_masks_doorbell"
+  }
+}

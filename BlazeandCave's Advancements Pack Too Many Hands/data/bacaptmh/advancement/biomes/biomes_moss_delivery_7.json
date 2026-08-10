@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_log"
+    },
+    "title": {
+      "translate": "Moss by the Cartload"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand 1,800 Pale Moss to another player in a Pale Garden (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_moss_delivery_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_moss_delivery_7"
+  }
+}

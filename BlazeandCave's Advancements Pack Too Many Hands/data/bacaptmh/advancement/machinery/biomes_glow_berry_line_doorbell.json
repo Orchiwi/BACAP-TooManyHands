@@ -1,0 +1,38 @@
+{
+  "parent": "blazeandcave:biomes/tarzan",
+  "criteria": {
+    "berry_relay": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glow_berries"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:lush_caves"
+            ],
+            "position": {
+              "y": {
+                "max": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_glow_berry_line_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blackstone_wall"
+    },
+    "title": {
+      "translate": "Black Walls, Two Hands"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 32 or more Blackstone by another player 150 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_blackstone_haul_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_blackstone_haul_6"
+  }
+}

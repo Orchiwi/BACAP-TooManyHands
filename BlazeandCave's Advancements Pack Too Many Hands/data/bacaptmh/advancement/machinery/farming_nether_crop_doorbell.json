@@ -1,0 +1,35 @@
+{
+  "parent": "blazeandcave:farming/hot_chocolate",
+  "criteria": {
+    "nether_crop_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:nether_wart",
+            "minecraft:nether_wart_block",
+            "minecraft:crimson_fungus",
+            "minecraft:warped_fungus",
+            "minecraft:shroomlight",
+            "minecraft:crimson_roots",
+            "minecraft:warped_roots",
+            "minecraft:nether_sprouts",
+            "minecraft:twisting_vines",
+            "minecraft:weeping_vines"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_nether_crop_doorbell"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "parent": "blazeandcave:building/slabs_for_days",
+  "criteria": {
+    "slabs_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:oak_slab",
+            "minecraft:spruce_slab",
+            "minecraft:birch_slab",
+            "minecraft:jungle_slab",
+            "minecraft:acacia_slab",
+            "minecraft:dark_oak_slab",
+            "minecraft:mangrove_slab",
+            "minecraft:cherry_slab",
+            "minecraft:pale_oak_slab",
+            "minecraft:bamboo_slab",
+            "minecraft:crimson_slab",
+            "minecraft:warped_slab",
+            "minecraft:bamboo_mosaic_slab",
+            "minecraft:stone_slab",
+            "minecraft:smooth_stone_slab",
+            "minecraft:cobblestone_slab",
+            "minecraft:mossy_cobblestone_slab",
+            "minecraft:stone_brick_slab",
+            "minecraft:mossy_stone_brick_slab",
+            "minecraft:granite_slab",
+            "minecraft:polished_granite_slab",
+            "minecraft:diorite_slab",
+            "minecraft:polished_diorite_slab",
+            "minecraft:andesite_slab",
+            "minecraft:polished_andesite_slab",
+            "minecraft:cobbled_deepslate_slab",
+            "minecraft:polished_deepslate_slab",
+            "minecraft:tuff_slab",
+            "minecraft:polished_tuff_slab",
+            "minecraft:tuff_brick_slab",
+            "minecraft:cut_sandstone_slab",
+            "minecraft:cut_red_sandstone_slab"
+          ],
+          "count": {
+            "min": 32
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_slab_shuttle_doorbell"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "blazeandcave:enchanting/curses",
+  "criteria": {
+    "cursed_gift": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": [
+                  "minecraft:binding_curse",
+                  "minecraft:vanishing_curse"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/enchanting_curse_parcels_doorbell"
+  }
+}

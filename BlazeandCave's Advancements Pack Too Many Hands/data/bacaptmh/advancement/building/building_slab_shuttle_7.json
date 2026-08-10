@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cut_sandstone_slab"
+    },
+    "title": {
+      "translate": "The Half-Block Economy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 32 or more Slabs 340 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_slab_shuttle_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_slab_shuttle_7"
+  }
+}

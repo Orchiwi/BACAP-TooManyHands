@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trapped_chest"
+    },
+    "title": {
+      "translate": "Ender Chest Diplomacy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a storage block from another player in the End 220 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_storage_convoy_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_storage_convoy_6"
+  }
+}

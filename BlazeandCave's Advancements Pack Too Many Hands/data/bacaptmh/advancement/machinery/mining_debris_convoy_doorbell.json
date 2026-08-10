@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:mining/i_yearned_for_the_mines",
+  "criteria": {
+    "received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ancient_debris"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/mining_debris_convoy_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fox_spawn_egg"
+    },
+    "title": {
+      "translate": "Fox Bribery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Berries from another player's hand 20 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_berry_basket_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_berry_basket_2"
+  }
+}

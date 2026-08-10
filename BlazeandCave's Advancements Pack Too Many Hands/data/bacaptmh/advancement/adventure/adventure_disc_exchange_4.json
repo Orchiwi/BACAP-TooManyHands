@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_stal"
+    },
+    "title": {
+      "translate": "Every Track Left My Hands"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 36 music discs (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_disc_exchange_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_disc_exchange_4"
+  }
+}

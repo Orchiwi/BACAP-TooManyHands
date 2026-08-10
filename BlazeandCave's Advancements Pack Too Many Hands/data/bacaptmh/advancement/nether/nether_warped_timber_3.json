@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_warped_stem"
+    },
+    "title": {
+      "translate": "Teal Trunks Traded"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player Warped wood in a Warped Forest 50 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_warped_timber_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_warped_timber_3"
+  }
+}

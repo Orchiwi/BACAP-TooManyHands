@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:redstone/moving_storage",
+  "criteria": {
+    "chest_cart_in_hand": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chest_minecart"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/redstone_chest_cart_handoff_doorbell"
+  }
+}

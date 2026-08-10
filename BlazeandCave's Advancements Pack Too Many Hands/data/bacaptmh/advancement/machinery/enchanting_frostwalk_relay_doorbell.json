@@ -1,0 +1,38 @@
+{
+  "parent": "blazeandcave:enchanting/let_it_go",
+  "criteria": {
+    "chilled_boots": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:frost_walker"
+              }
+            ]
+          },
+          "items": [
+            "minecraft:leather_boots",
+            "minecraft:chainmail_boots",
+            "minecraft:iron_boots",
+            "minecraft:golden_boots",
+            "minecraft:diamond_boots",
+            "minecraft:netherite_boots"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/enchanting_frostwalk_relay_doorbell"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "blazeandcave:building/fake_fortress",
+  "criteria": {
+    "nether_freight_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:nether_brick",
+            "minecraft:nether_bricks",
+            "minecraft:chiseled_nether_bricks",
+            "minecraft:cracked_nether_bricks",
+            "minecraft:red_nether_bricks",
+            "minecraft:nether_brick_stairs",
+            "minecraft:nether_brick_slab",
+            "minecraft:nether_brick_wall",
+            "minecraft:nether_brick_fence",
+            "minecraft:red_nether_brick_stairs",
+            "minecraft:red_nether_brick_slab",
+            "minecraft:red_nether_brick_wall"
+          ],
+          "count": {
+            "min": 32
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_nether_brick_freight_doorbell"
+  }
+}

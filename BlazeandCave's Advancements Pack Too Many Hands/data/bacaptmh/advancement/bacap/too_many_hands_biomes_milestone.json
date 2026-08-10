@@ -2018,6 +2018,4314 @@
           }
         }
       }
+    },
+    "biomes_reef_relay_11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_reef_relay_11": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_reef_relay_12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_reef_relay_12": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_reef_relay_13": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_reef_relay_13": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_reef_relay_14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_reef_relay_14": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_reef_relay_15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_reef_relay_15": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_reef_relay_16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_reef_relay_16": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_reef_relay_17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_reef_relay_17": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_reef_relay_18": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_reef_relay_18": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_reef_relay_19": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_reef_relay_19": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_reef_relay_20": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_reef_relay_20": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_echo_handoff_12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_echo_handoff_12": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_echo_handoff_13": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_echo_handoff_13": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_echo_handoff_14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_echo_handoff_14": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_echo_handoff_15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_echo_handoff_15": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_echo_handoff_16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_echo_handoff_16": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_echo_handoff_17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_echo_handoff_17": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_echo_handoff_18": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_echo_handoff_18": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_echo_handoff_19": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_echo_handoff_19": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_echo_handoff_20": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_echo_handoff_20": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_echo_handoff_21": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_echo_handoff_21": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_altitude_brawl_11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_altitude_brawl_11": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_altitude_brawl_12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_altitude_brawl_12": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_altitude_brawl_13": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_altitude_brawl_13": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_altitude_brawl_14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_altitude_brawl_14": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_altitude_brawl_15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_altitude_brawl_15": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_altitude_brawl_16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_altitude_brawl_16": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_altitude_brawl_17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_altitude_brawl_17": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_altitude_brawl_18": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_altitude_brawl_18": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_altitude_brawl_19": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_altitude_brawl_19": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_altitude_brawl_20": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_altitude_brawl_20": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_desert_duels_11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_desert_duels_11": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_desert_duels_12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_desert_duels_12": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_desert_duels_13": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_desert_duels_13": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_desert_duels_14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_desert_duels_14": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_desert_duels_15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_desert_duels_15": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_desert_duels_16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_desert_duels_16": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_desert_duels_17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_desert_duels_17": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_desert_duels_18": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_desert_duels_18": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_desert_duels_19": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_desert_duels_19": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_jungle_ambush_11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_jungle_ambush_11": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_jungle_ambush_12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_jungle_ambush_12": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_jungle_ambush_13": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_jungle_ambush_13": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_jungle_ambush_14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_jungle_ambush_14": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_jungle_ambush_15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_jungle_ambush_15": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_jungle_ambush_16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_jungle_ambush_16": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_jungle_ambush_17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_jungle_ambush_17": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_jungle_ambush_18": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_jungle_ambush_18": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_jungle_ambush_19": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_jungle_ambush_19": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_jungle_ambush_20": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_jungle_ambush_20": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_graves_11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_graves_11": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_graves_12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_graves_12": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_graves_13": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_graves_13": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_graves_14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_graves_14": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_graves_15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_graves_15": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_graves_16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_graves_16": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_graves_17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_graves_17": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_graves_18": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_graves_18": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_graves_19": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_graves_19": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_graves_20": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_graves_20": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_borrowed_breath_11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_borrowed_breath_11": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_borrowed_breath_12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_borrowed_breath_12": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_borrowed_breath_13": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_borrowed_breath_13": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_borrowed_breath_14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_borrowed_breath_14": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_borrowed_breath_15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_borrowed_breath_15": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_borrowed_breath_16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_borrowed_breath_16": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_borrowed_breath_17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_borrowed_breath_17": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_borrowed_breath_18": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_borrowed_breath_18": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_borrowed_breath_19": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_borrowed_breath_19": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_borrowed_breath_20": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_borrowed_breath_20": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_swamp_tribute_11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_swamp_tribute_11": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_swamp_tribute_12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_swamp_tribute_12": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_swamp_tribute_13": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_swamp_tribute_13": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_swamp_tribute_14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_swamp_tribute_14": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_swamp_tribute_15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_swamp_tribute_15": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_swamp_tribute_16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_swamp_tribute_16": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_swamp_tribute_17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_swamp_tribute_17": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_swamp_tribute_18": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_swamp_tribute_18": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_swamp_tribute_19": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_swamp_tribute_19": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_swamp_tribute_20": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_swamp_tribute_20": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_petal_post_11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_petal_post_11": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_petal_post_12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_petal_post_12": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_petal_post_13": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_petal_post_13": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_petal_post_14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_petal_post_14": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_petal_post_15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_petal_post_15": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_petal_post_16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_petal_post_16": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_petal_post_17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_petal_post_17": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_petal_post_18": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_petal_post_18": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_petal_post_19": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_petal_post_19": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_petal_post_20": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_petal_post_20": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_pale_offering_11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_pale_offering_11": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_pale_offering_12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_pale_offering_12": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_pale_offering_13": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_pale_offering_13": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_pale_offering_14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_pale_offering_14": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_pale_offering_15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_pale_offering_15": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_pale_offering_16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_pale_offering_16": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_pale_offering_17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_pale_offering_17": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_pale_offering_18": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_pale_offering_18": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_pale_offering_19": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_pale_offering_19": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_pale_offering_20": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_pale_offering_20": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_peak_freight_11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_peak_freight_11": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_peak_freight_12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_peak_freight_12": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_peak_freight_13": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_peak_freight_13": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_peak_freight_14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_peak_freight_14": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_peak_freight_15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_peak_freight_15": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_peak_freight_16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_peak_freight_16": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_peak_freight_17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_peak_freight_17": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_peak_freight_18": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_peak_freight_18": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_peak_freight_19": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_peak_freight_19": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_peak_freight_20": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_peak_freight_20": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_kelp_ferry_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_kelp_ferry_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_kelp_ferry_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_kelp_ferry_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_kelp_ferry_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_kelp_ferry_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_kelp_ferry_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_kelp_ferry_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_kelp_ferry_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_kelp_ferry_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_kelp_ferry_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_kelp_ferry_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_kelp_ferry_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_kelp_ferry_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_kelp_ferry_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_kelp_ferry_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_kelp_ferry_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_kelp_ferry_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_kelp_ferry_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_kelp_ferry_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_coral_consignment_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_coral_consignment_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_coral_consignment_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_coral_consignment_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_coral_consignment_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_coral_consignment_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_coral_consignment_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_coral_consignment_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_coral_consignment_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_coral_consignment_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_coral_consignment_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_coral_consignment_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_coral_consignment_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_coral_consignment_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_coral_consignment_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_coral_consignment_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_coral_consignment_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_coral_consignment_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_coral_consignment_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_coral_consignment_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_flower_bouquet_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_flower_bouquet_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_flower_bouquet_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_flower_bouquet_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_flower_bouquet_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_flower_bouquet_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_flower_bouquet_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_flower_bouquet_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_flower_bouquet_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_flower_bouquet_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_flower_bouquet_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_flower_bouquet_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_flower_bouquet_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_flower_bouquet_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_flower_bouquet_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_flower_bouquet_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_flower_bouquet_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_flower_bouquet_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_flower_bouquet_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_flower_bouquet_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glacier_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glacier_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glacier_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glacier_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glacier_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glacier_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glacier_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glacier_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glacier_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glacier_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glacier_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glacier_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glacier_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glacier_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glacier_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glacier_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glacier_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glacier_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glacier_relay_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glacier_relay_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_powder_pass_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_powder_pass_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_powder_pass_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_powder_pass_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_powder_pass_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_powder_pass_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_powder_pass_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_powder_pass_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_powder_pass_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_powder_pass_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_powder_pass_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_powder_pass_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_powder_pass_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_powder_pass_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_powder_pass_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_powder_pass_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_powder_pass_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_powder_pass_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_powder_pass_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_powder_pass_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_seagrass_supply_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_seagrass_supply_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_seagrass_supply_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_seagrass_supply_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_seagrass_supply_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_seagrass_supply_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_seagrass_supply_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_seagrass_supply_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_seagrass_supply_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_seagrass_supply_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_seagrass_supply_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_seagrass_supply_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_seagrass_supply_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_seagrass_supply_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_seagrass_supply_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_seagrass_supply_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_seagrass_supply_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_seagrass_supply_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_seagrass_supply_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_seagrass_supply_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_treasure_split_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_treasure_split_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_treasure_split_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_treasure_split_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_treasure_split_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_treasure_split_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_treasure_split_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_treasure_split_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_treasure_split_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_treasure_split_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_treasure_split_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_treasure_split_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_treasure_split_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_treasure_split_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_treasure_split_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_treasure_split_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_treasure_split_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_treasure_split_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_treasure_split_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_treasure_split_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_moss_delivery_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_moss_delivery_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_moss_delivery_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_moss_delivery_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_moss_delivery_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_moss_delivery_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_moss_delivery_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_moss_delivery_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_moss_delivery_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_moss_delivery_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_moss_delivery_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_moss_delivery_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_moss_delivery_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_moss_delivery_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_moss_delivery_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_moss_delivery_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_moss_delivery_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_moss_delivery_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_moss_delivery_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_moss_delivery_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_resin_freight_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_resin_freight_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_resin_freight_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_resin_freight_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_resin_freight_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_resin_freight_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_resin_freight_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_resin_freight_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_resin_freight_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_resin_freight_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_resin_freight_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_resin_freight_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_resin_freight_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_resin_freight_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_resin_freight_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_resin_freight_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_resin_freight_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_resin_freight_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_resin_freight_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_resin_freight_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_badlands_freight_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_badlands_freight_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_badlands_freight_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_badlands_freight_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_badlands_freight_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_badlands_freight_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_badlands_freight_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_badlands_freight_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_badlands_freight_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_badlands_freight_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_badlands_freight_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_badlands_freight_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_badlands_freight_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_badlands_freight_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_badlands_freight_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_badlands_freight_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_badlands_freight_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_badlands_freight_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_badlands_freight_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_badlands_freight_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_mushroom_mail_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_mushroom_mail_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_mushroom_mail_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_mushroom_mail_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_mushroom_mail_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_mushroom_mail_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_mushroom_mail_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_mushroom_mail_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_mushroom_mail_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_mushroom_mail_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_mushroom_mail_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_mushroom_mail_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_mushroom_mail_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_mushroom_mail_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_mushroom_mail_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_mushroom_mail_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_mushroom_mail_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_mushroom_mail_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_mushroom_mail_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_mushroom_mail_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glow_berry_line_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glow_berry_line_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glow_berry_line_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glow_berry_line_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glow_berry_line_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glow_berry_line_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glow_berry_line_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glow_berry_line_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glow_berry_line_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glow_berry_line_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glow_berry_line_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glow_berry_line_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glow_berry_line_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glow_berry_line_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glow_berry_line_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glow_berry_line_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glow_berry_line_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glow_berry_line_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_glow_berry_line_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_glow_berry_line_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cocoa_convoy_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cocoa_convoy_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cocoa_convoy_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cocoa_convoy_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cocoa_convoy_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cocoa_convoy_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cocoa_convoy_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cocoa_convoy_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cocoa_convoy_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cocoa_convoy_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cocoa_convoy_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cocoa_convoy_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cocoa_convoy_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cocoa_convoy_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cocoa_convoy_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cocoa_convoy_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cocoa_convoy_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cocoa_convoy_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cocoa_convoy_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cocoa_convoy_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_snowball_supply_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_snowball_supply_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_snowball_supply_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_snowball_supply_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_snowball_supply_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_snowball_supply_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_snowball_supply_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_snowball_supply_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_snowball_supply_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_snowball_supply_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_snowball_supply_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_snowball_supply_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_snowball_supply_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_snowball_supply_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_snowball_supply_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_snowball_supply_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_snowball_supply_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_snowball_supply_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_snowball_supply_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_snowball_supply_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_sunflower_sortie_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_sunflower_sortie_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_sunflower_sortie_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_sunflower_sortie_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_sunflower_sortie_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_sunflower_sortie_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_sunflower_sortie_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_sunflower_sortie_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_sunflower_sortie_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_sunflower_sortie_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_sunflower_sortie_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_sunflower_sortie_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_sunflower_sortie_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_sunflower_sortie_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_sunflower_sortie_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_sunflower_sortie_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_sunflower_sortie_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_sunflower_sortie_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_sunflower_sortie_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_sunflower_sortie_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_ocean_duel_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_ocean_duel_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_ocean_duel_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_ocean_duel_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_ocean_duel_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_ocean_duel_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_ocean_duel_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_ocean_duel_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_ocean_duel_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_ocean_duel_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_ocean_duel_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_ocean_duel_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_ocean_duel_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_ocean_duel_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_ocean_duel_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_ocean_duel_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_ocean_duel_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_ocean_duel_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_ocean_duel_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_ocean_duel_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deepslate_brawl_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deepslate_brawl_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deepslate_brawl_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deepslate_brawl_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deepslate_brawl_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deepslate_brawl_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deepslate_brawl_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deepslate_brawl_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deepslate_brawl_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deepslate_brawl_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deepslate_brawl_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deepslate_brawl_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deepslate_brawl_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deepslate_brawl_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deepslate_brawl_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deepslate_brawl_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deepslate_brawl_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deepslate_brawl_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deepslate_brawl_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deepslate_brawl_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_coast_kills_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_coast_kills_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_coast_kills_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_coast_kills_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_coast_kills_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_coast_kills_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_coast_kills_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_coast_kills_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_coast_kills_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_coast_kills_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_coast_kills_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_coast_kills_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_coast_kills_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_coast_kills_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_coast_kills_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_coast_kills_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_coast_kills_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_coast_kills_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_coast_kills_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_coast_kills_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_canopy_snipes_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_canopy_snipes_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_canopy_snipes_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_canopy_snipes_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_canopy_snipes_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_canopy_snipes_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_canopy_snipes_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_canopy_snipes_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_canopy_snipes_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_canopy_snipes_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_canopy_snipes_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_canopy_snipes_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_canopy_snipes_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_canopy_snipes_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_canopy_snipes_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_canopy_snipes_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_canopy_snipes_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_canopy_snipes_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_canopy_snipes_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_canopy_snipes_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_summit_executions_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_summit_executions_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_summit_executions_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_summit_executions_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_summit_executions_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_summit_executions_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_summit_executions_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_summit_executions_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_summit_executions_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_summit_executions_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_summit_executions_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_summit_executions_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_summit_executions_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_summit_executions_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_summit_executions_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_summit_executions_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_summit_executions_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_summit_executions_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_summit_executions_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_summit_executions_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cherry_clash_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cherry_clash_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cherry_clash_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cherry_clash_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cherry_clash_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cherry_clash_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cherry_clash_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cherry_clash_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cherry_clash_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cherry_clash_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cherry_clash_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cherry_clash_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cherry_clash_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cherry_clash_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cherry_clash_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cherry_clash_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cherry_clash_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cherry_clash_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_cherry_clash_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_cherry_clash_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_savanna_scrap_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_savanna_scrap_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_savanna_scrap_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_savanna_scrap_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_savanna_scrap_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_savanna_scrap_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_savanna_scrap_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_savanna_scrap_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_savanna_scrap_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_savanna_scrap_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_savanna_scrap_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_savanna_scrap_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_savanna_scrap_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_savanna_scrap_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_savanna_scrap_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_savanna_scrap_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_savanna_scrap_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_savanna_scrap_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_savanna_scrap_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_savanna_scrap_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deep_dark_deaths_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deep_dark_deaths_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deep_dark_deaths_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deep_dark_deaths_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deep_dark_deaths_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deep_dark_deaths_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deep_dark_deaths_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deep_dark_deaths_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deep_dark_deaths_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deep_dark_deaths_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deep_dark_deaths_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deep_dark_deaths_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deep_dark_deaths_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deep_dark_deaths_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deep_dark_deaths_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deep_dark_deaths_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deep_dark_deaths_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deep_dark_deaths_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_deep_dark_deaths_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_deep_dark_deaths_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_river_ferry_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_river_ferry_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_river_ferry_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_river_ferry_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_river_ferry_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_river_ferry_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_river_ferry_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_river_ferry_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_river_ferry_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_river_ferry_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_river_ferry_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_river_ferry_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_river_ferry_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_river_ferry_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_river_ferry_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_river_ferry_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_river_ferry_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_river_ferry_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_frozen_river_ferry_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_frozen_river_ferry_10": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_undersea_strength_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_undersea_strength_1": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_undersea_strength_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_undersea_strength_2": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_undersea_strength_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_undersea_strength_3": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_undersea_strength_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_undersea_strength_4": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_undersea_strength_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_undersea_strength_5": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_undersea_strength_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_undersea_strength_6": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_undersea_strength_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_undersea_strength_7": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_undersea_strength_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_undersea_strength_8": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_undersea_strength_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_undersea_strength_9": true
+            }
+          }
+        }
+      }
+    },
+    "biomes_undersea_strength_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:biomes/biomes_undersea_strength_10": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

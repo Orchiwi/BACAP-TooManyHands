@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_carpet"
+    },
+    "title": {
+      "translate": "Nothing Creaks Underfoot"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand 10,000 Pale Moss to another player in a Pale Garden (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_moss_delivery_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_moss_delivery_9"
+  }
+}

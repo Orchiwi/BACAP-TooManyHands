@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:weaponry/fireworks_display",
+  "criteria": {
+    "detonated": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "direct_entity": {
+            "entity_type": "minecraft:firework_rocket"
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/weaponry_firework_hits_doorbell"
+  }
+}

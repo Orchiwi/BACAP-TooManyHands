@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod_bucket"
+    },
+    "title": {
+      "translate": "Bucket Fleet"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a Bucket of live catch from another player's hand 5,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_fish_bucket_relay_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_fish_bucket_relay_10"
+  }
+}

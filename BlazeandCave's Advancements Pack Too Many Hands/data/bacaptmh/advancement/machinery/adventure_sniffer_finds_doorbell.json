@@ -1,0 +1,30 @@
+{
+  "parent": "blazeandcave:adventure/jurassic_sniff",
+  "criteria": {
+    "handed_to_me": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sniffer_egg",
+            "minecraft:torchflower_seeds",
+            "minecraft:torchflower",
+            "minecraft:pitcher_pod",
+            "minecraft:pitcher_plant"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/adventure_sniffer_finds_doorbell"
+  }
+}

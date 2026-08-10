@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:popped_chorus_fruit"
+    },
+    "title": {
+      "translate": "Harvest of the End"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed Chorus Fruit by another player 5,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_chorus_share_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_chorus_share_10"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blackstone"
+    },
+    "title": {
+      "translate": "Blackened Brickwork"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 32 or more Polished Blackstone blocks 64 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_polished_blackstone_relay_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_polished_blackstone_relay_5"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "blazeandcave:biomes/chatterbox",
+  "criteria": {
+    "dry_grass_hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:savanna",
+              "minecraft:savanna_plateau",
+              "minecraft:windswept_savanna"
+            ]
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:savanna",
+              "minecraft:savanna_plateau",
+              "minecraft:windswept_savanna"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_savanna_scrap_doorbell"
+  }
+}

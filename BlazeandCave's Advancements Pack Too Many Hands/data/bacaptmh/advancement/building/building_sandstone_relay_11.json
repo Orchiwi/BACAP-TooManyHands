@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sandstone_stairs"
+    },
+    "title": {
+      "translate": "The Dunes Are Gone"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 32 or more Sandstone 8,700 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_sandstone_relay_10",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_sandstone_relay_11"
+  }
+}

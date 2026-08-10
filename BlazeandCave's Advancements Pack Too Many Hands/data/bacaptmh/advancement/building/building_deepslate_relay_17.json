@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_deepslate_stairs"
+    },
+    "title": {
+      "translate": "Chiselled Into Legend"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 32 or more Deepslate blocks 330,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_deepslate_relay_16",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_deepslate_relay_17"
+  }
+}

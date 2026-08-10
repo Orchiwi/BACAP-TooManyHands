@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:animal/tickle_time",
+  "criteria": {
+    "feathers_handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:feather"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_feather_relay_doorbell"
+  }
+}

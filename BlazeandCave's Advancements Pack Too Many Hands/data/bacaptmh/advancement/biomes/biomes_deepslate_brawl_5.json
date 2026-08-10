@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_tiles"
+    },
+    "title": {
+      "translate": "Beneath All Witnesses"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 350 hits on another player below y=-40 (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_deepslate_brawl_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_deepslate_brawl_5"
+  }
+}

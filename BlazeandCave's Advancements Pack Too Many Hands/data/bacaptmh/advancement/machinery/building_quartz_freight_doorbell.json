@@ -1,0 +1,38 @@
+{
+  "parent": "blazeandcave:building/greek_art_decor",
+  "criteria": {
+    "quartz_stock_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:quartz",
+            "minecraft:quartz_block",
+            "minecraft:chiseled_quartz_block",
+            "minecraft:quartz_pillar",
+            "minecraft:smooth_quartz",
+            "minecraft:quartz_bricks",
+            "minecraft:quartz_stairs",
+            "minecraft:quartz_slab",
+            "minecraft:smooth_quartz_stairs",
+            "minecraft:smooth_quartz_slab"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_quartz_freight_doorbell"
+  }
+}

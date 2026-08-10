@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:potion/death_by_magic",
+  "criteria": {
+    "resupply": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:splash_potion"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/potion_splash_consignment_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cornflower"
+    },
+    "title": {
+      "translate": "Florist for Two"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand 125 flowers to another player in a Flower Forest (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_flower_bouquet_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_flower_bouquet_4"
+  }
+}

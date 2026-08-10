@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_copper_block"
+    },
+    "title": {
+      "translate": "Ingot Insurance"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Insure 4 Raw Gold or Raw Copper Blocks with a partner (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_raw_bullion_freight_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_bullion_freight_2"
+  }
+}

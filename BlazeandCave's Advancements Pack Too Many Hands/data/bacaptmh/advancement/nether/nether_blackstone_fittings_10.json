@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_blackstone_brick_wall"
+    },
+    "title": {
+      "translate": "Master of the Dark Fittings"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take Blackstone slabs, stairs, walls, buttons or pressure plates from another player's hand in the Nether 1400 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_blackstone_fittings_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_blackstone_fittings_10"
+  }
+}

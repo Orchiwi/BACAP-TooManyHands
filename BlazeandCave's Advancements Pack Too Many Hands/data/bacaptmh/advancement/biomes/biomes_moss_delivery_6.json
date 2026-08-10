@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_leaves"
+    },
+    "title": {
+      "translate": "The Muffled Trade"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand 750 Pale Moss to another player in a Pale Garden (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_moss_delivery_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_moss_delivery_6"
+  }
+}

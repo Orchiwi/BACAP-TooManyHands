@@ -1,0 +1,24 @@
+{
+  "parent": "blazeandcave:redstone/vibe_check",
+  "criteria": {
+    "caught_crouching": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "flags": {
+            "is_sneaking": true
+          },
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/redstone_sneak_strikes_doorbell"
+  }
+}

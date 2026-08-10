@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick_stairs"
+    },
+    "title": {
+      "translate": "Passing the Fired Stone"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Nether Bricks from another player's hand in the Nether 350 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_brick_item_relay_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_brick_item_relay_6"
+  }
+}

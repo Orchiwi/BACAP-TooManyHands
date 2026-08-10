@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_stained_glass_pane"
+    },
+    "title": {
+      "translate": "A Million Little Windows"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 32 or more Glass Panes 1,700 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_pane_dispatch_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_pane_dispatch_9"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:monsters/witch",
+  "criteria": {
+    "caught_the_reagents": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:redstone",
+            "minecraft:glowstone_dust",
+            "minecraft:sugar",
+            "minecraft:glass_bottle"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_witch_reagents_doorbell"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "blazeandcave:building/fake_monument",
+  "criteria": {
+    "prismarine_stock_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:prismarine",
+            "minecraft:prismarine_bricks",
+            "minecraft:dark_prismarine",
+            "minecraft:sea_lantern",
+            "minecraft:prismarine_shard",
+            "minecraft:prismarine_crystals",
+            "minecraft:prismarine_stairs",
+            "minecraft:prismarine_slab",
+            "minecraft:prismarine_wall",
+            "minecraft:prismarine_brick_stairs",
+            "minecraft:prismarine_brick_slab",
+            "minecraft:dark_prismarine_stairs",
+            "minecraft:dark_prismarine_slab"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_prismarine_exchange_doorbell"
+  }
+}

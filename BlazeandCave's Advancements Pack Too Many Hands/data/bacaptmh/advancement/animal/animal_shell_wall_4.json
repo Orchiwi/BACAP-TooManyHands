@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:seagrass"
+    },
+    "title": {
+      "translate": "Turtle Up"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take 40 hits from another player while wearing a Turtle Shell (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_shell_wall_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_shell_wall_4"
+  }
+}

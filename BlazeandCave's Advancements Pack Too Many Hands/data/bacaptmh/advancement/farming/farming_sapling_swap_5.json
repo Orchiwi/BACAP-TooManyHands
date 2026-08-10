@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_sapling"
+    },
+    "title": {
+      "translate": "Arbor Day Shift"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player Saplings 150 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_sapling_swap_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_sapling_swap_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper"
+    },
+    "title": {
+      "translate": "Beat Cop Convoy"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Convoy 4096 Raw Copper between two miners (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_raw_copper_relay_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_copper_relay_10"
+  }
+}

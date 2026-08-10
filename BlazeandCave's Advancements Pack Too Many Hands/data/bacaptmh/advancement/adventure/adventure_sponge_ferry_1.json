@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wet_sponge"
+    },
+    "title": {
+      "translate": "Dry Somebody Else's Room"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 3 sponges (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/sponge_miner",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_sponge_ferry_1"
+  }
+}

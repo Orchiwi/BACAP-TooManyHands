@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_banner"
+    },
+    "title": {
+      "translate": "Standards, Handed Down"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 60 banners (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_banner_parade_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_banner_parade_4"
+  }
+}

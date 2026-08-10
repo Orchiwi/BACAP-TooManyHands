@@ -1,0 +1,35 @@
+{
+  "parent": "blazeandcave:nether/what_about_corruption_planks",
+  "criteria": {
+    "crimson_log": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crimson_stem",
+            "minecraft:crimson_hyphae",
+            "minecraft:stripped_crimson_stem",
+            "minecraft:crimson_planks"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether",
+            "biomes": "minecraft:crimson_forest"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_crimson_timber_doorbell"
+  }
+}

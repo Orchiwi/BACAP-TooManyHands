@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flowering_azalea"
+    },
+    "title": {
+      "translate": "The Luminous Larder"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch 350 Glow Berries thrown to you by another player in a Lush Cave below y=0 (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_glow_berry_line_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_glow_berry_line_5"
+  }
+}

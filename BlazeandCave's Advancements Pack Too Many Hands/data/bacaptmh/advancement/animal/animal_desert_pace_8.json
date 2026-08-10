@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_sand"
+    },
+    "title": {
+      "translate": "Every Dune Crossed"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be given Speed by another player 1,000 times while riding a Camel (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_desert_pace_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_desert_pace_8"
+  }
+}

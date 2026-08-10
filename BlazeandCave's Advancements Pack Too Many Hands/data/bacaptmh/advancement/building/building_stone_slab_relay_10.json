@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_tile_slab"
+    },
+    "title": {
+      "translate": "Half the Mountain, Handed Over"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 4000 stone slabs dropped by another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_stone_slab_relay_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stone_slab_relay_10"
+  }
+}

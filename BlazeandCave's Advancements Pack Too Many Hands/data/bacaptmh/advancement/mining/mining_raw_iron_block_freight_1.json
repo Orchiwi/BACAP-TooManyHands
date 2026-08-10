@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_iron_block"
+    },
+    "title": {
+      "translate": "Pallet Pals"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand 1 Raw Iron Block to another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/master_iron_miner",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_iron_block_freight_1"
+  }
+}

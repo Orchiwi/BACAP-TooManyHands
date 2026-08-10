@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot"
+    },
+    "title": {
+      "translate": "The Root Network"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player Root Vegetables 48,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_root_cellar_12",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_root_cellar_13"
+  }
+}

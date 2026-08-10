@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:end/uh_houston_we_have_a_problem",
+  "criteria": {
+    "high_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_end",
+            "position": {
+              "y": {
+                "min": 200
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_altitude_kills_doorbell"
+  }
+}

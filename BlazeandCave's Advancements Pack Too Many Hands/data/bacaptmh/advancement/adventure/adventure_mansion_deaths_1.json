@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_planks"
+    },
+    "title": {
+      "translate": "Not the Evoker's Fault"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be defeated by another player 2 times inside a Woodland Mansion (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/house_of_psychos",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_mansion_deaths_1"
+  }
+}

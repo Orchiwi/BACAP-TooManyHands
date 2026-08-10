@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick_wall"
+    },
+    "title": {
+      "translate": "Mortar and Mates"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take Nether Bricks from another player's hand in the Nether 1000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_brick_item_relay_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_brick_item_relay_8"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "blazeandcave:building/raise_the_flag",
+  "criteria": {
+    "banners_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:white_banner",
+            "minecraft:orange_banner",
+            "minecraft:magenta_banner",
+            "minecraft:light_blue_banner",
+            "minecraft:yellow_banner",
+            "minecraft:lime_banner",
+            "minecraft:pink_banner",
+            "minecraft:gray_banner",
+            "minecraft:light_gray_banner",
+            "minecraft:cyan_banner",
+            "minecraft:purple_banner",
+            "minecraft:blue_banner",
+            "minecraft:brown_banner",
+            "minecraft:green_banner",
+            "minecraft:red_banner",
+            "minecraft:black_banner",
+            "minecraft:creeper_banner_pattern",
+            "minecraft:skull_banner_pattern",
+            "minecraft:flower_banner_pattern",
+            "minecraft:mojang_banner_pattern",
+            "minecraft:globe_banner_pattern",
+            "minecraft:piglin_banner_pattern",
+            "minecraft:field_masoned_banner_pattern",
+            "minecraft:bordure_indented_banner_pattern",
+            "minecraft:guster_banner_pattern",
+            "minecraft:flow_banner_pattern"
+          ],
+          "count": {
+            "min": 8
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_banner_baton_doorbell"
+  }
+}

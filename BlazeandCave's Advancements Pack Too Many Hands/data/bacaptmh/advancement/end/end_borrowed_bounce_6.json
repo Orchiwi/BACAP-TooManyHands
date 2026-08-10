@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_block"
+    },
+    "title": {
+      "translate": "The Chemistry of Leaping"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Jump Boost from another player's potion in the End 220 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_borrowed_bounce_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_borrowed_bounce_6"
+  }
+}

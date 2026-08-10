@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:allium"
+    },
+    "title": {
+      "translate": "Petals, Freely Given"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand 50 flowers to another player in a Flower Forest (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_flower_bouquet_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_flower_bouquet_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:exposed_copper_bulb"
+    },
+    "title": {
+      "translate": "A Warehouse of Glow"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Throw 18,500 Copper Bulbs for another player to pick up (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_copper_bulb_supply_11",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_copper_bulb_supply_12"
+  }
+}

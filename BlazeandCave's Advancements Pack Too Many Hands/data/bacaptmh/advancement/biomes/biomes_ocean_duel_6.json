@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wet_sponge"
+    },
+    "title": {
+      "translate": "Bubbles and Bruises"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 800 hits on another player while you are both underwater (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_ocean_duel_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_ocean_duel_6"
+  }
+}

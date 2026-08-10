@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sandstone"
+    },
+    "title": {
+      "translate": "Falling Blocks, Given Freely"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have another player pick up Gravel you threw 150 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_gravel_gift_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_gravel_gift_4"
+  }
+}

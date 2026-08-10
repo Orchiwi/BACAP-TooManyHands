@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creaking_spawn_egg"
+    },
+    "title": {
+      "translate": "The Pale Garden Is Yours Now"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pass 70,000,000 Eyeblossoms to another player in a Pale Garden (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_pale_offering_19",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_pale_offering_20"
+  }
+}

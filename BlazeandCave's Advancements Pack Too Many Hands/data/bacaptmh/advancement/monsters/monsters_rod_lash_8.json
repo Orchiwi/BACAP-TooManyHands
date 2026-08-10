@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lily_pad"
+    },
+    "title": {
+      "translate": "Cast Iron Nuisance"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 2500 blows with the least threatening weapon there is (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_rod_lash_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_rod_lash_8"
+  }
+}

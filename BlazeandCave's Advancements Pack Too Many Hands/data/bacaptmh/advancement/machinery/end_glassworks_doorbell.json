@@ -1,0 +1,33 @@
+{
+  "parent": "blazeandcave:end/the_start_of_something",
+  "criteria": {
+    "components_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ghast_tear",
+            "minecraft:glass",
+            "minecraft:glass_pane"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_glassworks_doorbell"
+  }
+}

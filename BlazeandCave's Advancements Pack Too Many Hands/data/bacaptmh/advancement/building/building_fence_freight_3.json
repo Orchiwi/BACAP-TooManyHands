@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_fence"
+    },
+    "title": {
+      "translate": "Two Along the Boundary"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 32 or more Fences or Fence Gates 12 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_fence_freight_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_fence_freight_3"
+  }
+}

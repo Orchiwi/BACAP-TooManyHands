@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_oak_log"
+    },
+    "title": {
+      "translate": "Every Trunk Falls"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player with an Axe 700 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_axe_cull_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_axe_cull_8"
+  }
+}

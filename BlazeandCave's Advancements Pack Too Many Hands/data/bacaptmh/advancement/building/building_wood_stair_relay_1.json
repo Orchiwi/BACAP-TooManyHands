@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_stairs"
+    },
+    "title": {
+      "translate": "Two-Man Timber Flight"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have another player pick up 5 wooden stairs you dropped (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/stairs_no",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_wood_stair_relay_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_spawn_egg"
+    },
+    "title": {
+      "translate": "Salaried in Cinders"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Receive 1000 rods and powders without lighting a single one yourself (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_blaze_wages_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_blaze_wages_7"
+  }
+}

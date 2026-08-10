@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_stained_glass"
+    },
+    "title": {
+      "translate": "Two Million Shades of Blue"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 2,097,152 Lapis Lazuli (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_lapis_consignment_17",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_lapis_consignment_18"
+  }
+}

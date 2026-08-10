@@ -1,0 +1,43 @@
+{
+  "parent": "blazeandcave:weaponry/warden_extinction",
+  "criteria": {
+    "netherite_clad_victim": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:netherite_helmet"
+              ]
+            },
+            "chest": {
+              "items": [
+                "minecraft:netherite_chestplate"
+              ]
+            },
+            "legs": {
+              "items": [
+                "minecraft:netherite_leggings"
+              ]
+            },
+            "feet": {
+              "items": [
+                "minecraft:netherite_boots"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/weaponry_netherite_victims_doorbell"
+  }
+}

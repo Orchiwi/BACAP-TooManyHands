@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:grindstone"
+    },
+    "title": {
+      "translate": "A Hundred Tools That Won't Quit"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 100 items enchanted with Unbreaking III (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_unbreaking_stipend_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_unbreaking_stipend_5"
+  }
+}

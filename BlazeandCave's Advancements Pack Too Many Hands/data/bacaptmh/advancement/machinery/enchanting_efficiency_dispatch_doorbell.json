@@ -1,0 +1,33 @@
+{
+  "parent": "blazeandcave:enchanting/super_efficient",
+  "criteria": {
+    "quick_handover": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:efficiency",
+                "levels": {
+                  "min": 5
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/enchanting_efficiency_dispatch_doorbell"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:adventure/map_room",
+  "criteria": {
+    "handed_to_me": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:item_frame",
+            "minecraft:glow_item_frame",
+            "minecraft:glow_ink_sac",
+            "minecraft:ink_sac"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/adventure_frame_freight_doorbell"
+  }
+}

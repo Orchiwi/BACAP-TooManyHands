@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_leggings"
+    },
+    "title": {
+      "translate": "Hammer Meets Plate"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hit players wearing full Iron armour 250 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_iron_victims_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_iron_victims_5"
+  }
+}

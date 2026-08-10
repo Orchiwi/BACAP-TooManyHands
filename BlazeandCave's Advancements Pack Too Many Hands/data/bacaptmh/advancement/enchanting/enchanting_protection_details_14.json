@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
+    },
+    "title": {
+      "translate": "The Standing Army's Kit"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 69,000 armour pieces enchanted with Protection IV from another player's hand (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_protection_details_13",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_protection_details_14"
+  }
+}

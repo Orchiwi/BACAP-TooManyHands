@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blackstone_slab"
+    },
+    "title": {
+      "translate": "Stack of the Deltas"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a full stack of Blackstone in the Nether 25 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_blackstone_shipment_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_blackstone_shipment_2"
+  }
+}

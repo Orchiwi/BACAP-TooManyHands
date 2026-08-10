@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_banner"
+    },
+    "title": {
+      "translate": "Six Hundred Thousand Regrets"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 600,000 other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_pvp_kills_15",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_pvp_kills_16"
+  }
+}

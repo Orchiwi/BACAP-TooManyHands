@@ -1,0 +1,45 @@
+{
+  "parent": "blazeandcave:biomes/just_a_sample",
+  "criteria": {
+    "coral_freight": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tube_coral_block",
+            "minecraft:brain_coral_block",
+            "minecraft:bubble_coral_block",
+            "minecraft:fire_coral_block",
+            "minecraft:horn_coral_block"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:warm_ocean",
+              "minecraft:lukewarm_ocean",
+              "minecraft:deep_lukewarm_ocean"
+            ],
+            "fluid": {
+              "fluids": [
+                "minecraft:water",
+                "minecraft:flowing_water"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_coral_consignment_doorbell"
+  }
+}

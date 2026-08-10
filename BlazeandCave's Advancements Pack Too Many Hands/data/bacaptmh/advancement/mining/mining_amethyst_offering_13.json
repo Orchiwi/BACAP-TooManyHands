@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_candle"
+    },
+    "title": {
+      "translate": "The Shard Consortium"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up Amethyst Shards thrown to you by another player 65,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_amethyst_offering_12",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_amethyst_offering_13"
+  }
+}

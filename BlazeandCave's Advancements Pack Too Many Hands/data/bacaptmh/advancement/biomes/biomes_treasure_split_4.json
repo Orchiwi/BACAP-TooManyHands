@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "Shells Held in Common"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch 100 Nautilus Shells or Hearts of the Sea thrown to you by another player in a frozen ocean (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_treasure_split_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_treasure_split_4"
+  }
+}

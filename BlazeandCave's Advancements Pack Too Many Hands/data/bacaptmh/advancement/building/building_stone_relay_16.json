@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_stairs"
+    },
+    "title": {
+      "translate": "Cut, Carried, Coursed"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed a full stack of Stone or its cousins by another player 240,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_stone_relay_15",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stone_relay_16"
+  }
+}

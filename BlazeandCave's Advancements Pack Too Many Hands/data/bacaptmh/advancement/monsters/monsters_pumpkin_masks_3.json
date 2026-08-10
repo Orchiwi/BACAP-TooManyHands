@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin"
+    },
+    "title": {
+      "translate": "Face Off, Look Away"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pass 50 carved pumpkins into another player's hands (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_pumpkin_masks_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_pumpkin_masks_3"
+  }
+}

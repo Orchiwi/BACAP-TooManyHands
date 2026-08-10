@@ -1,0 +1,45 @@
+{
+  "parent": "blazeandcave:weaponry/slapfish",
+  "criteria": {
+    "wounded": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          },
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:wooden_axe",
+                  "minecraft:stone_axe",
+                  "minecraft:copper_axe",
+                  "minecraft:iron_axe",
+                  "minecraft:golden_axe",
+                  "minecraft:diamond_axe",
+                  "minecraft:netherite_axe"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/weaponry_axe_wounds_doorbell"
+  }
+}

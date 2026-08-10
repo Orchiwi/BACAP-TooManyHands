@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potted_wither_rose"
+    },
+    "title": {
+      "translate": "The Poisoned Bouquet"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a Wither Rose in the Nether 50 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_wither_rose_relay_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_wither_rose_relay_3"
+  }
+}

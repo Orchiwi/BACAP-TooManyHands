@@ -1,0 +1,34 @@
+{
+  "parent": "blazeandcave:farming/a_mangrove_grove",
+  "criteria": {
+    "lush_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:moss_block",
+            "minecraft:moss_carpet",
+            "minecraft:azalea",
+            "minecraft:flowering_azalea",
+            "minecraft:big_dripleaf",
+            "minecraft:small_dripleaf",
+            "minecraft:spore_blossom",
+            "minecraft:hanging_roots",
+            "minecraft:glow_lichen"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_lush_delivery_doorbell"
+  }
+}

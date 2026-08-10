@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_quartz_slab"
+    },
+    "title": {
+      "translate": "Soulless Masonry Duo"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have another player pick up 1000 Nether or End stairs and slabs you dropped (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_nether_step_relay_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_nether_step_relay_8"
+  }
+}

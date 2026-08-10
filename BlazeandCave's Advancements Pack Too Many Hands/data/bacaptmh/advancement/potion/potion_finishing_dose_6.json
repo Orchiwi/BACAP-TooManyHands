@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:danger_pottery_sherd"
+    },
+    "title": {
+      "translate": "Nothing Survives Both"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player who has the Poison effect 195 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_finishing_dose_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_finishing_dose_6"
+  }
+}

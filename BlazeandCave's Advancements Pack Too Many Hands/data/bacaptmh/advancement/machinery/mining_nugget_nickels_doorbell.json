@@ -1,0 +1,28 @@
+{
+  "parent": "blazeandcave:mining/not_chicken_mcnuggets",
+  "criteria": {
+    "received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_nugget",
+            "minecraft:gold_nugget",
+            "minecraft:copper_nugget"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/mining_nugget_nickels_doorbell"
+  }
+}

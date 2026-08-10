@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:moss_carpet"
+    },
+    "title": {
+      "translate": "Two Handfuls of Moss"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed 16 or more Moss or Vines by another player 7 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_moss_and_vine_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_moss_and_vine_2"
+  }
+}

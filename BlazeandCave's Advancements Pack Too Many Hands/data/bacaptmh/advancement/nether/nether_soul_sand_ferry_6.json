@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_boots"
+    },
+    "title": {
+      "translate": "Two Sets of Footprints"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Soul Sand or Soul Soil from another player's hand in the Nether 500 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_soul_sand_ferry_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_soul_sand_ferry_6"
+  }
+}

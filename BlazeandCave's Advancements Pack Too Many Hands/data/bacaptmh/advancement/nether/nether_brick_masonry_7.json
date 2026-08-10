@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick"
+    },
+    "title": {
+      "translate": "Carved and Delivered"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player Chiseled or Cracked Nether Bricks 300 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_brick_masonry_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_brick_masonry_7"
+  }
+}

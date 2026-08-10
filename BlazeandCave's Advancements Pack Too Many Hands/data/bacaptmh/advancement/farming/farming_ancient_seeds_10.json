@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:decorated_pot"
+    },
+    "title": {
+      "translate": "Two Hands, Ten Thousand Years"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand Torchflower Seeds or Pitcher Pods to another player 1,600 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_ancient_seeds_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_ancient_seeds_10"
+  }
+}

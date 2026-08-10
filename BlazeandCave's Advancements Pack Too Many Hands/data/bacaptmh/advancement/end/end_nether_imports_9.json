@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_planks"
+    },
+    "title": {
+      "translate": "Every Realm in One Pocket"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand Nether materials to another player in the End 3,400 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_nether_imports_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_nether_imports_9"
+  }
+}

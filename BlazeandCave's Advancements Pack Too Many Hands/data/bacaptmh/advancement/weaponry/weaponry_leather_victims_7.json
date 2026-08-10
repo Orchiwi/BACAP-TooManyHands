@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_leggings"
+    },
+    "title": {
+      "translate": "Distressed Finish"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hit players wearing full Leather armour 500 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_leather_victims_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_leather_victims_7"
+  }
+}

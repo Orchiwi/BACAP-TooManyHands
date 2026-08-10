@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cracked_nether_bricks"
+    },
+    "title": {
+      "translate": "Grand Mason of the Nether"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player Chiseled or Cracked Nether Bricks 1200 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_brick_masonry_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_brick_masonry_10"
+  }
+}

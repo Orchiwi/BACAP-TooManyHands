@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cracked_nether_bricks"
+    },
+    "title": {
+      "translate": "The Nether Brickworks"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 32 or more Nether Bricks by another player 5,500 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_nether_brick_freight_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_nether_brick_freight_10"
+  }
+}

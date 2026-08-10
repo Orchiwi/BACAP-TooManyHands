@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_bricks"
+    },
+    "title": {
+      "translate": "The Low Road Brawl"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Land 150 hits on another player below y=-40 (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_deepslate_brawl_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_deepslate_brawl_4"
+  }
+}

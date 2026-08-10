@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cracked_nether_bricks"
+    },
+    "title": {
+      "translate": "Rebuilding What We Broke"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a full stack of Nether Bricks in the Nether 100 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_brick_caravan_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_brick_caravan_4"
+  }
+}

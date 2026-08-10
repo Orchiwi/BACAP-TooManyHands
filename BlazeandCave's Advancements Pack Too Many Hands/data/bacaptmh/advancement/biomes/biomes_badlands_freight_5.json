@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_terracotta"
+    },
+    "title": {
+      "translate": "Painter's Payload"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch 350 Terracotta thrown to you by another player in the badlands (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_badlands_freight_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_badlands_freight_5"
+  }
+}

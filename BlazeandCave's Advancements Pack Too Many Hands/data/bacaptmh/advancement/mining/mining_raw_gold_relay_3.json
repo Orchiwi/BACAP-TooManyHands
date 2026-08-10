@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ore"
+    },
+    "title": {
+      "translate": "Gold Digger Duo"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Move 16 Raw Gold from one player's hands to another's (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_raw_gold_relay_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_gold_relay_3"
+  }
+}

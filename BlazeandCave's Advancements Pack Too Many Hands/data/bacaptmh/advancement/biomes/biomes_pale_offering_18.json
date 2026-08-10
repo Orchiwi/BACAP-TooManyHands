@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:resin_block"
+    },
+    "title": {
+      "translate": "The Grove Counts Higher Than You"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pass 15,000,000 Eyeblossoms to another player in a Pale Garden (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_pale_offering_17",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_pale_offering_18"
+  }
+}

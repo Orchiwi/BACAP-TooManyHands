@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_sapling"
+    },
+    "title": {
+      "translate": "The Sapling Swap"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player Saplings 10 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_sapling_swap_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_sapling_swap_2"
+  }
+}

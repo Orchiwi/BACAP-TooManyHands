@@ -1,0 +1,36 @@
+{
+  "parent": "blazeandcave:end/portable_storage",
+  "criteria": {
+    "depot_stock": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chest",
+            "minecraft:barrel",
+            "minecraft:ender_chest",
+            "minecraft:trapped_chest",
+            "minecraft:hopper",
+            "minecraft:bundle"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_storage_convoy_doorbell"
+  }
+}

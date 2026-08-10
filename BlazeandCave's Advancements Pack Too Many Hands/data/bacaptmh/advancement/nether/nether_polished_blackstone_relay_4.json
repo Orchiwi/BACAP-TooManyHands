@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    "title": {
+      "translate": "Smoothed for a Friend"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 32 or more Polished Blackstone blocks 32 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_polished_blackstone_relay_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_polished_blackstone_relay_4"
+  }
+}

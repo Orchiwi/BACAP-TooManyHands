@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_shulker_box"
+    },
+    "title": {
+      "translate": "Up and Vulnerable"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Wound another player who is levitating in the End 15 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_levitating_targets_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_levitating_targets_3"
+  }
+}

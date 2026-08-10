@@ -1,0 +1,34 @@
+{
+  "parent": "blazeandcave:monsters/taste_of_your_own_medicine",
+  "criteria": {
+    "gave_a_potion": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion",
+            "minecraft:splash_potion",
+            "minecraft:lingering_potion"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_potion_supply_doorbell"
+  }
+}

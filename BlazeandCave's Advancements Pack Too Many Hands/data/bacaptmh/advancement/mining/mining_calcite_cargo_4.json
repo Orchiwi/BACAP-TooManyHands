@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tuff"
+    },
+    "title": {
+      "translate": "The Calcite Consignment"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up Calcite thrown to you by another player 75 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_calcite_cargo_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_calcite_cargo_4"
+  }
+}

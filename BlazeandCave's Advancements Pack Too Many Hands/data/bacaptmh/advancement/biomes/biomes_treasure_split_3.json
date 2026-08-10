@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ice"
+    },
+    "title": {
+      "translate": "The Iceberg Split"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch 40 Nautilus Shells or Hearts of the Sea thrown to you by another player in a frozen ocean (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_treasure_split_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_treasure_split_3"
+  }
+}

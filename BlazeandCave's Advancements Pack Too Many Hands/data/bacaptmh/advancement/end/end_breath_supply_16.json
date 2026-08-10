@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_powder"
+    },
+    "title": {
+      "translate": "Dragonsmoke Monopoly"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed Dragon's Breath or a Lingering Potion in the End 400,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_breath_supply_15",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_breath_supply_16"
+  }
+}

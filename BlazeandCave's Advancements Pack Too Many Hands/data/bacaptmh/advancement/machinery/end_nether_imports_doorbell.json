@@ -1,0 +1,37 @@
+{
+  "parent": "blazeandcave:end/unending_hell",
+  "criteria": {
+    "nether_goods": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherrack",
+            "minecraft:blaze_rod",
+            "minecraft:magma_cream",
+            "minecraft:nether_wart",
+            "minecraft:quartz",
+            "minecraft:glowstone_dust",
+            "minecraft:soul_sand"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_nether_imports_doorbell"
+  }
+}

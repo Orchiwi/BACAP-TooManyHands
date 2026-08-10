@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:animal/cephalight",
+  "criteria": {
+    "ink_handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ink_sac",
+            "minecraft:glow_ink_sac"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_ink_relay_doorbell"
+  }
+}

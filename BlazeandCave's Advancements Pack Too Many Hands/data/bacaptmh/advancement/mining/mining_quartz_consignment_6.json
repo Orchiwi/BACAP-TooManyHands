@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_quartz"
+    },
+    "title": {
+      "translate": "Smooth Operators"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Nether Quartz thrown to you by another player 400 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_quartz_consignment_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_quartz_consignment_6"
+  }
+}

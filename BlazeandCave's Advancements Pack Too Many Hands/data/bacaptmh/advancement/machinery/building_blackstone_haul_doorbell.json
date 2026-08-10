@@ -1,0 +1,43 @@
+{
+  "parent": "blazeandcave:building/blackstonehenge",
+  "criteria": {
+    "blackstone_load_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:blackstone",
+            "minecraft:polished_blackstone",
+            "minecraft:polished_blackstone_bricks",
+            "minecraft:chiseled_polished_blackstone",
+            "minecraft:cracked_polished_blackstone_bricks",
+            "minecraft:gilded_blackstone",
+            "minecraft:blackstone_stairs",
+            "minecraft:blackstone_slab",
+            "minecraft:blackstone_wall",
+            "minecraft:polished_blackstone_stairs",
+            "minecraft:polished_blackstone_slab",
+            "minecraft:polished_blackstone_wall",
+            "minecraft:polished_blackstone_brick_stairs",
+            "minecraft:polished_blackstone_brick_slab",
+            "minecraft:polished_blackstone_brick_wall"
+          ],
+          "count": {
+            "min": 32
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_blackstone_haul_doorbell"
+  }
+}

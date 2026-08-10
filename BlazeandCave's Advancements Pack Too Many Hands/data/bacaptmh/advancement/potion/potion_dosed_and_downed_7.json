@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skull_pottery_sherd"
+    },
+    "title": {
+      "translate": "The Ward Could Not Keep Up"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be killed by another player while you have Regeneration 400 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_dosed_and_downed_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_dosed_and_downed_7"
+  }
+}

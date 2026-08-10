@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_gray_terracotta"
+    },
+    "title": {
+      "translate": "Strata by the Stack"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch 2,000 Terracotta thrown to you by another player in the badlands (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_badlands_freight_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_badlands_freight_7"
+  }
+}

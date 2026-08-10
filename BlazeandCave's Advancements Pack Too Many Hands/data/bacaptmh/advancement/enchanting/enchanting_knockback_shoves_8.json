@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Two Thousand Involuntary Exits"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be struck 2,600 times by another player wielding a Knockback II weapon (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_knockback_shoves_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_knockback_shoves_8"
+  }
+}

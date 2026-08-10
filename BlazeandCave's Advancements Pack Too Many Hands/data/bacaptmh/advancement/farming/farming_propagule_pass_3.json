@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mangrove_leaves"
+    },
+    "title": {
+      "translate": "Dangling Gifts"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand Mangrove Propagules to another player 20 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_propagule_pass_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_propagule_pass_3"
+  }
+}

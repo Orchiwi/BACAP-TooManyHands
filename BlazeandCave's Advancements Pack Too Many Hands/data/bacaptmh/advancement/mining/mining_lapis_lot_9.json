@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_concrete"
+    },
+    "title": {
+      "translate": "Bluer Than Thou"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up Lapis Lazuli thrown to you by another player 4,500 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_lapis_lot_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_lapis_lot_9"
+  }
+}

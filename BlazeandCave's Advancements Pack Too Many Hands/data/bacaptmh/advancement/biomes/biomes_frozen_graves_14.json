@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_terracotta"
+    },
+    "title": {
+      "translate": "Interred by Blizzard"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be killed by another player in a snowy biome 500,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_frozen_graves_13",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_frozen_graves_14"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_lantern"
+    },
+    "title": {
+      "translate": "A Reef Assembled by Two"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Catch 10,000 coral blocks thrown to you by another player in a tropical ocean (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_coral_consignment_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_coral_consignment_9"
+  }
+}

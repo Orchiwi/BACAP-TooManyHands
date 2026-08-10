@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_weighted_pressure_plate"
+    },
+    "title": {
+      "translate": "The Acceleration Allowance"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 1,280 Powered Rails by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_golden_rail_handoff_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_golden_rail_handoff_7"
+  }
+}

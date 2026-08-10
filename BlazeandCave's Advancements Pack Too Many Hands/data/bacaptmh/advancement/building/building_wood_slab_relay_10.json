@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_mosaic_slab"
+    },
+    "title": {
+      "translate": "The Endless Halving"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 4000 wooden slabs dropped by another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_wood_slab_relay_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_wood_slab_relay_10"
+  }
+}

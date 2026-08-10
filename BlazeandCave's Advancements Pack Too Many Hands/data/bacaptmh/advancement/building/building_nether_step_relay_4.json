@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_nether_brick_stairs"
+    },
+    "title": {
+      "translate": "Blackstone Bearers"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have another player pick up 60 Nether or End stairs and slabs you dropped (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_nether_step_relay_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_nether_step_relay_4"
+  }
+}

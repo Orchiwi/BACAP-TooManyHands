@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pitcher_plant"
+    },
+    "title": {
+      "translate": "Every Petal Was Excavated for Me"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 105 sniffer finds by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_sniffer_finds_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_sniffer_finds_5"
+  }
+}

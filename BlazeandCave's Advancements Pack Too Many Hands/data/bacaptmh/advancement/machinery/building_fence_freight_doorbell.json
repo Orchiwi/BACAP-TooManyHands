@@ -1,0 +1,53 @@
+{
+  "parent": "blazeandcave:building/en_garde",
+  "criteria": {
+    "fencing_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:oak_fence",
+            "minecraft:spruce_fence",
+            "minecraft:birch_fence",
+            "minecraft:jungle_fence",
+            "minecraft:acacia_fence",
+            "minecraft:dark_oak_fence",
+            "minecraft:mangrove_fence",
+            "minecraft:cherry_fence",
+            "minecraft:pale_oak_fence",
+            "minecraft:bamboo_fence",
+            "minecraft:crimson_fence",
+            "minecraft:warped_fence",
+            "minecraft:oak_fence_gate",
+            "minecraft:spruce_fence_gate",
+            "minecraft:birch_fence_gate",
+            "minecraft:jungle_fence_gate",
+            "minecraft:acacia_fence_gate",
+            "minecraft:dark_oak_fence_gate",
+            "minecraft:mangrove_fence_gate",
+            "minecraft:cherry_fence_gate",
+            "minecraft:pale_oak_fence_gate",
+            "minecraft:bamboo_fence_gate",
+            "minecraft:crimson_fence_gate",
+            "minecraft:warped_fence_gate",
+            "minecraft:nether_brick_fence"
+          ],
+          "count": {
+            "min": 32
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_fence_freight_doorbell"
+  }
+}

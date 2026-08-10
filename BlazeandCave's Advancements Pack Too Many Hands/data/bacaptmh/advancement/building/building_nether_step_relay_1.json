@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_stairs"
+    },
+    "title": {
+      "translate": "Fungal Steps Passed Down"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have another player pick up 5 Nether or End stairs and slabs you dropped (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/fake_fortress",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_nether_step_relay_1"
+  }
+}

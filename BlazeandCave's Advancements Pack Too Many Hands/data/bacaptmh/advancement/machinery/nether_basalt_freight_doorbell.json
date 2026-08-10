@@ -1,0 +1,34 @@
+{
+  "parent": "blazeandcave:nether/polar_opposites",
+  "criteria": {
+    "basalt_freight": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:basalt",
+            "minecraft:polished_basalt",
+            "minecraft:smooth_basalt"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether",
+            "biomes": "minecraft:basalt_deltas"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_basalt_freight_doorbell"
+  }
+}

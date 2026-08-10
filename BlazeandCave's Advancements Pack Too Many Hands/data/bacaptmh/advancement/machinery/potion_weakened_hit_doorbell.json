@@ -1,0 +1,28 @@
+{
+  "parent": "blazeandcave:potion/a_weak_brew",
+  "criteria": {
+    "battered": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:weakness": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/potion_weakened_hit_doorbell"
+  }
+}

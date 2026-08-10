@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jungle_log"
+    },
+    "title": {
+      "translate": "Pods for Two"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand 125 Cocoa Beans to another player in a jungle (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_cocoa_convoy_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_cocoa_convoy_4"
+  }
+}

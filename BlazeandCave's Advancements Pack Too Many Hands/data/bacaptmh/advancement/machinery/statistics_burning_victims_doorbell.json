@@ -1,0 +1,24 @@
+{
+  "parent": "blazeandcave:statistics/taking_it_in_stride",
+  "criteria": {
+    "struck_them_while_alight": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_on_fire": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/statistics_burning_victims_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_pottery_sherd"
+    },
+    "title": {
+      "translate": "Out-Damaged"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be killed by another player while you have Regeneration 16 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_dosed_and_downed_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_dosed_and_downed_3"
+  }
+}

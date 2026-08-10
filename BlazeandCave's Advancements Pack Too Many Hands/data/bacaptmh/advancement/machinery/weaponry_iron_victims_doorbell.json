@@ -1,0 +1,43 @@
+{
+  "parent": "blazeandcave:weaponry/sir_knight",
+  "criteria": {
+    "iron_clad_victim": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:iron_helmet"
+              ]
+            },
+            "chest": {
+              "items": [
+                "minecraft:iron_chestplate"
+              ]
+            },
+            "legs": {
+              "items": [
+                "minecraft:iron_leggings"
+              ]
+            },
+            "feet": {
+              "items": [
+                "minecraft:iron_boots"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/weaponry_iron_victims_doorbell"
+  }
+}

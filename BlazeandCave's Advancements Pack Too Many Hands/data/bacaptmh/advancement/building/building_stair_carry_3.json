@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_stairs"
+    },
+    "title": {
+      "translate": "Two Flights Up"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed 16 or more Wooden Stairs by another player 17 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_stair_carry_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stair_carry_3"
+  }
+}

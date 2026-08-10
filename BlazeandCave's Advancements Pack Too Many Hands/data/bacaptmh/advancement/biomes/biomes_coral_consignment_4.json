@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_coral_block"
+    },
+    "title": {
+      "translate": "Handed a Whole Garden"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch 125 coral blocks thrown to you by another player in a tropical ocean (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_coral_consignment_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_coral_consignment_4"
+  }
+}

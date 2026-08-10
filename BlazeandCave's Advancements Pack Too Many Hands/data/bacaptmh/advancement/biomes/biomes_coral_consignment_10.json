@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine"
+    },
+    "title": {
+      "translate": "Every Colour the Sea Has"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Catch 25,000 coral blocks thrown to you by another player in a tropical ocean (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_coral_consignment_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_coral_consignment_10"
+  }
+}

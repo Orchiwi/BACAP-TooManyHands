@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:monsters/slime_squisher",
+  "criteria": {
+    "caught_the_slime": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:slime_ball",
+            "minecraft:slime_block"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_slime_delivery_doorbell"
+  }
+}

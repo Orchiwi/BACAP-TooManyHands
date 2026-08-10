@@ -1,0 +1,37 @@
+{
+  "parent": "blazeandcave:end/off_with_his_head",
+  "criteria": {
+    "head_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dragon_head",
+            "minecraft:player_head",
+            "minecraft:zombie_head",
+            "minecraft:skeleton_skull",
+            "minecraft:wither_skeleton_skull",
+            "minecraft:creeper_head",
+            "minecraft:piglin_head"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_head_passing_doorbell"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "blazeandcave:farming/shrooms",
+  "criteria": {
+    "shrooms_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:brown_mushroom",
+            "minecraft:red_mushroom",
+            "minecraft:red_mushroom_block",
+            "minecraft:brown_mushroom_block",
+            "minecraft:mushroom_stem"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_mushroom_swap_doorbell"
+  }
+}

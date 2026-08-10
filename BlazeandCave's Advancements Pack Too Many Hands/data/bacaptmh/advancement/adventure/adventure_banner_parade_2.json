@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_banner"
+    },
+    "title": {
+      "translate": "The Flag You Fly Was Mine"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 10 banners (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_banner_parade_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_banner_parade_2"
+  }
+}

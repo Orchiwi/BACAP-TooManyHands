@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:howl_pottery_sherd"
+    },
+    "title": {
+      "translate": "The Night Shift Harvest"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 670 Phantom Membranes thrown to you by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_membrane_run_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_membrane_run_7"
+  }
+}

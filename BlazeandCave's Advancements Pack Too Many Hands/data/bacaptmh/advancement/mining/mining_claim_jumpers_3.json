@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_sword"
+    },
+    "title": {
+      "translate": "The Vein Feud"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Defeat another player below Y level 0 15 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_claim_jumpers_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_claim_jumpers_3"
+  }
+}

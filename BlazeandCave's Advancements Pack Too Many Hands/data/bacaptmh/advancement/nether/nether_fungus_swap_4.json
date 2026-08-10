@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hoglin_spawn_egg"
+    },
+    "title": {
+      "translate": "Feeding Each Other's Hoglins"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Nether Fungus thrown from three blocks away 100 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_fungus_swap_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_fungus_swap_4"
+  }
+}

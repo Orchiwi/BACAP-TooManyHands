@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_shulker_box"
+    },
+    "title": {
+      "translate": "Blossom Without End"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Catch 18,000,000 Pink Petals thrown to you in a Cherry Grove (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_petal_post_17",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_petal_post_18"
+  }
+}

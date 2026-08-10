@@ -1,0 +1,31 @@
+{
+  "parent": "blazeandcave:animal/feeding_the_chickens",
+  "criteria": {
+    "seeds_handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wheat_seeds",
+            "minecraft:melon_seeds",
+            "minecraft:pumpkin_seeds",
+            "minecraft:beetroot_seeds",
+            "minecraft:torchflower_seeds",
+            "minecraft:pitcher_pod"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_seed_scatter_doorbell"
+  }
+}

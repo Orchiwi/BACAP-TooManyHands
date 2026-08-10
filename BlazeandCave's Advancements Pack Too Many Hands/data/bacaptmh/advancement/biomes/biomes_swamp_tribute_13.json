@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:muddy_mangrove_roots"
+    },
+    "title": {
+      "translate": "A Marsh Full of IOUs"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand 260,000 Slimeballs to another player standing in a swamp (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_swamp_tribute_12",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_swamp_tribute_13"
+  }
+}

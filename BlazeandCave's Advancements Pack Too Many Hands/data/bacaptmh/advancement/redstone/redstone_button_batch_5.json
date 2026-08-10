@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_button"
+    },
+    "title": {
+      "translate": "The Pressing Trade"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Throw 120 Buttons for another player to pick up (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_button_batch_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_button_batch_5"
+  }
+}

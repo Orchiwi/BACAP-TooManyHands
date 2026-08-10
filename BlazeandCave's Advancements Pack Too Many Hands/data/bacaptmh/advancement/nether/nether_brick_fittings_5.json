@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick_slab"
+    },
+    "title": {
+      "translate": "Half Blocks, Whole Effort"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 16 or more Nether Brick slabs, stairs, walls or fences from another player's hand 80 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_brick_fittings_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_brick_fittings_5"
+  }
+}

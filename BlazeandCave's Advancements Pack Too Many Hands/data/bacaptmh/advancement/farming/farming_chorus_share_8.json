@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:popped_chorus_fruit"
+    },
+    "title": {
+      "translate": "Chorus Beyond Counting"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed Chorus Fruit by another player 1,200 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_chorus_share_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_chorus_share_8"
+  }
+}

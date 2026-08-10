@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_5"
+    },
+    "title": {
+      "translate": "Someone Went Down There for Me"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed 5 Disc Fragments by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_fragment_relay_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_fragment_relay_2"
+  }
+}

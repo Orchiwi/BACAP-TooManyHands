@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_hoe"
+    },
+    "title": {
+      "translate": "Fresh Off the Bench"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed a Hoe by another player 20 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_hoe_handout_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_hoe_handout_3"
+  }
+}

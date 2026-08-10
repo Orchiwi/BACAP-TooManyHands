@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fence"
+    },
+    "title": {
+      "translate": "A World Divided Neatly"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 32 or more Fences or Fence Gates 3,600 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_fence_freight_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_fence_freight_10"
+  }
+}

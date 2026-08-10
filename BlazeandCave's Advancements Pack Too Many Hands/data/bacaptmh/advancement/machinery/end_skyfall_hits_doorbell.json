@@ -1,0 +1,33 @@
+{
+  "parent": "blazeandcave:end/sky_high",
+  "criteria": {
+    "struck_up_high": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end",
+            "position": {
+              "y": {
+                "min": 150
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_skyfall_hits_doorbell"
+  }
+}

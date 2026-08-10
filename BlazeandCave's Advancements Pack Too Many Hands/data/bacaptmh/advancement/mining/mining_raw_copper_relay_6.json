@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cut_copper"
+    },
+    "title": {
+      "translate": "Malachite Mail"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Post 256 Raw Copper across to a mining partner (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_raw_copper_relay_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_copper_relay_6"
+  }
+}

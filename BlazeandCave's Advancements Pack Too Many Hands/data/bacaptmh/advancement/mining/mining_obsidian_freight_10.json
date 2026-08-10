@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_portal"
+    },
+    "title": {
+      "translate": "A Wall Between Worlds"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up Obsidian thrown to you by another player 10,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_obsidian_freight_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_obsidian_freight_10"
+  }
+}

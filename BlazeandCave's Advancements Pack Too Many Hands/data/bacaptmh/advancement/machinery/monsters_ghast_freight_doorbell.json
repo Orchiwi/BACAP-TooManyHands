@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:monsters/the_ghastly_eyes",
+  "criteria": {
+    "caught_a_tear": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ghast_tear"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_ghast_freight_doorbell"
+  }
+}

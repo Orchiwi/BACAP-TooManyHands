@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skull_pottery_sherd"
+    },
+    "title": {
+      "translate": "A Sky Emptied Of Wings"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 3,500 Phantom Membranes thrown to you by another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_membrane_run_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_membrane_run_9"
+  }
+}

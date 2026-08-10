@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_orchid"
+    },
+    "title": {
+      "translate": "The Bouquet Run"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player Flowers 40 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_flower_gift_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_flower_gift_3"
+  }
+}

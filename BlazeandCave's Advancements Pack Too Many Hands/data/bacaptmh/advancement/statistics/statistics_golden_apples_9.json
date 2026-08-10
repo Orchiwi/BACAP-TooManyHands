@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_pottery_sherd"
+    },
+    "title": {
+      "translate": "Four Thousand Miracles Received"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 4,000 healing treasures thrown to you by another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_golden_apples_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_golden_apples_9"
+  }
+}

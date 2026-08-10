@@ -1,0 +1,42 @@
+{
+  "parent": "blazeandcave:building/ladder_climbers_inc",
+  "criteria": {
+    "access_kit_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:scaffolding",
+            "minecraft:ladder",
+            "minecraft:iron_chain",
+            "minecraft:iron_bars",
+            "minecraft:copper_chain",
+            "minecraft:copper_bars",
+            "minecraft:exposed_copper_chain",
+            "minecraft:weathered_copper_chain",
+            "minecraft:oxidized_copper_chain",
+            "minecraft:waxed_copper_chain",
+            "minecraft:exposed_copper_bars",
+            "minecraft:weathered_copper_bars",
+            "minecraft:oxidized_copper_bars",
+            "minecraft:waxed_copper_bars"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_scaffold_kit_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_boat"
+    },
+    "title": {
+      "translate": "A Navy on Frozen Water"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand 8,000 Boats to another player on frozen water (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_frozen_river_ferry_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_frozen_river_ferry_9"
+  }
+}

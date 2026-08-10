@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_button"
+    },
+    "title": {
+      "translate": "A Pocket Full of Buttons"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Throw 56 Buttons for another player to pick up (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_button_batch_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_button_batch_4"
+  }
+}

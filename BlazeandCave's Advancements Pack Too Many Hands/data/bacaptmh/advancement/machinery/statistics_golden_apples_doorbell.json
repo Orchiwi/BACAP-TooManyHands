@@ -1,0 +1,31 @@
+{
+  "parent": "blazeandcave:statistics/the_haggler",
+  "criteria": {
+    "caught_a_lifeline": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_apple",
+            "minecraft:enchanted_golden_apple",
+            "minecraft:totem_of_undying",
+            "minecraft:golden_carrot",
+            "minecraft:glistering_melon_slice",
+            "minecraft:honey_bottle"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/statistics_golden_apples_doorbell"
+  }
+}

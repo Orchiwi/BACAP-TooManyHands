@@ -1,0 +1,51 @@
+{
+  "parent": "blazeandcave:statistics/om_nom_nom",
+  "criteria": {
+    "tilled_a_rival": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_hoe",
+                    "minecraft:stone_hoe",
+                    "minecraft:iron_hoe",
+                    "minecraft:golden_hoe",
+                    "minecraft:diamond_hoe",
+                    "minecraft:netherite_hoe"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/statistics_hoe_hits_doorbell"
+  }
+}

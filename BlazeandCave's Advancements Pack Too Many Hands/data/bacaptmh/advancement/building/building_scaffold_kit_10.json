@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:waxed_copper_chain"
+    },
+    "title": {
+      "translate": "The Climbing Company"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 16 or more Scaffolding, Ladders, Chains or Bars 3,600 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_scaffold_kit_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_scaffold_kit_10"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:muddy_mangrove_roots"
+    },
+    "title": {
+      "translate": "Stilts for Two"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand Mangrove Propagules to another player 90 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_propagule_pass_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_propagule_pass_5"
+  }
+}

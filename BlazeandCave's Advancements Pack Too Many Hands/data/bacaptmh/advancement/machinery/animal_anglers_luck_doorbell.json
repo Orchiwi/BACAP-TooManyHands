@@ -1,0 +1,30 @@
+{
+  "parent": "blazeandcave:animal/totally_not_an_afk_fisher",
+  "criteria": {
+    "blessed_by_a_friend": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:luck": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_anglers_luck_doorbell"
+  }
+}

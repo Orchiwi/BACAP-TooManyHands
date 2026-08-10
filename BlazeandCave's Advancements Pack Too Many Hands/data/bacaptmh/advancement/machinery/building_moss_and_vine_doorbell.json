@@ -1,0 +1,40 @@
+{
+  "parent": "blazeandcave:building/grass_type",
+  "criteria": {
+    "greenery_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:moss_block",
+            "minecraft:moss_carpet",
+            "minecraft:pale_moss_block",
+            "minecraft:pale_moss_carpet",
+            "minecraft:pale_hanging_moss",
+            "minecraft:vine",
+            "minecraft:glow_lichen",
+            "minecraft:azalea",
+            "minecraft:flowering_azalea",
+            "minecraft:big_dripleaf",
+            "minecraft:small_dripleaf",
+            "minecraft:hanging_roots"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_moss_and_vine_doorbell"
+  }
+}

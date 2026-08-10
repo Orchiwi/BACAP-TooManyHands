@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_sapling"
+    },
+    "title": {
+      "translate": "Sapling Stipend"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed saplings by another player 15 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_sapling_relay_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_sapling_relay_2"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:animal/winnie_the_pooh",
+  "criteria": {
+    "honey_taken": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle",
+            "minecraft:honeycomb",
+            "minecraft:honey_block",
+            "minecraft:honeycomb_block"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_honey_relay_doorbell"
+  }
+}

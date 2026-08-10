@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_blackstone"
+    },
+    "title": {
+      "translate": "Polish and Pass"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 32 or more Polished Blackstone blocks 3 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/dark_ages",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_polished_blackstone_relay_1"
+  }
+}

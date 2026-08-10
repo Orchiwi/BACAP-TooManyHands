@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:danger_pottery_sherd"
+    },
+    "title": {
+      "translate": "Venom Is Just Weather Now"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Receive Poison from another player 10,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_poison_dosings_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_poison_dosings_10"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone_wall"
+    },
+    "title": {
+      "translate": "The Portable Wall"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Deflect 500 projectiles from other players with your Shield (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_shield_deflections_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_shield_deflections_6"
+  }
+}

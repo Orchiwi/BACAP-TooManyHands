@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_iron"
+    },
+    "title": {
+      "translate": "The Heavy Trade"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 460 Heavy Weighted Pressure Plates thrown to you by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_iron_plate_freight_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_iron_plate_freight_7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_vein"
+    },
+    "title": {
+      "translate": "Blinking Out Together"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Suffer 250 darkness effects caused by other players (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_dark_dose_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_dark_dose_6"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "blazeandcave:end/taking_the_scenic_route",
+  "criteria": {
+    "bridge_stock": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cobblestone",
+            "minecraft:dirt",
+            "minecraft:scaffolding",
+            "minecraft:sand",
+            "minecraft:gravel",
+            "minecraft:oak_planks"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_bridge_supply_doorbell"
+  }
+}

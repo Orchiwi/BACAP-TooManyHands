@@ -1,0 +1,34 @@
+{
+  "parent": "blazeandcave:end/end_bricks",
+  "criteria": {
+    "bricks_passed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:end_stone_bricks",
+            "minecraft:end_stone_brick_slab",
+            "minecraft:end_stone_brick_stairs",
+            "minecraft:end_stone_brick_wall"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_brick_convoy_doorbell"
+  }
+}

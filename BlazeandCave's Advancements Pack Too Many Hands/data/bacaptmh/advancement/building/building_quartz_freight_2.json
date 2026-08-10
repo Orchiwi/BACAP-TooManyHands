@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_block"
+    },
+    "title": {
+      "translate": "Pillars for Two"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 16 or more Quartz blocks 5 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_quartz_freight_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_quartz_freight_2"
+  }
+}

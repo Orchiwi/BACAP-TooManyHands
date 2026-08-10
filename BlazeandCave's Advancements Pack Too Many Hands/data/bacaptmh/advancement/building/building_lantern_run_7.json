@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper_lantern"
+    },
+    "title": {
+      "translate": "The Lantern Guild"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 8 or more Lanterns 340 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_lantern_run_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_lantern_run_7"
+  }
+}

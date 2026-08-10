@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_shovel"
+    },
+    "title": {
+      "translate": "Scrap Metal Sovereigns"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up Netherite Scrap thrown to you by another player 2,000,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_netherite_trust_17",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_netherite_trust_18"
+  }
+}

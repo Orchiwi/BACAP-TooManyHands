@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_stained_glass"
+    },
+    "title": {
+      "translate": "The Tundra's Longest Guest"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be killed by another player in a snowy biome 25,000,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_frozen_graves_18",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_frozen_graves_19"
+  }
+}

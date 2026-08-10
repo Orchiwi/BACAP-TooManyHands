@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:armadillo_scute"
+    },
+    "title": {
+      "translate": "Not for Human Consumption"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand Spider Eyes to other players 1,200 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_spider_eye_ration_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_spider_eye_ration_8"
+  }
+}

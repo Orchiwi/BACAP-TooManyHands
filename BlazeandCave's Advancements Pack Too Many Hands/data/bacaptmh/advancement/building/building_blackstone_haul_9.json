@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cracked_polished_blackstone_bricks"
+    },
+    "title": {
+      "translate": "A Henge Every Morning"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 32 or more Blackstone by another player 1,700 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_blackstone_haul_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_blackstone_haul_9"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_stairs"
+    },
+    "title": {
+      "translate": "Every Floor Reachable"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 16 or more Wooden Stairs by another player 2,600 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_stair_carry_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_stair_carry_9"
+  }
+}

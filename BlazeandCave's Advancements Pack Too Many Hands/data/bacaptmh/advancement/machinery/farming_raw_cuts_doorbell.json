@@ -1,0 +1,30 @@
+{
+  "parent": "blazeandcave:farming/a_gluttonous_diet",
+  "criteria": {
+    "raw_meat_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:beef",
+            "minecraft:porkchop",
+            "minecraft:chicken",
+            "minecraft:mutton",
+            "minecraft:rabbit"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_raw_cuts_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_prismarine"
+    },
+    "title": {
+      "translate": "Fifty Fatal Throws"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player 50 times with a Trident enchanted with Impaling V (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_impaling_duels_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_impaling_duels_5"
+  }
+}

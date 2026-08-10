@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:conduit"
+    },
+    "title": {
+      "translate": "Admiral of the Frozen Sea"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Catch 20,000 Nautilus Shells or Hearts of the Sea thrown to you by another player in a frozen ocean (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_treasure_split_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_treasure_split_10"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:melon_seeds"
+    },
+    "title": {
+      "translate": "Seed Sharing"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand Seeds to other players 45 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_seed_scatter_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_seed_scatter_3"
+  }
+}

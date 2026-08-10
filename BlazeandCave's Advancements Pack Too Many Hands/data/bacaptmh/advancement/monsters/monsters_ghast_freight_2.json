@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "Freight of Sorrow"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take delivery of 25 tears you did not earn (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_ghast_freight_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_ghast_freight_2"
+  }
+}

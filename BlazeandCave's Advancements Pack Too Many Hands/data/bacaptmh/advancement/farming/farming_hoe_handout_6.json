@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
+    },
+    "title": {
+      "translate": "Equipping the Farmhands"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed a Hoe by another player 250 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_hoe_handout_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_hoe_handout_6"
+  }
+}

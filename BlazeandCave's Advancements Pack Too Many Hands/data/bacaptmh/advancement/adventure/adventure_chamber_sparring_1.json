@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_grate"
+    },
+    "title": {
+      "translate": "The Spawner Watches Us Fight"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hit another player 5 times inside a Trial Chamber (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/hard_mode_activated",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_chamber_sparring_1"
+  }
+}

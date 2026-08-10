@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sandstone_slab"
+    },
+    "title": {
+      "translate": "Two Deserts Short"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 32 or more Sandstone 17,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_sandstone_relay_11",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_sandstone_relay_12"
+  }
+}

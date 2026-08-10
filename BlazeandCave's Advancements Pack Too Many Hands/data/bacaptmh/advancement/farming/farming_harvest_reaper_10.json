@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_hoe"
+    },
+    "title": {
+      "translate": "Death Comes for the Crop"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player with a Hoe 3,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_harvest_reaper_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_harvest_reaper_10"
+  }
+}

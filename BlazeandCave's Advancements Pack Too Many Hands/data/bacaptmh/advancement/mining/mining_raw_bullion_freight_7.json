@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:waxed_copper_block"
+    },
+    "title": {
+      "translate": "Bullion Brigade"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "March 96 Raw Gold or Raw Copper Blocks down a two-man line (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_raw_bullion_freight_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_bullion_freight_7"
+  }
+}

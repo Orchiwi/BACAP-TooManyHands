@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:danger_pottery_sherd"
+    },
+    "title": {
+      "translate": "Nowhere Left To Step"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be caught in another player's Lingering Potion cloud 1,700 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_cloud_caught_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_cloud_caught_8"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:suspicious_gravel"
+    },
+    "title": {
+      "translate": "The Aggregate Contract"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed a full stack of Gravel, Sand or Clay by another player 340 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_ballast_run_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_ballast_run_7"
+  }
+}

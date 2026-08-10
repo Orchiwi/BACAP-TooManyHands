@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:twisting_vines"
+    },
+    "title": {
+      "translate": "Farming in Hell"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player Nether Crops 350 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_nether_crop_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_nether_crop_6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_dye"
+    },
+    "title": {
+      "translate": "Dyemaster of the Flock"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand Dyes to other players 10,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_dye_relay_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_dye_relay_10"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "blazeandcave:nether/gilded_miner",
+  "criteria": {
+    "blackstone_trim_taken": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blackstone_slab",
+            "minecraft:blackstone_stairs",
+            "minecraft:blackstone_wall",
+            "minecraft:polished_blackstone_slab",
+            "minecraft:polished_blackstone_stairs",
+            "minecraft:polished_blackstone_wall",
+            "minecraft:polished_blackstone_brick_slab",
+            "minecraft:polished_blackstone_brick_stairs",
+            "minecraft:polished_blackstone_brick_wall",
+            "minecraft:polished_blackstone_button",
+            "minecraft:polished_blackstone_pressure_plate"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_blackstone_fittings_doorbell"
+  }
+}

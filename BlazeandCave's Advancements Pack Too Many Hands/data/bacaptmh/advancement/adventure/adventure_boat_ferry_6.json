@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_chest_boat"
+    },
+    "title": {
+      "translate": "Fleet Without an Admiral"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 320 boats (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_boat_ferry_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_boat_ferry_6"
+  }
+}

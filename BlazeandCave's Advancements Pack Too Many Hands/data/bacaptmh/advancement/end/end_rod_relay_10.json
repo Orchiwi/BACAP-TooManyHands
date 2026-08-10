@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ochre_froglight"
+    },
+    "title": {
+      "translate": "The End Has Streetlights"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed a light source in the End 7,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_rod_relay_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_rod_relay_10"
+  }
+}

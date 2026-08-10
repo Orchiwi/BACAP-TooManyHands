@@ -1,0 +1,47 @@
+{
+  "parent": "blazeandcave:building/fake_fortress",
+  "criteria": {
+    "nether_step_handoff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crimson_stairs",
+            "minecraft:warped_stairs",
+            "minecraft:nether_brick_stairs",
+            "minecraft:red_nether_brick_stairs",
+            "minecraft:blackstone_stairs",
+            "minecraft:polished_blackstone_stairs",
+            "minecraft:polished_blackstone_brick_stairs",
+            "minecraft:quartz_stairs",
+            "minecraft:smooth_quartz_stairs",
+            "minecraft:purpur_stairs",
+            "minecraft:end_stone_brick_stairs",
+            "minecraft:crimson_slab",
+            "minecraft:warped_slab",
+            "minecraft:nether_brick_slab",
+            "minecraft:red_nether_brick_slab",
+            "minecraft:blackstone_slab",
+            "minecraft:polished_blackstone_slab",
+            "minecraft:polished_blackstone_brick_slab",
+            "minecraft:quartz_slab",
+            "minecraft:smooth_quartz_slab",
+            "minecraft:purpur_slab",
+            "minecraft:end_stone_brick_slab"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_nether_step_relay_doorbell"
+  }
+}

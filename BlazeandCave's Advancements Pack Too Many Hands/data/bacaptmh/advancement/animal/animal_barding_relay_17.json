@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_horse_armor"
+    },
+    "title": {
+      "translate": "The Armored Migration"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand Horse or Wolf Armor to other players 520,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_barding_relay_16",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_barding_relay_17"
+  }
+}

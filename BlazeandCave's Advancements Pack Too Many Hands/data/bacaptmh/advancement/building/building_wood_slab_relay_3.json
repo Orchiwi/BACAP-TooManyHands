@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:birch_slab"
+    },
+    "title": {
+      "translate": "The Halving Bench"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 30 wooden slabs dropped by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_wood_slab_relay_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_wood_slab_relay_3"
+  }
+}

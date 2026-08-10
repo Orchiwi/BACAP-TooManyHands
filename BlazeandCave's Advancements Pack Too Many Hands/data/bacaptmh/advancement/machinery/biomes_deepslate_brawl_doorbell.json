@@ -1,0 +1,38 @@
+{
+  "parent": "blazeandcave:biomes/ten_thousand_blocks",
+  "criteria": {
+    "low_blows": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "position": {
+              "y": {
+                "max": -40
+              }
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_overworld",
+            "position": {
+              "y": {
+                "max": -40
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_deepslate_brawl_doorbell"
+  }
+}

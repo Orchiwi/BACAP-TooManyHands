@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:disc_fragment_5"
+    },
+    "title": {
+      "translate": "Pieces from the Dark"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed 2 Disc Fragments by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/a_chiptune_relic",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_fragment_relay_1"
+  }
+}

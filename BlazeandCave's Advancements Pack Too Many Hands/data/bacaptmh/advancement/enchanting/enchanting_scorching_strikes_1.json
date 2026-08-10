@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fire_charge"
+    },
+    "title": {
+      "translate": "A Warm Reception"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Land 20 hits on another player with a weapon enchanted with Fire Aspect II (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/newtons_flaming_laser_sword",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_scorching_strikes_1"
+  }
+}

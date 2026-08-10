@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_door"
+    },
+    "title": {
+      "translate": "Someone Has to Hold It"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed 4 or more Doors or Trapdoors by another player 5 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_joinery_run_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_joinery_run_2"
+  }
+}

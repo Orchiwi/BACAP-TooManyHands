@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:orange_dye"
+    },
+    "title": {
+      "translate": "The Masquerade Supply"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Deliver 5000 carved pumpkins and lanterns to other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_pumpkin_masks_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_pumpkin_masks_9"
+  }
+}

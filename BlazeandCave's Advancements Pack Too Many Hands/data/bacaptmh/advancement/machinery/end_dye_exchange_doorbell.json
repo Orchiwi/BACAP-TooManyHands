@@ -1,0 +1,46 @@
+{
+  "parent": "blazeandcave:end/somewhere_over_the_rainbow",
+  "criteria": {
+    "dye_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_dye",
+            "minecraft:orange_dye",
+            "minecraft:magenta_dye",
+            "minecraft:light_blue_dye",
+            "minecraft:yellow_dye",
+            "minecraft:lime_dye",
+            "minecraft:pink_dye",
+            "minecraft:gray_dye",
+            "minecraft:light_gray_dye",
+            "minecraft:cyan_dye",
+            "minecraft:purple_dye",
+            "minecraft:blue_dye",
+            "minecraft:brown_dye",
+            "minecraft:green_dye",
+            "minecraft:red_dye",
+            "minecraft:black_dye"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_dye_exchange_doorbell"
+  }
+}

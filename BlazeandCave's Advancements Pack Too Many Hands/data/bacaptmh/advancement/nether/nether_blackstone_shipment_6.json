@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blackstone_wall"
+    },
+    "title": {
+      "translate": "The Quarry Splits Evenly"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a full stack of Blackstone in the Nether 500 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_blackstone_shipment_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_blackstone_shipment_6"
+  }
+}

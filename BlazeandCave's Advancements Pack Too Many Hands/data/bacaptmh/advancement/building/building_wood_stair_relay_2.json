@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_stairs"
+    },
+    "title": {
+      "translate": "Plank Steps Passed Along"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have another player pick up 15 wooden stairs you dropped (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_wood_stair_relay_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_wood_stair_relay_2"
+  }
+}

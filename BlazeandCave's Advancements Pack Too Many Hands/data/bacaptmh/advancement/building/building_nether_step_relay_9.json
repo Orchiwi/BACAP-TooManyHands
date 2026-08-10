@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purpur_stairs"
+    },
+    "title": {
+      "translate": "The Fortress Renovation Team"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have another player pick up 2000 Nether or End stairs and slabs you dropped (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_nether_step_relay_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_nether_step_relay_9"
+  }
+}

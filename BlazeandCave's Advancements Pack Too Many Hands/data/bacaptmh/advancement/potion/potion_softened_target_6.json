@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arms_up_pottery_sherd"
+    },
+    "title": {
+      "translate": "No Fair Fights Here"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hurt another player who has the Weakness effect 265 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_softened_target_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_softened_target_6"
+  }
+}

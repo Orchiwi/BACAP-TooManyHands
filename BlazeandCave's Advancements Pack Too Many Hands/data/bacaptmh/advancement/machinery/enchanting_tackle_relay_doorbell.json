@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:enchanting/master_fisher",
+  "criteria": {
+    "spare_rod": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:fishing_rod"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/enchanting_tackle_relay_doorbell"
+  }
+}

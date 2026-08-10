@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:potion/noxious_fumes",
+  "criteria": {
+    "engulfed": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "direct_entity": {
+            "entity_type": "minecraft:area_effect_cloud"
+          },
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/potion_cloud_caught_doorbell"
+  }
+}

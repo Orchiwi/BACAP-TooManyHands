@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow"
+    },
+    "title": {
+      "translate": "Quarrying the Spires"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch 350 Ice blocks thrown to you by another player in an Ice Spikes biome (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_glacier_relay_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_glacier_relay_5"
+  }
+}

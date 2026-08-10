@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spore_blossom"
+    },
+    "title": {
+      "translate": "Moss for the Build"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed Lush Cave Plants by another player 25 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_lush_delivery_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_lush_delivery_3"
+  }
+}

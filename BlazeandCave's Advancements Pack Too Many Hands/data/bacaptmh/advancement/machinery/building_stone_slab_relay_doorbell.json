@@ -1,0 +1,52 @@
+{
+  "parent": "blazeandcave:building/slabs_for_days",
+  "criteria": {
+    "stone_slab_handoff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:stone_slab",
+            "minecraft:cobblestone_slab",
+            "minecraft:mossy_cobblestone_slab",
+            "minecraft:stone_brick_slab",
+            "minecraft:mossy_stone_brick_slab",
+            "minecraft:granite_slab",
+            "minecraft:polished_granite_slab",
+            "minecraft:diorite_slab",
+            "minecraft:polished_diorite_slab",
+            "minecraft:andesite_slab",
+            "minecraft:polished_andesite_slab",
+            "minecraft:cobbled_deepslate_slab",
+            "minecraft:polished_deepslate_slab",
+            "minecraft:deepslate_brick_slab",
+            "minecraft:deepslate_tile_slab",
+            "minecraft:tuff_slab",
+            "minecraft:polished_tuff_slab",
+            "minecraft:tuff_brick_slab",
+            "minecraft:brick_slab",
+            "minecraft:sandstone_slab",
+            "minecraft:smooth_sandstone_slab",
+            "minecraft:red_sandstone_slab",
+            "minecraft:smooth_red_sandstone_slab",
+            "minecraft:mud_brick_slab",
+            "minecraft:smooth_stone_slab",
+            "minecraft:cut_sandstone_slab",
+            "minecraft:cut_red_sandstone_slab"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_stone_slab_relay_doorbell"
+  }
+}

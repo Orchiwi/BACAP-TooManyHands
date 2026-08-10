@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:azure_bluet"
+    },
+    "title": {
+      "translate": "The Flower Forest Is Bare"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand 4,500 flowers to another player in a Flower Forest (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_flower_bouquet_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_flower_bouquet_8"
+  }
+}

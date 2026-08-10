@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_boots"
+    },
+    "title": {
+      "translate": "Post and Mail"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hit players wearing full Chainmail armour 5 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_chainmail_victims_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_chainmail_victims_2"
+  }
+}

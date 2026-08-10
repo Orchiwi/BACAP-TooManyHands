@@ -1,0 +1,33 @@
+{
+  "parent": "blazeandcave:biomes/lion_hunter",
+  "criteria": {
+    "cocoa_run": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cocoa_beans"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:jungle",
+              "minecraft:sparse_jungle",
+              "minecraft:bamboo_jungle"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_cocoa_convoy_doorbell"
+  }
+}

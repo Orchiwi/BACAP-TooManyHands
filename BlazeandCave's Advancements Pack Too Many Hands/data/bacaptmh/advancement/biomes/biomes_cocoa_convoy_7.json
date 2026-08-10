@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_concrete"
+    },
+    "title": {
+      "translate": "Cookies for an Army"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand 1,800 Cocoa Beans to another player in a jungle (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_cocoa_convoy_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_cocoa_convoy_7"
+  }
+}
