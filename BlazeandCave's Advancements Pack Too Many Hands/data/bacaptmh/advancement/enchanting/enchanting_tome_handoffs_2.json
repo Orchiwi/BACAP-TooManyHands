@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:book"
+    },
+    "title": {
+      "translate": "Reading Circle"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take 20 Enchanted Books from another player's hand (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_tome_handoffs_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_tome_handoffs_2"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:adventure/diagon_allay",
+  "criteria": {
+    "dosed_by_a_friend": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/adventure_expedition_brews_doorbell"
+  }
+}

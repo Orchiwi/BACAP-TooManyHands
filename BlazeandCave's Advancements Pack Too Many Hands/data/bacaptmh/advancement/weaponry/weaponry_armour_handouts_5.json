@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": {
+      "translate": "Plate for a Friend"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand 100 pieces of armour to other players (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_armour_handouts_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_armour_handouts_5"
+  }
+}

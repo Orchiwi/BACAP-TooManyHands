@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sugar"
+    },
+    "title": {
+      "translate": "The Sticky Ledger"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player Honey or Sugar 450 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_hive_tithe_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_hive_tithe_6"
+  }
+}

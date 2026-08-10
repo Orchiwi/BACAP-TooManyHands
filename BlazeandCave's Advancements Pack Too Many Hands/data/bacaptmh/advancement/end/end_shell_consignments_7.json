@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_dye"
+    },
+    "title": {
+      "translate": "A Fortune in Shells"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 600 Shulker Shells by other players in the End (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_shell_consignments_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_shell_consignments_7"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:breeze_rod"
+    },
+    "title": {
+      "translate": "The Keyring Grows Heavy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 600 Trial Keys by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_trial_key_handover_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_trial_key_handover_7"
+  }
+}

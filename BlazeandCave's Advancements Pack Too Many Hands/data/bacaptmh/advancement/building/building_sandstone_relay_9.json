@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sand"
+    },
+    "title": {
+      "translate": "Monuments to Nobody"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 32 or more Sandstone 2,100 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_sandstone_relay_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_sandstone_relay_9"
+  }
+}

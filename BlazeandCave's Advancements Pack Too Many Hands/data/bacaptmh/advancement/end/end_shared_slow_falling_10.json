@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "Drifting on Borrowed Time"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up Slow Falling from another player's potion in the End 4,500 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_shared_slow_falling_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_shared_slow_falling_10"
+  }
+}

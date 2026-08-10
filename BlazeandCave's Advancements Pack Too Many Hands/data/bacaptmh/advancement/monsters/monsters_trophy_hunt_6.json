@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "Carnival of Corpses"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Claim 250 player kills with a skull for a helmet (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_trophy_hunt_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_trophy_hunt_6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tripwire_hook"
+    },
+    "title": {
+      "translate": "Emperor of Eight Legs"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Collect 10000 spider drops flung to you by other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_silk_road_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_silk_road_10"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_block"
+    },
+    "title": {
+      "translate": "Industrial Push"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Throw 1,200 Pistons or Sticky Pistons for another player to pick up (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_piston_shipments_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_piston_shipments_8"
+  }
+}

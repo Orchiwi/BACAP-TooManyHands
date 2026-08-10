@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:andesite"
+    },
+    "title": {
+      "translate": "Bruises Above the Snowline"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Land 50 hits on another player above y=200 (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_altitude_brawl_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_altitude_brawl_3"
+  }
+}

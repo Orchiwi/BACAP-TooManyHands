@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_concrete"
+    },
+    "title": {
+      "translate": "The Concrete Jungle"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 16 or more Concrete by another player 1,800 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_concrete_relay_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_concrete_relay_9"
+  }
+}

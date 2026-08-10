@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Alchemist's Courier"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed Dragon's Breath or a Lingering Potion in the End 100 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_breath_supply_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_breath_supply_5"
+  }
+}

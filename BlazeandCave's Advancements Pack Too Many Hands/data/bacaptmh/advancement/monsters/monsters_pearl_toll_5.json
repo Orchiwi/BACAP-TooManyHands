@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_fruit"
+    },
+    "title": {
+      "translate": "Void Freight"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ship 250 pearls across to another player by hand (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_pearl_toll_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_pearl_toll_5"
+  }
+}

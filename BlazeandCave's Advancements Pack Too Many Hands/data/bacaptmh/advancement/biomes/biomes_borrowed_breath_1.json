@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glass_bottle"
+    },
+    "title": {
+      "translate": "Borrowed Breath"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be given Water Breathing by another player 10 times while underwater (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/free_diver",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_borrowed_breath_1"
+  }
+}

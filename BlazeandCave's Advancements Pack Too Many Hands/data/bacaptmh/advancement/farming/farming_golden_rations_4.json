@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_carrot"
+    },
+    "title": {
+      "translate": "The Gilded Larder"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed Golden Food by another player 50 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_golden_rations_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_golden_rations_4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cocoa_beans"
+    },
+    "title": {
+      "translate": "Bruised by Bamboo"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take 150 hits from another player in a jungle (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_jungle_ambush_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_jungle_ambush_4"
+  }
+}

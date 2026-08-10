@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prize_pottery_sherd"
+    },
+    "title": {
+      "translate": "Curator of the Given"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 1,100 Pottery Sherds (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_sherd_relay_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_sherd_relay_8"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:friend_pottery_sherd"
+    },
+    "title": {
+      "translate": "Museum of Two Hands"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 250 Pottery Sherds (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_sherd_relay_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_sherd_relay_6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "The Great Unenchanting"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 4,400 Grindstones or plain Books (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_grindstone_freight_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_grindstone_freight_9"
+  }
+}

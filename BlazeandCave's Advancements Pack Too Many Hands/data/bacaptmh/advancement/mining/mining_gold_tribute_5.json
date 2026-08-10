@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "Bullion Benefactor"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have another player pick up Gold Ingots you threw 300 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_gold_tribute_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_gold_tribute_5"
+  }
+}

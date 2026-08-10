@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_horn"
+    },
+    "title": {
+      "translate": "The Passed Horn"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 15 Goat Horns (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_horn_signal_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_horn_signal_3"
+  }
+}

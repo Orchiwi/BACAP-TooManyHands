@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Made of Sterner Stuff"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 300 hits from other players in the Nether (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_pvp_taken_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_pvp_taken_4"
+  }
+}

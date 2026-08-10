@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot"
+    },
+    "title": {
+      "translate": "Beet Around the Bush"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player Root Vegetables 25 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_root_cellar_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_root_cellar_3"
+  }
+}

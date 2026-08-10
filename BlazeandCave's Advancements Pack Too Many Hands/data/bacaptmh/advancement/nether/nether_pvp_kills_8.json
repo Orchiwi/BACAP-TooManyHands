@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "Legends Told in Whispers"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 2,800 players in the Nether (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_pvp_kills_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_pvp_kills_8"
+  }
+}

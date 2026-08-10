@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "Duel of the Dead"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Win 500 exchanges armed only with a bone against a player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_bone_duel_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_bone_duel_6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "Knuckles and Cornices"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 1,500 hits on another player above y=200 (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_altitude_brawl_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_altitude_brawl_7"
+  }
+}

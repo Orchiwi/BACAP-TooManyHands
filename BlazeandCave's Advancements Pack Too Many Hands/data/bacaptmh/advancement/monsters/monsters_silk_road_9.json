@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shears"
+    },
+    "title": {
+      "translate": "Warp and Weft"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 5000 pieces of the spiders' leavings (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_silk_road_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_silk_road_9"
+  }
+}

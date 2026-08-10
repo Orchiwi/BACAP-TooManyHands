@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "Anvil and Ink"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take 50 Name Tags from another player's hand (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_name_tag_relay_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_name_tag_relay_4"
+  }
+}

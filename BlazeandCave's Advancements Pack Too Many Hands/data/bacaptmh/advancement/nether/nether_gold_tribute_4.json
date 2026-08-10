@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "Snout Economy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player four or more Gold Ingots in the Nether 200 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_gold_tribute_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_gold_tribute_4"
+  }
+}

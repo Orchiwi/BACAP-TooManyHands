@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:detector_rail"
+    },
+    "title": {
+      "translate": "Branch Line"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Throw 64 Rails of any kind for another player to pick up (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_rail_shipments_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_rail_shipments_4"
+  }
+}

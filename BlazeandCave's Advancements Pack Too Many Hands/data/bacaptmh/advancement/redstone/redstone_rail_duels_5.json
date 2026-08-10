@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "Commuter Rage"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 200 hits on another player while they ride a Minecart (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_rail_duels_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_rail_duels_5"
+  }
+}

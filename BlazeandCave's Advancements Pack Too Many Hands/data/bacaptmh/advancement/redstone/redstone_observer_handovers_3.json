@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:repeater"
+    },
+    "title": {
+      "translate": "Pulse Check"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 20 Observers dropped for you by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_observer_handovers_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_observer_handovers_3"
+  }
+}

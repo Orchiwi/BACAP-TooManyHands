@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+    "title": {
+      "translate": "Cut from the Same Hide"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Leather or Rabbit Hide from another player's hand 100 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_leather_relay_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_leather_relay_4"
+  }
+}

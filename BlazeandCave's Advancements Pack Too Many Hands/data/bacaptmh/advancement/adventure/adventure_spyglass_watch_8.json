@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:campfire"
+    },
+    "title": {
+      "translate": "Everything We Saw Together"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 800 Spyglasses (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_spyglass_watch_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_spyglass_watch_8"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:packed_ice"
+    },
+    "title": {
+      "translate": "Avalanche of Blows"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 700 hits on another player above y=200 (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_altitude_brawl_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_altitude_brawl_6"
+  }
+}

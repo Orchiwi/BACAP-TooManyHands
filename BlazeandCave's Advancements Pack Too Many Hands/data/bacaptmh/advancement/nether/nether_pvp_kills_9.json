@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "The Butcher's Bill"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 7,000 players in the Nether (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_pvp_kills_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_pvp_kills_9"
+  }
+}

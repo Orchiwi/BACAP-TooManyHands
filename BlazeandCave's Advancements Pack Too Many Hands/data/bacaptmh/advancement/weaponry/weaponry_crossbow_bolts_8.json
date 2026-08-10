@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lever"
+    },
+    "title": {
+      "translate": "Crank and Loose"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hit other players 2,500 times with Crossbow bolts (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_crossbow_bolts_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_crossbow_bolts_8"
+  }
+}

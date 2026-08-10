@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wolf_armor"
+    },
+    "title": {
+      "translate": "Armor for the Beasts"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand Horse or Wolf Armor to other players 6 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_barding_relay_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_barding_relay_2"
+  }
+}

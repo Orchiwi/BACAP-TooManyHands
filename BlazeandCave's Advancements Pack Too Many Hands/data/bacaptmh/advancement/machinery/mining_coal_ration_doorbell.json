@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:mining/coal_miner",
+  "criteria": {
+    "rationed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:coal",
+            "minecraft:charcoal"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/mining_coal_ration_doorbell"
+  }
+}

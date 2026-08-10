@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tinted_glass"
+    },
+    "title": {
+      "translate": "Cluster Consortium"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up Amethyst Shards thrown to you by another player 2,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_amethyst_offering_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_amethyst_offering_8"
+  }
+}

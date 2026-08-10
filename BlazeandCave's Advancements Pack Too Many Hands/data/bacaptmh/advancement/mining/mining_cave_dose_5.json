@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone_dust"
+    },
+    "title": {
+      "translate": "Bright Idea From a Friend"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Gain Night Vision from another player's potion 100 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_cave_dose_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_cave_dose_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:knowledge_book"
+    },
+    "title": {
+      "translate": "Keeper of Lent Lore"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 1,500 Enchanted Books from another player's hand (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_tome_handoffs_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_tome_handoffs_8"
+  }
+}

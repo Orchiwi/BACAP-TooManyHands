@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_concrete"
+    },
+    "title": {
+      "translate": "Every City Stripped Bare"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 2,500 Shulker Shells by other players in the End (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_shell_consignments_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_shell_consignments_9"
+  }
+}

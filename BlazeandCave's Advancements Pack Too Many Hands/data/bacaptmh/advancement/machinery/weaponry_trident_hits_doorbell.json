@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:weaponry/king_of_the_sea",
+  "criteria": {
+    "trident_landed": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "direct_entity": {
+            "entity_type": "minecraft:trident"
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/weaponry_trident_hits_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:string"
+    },
+    "title": {
+      "translate": "Nocturne of Nocks"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 50 players with arrows loosed from a Bow (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_bow_kills_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_bow_kills_4"
+  }
+}

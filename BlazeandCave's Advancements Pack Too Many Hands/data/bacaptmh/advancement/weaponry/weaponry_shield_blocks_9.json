@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Aegis Unbroken"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Block 5,000 attacks from other players with your Shield (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_shield_blocks_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_shield_blocks_9"
+  }
+}

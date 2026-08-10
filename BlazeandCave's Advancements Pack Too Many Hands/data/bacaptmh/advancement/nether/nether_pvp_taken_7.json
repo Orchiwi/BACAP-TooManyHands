@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "Nothing Left to Break"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 4,500 hits from other players in the Nether (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_pvp_taken_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_pvp_taken_7"
+  }
+}

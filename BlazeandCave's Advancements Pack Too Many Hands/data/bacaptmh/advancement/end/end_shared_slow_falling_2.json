@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:feather"
+    },
+    "title": {
+      "translate": "Softly, Softly"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up Slow Falling from another player's potion in the End 8 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_shared_slow_falling_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_shared_slow_falling_2"
+  }
+}

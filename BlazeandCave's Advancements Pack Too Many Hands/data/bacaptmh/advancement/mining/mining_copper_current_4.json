@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "Cash for Conductors"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up Copper Ingots thrown to you by another player 100 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_copper_current_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_copper_current_4"
+  }
+}

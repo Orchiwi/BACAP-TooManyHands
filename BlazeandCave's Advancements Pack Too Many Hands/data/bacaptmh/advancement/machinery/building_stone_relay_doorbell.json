@@ -1,0 +1,45 @@
+{
+  "parent": "blazeandcave:building/rock_collection",
+  "criteria": {
+    "quarry_load_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:stone",
+            "minecraft:cobblestone",
+            "minecraft:mossy_cobblestone",
+            "minecraft:granite",
+            "minecraft:polished_granite",
+            "minecraft:diorite",
+            "minecraft:polished_diorite",
+            "minecraft:andesite",
+            "minecraft:polished_andesite",
+            "minecraft:tuff",
+            "minecraft:polished_tuff",
+            "minecraft:calcite",
+            "minecraft:smooth_stone",
+            "minecraft:stone_bricks",
+            "minecraft:mossy_stone_bricks",
+            "minecraft:cracked_stone_bricks",
+            "minecraft:chiseled_stone_bricks"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_stone_relay_doorbell"
+  }
+}

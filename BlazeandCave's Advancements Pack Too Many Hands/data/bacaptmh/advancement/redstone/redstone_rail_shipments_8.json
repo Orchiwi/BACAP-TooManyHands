@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "Rail Baron"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Throw 1,800 Rails of any kind for another player to pick up (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_rail_shipments_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_rail_shipments_8"
+  }
+}

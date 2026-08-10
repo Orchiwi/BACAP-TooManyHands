@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "title": {
+      "translate": "Every Trim Was a Gift"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 750 Smithing Templates by another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_template_inheritance_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_template_inheritance_8"
+  }
+}

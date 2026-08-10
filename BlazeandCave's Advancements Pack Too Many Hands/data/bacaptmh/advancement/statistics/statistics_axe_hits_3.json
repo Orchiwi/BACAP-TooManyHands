@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_axe"
+    },
+    "title": {
+      "translate": "Shield Splinterer"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Land 25 axe hits on other players (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_axe_hits_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_axe_hits_3"
+  }
+}

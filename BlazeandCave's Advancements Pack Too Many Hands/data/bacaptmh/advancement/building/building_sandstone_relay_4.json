@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smooth_sandstone"
+    },
+    "title": {
+      "translate": "Smooth as the Wind Left It"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 32 or more Sandstone 33 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_sandstone_relay_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_sandstone_relay_4"
+  }
+}

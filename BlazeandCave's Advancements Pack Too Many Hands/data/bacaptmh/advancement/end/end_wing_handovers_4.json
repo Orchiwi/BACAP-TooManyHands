@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather"
+    },
+    "title": {
+      "translate": "The Wing Lender"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand an Elytra to another player standing in the End 25 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_wing_handovers_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_wing_handovers_4"
+  }
+}

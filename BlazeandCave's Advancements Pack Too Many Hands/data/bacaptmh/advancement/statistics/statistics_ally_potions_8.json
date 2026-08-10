@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_bottle"
+    },
+    "title": {
+      "translate": "Walking Pharmacy"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Receive 2,500 potion effects from other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_ally_potions_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_ally_potions_8"
+  }
+}

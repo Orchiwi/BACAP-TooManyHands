@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_gold_ore"
+    },
+    "title": {
+      "translate": "Bankers of the Bastion"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player four or more Gold Ingots in the Nether 3,000 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_gold_tribute_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_gold_tribute_7"
+  }
+}

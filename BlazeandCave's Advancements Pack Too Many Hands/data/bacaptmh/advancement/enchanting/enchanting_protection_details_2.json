@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_helmet"
+    },
+    "title": {
+      "translate": "Issued Protection"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take 18 armour pieces enchanted with Protection IV from another player's hand (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_protection_details_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_protection_details_2"
+  }
+}

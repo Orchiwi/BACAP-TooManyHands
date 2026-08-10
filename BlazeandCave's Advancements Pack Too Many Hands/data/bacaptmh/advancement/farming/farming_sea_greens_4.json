@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_pickle"
+    },
+    "title": {
+      "translate": "Gifts of the Shallows"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed Kelp or Sea Pickles by another player 60 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_sea_greens_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_sea_greens_4"
+  }
+}

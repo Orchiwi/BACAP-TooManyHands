@@ -1,0 +1,40 @@
+{
+  "parent": "blazeandcave:building/a_good_start",
+  "criteria": {
+    "stack_of_planks_taken": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:oak_planks",
+            "minecraft:spruce_planks",
+            "minecraft:birch_planks",
+            "minecraft:jungle_planks",
+            "minecraft:acacia_planks",
+            "minecraft:dark_oak_planks",
+            "minecraft:mangrove_planks",
+            "minecraft:cherry_planks",
+            "minecraft:pale_oak_planks",
+            "minecraft:bamboo_planks",
+            "minecraft:crimson_planks",
+            "minecraft:warped_planks"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_plank_supply_doorbell"
+  }
+}

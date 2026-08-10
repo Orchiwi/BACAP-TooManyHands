@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:grindstone"
+    },
+    "title": {
+      "translate": "Blunt Force Trophy"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Deal 1000 bone-club hits to other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_bone_duel_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_bone_duel_7"
+  }
+}

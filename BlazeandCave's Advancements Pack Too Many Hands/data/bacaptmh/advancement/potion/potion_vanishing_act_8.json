@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "The Empty Room Trick"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be turned Invisible by another player 1,100 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_vanishing_act_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_vanishing_act_8"
+  }
+}

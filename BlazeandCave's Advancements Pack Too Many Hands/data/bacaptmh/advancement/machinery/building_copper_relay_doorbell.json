@@ -1,0 +1,43 @@
+{
+  "parent": "blazeandcave:building/bulbous",
+  "criteria": {
+    "copper_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_block",
+            "minecraft:exposed_copper",
+            "minecraft:weathered_copper",
+            "minecraft:oxidized_copper",
+            "minecraft:cut_copper",
+            "minecraft:exposed_cut_copper",
+            "minecraft:weathered_cut_copper",
+            "minecraft:oxidized_cut_copper",
+            "minecraft:waxed_copper_block",
+            "minecraft:waxed_exposed_copper",
+            "minecraft:waxed_weathered_copper",
+            "minecraft:waxed_oxidized_copper",
+            "minecraft:chiseled_copper",
+            "minecraft:copper_grate",
+            "minecraft:copper_bulb"
+          ],
+          "count": {
+            "min": 4
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_copper_relay_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat_seeds"
+    },
+    "title": {
+      "translate": "Bonemeal Benefactor"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Bankroll a friend's crops with 250 handfuls of skeleton dust (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_bone_supply_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_bone_supply_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "Friendly Fire Drill"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Fall to 10 arrows loosed by someone on your side (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_arrow_dirge_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_arrow_dirge_2"
+  }
+}

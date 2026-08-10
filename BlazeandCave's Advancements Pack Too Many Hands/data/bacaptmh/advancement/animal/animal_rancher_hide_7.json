@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cow_spawn_egg"
+    },
+    "title": {
+      "translate": "Cowhide Constitution"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 400 hits from another player while dressed head to toe in Leather (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_rancher_hide_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_rancher_hide_7"
+  }
+}

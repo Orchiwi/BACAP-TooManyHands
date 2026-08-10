@@ -1,0 +1,39 @@
+{
+  "parent": "blazeandcave:redstone/engineer",
+  "criteria": {
+    "bulb_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_bulb",
+            "minecraft:exposed_copper_bulb",
+            "minecraft:weathered_copper_bulb",
+            "minecraft:oxidized_copper_bulb",
+            "minecraft:waxed_copper_bulb",
+            "minecraft:waxed_exposed_copper_bulb",
+            "minecraft:waxed_weathered_copper_bulb",
+            "minecraft:waxed_oxidized_copper_bulb"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/redstone_copper_bulb_supply_doorbell"
+  }
+}

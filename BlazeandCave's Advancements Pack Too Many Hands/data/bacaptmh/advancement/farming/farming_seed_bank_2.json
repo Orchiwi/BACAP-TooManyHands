@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot_seeds"
+    },
+    "title": {
+      "translate": "Sow and Tell"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player Seeds 10 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_seed_bank_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_seed_bank_2"
+  }
+}

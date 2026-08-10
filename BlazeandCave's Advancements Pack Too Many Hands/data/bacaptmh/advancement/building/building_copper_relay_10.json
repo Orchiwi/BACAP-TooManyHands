@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_copper"
+    },
+    "title": {
+      "translate": "Oxidised Beyond Recognition"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 4 or more Copper blocks 4,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_copper_relay_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_copper_relay_10"
+  }
+}

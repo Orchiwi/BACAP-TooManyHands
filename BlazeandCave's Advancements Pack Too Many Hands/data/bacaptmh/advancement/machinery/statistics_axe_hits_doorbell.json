@@ -1,0 +1,51 @@
+{
+  "parent": "blazeandcave:statistics/bloodthirsty",
+  "criteria": {
+    "cleaved_a_player": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_axe",
+                    "minecraft:stone_axe",
+                    "minecraft:iron_axe",
+                    "minecraft:golden_axe",
+                    "minecraft:diamond_axe",
+                    "minecraft:netherite_axe"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/statistics_axe_hits_doorbell"
+  }
+}

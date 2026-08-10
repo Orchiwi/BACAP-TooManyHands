@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:statistics/food_glorious_food",
+  "criteria": {
+    "dosed_by_an_ally": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/statistics_ally_potions_doorbell"
+  }
+}

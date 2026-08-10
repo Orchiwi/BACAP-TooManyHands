@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:animal/cow_tipper",
+  "criteria": {
+    "hides_handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather",
+            "minecraft:rabbit_hide"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_leather_relay_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_lantern"
+    },
+    "title": {
+      "translate": "Purveyor of Intact Things"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 250 tools enchanted with Silk Touch (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_silk_consignment_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_silk_consignment_6"
+  }
+}

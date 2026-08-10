@@ -1,0 +1,28 @@
+{
+  "parent": "blazeandcave:statistics/laps_in_the_pool",
+  "criteria": {
+    "impaled_a_player": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:trident"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/statistics_trident_hits_doorbell"
+  }
+}

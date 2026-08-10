@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "Repeating History"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hit other players 500 times with Crossbow bolts (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_crossbow_bolts_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_crossbow_bolts_6"
+  }
+}

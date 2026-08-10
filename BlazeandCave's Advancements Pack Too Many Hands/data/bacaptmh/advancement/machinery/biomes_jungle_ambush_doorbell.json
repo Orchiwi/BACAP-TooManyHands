@@ -1,0 +1,32 @@
+{
+  "parent": "blazeandcave:biomes/the_mighty_jungle",
+  "criteria": {
+    "ambushed": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:jungle",
+              "minecraft:bamboo_jungle",
+              "minecraft:sparse_jungle"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_jungle_ambush_doorbell"
+  }
+}

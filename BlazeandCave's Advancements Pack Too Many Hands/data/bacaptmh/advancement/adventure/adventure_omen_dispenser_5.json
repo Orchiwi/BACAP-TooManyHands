@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_trial_key"
+    },
+    "title": {
+      "translate": "The Generous Curse"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 110 Ominous Bottles (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_omen_dispenser_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_omen_dispenser_5"
+  }
+}

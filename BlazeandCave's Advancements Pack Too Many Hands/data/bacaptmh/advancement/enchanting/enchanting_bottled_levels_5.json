@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "Bottled Payroll"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 200 Bottles o' Enchanting from another player's hand (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_bottled_levels_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_bottled_levels_5"
+  }
+}

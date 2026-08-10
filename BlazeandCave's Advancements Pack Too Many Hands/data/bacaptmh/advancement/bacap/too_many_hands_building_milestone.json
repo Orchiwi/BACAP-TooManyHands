@@ -602,6 +602,1326 @@
           }
         }
       }
+    },
+    "building_timber_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_timber_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "building_timber_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_timber_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "building_timber_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_timber_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "building_timber_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_timber_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "building_timber_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_timber_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "building_timber_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_timber_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "building_timber_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_timber_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "building_timber_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_timber_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "building_timber_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_timber_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "building_timber_relay_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_timber_relay_10": true
+            }
+          }
+        }
+      }
+    },
+    "building_plank_supply_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_plank_supply_1": true
+            }
+          }
+        }
+      }
+    },
+    "building_plank_supply_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_plank_supply_2": true
+            }
+          }
+        }
+      }
+    },
+    "building_plank_supply_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_plank_supply_3": true
+            }
+          }
+        }
+      }
+    },
+    "building_plank_supply_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_plank_supply_4": true
+            }
+          }
+        }
+      }
+    },
+    "building_plank_supply_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_plank_supply_5": true
+            }
+          }
+        }
+      }
+    },
+    "building_plank_supply_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_plank_supply_6": true
+            }
+          }
+        }
+      }
+    },
+    "building_plank_supply_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_plank_supply_7": true
+            }
+          }
+        }
+      }
+    },
+    "building_plank_supply_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_plank_supply_8": true
+            }
+          }
+        }
+      }
+    },
+    "building_plank_supply_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_plank_supply_9": true
+            }
+          }
+        }
+      }
+    },
+    "building_plank_supply_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_plank_supply_10": true
+            }
+          }
+        }
+      }
+    },
+    "building_stone_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_stone_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "building_stone_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_stone_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "building_stone_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_stone_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "building_stone_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_stone_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "building_stone_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_stone_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "building_stone_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_stone_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "building_stone_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_stone_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "building_stone_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_stone_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "building_stone_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_stone_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "building_stone_relay_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_stone_relay_10": true
+            }
+          }
+        }
+      }
+    },
+    "building_deepslate_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_deepslate_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "building_deepslate_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_deepslate_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "building_deepslate_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_deepslate_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "building_deepslate_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_deepslate_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "building_deepslate_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_deepslate_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "building_deepslate_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_deepslate_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "building_deepslate_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_deepslate_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "building_deepslate_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_deepslate_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "building_deepslate_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_deepslate_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "building_deepslate_relay_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_deepslate_relay_10": true
+            }
+          }
+        }
+      }
+    },
+    "building_concrete_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_concrete_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "building_concrete_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_concrete_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "building_concrete_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_concrete_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "building_concrete_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_concrete_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "building_concrete_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_concrete_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "building_concrete_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_concrete_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "building_concrete_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_concrete_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "building_concrete_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_concrete_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "building_concrete_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_concrete_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "building_concrete_relay_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_concrete_relay_10": true
+            }
+          }
+        }
+      }
+    },
+    "building_terracotta_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_terracotta_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "building_terracotta_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_terracotta_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "building_terracotta_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_terracotta_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "building_terracotta_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_terracotta_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "building_terracotta_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_terracotta_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "building_terracotta_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_terracotta_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "building_terracotta_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_terracotta_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "building_terracotta_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_terracotta_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "building_terracotta_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_terracotta_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "building_terracotta_relay_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_terracotta_relay_10": true
+            }
+          }
+        }
+      }
+    },
+    "building_copper_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_copper_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "building_copper_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_copper_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "building_copper_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_copper_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "building_copper_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_copper_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "building_copper_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_copper_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "building_copper_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_copper_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "building_copper_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_copper_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "building_copper_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_copper_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "building_copper_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_copper_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "building_copper_relay_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_copper_relay_10": true
+            }
+          }
+        }
+      }
+    },
+    "building_wool_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_wool_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "building_wool_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_wool_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "building_wool_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_wool_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "building_wool_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_wool_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "building_wool_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_wool_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "building_wool_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_wool_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "building_wool_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_wool_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "building_wool_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_wool_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "building_wool_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_wool_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "building_wool_relay_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_wool_relay_10": true
+            }
+          }
+        }
+      }
+    },
+    "building_sandstone_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_sandstone_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "building_sandstone_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_sandstone_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "building_sandstone_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_sandstone_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "building_sandstone_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_sandstone_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "building_sandstone_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_sandstone_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "building_sandstone_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_sandstone_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "building_sandstone_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_sandstone_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "building_sandstone_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_sandstone_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "building_sandstone_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_sandstone_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "building_sandstone_relay_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_sandstone_relay_10": true
+            }
+          }
+        }
+      }
+    },
+    "building_scaffold_safety_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_scaffold_safety_1": true
+            }
+          }
+        }
+      }
+    },
+    "building_scaffold_safety_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_scaffold_safety_2": true
+            }
+          }
+        }
+      }
+    },
+    "building_scaffold_safety_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_scaffold_safety_3": true
+            }
+          }
+        }
+      }
+    },
+    "building_scaffold_safety_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_scaffold_safety_4": true
+            }
+          }
+        }
+      }
+    },
+    "building_scaffold_safety_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_scaffold_safety_5": true
+            }
+          }
+        }
+      }
+    },
+    "building_scaffold_safety_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_scaffold_safety_6": true
+            }
+          }
+        }
+      }
+    },
+    "building_scaffold_safety_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_scaffold_safety_7": true
+            }
+          }
+        }
+      }
+    },
+    "building_scaffold_safety_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_scaffold_safety_8": true
+            }
+          }
+        }
+      }
+    },
+    "building_scaffold_safety_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_scaffold_safety_9": true
+            }
+          }
+        }
+      }
+    },
+    "building_scaffold_safety_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_scaffold_safety_10": true
+            }
+          }
+        }
+      }
+    },
+    "building_glass_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_glass_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "building_glass_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_glass_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "building_glass_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_glass_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "building_glass_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_glass_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "building_glass_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_glass_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "building_glass_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_glass_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "building_glass_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_glass_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "building_glass_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_glass_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "building_glass_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_glass_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "building_glass_relay_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:building/building_glass_relay_10": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

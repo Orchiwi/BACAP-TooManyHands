@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_axe"
+    },
+    "title": {
+      "translate": "Cleaver Fever"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 1,000 Axe blows on other players (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_axe_blows_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_axe_blows_7"
+  }
+}

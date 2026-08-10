@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:monsters/poisonous_ew",
+  "criteria": {
+    "caught_the_silk": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:string",
+            "minecraft:cobweb",
+            "minecraft:spider_eye",
+            "minecraft:fermented_spider_eye"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_silk_road_doorbell"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "blazeandcave:biomes/resinance",
+  "criteria": {
+    "pale_offering": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:open_eyeblossom",
+            "minecraft:closed_eyeblossom"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:pale_garden"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_pale_offering_doorbell"
+  }
+}

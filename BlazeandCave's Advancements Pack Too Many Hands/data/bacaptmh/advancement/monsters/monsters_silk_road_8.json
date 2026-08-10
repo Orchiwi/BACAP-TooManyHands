@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_spawn_egg"
+    },
+    "title": {
+      "translate": "Silk Dynasty"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Build an empire on 2500 spider drops other players threw down (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_silk_road_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_silk_road_8"
+  }
+}

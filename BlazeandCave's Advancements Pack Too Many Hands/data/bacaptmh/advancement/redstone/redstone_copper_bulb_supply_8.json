@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_lamp"
+    },
+    "title": {
+      "translate": "City Lights"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Throw 900 Copper Bulbs for another player to pick up (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_copper_bulb_supply_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_copper_bulb_supply_8"
+  }
+}

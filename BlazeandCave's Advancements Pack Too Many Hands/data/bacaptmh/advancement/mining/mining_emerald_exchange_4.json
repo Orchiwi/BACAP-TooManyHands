@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald_ore"
+    },
+    "title": {
+      "translate": "Gems for Free"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have another player pick up Emeralds you threw 120 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_emerald_exchange_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_emerald_exchange_4"
+  }
+}

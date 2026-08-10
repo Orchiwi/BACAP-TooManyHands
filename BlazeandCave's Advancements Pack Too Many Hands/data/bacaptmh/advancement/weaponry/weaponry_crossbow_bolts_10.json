@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "Ballista of One"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hit other players 10,000 times with Crossbow bolts (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_crossbow_bolts_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_crossbow_bolts_10"
+  }
+}

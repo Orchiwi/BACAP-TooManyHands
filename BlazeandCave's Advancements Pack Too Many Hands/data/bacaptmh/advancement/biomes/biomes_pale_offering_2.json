@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:open_eyeblossom"
+    },
+    "title": {
+      "translate": "Eyes for the Taking"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pass 25 Eyeblossoms to another player in a Pale Garden (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_pale_offering_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_pale_offering_2"
+  }
+}

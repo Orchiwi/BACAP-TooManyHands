@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:farming/mushroom_mushroom",
+  "criteria": {
+    "bowl_served": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew",
+            "minecraft:beetroot_soup",
+            "minecraft:rabbit_stew",
+            "minecraft:suspicious_stew"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_stew_service_doorbell"
+  }
+}

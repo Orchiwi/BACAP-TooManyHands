@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest_minecart"
+    },
+    "title": {
+      "translate": "Ride Share"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 20 Minecarts of any kind dropped for you by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_minecart_deliveries_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_minecart_deliveries_3"
+  }
+}

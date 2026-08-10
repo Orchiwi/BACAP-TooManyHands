@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "Merchant of Volleys"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand ammunition to other players 1,500 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_ammo_shipments_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_ammo_shipments_8"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Living Target Practice"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be hit 400 times by another player's projectiles (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_projectiles_taken_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_projectiles_taken_6"
+  }
+}

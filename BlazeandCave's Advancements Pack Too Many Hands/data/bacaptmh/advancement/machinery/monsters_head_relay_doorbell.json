@@ -1,0 +1,31 @@
+{
+  "parent": "blazeandcave:monsters/spooky_skulls",
+  "criteria": {
+    "caught_a_head": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:skeleton_skull",
+            "minecraft:wither_skeleton_skull",
+            "minecraft:zombie_head",
+            "minecraft:creeper_head",
+            "minecraft:piglin_head",
+            "minecraft:dragon_head"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_head_relay_doorbell"
+  }
+}

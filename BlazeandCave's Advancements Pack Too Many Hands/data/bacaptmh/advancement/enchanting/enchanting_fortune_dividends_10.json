@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "Fortune's Executor"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 5,800 tools enchanted with Fortune III from another player's hand (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_fortune_dividends_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_fortune_dividends_10"
+  }
+}

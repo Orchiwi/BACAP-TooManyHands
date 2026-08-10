@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_moss_carpet"
+    },
+    "title": {
+      "translate": "Offering to the Pale"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pass 60 Eyeblossoms to another player in a Pale Garden (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_pale_offering_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_pale_offering_3"
+  }
+}

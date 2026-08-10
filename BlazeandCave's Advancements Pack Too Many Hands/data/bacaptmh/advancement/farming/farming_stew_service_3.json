@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot_soup"
+    },
+    "title": {
+      "translate": "Bowl Me Over"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be served a Stew or Soup by another player 30 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_stew_service_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_stew_service_3"
+  }
+}

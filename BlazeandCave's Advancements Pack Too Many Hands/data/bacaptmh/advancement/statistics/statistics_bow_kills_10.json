@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "The Horizon Is Not Safe"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 6,000 other players with an arrow from at least 8 blocks away (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_bow_kills_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_bow_kills_10"
+  }
+}

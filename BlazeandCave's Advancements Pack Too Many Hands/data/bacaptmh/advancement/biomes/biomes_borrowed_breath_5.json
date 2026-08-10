@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pufferfish"
+    },
+    "title": {
+      "translate": "Never Drowning Alone"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be given Water Breathing by another player 350 times while underwater (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_borrowed_breath_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_borrowed_breath_5"
+  }
+}

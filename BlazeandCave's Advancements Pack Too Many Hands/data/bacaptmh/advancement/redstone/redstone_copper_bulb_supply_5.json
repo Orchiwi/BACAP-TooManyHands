@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:exposed_copper_bulb"
+    },
+    "title": {
+      "translate": "Patina Partners"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Throw 88 Copper Bulbs for another player to pick up (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_copper_bulb_supply_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_copper_bulb_supply_5"
+  }
+}

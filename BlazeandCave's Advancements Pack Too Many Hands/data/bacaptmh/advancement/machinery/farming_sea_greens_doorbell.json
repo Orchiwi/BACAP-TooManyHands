@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:farming/kelp_me",
+  "criteria": {
+    "greens_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:kelp",
+            "minecraft:dried_kelp",
+            "minecraft:dried_kelp_block",
+            "minecraft:sea_pickle"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_sea_greens_doorbell"
+  }
+}

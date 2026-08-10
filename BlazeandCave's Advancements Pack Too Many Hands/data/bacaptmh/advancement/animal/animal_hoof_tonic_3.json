@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_fence"
+    },
+    "title": {
+      "translate": "Fence Jumper"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be given Jump Boost by another player 12 times while in the saddle (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_hoof_tonic_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_hoof_tonic_3"
+  }
+}

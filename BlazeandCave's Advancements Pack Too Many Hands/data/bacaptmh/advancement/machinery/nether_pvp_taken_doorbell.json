@@ -1,0 +1,28 @@
+{
+  "parent": "blazeandcave:nether/et_tu_brute",
+  "criteria": {
+    "hit_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_pvp_taken_doorbell"
+  }
+}

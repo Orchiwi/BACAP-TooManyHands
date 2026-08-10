@@ -1,0 +1,42 @@
+{
+  "parent": "blazeandcave:biomes/top_of_the_world",
+  "criteria": {
+    "peak_freight": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:packed_ice",
+            "minecraft:blue_ice"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 200
+              }
+            },
+            "biomes": [
+              "minecraft:jagged_peaks",
+              "minecraft:frozen_peaks",
+              "minecraft:stony_peaks",
+              "minecraft:snowy_slopes"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_peak_freight_doorbell"
+  }
+}

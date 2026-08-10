@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torch"
+    },
+    "title": {
+      "translate": "Extinguished by Proxy"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed a Blaze Rod inside a Nether Fortress 20,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_blaze_rod_relay_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_blaze_rod_relay_10"
+  }
+}

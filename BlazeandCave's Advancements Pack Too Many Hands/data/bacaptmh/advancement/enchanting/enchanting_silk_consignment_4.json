@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ice"
+    },
+    "title": {
+      "translate": "The Gentle Consignment"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 55 tools enchanted with Silk Touch (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_silk_consignment_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_silk_consignment_4"
+  }
+}

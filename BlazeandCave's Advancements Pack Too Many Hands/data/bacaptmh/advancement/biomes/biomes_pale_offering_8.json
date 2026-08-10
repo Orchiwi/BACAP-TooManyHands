@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:resin_clump"
+    },
+    "title": {
+      "translate": "Bloom, Blink, Repeat"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pass 6,000 Eyeblossoms to another player in a Pale Garden (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_pale_offering_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_pale_offering_8"
+  }
+}

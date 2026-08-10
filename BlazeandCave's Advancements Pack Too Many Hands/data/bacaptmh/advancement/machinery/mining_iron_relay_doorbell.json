@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:mining/iron_miner",
+  "criteria": {
+    "relayed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_ingot"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/mining_iron_relay_doorbell"
+  }
+}

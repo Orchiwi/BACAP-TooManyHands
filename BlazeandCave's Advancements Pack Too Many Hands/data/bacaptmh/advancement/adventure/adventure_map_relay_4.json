@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cartography_table"
+    },
+    "title": {
+      "translate": "The Shared Atlas"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed 25 maps by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_map_relay_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_map_relay_4"
+  }
+}

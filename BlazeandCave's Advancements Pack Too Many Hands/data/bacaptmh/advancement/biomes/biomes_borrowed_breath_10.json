@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:conduit"
+    },
+    "title": {
+      "translate": "Nobody Breathes Alone Down Here"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be given Water Breathing by another player 30,000 times while underwater (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_borrowed_breath_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_borrowed_breath_10"
+  }
+}

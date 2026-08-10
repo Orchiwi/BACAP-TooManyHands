@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:zombie_spawn_egg"
+    },
+    "title": {
+      "translate": "Ministry of Spoilage"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have 2500 helpings of rot pressed upon you by other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_flesh_ration_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_flesh_ration_8"
+  }
+}

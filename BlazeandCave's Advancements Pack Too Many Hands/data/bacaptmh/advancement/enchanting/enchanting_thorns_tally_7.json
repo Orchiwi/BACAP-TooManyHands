@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {
+      "translate": "Retaliation Engine"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be struck by another player 1,450 times while wearing a Thorns chestplate (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_thorns_tally_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_thorns_tally_7"
+  }
+}

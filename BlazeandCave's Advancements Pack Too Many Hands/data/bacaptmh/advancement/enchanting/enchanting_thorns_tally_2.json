@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dead_bush"
+    },
+    "title": {
+      "translate": "The Prickly Defence"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be struck by another player 35 times while wearing a Thorns chestplate (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_thorns_tally_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_thorns_tally_2"
+  }
+}

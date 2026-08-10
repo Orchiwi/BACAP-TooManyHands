@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vine"
+    },
+    "title": {
+      "translate": "Something in the Canopy"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take 25 hits from another player in a jungle (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_jungle_ambush_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_jungle_ambush_2"
+  }
+}

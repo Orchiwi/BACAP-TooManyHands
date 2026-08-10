@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:grindstone"
+    },
+    "title": {
+      "translate": "Blade Discipline"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 475 hits on another player with a sword enchanted with Sharpness (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_sharpened_strikes_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_sharpened_strikes_5"
+  }
+}

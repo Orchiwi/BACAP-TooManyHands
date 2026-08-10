@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_spawn_egg"
+    },
+    "title": {
+      "translate": "The Rod Syndicate"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed a Blaze Rod inside a Nether Fortress 1,800 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_blaze_rod_relay_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_blaze_rod_relay_7"
+  }
+}

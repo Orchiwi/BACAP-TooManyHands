@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "Foundry Freight"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Iron Ingots thrown to you by another player 350 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_iron_relay_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_iron_relay_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chipped_anvil"
+    },
+    "title": {
+      "translate": "Executioner's Tenure"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 6,000 axe hits on other players (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_axe_hits_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_axe_hits_9"
+  }
+}

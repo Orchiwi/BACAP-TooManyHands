@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_deepslate"
+    },
+    "title": {
+      "translate": "Sculk-Adjacent Real Estate"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 32 or more Deepslate blocks 340 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_deepslate_relay_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_deepslate_relay_7"
+  }
+}

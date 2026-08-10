@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "Cloud Consignment"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 70 Lingering Potions thrown to you by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_lingering_trade_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_lingering_trade_4"
+  }
+}

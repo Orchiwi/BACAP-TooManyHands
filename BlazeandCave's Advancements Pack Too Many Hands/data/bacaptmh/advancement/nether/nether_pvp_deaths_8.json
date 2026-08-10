@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skull_banner_pattern"
+    },
+    "title": {
+      "translate": "Death Has a Season Pass"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be killed by another player in the Nether 3,000 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_pvp_deaths_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_pvp_deaths_8"
+  }
+}

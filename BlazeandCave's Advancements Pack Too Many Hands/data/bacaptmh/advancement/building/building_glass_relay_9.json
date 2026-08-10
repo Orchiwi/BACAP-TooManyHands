@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tinted_glass"
+    },
+    "title": {
+      "translate": "Nothing But Sky and Silica"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed 32 or more Glass by another player 2,600 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_glass_relay_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_glass_relay_9"
+  }
+}

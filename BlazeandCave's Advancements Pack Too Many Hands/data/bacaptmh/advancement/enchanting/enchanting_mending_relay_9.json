@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "Custodian of Forever"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 1,900 items enchanted with Mending from another player's hand (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_mending_relay_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_mending_relay_9"
+  }
+}

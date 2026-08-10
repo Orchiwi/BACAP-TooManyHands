@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:green_banner"
+    },
+    "title": {
+      "translate": "Emerald City Payroll"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have another player pick up Emeralds you threw 6,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_emerald_exchange_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_emerald_exchange_9"
+  }
+}

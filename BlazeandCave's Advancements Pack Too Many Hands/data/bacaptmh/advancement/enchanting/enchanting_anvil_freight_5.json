@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:damaged_anvil"
+    },
+    "title": {
+      "translate": "Forge Freight"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 100 Anvils (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_anvil_freight_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_anvil_freight_5"
+  }
+}

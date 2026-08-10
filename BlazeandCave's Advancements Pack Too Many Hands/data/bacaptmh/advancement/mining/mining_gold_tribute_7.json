@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet"
+    },
+    "title": {
+      "translate": "El Dorado Express"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have another player pick up Gold Ingots you threw 1,500 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_gold_tribute_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_gold_tribute_7"
+  }
+}

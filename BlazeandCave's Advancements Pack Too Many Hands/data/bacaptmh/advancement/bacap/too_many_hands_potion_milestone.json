@@ -1034,6 +1034,1278 @@
           }
         }
       }
+    },
+    "potion_transfusion_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_transfusion_1": true
+            }
+          }
+        }
+      }
+    },
+    "potion_transfusion_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_transfusion_2": true
+            }
+          }
+        }
+      }
+    },
+    "potion_transfusion_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_transfusion_3": true
+            }
+          }
+        }
+      }
+    },
+    "potion_transfusion_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_transfusion_4": true
+            }
+          }
+        }
+      }
+    },
+    "potion_transfusion_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_transfusion_5": true
+            }
+          }
+        }
+      }
+    },
+    "potion_transfusion_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_transfusion_6": true
+            }
+          }
+        }
+      }
+    },
+    "potion_transfusion_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_transfusion_7": true
+            }
+          }
+        }
+      }
+    },
+    "potion_transfusion_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_transfusion_8": true
+            }
+          }
+        }
+      }
+    },
+    "potion_transfusion_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_transfusion_9": true
+            }
+          }
+        }
+      }
+    },
+    "potion_transfusion_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_transfusion_10": true
+            }
+          }
+        }
+      }
+    },
+    "potion_slipstream_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_slipstream_1": true
+            }
+          }
+        }
+      }
+    },
+    "potion_slipstream_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_slipstream_2": true
+            }
+          }
+        }
+      }
+    },
+    "potion_slipstream_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_slipstream_3": true
+            }
+          }
+        }
+      }
+    },
+    "potion_slipstream_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_slipstream_4": true
+            }
+          }
+        }
+      }
+    },
+    "potion_slipstream_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_slipstream_5": true
+            }
+          }
+        }
+      }
+    },
+    "potion_slipstream_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_slipstream_6": true
+            }
+          }
+        }
+      }
+    },
+    "potion_slipstream_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_slipstream_7": true
+            }
+          }
+        }
+      }
+    },
+    "potion_slipstream_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_slipstream_8": true
+            }
+          }
+        }
+      }
+    },
+    "potion_slipstream_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_slipstream_9": true
+            }
+          }
+        }
+      }
+    },
+    "potion_slipstream_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_slipstream_10": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_muscle_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_muscle_1": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_muscle_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_muscle_2": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_muscle_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_muscle_3": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_muscle_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_muscle_4": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_muscle_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_muscle_5": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_muscle_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_muscle_6": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_muscle_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_muscle_7": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_muscle_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_muscle_8": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_muscle_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_muscle_9": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_eyes_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_eyes_1": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_eyes_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_eyes_2": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_eyes_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_eyes_3": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_eyes_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_eyes_4": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_eyes_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_eyes_5": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_eyes_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_eyes_6": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_eyes_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_eyes_7": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_eyes_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_eyes_8": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_eyes_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_eyes_9": true
+            }
+          }
+        }
+      }
+    },
+    "potion_borrowed_eyes_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_borrowed_eyes_10": true
+            }
+          }
+        }
+      }
+    },
+    "potion_fireproofing_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_fireproofing_1": true
+            }
+          }
+        }
+      }
+    },
+    "potion_fireproofing_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_fireproofing_2": true
+            }
+          }
+        }
+      }
+    },
+    "potion_fireproofing_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_fireproofing_3": true
+            }
+          }
+        }
+      }
+    },
+    "potion_fireproofing_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_fireproofing_4": true
+            }
+          }
+        }
+      }
+    },
+    "potion_fireproofing_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_fireproofing_5": true
+            }
+          }
+        }
+      }
+    },
+    "potion_fireproofing_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_fireproofing_6": true
+            }
+          }
+        }
+      }
+    },
+    "potion_fireproofing_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_fireproofing_7": true
+            }
+          }
+        }
+      }
+    },
+    "potion_fireproofing_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_fireproofing_8": true
+            }
+          }
+        }
+      }
+    },
+    "potion_fireproofing_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_fireproofing_9": true
+            }
+          }
+        }
+      }
+    },
+    "potion_vanishing_act_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_vanishing_act_1": true
+            }
+          }
+        }
+      }
+    },
+    "potion_vanishing_act_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_vanishing_act_2": true
+            }
+          }
+        }
+      }
+    },
+    "potion_vanishing_act_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_vanishing_act_3": true
+            }
+          }
+        }
+      }
+    },
+    "potion_vanishing_act_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_vanishing_act_4": true
+            }
+          }
+        }
+      }
+    },
+    "potion_vanishing_act_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_vanishing_act_5": true
+            }
+          }
+        }
+      }
+    },
+    "potion_vanishing_act_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_vanishing_act_6": true
+            }
+          }
+        }
+      }
+    },
+    "potion_vanishing_act_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_vanishing_act_7": true
+            }
+          }
+        }
+      }
+    },
+    "potion_vanishing_act_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_vanishing_act_8": true
+            }
+          }
+        }
+      }
+    },
+    "potion_vanishing_act_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_vanishing_act_9": true
+            }
+          }
+        }
+      }
+    },
+    "potion_vanishing_act_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_vanishing_act_10": true
+            }
+          }
+        }
+      }
+    },
+    "potion_vanishing_act_11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_vanishing_act_11": true
+            }
+          }
+        }
+      }
+    },
+    "potion_venom_service_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_venom_service_1": true
+            }
+          }
+        }
+      }
+    },
+    "potion_venom_service_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_venom_service_2": true
+            }
+          }
+        }
+      }
+    },
+    "potion_venom_service_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_venom_service_3": true
+            }
+          }
+        }
+      }
+    },
+    "potion_venom_service_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_venom_service_4": true
+            }
+          }
+        }
+      }
+    },
+    "potion_venom_service_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_venom_service_5": true
+            }
+          }
+        }
+      }
+    },
+    "potion_venom_service_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_venom_service_6": true
+            }
+          }
+        }
+      }
+    },
+    "potion_venom_service_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_venom_service_7": true
+            }
+          }
+        }
+      }
+    },
+    "potion_venom_service_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_venom_service_8": true
+            }
+          }
+        }
+      }
+    },
+    "potion_venom_service_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_venom_service_9": true
+            }
+          }
+        }
+      }
+    },
+    "potion_sapped_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_sapped_1": true
+            }
+          }
+        }
+      }
+    },
+    "potion_sapped_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_sapped_2": true
+            }
+          }
+        }
+      }
+    },
+    "potion_sapped_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_sapped_3": true
+            }
+          }
+        }
+      }
+    },
+    "potion_sapped_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_sapped_4": true
+            }
+          }
+        }
+      }
+    },
+    "potion_sapped_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_sapped_5": true
+            }
+          }
+        }
+      }
+    },
+    "potion_sapped_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_sapped_6": true
+            }
+          }
+        }
+      }
+    },
+    "potion_sapped_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_sapped_7": true
+            }
+          }
+        }
+      }
+    },
+    "potion_sapped_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_sapped_8": true
+            }
+          }
+        }
+      }
+    },
+    "potion_sapped_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_sapped_9": true
+            }
+          }
+        }
+      }
+    },
+    "potion_bombardier_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_bombardier_1": true
+            }
+          }
+        }
+      }
+    },
+    "potion_bombardier_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_bombardier_2": true
+            }
+          }
+        }
+      }
+    },
+    "potion_bombardier_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_bombardier_3": true
+            }
+          }
+        }
+      }
+    },
+    "potion_bombardier_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_bombardier_4": true
+            }
+          }
+        }
+      }
+    },
+    "potion_bombardier_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_bombardier_5": true
+            }
+          }
+        }
+      }
+    },
+    "potion_bombardier_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_bombardier_6": true
+            }
+          }
+        }
+      }
+    },
+    "potion_bombardier_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_bombardier_7": true
+            }
+          }
+        }
+      }
+    },
+    "potion_bombardier_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_bombardier_8": true
+            }
+          }
+        }
+      }
+    },
+    "potion_bombardier_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_bombardier_9": true
+            }
+          }
+        }
+      }
+    },
+    "potion_bombardier_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_bombardier_10": true
+            }
+          }
+        }
+      }
+    },
+    "potion_shared_lungs_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_shared_lungs_1": true
+            }
+          }
+        }
+      }
+    },
+    "potion_shared_lungs_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_shared_lungs_2": true
+            }
+          }
+        }
+      }
+    },
+    "potion_shared_lungs_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_shared_lungs_3": true
+            }
+          }
+        }
+      }
+    },
+    "potion_shared_lungs_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_shared_lungs_4": true
+            }
+          }
+        }
+      }
+    },
+    "potion_shared_lungs_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_shared_lungs_5": true
+            }
+          }
+        }
+      }
+    },
+    "potion_shared_lungs_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_shared_lungs_6": true
+            }
+          }
+        }
+      }
+    },
+    "potion_shared_lungs_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_shared_lungs_7": true
+            }
+          }
+        }
+      }
+    },
+    "potion_shared_lungs_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_shared_lungs_8": true
+            }
+          }
+        }
+      }
+    },
+    "potion_shared_lungs_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_shared_lungs_9": true
+            }
+          }
+        }
+      }
+    },
+    "potion_shared_lungs_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_shared_lungs_10": true
+            }
+          }
+        }
+      }
+    },
+    "potion_lingering_trade_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_lingering_trade_1": true
+            }
+          }
+        }
+      }
+    },
+    "potion_lingering_trade_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_lingering_trade_2": true
+            }
+          }
+        }
+      }
+    },
+    "potion_lingering_trade_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_lingering_trade_3": true
+            }
+          }
+        }
+      }
+    },
+    "potion_lingering_trade_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_lingering_trade_4": true
+            }
+          }
+        }
+      }
+    },
+    "potion_lingering_trade_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_lingering_trade_5": true
+            }
+          }
+        }
+      }
+    },
+    "potion_lingering_trade_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_lingering_trade_6": true
+            }
+          }
+        }
+      }
+    },
+    "potion_lingering_trade_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_lingering_trade_7": true
+            }
+          }
+        }
+      }
+    },
+    "potion_lingering_trade_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_lingering_trade_8": true
+            }
+          }
+        }
+      }
+    },
+    "potion_lingering_trade_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:potion/potion_lingering_trade_9": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

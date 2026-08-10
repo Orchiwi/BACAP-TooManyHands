@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_ball"
+    },
+    "title": {
+      "translate": "Slime and Punishment"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Throw 25 Pistons or Sticky Pistons for another player to pick up (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_piston_shipments_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_piston_shipments_3"
+  }
+}

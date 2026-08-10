@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "Baron of Blue Dust"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 8,192 Lapis Lazuli (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_lapis_consignment_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_lapis_consignment_10"
+  }
+}

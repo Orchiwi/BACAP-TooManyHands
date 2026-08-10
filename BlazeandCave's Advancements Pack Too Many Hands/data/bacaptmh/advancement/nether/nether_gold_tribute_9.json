@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "The Golden Aqueduct"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player four or more Gold Ingots in the Nether 15,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_gold_tribute_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_gold_tribute_9"
+  }
+}

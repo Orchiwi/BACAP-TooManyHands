@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flint"
+    },
+    "title": {
+      "translate": "Fletcher's Charity"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 100 pieces of ammunition thrown to you by other players (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_ammo_pickups_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_ammo_pickups_4"
+  }
+}

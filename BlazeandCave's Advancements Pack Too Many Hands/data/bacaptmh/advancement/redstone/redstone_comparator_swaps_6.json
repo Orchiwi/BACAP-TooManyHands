@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Signal Auditor"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 210 Redstone Comparators dropped for you by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_comparator_swaps_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_comparator_swaps_6"
+  }
+}

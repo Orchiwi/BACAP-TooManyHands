@@ -1,0 +1,36 @@
+{
+  "parent": "blazeandcave:biomes/20_leagues_under_the_sea",
+  "criteria": {
+    "passed_in_the_dark": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:echo_shard"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:deep_dark",
+            "position": {
+              "y": {
+                "max": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_echo_handoff_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": {
+      "translate": "Registrar of the Herd"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 280 Name Tags from another player's hand (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_name_tag_relay_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_name_tag_relay_6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_horse_spawn_egg"
+    },
+    "title": {
+      "translate": "The Bone Age"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Reach 5000 hits on players with a bone in your fist (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_bone_duel_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_bone_duel_9"
+  }
+}

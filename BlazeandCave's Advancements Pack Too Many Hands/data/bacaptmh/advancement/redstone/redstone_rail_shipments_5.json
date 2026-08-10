@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:activator_rail"
+    },
+    "title": {
+      "translate": "Main Line"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Throw 150 Rails of any kind for another player to pick up (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_rail_shipments_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_rail_shipments_5"
+  }
+}

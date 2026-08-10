@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oxidized_copper_bulb"
+    },
+    "title": {
+      "translate": "The Lamp Room"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Throw 420 Copper Bulbs for another player to pick up (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_copper_bulb_supply_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_copper_bulb_supply_7"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "parent": "blazeandcave:animal/cool_kids",
+  "criteria": {
+    "beaten_in_leathers": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_rancher_hide_doorbell"
+  }
+}

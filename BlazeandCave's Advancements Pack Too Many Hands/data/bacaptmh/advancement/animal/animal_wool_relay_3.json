@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_gray_wool"
+    },
+    "title": {
+      "translate": "Bale and Barter"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand Wool to other players 55 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_wool_relay_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_wool_relay_3"
+  }
+}

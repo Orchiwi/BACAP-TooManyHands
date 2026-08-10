@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:mining/diamond_miner",
+  "criteria": {
+    "dowry": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/mining_diamond_dowry_doorbell"
+  }
+}

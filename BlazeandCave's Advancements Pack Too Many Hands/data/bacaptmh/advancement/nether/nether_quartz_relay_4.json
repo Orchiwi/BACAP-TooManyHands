@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_quartz_block"
+    },
+    "title": {
+      "translate": "Quarrymen's Pact"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Nether Quartz from another player's hand 100 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_quartz_relay_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_quartz_relay_4"
+  }
+}

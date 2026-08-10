@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "Frozen Airlift"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Catch 1,600 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_peak_freight_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_peak_freight_7"
+  }
+}

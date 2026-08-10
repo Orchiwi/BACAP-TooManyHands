@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:closed_eyeblossom"
+    },
+    "title": {
+      "translate": "Something Is Watching"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pass 10 Eyeblossoms to another player in a Pale Garden (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/resinance",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_pale_offering_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod_bucket"
+    },
+    "title": {
+      "translate": "Fresh Catch, Fresh Hands"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Bucket of live catch from another player's hand 3 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/aquarium",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_fish_bucket_relay_1"
+  }
+}

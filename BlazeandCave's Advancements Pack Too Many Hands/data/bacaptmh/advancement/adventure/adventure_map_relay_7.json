@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_item_frame"
+    },
+    "title": {
+      "translate": "Every Coast but Mine"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 200 maps by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_map_relay_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_map_relay_7"
+  }
+}

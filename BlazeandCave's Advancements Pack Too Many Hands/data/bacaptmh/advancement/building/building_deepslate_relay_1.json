@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobbled_deepslate"
+    },
+    "title": {
+      "translate": "Below the Cobbles"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 32 or more Deepslate blocks 2 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/deepslate_conspiracy",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_deepslate_relay_1"
+  }
+}

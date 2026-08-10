@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "translate": "Confectioner's Guild"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a Cake, Pumpkin Pie or Cookie 400 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_bakery_run_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_bakery_run_6"
+  }
+}

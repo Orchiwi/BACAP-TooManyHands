@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "Sweet Delivery"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a Cake, Pumpkin Pie or Cookie 180 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_bakery_run_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_bakery_run_5"
+  }
+}

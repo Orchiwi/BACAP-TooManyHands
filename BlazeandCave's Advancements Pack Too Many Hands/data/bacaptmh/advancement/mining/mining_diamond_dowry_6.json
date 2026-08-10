@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_diamond_ore"
+    },
+    "title": {
+      "translate": "Split the Vein"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Diamonds thrown to you by another player 400 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_diamond_dowry_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_diamond_dowry_6"
+  }
+}

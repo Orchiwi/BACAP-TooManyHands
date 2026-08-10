@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:nether/ghast_slayer",
+  "criteria": {
+    "long_toss": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ghast_tear"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 5
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_ghast_tear_toll_doorbell"
+  }
+}

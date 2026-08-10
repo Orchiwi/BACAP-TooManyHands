@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blade_pottery_sherd"
+    },
+    "title": {
+      "translate": "The Divided Urn"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 50 Pottery Sherds (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_sherd_relay_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_sherd_relay_4"
+  }
+}

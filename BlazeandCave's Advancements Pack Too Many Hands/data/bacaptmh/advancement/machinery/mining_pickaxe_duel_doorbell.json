@@ -1,0 +1,36 @@
+{
+  "parent": "blazeandcave:mining/rest_in_pickaxes",
+  "criteria": {
+    "struck": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_pickaxe",
+                "minecraft:stone_pickaxe",
+                "minecraft:copper_pickaxe",
+                "minecraft:iron_pickaxe",
+                "minecraft:golden_pickaxe",
+                "minecraft:diamond_pickaxe",
+                "minecraft:netherite_pickaxe"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/mining_pickaxe_duel_doorbell"
+  }
+}

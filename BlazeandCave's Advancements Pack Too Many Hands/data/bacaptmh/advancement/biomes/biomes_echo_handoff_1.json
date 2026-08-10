@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_lantern"
+    },
+    "title": {
+      "translate": "Hand in the Black"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch 5 Echo Shards thrown to you by another player in the Deep Dark (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/20_leagues_under_the_sea",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_echo_handoff_1"
+  }
+}

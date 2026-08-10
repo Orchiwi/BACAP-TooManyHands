@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "Pointy End of the Pick"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hit another player while holding a Pickaxe 1,500 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_pickaxe_duel_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_pickaxe_duel_8"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "Piston Foundry"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Throw 2,600 Pistons or Sticky Pistons for another player to pick up (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_piston_shipments_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_piston_shipments_9"
+  }
+}

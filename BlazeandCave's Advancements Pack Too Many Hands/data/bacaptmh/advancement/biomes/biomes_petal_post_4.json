@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_dye"
+    },
+    "title": {
+      "translate": "Blossom Bureau"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch 200 Pink Petals thrown to you in a Cherry Grove (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_petal_post_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_petal_post_4"
+  }
+}

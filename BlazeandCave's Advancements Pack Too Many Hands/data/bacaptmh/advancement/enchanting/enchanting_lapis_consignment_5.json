@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_block"
+    },
+    "title": {
+      "translate": "Ultramarine Trade"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 256 Lapis Lazuli (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_lapis_consignment_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_lapis_consignment_5"
+  }
+}

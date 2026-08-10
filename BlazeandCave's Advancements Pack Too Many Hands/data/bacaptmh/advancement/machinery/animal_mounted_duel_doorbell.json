@@ -1,0 +1,51 @@
+{
+  "parent": "blazeandcave:animal/its_high_noon",
+  "criteria": {
+    "struck_from_the_saddle": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": [
+                  "minecraft:horse",
+                  "minecraft:donkey",
+                  "minecraft:mule",
+                  "minecraft:camel",
+                  "minecraft:skeleton_horse",
+                  "minecraft:zombie_horse",
+                  "minecraft:pig",
+                  "minecraft:strider"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_mounted_duel_doorbell"
+  }
+}

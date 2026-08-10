@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_nether_bricks"
+    },
+    "title": {
+      "translate": "Landfill Logistics"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a full stack of Netherrack 400 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_netherrack_haul_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_netherrack_haul_6"
+  }
+}

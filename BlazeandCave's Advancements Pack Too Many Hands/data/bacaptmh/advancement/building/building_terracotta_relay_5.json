@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_glazed_terracotta"
+    },
+    "title": {
+      "translate": "Slip and Sheen"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 8 or more Terracotta 66 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_terracotta_relay_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_terracotta_relay_5"
+  }
+}

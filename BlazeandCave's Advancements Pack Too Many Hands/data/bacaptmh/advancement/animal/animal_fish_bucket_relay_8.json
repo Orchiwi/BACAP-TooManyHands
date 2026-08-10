@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:axolotl_bucket"
+    },
+    "title": {
+      "translate": "Curator of the Deep"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a Bucket of live catch from another player's hand 1,200 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_fish_bucket_relay_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_fish_bucket_relay_8"
+  }
+}

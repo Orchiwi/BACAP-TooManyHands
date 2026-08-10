@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skull_banner_pattern"
+    },
+    "title": {
+      "translate": "Reliquary of Rot"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Gather 5000 thrown heads into one unspeakable shrine (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_head_relay_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_head_relay_9"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:adventure/keys_to_success",
+  "criteria": {
+    "handed_to_me": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:trial_key",
+            "minecraft:ominous_trial_key"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/adventure_trial_key_handover_doorbell"
+  }
+}

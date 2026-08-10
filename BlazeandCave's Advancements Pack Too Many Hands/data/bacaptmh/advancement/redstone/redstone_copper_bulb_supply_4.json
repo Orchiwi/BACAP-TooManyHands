@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:waxed_copper_bulb"
+    },
+    "title": {
+      "translate": "Waxed and Wired"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Throw 40 Copper Bulbs for another player to pick up (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_copper_bulb_supply_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_copper_bulb_supply_4"
+  }
+}

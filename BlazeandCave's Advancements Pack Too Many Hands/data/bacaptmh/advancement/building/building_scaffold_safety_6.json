@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lingering_potion"
+    },
+    "title": {
+      "translate": "No Hard Hats Required"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch Slow Falling from a potion another player threw 150 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_scaffold_safety_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_scaffold_safety_6"
+  }
+}

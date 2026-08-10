@@ -1,0 +1,33 @@
+{
+  "parent": "blazeandcave:monsters/enderman_destroyer",
+  "criteria": {
+    "paid_the_toll": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ender_pearl",
+            "minecraft:ender_eye"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_pearl_toll_doorbell"
+  }
+}

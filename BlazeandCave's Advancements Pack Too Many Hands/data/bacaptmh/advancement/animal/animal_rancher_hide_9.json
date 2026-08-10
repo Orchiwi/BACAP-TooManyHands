@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_hide"
+    },
+    "title": {
+      "translate": "The Toughest Leather"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take 1,800 hits from another player while dressed head to toe in Leather (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_rancher_hide_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_rancher_hide_9"
+  }
+}

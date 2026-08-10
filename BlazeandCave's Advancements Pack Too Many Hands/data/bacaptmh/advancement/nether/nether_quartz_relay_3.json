@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_pillar"
+    },
+    "title": {
+      "translate": "White Seam Traffic"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Nether Quartz from another player's hand 50 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_quartz_relay_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_quartz_relay_3"
+  }
+}

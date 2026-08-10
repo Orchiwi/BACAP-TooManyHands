@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "Sherpa Work"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch 25 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_peak_freight_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_peak_freight_2"
+  }
+}

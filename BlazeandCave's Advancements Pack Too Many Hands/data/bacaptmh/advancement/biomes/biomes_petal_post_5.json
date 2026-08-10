@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_log"
+    },
+    "title": {
+      "translate": "A Grove Between Us"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch 500 Pink Petals thrown to you in a Cherry Grove (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_petal_post_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_petal_post_5"
+  }
+}

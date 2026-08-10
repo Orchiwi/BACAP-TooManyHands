@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:explorer_pottery_sherd"
+    },
+    "title": {
+      "translate": "Everyone Gets a Shard"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 120 Pottery Sherds (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_sherd_relay_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_sherd_relay_5"
+  }
+}

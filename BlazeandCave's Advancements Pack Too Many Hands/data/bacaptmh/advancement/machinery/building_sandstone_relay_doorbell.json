@@ -1,0 +1,36 @@
+{
+  "parent": "blazeandcave:building/built_on_sand_set_in_stone",
+  "criteria": {
+    "desert_stock_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sandstone",
+            "minecraft:chiseled_sandstone",
+            "minecraft:cut_sandstone",
+            "minecraft:smooth_sandstone",
+            "minecraft:red_sandstone",
+            "minecraft:chiseled_red_sandstone",
+            "minecraft:cut_red_sandstone",
+            "minecraft:smooth_red_sandstone"
+          ],
+          "count": {
+            "min": 32
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_sandstone_relay_doorbell"
+  }
+}

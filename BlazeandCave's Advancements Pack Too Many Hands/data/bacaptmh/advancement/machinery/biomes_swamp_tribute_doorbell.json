@@ -1,0 +1,32 @@
+{
+  "parent": "blazeandcave:biomes/overgrown",
+  "criteria": {
+    "bog_tribute": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:slime_ball"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:swamp",
+              "minecraft:mangrove_swamp"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_swamp_tribute_doorbell"
+  }
+}

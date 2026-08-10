@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_block"
+    },
+    "title": {
+      "translate": "Crystal Handshake"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Nether Quartz from another player's hand 25 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_quartz_relay_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_quartz_relay_2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_pickaxe"
+    },
+    "title": {
+      "translate": "Tool Assisted Argument"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hit another player while holding a Pickaxe 15 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_pickaxe_duel_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_pickaxe_duel_3"
+  }
+}

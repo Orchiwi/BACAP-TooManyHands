@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:salmon_bucket"
+    },
+    "title": {
+      "translate": "Tank Transfer"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Bucket of live catch from another player's hand 45 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_fish_bucket_relay_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_fish_bucket_relay_4"
+  }
+}

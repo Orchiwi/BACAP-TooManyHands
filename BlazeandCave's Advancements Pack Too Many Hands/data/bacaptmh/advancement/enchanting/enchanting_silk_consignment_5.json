@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone"
+    },
+    "title": {
+      "translate": "Whole Blocks, Whole Hands"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 120 tools enchanted with Silk Touch (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_silk_consignment_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_silk_consignment_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creaking_heart"
+    },
+    "title": {
+      "translate": "Everything the Pale Sees"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pass 30,000 Eyeblossoms to another player in a Pale Garden (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_pale_offering_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_pale_offering_10"
+  }
+}

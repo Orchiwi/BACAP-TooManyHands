@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_glazed_terracotta"
+    },
+    "title": {
+      "translate": "Mosaic Commission"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 8 or more Terracotta 155 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_terracotta_relay_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_terracotta_relay_6"
+  }
+}

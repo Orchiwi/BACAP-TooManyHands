@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "Collector of Others' Grief"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lob a Ghast Tear across five blocks to another player 1,500 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_ghast_tear_toll_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_ghast_tear_toll_7"
+  }
+}

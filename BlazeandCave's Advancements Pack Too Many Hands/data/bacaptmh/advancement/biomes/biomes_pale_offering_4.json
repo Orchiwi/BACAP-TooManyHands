@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_moss_block"
+    },
+    "title": {
+      "translate": "Handed Under Creaking Boughs"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pass 150 Eyeblossoms to another player in a Pale Garden (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_pale_offering_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_pale_offering_4"
+  }
+}

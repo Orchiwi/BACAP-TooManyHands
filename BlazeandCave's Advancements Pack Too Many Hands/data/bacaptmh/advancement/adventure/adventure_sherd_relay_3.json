@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:archer_pottery_sherd"
+    },
+    "title": {
+      "translate": "Splitting the Dig"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 20 Pottery Sherds (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_sherd_relay_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_sherd_relay_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace_minecart"
+    },
+    "title": {
+      "translate": "Rolling Together"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 90 Minecarts of any kind dropped for you by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_minecart_deliveries_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_minecart_deliveries_5"
+  }
+}

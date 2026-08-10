@@ -1,0 +1,40 @@
+{
+  "parent": "blazeandcave:biomes/the_great_blocky_reef",
+  "criteria": {
+    "reef_toll": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sea_pickle"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:warm_ocean"
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:warm_ocean",
+            "fluid": {
+              "fluids": [
+                "minecraft:water",
+                "minecraft:flowing_water"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/biomes_reef_relay_doorbell"
+  }
+}

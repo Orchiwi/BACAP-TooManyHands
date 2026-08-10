@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_helmet"
+    },
+    "title": {
+      "translate": "Leatherworking Guild"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Leather or Rabbit Hide from another player's hand 1,250 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_leather_relay_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_leather_relay_7"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:farming/berry_nice",
+  "criteria": {
+    "fruit_received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:apple",
+            "minecraft:melon_slice",
+            "minecraft:sweet_berries",
+            "minecraft:glow_berries"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_orchard_share_doorbell"
+  }
+}

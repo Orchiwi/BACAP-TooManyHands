@@ -578,6 +578,1194 @@
           }
         }
       }
+    },
+    "animal_lead_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_lead_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "animal_lead_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_lead_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "animal_lead_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_lead_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "animal_lead_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_lead_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "animal_lead_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_lead_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "animal_lead_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_lead_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "animal_lead_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_lead_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "animal_lead_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_lead_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "animal_lead_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_lead_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "animal_saddle_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_saddle_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "animal_saddle_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_saddle_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "animal_saddle_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_saddle_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "animal_saddle_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_saddle_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "animal_saddle_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_saddle_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "animal_saddle_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_saddle_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "animal_saddle_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_saddle_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "animal_saddle_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_saddle_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "animal_saddle_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_saddle_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "animal_name_tag_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_name_tag_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "animal_name_tag_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_name_tag_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "animal_name_tag_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_name_tag_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "animal_name_tag_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_name_tag_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "animal_name_tag_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_name_tag_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "animal_name_tag_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_name_tag_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "animal_name_tag_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_name_tag_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "animal_name_tag_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_name_tag_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "animal_name_tag_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_name_tag_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "animal_wool_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_wool_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "animal_wool_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_wool_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "animal_wool_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_wool_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "animal_wool_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_wool_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "animal_wool_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_wool_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "animal_wool_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_wool_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "animal_wool_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_wool_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "animal_wool_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_wool_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "animal_wool_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_wool_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "animal_leather_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_leather_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "animal_leather_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_leather_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "animal_leather_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_leather_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "animal_leather_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_leather_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "animal_leather_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_leather_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "animal_leather_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_leather_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "animal_leather_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_leather_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "animal_leather_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_leather_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "animal_leather_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_leather_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "animal_egg_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_egg_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "animal_egg_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_egg_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "animal_egg_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_egg_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "animal_egg_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_egg_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "animal_egg_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_egg_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "animal_egg_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_egg_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "animal_egg_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_egg_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "animal_egg_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_egg_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "animal_egg_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_egg_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "animal_fish_bucket_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_fish_bucket_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "animal_fish_bucket_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_fish_bucket_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "animal_fish_bucket_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_fish_bucket_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "animal_fish_bucket_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_fish_bucket_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "animal_fish_bucket_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_fish_bucket_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "animal_fish_bucket_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_fish_bucket_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "animal_fish_bucket_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_fish_bucket_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "animal_fish_bucket_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_fish_bucket_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "animal_fish_bucket_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_fish_bucket_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "animal_barding_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_barding_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "animal_barding_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_barding_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "animal_barding_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_barding_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "animal_barding_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_barding_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "animal_barding_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_barding_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "animal_barding_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_barding_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "animal_barding_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_barding_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "animal_barding_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_barding_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "animal_barding_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_barding_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "animal_mounted_duel_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_mounted_duel_1": true
+            }
+          }
+        }
+      }
+    },
+    "animal_mounted_duel_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_mounted_duel_2": true
+            }
+          }
+        }
+      }
+    },
+    "animal_mounted_duel_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_mounted_duel_3": true
+            }
+          }
+        }
+      }
+    },
+    "animal_mounted_duel_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_mounted_duel_4": true
+            }
+          }
+        }
+      }
+    },
+    "animal_mounted_duel_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_mounted_duel_5": true
+            }
+          }
+        }
+      }
+    },
+    "animal_mounted_duel_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_mounted_duel_6": true
+            }
+          }
+        }
+      }
+    },
+    "animal_mounted_duel_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_mounted_duel_7": true
+            }
+          }
+        }
+      }
+    },
+    "animal_mounted_duel_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_mounted_duel_8": true
+            }
+          }
+        }
+      }
+    },
+    "animal_mounted_duel_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_mounted_duel_9": true
+            }
+          }
+        }
+      }
+    },
+    "animal_rancher_hide_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_rancher_hide_1": true
+            }
+          }
+        }
+      }
+    },
+    "animal_rancher_hide_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_rancher_hide_2": true
+            }
+          }
+        }
+      }
+    },
+    "animal_rancher_hide_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_rancher_hide_3": true
+            }
+          }
+        }
+      }
+    },
+    "animal_rancher_hide_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_rancher_hide_4": true
+            }
+          }
+        }
+      }
+    },
+    "animal_rancher_hide_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_rancher_hide_5": true
+            }
+          }
+        }
+      }
+    },
+    "animal_rancher_hide_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_rancher_hide_6": true
+            }
+          }
+        }
+      }
+    },
+    "animal_rancher_hide_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_rancher_hide_7": true
+            }
+          }
+        }
+      }
+    },
+    "animal_rancher_hide_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_rancher_hide_8": true
+            }
+          }
+        }
+      }
+    },
+    "animal_rancher_hide_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_rancher_hide_9": true
+            }
+          }
+        }
+      }
+    },
+    "animal_hoof_tonic_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_hoof_tonic_1": true
+            }
+          }
+        }
+      }
+    },
+    "animal_hoof_tonic_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_hoof_tonic_2": true
+            }
+          }
+        }
+      }
+    },
+    "animal_hoof_tonic_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_hoof_tonic_3": true
+            }
+          }
+        }
+      }
+    },
+    "animal_hoof_tonic_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_hoof_tonic_4": true
+            }
+          }
+        }
+      }
+    },
+    "animal_hoof_tonic_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_hoof_tonic_5": true
+            }
+          }
+        }
+      }
+    },
+    "animal_hoof_tonic_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_hoof_tonic_6": true
+            }
+          }
+        }
+      }
+    },
+    "animal_hoof_tonic_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_hoof_tonic_7": true
+            }
+          }
+        }
+      }
+    },
+    "animal_hoof_tonic_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_hoof_tonic_8": true
+            }
+          }
+        }
+      }
+    },
+    "animal_hoof_tonic_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:animal/animal_hoof_tonic_9": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

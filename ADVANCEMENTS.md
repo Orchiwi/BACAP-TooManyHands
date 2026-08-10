@@ -10,44 +10,67 @@ None of these duplicates any of the 1,776 advancements in BlazeandCave's Advance
 
 Advancements that cannot be earned alone. Every one needs between two and five players.
 
-**855 advancements** across 15 tabs, plus 16 progression entries.
+**2355 advancements** across 15 tabs, plus 16 progression entries.
 
 | Tab | Count |
 |---|---|
-| Adventure | 75 |
-| Animals | 47 |
-| Biomes | 56 |
-| Building | 49 |
-| Enchanting | 34 |
-| Farming | 42 |
-| Mining | 49 |
-| Monsters | 26 |
-| Nether | 106 |
-| Potions | 85 |
-| Redstone | 24 |
-| Statistics | 14 |
+| Adventure | 177 |
+| Animals | 146 |
+| Biomes | 167 |
+| Building | 159 |
+| Enchanting | 141 |
+| Farming | 152 |
+| Mining | 159 |
+| Monsters | 130 |
+| Nether | 216 |
+| Potions | 191 |
+| Redstone | 125 |
+| Statistics | 124 |
 | Super Challenges | 20 |
-| The End | 89 |
-| Weaponry | 139 |
+| The End | 199 |
+| Weaponry | 249 |
 
 ## Adventure — Too Many Hands
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ◆ | **A Lifetime of Other People's Potions** | Adventure | Gain 650 effects from another player's potions (2 players) | 40 |
+| · | **A Mould for Me** | Adventure | Be handed 5 Smithing Templates by another player (2 players) | 15 |
+| · | **A Needle for a Friend** | Adventure | Hand another player 5 compasses (2 players) | 15 |
+| ★ | **A Thousand Safe Returns** | Adventure | Hand another player 1,400 compasses (2 players) | 120 |
+| ★ | **All Our Baggage** | Adventure | Be handed 1,500 Bundles by another player (2 players) | 120 |
 | ◆ | **Allay Express** | Adventure | Put an Allay to work at a Note Block sorting Paper, then hand the post on to another player (2 players) | 50 |
+| ★ | **Apothecary of Ruin** | Adventure | Hand another player 1,300 Ominous Bottles (2 players) | 120 |
+| ★ | **Archive of Other Hands** | Adventure | Be handed 800 maps by another player (2 players) | 120 |
+| ★ | **Archivist of Echoes** | Adventure | Be handed 1,700 Echo Shards by another player (2 players) | 120 |
 | · | **B-Side** | Adventure | Swap Music Discs with another player, one record for another (2 players) | 15 |
 | ◆ | **Bad Apple** | Adventure | Hand a Golden Apple to a player you have Weakened, as though they were a Zombie Villager (2 players) | 40 |
+| · | **Bag It for Me** | Adventure | Be handed 3 Bundles by another player (2 players) | 15 |
+| · | **Bearings Given Freely** | Adventure | Hand another player 12 compasses (2 players) | 15 |
 | ◆ | **Bedside Manner** | Adventure | Cure a Zombie Villager with a Golden Apple another player handed you, then open the surgery and trade with your patient (2 players) | 130 |
+| · | **Better Living Through Friends** | Adventure | Gain 8 effects from another player's potions (2 players) | 15 |
+| · | **Blow It for Me** | Adventure | Hand another player 6 Goat Horns (2 players) | 15 |
+| · | **Borrowed Bearings** | Adventure | Be handed 2 maps by another player (2 players) | 15 |
+| · | **Bottled Trouble, Shared** | Adventure | Hand another player 18 Ominous Bottles (2 players) | 15 |
 | · | **Brush With Greatness** | Adventure | Excavate a suspicious block with a Brush another player handed you (2 players) | 15 |
+| ◆ | **Buffed by Better People** | Adventure | Gain 280 effects from another player's potions (2 players) | 40 |
 | ◆ | **Care Package** | Adventure | Hand another player every piece of an Iron armour set (2 players) | 45 |
+| ◆ | **Carried by Committee** | Adventure | Be handed 125 Bundles by another player (2 players) | 40 |
+| ★ | **Cartography by Consensus** | Adventure | Be handed 1,600 maps by another player (2 players) | 120 |
 | ◆ | **Chain of Supply** | Adventure | Hand another player every piece of a Chainmail armour set (2 players) | 40 |
 | · | **Charity Case** | Adventure | Be handed a helmet, a chestplate, leggings and boots by other players (2 players) | 55 |
+| · | **Charted by Committee** | Adventure | Be handed 12 maps by another player (2 players) | 15 |
+| · | **Chip Off the Pot** | Adventure | Hand another player 3 Pottery Sherds (2 players) | 15 |
 | ◆ | **Closing Time** | Adventure | Last orders: buy Ice from a Wandering Trader with Emeralds another player handed you, and pass the ice straight back (2 players) | 55 |
 | ◆ | **Cobbler's Rounds** | Adventure | Hand out boots of every armour material to other players (2 players) | 40 |
 | · | **Copper Conscript** | Adventure | Be handed all four pieces of Copper armour by other players (2 players) | 15 |
+| ★ | **Curator of the Given** | Adventure | Hand another player 1,100 Pottery Sherds (2 players) | 120 |
+| · | **Cut Me a Copy** | Adventure | Be handed 6 Trial Keys by another player (2 players) | 15 |
+| ◆ | **Deep City Dividend** | Adventure | Be handed 75 Echo Shards by another player (2 players) | 40 |
 | ◆ | **Diamond Hands** | Adventure | Hand another player a full stack of sixty-four Diamonds (2 players) | 55 |
 | · | **Dig Dividend** | Adventure | Take a Pottery Sherd off another player inside the Trail Ruins (2 players) | 15 |
 | · | **Distraction Tactics** | Adventure | Ring a Bell to pull raiders off a teammate who is down to three hearts or less (2 players) | 25 |
+| ◆ | **Doom by the Dozen** | Adventure | Hand another player 45 Ominous Bottles (2 players) | 40 |
 | · | **Double Booking** | Adventure | Serve two customers at one counter: buy goods from a Villager and hand goods of that kind straight to another player (2 players) | 30 |
 | · | **Double Indemnity** | Adventure | Hand another player a Totem of Undying and take one from them in return (2 players) | 15 |
 | ★ | **Dress Code** | Adventure | Three players in full armour of the same material with the same armour trim (3 players) | 60 |
@@ -55,60 +78,139 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 | ◆ | **Dying Wish** | Adventure | Hand your belongings to another player, then let them kill you (2 players) | 40 |
 | ◆ | **Escort Mission** | Adventure | Guide a player blinded by a Carved Pumpkin two hundred blocks while they stay within five blocks of you (2 players) | 60 |
 | · | **Even Split** | Adventure | Hand another player exactly thirty-two Gold Ingots while still holding thirty-two yourself (2 players) | 30 |
+| ◆ | **Every Coast but Mine** | Adventure | Be handed 200 maps by another player (2 players) | 40 |
+| ◆ | **Every Door Is Ours** | Adventure | Be handed 250 Trial Keys by another player (2 players) | 40 |
+| ◆ | **Every Note Was Given** | Adventure | Hand another player 100 Goat Horns (2 players) | 40 |
+| ★ | **Every Sherd Twice Held** | Adventure | Hand another player 2,200 Pottery Sherds (2 players) | 120 |
+| ★ | **Every Trim Was a Gift** | Adventure | Be handed 750 Smithing Templates by another player (2 players) | 120 |
+| ★ | **Every Whisper Was Handed** | Adventure | Be handed 850 Echo Shards by another player (2 players) | 120 |
+| ◆ | **Everyone Gets a Shard** | Adventure | Hand another player 120 Pottery Sherds (2 players) | 40 |
+| ◆ | **Everyone Gets an Omen** | Adventure | Hand another player 260 Ominous Bottles (2 players) | 40 |
+| ★ | **Everything Anyone Carried** | Adventure | Be handed 3,000 Bundles by another player (2 players) | 120 |
+| ★ | **Everything In My Veins Was Given** | Adventure | Gain 5,600 effects from another player's potions (2 players) | 120 |
+| ★ | **Everything We Saw Together** | Adventure | Hand another player 800 Spyglasses (2 players) | 120 |
 | ◆ | **Eye Witness** | Adventure | Take the Eye Armour Trim off another player inside a Stronghold (2 players) | 40 |
+| · | **Eyes on Loan** | Adventure | Hand another player 4 Spyglasses (2 players) | 15 |
 | · | **Fair Trade** | Adventure | Swap items with another player: you each pick up what the other dropped within 5 seconds (2 players) | 15 |
+| ★ | **Fanfare of Outposts** | Adventure | Hand another player 600 Goat Horns (2 players) | 120 |
 | ◆ | **Ferryman** | Adventure | Row a player who has just respawned with nothing a thousand blocks in a boat (2 players) | 75 |
 | ◆ | **Fire Sale** | Adventure | Catch a Water Bucket thrown by another player while you are burning (2 players) | 40 |
 | ◆ | **Four Faces** | Adventure | Be handed four different Pottery Sherds by other players and end up with a Decorated Pot (2 players) | 40 |
+| · | **Fragments for a Friend** | Adventure | Hand another player 8 Pottery Sherds (2 players) | 15 |
 | ◆ | **Gilded Gift** | Adventure | Hand another player every piece of a Golden armour set (2 players) | 40 |
 | ◆ | **Going, Going, Gone** | Adventure | Hold an auction: three players pass Emeralds hand to hand on one spot inside thirty seconds (3 players) | 250 |
 | · | **Grave Goods** | Adventure | Take a Totem of Undying off another player inside a Woodland Mansion (2 players) | 15 |
 | ◆ | **Group Nap** | Adventure | Every online player sleeps during the same night (2 players) | 50 |
 | ◆ | **Guest DJ** | Adventure | Play a Music Disc another player handed you in a Jukebox (2 players) | 40 |
 | ◆ | **Hand-Trimmed** | Adventure | Take a chestplate already trimmed with Netherite off another player and wear it (2 players) | 40 |
+| · | **Have a Bad Feeling** | Adventure | Hand another player 3 Ominous Bottles (2 players) | 15 |
 | · | **Heavy Lifting** | Adventure | Hand another player a Heavy Core (2 players) | 15 |
+| ★ | **Herald of Given Horns** | Adventure | Hand another player 1,400 Goat Horns (2 players) | 120 |
+| · | **Here, Look at This** | Adventure | Hand another player 2 Spyglasses (2 players) | 15 |
+| ◆ | **Homeward Handouts** | Adventure | Hand another player 75 compasses (2 players) | 40 |
+| ★ | **Horizon Held in Common** | Adventure | Hand another player 3,600 Spyglasses (2 players) | 120 |
 | ◆ | **Hot Potato** | Adventure | Pass items down a line of four players within ten seconds (4 players) | 150 |
+| ◆ | **Inheritance of Shapes** | Adventure | Be handed 160 Smithing Templates by another player (2 players) | 40 |
+| ◆ | **Keeper of Other People's North** | Adventure | Hand another player 350 compasses (2 players) | 40 |
+| · | **Key Sharing** | Adventure | Be handed 2 Trial Keys by another player (2 players) | 15 |
+| · | **Locksmith's Apprentice** | Adventure | Be handed 40 Trial Keys by another player (2 players) | 15 |
 | ◆ | **Lost and Found** | Adventure | Get killed out there, then have another player bring you a Recovery Compass (2 players) | 45 |
 | ◆ | **Mansion Massacre** | Adventure | Kill another player inside a Woodland Mansion (2 players) | 40 |
 | ◆ | **Mansion Rules** | Adventure | Kill another player with an Axe inside a Woodland Mansion (2 players) | 40 |
 | ◆ | **Market Day** | Adventure | Work the whole market on somebody else's coin: trade with a Farmer, a Butcher, a Cartographer and a Mason using Emeralds another player keeps handing you (2 players) | 150 |
+| ★ | **Master of Borrowed Locks** | Adventure | Be handed 2,600 Trial Keys by another player (2 players) | 120 |
 | · | **Matching Outfits** | Adventure | Two players wearing identically dyed leather armour, all four pieces (2 players) | 25 |
 | ◆ | **Monument Massacre** | Adventure | Kill another player inside an Ocean Monument (2 players) | 40 |
 | ◆ | **Mould Share** | Adventure | Pay another player seven Diamonds and take a duplicated Smithing Template back (2 players) | 40 |
+| ◆ | **Museum of Two Hands** | Adventure | Hand another player 250 Pottery Sherds (2 players) | 40 |
 | ★ | **No Man Left Behind** | Adventure | Under two hearts, take a Golden Apple from another player in a Trial Chamber, an Ancient City, the Nether and the End (2 players) | 120 |
+| ◆ | **Nobody Runs on Empty** | Adventure | Gain 120 effects from another player's potions (2 players) | 40 |
+| ◆ | **Nobody Scouts Alone** | Adventure | Hand another player 150 Spyglasses (2 players) | 40 |
+| ◆ | **Nobody Wanders Here** | Adventure | Hand another player 150 compasses (2 players) | 40 |
 | ◆ | **Omen Insurance** | Adventure | Be splashed with Resistance by another player while Bad Omen is hanging over you (2 players) | 40 |
+| · | **Omen to Go** | Adventure | Hand another player 7 Ominous Bottles (2 players) | 15 |
 | ◆ | **Ominous Assistance** | Adventure | Be splashed with Strength by another player while you are under Trial Omen (2 players) | 40 |
+| ◆ | **Ominous Generosity** | Adventure | Be handed 100 Trial Keys by another player (2 players) | 40 |
+| ★ | **Optics for the Whole Party** | Adventure | Hand another player 1,800 Spyglasses (2 players) | 120 |
 | ★ | **Orchestra** | Adventure | Four players sound four different Goat Horns within five seconds (4 players) | 150 |
+| ◆ | **Paper Trails Between Us** | Adventure | Be handed 100 maps by another player (2 players) | 40 |
+| · | **Pattern Passed Down** | Adventure | Be handed 2 Smithing Templates by another player (2 players) | 15 |
 | ◆ | **Pay It Forward** | Adventure | Cheat death with a Totem of Undying that another player dropped for you (2 players) | 45 |
+| ★ | **Perpetually Medicated** | Adventure | Gain 1,400 effects from another player's potions (2 players) | 120 |
 | · | **Pocket Money** | Adventure | Hand another player a Bundle already packed with Bread, Torches, Arrows and Coal (2 players) | 30 |
+| · | **Pockets Not My Own** | Adventure | Be handed 50 Bundles by another player (2 players) | 15 |
+| · | **Point Them Home** | Adventure | Hand another player 2 compasses (2 players) | 15 |
 | ◆ | **Pony Express** | Adventure | Carry the post: take a Written Book from another player in the Overworld and hand it on in the Nether (2 players) | 60 |
+| ★ | **Purveyor of Bad Omens** | Adventure | Hand another player 600 Ominous Bottles (2 players) | 120 |
 | ◆ | **Quartered Colours** | Adventure | Be handed four armour pieces, each trimmed with a different material (2 players) | 40 |
+| ◆ | **Quartermaster's Blessing** | Adventure | Be handed 700 Bundles by another player (2 players) | 40 |
 | ◆ | **Raid Party** | Adventure | Three players holding Hero of the Village at the same time (3 players) | 110 |
 | ★ | **Rare Groove** | Adventure | Be handed Pigstep, Otherside, 5, Relic and Precipice by other players (2 players) | 120 |
 | ◆ | **Reunion** | Adventure | Meet another player after you have each spent ten minutes with nobody within 5,000 blocks (2 players) | 35 |
 | · | **Schadenfreude** | Adventure | Watch another player burn through a Spyglass from at least twenty blocks away (2 players) | 25 |
+| · | **Second-Hand Brew** | Adventure | Gain 20 effects from another player's potions (2 players) | 15 |
+| ◆ | **Second-Hand Cartographer** | Adventure | Be handed 50 maps by another player (2 players) | 40 |
 | ◆ | **Secret Santa** | Adventure | Four players in one place swapping items within ten seconds (4 players) | 170 |
+| · | **Shards from Below** | Adventure | Be handed 30 Echo Shards by another player (2 players) | 15 |
 | · | **Sherd Swap** | Adventure | Swap Pottery Sherds with another player (2 players) | 15 |
+| ◆ | **Signal Corps** | Adventure | Hand another player 40 Goat Horns (2 players) | 40 |
 | ◆ | **Silent Partner** | Adventure | Take the Silence Armour Trim off another player inside an Ancient City (2 players) | 40 |
+| ★ | **Smith of Shared Design** | Adventure | Be handed 1,500 Smithing Templates by another player (2 players) | 120 |
+| · | **Someone Braved the Dark** | Adventure | Be handed 5 Echo Shards by another player (2 players) | 15 |
+| · | **Someone Else's Ink** | Adventure | Be handed 5 maps by another player (2 players) | 15 |
+| · | **Someone Packed for You** | Adventure | Be handed 8 Bundles by another player (2 players) | 15 |
+| · | **Someone Splashed You** | Adventure | Gain 3 effects from another player's potions (2 players) | 15 |
+| · | **Sound Off, Friend** | Adventure | Hand another player 2 Goat Horns (2 players) | 15 |
 | ◆ | **Split the Party** | Adventure | Have three players in three different dimensions at the same moment (3 players) | 45 |
+| · | **Splitting the Dig** | Adventure | Hand another player 20 Pottery Sherds (2 players) | 15 |
 | ◆ | **Starter Kit** | Adventure | Take a sword, a pickaxe and something to eat from other players within thirty seconds of dying (2 players) | 45 |
 | ◆ | **Swap Meet** | Adventure | Swap the whole stall with another player: hand over a Shulker Box, a Bundle and a Chest Minecart, and be handed all three back (2 players) | 130 |
 | ★ | **Tailor's Bill** | Adventure | Be handed armour trimmed with Gold, Diamond, Emerald and Amethyst by other players (2 players) | 120 |
 | · | **Team Photo** | Adventure | Squeeze four players into a three-block radius (4 players) | 20 |
 | · | **Template Trade** | Adventure | Hand another player an armour trim Smithing Template (2 players) | 15 |
+| · | **The Borrowed Blueprint** | Adventure | Be handed 30 Smithing Templates by another player (2 players) | 15 |
+| ★ | **The Cloud We Stand In** | Adventure | Gain 2,800 effects from another player's potions (2 players) | 120 |
+| ◆ | **The Communal Kit** | Adventure | Be handed 300 Bundles by another player (2 players) | 40 |
+| · | **The Divided Urn** | Adventure | Hand another player 50 Pottery Sherds (2 players) | 15 |
+| · | **The Echo Comes Back** | Adventure | Be handed 12 Echo Shards by another player (2 players) | 15 |
+| ◆ | **The Echo Hoard** | Adventure | Be handed 400 Echo Shards by another player (2 players) | 40 |
+| ◆ | **The Farsighted Fellowship** | Adventure | Hand another player 350 Spyglasses (2 players) | 40 |
+| · | **The Field Medic's Round** | Adventure | Gain 50 effects from another player's potions (2 players) | 15 |
+| ◆ | **The Generous Curse** | Adventure | Hand another player 110 Ominous Bottles (2 players) | 40 |
+| ★ | **The Guiding Hand** | Adventure | Hand another player 700 compasses (2 players) | 120 |
+| · | **The Handed Haversack** | Adventure | Be handed 20 Bundles by another player (2 players) | 15 |
+| ◆ | **The Horn Line** | Adventure | Hand another player 250 Goat Horns (2 players) | 40 |
+| ◆ | **The Keyring Grows Heavy** | Adventure | Be handed 600 Trial Keys by another player (2 players) | 40 |
+| · | **The Lending Lodestone** | Adventure | Hand another player 30 compasses (2 players) | 15 |
+| · | **The Loaned Distance** | Adventure | Hand another player 25 Spyglasses (2 players) | 15 |
+| ◆ | **The Loaned Meridian** | Adventure | Be handed 400 maps by another player (2 players) | 40 |
 | ◆ | **The Milliner's Round** | Adventure | Be handed a helmet of every armour material by other players (2 players) | 40 |
+| · | **The Passed Horn** | Adventure | Hand another player 15 Goat Horns (2 players) | 15 |
+| ◆ | **The Reassembled Past** | Adventure | Hand another player 550 Pottery Sherds (2 players) | 40 |
+| · | **The Shared Atlas** | Adventure | Be handed 25 maps by another player (2 players) | 15 |
+| · | **The Vault Runs on Trust** | Adventure | Be handed 15 Trial Keys by another player (2 players) | 15 |
 | ★ | **The Wave** | Adventure | Four players jump one after another, each within half a second of the last (4 players) | 130 |
+| ★ | **The World, Delivered** | Adventure | Be handed 3,200 maps by another player (2 players) | 120 |
 | · | **Tourist Trap** | Adventure | Kill another player inside a village while the villagers look on (2 players) | 15 |
+| · | **Traced from Another** | Adventure | Be handed 12 Smithing Templates by another player (2 players) | 15 |
 | ★ | **Trial by Combat** | Adventure | Kill another player with a Mace smash inside a Trial Chamber (2 players) | 120 |
 | · | **Trial by Poison** | Adventure | Take Poison from another player inside a Trial Chamber (2 players) | 15 |
 | · | **Trimmed in Debris** | Adventure | Be handed a piece of armour trimmed with Netherite by another player (2 players) | 15 |
+| ◆ | **Trims Are a Team Sport** | Adventure | Be handed 70 Smithing Templates by another player (2 players) | 40 |
+| ★ | **True North for Everyone** | Adventure | Hand another player 2,800 compasses (2 players) | 120 |
 | ◆ | **Trust Fall** | Adventure | Survive a thirty-block fall into water another player placed for you (2 players) | 110 |
 | · | **Twin Maps** | Adventure | Copy a Map and hand the duplicate to another player, so you are both reading the same ground (2 players) | 20 |
+| · | **Two Lenses, One Horizon** | Adventure | Hand another player 10 Spyglasses (2 players) | 15 |
 | ◆ | **Underwriter** | Adventure | Burn a Totem of Undying in a Netherite Chestplate another player handed you (2 players) | 40 |
 | ★ | **Vault Crew** | Adventure | Four players each unlock the same Ominous Vault (4 players) | 180 |
+| ◆ | **Vault of Given Patterns** | Adventure | Be handed 350 Smithing Templates by another player (2 players) | 40 |
 | · | **Vexed Vendor** | Adventure | Hand another player the Vex Armour Trim inside a Woodland Mansion (2 players) | 15 |
 | ◆ | **Victory Tonic** | Adventure | Be splashed with Regeneration by another player while you are still riding Hero of the Village (2 players) | 40 |
+| ◆ | **Voice of the Given Dark** | Adventure | Be handed 175 Echo Shards by another player (2 players) | 40 |
 | ★ | **Waiter Service** | Adventure | Work the whole service for another player - a bowl of stew, a cooked main and a pudding - and take a full stack of Emeralds as your tip (2 players) | 120 |
+| ★ | **Warden of the Shared Vault** | Adventure | Be handed 1,300 Trial Keys by another player (2 players) | 120 |
+| ◆ | **Watchtower Rotation** | Adventure | Hand another player 60 Spyglasses (2 players) | 40 |
+| · | **Whisper Delivery** | Adventure | Be handed 2 Echo Shards by another player (2 players) | 15 |
 
 <details><summary>How these are detected</summary>
 
@@ -154,52 +256,151 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
 | ★ | **Always the Passenger** | Animals | Climb aboard a Boat, a Camel and a Happy Ghast that another player is already riding (2 players) | 130 |
+| · | **Anvil and Ink** | Animals | Take 50 Name Tags from another player's hand (2 players) | 15 |
+| · | **Armor for the Beasts** | Animals | Hand Horse or Wolf Armor to other players 6 times (2 players) | 15 |
+| · | **Bale and Barter** | Animals | Hand Wool to other players 55 times (2 players) | 15 |
+| · | **Barding Party** | Animals | Hand Horse or Wolf Armor to other players 2 times (2 players) | 15 |
+| ◆ | **Basket Brigade** | Animals | Hand Eggs to other players 1,000 times (2 players) | 40 |
 | ★ | **Beast Master** | Animals | Take a Lead from another player's hand and leash a Polar Bear, an Iron Golem, a Zoglin, an Allay, a Copper Golem and a Squid with it (2 players) | 120 |
+| · | **Beaten Like a Drum** | Animals | Take 80 hits from another player while dressed head to toe in Leather (2 players) | 15 |
 | ◆ | **Boar War** | Animals | Kill another player who is riding a saddled Pig while you ride one of your own (2 players) | 40 |
+| ◆ | **Bolt After Bolt** | Animals | Hand Wool to other players 560 times (2 players) | 40 |
+| · | **Bound in Leather** | Animals | Take Leather or Rabbit Hide from another player's hand 240 times (2 players) | 15 |
 | · | **Caravan Ambush** | Animals | Put an arrow into another player riding a Llama while you sit on a Llama yourself (2 players) | 15 |
+| ◆ | **Caravan Custody** | Animals | Take 750 Leads from another player's hand (2 players) | 40 |
 | ◆ | **Caravan of Love** | Animals | Hitch your Llama to another player's caravan with a Lead they handed you (2 players) | 45 |
 | · | **Carpet Bagger** | Animals | Ride a Llama after another player handed you the carpet for its back (2 players) | 15 |
 | · | **Carpool** | Animals | Share a boat with another player (2 players) | 15 |
 | ◆ | **Catch and Cook** | Animals | Be handed the whole catch by another player, raw and cooked: Cod, Salmon, Tropical Fish and Pufferfish (2 players) | 40 |
 | ◆ | **Cavalry Charge** | Animals | Four players in the saddle on four Horses, all inside fifteen blocks (4 players) | 50 |
+| ◆ | **Cavalry Outfitter** | Animals | Hand Horse or Wolf Armor to other players 200 times (2 players) | 40 |
+| ★ | **Champion of the Lists** | Animals | Land 1,100 hits on another player while you are mounted (2 players) | 120 |
+| · | **Christening Duty** | Animals | Take 8 Name Tags from another player's hand (2 players) | 15 |
+| · | **Cinched and Delivered** | Animals | Hand 25 Saddles to other players (2 players) | 15 |
+| ◆ | **Clothier to the Server** | Animals | Hand Wool to other players 1,200 times (2 players) | 40 |
 | · | **Cold Cuts** | Animals | Hand another player raw Beef, raw Porkchop and raw Mutton (2 players) | 15 |
+| ◆ | **Cowhide Constitution** | Animals | Take 400 hits from another player while dressed head to toe in Leather (2 players) | 40 |
+| · | **Cracking Under Pressure** | Animals | Hand Eggs to other players 90 times (2 players) | 15 |
+| ★ | **Curator of the Deep** | Animals | Take a Bucket of live catch from another player's hand 1,200 times (2 players) | 120 |
+| ◆ | **Cured and Handed Over** | Animals | Take Leather or Rabbit Hide from another player's hand 550 times (2 players) | 40 |
+| · | **Cut from the Same Hide** | Animals | Take Leather or Rabbit Hide from another player's hand 100 times (2 players) | 15 |
 | · | **Dangled Carrot** | Animals | Ride a Pig with a Carrot on a Stick another player put in your hand (2 players) | 15 |
 | ◆ | **Desert Cavalry** | Animals | Cut down another player riding a Camel out in the desert while you ride a Camel yourself (2 players) | 40 |
+| · | **Don't Drop It** | Animals | Hand Eggs to other players 6 times (2 players) | 15 |
+| · | **Egg Delivery** | Animals | Hand Eggs to other players 15 times (2 players) | 15 |
+| ★ | **Emperor of Hides** | Animals | Take Leather or Rabbit Hide from another player's hand 5,000 times (2 players) | 120 |
 | · | **Empties** | Animals | Hand another player a Bucket of Milk and take the empty Bucket back (2 players) | 15 |
+| ★ | **Every Beast a Name** | Animals | Take 1,400 Name Tags from another player's hand (2 players) | 120 |
+| ★ | **Every Egg in One Basket** | Animals | Hand Eggs to other players 4,500 times (2 players) | 120 |
+| ★ | **Every Rope in the Barn** | Animals | Take 1,500 Leads from another player's hand (2 players) | 120 |
+| · | **Fence Jumper** | Animals | Be given Jump Boost by another player 12 times while in the saddle (2 players) | 15 |
 | · | **Fish Course** | Animals | Be handed both Cooked Cod and Cooked Salmon by another player (2 players) | 15 |
+| ★ | **Fleece Baron** | Animals | Hand Wool to other players 2,500 times (2 players) | 120 |
+| · | **Fleece Delivery** | Animals | Hand Wool to other players 25 times (2 players) | 15 |
+| · | **Fresh Catch, Fresh Hands** | Animals | Take a Bucket of live catch from another player's hand 3 times (2 players) | 15 |
+| · | **From the Saddle** | Animals | Land 3 hits on another player while you are mounted (2 players) | 15 |
 | · | **Fugu** | Animals | Eat a Pufferfish another player served you (2 players) | 15 |
+| · | **Girth Control** | Animals | Hand 60 Saddles to other players (2 players) | 15 |
 | · | **Good Boy, Someone Else's** | Animals | Repair a Wolf's armour with Armadillo Scutes out of another player's pocket (2 players) | 25 |
+| ★ | **Grand Marshal of the Joust** | Animals | Land 2,200 hits on another player while you are mounted (2 players) | 120 |
+| ★ | **Gravity Optional** | Animals | Be given Jump Boost by another player 750 times while in the saddle (2 players) | 120 |
 | · | **Guard Dog** | Animals | Tame a Wolf with Bones another player dug up for you (2 players) | 20 |
+| · | **Half a Dozen Hands** | Animals | Hand Eggs to other players 40 times (2 players) | 15 |
+| · | **Hand Over Halter** | Animals | Take 12 Leads from another player's hand (2 players) | 15 |
+| · | **Hello, My Name Is** | Animals | Take 3 Name Tags from another player's hand (2 players) | 15 |
+| · | **Hide and Sought** | Animals | Take Leather or Rabbit Hide from another player's hand 20 times (2 players) | 15 |
+| ◆ | **Hide of the Herd** | Animals | Take 180 hits from another player while dressed head to toe in Leather (2 players) | 40 |
 | · | **Hitching Post** | Animals | Tie a Lead another player handed you to a Fence (2 players) | 15 |
 | · | **Hog Cavalry** | Animals | Kill another player while riding a saddled Pig (2 players) | 15 |
 | · | **Hog Wild** | Animals | Ride a saddled Pig and look across at another player riding one, within five blocks (2 players) | 30 |
 | · | **Honey Trap** | Animals | Drink a Honey Bottle another player handed you (2 players) | 15 |
+| · | **Hoof Tonic** | Animals | Be given Jump Boost by another player 2 times while in the saddle (2 players) | 15 |
+| · | **Hooves and Fists** | Animals | Land 20 hits on another player while you are mounted (2 players) | 15 |
 | ◆ | **Horse Trading** | Animals | Pass a spare Saddle to another player while you are both mounted on Horses (2 players) | 45 |
+| ◆ | **Iron Flanks** | Animals | Hand Horse or Wolf Armor to other players 450 times (2 players) | 40 |
 | · | **Jockey's Little Helper** | Animals | Be splashed with Speed by another player while you are in the saddle of a Horse (2 players) | 15 |
+| ★ | **Keeper of Names** | Animals | Take 2,800 Name Tags from another player's hand (2 players) | 120 |
+| · | **Knot Your Problem** | Animals | Take 160 Leads from another player's hand (2 players) | 15 |
+| · | **Lance Practice** | Animals | Land 100 hits on another player while you are mounted (2 players) | 15 |
 | ★ | **Leash of the Realms** | Animals | Take a Lead from another player's hand and leash something with it in the Overworld, the Nether and the End (2 players) | 120 |
+| · | **Leather Doesn't Stop Much** | Animals | Take 35 hits from another player while dressed head to toe in Leather (2 players) | 15 |
+| ◆ | **Leatherworking Guild** | Animals | Take Leather or Rabbit Hide from another player's hand 1,250 times (2 players) | 40 |
+| · | **Live Well** | Animals | Take a Bucket of live catch from another player's hand 8 times (2 players) | 15 |
 | · | **Loaner Saddle** | Animals | Saddle a Camel with a Saddle another player handed you (2 players) | 15 |
+| ★ | **Lord of the Leash** | Animals | Take 3,000 Leads from another player's hand (2 players) | 120 |
 | ◆ | **Milk and Honey** | Animals | Hand another player a Bucket of Milk and a Honey Bottle, and take a Cake back (2 players) | 40 |
 | ◆ | **Mounted Medic** | Animals | Take a Regeneration splash from a player four blocks off while you ride pillion behind a third (3 players) | 40 |
+| ◆ | **Nomenclature** | Animals | Take 650 Name Tags from another player's hand (2 players) | 40 |
 | ◆ | **Nose to Tail** | Animals | Hand another player every cut of Rabbit: raw Rabbit, Cooked Rabbit and a Rabbit Stew (2 players) | 40 |
+| ★ | **Nothing But Hide** | Animals | Take 850 hits from another player while dressed head to toe in Leather (2 players) | 120 |
+| · | **Off the Sheep's Back** | Animals | Hand Wool to other players 10 times (2 players) | 15 |
+| ★ | **Omelette Logistics** | Animals | Hand Eggs to other players 2,200 times (2 players) | 120 |
 | · | **On the Scent** | Animals | Take a Lead from another player and walk a Sniffer with it (2 players) | 15 |
+| ◆ | **Outfitting the Stable** | Animals | Hand 700 Saddles to other players (2 players) | 40 |
+| ◆ | **Over the Moon** | Animals | Be given Jump Boost by another player 160 times while in the saddle (2 players) | 40 |
 | ◆ | **Pack Leaders** | Animals | Three players each with an armoured Wolf at heel, all within ten blocks (3 players) | 140 |
+| · | **Padded Out** | Animals | Take 6 hits from another player while dressed head to toe in Leather (2 players) | 15 |
+| · | **Pail Relay** | Animals | Take a Bucket of live catch from another player's hand 20 times (2 players) | 15 |
 | · | **Passing the Lead** | Animals | Take a Lead from another player's hand and leash an animal with it (2 players) | 20 |
 | ◆ | **Photo Finish** | Animals | Two players gallop across the same ground within three blocks of each other, both moving faster than ten blocks a second (2 players) | 60 |
 | ◆ | **Pillion Post** | Animals | Catch an item thrown from at least six blocks away while riding behind another player on a Camel (3 players) | 40 |
 | · | **Pit Crew** | Animals | Feed a Horse while another player is sitting in the saddle (2 players) | 15 |
+| · | **Plated Hooves** | Animals | Hand Horse or Wolf Armor to other players 15 times (2 players) | 15 |
+| ★ | **Quartermaster of the Stables** | Animals | Hand 3,000 Saddles to other players (2 players) | 120 |
 | · | **Rabbit Food** | Animals | Hand another player a Rabbit Stew and take a Cooked Rabbit back (2 players) | 15 |
+| ◆ | **Registrar of the Herd** | Animals | Take 280 Name Tags from another player's hand (2 players) | 40 |
 | · | **Release the Hounds** | Animals | Have your tamed Wolves finish off another player (2 players) | 30 |
 | ◆ | **Reservoir Dogs** | Animals | Set your tamed Wolf on another player's tamed Wolf and win (2 players) | 45 |
+| · | **Rope Burn** | Animals | Take 70 Leads from another player's hand (2 players) | 15 |
 | ◆ | **Saddle Sore** | Animals | Kill another player out of the saddle of their own Horse (2 players) | 40 |
+| · | **Saddle Up, Partner** | Animals | Hand 4 Saddles to other players (2 players) | 15 |
+| ★ | **Saddles for Everyone** | Animals | Hand 1,500 Saddles to other players (2 players) | 120 |
 | · | **Shared Custody** | Animals | Feed an animal that another player named with a Name Tag (2 players) | 90 |
+| ◆ | **Shell Game** | Animals | Hand Eggs to other players 450 times (2 players) | 40 |
+| · | **Show Jumping** | Animals | Be given Jump Boost by another player 30 times while in the saddle (2 players) | 15 |
+| ★ | **Skin in the Game** | Animals | Take Leather or Rabbit Hide from another player's hand 2,600 times (2 players) | 120 |
+| · | **Slack in the Line** | Animals | Take 5 Leads from another player's hand (2 players) | 15 |
+| · | **Spinning Wheel Economy** | Animals | Hand Wool to other players 260 times (2 players) | 15 |
 | ◆ | **Sponsored Ride** | Animals | Ride a Horse wearing Diamond Horse Armour that another player put in your hands (2 players) | 40 |
+| · | **Spring in the Step** | Animals | Be given Jump Boost by another player 5 times while in the saddle (2 players) | 15 |
+| · | **Stable Armory** | Animals | Hand Horse or Wolf Armor to other players 90 times (2 players) | 15 |
+| · | **Steeplechase** | Animals | Be given Jump Boost by another player 70 times while in the saddle (2 players) | 15 |
 | ◆ | **Sting Operation** | Animals | Anger a beehive so that the bees kill another player (2 players) | 55 |
+| · | **Stirrup Service** | Animals | Hand 140 Saddles to other players (2 players) | 15 |
+| ◆ | **Stocking the Reef** | Animals | Take a Bucket of live catch from another player's hand 550 times (2 players) | 40 |
 | · | **Surf and Turf** | Animals | Trade Steak for Cooked Cod with another player (2 players) | 15 |
 | · | **Sushi Bar** | Animals | Serve another player raw Cod, raw Salmon and a Tropical Fish (2 players) | 15 |
+| · | **Tack Room Duty** | Animals | Hand 10 Saddles to other players (2 players) | 15 |
+| · | **Tag, You're It** | Animals | Take 20 Name Tags from another player's hand (2 players) | 15 |
 | ◆ | **Taken for a Ride** | Animals | Take a hit from another player while you are riding pillion behind a third (3 players) | 40 |
+| · | **Tank Transfer** | Animals | Take a Bucket of live catch from another player's hand 45 times (2 players) | 15 |
+| · | **Tanned Hide** | Animals | Take 15 hits from another player while dressed head to toe in Leather (2 players) | 15 |
+| · | **Tanner's Apprentice** | Animals | Take Leather or Rabbit Hide from another player's hand 8 times (2 players) | 15 |
+| ◆ | **The Aquarist's Round** | Animals | Take a Bucket of live catch from another player's hand 250 times (2 players) | 40 |
+| · | **The Coop Run** | Animals | Hand Eggs to other players 200 times (2 players) | 15 |
+| · | **The Farrier's Forge** | Animals | Hand Horse or Wolf Armor to other players 40 times (2 players) | 15 |
+| ◆ | **The Flying Stallion** | Animals | Be given Jump Boost by another player 350 times while in the saddle (2 players) | 40 |
+| · | **The Joust Begins** | Animals | Land 45 hits on another player while you are mounted (2 players) | 15 |
+| ◆ | **The Long Tether** | Animals | Take 350 Leads from another player's hand (2 players) | 40 |
+| · | **The Naming of Beasts** | Animals | Take 120 Name Tags from another player's hand (2 players) | 15 |
+| ◆ | **The Saddler's Round** | Animals | Hand 320 Saddles to other players (2 players) | 40 |
+| ★ | **The Sky Paddock** | Animals | Be given Jump Boost by another player 1,500 times while in the saddle (2 players) | 120 |
+| · | **The Tannery Line** | Animals | Take Leather or Rabbit Hide from another player's hand 45 times (2 players) | 15 |
+| ★ | **The Toughest Leather** | Animals | Take 1,800 hits from another player while dressed head to toe in Leather (2 players) | 120 |
+| ★ | **The Whole Flock's Worth** | Animals | Hand Wool to other players 5,000 times (2 players) | 120 |
+| ★ | **The Whole Stable in Steel** | Animals | Hand Horse or Wolf Armor to other players 2,000 times (2 players) | 120 |
+| · | **The Wool Run** | Animals | Hand Wool to other players 120 times (2 players) | 15 |
+| · | **Thick Skinned** | Animals | Take 2 hits from another player while dressed head to toe in Leather (2 players) | 15 |
+| · | **Tilt and Charge** | Animals | Land 8 hits on another player while you are mounted (2 players) | 15 |
 | ◆ | **Tourney Ground** | Animals | Cut another player out of the saddle in melee while the two of you are both riding Horses (2 players) | 40 |
+| ◆ | **Tourney Regular** | Animals | Land 220 hits on another player while you are mounted (2 players) | 40 |
+| · | **Tugging Rights** | Animals | Take 30 Leads from another player's hand (2 players) | 15 |
 | · | **Two-Hump Transit** | Animals | Take a Camel out with a second player riding the other hump (2 players) | 15 |
 | · | **Undead Chauffeur** | Animals | Ride a Skeleton Horse using a Saddle another player threw you (2 players) | 15 |
+| ◆ | **Unseated Again** | Animals | Land 500 hits on another player while you are mounted (2 players) | 40 |
+| ★ | **Warhorse Quartermaster** | Animals | Hand Horse or Wolf Armor to other players 1,000 times (2 players) | 120 |
+| · | **Wet Delivery** | Animals | Take a Bucket of live catch from another player's hand 110 times (2 players) | 15 |
+| ★ | **Whole Ocean in a Bucket** | Animals | Take a Bucket of live catch from another player's hand 2,500 times (2 players) | 120 |
 
 <details><summary>How these are detected</summary>
 
@@ -226,61 +427,172 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ◆ | **A Grove Between Us** | Biomes | Catch 500 Pink Petals thrown to you in a Cherry Grove (2 players) | 40 |
+| ★ | **A Thaw Full of Bodies** | Biomes | Be killed by another player in a snowy biome 3,500 times (2 players) | 120 |
+| ★ | **A Thousand Breaths Owed** | Biomes | Be given Water Breathing by another player 2,000 times while underwater (2 players) | 120 |
+| ★ | **A Thousand Open Eyes** | Biomes | Pass 12,000 Eyeblossoms to another player in a Pale Garden (2 players) | 120 |
 | ◆ | **Above the Weather** | Biomes | Kill another player above Y=200 while a thunderstorm rages far below you (2 players) | 40 |
+| ◆ | **Avalanche of Blows** | Biomes | Land 700 hits on another player above y=200 (2 players) | 40 |
+| ◆ | **Baron of the Bog** | Biomes | Hand 1,800 Slimeballs to another player standing in a swamp (2 players) | 40 |
+| ◆ | **Beaten Green and Blue** | Biomes | Take 2,000 hits from another player in a jungle (2 players) | 40 |
+| ◆ | **Bioluminescent Bazaar** | Biomes | Catch 500 Sea Pickles thrown to you by another player in a warm ocean (2 players) | 40 |
+| ★ | **Bloom, Blink, Repeat** | Biomes | Pass 6,000 Eyeblossoms to another player in a Pale Garden (2 players) | 120 |
+| ◆ | **Blossom Bureau** | Biomes | Catch 200 Pink Petals thrown to you in a Cherry Grove (2 players) | 40 |
 | · | **Blossom Duel** | Biomes | Cut another player down beneath the falling petals of a Cherry Grove (2 players) | 15 |
 | ◆ | **Boarding Party** | Biomes | Kill another player with an Axe while a third player shares your Boat (3 players) | 40 |
+| · | **Bog Delivery** | Biomes | Hand 10 Slimeballs to another player standing in a swamp (2 players) | 15 |
+| ◆ | **Bones in the Dunes** | Biomes | Kill 250 players in a desert (2 players) | 40 |
+| · | **Borrowed Breath** | Biomes | Be given Water Breathing by another player 10 times while underwater (2 players) | 15 |
 | ◆ | **Bottom of the Ocean** | Biomes | Kill another player while the two of you are swimming underwater (2 players) | 40 |
 | · | **Broadside** | Biomes | Kill another player sitting in a Boat while you fight from a Boat of your own on the deep ocean (2 players) | 15 |
+| · | **Bruised by Bamboo** | Biomes | Take 150 hits from another player in a jungle (2 players) | 15 |
+| · | **Bruises Above the Snowline** | Biomes | Land 50 hits on another player above y=200 (2 players) | 15 |
 | ◆ | **Buried Dividend** | Biomes | Take a Heart of the Sea off another player standing in the Buried Treasure it came out of (2 players) | 40 |
+| ◆ | **Buried in Powder** | Biomes | Be killed by another player in a snowy biome 100 times (2 players) | 40 |
 | ◆ | **Cold Chain** | Biomes | Deliver a Bucket of Powder Snow to another player standing in a desert (2 players) | 50 |
 | ◆ | **Cold Shoulder** | Biomes | Finish off another player who is frozen solid inside Powder Snow (2 players) | 60 |
 | ◆ | **Conduit Club** | Biomes | Have three players share Conduit Power huddled within eight blocks of each other (3 players) | 40 |
 | ◆ | **Conduit Commission** | Biomes | Take a Conduit off another player and place it (2 players) | 40 |
+| · | **Confetti Courier** | Biomes | Catch 30 Pink Petals thrown to you in a Cherry Grove (2 players) | 15 |
+| ◆ | **Coral Consignment** | Biomes | Catch 100 Sea Pickles thrown to you by another player in a warm ocean (2 players) | 40 |
 | · | **Crow's Nest** | Biomes | Look through a Spyglass out over the deep ocean from a Boat you are sharing with another player (2 players) | 25 |
+| ★ | **Debt in Bubbles** | Biomes | Be given Water Breathing by another player 5,000 times while underwater (2 players) | 120 |
 | ◆ | **Deep Dive Kit** | Biomes | Carry Water Breathing, Night Vision and Speed underwater, the last of them thrown onto you by another player (2 players) | 40 |
 | ★ | **Deep Sea Dispensary** | Biomes | Carry Conduit Power, Water Breathing, Night Vision and Speed at once underwater, the last of them from another player (2 players) | 120 |
 | · | **Deep Water Duel** | Biomes | Skewer another player with a thrown Trident while you are both swimming (2 players) | 15 |
+| ★ | **Deeper Than the Dark** | Biomes | Catch 6,000 Echo Shards thrown to you by another player in the Deep Dark (2 players) | 120 |
 | · | **Depth Charge** | Biomes | Hit another player with a thrown Trident while you are both swimming (2 players) | 15 |
 | ◆ | **Dolphin Sitter** | Biomes | Leash a Dolphin out at sea with a Lead another player handed you (2 players) | 40 |
 | ◆ | **Down and Out** | Biomes | Be poisoned by another player while you are underwater in a Deep Ocean (2 players) | 40 |
+| · | **Dust Settles Slowly** | Biomes | Kill 40 players in a desert (2 players) | 15 |
+| ◆ | **Echo Economy** | Biomes | Catch 400 Echo Shards thrown to you by another player in the Deep Dark (2 players) | 40 |
+| ★ | **Emperor of Dust** | Biomes | Kill 3,500 players in a desert (2 players) | 120 |
+| ★ | **Every Blossom Accounted For** | Biomes | Catch 7,500 Pink Petals thrown to you in a Cherry Grove (2 players) | 120 |
+| ◆ | **Every Leaf a Knife** | Biomes | Take 800 hits from another player in a jungle (2 players) | 40 |
+| ★ | **Every Pickle in the Sea** | Biomes | Catch 5,000 Sea Pickles thrown to you by another player in a warm ocean (2 players) | 120 |
+| ★ | **Everything the Pale Sees** | Biomes | Pass 30,000 Eyeblossoms to another player in a Pale Garden (2 players) | 120 |
+| · | **Eyes for the Taking** | Biomes | Pass 25 Eyeblossoms to another player in a Pale Garden (2 players) | 15 |
+| · | **Falling Pink** | Biomes | Catch 75 Pink Petals thrown to you in a Cherry Grove (2 players) | 15 |
 | ◆ | **Ferryman's Fee** | Biomes | Sail 2,000 blocks in one Boat with another player aboard (2 players) | 60 |
+| · | **Frostbitten Ending** | Biomes | Be killed by another player in a snowy biome 40 times (2 players) | 15 |
+| ★ | **Frozen Airlift** | Biomes | Catch 1,600 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) | 120 |
 | · | **Frozen Stiff** | Biomes | Be splashed with Slowness by another player while you are stuck in Powder Snow (2 players) | 15 |
+| · | **Gills on Loan** | Biomes | Be given Water Breathing by another player 25 times while underwater (2 players) | 15 |
+| ◆ | **Glacier Freight** | Biomes | Catch 300 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) | 40 |
+| · | **Green Handshake** | Biomes | Hand 125 Slimeballs to another player standing in a swamp (2 players) | 15 |
+| · | **Hand in the Black** | Biomes | Catch 5 Echo Shards thrown to you by another player in the Deep Dark (2 players) | 15 |
+| · | **Handed Above the Clouds** | Biomes | Catch 50 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) | 15 |
+| · | **Handed Under Creaking Boughs** | Biomes | Pass 150 Eyeblossoms to another player in a Pale Garden (2 players) | 15 |
+| · | **Ice at Altitude** | Biomes | Catch 10 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) | 15 |
 | ★ | **Killing Fields** | Biomes | Kill another player in a Desert, a Jungle, an Ice Spikes field, a Cherry Grove and Mushroom Fields (2 players) | 120 |
+| ★ | **Knee Deep and Solvent** | Biomes | Hand 4,500 Slimeballs to another player standing in a swamp (2 players) | 120 |
+| ◆ | **Knuckles and Cornices** | Biomes | Land 1,500 hits on another player above y=200 (2 players) | 40 |
+| ★ | **Landlord of the Ocean's Air** | Biomes | Be given Water Breathing by another player 12,000 times while underwater (2 players) | 120 |
+| · | **Left in the Snow** | Biomes | Be killed by another player in a snowy biome 5 times (2 players) | 15 |
+| ◆ | **Lifeline Below** | Biomes | Be given Water Breathing by another player 800 times while underwater (2 players) | 40 |
+| ★ | **Lord of the Ridgelines** | Biomes | Land 8,000 hits on another player above y=200 (2 players) | 120 |
 | · | **Man Overboard** | Biomes | Reel a swimming player back to your boat with a Fishing Rod, out over the deep ocean (2 players) | 40 |
 | · | **Mangrove Manhunt** | Biomes | Kill another player in the tangled roots of a Mangrove Swamp (2 players) | 15 |
+| ◆ | **Martyr of the Tundra** | Biomes | Be killed by another player in a snowy biome 250 times (2 players) | 40 |
 | ◆ | **Mirage** | Biomes | Put an arrow into another player from fifty blocks across open desert (2 players) | 40 |
 | ◆ | **Mountain Sickness** | Biomes | Be given Slowness by another player above Y=200 (2 players) | 40 |
+| ◆ | **Never Drowning Alone** | Biomes | Be given Water Breathing by another player 350 times while underwater (2 players) | 40 |
 | · | **Night Ferry** | Biomes | Be given Night Vision by another player while you are riding an Oak Boat (2 players) | 15 |
+| ★ | **Nobody Breathes Alone Down Here** | Biomes | Be given Water Breathing by another player 30,000 times while underwater (2 players) | 120 |
+| ★ | **Nothing Down Here Is Yours Alone** | Biomes | Catch 40,000 Echo Shards thrown to you by another player in the Deep Dark (2 players) | 120 |
+| ★ | **Nothing Grows Where You Walk** | Biomes | Kill 20,000 players in a desert (2 players) | 120 |
+| ★ | **Nothing Higher to Punch** | Biomes | Land 3,500 hits on another player above y=200 (2 players) | 120 |
+| ★ | **Nowhere to Run but Green** | Biomes | Take 12,000 hits from another player in a jungle (2 players) | 120 |
+| · | **Offering to the Pale** | Biomes | Pass 60 Eyeblossoms to another player in a Pale Garden (2 players) | 15 |
 | · | **Painted Desert** | Biomes | Kill another player among the layered clay of the Badlands (2 players) | 15 |
+| ◆ | **Pale Cartel** | Biomes | Pass 2,500 Eyeblossoms to another player in a Pale Garden (2 players) | 40 |
 | · | **Pale Reckoning** | Biomes | Kill another player in the grey silence of the Pale Garden (2 players) | 15 |
 | · | **Panda Politics** | Biomes | Kill another player deep in a Bamboo Jungle (2 players) | 15 |
+| ◆ | **Passed Over the Peat** | Biomes | Hand 300 Slimeballs to another player standing in a swamp (2 players) | 40 |
+| · | **Peak Aggression** | Biomes | Land 120 hits on another player above y=200 (2 players) | 15 |
+| ★ | **Permafrost Casualty** | Biomes | Be killed by another player in a snowy biome 1,500 times (2 players) | 120 |
+| · | **Petal Post** | Biomes | Catch 10 Pink Petals thrown to you in a Cherry Grove (2 players) | 15 |
 | · | **Petal to the Metal** | Biomes | Kill another player with an Iron Sword in a Cherry Grove (2 players) | 15 |
+| · | **Pickle Runner** | Biomes | Catch 10 Sea Pickles thrown to you by another player in a warm ocean (2 players) | 15 |
+| ★ | **Pink to the Horizon** | Biomes | Catch 15,000 Pink Petals thrown to you in a Cherry Grove (2 players) | 120 |
 | · | **Poolside Service** | Biomes | Be dosed with Regeneration by another player while you are swimming underwater (2 players) | 15 |
 | ◆ | **Press-Ganged** | Biomes | Take a melee blow from another player while a third shares your Boat (3 players) | 40 |
+| ★ | **Quartermaster of the Peaks** | Biomes | Catch 25,000 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) | 120 |
+| · | **Quiet Handover** | Biomes | Catch 10 Echo Shards thrown to you by another player in the Deep Dark (2 players) | 15 |
+| · | **Red on White** | Biomes | Be killed by another player in a snowy biome 15 times (2 players) | 15 |
 | · | **Redundant Lungs** | Biomes | Be splashed with Water Breathing by another player while a Conduit is already keeping you breathing (2 players) | 15 |
+| · | **Reef Courier** | Biomes | Catch 25 Sea Pickles thrown to you by another player in a warm ocean (2 players) | 15 |
+| ★ | **Reef Exchequer** | Biomes | Catch 1,000 Sea Pickles thrown to you by another player in a warm ocean (2 players) | 120 |
 | · | **Reef Raiders** | Biomes | Kill another player underwater over the coral of a warm ocean (2 players) | 15 |
 | · | **Resin Relay** | Biomes | Take Resin Bricks from another player inside a Pale Garden (2 players) | 15 |
+| · | **Rockfall Manners** | Biomes | Land 25 hits on another player above y=200 (2 players) | 15 |
 | · | **Running Battle** | Biomes | Kill another player out on the open savanna while you are both sprinting (2 players) | 15 |
+| · | **Rustle in the Leaves** | Biomes | Take 10 hits from another player in a jungle (2 players) | 15 |
 | · | **Salvage Rights** | Biomes | Hand another player a Heart of the Sea while you are both underwater (2 players) | 15 |
+| ★ | **Sand Drinks It All** | Biomes | Kill 1,500 players in a desert (2 players) | 120 |
+| · | **Sandstorm Standoff** | Biomes | Kill 15 players in a desert (2 players) | 15 |
 | ◆ | **Scaffold Crew** | Biomes | Be handed Scaffolding by another player and run it up past Y=150 (2 players) | 40 |
 | ★ | **Sculk Silence** | Biomes | Have three players survive two minutes together in the Deep Dark with no Warden (3 players) | 350 |
+| ◆ | **Sculk Smuggler** | Biomes | Catch 1,000 Echo Shards thrown to you by another player in the Deep Dark (2 players) | 40 |
 | · | **Scuttled** | Biomes | Kill another player who is sitting in a Boat (2 players) | 15 |
 | · | **Sea Legs** | Biomes | Stand on the roof of a Boat another player is sailing for two hundred blocks (2 players) | 35 |
+| · | **Shard in the Silence** | Biomes | Catch 25 Echo Shards thrown to you by another player in the Deep Dark (2 players) | 15 |
 | · | **Shell Consignment** | Biomes | Hand another player eight Nautilus Shells at once (2 players) | 15 |
+| · | **Sherpa Work** | Biomes | Catch 25 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) | 15 |
+| · | **Slime Tithe** | Biomes | Hand 25 Slimeballs to another player standing in a swamp (2 players) | 15 |
+| ★ | **Snow Falls On You Again** | Biomes | Be killed by another player in a snowy biome 8,000 times (2 players) | 120 |
+| ◆ | **Snowfall of Petals** | Biomes | Catch 1,200 Pink Petals thrown to you in a Cherry Grove (2 players) | 40 |
+| · | **Someone Else's Oxygen** | Biomes | Be given Water Breathing by another player 60 times while underwater (2 players) | 15 |
+| · | **Something Is Watching** | Biomes | Pass 10 Eyeblossoms to another player in a Pale Garden (2 players) | 15 |
+| · | **Something in the Canopy** | Biomes | Take 25 hits from another player in a jungle (2 players) | 15 |
+| ★ | **Sovereign of the Cherry Grove** | Biomes | Catch 40,000 Pink Petals thrown to you in a Cherry Grove (2 players) | 120 |
 | · | **Spike Strip** | Biomes | Kill another player among the spires of an Ice Spikes biome (2 players) | 15 |
 | · | **Spore War** | Biomes | Kill another player on a Mushroom Island, the one biome where no monster will interrupt (2 players) | 15 |
+| ★ | **Sticky Fingers, Willing Hands** | Biomes | Hand 10,000 Slimeballs to another player standing in a swamp (2 players) | 120 |
 | ◆ | **Submarine Crew** | Biomes | Three players riding three Nautiluses within fifteen blocks of each other (3 players) | 50 |
 | · | **Summit Duel** | Biomes | Kill another player with a Sword up on the Frozen Peaks (2 players) | 15 |
+| ◆ | **Summit Logistics** | Biomes | Catch 700 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) | 40 |
 | ◆ | **Summit Meeting** | Biomes | Kill another player on the Jagged Peaks above Y=200 (2 players) | 40 |
+| · | **Sun and Sand** | Biomes | Kill 5 players in a desert (2 players) | 15 |
+| ★ | **Supply Line to the Sky** | Biomes | Catch 10,000 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) | 120 |
+| ★ | **Survivor of the Undergrowth** | Biomes | Take 5,000 hits from another player in a jungle (2 players) | 120 |
+| ◆ | **Swamp Consortium** | Biomes | Hand 750 Slimeballs to another player standing in a swamp (2 players) | 40 |
 | · | **Synchronised Swimming** | Biomes | Have four players all swimming at the same moment within six blocks of each other (4 players) | 25 |
 | ◆ | **Thar She Blows** | Biomes | Kill a Drowned with a thrown Trident from a boat another player is sharing with you (2 players) | 50 |
+| ◆ | **The Breathing Circle** | Biomes | Be given Water Breathing by another player 150 times while underwater (2 players) | 40 |
+| ◆ | **The Canopy Has Eyes** | Biomes | Take 350 hits from another player in a jungle (2 players) | 40 |
 | ◆ | **The Cousteau Manoeuvre** | Biomes | Ride Nautiluses forty blocks through an Ocean Monument with another player, neither surfacing nor dismounting (2 players) | 220 |
+| ★ | **The Deep Dark Keeps Ledgers** | Biomes | Catch 15,000 Echo Shards thrown to you by another player in the Deep Dark (2 players) | 120 |
+| ★ | **The Desert Remembers You** | Biomes | Kill 8,000 players in a desert (2 players) | 120 |
+| ◆ | **The Garden Counts Us** | Biomes | Pass 1,000 Eyeblossoms to another player in a Pale Garden (2 players) | 40 |
+| ◆ | **The High Ice Road** | Biomes | Catch 125 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) | 40 |
+| ◆ | **The Ice Takes Everyone** | Biomes | Be killed by another player in a snowy biome 600 times (2 players) | 40 |
+| ★ | **The Jungle Always Wins** | Biomes | Take 30,000 hits from another player in a jungle (2 players) | 120 |
+| ◆ | **The Lantern Trade** | Biomes | Catch 250 Sea Pickles thrown to you by another player in a warm ocean (2 players) | 40 |
+| ◆ | **The Long Dry** | Biomes | Kill 600 players in a desert (2 players) | 40 |
 | · | **The Merchant of Venice** | Biomes | Complete an item swap with another player while you are both sitting in boats on water (2 players) | 30 |
+| · | **The Mire Market** | Biomes | Hand 50 Slimeballs to another player standing in a swamp (2 players) | 15 |
+| ★ | **The Mire Never Runs Dry** | Biomes | Hand 25,000 Slimeballs to another player standing in a swamp (2 players) | 120 |
+| ★ | **The Mountain Keeps Score** | Biomes | Land 20,000 hits on another player above y=200 (2 players) | 120 |
+| ★ | **The Pink Ledger** | Biomes | Catch 3,000 Pink Petals thrown to you in a Cherry Grove (2 players) | 120 |
+| ◆ | **The Silent Exchange** | Biomes | Catch 2,500 Echo Shards thrown to you by another player in the Deep Dark (2 players) | 40 |
+| ★ | **The Tundra Never Gives Back** | Biomes | Be killed by another player in a snowy biome 20,000 times (2 players) | 120 |
+| ★ | **The Whole Reef Owes You** | Biomes | Catch 10,000 Sea Pickles thrown to you by another player in a warm ocean (2 players) | 120 |
+| · | **Thin Air Scuffle** | Biomes | Land 10 hits on another player above y=200 (2 players) | 15 |
+| · | **Tide Tithe** | Biomes | Catch 50 Sea Pickles thrown to you by another player in a warm ocean (2 players) | 15 |
 | ◆ | **Torpedo Run** | Biomes | Hit another player riding a Nautilus with a thrown Trident while riding one yourself (2 players) | 75 |
+| ★ | **Two Hundred Blocks and Climbing** | Biomes | Catch 4,000 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) | 120 |
+| ◆ | **Unblinking Trade** | Biomes | Pass 400 Eyeblossoms to another player in a Pale Garden (2 players) | 40 |
 | · | **Under the Ice** | Biomes | Kill another player underwater beneath a frozen ocean (2 players) | 15 |
 | ◆ | **Undercurrent** | Biomes | Stab another player to death with a Trident while you are both under water (2 players) | 40 |
+| · | **Vine Ambush** | Biomes | Take 60 hits from another player in a jungle (2 players) | 15 |
+| ◆ | **Vulture's Welcome** | Biomes | Kill 100 players in a desert (2 players) | 40 |
+| ★ | **Warden of the Shallows** | Biomes | Catch 2,000 Sea Pickles thrown to you by another player in a warm ocean (2 players) | 120 |
+| ◆ | **Warden's Blind Spot** | Biomes | Catch 150 Echo Shards thrown to you by another player in the Deep Dark (2 players) | 40 |
 | · | **Warm Welcome** | Biomes | Reach a player sunk in Powder Snow with Flint and Steel already in your hand (2 players) | 25 |
 | ◆ | **Water Taxi** | Biomes | Be paid an Emerald thrown from six blocks away while riding in a Boat another player is steering (3 players) | 40 |
+| ◆ | **Where the Air Runs Out** | Biomes | Land 300 hits on another player above y=200 (2 players) | 40 |
+| · | **Whisper Trade** | Biomes | Catch 60 Echo Shards thrown to you by another player in the Deep Dark (2 players) | 15 |
 | · | **Wreck Split** | Biomes | Trade a Heart of the Sea for a Nautilus Shell with another player (2 players) | 15 |
 
 <details><summary>How these are detected</summary>
@@ -306,55 +618,165 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ★ | **A City Roofed in Green** | Building | Hand another player 4 or more Copper blocks 1,800 times (2 players) | 120 |
+| ★ | **A Greenhouse the Size of a Town** | Building | Be handed 32 or more Glass by another player 1,150 times (2 players) | 120 |
+| ★ | **An Army in Every Colour** | Building | Hand another player 8 or more Terracotta 820 times (2 players) | 120 |
+| ◆ | **Ashlar Contract** | Building | Be handed a full stack of Stone or its cousins by another player 210 times (2 players) | 40 |
 | ◆ | **Badlands Consignment** | Building | Be handed plain Terracotta and four stained colours of it by another player (2 players) | 40 |
+| · | **Badlands Palette** | Building | Hand another player 8 or more Terracotta 28 times (2 players) | 15 |
 | · | **Bark Swap** | Building | Hand another player a Stripped Log and take a full Bark block back (2 players) | 15 |
 | ◆ | **Barn Raising** | Building | Have three players each place a hundred blocks inside the same chunk (3 players) | 60 |
+| ★ | **Bedrock to Battlement** | Building | Be handed a full stack of Stone or its cousins by another player 5,000 times (2 players) | 120 |
+| · | **Below the Cobbles** | Building | Hand another player 32 or more Deepslate blocks 2 times (2 players) | 15 |
 | ◆ | **Blackstone Consortium** | Building | Take Blackstone, Polished Blackstone, Polished Blackstone Bricks and Chiselled Polished Blackstone from another player (2 players) | 40 |
+| ◆ | **Board Feet** | Building | Hand another player a full stack of Planks 150 times (2 players) | 40 |
+| · | **Bolt of Colour** | Building | Be handed 16 or more Wool or Carpet by another player 8 times (2 players) | 15 |
 | · | **Bricked In** | Building | Get walled in on all six sides by another player (2 players) | 40 |
 | · | **Bricklayer's Mate** | Building | Hand Nether Bricks to another player standing inside a real Nether Fortress (2 players) | 15 |
 | · | **Brimstone Barter** | Building | Hand another player Sulfur Bricks and take Polished Sulfur back (2 players) | 15 |
+| ◆ | **Brutalist Tendencies** | Building | Be handed 16 or more Concrete by another player 350 times (2 players) | 40 |
+| ◆ | **Bucking Season** | Building | Be handed 16 or more Logs by another player 90 times (2 players) | 40 |
 | · | **Bunk Beds** | Building | Two players sleep at the same time in beds stacked one directly above the other (2 players) | 20 |
 | · | **Campfire Stories** | Building | Get four players crouched together beside one lit Campfire at night (4 players) | 25 |
+| ◆ | **Carpenters' Guild** | Building | Hand another player a full stack of Planks 340 times (2 players) | 40 |
+| · | **Carpet Run** | Building | Be handed 16 or more Wool or Carpet by another player 18 times (2 players) | 15 |
+| ◆ | **Cathedral Glazing** | Building | Be handed 32 or more Glass by another player 500 times (2 players) | 40 |
+| ◆ | **Cathedral Weight** | Building | Be handed a full stack of Stone or its cousins by another player 480 times (2 players) | 40 |
 | · | **Cherry Consignment** | Building | Take Cherry Planks from another player standing under the blossom of a Cherry Grove (2 players) | 15 |
 | ◆ | **Cherry Picker** | Building | Place a block above Y=200 from a Happy Ghast that another player is flying (2 players) | 60 |
+| ◆ | **Clearcut Contract** | Building | Be handed 16 or more Logs by another player 450 times (2 players) | 40 |
+| · | **Cloud Nine Contractor** | Building | Catch Slow Falling from a potion another player threw 28 times (2 players) | 15 |
+| · | **Cold to the Touch** | Building | Hand another player 32 or more Deepslate blocks 5 times (2 players) | 15 |
+| · | **Colour Match** | Building | Be handed 16 or more Concrete by another player 5 times (2 players) | 15 |
+| ◆ | **Coloured Light** | Building | Be handed 32 or more Glass by another player 220 times (2 players) | 40 |
 | ★ | **Community Beacon** | Building | Have four players receiving an effect from the same beacon at once (4 players) | 130 |
+| ◆ | **Company Timber** | Building | Be handed 16 or more Logs by another player 200 times (2 players) | 40 |
+| ◆ | **Coursed Rubble** | Building | Be handed a full stack of Stone or its cousins by another player 90 times (2 players) | 40 |
+| ◆ | **Cracked and Chiselled** | Building | Hand another player 32 or more Deepslate blocks 150 times (2 players) | 40 |
+| · | **Cut and Chiselled** | Building | Hand another player 32 or more Sandstone 6 times (2 players) | 15 |
+| · | **Desert Delivery** | Building | Hand another player 32 or more Sandstone 14 times (2 players) | 15 |
+| · | **Dressed Stone** | Building | Be handed a full stack of Stone or its cousins by another player 16 times (2 players) | 15 |
+| ★ | **Emperor of Baked Clay** | Building | Hand another player 8 or more Terracotta 4,000 times (2 players) | 120 |
+| ★ | **Every Colour, By the Tonne** | Building | Be handed 16 or more Concrete by another player 4,000 times (2 players) | 120 |
+| ★ | **Every Trunk in the Valley** | Building | Be handed 16 or more Logs by another player 950 times (2 players) | 120 |
+| ◆ | **Exposed to the Weather** | Building | Hand another player 4 or more Copper blocks 65 times (2 players) | 40 |
 | · | **Fired Clay Exchange** | Building | Hand another player Clay Balls, take the fired Bricks back, and lay a Brick block (2 players) | 15 |
 | ◆ | **Firework Finale** | Building | Have four players launch fireworks together within three seconds (4 players) | 45 |
+| · | **First Green Spots** | Building | Hand another player 4 or more Copper blocks 28 times (2 players) | 15 |
+| · | **First Load from the Pit** | Building | Be handed a full stack of Stone or its cousins by another player 3 times (2 players) | 15 |
+| ◆ | **Formwork Crew** | Building | Be handed 16 or more Concrete by another player 65 times (2 players) | 40 |
 | · | **Fortress Facade** | Building | Take Nether Bricks and Red Nether Bricks from another player (2 players) | 15 |
+| ◆ | **Foundations in the Sand** | Building | Hand another player 32 or more Sandstone 78 times (2 players) | 40 |
+| ★ | **Framing the Skyline** | Building | Hand another player a full stack of Planks 750 times (2 players) | 120 |
+| · | **Fresh Off the Sheep** | Building | Be handed 16 or more Wool or Carpet by another player 3 times (2 players) | 15 |
 | ◆ | **Gallery Opening** | Building | Have four players each hang a Painting on the same wall inside a minute (4 players) | 60 |
+| · | **Glaze Run** | Building | Hand another player 8 or more Terracotta 12 times (2 players) | 15 |
 | · | **Grave Timber** | Building | Hand Pale Oak Planks to another player standing in a Pale Garden (2 players) | 15 |
+| ◆ | **Gravity, Negotiated** | Building | Catch Slow Falling from a potion another player threw 340 times (2 players) | 40 |
+| · | **Green Wood** | Building | Be handed 16 or more Logs by another player 3 times (2 players) | 15 |
+| · | **Grey on Grey** | Building | Hand another player 32 or more Deepslate blocks 12 times (2 players) | 15 |
 | · | **Guest Room** | Building | Sleep in a bed another player made and handed to you (2 players) | 20 |
 | · | **Halved and Halved Again** | Building | Hand another player Wooden Slabs and take Wooden Stairs back (2 players) | 15 |
+| ★ | **Heartwood Dynasty** | Building | Be handed 16 or more Logs by another player 2,000 times (2 players) | 120 |
 | · | **Hyphae Haulage** | Building | Take both Crimson and Warped Stems out of another player's hands (2 players) | 15 |
 | · | **Igneous Trio** | Building | Be handed Granite, Diorite and Andesite by another player (2 players) | 15 |
+| ★ | **Insured to the Build Limit** | Building | Catch Slow Falling from a potion another player threw 780 times (2 players) | 120 |
+| · | **Kiln Dried** | Building | Hand another player a full stack of Planks 28 times (2 players) | 15 |
+| ★ | **Kilns Burning Day and Night** | Building | Hand another player 8 or more Terracotta 1,800 times (2 players) | 120 |
+| ◆ | **Leadlight Work** | Building | Be handed 32 or more Glass by another player 95 times (2 players) | 40 |
 | · | **Library Card** | Building | Stock a Chiseled Bookshelf, then lend one of the books out to another player (2 players) | 30 |
+| ◆ | **Loom Partners** | Building | Be handed 16 or more Wool or Carpet by another player 100 times (2 players) | 40 |
+| ★ | **Masons of the Deep Dark** | Building | Hand another player 32 or more Deepslate blocks 3,600 times (2 players) | 120 |
+| · | **Mill Order** | Building | Hand another player a full stack of Planks 12 times (2 players) | 15 |
+| · | **Mind the Drop** | Building | Catch Slow Falling from a potion another player threw 5 times (2 players) | 15 |
+| · | **Mixer Duty** | Building | Be handed 16 or more Concrete by another player 12 times (2 players) | 15 |
 | ◆ | **Monument Kit** | Building | Be handed Prismarine, Prismarine Bricks and Dark Prismarine by another player and place all three (2 players) | 40 |
+| ★ | **Monuments to Nobody** | Building | Hand another player 32 or more Sandstone 2,100 times (2 players) | 120 |
+| ◆ | **Mosaic Commission** | Building | Hand another player 8 or more Terracotta 155 times (2 players) | 40 |
 | · | **Mosaic Partner** | Building | Take Bamboo Planks from another player and lay Bamboo Mosaic of your own (2 players) | 15 |
+| ★ | **Mountains Moved by Hand** | Building | Be handed a full stack of Stone or its cousins by another player 1,100 times (2 players) | 120 |
 | · | **Mudlarking** | Building | Take Packed Mud and Mud Bricks from another player (2 players) | 15 |
+| ★ | **Nailed Into Everything** | Building | Hand another player a full stack of Planks 1,600 times (2 players) | 120 |
+| ◆ | **No Hard Hats Required** | Building | Catch Slow Falling from a potion another player threw 150 times (2 players) | 40 |
+| ★ | **Nobody Falls on My Watch** | Building | Catch Slow Falling from a potion another player threw 1,700 times (2 players) | 120 |
+| · | **Not a Single Pane Lost** | Building | Be handed 32 or more Glass by another player 7 times (2 players) | 15 |
+| ★ | **Nothing But Sky and Silica** | Building | Be handed 32 or more Glass by another player 2,600 times (2 players) | 120 |
+| · | **Off the Bandsaw** | Building | Hand another player a full stack of Planks 2 times (2 players) | 15 |
+| · | **Out of the Dunes** | Building | Hand another player 32 or more Sandstone 2 times (2 players) | 15 |
+| ★ | **Oxidised Beyond Recognition** | Building | Hand another player 4 or more Copper blocks 4,000 times (2 players) | 120 |
 | · | **Pane Relay** | Building | Take Glass Panes from another player and glaze a window with them (2 players) | 15 |
+| · | **Pane by Pane** | Building | Be handed 32 or more Glass by another player 40 times (2 players) | 15 |
 | ★ | **Plank by Plank** | Building | Be handed a full stack of Planks of all twelve wood types by other players (2 players) | 120 |
 | ★ | **Polish Detail** | Building | Hand another player Granite, Diorite, Andesite, Deepslate, Blackstone, Basalt and Tuff, and take every polished version back (2 players) | 120 |
 | · | **Potter's Wheel** | Building | Hand another player a Decorated Pot (2 players) | 15 |
+| · | **Pour the Slab** | Building | Be handed 16 or more Concrete by another player 28 times (2 players) | 15 |
+| ★ | **Poured a Skyline** | Building | Be handed 16 or more Concrete by another player 800 times (2 players) | 120 |
+| ★ | **Quarried Below the Quarry** | Building | Hand another player 32 or more Deepslate blocks 1,700 times (2 players) | 120 |
 | ◆ | **Quartz Consignment** | Building | Be handed Quartz Blocks, Quartz Bricks, Quartz Pillars and Chiseled Quartz by another player (2 players) | 40 |
 | · | **Red Brick Road** | Building | Lay Red Nether Bricks another player crafted and passed to you (2 players) | 15 |
 | ◆ | **Red Handed** | Building | Take Cinnabar, Polished Cinnabar and Cinnabar Bricks from another player (2 players) | 40 |
 | · | **Required Reading** | Building | Take a signed Written Book off another player and set it out on a Lectern (2 players) | 25 |
+| · | **Roofing Detail** | Building | Hand another player 4 or more Copper blocks 5 times (2 players) | 15 |
 | · | **Room Service** | Building | Sleep in a bed, then eat a meal another player brings up to you (2 players) | 15 |
 | ★ | **Rose Window** | Building | Be handed all sixteen colours of Stained Glass Pane by other players and set one in a wall (2 players) | 120 |
 | ◆ | **Rough Trade** | Building | Take Tuff, Polished Tuff, Tuff Bricks and Chiseled Tuff from another player (2 players) | 40 |
+| · | **Safety Briefing** | Building | Catch Slow Falling from a potion another player threw 2 times (2 players) | 15 |
 | · | **Sand to Glass** | Building | Hand another player Sand, take the smelted Glass back, and build with it (2 players) | 15 |
+| · | **Sand, Fire, Clarity** | Building | Be handed 32 or more Glass by another player 3 times (2 players) | 15 |
 | · | **Sandbagging** | Building | Hand another player Sandstone and take Red Sandstone back (2 players) | 15 |
+| ★ | **Sandstone Pharaohs** | Building | Hand another player 32 or more Sandstone 4,600 times (2 players) | 120 |
 | · | **Sawmill Shift** | Building | Take Logs from another player and hand back the Planks you cut out of them (2 players) | 15 |
+| · | **Scaffold Buddy** | Building | Catch Slow Falling from a potion another player threw 12 times (2 players) | 15 |
+| ◆ | **Sculk-Adjacent Real Estate** | Building | Hand another player 32 or more Deepslate blocks 340 times (2 players) | 40 |
+| · | **Set and Cured** | Building | Be handed 16 or more Concrete by another player 2 times (2 players) | 15 |
 | · | **Setting Agent** | Building | Hand another player Concrete Powder and take the set Concrete back (2 players) | 15 |
+| ★ | **Shear Volume** | Building | Be handed 16 or more Wool or Carpet by another player 2,600 times (2 players) | 120 |
+| · | **Shiny for Now** | Building | Hand another player 4 or more Copper blocks 2 times (2 players) | 15 |
+| ◆ | **Site Safety Officer** | Building | Catch Slow Falling from a potion another player threw 65 times (2 players) | 40 |
+| ◆ | **Sixteen Bales Deep** | Building | Be handed 16 or more Wool or Carpet by another player 520 times (2 players) | 40 |
+| ◆ | **Sixteen Shades of Site** | Building | Be handed 16 or more Concrete by another player 150 times (2 players) | 40 |
+| · | **Skid Road** | Building | Be handed 16 or more Logs by another player 18 times (2 players) | 15 |
 | ★ | **Slate Exchange** | Building | Take a full stack of every form of Deepslate from other players (2 players) | 120 |
+| ◆ | **Slip and Sheen** | Building | Hand another player 8 or more Terracotta 66 times (2 players) | 40 |
 | ◆ | **Smooth Operation** | Building | Hand another player Stone, Sandstone and Quartz Blocks and take the smooth versions back (2 players) | 40 |
+| · | **Smooth as the Wind Left It** | Building | Hand another player 32 or more Sandstone 33 times (2 players) | 15 |
+| ★ | **Sole Supplier of Softwood** | Building | Hand another player a full stack of Planks 3,400 times (2 players) | 120 |
 | ◆ | **Split the Staircase** | Building | Take Stairs of six different woods from other players (2 players) | 40 |
+| · | **Stacked and Strapped** | Building | Hand another player a full stack of Planks 5 times (2 players) | 15 |
+| · | **Still Warm** | Building | Hand another player 8 or more Terracotta 5 times (2 players) | 15 |
 | ◆ | **Stonewalled** | Building | Be handed Stone Bricks, Mossy Stone Bricks, Cracked Stone Bricks and Chiseled Stone Bricks by another player (2 players) | 40 |
+| · | **Straight from the Kiln** | Building | Hand another player 8 or more Terracotta 2 times (2 players) | 15 |
+| ◆ | **Tapestry Commission** | Building | Be handed 16 or more Wool or Carpet by another player 230 times (2 players) | 40 |
+| ◆ | **Temple Blueprint** | Building | Hand another player 32 or more Sandstone 180 times (2 players) | 40 |
+| ◆ | **Terracotta Trade Route** | Building | Hand another player 8 or more Terracotta 360 times (2 players) | 40 |
+| ★ | **The Concrete Jungle** | Building | Be handed 16 or more Concrete by another player 1,800 times (2 players) | 120 |
+| ★ | **The Crystal Palace** | Building | Be handed 32 or more Glass by another player 5,500 times (2 players) | 120 |
+| ◆ | **The Deep Order** | Building | Hand another player 32 or more Deepslate blocks 65 times (2 players) | 40 |
+| · | **The Dye Lot** | Building | Be handed 16 or more Wool or Carpet by another player 42 times (2 players) | 15 |
+| ★ | **The Feather Union** | Building | Catch Slow Falling from a potion another player threw 3,600 times (2 players) | 120 |
+| ★ | **The Forest Owes Us Nothing** | Building | Be handed 16 or more Logs by another player 4,000 times (2 players) | 120 |
 | ★ | **The Glaze Trade** | Building | Hand out all sixteen colours of Glazed Terracotta to other players (2 players) | 120 |
+| · | **The Glazier's Apprentice** | Building | Be handed 32 or more Glass by another player 17 times (2 players) | 15 |
+| · | **The Log Drive** | Building | Be handed 16 or more Logs by another player 40 times (2 players) | 15 |
+| ◆ | **The Lumber Yard** | Building | Hand another player a full stack of Planks 65 times (2 players) | 40 |
+| ◆ | **The Patina Pact** | Building | Hand another player 4 or more Copper blocks 350 times (2 players) | 40 |
+| ◆ | **The Pyramid Scheme** | Building | Hand another player 32 or more Sandstone 420 times (2 players) | 40 |
+| · | **The Quarry Gate** | Building | Be handed a full stack of Stone or its cousins by another player 38 times (2 players) | 15 |
+| ★ | **The Stonecutters' Compact** | Building | Be handed a full stack of Stone or its cousins by another player 2,400 times (2 players) | 120 |
+| ★ | **The Undercity Rises** | Building | Hand another player 32 or more Deepslate blocks 780 times (2 players) | 120 |
+| ★ | **The Wool Barons** | Building | Be handed 16 or more Wool or Carpet by another player 5,500 times (2 players) | 120 |
+| · | **Tile and Trim** | Building | Hand another player 32 or more Deepslate blocks 28 times (2 players) | 15 |
 | · | **Timber Run** | Building | Take a full stack of Oak Logs from another player and build with them (2 players) | 15 |
 | ◆ | **Trading Post** | Building | Run a shop: stock a Shelf, put up a Sign, and be paid in Emeralds by a customer (2 players) | 70 |
 | · | **Trophy Wall** | Building | Take another player's head off their hands and mount it in an Item Frame (2 players) | 30 |
+| ★ | **Two Deserts Emptied** | Building | Hand another player 32 or more Sandstone 950 times (2 players) | 120 |
+| · | **Two-Man Saw** | Building | Be handed 16 or more Logs by another player 8 times (2 players) | 15 |
+| ★ | **Upholstered the Whole Hall** | Building | Be handed 16 or more Wool or Carpet by another player 1,200 times (2 players) | 120 |
+| ★ | **Verdigris Everywhere** | Building | Hand another player 4 or more Copper blocks 800 times (2 players) | 120 |
+| · | **Waxed and Waiting** | Building | Hand another player 4 or more Copper blocks 12 times (2 players) | 15 |
+| ◆ | **Weathered Together** | Building | Hand another player 4 or more Copper blocks 150 times (2 players) | 40 |
 | · | **Wet Cement** | Building | Be handed Concrete Powder by another player and set a block of Concrete (2 players) | 15 |
+| · | **Wheelbarrow Duty** | Building | Be handed a full stack of Stone or its cousins by another player 7 times (2 players) | 15 |
 
 <details><summary>How these are detected</summary>
 
@@ -377,40 +799,147 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ◆ | **A Thousand Keen Cuts** | Enchanting | Land 1,000 hits on another player with a sword enchanted with Sharpness (2 players) | 40 |
+| ★ | **Archivist of Nothing at All** | Enchanting | Hand another player 9,000 Grindstones or plain Books (2 players) | 120 |
+| ★ | **Atlas of the Anvil Yard** | Enchanting | Hand another player 1,800 Anvils (2 players) | 120 |
+| · | **Azure Consignment** | Enchanting | Hand another player 128 Lapis Lazuli (2 players) | 15 |
+| ◆ | **Back to Blank** | Enchanting | Hand another player 475 Grindstones or plain Books (2 players) | 40 |
+| ★ | **Bankrolled in Bottles** | Enchanting | Take 1,700 Bottles o' Enchanting from another player's hand (2 players) | 120 |
+| ★ | **Baron of Blue Dust** | Enchanting | Hand another player 8,192 Lapis Lazuli (2 players) | 120 |
+| ◆ | **Blade Discipline** | Enchanting | Land 475 hits on another player with a sword enchanted with Sharpness (2 players) | 40 |
+| · | **Bleed on Me** | Enchanting | Be struck by another player 75 times while wearing a Thorns chestplate (2 players) | 15 |
+| · | **Blue Handshake** | Enchanting | Hand another player 16 Lapis Lazuli (2 players) | 15 |
+| ◆ | **Bodyguard Detail** | Enchanting | Take 360 armour pieces enchanted with Protection IV from another player's hand (2 players) | 40 |
 | · | **Book Club** | Enchanting | Enchant a Book and put the Enchanted Book straight into another player's hands (2 players) | 20 |
 | ◆ | **Borrowed Lightning** | Enchanting | Call lightning down on a monster with a Channeling Trident another player handed you (2 players) | 40 |
+| ◆ | **Borrowed Wisdom** | Enchanting | Take 180 Enchanted Books from another player's hand (2 players) | 40 |
+| · | **Bottle Money** | Enchanting | Take 25 Bottles o' Enchanting from another player's hand (2 players) | 15 |
+| ◆ | **Bottled Payroll** | Enchanting | Take 200 Bottles o' Enchanting from another player's hand (2 players) | 40 |
+| ◆ | **Cobalt Caravan** | Enchanting | Hand another player 512 Lapis Lazuli (2 players) | 40 |
+| · | **Compound Luck** | Enchanting | Take 65 tools enchanted with Fortune III from another player's hand (2 players) | 15 |
+| · | **Counterpuncher** | Enchanting | Be struck by another player 160 times while wearing a Thorns chestplate (2 players) | 15 |
 | ◆ | **Crossbow Battery** | Enchanting | Hand another player a Multishot Crossbow, a Piercing IV Crossbow and a Quick Charge III Crossbow (2 players) | 40 |
+| ★ | **Curator of Blank Pages** | Enchanting | Hand another player 2,100 Grindstones or plain Books (2 players) | 120 |
+| ★ | **Custodian of Forever** | Enchanting | Take 1,900 items enchanted with Mending from another player's hand (2 players) | 120 |
 | · | **Death and Taxes** | Enchanting | Collect the experience another player dropped when they died (2 players) | 55 |
+| ★ | **Deep Blue Reserves** | Enchanting | Hand another player 2,048 Lapis Lazuli (2 players) | 120 |
+| · | **Delivery of Iron** | Enchanting | Hand another player 5 Anvils (2 players) | 15 |
+| ★ | **Diminishing Returns for No One** | Enchanting | Take 1,350 tools enchanted with Fortune III from another player's hand (2 players) | 120 |
+| · | **Dividend in Diamonds** | Enchanting | Take 14 tools enchanted with Fortune III from another player's hand (2 players) | 15 |
+| · | **Duelling Practice** | Enchanting | Land 45 hits on another player with a sword enchanted with Sharpness (2 players) | 15 |
 | · | **Dug by Proxy** | Enchanting | Mine with a Fortune III Pickaxe that another player enchanted for you (2 players) | 15 |
 | ◆ | **Dulled Blade** | Enchanting | Land a hit on another player with a Sharpness V sword while you are under Weakness (2 players) | 40 |
+| · | **Dust Money** | Enchanting | Hand another player 32 Lapis Lazuli (2 players) | 15 |
 | · | **Efficiency Expert** | Enchanting | Take a tool enchanted with Efficiency V from another player (2 players) | 15 |
 | ◆ | **Endless Quiver** | Enchanting | Be handed an Infinity Bow by another player, then kill a player with it (2 players) | 40 |
+| ◆ | **Eternity, Passed Around** | Enchanting | Take 425 items enchanted with Mending from another player's hand (2 players) | 40 |
+| ◆ | **Every Blow Returned** | Enchanting | Be struck by another player 340 times while wearing a Thorns chestplate (2 players) | 40 |
+| ◆ | **Experience Endowment** | Enchanting | Take 400 Bottles o' Enchanting from another player's hand (2 players) | 40 |
+| · | **First Enchanted Blood** | Enchanting | Land 20 hits on another player with a sword enchanted with Sharpness (2 players) | 15 |
+| ◆ | **Forge Freight** | Enchanting | Hand another player 100 Anvils (2 players) | 40 |
+| ★ | **Fortress of Borrowed Steel** | Enchanting | Take 3,200 armour pieces enchanted with Protection IV from another player's hand (2 players) | 120 |
+| ★ | **Fortune's Executor** | Enchanting | Take 5,800 tools enchanted with Fortune III from another player's hand (2 players) | 120 |
+| ◆ | **Foundry Logistics** | Enchanting | Hand another player 425 Anvils (2 players) | 40 |
 | ★ | **Full Coverage** | Enchanting | Be handed a helmet, chestplate, leggings and boots each carrying a different Protection IV (2 players) | 120 |
+| ◆ | **Full Kit, Not Mine** | Enchanting | Take 175 armour pieces enchanted with Protection IV from another player's hand (2 players) | 40 |
 | ◆ | **Godsend** | Enchanting | Hand another player a Trident carrying Loyalty III and Channeling (2 players) | 40 |
+| ★ | **Grand Librarian of Second Hands** | Enchanting | Take 6,000 Enchanted Books from another player's hand (2 players) | 120 |
+| ★ | **Grandmaster of Soft Hands** | Enchanting | Hand another player 2,300 tools enchanted with Silk Touch (2 players) | 120 |
 | ★ | **Grant Money** | Enchanting | Have another player throw a whole stack of Bottles o' Enchanting at your feet and pocket every level of it (2 players) | 150 |
+| · | **Grindstone Consignment** | Enchanting | Hand another player 105 Grindstones or plain Books (2 players) | 15 |
 | · | **Hand-Me-Down** | Enchanting | Wear a piece of armour with Curse of Binding that another player handed to you (2 players) | 30 |
+| · | **Handed Something Everlasting** | Enchanting | Take 5 items enchanted with Mending from another player's hand (2 players) | 15 |
+| · | **Handled with Care** | Enchanting | Hand another player 12 tools enchanted with Silk Touch (2 players) | 15 |
+| · | **Heavy Haulage** | Enchanting | Hand another player 25 Anvils (2 players) | 15 |
+| ★ | **Hurts You More Than Me** | Enchanting | Be struck by another player 3,000 times while wearing a Thorns chestplate (2 players) | 120 |
 | ◆ | **Inheritance** | Enchanting | Bank thirty experience levels off Bottles o' Enchanting another player handed you (2 players) | 50 |
+| · | **Interlibrary Loan** | Enchanting | Take 90 Enchanted Books from another player's hand (2 players) | 15 |
+| ◆ | **Ironmonger's Round** | Enchanting | Hand another player 200 Anvils (2 players) | 40 |
+| · | **Issued Protection** | Enchanting | Take 18 armour pieces enchanted with Protection IV from another player's hand (2 players) | 15 |
+| ★ | **Keeper of Lent Lore** | Enchanting | Take 1,500 Enchanted Books from another player's hand (2 players) | 120 |
+| · | **Kept in Repair** | Enchanting | Take 22 items enchanted with Mending from another player's hand (2 players) | 15 |
 | · | **Lapis Loan** | Enchanting | Enchant an item using Lapis Lazuli that another player handed you (2 players) | 20 |
+| ★ | **Layers upon Layers** | Enchanting | Take 1,550 armour pieces enchanted with Protection IV from another player's hand (2 players) | 120 |
+| ★ | **Legend of the Sharp Hand** | Enchanting | Land 18,000 hits on another player with a sword enchanted with Sharpness (2 players) | 120 |
+| · | **Level Allowance** | Enchanting | Take 50 Bottles o' Enchanting from another player's hand (2 players) | 15 |
 | ◆ | **Locked In** | Enchanting | Kill another player who is stuck wearing a Curse of Binding helmet (2 players) | 40 |
+| · | **Loose Levels** | Enchanting | Take 10 Bottles o' Enchanting from another player's hand (2 players) | 15 |
+| · | **Lucky Loaner** | Enchanting | Take 6 tools enchanted with Fortune III from another player's hand (2 players) | 15 |
 | · | **Lungs on Loan** | Enchanting | Be handed a Turtle Helmet with Respiration III by another player (2 players) | 15 |
 | ◆ | **Mended Fences** | Enchanting | Be handed a Mending Pickaxe, a Mending Sword and a Mending Bow by other players (2 players) | 40 |
+| ★ | **Monopoly on Blue** | Enchanting | Hand another player 4,096 Lapis Lazuli (2 players) | 120 |
+| ◆ | **Nothing Breaks Here** | Enchanting | Take 95 items enchanted with Mending from another player's hand (2 players) | 40 |
+| ★ | **Nothing Shatters on My Watch** | Enchanting | Hand another player 1,100 tools enchanted with Silk Touch (2 players) | 120 |
 | ◆ | **Parting Gift** | Enchanting | Take a Curse of Vanishing item from a teammate, then die and watch it disappear (2 players) | 45 |
+| · | **Passed a Tome** | Enchanting | Take 10 Enchanted Books from another player's hand (2 players) | 15 |
+| · | **Perpetual Loan** | Enchanting | Take 45 items enchanted with Mending from another player's hand (2 players) | 15 |
 | · | **Pincushioned** | Enchanting | Die to the Thorns on another player's chestplate (2 players) | 15 |
+| · | **Plain Books, Plainly Given** | Enchanting | Hand another player 48 Grindstones or plain Books (2 players) | 15 |
+| ◆ | **Prospector's Trust** | Enchanting | Take 140 tools enchanted with Fortune III from another player's hand (2 players) | 40 |
 | ★ | **Protection Racket** | Enchanting | Be killed by another player while wearing four pieces of Protection IV (2 players) | 120 |
 | · | **Punch Line** | Enchanting | Kill another player with an arrow from a Punch II bow (2 players) | 15 |
+| ◆ | **Purveyor of Intact Things** | Enchanting | Hand another player 250 tools enchanted with Silk Touch (2 players) | 40 |
 | ◆ | **Read the Room** | Enchanting | Enchant an item at a table another player ringed with bookshelves (2 players) | 45 |
+| · | **Reading Circle** | Enchanting | Take 20 Enchanted Books from another player's hand (2 players) | 15 |
 | ◆ | **Repair Job** | Enchanting | Wear a Pickaxe down to its last few uses, hand it to another player, and get one back with its edge restored (2 players) | 50 |
+| ◆ | **Retaliation Engine** | Enchanting | Be struck by another player 1,450 times while wearing a Thorns chestplate (2 players) | 40 |
 | ◆ | **Riptide Rampage** | Enchanting | Riptide-launch yourself into another player and kill them with the Trident on the way through (2 players) | 220 |
 | ◆ | **Sealed Suit** | Enchanting | Hand another player all four armour pieces cursed with Curse of Binding (2 players) | 40 |
 | ◆ | **Second-Hand Knowledge** | Enchanting | Take an Enchanted Book from another player and end up with an enchanted tool (2 players) | 45 |
+| ★ | **Self-Healing Supply Chain** | Enchanting | Take 900 items enchanted with Mending from another player's hand (2 players) | 120 |
 | · | **Sharpened Elsewhere** | Enchanting | Take a Sword enchanted with Sharpness V from another player (2 players) | 15 |
+| · | **Signed Out of Stores** | Enchanting | Take 85 armour pieces enchanted with Protection IV from another player's hand (2 players) | 15 |
 | · | **Silk Road** | Enchanting | Take a Silk Touch Pickaxe out of another player's hands (2 players) | 15 |
 | ◆ | **Slow Roast** | Enchanting | Kill another player with a Fire Aspect Sword while they are already burning (2 players) | 40 |
+| · | **Soft Touch Delivery** | Enchanting | Hand another player 5 tools enchanted with Silk Touch (2 players) | 15 |
 | · | **Sole Traders** | Enchanting | Hand another player Feather Falling IV boots and take Depth Strider III boots in return (2 players) | 15 |
+| ◆ | **Someone Else's Library** | Enchanting | Take 750 Enchanted Books from another player's hand (2 players) | 40 |
 | ★ | **Someone Else's Masterpiece** | Enchanting | Take a Pickaxe carrying Efficiency V, Fortune III, Unbreaking III and Mending off another player (2 players) | 120 |
+| · | **Someone Else's Plating** | Enchanting | Take 8 armour pieces enchanted with Protection IV from another player's hand (2 players) | 15 |
+| ★ | **Sovereign of Second Thoughts** | Enchanting | Be struck by another player 12,500 times while wearing a Thorns chestplate (2 players) | 120 |
+| ★ | **Sovereign of Spent Experience** | Enchanting | Take 7,000 Bottles o' Enchanting from another player's hand (2 players) | 120 |
 | ◆ | **Spread the Risk** | Enchanting | Hand out four armour pieces, each carrying a different Protection enchantment (2 players) | 40 |
+| · | **Stand and Be Hit** | Enchanting | Be struck by another player 15 times while wearing a Thorns chestplate (2 players) | 15 |
 | ◆ | **Storm Chasers** | Enchanting | Riptide-launch within a second of another player and land within five blocks of them (2 players) | 75 |
+| · | **Stripped and Shipped** | Enchanting | Hand another player 10 Grindstones or plain Books (2 players) | 15 |
+| ★ | **Ten Thousand Edges** | Enchanting | Land 9,000 hits on another player with a sword enchanted with Sharpness (2 players) | 120 |
+| · | **The Anvil Run** | Enchanting | Hand another player 50 Anvils (2 players) | 15 |
+| · | **The Armoury Window** | Enchanting | Take 40 armour pieces enchanted with Protection IV from another player's hand (2 players) | 15 |
+| ◆ | **The Blue Exchequer** | Enchanting | Hand another player 1,024 Lapis Lazuli (2 players) | 40 |
+| · | **The Bottle Stipend** | Enchanting | Take 100 Bottles o' Enchanting from another player's hand (2 players) | 15 |
+| ★ | **The Bramble Fortress** | Enchanting | Be struck by another player 6,200 times while wearing a Thorns chestplate (2 players) | 120 |
+| ◆ | **The Cactus Doctrine** | Enchanting | Be struck by another player 700 times while wearing a Thorns chestplate (2 players) | 40 |
+| ◆ | **The Circulation Desk** | Enchanting | Take 375 Enchanted Books from another player's hand (2 players) | 40 |
+| · | **The Disenchantment Desk** | Enchanting | Hand another player 22 Grindstones or plain Books (2 players) | 15 |
+| ★ | **The Endless Stacks** | Enchanting | Take 3,000 Enchanted Books from another player's hand (2 players) | 120 |
+| ★ | **The Falling Weight Company** | Enchanting | Hand another player 900 Anvils (2 players) | 120 |
+| · | **The Fortune Fund** | Enchanting | Take 30 tools enchanted with Fortune III from another player's hand (2 players) | 15 |
+| · | **The Gentle Consignment** | Enchanting | Hand another player 55 tools enchanted with Silk Touch (2 players) | 15 |
+| ★ | **The Great Unenchanting** | Enchanting | Hand another player 4,400 Grindstones or plain Books (2 players) | 120 |
+| ◆ | **The Green Glass Vault** | Enchanting | Take 850 Bottles o' Enchanting from another player's hand (2 players) | 40 |
+| ◆ | **The Honed Rivalry** | Enchanting | Land 2,100 hits on another player with a sword enchanted with Sharpness (2 players) | 40 |
+| · | **The Keen Edge** | Enchanting | Land 100 hits on another player with a sword enchanted with Sharpness (2 players) | 15 |
+| · | **The Lapis Line** | Enchanting | Hand another player 64 Lapis Lazuli (2 players) | 15 |
+| · | **The Lending Shelf** | Enchanting | Take 45 Enchanted Books from another player's hand (2 players) | 15 |
+| ◆ | **The Luck Cartel** | Enchanting | Take 640 tools enchanted with Fortune III from another player's hand (2 players) | 40 |
+| · | **The Mender's Gift** | Enchanting | Take 10 items enchanted with Mending from another player's hand (2 players) | 15 |
+| · | **The Prickly Defence** | Enchanting | Be struck by another player 35 times while wearing a Thorns chestplate (2 players) | 15 |
+| ◆ | **The Standing Garrison** | Enchanting | Take 750 armour pieces enchanted with Protection IV from another player's hand (2 players) | 40 |
+| ◆ | **The Undoing Service** | Enchanting | Hand another player 225 Grindstones or plain Books (2 players) | 40 |
+| ◆ | **The Undying Arsenal** | Enchanting | Take 200 items enchanted with Mending from another player's hand (2 players) | 40 |
+| ◆ | **The Untouched Inventory** | Enchanting | Hand another player 525 tools enchanted with Silk Touch (2 players) | 40 |
 | ◆ | **Thorn in Your Side** | Enchanting | Kill another player with nothing but the Thorns on your own armour (2 players) | 150 |
+| · | **Trading Blows** | Enchanting | Land 220 hits on another player with a sword enchanted with Sharpness (2 players) | 15 |
+| ★ | **Treasury of Borrowed Levels** | Enchanting | Take 3,500 Bottles o' Enchanting from another player's hand (2 players) | 120 |
+| · | **Two-Man Lift** | Enchanting | Hand another player 12 Anvils (2 players) | 15 |
+| ◆ | **Ultramarine Trade** | Enchanting | Hand another player 256 Lapis Lazuli (2 players) | 40 |
+| · | **Unbroken in Transit** | Enchanting | Hand another player 25 tools enchanted with Silk Touch (2 players) | 15 |
+| ★ | **Vault of Multiplied Ore** | Enchanting | Take 2,800 tools enchanted with Fortune III from another player's hand (2 players) | 120 |
+| ★ | **Warden of the Armoury** | Enchanting | Take 6,600 armour pieces enchanted with Protection IV from another player's hand (2 players) | 120 |
+| ★ | **Whetstone Devotion** | Enchanting | Land 4,400 hits on another player with a sword enchanted with Sharpness (2 players) | 120 |
+| ◆ | **Whole Blocks, Whole Hands** | Enchanting | Hand another player 120 tools enchanted with Silk Touch (2 players) | 40 |
+| ◆ | **Wholesale Unmaking** | Enchanting | Hand another player 1,000 Grindstones or plain Books (2 players) | 40 |
+| ◆ | **Windfall Holdings** | Enchanting | Take 300 tools enchanted with Fortune III from another player's hand (2 players) | 40 |
 
 <details><summary>How these are detected</summary>
 
@@ -433,48 +962,158 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ★ | **A Basket Left at the Door** | Farming | Be handed Fruit or Berries by another player 2,000 times (2 players) | 120 |
+| · | **A Slice for You** | Farming | Hand another player a Cake, Pumpkin Pie or Cookie 12 times (2 players) | 15 |
+| ◆ | **Agricultural Grievance** | Farming | Hit another player with a Hoe 150 times (2 players) | 40 |
+| ★ | **An Ocean of Broth** | Farming | Be served a Stew or Soup by another player 6,000 times (2 players) | 120 |
 | · | **Apple Cart** | Farming | Hand another player a full stack of Apples (2 players) | 15 |
 | ◆ | **Bake Sale** | Farming | Hand another player a Cake, a Pumpkin Pie and a full stack of Cookies (2 players) | 40 |
+| ◆ | **Banquet Detail** | Farming | Hand another player Cooked Meat 400 times (2 players) | 40 |
 | ◆ | **Battle Ration** | Farming | Take a Golden Carrot from another player while you are under three hearts, and eat it (2 players) | 40 |
+| · | **Beet Around the Bush** | Farming | Hand another player Root Vegetables 25 times (2 players) | 15 |
 | · | **Beet It** | Farming | Drink Beetroot Soup another player made for you (2 players) | 15 |
+| ◆ | **Berry Bounty** | Farming | Be handed Fruit or Berries by another player 175 times (2 players) | 40 |
 | · | **Berry Run** | Farming | Be handed both Sweet Berries and Glow Berries by another player (2 players) | 15 |
+| ★ | **Birthday Industrial Complex** | Farming | Hand another player a Cake, Pumpkin Pie or Cookie 2,000 times (2 players) | 120 |
 | ◆ | **Bottomless Bowl** | Farming | Hand another player all four bowls - Mushroom Stew, Rabbit Stew, Beetroot Soup and Suspicious Stew - and take four empty Bowls back (2 players) | 40 |
+| · | **Bowl Me Over** | Farming | Be served a Stew or Soup by another player 30 times (2 players) | 15 |
 | · | **Bowl Return** | Farming | Take a bowl of stew from another player and hand the empty Bowl straight back (2 players) | 15 |
+| ★ | **Bread of Ages** | Farming | Hand another player Bread 6,400 times (2 players) | 120 |
 | ◆ | **Breaking Bread** | Farming | Break bread with another player: hand over Bread, cooked meat, a bowl of stew and a Golden Apple, and be handed all four straight back (2 players) | 40 |
+| · | **Brine Rations** | Farming | Be handed Kelp or Sea Pickles by another player 25 times (2 players) | 15 |
+| ◆ | **Broth Brotherhood** | Farming | Be served a Stew or Soup by another player 350 times (2 players) | 40 |
+| ◆ | **Bullion Bites** | Farming | Be handed Golden Food by another player 120 times (2 players) | 40 |
 | · | **Cake Walk** | Farming | Be handed a Cake by another player and set it out for the party (2 players) | 15 |
+| ★ | **Cauldron Keeper** | Farming | Be served a Stew or Soup by another player 1,500 times (2 players) | 120 |
+| ◆ | **Cellar Stock** | Farming | Hand another player Root Vegetables 320 times (2 players) | 40 |
+| ◆ | **Chuckwagon** | Farming | Hand another player Cooked Meat 175 times (2 players) | 40 |
 | · | **Clean Plate** | Farming | Hand another player a Carrot, a Potato and a Beetroot (2 players) | 15 |
+| · | **Comb Tribute** | Farming | Hand another player Honey or Sugar 90 times (2 players) | 15 |
+| ◆ | **Confectioner's Guild** | Farming | Hand another player a Cake, Pumpkin Pie or Cookie 400 times (2 players) | 40 |
 | ★ | **Cook's Tour** | Farming | Take a hot meal from another player in the Overworld, the Nether and the End (2 players) | 120 |
+| · | **Cookie Courier** | Farming | Hand another player a Cake, Pumpkin Pie or Cookie 5 times (2 players) | 15 |
+| ◆ | **Cornucopia** | Farming | Be handed Fruit or Berries by another player 900 times (2 players) | 40 |
 | · | **Crop Duster** | Farming | Hit another player with a Splash Potion of Harming while they are standing in a Wheat field (2 players) | 15 |
+| ★ | **Crumbs of Empire** | Farming | Hand another player a Cake, Pumpkin Pie or Cookie 8,000 times (2 players) | 120 |
+| · | **Daily Bread** | Farming | Hand another player Bread 100 times (2 players) | 15 |
 | · | **Dinner Guest** | Farming | Sit down to eat: take food from a player crouched within three blocks of you while you crouch too, and eat it (2 players) | 15 |
 | · | **Doggy Bag** | Farming | Take a full stack of cooked meat from another player in one drop (2 players) | 15 |
+| · | **Down to the Roots** | Farming | Hand another player Root Vegetables 60 times (2 players) | 15 |
+| ◆ | **Dried and Delivered** | Farming | Be handed Kelp or Sea Pickles by another player 350 times (2 players) | 40 |
+| ★ | **Emperor's Provisions** | Farming | Be handed Golden Food by another player 1,200 times (2 players) | 120 |
+| ★ | **Every Furrow Filled** | Farming | Hand another player Seeds 1,600 times (2 players) | 120 |
+| ◆ | **Famine Insurance** | Farming | Hand another player Root Vegetables 700 times (2 players) | 40 |
 | ◆ | **Farm Share** | Farming | Give another player a stack of Bread and take a stack of their crops back (2 players) | 50 |
 | ★ | **Feeding Frenzy** | Farming | Hand other players a full stack of every cooked meat: Steak, Porkchop, Chicken, Mutton and Rabbit (2 players) | 120 |
+| ★ | **Feeding an Army** | Farming | Hand another player Cooked Meat 2,000 times (2 players) | 120 |
+| ◆ | **Feeding the Village** | Farming | Hand another player Bread 800 times (2 players) | 40 |
+| · | **Field Justice** | Farming | Hit another player with a Hoe 30 times (2 players) | 15 |
+| · | **First Pick** | Farming | Be handed Fruit or Berries by another player 5 times (2 players) | 15 |
+| ★ | **Fort Knox Pantry** | Farming | Be handed Golden Food by another player 2,500 times (2 players) | 120 |
+| ★ | **Frosting the Server** | Farming | Hand another player a Cake, Pumpkin Pie or Cookie 4,000 times (2 players) | 120 |
 | · | **Fruit Bowl** | Farming | Be handed an Apple, a Melon Slice and a Chorus Fruit by another player (2 players) | 15 |
+| ★ | **Fruits of Their Labour** | Farming | Be handed Fruit or Berries by another player 4,000 times (2 players) | 120 |
 | ★ | **Full Board** | Farming | Be handed a full stack of Bread, Steak, Baked Potato, Golden Carrot and Melon Slices by other players (2 players) | 120 |
+| · | **Furrow Feud** | Farming | Hit another player with a Hoe 75 times (2 players) | 15 |
+| ◆ | **Germination Guild** | Farming | Hand another player Seeds 800 times (2 players) | 40 |
+| · | **Gifts of the Shallows** | Farming | Be handed Kelp or Sea Pickles by another player 60 times (2 players) | 15 |
+| · | **Glister and Gold** | Farming | Be handed Golden Food by another player 20 times (2 players) | 15 |
+| · | **Golden Handout** | Farming | Be handed Golden Food by another player 3 times (2 players) | 15 |
 | ◆ | **Golden Handshake** | Farming | Eat an Enchanted Golden Apple another player threw you, while you are below two hearts (2 players) | 45 |
 | ◆ | **Golden Ticket** | Farming | Hand another player a full stack of sixty-four Golden Carrots (2 players) | 40 |
+| ★ | **Grain of the Realm** | Farming | Hand another player Bread 1,600 times (2 players) | 120 |
+| · | **Grill Rotation** | Farming | Hand another player Cooked Meat 75 times (2 players) | 15 |
 | ◆ | **Group Therapy** | Farming | Have three players all on three hearts or less eat a Golden Apple within three seconds of each other (3 players) | 80 |
+| ◆ | **Grove Dividends** | Farming | Be handed Fruit or Berries by another player 400 times (2 players) | 40 |
+| · | **Half a Loaf** | Farming | Hand another player Bread 10 times (2 players) | 15 |
+| ◆ | **Harrowing** | Farming | Hit another player with a Hoe 350 times (2 players) | 40 |
 | · | **Harvest Time** | Farming | Cut another player down with a Hoe (2 players) | 15 |
 | · | **Have Your Cake** | Farming | Have four players eat Cake side by side inside thirty seconds (4 players) | 45 |
+| ◆ | **Heirloom Vault** | Farming | Hand another player Seeds 350 times (2 players) | 40 |
 | · | **Hoedown** | Farming | Take a Hoe from another player and put it to work in the fields (2 players) | 15 |
+| ◆ | **Icing on the Cake** | Farming | Hand another player a Cake, Pumpkin Pie or Cookie 900 times (2 players) | 40 |
 | · | **Iron Chef** | Farming | Cook a raw ingredient on a Campfire and hand the finished meal to another player (2 players) | 15 |
+| · | **Jar for a Friend** | Farming | Hand another player Honey or Sugar 15 times (2 players) | 15 |
 | · | **Kelp Ration** | Farming | Be handed a full stack of Dried Kelp by another player (2 players) | 15 |
+| · | **Kelp Wanted** | Farming | Be handed Kelp or Sea Pickles by another player 4 times (2 players) | 15 |
+| ★ | **Kingdom of Spuds** | Farming | Hand another player Root Vegetables 6,000 times (2 players) | 120 |
+| ◆ | **Knead to Share** | Farming | Hand another player Bread 400 times (2 players) | 40 |
+| · | **Ladle Duty** | Farming | Be served a Stew or Soup by another player 12 times (2 players) | 15 |
+| · | **Land Dispute** | Farming | Hit another player with a Hoe 12 times (2 players) | 15 |
+| ★ | **Land of Milk and Honey** | Farming | Hand another player Honey or Sugar 4,500 times (2 players) | 120 |
 | · | **Line Cook** | Farming | Hand another player raw meat and take it back cooked (2 players) | 15 |
+| ★ | **Lord of the Kelp Forest** | Farming | Be handed Kelp or Sea Pickles by another player 3,500 times (2 players) | 120 |
+| · | **Meat the Neighbours** | Farming | Hand another player Cooked Meat 5 times (2 players) | 15 |
 | · | **Melon Baller** | Farming | Hand another player a full stack of Melon Slices (2 players) | 15 |
 | ◆ | **Mess Hall** | Farming | Be served all four bowls by other players: Mushroom Stew, Rabbit Stew, Beetroot Soup and Suspicious Stew (2 players) | 40 |
+| · | **Midas Rations** | Farming | Be handed Golden Food by another player 8 times (2 players) | 15 |
+| ◆ | **Nectar Nudge** | Farming | Hand another player Honey or Sugar 200 times (2 players) | 40 |
+| ◆ | **Notch's Charity** | Farming | Be handed Golden Food by another player 250 times (2 players) | 40 |
+| ★ | **Ocean's Pantry** | Farming | Be handed Kelp or Sea Pickles by another player 1,700 times (2 players) | 120 |
+| · | **Orchard Tithe** | Farming | Be handed Fruit or Berries by another player 75 times (2 players) | 15 |
+| · | **Pass the Platter** | Farming | Hand another player Cooked Meat 12 times (2 players) | 15 |
+| ◆ | **Peasant Discipline** | Farming | Hit another player with a Hoe 750 times (2 players) | 40 |
 | ◆ | **Peasant Revolt** | Farming | Kill another player with a Hoe while you are both standing on a Dirt Path (2 players) | 40 |
+| · | **Picked for You** | Farming | Be handed Fruit or Berries by another player 12 times (2 players) | 15 |
 | · | **Piece of Cake** | Farming | Hand a Cake to another player and have one handed back to you (2 players) | 15 |
 | ◆ | **Potluck** | Farming | Have five players each eat a different food within ten seconds, all inside eight blocks (5 players) | 80 |
 | ◆ | **Quartermaster** | Farming | Issue the rations: hand other players a full stack of Bread, a full stack of Steak and a full stack of Baked Potato (2 players) | 40 |
+| ◆ | **Rationing Board** | Farming | Hand another player Bread 200 times (2 players) | 40 |
+| ★ | **Roast Dynasty** | Farming | Hand another player Cooked Meat 4,000 times (2 players) | 120 |
+| · | **Scattering the Sack** | Farming | Hand another player Seeds 25 times (2 players) | 15 |
+| · | **Seaweed Snack** | Farming | Be handed Kelp or Sea Pickles by another player 10 times (2 players) | 15 |
 | · | **Second Breakfast** | Farming | Be handed Bread and a Baked Potato by another player and eat both (2 players) | 15 |
+| · | **Second Helpings** | Farming | Be served a Stew or Soup by another player 75 times (2 players) | 15 |
 | ◆ | **Seed Exchange** | Farming | Trade ancient seeds with another player: hand a Sniffer seed over and be handed one back (2 players) | 50 |
+| · | **Seed Money** | Farming | Hand another player Seeds 4 times (2 players) | 15 |
+| ★ | **Seeds of an Empire** | Farming | Hand another player Seeds 6,400 times (2 players) | 120 |
+| · | **Sharecropper** | Farming | Hand another player Seeds 60 times (2 players) | 15 |
+| · | **Short Order** | Farming | Hand another player Cooked Meat 30 times (2 players) | 15 |
+| ◆ | **Solid Gold Supper** | Farming | Be handed Golden Food by another player 600 times (2 players) | 40 |
 | ◆ | **Soup Kitchen** | Farming | Be handed food by another player while your hunger is down to three shanks, and eat it (2 players) | 50 |
+| · | **Soup Run** | Farming | Be served a Stew or Soup by another player 5 times (2 players) | 15 |
+| · | **Sow and Tell** | Farming | Hand another player Seeds 10 times (2 players) | 15 |
+| ◆ | **Sowing Circle** | Farming | Hand another player Seeds 150 times (2 players) | 40 |
+| · | **Spud Buddy** | Farming | Hand another player Root Vegetables 4 times (2 players) | 15 |
 | · | **Spud Trust** | Farming | Eat the Poisonous Potato another player handed you (2 players) | 15 |
 | · | **Stew Roulette** | Farming | Eat a Suspicious Stew another player cooked and served you (2 players) | 20 |
+| ◆ | **Stockpot Saint** | Farming | Be served a Stew or Soup by another player 700 times (2 players) | 40 |
+| ★ | **Sugar Barons** | Farming | Hand another player Honey or Sugar 2,200 times (2 players) | 120 |
+| ★ | **Sultan of Stew** | Farming | Be served a Stew or Soup by another player 3,000 times (2 players) | 120 |
 | · | **Sweet Deal** | Farming | Swap puddings with another player: hand over a Cake and take a Pumpkin Pie back (2 players) | 15 |
+| ◆ | **Sweet Delivery** | Farming | Hand another player a Cake, Pumpkin Pie or Cookie 180 times (2 players) | 40 |
 | · | **Sweet Tooth** | Farming | Eat a Cookie another player baked and handed to you (2 players) | 15 |
+| · | **Sweetener** | Farming | Hand another player Honey or Sugar 6 times (2 players) | 15 |
+| ★ | **The Alchemist's Diet** | Farming | Be handed Golden Food by another player 5,000 times (2 players) | 120 |
+| ◆ | **The Apiary Accord** | Farming | Hand another player Honey or Sugar 1,000 times (2 players) | 40 |
+| · | **The Baker's Round** | Farming | Hand another player Bread 50 times (2 players) | 15 |
+| ◆ | **The Carvery** | Farming | Hand another player Cooked Meat 900 times (2 players) | 40 |
+| ★ | **The Deep Cellar** | Farming | Hand another player Root Vegetables 1,500 times (2 players) | 120 |
+| · | **The Dessert Cart** | Farming | Hand another player a Cake, Pumpkin Pie or Cookie 30 times (2 players) | 15 |
+| ★ | **The Endless Loaf** | Farming | Hand another player Bread 3,200 times (2 players) | 120 |
+| ★ | **The Eternal Barbecue** | Farming | Hand another player Cooked Meat 8,000 times (2 players) | 120 |
+| ★ | **The Everlasting Orchard** | Farming | Be handed Fruit or Berries by another player 8,000 times (2 players) | 120 |
+| · | **The Fruit Run** | Farming | Be handed Fruit or Berries by another player 30 times (2 players) | 15 |
+| · | **The Gilded Larder** | Farming | Be handed Golden Food by another player 50 times (2 players) | 15 |
+| ★ | **The Golden Hive** | Farming | Hand another player Honey or Sugar 9,000 times (2 players) | 120 |
+| ★ | **The Great Sowing** | Farming | Hand another player Seeds 3,200 times (2 players) | 120 |
+| ★ | **The Hoe Wars** | Farming | Hit another player with a Hoe 3,000 times (2 players) | 120 |
+| ◆ | **The Kelp Line** | Farming | Be handed Kelp or Sea Pickles by another player 150 times (2 players) | 40 |
+| ◆ | **The Kelp Trade** | Farming | Be handed Kelp or Sea Pickles by another player 800 times (2 players) | 40 |
+| ★ | **The Last Harvest** | Farming | Hit another player with a Hoe 6,000 times (2 players) | 120 |
+| · | **The Pastry Run** | Farming | Hand another player a Cake, Pumpkin Pie or Cookie 75 times (2 players) | 15 |
+| ◆ | **The Stew Circuit** | Farming | Be served a Stew or Soup by another player 150 times (2 players) | 40 |
+| ◆ | **The Sticky Ledger** | Farming | Hand another player Honey or Sugar 450 times (2 players) | 40 |
+| · | **The Sugar Run** | Farming | Hand another player Honey or Sugar 40 times (2 players) | 15 |
+| ★ | **The Tide Provides** | Farming | Be handed Kelp or Sea Pickles by another player 7,000 times (2 players) | 120 |
+| ◆ | **The Vegetable Cart** | Farming | Hand another player Root Vegetables 140 times (2 players) | 40 |
 | · | **Three Square Meals** | Farming | Be handed Bread, cooked meat and a bowl of stew by another player, and eat all three (2 players) | 15 |
+| · | **Tilling Rights** | Farming | Hit another player with a Hoe 5 times (2 players) | 15 |
+| ★ | **Tuber Baron** | Farming | Hand another player Root Vegetables 3,000 times (2 players) | 120 |
+| · | **Tuber Tribute** | Farming | Hand another player Root Vegetables 10 times (2 players) | 15 |
+| · | **Upper Crust** | Farming | Hand another player Bread 25 times (2 players) | 15 |
 | · | **Waste Not** | Farming | Fob your worst rations off on another player: Rotten Flesh, a Spider Eye and a Poisonous Potato (2 players) | 15 |
+| ★ | **Weapon of Mass Cultivation** | Farming | Hit another player with a Hoe 1,500 times (2 players) | 120 |
 
 <details><summary>How these are detected</summary>
 
@@ -494,55 +1133,165 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ★ | **A Girl's Best Friends** | Mining | Pick up Diamonds thrown to you by another player 10,000 times (2 players) | 120 |
+| ★ | **Amethyst Aristocracy** | Mining | Pick up Amethyst Shards thrown to you by another player 10,000 times (2 players) | 120 |
+| · | **Ancient Allowance** | Mining | Pick up Netherite Scrap thrown to you by another player 8 times (2 players) | 15 |
 | ◆ | **Ancient Armoury** | Mining | Be handed a Sword, a Pickaxe and an Axe by another player inside an Ancient City (2 players) | 40 |
 | ★ | **Ancient City Apothecary** | Mining | Carry Resistance, Night Vision and a Shrieker's Darkness at once in the Deep Dark, the last dose thrown by another player (2 players) | 120 |
 | · | **Ancient Grudge** | Mining | Kill another player inside an Ancient City (2 players) | 15 |
+| ★ | **Anthracite Alliance** | Mining | Pick up Coal or Charcoal thrown to you by another player 5,000 times (2 players) | 120 |
+| ◆ | **Assay Office** | Mining | Have another player pick up Gold Ingots you threw 700 times (2 players) | 40 |
 | · | **Bars and Chains** | Mining | Take Copper Bars and Copper Chains from another player (2 players) | 15 |
+| ◆ | **Beryl Benefactor** | Mining | Have another player pick up Emeralds you threw 275 times (2 players) | 40 |
+| · | **Best Friend's Best Friend** | Mining | Pick up Diamonds thrown to you by another player 5 times (2 players) | 15 |
+| ★ | **Beyond Diamond, Together** | Mining | Pick up Netherite Scrap thrown to you by another player 8,000 times (2 players) | 120 |
 | · | **Blackout Blinds** | Mining | Take Tinted Glass from another player and wall the light out with it (2 players) | 15 |
+| ★ | **Blood, Sweat and Iron** | Mining | Pick up Iron Ingots thrown to you by another player 15,000 times (2 players) | 120 |
 | ◆ | **Borrowed Bite** | Mining | Take a Netherite Pickaxe off another player and be caught swinging it (2 players) | 40 |
+| · | **Borrowed Eyes** | Mining | Gain Night Vision from another player's potion 2 times (2 players) | 15 |
+| ◆ | **Bright Idea From a Friend** | Mining | Gain Night Vision from another player's potion 100 times (2 players) | 40 |
 | · | **Bring a Torch** | Mining | Take a Torch off another player while you are standing in pitch darkness (2 players) | 20 |
+| · | **Budding Partnership** | Mining | Pick up Amethyst Shards thrown to you by another player 60 times (2 players) | 15 |
+| · | **Bulk Discount** | Mining | Take a bundle of 16 or more Raw Copper from another player 5 times (2 players) | 15 |
+| ◆ | **Bullion Benefactor** | Mining | Have another player pick up Gold Ingots you threw 300 times (2 players) | 40 |
 | · | **Bunker Buddy** | Mining | Take Resistance from another player while you are down in the Deep Dark (2 players) | 15 |
+| · | **Carats and Sticks** | Mining | Pick up Diamonds thrown to you by another player 15 times (2 players) | 15 |
+| ◆ | **Carbon Copies** | Mining | Pick up Coal or Charcoal thrown to you by another player 1,000 times (2 players) | 40 |
+| · | **Cash for Conductors** | Mining | Pick up Copper Ingots thrown to you by another player 100 times (2 players) | 15 |
+| ◆ | **Cave Optics** | Mining | Gain Night Vision from another player's potion 600 times (2 players) | 40 |
+| · | **Chiming In** | Mining | Pick up Amethyst Shards thrown to you by another player 25 times (2 players) | 15 |
+| · | **Claim Dispute** | Mining | Hit another player while holding a Pickaxe 2 times (2 players) | 15 |
 | · | **Claim Jumper** | Mining | Kill another player with a Pickaxe inside an Ancient City (2 players) | 15 |
+| ★ | **Cluster Consortium** | Mining | Pick up Amethyst Shards thrown to you by another player 2,000 times (2 players) | 120 |
+| ★ | **Coal Barons** | Mining | Pick up Coal or Charcoal thrown to you by another player 11,000 times (2 players) | 120 |
+| · | **Coal Ration** | Mining | Pick up Coal or Charcoal thrown to you by another player 30 times (2 players) | 15 |
+| ◆ | **Company Store** | Mining | Pick up Coal or Charcoal thrown to you by another player 180 times (2 players) | 40 |
 | ◆ | **Copper Bottomed** | Mining | Hand another player a full set of Copper tools and a Copper Sword (2 players) | 40 |
+| · | **Copper Handout** | Mining | Pick up Copper Ingots thrown to you by another player 40 times (2 players) | 15 |
+| ★ | **Copper Kettle Club** | Mining | Pick up Copper Ingots thrown to you by another player 6,500 times (2 players) | 120 |
+| · | **Coppers on the Take** | Mining | Pick up Copper Ingots thrown to you by another player 5 times (2 players) | 15 |
+| ★ | **Crushing Depths Together** | Mining | Pick up Diamonds thrown to you by another player 4,500 times (2 players) | 120 |
+| ★ | **Cuprous Kingpin** | Mining | Pick up Copper Ingots thrown to you by another player 14,000 times (2 players) | 120 |
 | ◆ | **Cut and Shut** | Mining | Hand another player Copper Blocks and take Cut Copper Stairs and Slabs back (2 players) | 40 |
+| · | **Cutting Out the Middleman** | Mining | Have another player pick up Emeralds you threw 25 times (2 players) | 15 |
+| ◆ | **Debris Delegation** | Mining | Pick up Netherite Scrap thrown to you by another player 120 times (2 players) | 40 |
 | · | **Deep Cut** | Mining | Kill another player with a Stone Sword down in the deepslate (2 players) | 15 |
 | · | **Deep Delivery** | Mining | Take Deepslate from another player while you are both below Y=0 (2 players) | 15 |
+| ◆ | **Deep Dose** | Mining | Gain Night Vision from another player's potion 250 times (2 players) | 40 |
 | ◆ | **Deep Prescription** | Mining | Take Night Vision from another player below Y=0 while a Beacon down there gives you Haste (2 players) | 40 |
 | · | **Deep Rations** | Mining | Be handed food by another player while you are both below Y=0 (2 players) | 15 |
 | ◆ | **Deep Recovery** | Mining | Be there when another player falls below Y=-50, then hand their belongings back at sea level (2 players) | 55 |
 | · | **Dig Me Out** | Mining | Free a player buried in Gravel by breaking the block over their head (2 players) | 30 |
+| · | **Dosed in the Dark** | Mining | Gain Night Vision from another player's potion 40 times (2 players) | 15 |
+| ◆ | **El Dorado Express** | Mining | Have another player pick up Gold Ingots you threw 1,500 times (2 players) | 40 |
+| ★ | **Emerald City Payroll** | Mining | Have another player pick up Emeralds you threw 6,000 times (2 players) | 120 |
+| ★ | **Everything He Touches** | Mining | Have another player pick up Gold Ingots you threw 12,000 times (2 players) | 120 |
+| · | **Facets of Friendship** | Mining | Pick up Diamonds thrown to you by another player 80 times (2 players) | 15 |
+| ◆ | **Ferrous Commerce** | Mining | Pick up Iron Ingots thrown to you by another player 800 times (2 players) | 40 |
+| ★ | **Fort Knox Giveaway** | Mining | Have another player pick up Gold Ingots you threw 3,000 times (2 players) | 120 |
+| ◆ | **Foundry Freight** | Mining | Pick up Iron Ingots thrown to you by another player 350 times (2 players) | 40 |
 | ◆ | **Fragment Pool** | Mining | Hand another player nine Disc Fragments at once (2 players) | 40 |
 | ◆ | **Fresh Steel** | Mining | Break your own Sword and take a brand-new Diamond Sword off another player (2 players) | 40 |
+| · | **Fuel for the Furnace** | Mining | Pick up Coal or Charcoal thrown to you by another player 75 times (2 players) | 15 |
 | ★ | **Full Kit** | Mining | Be handed a Netherite Pickaxe, Axe, Shovel, Hoe and Sword by other players (2 players) | 120 |
+| · | **Gems for Free** | Mining | Have another player pick up Emeralds you threw 120 times (2 players) | 15 |
+| · | **Geode Gifting** | Mining | Pick up Amethyst Shards thrown to you by another player 10 times (2 players) | 15 |
 | · | **Gilded Corpse** | Mining | Kill another player wearing a full set of Golden armour (2 players) | 15 |
+| · | **Gilded Generosity** | Mining | Have another player pick up Gold Ingots you threw 25 times (2 players) | 15 |
+| ★ | **Golden Parachute** | Mining | Have another player pick up Gold Ingots you threw 6,000 times (2 players) | 120 |
 | · | **Golden Seam** | Mining | Take a Silk Touched Nether Gold Ore block from another player (2 players) | 15 |
+| ◆ | **Green with Endowment** | Mining | Have another player pick up Emeralds you threw 1,300 times (2 players) | 40 |
+| ◆ | **Growing Together** | Mining | Pick up Amethyst Shards thrown to you by another player 375 times (2 players) | 40 |
 | · | **Hard Hat Handover** | Mining | Hand another player an Iron Helmet and take a Diamond Helmet from them in return (2 players) | 15 |
+| ★ | **Hardened Together** | Mining | Pick up Netherite Scrap thrown to you by another player 1,600 times (2 players) | 120 |
+| ★ | **Hardhat Brawl** | Mining | Hit another player while holding a Pickaxe 3,500 times (2 players) | 120 |
+| ◆ | **Hauler's Handshake** | Mining | Take a bundle of 16 or more Raw Copper from another player 250 times (2 players) | 40 |
 | ◆ | **Homing Pigeon** | Mining | Be handed a Compass by another player and use it on a Lodestone at least 64 blocks away (2 players) | 90 |
+| ★ | **Industrial Symbiosis** | Mining | Take a bundle of 16 or more Raw Copper from another player 15,000 times (2 players) | 120 |
+| · | **Ingots for Nothing** | Mining | Pick up Iron Ingots thrown to you by another player 25 times (2 players) | 15 |
+| ★ | **Ironclad Economy** | Mining | Pick up Iron Ingots thrown to you by another player 3,500 times (2 players) | 120 |
+| · | **Kindling Kindness** | Mining | Pick up Coal or Charcoal thrown to you by another player 10 times (2 players) | 15 |
 | · | **Lantern Light** | Mining | Kill another player under the glow berries of a Lush Cave (2 players) | 15 |
+| ★ | **Last Man Digging** | Mining | Hit another player while holding a Pickaxe 8,000 times (2 players) | 120 |
 | ◆ | **Loan Shark** | Mining | Lend another player a Diamond Pickaxe and take it back worn past half its life (2 players) | 90 |
+| · | **Mattock Melee** | Mining | Hit another player while holding a Pickaxe 40 times (2 players) | 15 |
+| · | **Midas Redistributed** | Mining | Have another player pick up Gold Ingots you threw 125 times (2 players) | 15 |
 | · | **Miner's Lamp** | Mining | Be given Night Vision by another player while you are below Y=-40 (2 players) | 15 |
 | · | **Mineshaft Mixtape** | Mining | Take a Music Disc off another player below Y=0 (2 players) | 15 |
+| ★ | **Netherite Nepotism** | Mining | Pick up Netherite Scrap thrown to you by another player 3,500 times (2 players) | 120 |
+| ★ | **Nightshift Vision** | Mining | Gain Night Vision from another player's potion 1,400 times (2 players) | 120 |
+| · | **Ore Bearer** | Mining | Take a bundle of 16 or more Raw Copper from another player 40 times (2 players) | 15 |
 | · | **Outsourced** | Mining | Craft a Diamond Pickaxe from three Diamonds another player handed you (2 players) | 15 |
 | · | **Oxidised Opponent** | Mining | Kill another player wearing a full set of Copper armour (2 players) | 15 |
+| · | **Palms Full of Green** | Mining | Have another player pick up Emeralds you threw 10 times (2 players) | 15 |
 | · | **Passing the Torch** | Mining | Place a Copper Torch that another player handed to you (2 players) | 15 |
 | ★ | **Patina Pipeline** | Mining | Take every oxidation stage of Copper Block and its waxed twin from other players (2 players) | 120 |
+| · | **Pick a Fight** | Mining | Hit another player while holding a Pickaxe 5 times (2 players) | 15 |
 | ◆ | **Pick of the Bunch** | Mining | Be handed a Pickaxe of all seven materials by other players (2 players) | 40 |
+| · | **Pig Iron Payday** | Mining | Pick up Iron Ingots thrown to you by another player 10 times (2 players) | 15 |
+| · | **Pocketful of Patina** | Mining | Pick up Copper Ingots thrown to you by another player 15 times (2 players) | 15 |
+| ★ | **Pointy End of the Pick** | Mining | Hit another player while holding a Pickaxe 1,500 times (2 players) | 120 |
 | ★ | **Quarry Crew** | Mining | Take a full stack of Cobblestone, Stone, Deepslate, Granite, Diorite, Andesite and Tuff from other players (2 players) | 120 |
+| · | **Raw Deal** | Mining | Take a bundle of 16 or more Raw Copper from another player 15 times (2 players) | 15 |
+| ◆ | **Resonant Trade** | Mining | Pick up Amethyst Shards thrown to you by another player 150 times (2 players) | 40 |
 | · | **Run It Into the Ground** | Mining | Take a Shovel off another player and dig with it until it snaps (2 players) | 15 |
+| ◆ | **Rust Belt Revival** | Mining | Pick up Iron Ingots thrown to you by another player 1,750 times (2 players) | 40 |
+| · | **Scrap Sharing** | Mining | Pick up Netherite Scrap thrown to you by another player 3 times (2 players) | 15 |
 | · | **Sealed With Wax** | Mining | Take a Copper Block from another player and seal it with Honeycomb (2 players) | 15 |
 | · | **Second Set of Eyes** | Mining | Scout ahead through a Spyglass that another player handed you (2 players) | 15 |
+| · | **Second Sight** | Mining | Gain Night Vision from another player's potion 6 times (2 players) | 15 |
+| ★ | **Seeing for Two** | Mining | Gain Night Vision from another player's potion 6,500 times (2 players) | 120 |
+| · | **Shard Share** | Mining | Pick up Amethyst Shards thrown to you by another player 4 times (2 players) | 15 |
+| · | **Sharing a Light** | Mining | Pick up Coal or Charcoal thrown to you by another player 4 times (2 players) | 15 |
 | ◆ | **Silent Duel** | Mining | Kill another player in the Deep Dark while neither of you is under the Darkness a Shrieker inflicts (2 players) | 180 |
+| ◆ | **Sixteen Tons** | Mining | Take a bundle of 16 or more Raw Copper from another player 1,400 times (2 players) | 40 |
 | ◆ | **Sixty Below** | Mining | Kill another player at the very bottom of the world, both of you below Y=-60 (2 players) | 40 |
+| ★ | **Slag and Sweat** | Mining | Take a bundle of 16 or more Raw Copper from another player 3,200 times (2 players) | 120 |
+| · | **Smelter's Union** | Mining | Pick up Iron Ingots thrown to you by another player 150 times (2 players) | 15 |
+| ◆ | **Smithing Circle** | Mining | Pick up Netherite Scrap thrown to you by another player 700 times (2 players) | 40 |
+| · | **Someone Else's Eyes** | Mining | Gain Night Vision from another player's potion 15 times (2 players) | 15 |
+| ★ | **Soot Brothers** | Mining | Pick up Coal or Charcoal thrown to you by another player 2,200 times (2 players) | 120 |
+| · | **Sparkler Swap** | Mining | Pick up Diamonds thrown to you by another player 35 times (2 players) | 15 |
 | ◆ | **Split Shift** | Mining | Hand a full stack of sixty-four Iron Ingots straight into another player's hands (2 players) | 45 |
+| ◆ | **Split the Vein** | Mining | Pick up Diamonds thrown to you by another player 400 times (2 players) | 40 |
 | · | **Stalactite Standoff** | Mining | Run another player through with a Spear in a Dripstone Cave (2 players) | 15 |
 | · | **Statuary Trade** | Mining | Be handed a Copper Golem Statue by another player and stand it up (2 players) | 15 |
+| ◆ | **Strike Action** | Mining | Hit another player while holding a Pickaxe 250 times (2 players) | 40 |
 | ◆ | **Stripped to the Studs** | Mining | Wear a Diamond Chestplate down to nothing under another player's blows (2 players) | 40 |
+| ◆ | **Swing First, Mine Later** | Mining | Hit another player while holding a Pickaxe 600 times (2 players) | 40 |
+| · | **The Bar Exchange** | Mining | Pick up Iron Ingots thrown to you by another player 60 times (2 players) | 15 |
+| ◆ | **The Brilliant Cut** | Mining | Pick up Diamonds thrown to you by another player 175 times (2 players) | 40 |
+| ★ | **The Copper Cartel** | Mining | Pick up Copper Ingots thrown to you by another player 3,000 times (2 players) | 120 |
+| ◆ | **The Copper Conduit** | Mining | Pick up Copper Ingots thrown to you by another player 250 times (2 players) | 40 |
+| ★ | **The Crystal Ledger** | Mining | Pick up Amethyst Shards thrown to you by another player 4,500 times (2 players) | 120 |
+| ★ | **The Diamond Trust** | Mining | Pick up Diamonds thrown to you by another player 2,000 times (2 players) | 120 |
+| ★ | **The Emerald Reserve** | Mining | Have another player pick up Emeralds you threw 2,800 times (2 players) | 120 |
+| ◆ | **The Fuel Line** | Mining | Pick up Coal or Charcoal thrown to you by another player 450 times (2 players) | 40 |
+| · | **The Golden Handshake** | Mining | Have another player pick up Gold Ingots you threw 50 times (2 players) | 15 |
+| ★ | **The Green Line** | Mining | Have another player pick up Emeralds you threw 13,000 times (2 players) | 120 |
+| ★ | **The Ore Barge** | Mining | Take a bundle of 16 or more Raw Copper from another player 7,000 times (2 players) | 120 |
+| ◆ | **The Purple Pipeline** | Mining | Pick up Amethyst Shards thrown to you by another player 900 times (2 players) | 40 |
+| ◆ | **The Scrap Syndicate** | Mining | Pick up Netherite Scrap thrown to you by another player 300 times (2 players) | 40 |
 | · | **Through the Grate** | Mining | Be handed a Copper Grate and a Copper Bulb by another player and place them both (2 players) | 15 |
+| · | **Tipping the Help** | Mining | Have another player pick up Gold Ingots you threw 10 times (2 players) | 15 |
+| · | **Tool Assisted Argument** | Mining | Hit another player while holding a Pickaxe 15 times (2 players) | 15 |
 | · | **Tools of the Trade** | Mining | Be handed a Pickaxe, an Axe, a Shovel and a Hoe by other players (2 players) | 15 |
 | ★ | **Toolshare** | Mining | Take a Netherite Axe, Shovel and Hoe out of another player's hands (2 players) | 120 |
+| ★ | **Torchless Together** | Mining | Gain Night Vision from another player's potion 3,000 times (2 players) | 120 |
+| ◆ | **Trader's Trust** | Mining | Have another player pick up Emeralds you threw 600 times (2 players) | 40 |
+| · | **Trust Fall in Lava** | Mining | Pick up Netherite Scrap thrown to you by another player 20 times (2 players) | 15 |
+| ◆ | **Tunnel Rats** | Mining | Hit another player while holding a Pickaxe 100 times (2 players) | 40 |
 | ◆ | **Tunnel Vision** | Mining | Dig toward each other from at least 200 blocks apart until your two tunnels meet (2 players) | 85 |
+| · | **Two Hands on the Anvil** | Mining | Pick up Netherite Scrap thrown to you by another player 50 times (2 players) | 15 |
+| ★ | **Two Smiths, One Anvil** | Mining | Pick up Iron Ingots thrown to you by another player 7,000 times (2 players) | 120 |
+| ◆ | **Under Pressure Together** | Mining | Pick up Diamonds thrown to you by another player 900 times (2 players) | 40 |
+| ◆ | **Unsmelted Trust** | Mining | Take a bundle of 16 or more Raw Copper from another player 600 times (2 players) | 40 |
 | · | **Upgrade Path** | Mining | Give another player a Stone Pickaxe and take an Iron one back off them (2 players) | 15 |
 | · | **Vault Transfer** | Mining | Take a Shulker Box off another player below Y=-50 (2 players) | 15 |
+| ◆ | **Verdigris Vendor** | Mining | Pick up Copper Ingots thrown to you by another player 600 times (2 players) | 40 |
+| · | **Villager Bypass** | Mining | Have another player pick up Emeralds you threw 55 times (2 players) | 15 |
+| · | **Wheelbarrow Brigade** | Mining | Take a bundle of 16 or more Raw Copper from another player 100 times (2 players) | 15 |
+| ◆ | **Wired Together** | Mining | Pick up Copper Ingots thrown to you by another player 1,400 times (2 players) | 40 |
 
 <details><summary>How these are detected</summary>
 
@@ -566,28 +1315,132 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 | · | **Assist** | Monsters | Finish off a monster that a teammate had already beaten down below two hearts (2 players) | 15 |
 | · | **Avenged** | Monsters | Shoot down a monster that has locked onto another player at least eight blocks away (2 players) | 55 |
 | ★ | **Bait and Switch** | Monsters | Loot an Ancient City chest while a Warden is chasing another player at least thirty blocks away (2 players) | 160 |
+| · | **Bare Bones Brawling** | Monsters | Strike another player 10 times with nothing but a bone (2 players) | 15 |
+| ★ | **Baron of the Boneyard** | Monsters | Put 5000 bones into other players' inventories (2 players) | 120 |
+| · | **Beggar's Banquet** | Monsters | Live off 25 handouts of zombie meat from a teammate (2 players) | 15 |
 | · | **Beggars and Choosers** | Monsters | Choke down Rotten Flesh another player handed you (2 players) | 15 |
+| ◆ | **Blasting Contractor** | Monsters | Move 250 lots of creeper powder into another player's pack (2 players) | 40 |
+| ★ | **Blood Like Brew** | Monsters | Take 2500 poisonings from other players and keep walking (2 players) | 120 |
+| ★ | **Blunt Force Trophy** | Monsters | Deal 1000 bone-club hits to other players (2 players) | 120 |
+| ★ | **Blunt Instrument** | Monsters | Land 2500 strikes on players while wielding a bone (2 players) | 120 |
 | ◆ | **Bomb Disposal** | Monsters | Put a Creeper down while it is about to go off in another player's face (2 players) | 60 |
+| · | **Bone Broker** | Monsters | Throw 50 bones for somebody else to run down (2 players) | 15 |
+| ◆ | **Bonebreaker** | Monsters | Hit another player 250 times with the crudest weapon there is (2 players) | 40 |
+| ◆ | **Bonemeal Benefactor** | Monsters | Bankroll a friend's crops with 250 handfuls of skeleton dust (2 players) | 40 |
+| ★ | **Bones Beyond Counting** | Monsters | Hand out 10000 bones and never once keep them (2 players) | 120 |
+| ★ | **Boneyard Payroll** | Monsters | Pay out 1000 bones to the players who do your digging (2 players) | 120 |
+| · | **Bottled Malice** | Monsters | Catch poison from another player's brew 5 times (2 players) | 15 |
 | · | **Bounty Hunter** | Monsters | Get paid in Emeralds by another player within a minute of hunting a monster down (2 players) | 20 |
+| ◆ | **Calcium Supplement** | Monsters | Supply another player with 100 bones for their farm (2 players) | 40 |
+| ◆ | **Carnival of Corpses** | Monsters | Claim 250 player kills with a skull for a helmet (2 players) | 40 |
+| · | **Caught in the Web** | Monsters | Catch 10 pieces of spider salvage thrown by another player (2 players) | 15 |
+| ◆ | **Cauldron Companion** | Monsters | Suffer 250 poisonings at the hands of your own brewer (2 players) | 40 |
+| · | **Clubbing Season** | Monsters | Batter another player 50 times with a bone in hand (2 players) | 15 |
+| ◆ | **Costume Kill** | Monsters | Finish off 50 players while disguised as the dead (2 players) | 40 |
+| ★ | **Courier of the Void** | Monsters | Move 2500 pearls out of your hands and into theirs (2 players) | 120 |
+| ★ | **Crash Test Creeper** | Monsters | Take 1000 player-made blasts to the face (2 players) | 120 |
+| ◆ | **Crater Regular** | Monsters | Be inside 50 of another player's explosions (2 players) | 40 |
+| ◆ | **Curator of Craniums** | Monsters | Accept 500 heads into your growing collection from another player (2 players) | 40 |
 | ◆ | **Curse of the Deep** | Monsters | Cut down another player inside an Ocean Monument while the Elder Guardian's Mining Fatigue is on them (2 players) | 40 |
 | · | **Death Do Us Part** | Monsters | Have two players killed by Creepers in the same instant, in the same place (2 players) | 30 |
+| ★ | **Death by a Thousand Shafts** | Monsters | Rack up 500 deaths to another player's arrows (2 players) | 120 |
+| · | **Demolition Intern** | Monsters | Fetch and throw 50 explosives for somebody else (2 players) | 15 |
+| ◆ | **Duel of the Dead** | Monsters | Win 500 exchanges armed only with a bone against a player (2 players) | 40 |
+| · | **Ears Still Ringing** | Monsters | Get caught in 5 explosions another player set off (2 players) | 15 |
+| ★ | **Effigy Executioner** | Monsters | Kill 500 players while hiding behind a monster's head (2 players) | 120 |
+| ★ | **Emperor of Eight Legs** | Monsters | Collect 10000 spider drops flung to you by other players (2 players) | 120 |
+| ★ | **Endermail** | Monsters | Post 1000 pearls to the players who need them (2 players) | 120 |
+| · | **Face of the Foe** | Monsters | Take down 10 rivals with a monster's face over your own (2 players) | 15 |
+| ◆ | **Famine Relief** | Monsters | Be kept alive by 500 deliveries of somebody else's zombie leftovers (2 players) | 40 |
+| · | **Feathered Farewell** | Monsters | Be shot dead 5 times by another player (2 players) | 15 |
+| · | **Femur Fencing** | Monsters | Land 25 hits on a rival using a skeleton's leftovers (2 players) | 15 |
 | ◆ | **Fight in the Dark** | Monsters | Take a hit from another player in the Deep Dark while the Darkness is pressing in on you (2 players) | 40 |
+| · | **Friendly Fire Drill** | Monsters | Fall to 10 arrows loosed by someone on your side (2 players) | 15 |
+| · | **Fuse Runner** | Monsters | Run 25 charges over to the player doing the demolition (2 players) | 15 |
+| ★ | **Gourmet of the Grave** | Monsters | Be fed 10000 rations of rotten flesh by hand (2 players) | 120 |
+| · | **Green Around the Gills** | Monsters | Be dosed with poison by a teammate 10 times (2 players) | 15 |
+| · | **Grim Delivery** | Monsters | Collect 50 heads dropped at your feet by another player (2 players) | 15 |
 | · | **Guardian Angel** | Monsters | Cut down in melee a monster that was hunting another player (2 players) | 50 |
+| ◆ | **Hazard Pay** | Monsters | Get blown up 250 times by your own demolition crew (2 players) | 40 |
+| ★ | **He Who Wears the Dead** | Monsters | Reach 1000 masked kills on other players (2 players) | 120 |
 | · | **Heads Up** | Monsters | Hand another player a mob head (2 players) | 15 |
 | ◆ | **Heart Surgery** | Monsters | Smash a Creaking Heart while its Creaking is fixated on a different player (2 players) | 150 |
 | ◆ | **Hold the Line** | Monsters | Block a Ravager's charge with your shield while a teammate kills it from behind (2 players) | 55 |
 | ★ | **Human Shield** | Monsters | Bring down a Warden while it is locked on to another player instead of you (2 players) | 200 |
 | · | **Hunger Pangs** | Monsters | Be struck by another player while Hunger is gnawing at you (2 players) | 15 |
+| · | **In the Blast Radius** | Monsters | Survive 25 detonations triggered by somebody else (2 players) | 15 |
+| ★ | **Landfill of Leftovers** | Monsters | Absorb 5000 loads of flesh other players could not stomach (2 players) | 120 |
 | ◆ | **Last Rites** | Monsters | Take a Totem of Undying off another player while you are down to three hearts (2 players) | 40 |
 | ★ | **Last Stand** | Monsters | Kill a Warden after every other player who joined the fight has already died (3 players) | 300 |
 | ◆ | **Lend Me Your Axe** | Monsters | Chop down a Ravager with an Axe another player handed you (2 players) | 40 |
+| ★ | **Living Test Range** | Monsters | Stand in 500 explosions other players are responsible for (2 players) | 120 |
+| ◆ | **Long Range Betrayal** | Monsters | Take 100 fatal shots from the players behind you (2 players) | 40 |
+| · | **Marrow Donor** | Monsters | Give away 25 pieces of skeleton salvage to a teammate (2 players) | 15 |
+| ★ | **Master of the Loom** | Monsters | Take in 1000 pieces of thrown silk and venom (2 players) | 120 |
+| ★ | **Merchant of Menace** | Monsters | Arm other players with a final 10000 loads of powder (2 players) | 120 |
+| ★ | **Ministry of Spoilage** | Monsters | Have 2500 helpings of rot pressed upon you by other players (2 players) | 120 |
+| · | **Monster Masquerade** | Monsters | Defeat 25 players in your borrowed skull (2 players) | 15 |
+| ★ | **Munitions Baron** | Monsters | Put 1000 charges of gunpowder into other people's hands (2 players) | 120 |
 | · | **Night Watch** | Monsters | Have another player kill a monster within ten blocks of you while you sleep (2 players) | 30 |
 | ★ | **Noble Sacrifice** | Monsters | Be killed by the Wither in a fight that a teammate goes on to win (2 players) | 140 |
+| ★ | **Overlord of the Ossuary** | Monsters | Have 10000 heads delivered to you by hand (2 players) | 120 |
+| ◆ | **Passing Faces** | Monsters | Pick up 100 mob heads that somebody else was holding first (2 players) | 40 |
+| ◆ | **Pearl Pipeline** | Monsters | Keep a teammate stocked with 500 thrown ender pearls (2 players) | 40 |
+| · | **Pearl Post** | Monsters | Deliver 50 pearls into somebody else's inventory (2 players) | 15 |
+| ★ | **Pearl Tycoon** | Monsters | Hand over 5000 ender pearls in your career (2 players) | 120 |
+| · | **Pearls Before Friends** | Monsters | Hand 10 ender pearls or eyes to another player (2 players) | 15 |
 | · | **Pincer Movement** | Monsters | Have two players hit the same monster from opposite sides at the same moment (2 players) | 25 |
+| ◆ | **Poison Pen Pal** | Monsters | Let a friend poison you 50 times over (2 players) | 40 |
+| · | **Powder Porter** | Monsters | Hand 10 lots of gunpowder or TNT to another player (2 players) | 15 |
+| ★ | **Professional Poison Taster** | Monsters | Test 1000 doses of poison for the players who brewed them (2 players) | 120 |
+| ◆ | **Putrid Provisions** | Monsters | Accept 250 rations of rot from the friends who love you (2 players) | 40 |
+| ★ | **Quartermaster of Boom** | Monsters | Arm other players 5000 times over with creeper leavings (2 players) | 120 |
+| ◆ | **Quiver of Grievances** | Monsters | Be killed 250 times by projectiles other players fired (2 players) | 40 |
+| ★ | **Rattle the Living** | Monsters | Club other players 10000 times with a dead thing's leg (2 players) | 120 |
+| ★ | **Reliquary of Rot** | Monsters | Gather 5000 thrown heads into one unspeakable shrine (2 players) | 120 |
+| · | **Rotten Rations** | Monsters | Take 10 helpings of rotten flesh thrown by another player (2 players) | 15 |
+| ◆ | **Sapper's Assistant** | Monsters | Keep a teammate's blasting supplied with 100 charges (2 players) | 40 |
+| · | **Second-Hand Supper** | Monsters | Collect 50 lots of flesh nobody else wanted (2 players) | 15 |
+| ◆ | **Shockwave Survivor** | Monsters | Absorb 100 blasts lit by the players beside you (2 players) | 40 |
+| ★ | **Silk Dynasty** | Monsters | Build an empire on 2500 spider drops other players threw down (2 players) | 120 |
+| · | **Silk Handshake** | Monsters | Receive 50 spider drops passed to you by hand (2 players) | 15 |
+| ◆ | **Skeletal Sparring** | Monsters | Trade 100 bone-handed blows with a fellow player (2 players) | 40 |
+| · | **Skull Courier** | Monsters | Take delivery of 25 severed heads flung by a teammate (2 players) | 15 |
+| ★ | **Sommelier of Suffering** | Monsters | Drink in 5000 doses of poison from other players' potions (2 players) | 120 |
+| ★ | **Soup Kitchen of the Damned** | Monsters | Receive 1000 portions of thrown rotten flesh (2 players) | 120 |
+| ◆ | **Spinner's Apprentice** | Monsters | Be given 100 pieces of a friend's spider harvest (2 players) | 40 |
+| · | **Standing Too Close** | Monsters | Take 10 blasts meant for the monsters, not for you (2 players) | 15 |
+| · | **Stuck Full of Feathers** | Monsters | Die 25 times to another player's aim (2 players) | 15 |
+| ★ | **Sulphur Syndicate** | Monsters | Supply 2500 loads of blasting powder to your crew (2 players) | 120 |
 | ◆ | **Taking One For The Team** | Monsters | Die beside a teammate who is down to half a heart, and have them live out the next minute (2 players) | 140 |
+| · | **Teleport Tax** | Monsters | Pay 25 pearls out to the players who travel for you (2 players) | 15 |
+| · | **The Apothecary's Gift** | Monsters | Take 25 doses of poison thrown by another player (2 players) | 15 |
+| ★ | **The Bone Age** | Monsters | Reach 5000 hits on players with a bone in your fist (2 players) | 120 |
+| ★ | **The Great Bone Drive** | Monsters | Donate 2500 bones to anyone willing to carry them (2 players) | 120 |
+| ★ | **The Head Hoard** | Monsters | Take 2500 heads off other people's hands (2 players) | 120 |
+| ★ | **The Human Target** | Monsters | Be shot down 1000 times by the people you trust (2 players) | 120 |
+| ◆ | **The Marrow Line** | Monsters | Keep a teammate stocked with 500 bones from your grinder (2 players) | 40 |
+| ◆ | **The Mask Slips** | Monsters | Slay 100 players wearing the head of something worse (2 players) | 40 |
+| ◆ | **The Meat Locker** | Monsters | Stockpile 100 servings of flesh handed over by other players (2 players) | 40 |
+| ◆ | **The Pearl Toll** | Monsters | Give up 100 pearls to your fellow enderman hunters (2 players) | 40 |
+| ★ | **The Pearl Vault** | Monsters | Empty 10000 ender pearls into other players' pockets (2 players) | 120 |
+| ◆ | **The Powder Line** | Monsters | Ship 500 explosive deliveries to the players holding the flint (2 players) | 40 |
+| ◆ | **The Silk Road** | Monsters | Run 250 loads of string down the line from another player (2 players) | 40 |
+| ◆ | **The Skull Exchange** | Monsters | Receive 250 heads across the room from a fellow head hunter (2 players) | 40 |
+| ◆ | **The Witch's Understudy** | Monsters | Be poisoned 500 times by another player's potions (2 players) | 40 |
+| · | **Thread Count** | Monsters | Take 25 lots of string or web off a teammate's hands (2 players) | 15 |
+| · | **Throw Them a Bone** | Monsters | Hand 10 bones, bone meal or bone blocks to another player (2 players) | 15 |
 | ◆ | **Total Party Kill** | Monsters | Wipe out: all three or more players on the server dead inside the same ten seconds (3 players) | 40 |
 | · | **Trial by Fire** | Monsters | Set three players alight at once and have all three put themselves out and live (3 players) | 30 |
+| · | **Trophy Toss** | Monsters | Catch 10 mob heads another player threw to you (2 players) | 15 |
+| ◆ | **Venom Tolerance** | Monsters | Weather 100 helpings of somebody else's poison (2 players) | 40 |
+| ◆ | **Void Freight** | Monsters | Ship 250 pearls across to another player by hand (2 players) | 40 |
+| ◆ | **Volley of Regret** | Monsters | Get picked off 50 times from range by a fellow player (2 players) | 40 |
 | ◆ | **Warded in the Dark** | Monsters | Be given Resistance by another player in the Deep Dark while a Shrieker's Darkness is on you (2 players) | 40 |
+| ★ | **Warehouse of Faces** | Monsters | Be handed 1000 mob heads without ever severing one yourself (2 players) | 120 |
+| ★ | **Warp and Weft** | Monsters | Be handed 5000 pieces of the spiders' leavings (2 players) | 120 |
+| · | **Wearing the Enemy** | Monsters | Kill 5 players while wearing a mob head (2 players) | 15 |
+| ◆ | **Weaver's Guild** | Monsters | Accept 500 spider drops from your fellow arachnid farmers (2 players) | 40 |
 | ★ | **Wither Committee** | Monsters | Bring down a Wither with three or more players standing within twenty blocks (3 players) | 180 |
 
 <details><summary>How these are detected</summary>
@@ -617,48 +1470,84 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| · | **A Familiar Ceiling** | Nether | Be killed by another player in the Nether 30 times (2 players) | 15 |
+| ★ | **A Rain of Regeneration** | Nether | Lob a Ghast Tear across five blocks to another player 3,500 times (2 players) | 120 |
 | ◆ | **Above It All** | Nether | Hand Ancient Debris to another player while you both stand on the roof of the Nether (2 players) | 40 |
+| · | **Across the Sea of Lava** | Nether | Lob a Ghast Tear across five blocks to another player 15 times (2 players) | 15 |
 | ◆ | **Air Ambulance** | Nether | Be dosed with Regeneration from fifteen blocks off while you share a Happy Ghast with another player (3 players) | 40 |
 | ★ | **Air Freight** | Nether | Take a Netherite Ingot from a player on another Happy Ghast while a third player shares yours (3 players) | 120 |
 | ★ | **Air Mail** | Nether | Hand an item to another player while you are both flying Happy Ghasts, a hundred and fifty blocks up (2 players) | 160 |
 | ★ | **Air Rescue** | Nether | Fly your Happy Ghast under a falling player so they land on it after a fifty-block drop (2 players) | 200 |
+| · | **Anchor Fund** | Nether | Take Crying Obsidian from another player in the Nether 6 times (2 players) | 15 |
 | ◆ | **Anchor Management** | Nether | Charge a Respawn Anchor with Glowstone another player brought you (2 players) | 45 |
+| ★ | **Anvil, Not Hammer** | Nether | Take 11,000 hits from other players in the Nether (2 players) | 120 |
 | · | **Ash and Bone** | Nether | Kill another player among the bones of a Soul Sand Valley (2 players) | 15 |
 | ★ | **Ash and Ember** | Nether | Kill another player wearing full Netherite armour in the Nether (2 players) | 120 |
+| · | **Ash on the Blade** | Nether | Kill 30 players in the Nether (2 players) | 15 |
+| ◆ | **Ashes, Again** | Nether | Be killed by another player in the Nether 200 times (2 players) | 40 |
 | ◆ | **Attic Ambush** | Nether | Kill another player up on the roof of the Nether, both of you above Y=128 (2 players) | 40 |
 | ★ | **Balloon Battle** | Nether | Kill another player who is riding a Happy Ghast while you ride one of your own over the Nether (2 players) | 120 |
+| ◆ | **Bankers of the Bastion** | Nether | Hand another player four or more Gold Ingots in the Nether 3,000 times (2 players) | 40 |
 | · | **Basalt Column** | Nether | Hand Polished Basalt to another player standing in the Basalt Deltas (2 players) | 15 |
 | · | **Bastion Brawl** | Nether | Kill another player inside a Bastion Remnant (2 players) | 15 |
 | ◆ | **Bastion Buddy** | Nether | Loot a Bastion treasure chest in the Golden Helmet another player handed you (2 players) | 55 |
 | ◆ | **Bastion Wardrobe** | Nether | Be handed every piece of a Golden armour set by other players in the Nether (2 players) | 40 |
 | ◆ | **Batted Back** | Nether | Take a Ghast fireball that another player batted at you (2 players) | 40 |
 | ★ | **Beacon of Hope** | Nether | Craft a Beacon from a Nether Star another player handed you (2 players) | 200 |
+| ★ | **Bedrock in Sight** | Nether | Hand another player a full stack of Netherrack 15,000 times (2 players) | 120 |
+| ◆ | **Beds Are for the Overworld** | Nether | Take Crying Obsidian from another player in the Nether 1,400 times (2 players) | 40 |
 | ◆ | **Blackstone Market** | Nether | Take Blackstone, Polished Blackstone, Polished Blackstone Bricks and Gilded Blackstone from another player in the Nether (2 players) | 40 |
+| ◆ | **Blazing Consignment** | Nether | Be handed a Blaze Rod inside a Nether Fortress 300 times (2 players) | 40 |
+| ★ | **Bleached the Bedrock** | Nether | Take Nether Quartz from another player's hand 2,500 times (2 players) | 120 |
 | ◆ | **Blood Brothers** | Nether | Have four players die and all come back on the same Respawn Anchor within twenty seconds (4 players) | 350 |
+| · | **Blows Beneath the Basalt** | Nether | Land 150 melee hits on other players in the Nether (2 players) | 15 |
 | · | **Bodyguard** | Nether | Block a Ghast's fireball with a Shield another player put in your hands (2 players) | 20 |
 | ◆ | **Boiling Point** | Nether | Land a hit on another player while the pair of you are standing in lava (2 players) | 40 |
+| · | **Brawler of the Basalt** | Nether | Land 400 melee hits on other players in the Nether (2 players) | 15 |
+| ◆ | **Bruise for Bruise** | Nether | Land 2,500 melee hits on other players in the Nether (2 players) | 40 |
+| · | **Bruised and Basalt-Stained** | Nether | Take 125 hits from other players in the Nether (2 players) | 15 |
 | ★ | **Bullion Handshake** | Nether | Hand a whole Block of Netherite to another player (2 players) | 120 |
 | ★ | **Bullion Run** | Nether | Hand another player a Block of Netherite (2 players) | 120 |
+| ★ | **Buried Without a Grave** | Nether | Be killed by another player in the Nether 7,500 times (2 players) | 120 |
 | ★ | **Changing of the Guard** | Nether | Climb aboard a Happy Ghast above Y=150 that another player is already flying (2 players) | 130 |
 | · | **Charge Account** | Nether | Set something alight with a Fire Charge another player crafted for you (2 players) | 15 |
+| ◆ | **Charged by Committee** | Nether | Take Crying Obsidian from another player in the Nether 240 times (2 players) | 40 |
+| · | **Chronic Victim** | Nether | Be killed by another player in the Nether 75 times (2 players) | 15 |
+| ★ | **Cinders Beyond Counting** | Nether | Be handed a Blaze Rod inside a Nether Fortress 9,000 times (2 players) | 120 |
+| ◆ | **Collector of Others' Grief** | Nether | Lob a Ghast Tear across five blocks to another player 1,500 times (2 players) | 40 |
+| ★ | **Continents Passed by Hand** | Nether | Hand another player a full stack of Netherrack 6,000 times (2 players) | 120 |
 | ◆ | **Corporate Raiders** | Nether | Raid a Bastion's Piglins with a partner: barter inside it on gold they threw you (2 players) | 45 |
 | · | **Cream of the Crop** | Nether | Take Magma Cream from another player while you are both in the Nether (2 players) | 15 |
 | · | **Crimson Import** | Nether | Take Crimson Planks from another player in the Nether and build with them there (2 players) | 15 |
 | · | **Crocodile Tears** | Nether | Take a Ghast Tear from another player while you are both down in the Nether (2 players) | 15 |
+| ★ | **Crystal Cartel** | Nether | Take Nether Quartz from another player's hand 5,000 times (2 players) | 120 |
+| · | **Crystal Handshake** | Nether | Take Nether Quartz from another player's hand 25 times (2 players) | 15 |
+| ◆ | **Culler of Countrymen** | Nether | Kill 180 players in the Nether (2 players) | 40 |
 | ◆ | **Dead Drop** | Nether | Leave a parcel on the ground in the Nether and be a hundred blocks away when another player collects it (2 players) | 50 |
+| ◆ | **Death Has a Season Pass** | Nether | Be killed by another player in the Nether 3,000 times (2 players) | 40 |
 | · | **Debris Delivery** | Nether | Take Ancient Debris from another player below Y=16 in the Nether (2 players) | 15 |
 | · | **Debris Run** | Nether | Take four Ancient Debris off another player (2 players) | 15 |
 | ◆ | **Delta Force** | Nether | Kill another player in the Basalt Deltas while the pair of you are on fire (2 players) | 40 |
+| · | **Died Among Friends** | Nether | Be killed by another player in the Nether 12 times (2 players) | 15 |
 | ◆ | **Door Gunner** | Nether | Shoot a Ghast down with a Crossbow from the passenger seat of a Happy Ghast another player is flying (2 players) | 70 |
 | ◆ | **Emergency Exit** | Nether | Get a player who is below two hearts out of the Nether — both of you through the portal inside five seconds (2 players) | 55 |
+| ★ | **Endurance of the Damned** | Nether | Take 25,000 hits from other players in the Nether (2 players) | 120 |
 | ★ | **Escort Service** | Nether | Walk five hundred blocks through the Nether with nothing on you, guarded and untouched (2 players) | 220 |
+| ★ | **Every Death Comes Home** | Nether | Take Crying Obsidian from another player in the Nether 16,000 times (2 players) | 120 |
+| ◆ | **Executioner in Red** | Nether | Kill 1,100 players in the Nether (2 players) | 40 |
+| ★ | **Extinguished by Proxy** | Nether | Be handed a Blaze Rod inside a Nether Fortress 20,000 times (2 players) | 120 |
+| ◆ | **Ferrying the Flesh Stone** | Nether | Hand another player a full stack of Netherrack 150 times (2 players) | 40 |
 | ★ | **Field Hospital** | Nether | Bring a Beacon to full power, then get patched up under it with another player's Regeneration (2 players) | 100 |
 | ★ | **Fireball Tennis** | Nether | Swat a Ghast's fireball back into another player (2 players) | 120 |
 | · | **Fireproof Courier** | Nether | Be handed a Netherite Ingot while you are standing in lava (2 players) | 15 |
+| · | **Fireproofed by a Friend** | Nether | Take Fire Resistance from another player's brew 20 times in the Nether (2 players) | 15 |
+| · | **First Blood in Hell** | Nether | Land 25 melee hits on other players in the Nether (2 players) | 15 |
 | ◆ | **Flak** | Nether | Shoot a player off the back of a Happy Ghast with an arrow (2 players) | 40 |
 | ◆ | **Forged Favour** | Nether | Forge a Netherite Ingot out of Scrap another player threw you (2 players) | 40 |
 | · | **Fortress Feud** | Nether | Kill another player inside a Nether Fortress (2 players) | 15 |
+| ◆ | **Fortress Payroll** | Nether | Be handed a Blaze Rod inside a Nether Fortress 120 times (2 players) | 40 |
 | ★ | **Friendly Fireball** | Nether | Deflect a Ghast's fireball into another player (2 players) | 120 |
+| · | **Fuel for the Stand** | Nether | Be handed a Blaze Rod inside a Nether Fortress 50 times (2 players) | 15 |
 | ◆ | **Fungal Exchange** | Nether | Swap fungi with another player: take their Crimson, give them your Warped (2 players) | 40 |
 | ★ | **Ghast Fleet** | Nether | Four players out on four separate Happy Ghasts, all within twenty blocks (4 players) | 200 |
 | ★ | **Ghast Freight** | Nether | Catch Ancient Debris thrown from forty blocks away while a second player rides your Happy Ghast (3 players) | 120 |
@@ -668,60 +1557,134 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 | ◆ | **Gilded Handover** | Nether | Hand another player a full set of Golden tools while you are both down in the Nether (2 players) | 40 |
 | ◆ | **Gilt Trip** | Nether | Take Gilded Blackstone from another player while you are both inside a Bastion Remnant (2 players) | 40 |
 | · | **Glow Up** | Nether | Take Glowstone Dust from another player while you are both in the Nether (2 players) | 15 |
+| · | **Grease Their Palms** | Nether | Hand another player four or more Gold Ingots in the Nether 80 times (2 players) | 15 |
+| ★ | **Grievances Beyond Number** | Nether | Land 80,000 melee hits on other players in the Nether (2 players) | 120 |
 | ★ | **Gun Platform** | Nether | Kill a third player from the back seat of a Happy Ghast that another player is flying (3 players) | 120 |
 | · | **Hand Me the Reins** | Nether | Steer a Strider with a Warped Fungus on a Stick another player handed you (2 players) | 15 |
+| ★ | **Hell Has No Truce** | Nether | Land 35,000 melee hits on other players in the Nether (2 players) | 120 |
 | ★ | **Hell's Consignment** | Nether | Take all six treasures of the Nether from other players' hands: Quartz, a Blaze Rod, a Ghast Tear, Crying Obsidian, Ancient Debris and a Nether Star (2 players) | 120 |
+| · | **Hell's Duelist** | Nether | Kill 12 players in the Nether (2 players) | 15 |
+| ★ | **Hell's Own Reaper** | Nether | Kill 16,000 players in the Nether (2 players) | 120 |
 | · | **Hellfire Insurance** | Nether | Be doused with Fire Resistance by another player while you are burning in the Nether (2 players) | 15 |
+| · | **Hellstone Haulage** | Nether | Hand another player a full stack of Netherrack 75 times (2 players) | 15 |
 | ◆ | **High-Altitude Dose** | Nether | Take Slow Falling from a player twenty blocks off while a second player rides the Happy Ghast with you (3 players) | 40 |
 | · | **Hog Tied** | Nether | Leash a Hoglin with a Lead another player handed you (2 players) | 15 |
 | · | **Hot Rocks** | Nether | Have another player hand you Netherrack, Basalt, Blackstone and a Magma Block (2 players) | 15 |
 | · | **Hot Swap** | Nether | Take a Netherite Pickaxe out of another player's hands down in the Nether (2 players) | 15 |
 | · | **Hot and Bothered** | Nether | Be splashed with Poison by another player while you are on fire in the Nether (2 players) | 15 |
+| ★ | **Immortal Only in Spirit** | Nether | Be killed by another player in the Nether 18,000 times (2 players) | 120 |
+| ★ | **Immunity by Association** | Nether | Take Fire Resistance from another player's brew 4,000 times in the Nether (2 players) | 120 |
+| ◆ | **Insulated Party** | Nether | Take Fire Resistance from another player's brew 120 times in the Nether (2 players) | 40 |
+| ◆ | **Keeper of Their Kindling** | Nether | Be handed a Blaze Rod inside a Nether Fortress 750 times (2 players) | 40 |
 | ★ | **Knocked Off the Perch** | Nether | Put an arrow into another player riding a Happy Ghast above Y=150 in the Nether (2 players) | 120 |
+| ◆ | **Knuckles and Cinders** | Nether | Land 1,000 melee hits on other players in the Nether (2 players) | 40 |
+| ◆ | **Landfill Logistics** | Nether | Hand another player a full stack of Netherrack 400 times (2 players) | 40 |
+| ◆ | **Lava Is a Suggestion** | Nether | Take Fire Resistance from another player's brew 1,700 times in the Nether (2 players) | 40 |
 | · | **Lava Lifeline** | Nether | Be made fireproof by a player who is standing in lava themselves (2 players) | 15 |
 | · | **Lava Regatta** | Nether | Kill another player off the back of their Strider while you ride a Strider across the Nether (2 players) | 15 |
 | · | **Lava Walkies** | Nether | Leash a Strider with a Lead another player handed you (2 players) | 15 |
 | ◆ | **Lava Ward** | Nether | Carry Fire Resistance, Resistance and Regeneration while standing in lava, the last of them thrown by another player (2 players) | 40 |
+| · | **Learned the Hard Way** | Nether | Take 50 hits from other players in the Nether (2 players) | 15 |
+| ★ | **Legends Told in Whispers** | Nether | Kill 2,800 players in the Nether (2 players) | 120 |
 | · | **Loaned Flame** | Nether | Light a Nether Portal with Flint and Steel another player handed you (2 players) | 15 |
+| · | **Long-Range Sympathy** | Nether | Lob a Ghast Tear across five blocks to another player 40 times (2 players) | 15 |
+| ◆ | **Made of Sterner Stuff** | Nether | Take 300 hits from other players in the Nether (2 players) | 40 |
 | ◆ | **Magnetic Personality** | Nether | Bind your Compass to a Lodestone another player spent their Netherite on (2 players) | 40 |
+| ◆ | **Martyr of the Wastes** | Nether | Be killed by another player in the Nether 1,200 times (2 players) | 40 |
+| · | **Masons of the Weeping Stone** | Nether | Take Crying Obsidian from another player in the Nether 100 times (2 players) | 15 |
 | ◆ | **Medevac** | Nether | Carry a player below three hearts two hundred blocks on your Happy Ghast without them dying (2 players) | 65 |
+| ★ | **Midas Logistics** | Nether | Hand another player four or more Gold Ingots in the Nether 7,000 times (2 players) | 120 |
 | ◆ | **Netherite Deal** | Nether | Take a Netherite Ingot off another player and be seen in the Netherite Chestplate it became (2 players) | 160 |
+| ★ | **Nothing Left but Netherrack** | Nether | Take Nether Quartz from another player's hand 10,000 times (2 players) | 120 |
+| ◆ | **Nothing Left to Break** | Nether | Take 4,500 hits from other players in the Nether (2 players) | 40 |
 | ◆ | **Now Playing** | Nether | Spin Pigstep on a Jukebox using the disc another player looted for you (2 players) | 40 |
 | · | **Nugget Run** | Nether | Take Gold Nuggets from another player while you are both in the Nether (2 players) | 15 |
+| · | **Opened the Season** | Nether | Kill 5 players in the Nether (2 players) | 15 |
+| ★ | **Pain Is a Shared Language** | Nether | Take 60,000 hits from other players in the Nether (2 players) | 120 |
+| · | **Passing the Purse** | Nether | Hand another player four or more Gold Ingots in the Nether 30 times (2 players) | 15 |
 | · | **Pigstep Premiere** | Nether | Take the Pigstep disc off another player (2 players) | 15 |
+| ◆ | **Pillar Consortium** | Nether | Take Nether Quartz from another player's hand 500 times (2 players) | 40 |
+| · | **Pocket Change** | Nether | Hand another player four or more Gold Ingots in the Nether 10 times (2 players) | 15 |
 | · | **Portal Fund** | Nether | Take Obsidian from another player while the pair of you are stranded in the Nether (2 players) | 15 |
 | ◆ | **Powder Monkey** | Nether | Craft an Eye of Ender from Blaze Powder another player ground up for you (2 players) | 40 |
+| ★ | **Powder Monopoly** | Nether | Be handed a Blaze Rod inside a Nether Fortress 4,500 times (2 players) | 120 |
+| · | **Purple Consignment** | Nether | Take Crying Obsidian from another player in the Nether 16 times (2 players) | 15 |
+| ★ | **Purple Empire** | Nether | Take Crying Obsidian from another player in the Nether 7,500 times (2 players) | 120 |
+| · | **Quarrymen's Pact** | Nether | Take Nether Quartz from another player's hand 100 times (2 players) | 15 |
 | · | **Red Forest Rivals** | Nether | Split another player with an Axe in a Crimson Forest (2 players) | 15 |
+| · | **Red Rock Relay** | Nether | Hand another player a full stack of Netherrack 12 times (2 players) | 15 |
+| ◆ | **Respawn Infrastructure** | Nether | Take Crying Obsidian from another player in the Nether 3,200 times (2 players) | 40 |
+| · | **Respawn Somewhere Else** | Nether | Be killed by another player in the Nether 5 times (2 players) | 15 |
 | ★ | **Riding Two Deep** | Nether | Catch Crying Obsidian thrown from forty blocks away while sharing one Boat with another player (3 players) | 120 |
+| · | **Rod Ration** | Nether | Be handed a Blaze Rod inside a Nether Fortress 8 times (2 players) | 15 |
 | · | **Rod Runner** | Nether | Take Blaze Rods from another player inside the Nether Fortress you are raiding together (2 players) | 15 |
+| · | **Rubble Runner** | Nether | Hand another player a full stack of Netherrack 5 times (2 players) | 15 |
 | ◆ | **Scale Model** | Nether | Stand together in the Nether, then come out of two Overworld portals more than 800 blocks apart (2 players) | 30 |
+| ◆ | **Scar Tissue and Soot** | Nether | Take 1,800 hits from other players in the Nether (2 players) | 40 |
 | · | **Scrap Merchant** | Nether | Hand another player four Netherite Scrap in one go (2 players) | 15 |
 | · | **Second Home** | Nether | Place a Respawn Anchor another player crafted and threw to you (2 players) | 15 |
+| · | **Shovelled Their Way** | Nether | Hand another player a full stack of Netherrack 30 times (2 players) | 15 |
 | · | **Shroom Service** | Nether | Place a Shroomlight another player cut down for you (2 players) | 15 |
 | ★ | **Skull Session** | Nether | Summon the Wither with a Wither Skeleton Skull another player pulled out of the Nether for you (2 players) | 220 |
 | ★ | **Sky Lance** | Nether | Hit another player with a thrown Trident while you are both aboard Happy Ghasts (2 players) | 120 |
 | · | **Smelter's Cut** | Nether | Hand Netherite Scrap you smelted yourself to another player (2 players) | 15 |
+| ◆ | **Snout Economy** | Nether | Hand another player four or more Gold Ingots in the Nether 200 times (2 players) | 40 |
 | ◆ | **Snout to Snout** | Nether | Take a Snout Armour Trim from another player inside the Bastion Remnant it came out of (2 players) | 40 |
+| · | **Soaked the First Blow** | Nether | Take 20 hits from other players in the Nether (2 players) | 15 |
+| · | **Someone Else's Brew** | Nether | Take Fire Resistance from another player's brew 8 times in the Nether (2 players) | 15 |
+| · | **Somewhere to Respawn** | Nether | Take Crying Obsidian from another player in the Nether 40 times (2 players) | 15 |
+| ◆ | **Sorrow, Airmailed** | Nether | Lob a Ghast Tear across five blocks to another player 250 times (2 players) | 40 |
 | · | **Soul Debt** | Nether | Kill another player out in a Soul Sand Valley (2 players) | 15 |
 | · | **Soul Searching** | Nether | Kill another player with a Sword while you are both standing on Soul Sand (2 players) | 15 |
 | · | **Soul Shoes** | Nether | Take Netherite Boots off another player and be seen wearing them (2 players) | 15 |
 | · | **Soul Shot** | Nether | Put an arrow into another player while they stand on Soul Sand (2 players) | 15 |
 | ◆ | **Soul Sickness** | Nether | Take Slowness from another player's brew while you are standing on Soul Sand (2 players) | 40 |
 | · | **Soul Trader** | Nether | Take both Soul Sand and Soul Soil out of another player's hands (2 players) | 15 |
+| · | **Sparks Passed Along** | Nether | Be handed a Blaze Rod inside a Nether Fortress 20 times (2 players) | 15 |
+| · | **Sparring in the Smoke** | Nether | Land 60 melee hits on other players in the Nether (2 players) | 15 |
+| · | **Splitting the Vein** | Nether | Take Nether Quartz from another player's hand 10 times (2 players) | 15 |
+| ◆ | **Standing Orders: Fire Res** | Nether | Take Fire Resistance from another player's brew 300 times in the Nether (2 players) | 40 |
 | ★ | **Star Broker** | Nether | Hand another player a Nether Star and be handed a finished Beacon back (2 players) | 120 |
 | · | **Strider Chauffeur** | Nether | Hand a Warped Fungus on a Stick to a player already sitting on a Strider (2 players) | 15 |
 | ◆ | **Strider Rider** | Nether | Kill another player who is riding a Strider (2 players) | 40 |
 | ◆ | **Strider Service** | Nether | Be splashed with Fire Resistance by another player while you are riding a Strider (2 players) | 40 |
+| ◆ | **Tearful Tribute** | Nether | Lob a Ghast Tear across five blocks to another player 600 times (2 players) | 40 |
+| ◆ | **Terraformed by Committee** | Nether | Hand another player a full stack of Netherrack 1,000 times (2 players) | 40 |
+| ★ | **The Butcher's Bill** | Nether | Kill 7,000 players in the Nether (2 players) | 120 |
+| ★ | **The Everburning Covenant** | Nether | Take Fire Resistance from another player's brew 9,000 times in the Nether (2 players) | 120 |
+| ◆ | **The Gilded Payroll** | Nether | Hand another player four or more Gold Ingots in the Nether 500 times (2 players) | 40 |
+| ★ | **The Golden Aqueduct** | Nether | Hand another player four or more Gold Ingots in the Nether 15,000 times (2 players) | 120 |
+| ★ | **The Lachrymose Ledger** | Nether | Lob a Ghast Tear across five blocks to another player 8,000 times (2 players) | 120 |
+| ★ | **The Long Feud** | Nether | Land 15,000 melee hits on other players in the Nether (2 players) | 120 |
+| · | **The Medic's Rounds** | Nether | Take Fire Resistance from another player's brew 50 times in the Nether (2 players) | 15 |
+| ◆ | **The Nether Belongs to Me** | Nether | Kill 450 players in the Nether (2 players) | 40 |
 | ◆ | **The Nether Express** | Nether | Have four players pass through the same Nether portal within ten seconds (4 players) | 55 |
+| ◆ | **The Obsidian Underground** | Nether | Take Crying Obsidian from another player in the Nether 600 times (2 players) | 40 |
+| ◆ | **The Potion Pipeline** | Nether | Take Fire Resistance from another player's brew 700 times in the Nether (2 players) | 40 |
+| ◆ | **The Punching Post** | Nether | Take 750 hits from other players in the Nether (2 players) | 40 |
+| ◆ | **The Quartz Exchange** | Nether | Take Nether Quartz from another player's hand 250 times (2 players) | 40 |
+| ★ | **The Red Tide** | Nether | Hand another player a full stack of Netherrack 2,500 times (2 players) | 120 |
+| ◆ | **The Repeat Offering** | Nether | Be killed by another player in the Nether 500 times (2 players) | 40 |
+| ◆ | **The Rod Syndicate** | Nether | Be handed a Blaze Rod inside a Nether Fortress 1,800 times (2 players) | 40 |
+| · | **The Weeping Trade** | Nether | Lob a Ghast Tear across five blocks to another player 100 times (2 players) | 15 |
 | ★ | **Three-Man Lift** | Nether | Catch a Nether Star thrown from forty blocks away while a second player rides your Happy Ghast over the Nether (3 players) | 120 |
 | ◆ | **Through the Looking Glass** | Nether | Share one Boat with another player on both sides of a Nether portal (2 players) | 70 |
+| · | **Tossed a Tear** | Nether | Lob a Ghast Tear across five blocks to another player 5 times (2 players) | 15 |
 | ◆ | **Toxic Bastion** | Nether | Kill another player inside a Bastion Remnant while they are Poisoned (2 players) | 40 |
+| ★ | **Unburnt by Their Grace** | Nether | Take Fire Resistance from another player's brew 20,000 times in the Nether (2 players) | 120 |
 | ◆ | **Upgrade Sponsor** | Nether | Forge a Netherite Sword using an Upgrade Template another player handed you (2 players) | 40 |
+| ◆ | **Vaults Between Friends** | Nether | Hand another player four or more Gold Ingots in the Nether 1,200 times (2 players) | 40 |
+| ◆ | **Vein Barons** | Nether | Take Nether Quartz from another player's hand 1,000 times (2 players) | 40 |
 | · | **Vine Supply** | Nether | Take both Twisting Vines and Weeping Vines from another player (2 players) | 15 |
+| ◆ | **Warlord of the Waste** | Nether | Land 6,000 melee hits on other players in the Nether (2 players) | 40 |
 | · | **Warped Export** | Nether | Hand another player Warped Planks and Warped Hyphae back in the Overworld (2 players) | 15 |
 | · | **Warped Perspective** | Nether | Kill another player among the blue trees of a Warped Forest (2 players) | 15 |
 | · | **Wart Share** | Nether | Plant Nether Wart another player pulled out of a Fortress (2 players) | 15 |
+| ★ | **Wealth Beyond Bartering** | Nether | Hand another player four or more Gold Ingots in the Nether 32,000 times (2 players) | 120 |
 | · | **Weeping Wall** | Nether | Place Crying Obsidian that another player bartered for and handed over (2 players) | 15 |
+| ★ | **Wept the Nether Dry** | Nether | Lob a Ghast Tear across five blocks to another player 18,000 times (2 players) | 120 |
+| · | **White Seam Traffic** | Nether | Take Nether Quartz from another player's hand 50 times (2 players) | 15 |
+| · | **Widowmaker of the Waste** | Nether | Kill 75 players in the Nether (2 players) | 15 |
 | · | **Withering Welcome** | Nether | Take a hit from another player in the Nether while the Wither's decay is on you (2 players) | 15 |
 
 <details><summary>How these are detected</summary>
@@ -750,90 +1713,196 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ★ | **A Career In Frailty** | Potions | Be given Weakness by another player 1,200 times (2 players) | 120 |
+| ◆ | **A Rumour Of People** | Potions | Be turned Invisible by another player 500 times (2 players) | 40 |
+| · | **A Taste Of Spite** | Potions | Be Poisoned by another player 8 times (2 players) | 15 |
 | · | **Acid Rain** | Potions | Drop a Splash Potion of Harming on another player (2 players) | 15 |
 | · | **Air Supply** | Potions | Have another player splash you with Water Breathing while you are underwater (2 players) | 25 |
+| ◆ | **Alchemical Artillery** | Potions | Hurt another player with a thrown Splash Potion 380 times (2 players) | 40 |
+| ◆ | **All Strength Spent** | Potions | Be given Weakness by another player 95 times (2 players) | 40 |
 | ★ | **Apothecary Wars** | Potions | Take a Harming splash from another player while carrying Poison, Slowness, Weakness, Oozing, Weaving, Wind Charged and Infested, then put an arrow into a player from close range whose eyes are on somebody far off (3 players) | 120 |
 | ◆ | **Apothecary's Duel** | Potions | Splash another player with Harming and take a Harming splash from a player straight back (2 players) | 40 |
+| ★ | **Arm Of The Pack** | Potions | Be given Strength by another player 1,500 times (2 players) | 120 |
+| ★ | **Ash Immune** | Potions | Be given Fire Resistance by another player 2,800 times (2 players) | 120 |
 | ★ | **Bad Batch** | Potions | Have another player inflict Poison, Weakness, Slowness, Oozing, Weaving, Infestation and Wind Charging on you (2 players) | 120 |
 | ◆ | **Bad Influence** | Potions | Drink an Ominous Bottle a teammate handed you, then go on to win the raid (2 players) | 60 |
 | · | **Ball and Chain** | Potions | Be slowed to a crawl by another player's Splash Potion of Slowness (2 players) | 15 |
+| ★ | **Bathhouse Of The Damned** | Potions | Be given Fire Resistance by another player 1,200 times (2 players) | 120 |
 | ◆ | **Beacon Pharmacy** | Potions | Take Regeneration and Strength from another player while a Beacon holds you under Resistance (2 players) | 40 |
 | · | **Beam Top-Up** | Potions | Be splashed with Strength by another player while a Beacon is giving you Haste (2 players) | 15 |
 | · | **Bitter Draught** | Potions | Hand Nether Wart to another player standing in a Nether Fortress (2 players) | 15 |
 | · | **Bitter Medicine** | Potions | Kill another player while Regeneration is still ticking on them (2 players) | 15 |
+| ◆ | **Blur Detail** | Potions | Be given Speed by another player 400 times (2 players) | 40 |
+| · | **Borrowed Muscle** | Potions | Be given Strength by another player 8 times (2 players) | 15 |
+| · | **Bottle Barrage** | Potions | Hurt another player with a thrown Splash Potion 30 times (2 players) | 15 |
 | · | **Bounce Pass** | Potions | Have another player land Jump Boost on you from at least five blocks of vertical separation (2 players) | 15 |
+| ◆ | **Breath Merchant** | Potions | Pick up 165 Lingering Potions thrown to you by another player (2 players) | 40 |
 | · | **Breath Work** | Potions | Take a Bottle of Dragon's Breath off another player (2 players) | 15 |
+| ◆ | **Breathing on Credit** | Potions | Be given Water Breathing by another player 150 times (2 players) | 40 |
+| · | **Buddy Breathing** | Potions | Be given Water Breathing by another player 12 times (2 players) | 15 |
 | · | **Bug Bomb** | Potions | Be seeded with Infested by another player's Splash Potion (2 players) | 15 |
+| · | **Cat's Eyes** | Potions | Be given Night Vision by another player 12 times (2 players) | 15 |
 | ◆ | **Catch the Fall** | Potions | Be caught in mid-air by another player's Splash Potion of Slow Falling (2 players) | 40 |
 | · | **Caught Mid-Air** | Potions | Get Slow Falling from another player while your feet are off the ground (2 players) | 15 |
 | · | **Caveat Emptor** | Potions | Drink a Potion of Harming that another player handed you (2 players) | 30 |
+| ◆ | **Chalice Of Friends** | Potions | Be Poisoned by another player 260 times (2 players) | 40 |
 | ◆ | **Chemical Warfare** | Potions | Poison three different players with a single Lingering Potion (3 players) | 40 |
+| ◆ | **Chief of Medicine** | Potions | Be given Regeneration by another player 380 times (2 players) | 40 |
+| ◆ | **Cinderproof** | Potions | Be given Fire Resistance by another player 500 times (2 players) | 40 |
+| ◆ | **Cloud Consignment** | Potions | Pick up 70 Lingering Potions thrown to you by another player (2 players) | 40 |
+| ◆ | **Clouds Left Behind** | Potions | Pick up 400 Lingering Potions thrown to you by another player (2 players) | 40 |
+| · | **Convalescence** | Potions | Be given Regeneration by another player 70 times (2 players) | 15 |
 | ◆ | **Cross-Purposes** | Potions | Be sped up by another player while Slowness is still weighing you down (2 players) | 40 |
+| · | **Dark Adapted** | Potions | Be given Night Vision by another player 30 times (2 players) | 15 |
 | ◆ | **Deadshot** | Potions | Kill another player with a Tipped Arrow of Harming (2 players) | 40 |
+| ★ | **Death Takes A Number** | Potions | Be given Regeneration by another player 9,000 times (2 players) | 120 |
 | · | **Detox** | Potions | Drink a Milk Bucket another player gave you to wash the Wither effect off (2 players) | 30 |
+| ◆ | **Diminished By Design** | Potions | Be given Weakness by another player 520 times (2 players) | 40 |
+| · | **Dipped In Magma** | Potions | Be given Fire Resistance by another player 15 times (2 players) | 15 |
 | · | **Disarmed** | Potions | Have the strength splashed out of your arms by another player's Potion of Weakness (2 players) | 15 |
+| ★ | **Distribution Network** | Potions | Pick up 2,200 Lingering Potions thrown to you by another player (2 players) | 120 |
 | · | **Do As I Say** | Potions | Get poisoned by a player who is comfortably under Regeneration themselves (2 players) | 15 |
+| ◆ | **Doping Ring** | Potions | Be given Speed by another player 165 times (2 players) | 40 |
 | · | **Double Dose** | Potions | Take Poison II off another player's brew (2 players) | 15 |
+| · | **Down To The Wreck** | Potions | Be given Water Breathing by another player 65 times (2 players) | 15 |
+| ★ | **Every Cloud Has A Sender** | Potions | Pick up 5,000 Lingering Potions thrown to you by another player (2 players) | 120 |
+| ★ | **Everyone Gets A Dose** | Potions | Be Poisoned by another player 1,400 times (2 players) | 120 |
+| ★ | **Faster Than The Message** | Potions | Be given Speed by another player 2,200 times (2 players) | 120 |
 | ◆ | **Fermentation Partners** | Potions | Take every Nether brewing reagent from another player: Nether Wart, Blaze Powder, Magma Cream and a Ghast Tear (2 players) | 40 |
+| · | **Field Dressing** | Potions | Be given Regeneration by another player 12 times (2 players) | 15 |
 | ◆ | **Field Medic** | Potions | Heal a player who is below three hearts with a Splash Potion of Regeneration (2 players) | 45 |
 | ◆ | **Fireproof Friendship** | Potions | Be splashed with Fire Resistance by another player while you are standing in lava (2 players) | 55 |
+| · | **First Aid** | Potions | Be given Regeneration by another player 5 times (2 players) | 15 |
+| ★ | **Fog Wholesaler** | Potions | Pick up 950 Lingering Potions thrown to you by another player (2 players) | 120 |
 | · | **Fuel Supply** | Potions | Set up a Brewing Stand with Blaze Powder another player supplied (2 players) | 15 |
 | ★ | **Full Course of Treatment** | Potions | Have another player put Speed, Strength, Jump Boost, Regeneration, Fire Resistance, Water Breathing, Night Vision, Invisibility and Slow Falling on you (2 players) | 120 |
 | ★ | **Full Quiver** | Potions | Put a Tipped Arrow of Poison, Harming, Slowness, Weakness, Weaving, Oozing, Infested and Wind Charged into another player (2 players) | 120 |
 | ◆ | **Gas Attack** | Potions | Kill another player with a Lingering Potion cloud (2 players) | 40 |
 | · | **Ghost Detail** | Potions | Be turned invisible by another player's potion while you are sneaking (2 players) | 15 |
+| · | **Ghosted** | Potions | Be turned Invisible by another player 8 times (2 players) | 15 |
+| · | **Given The Slip** | Potions | Be turned Invisible by another player 3 times (2 players) | 15 |
 | ◆ | **Group Buff** | Potions | Have four players together share an identical set of three or more effects (4 players) | 50 |
 | · | **Gut Punch** | Potions | Take a Splash Potion of Harming full in the chest from another player (2 players) | 15 |
 | · | **Hamstrung** | Potions | Be splashed with Slowness by another player while you are sprinting (2 players) | 15 |
+| · | **Handed A Bigger Fist** | Potions | Be given Strength by another player 20 times (2 players) | 15 |
 | · | **Heatproof Handover** | Potions | Hand Magma Cream to a player who is already under Fire Resistance (2 players) | 15 |
 | ★ | **Hexed Hunt** | Potions | Kill another player who is carrying Poison, Wither, Slowness, Weakness and Hunger all at once (2 players) | 120 |
 | · | **Hobbling Shot** | Potions | Cripple another player with a Tipped Arrow of Slowness (2 players) | 15 |
 | ◆ | **Hospital Wing** | Potions | Bring every online player from under two hearts back to full health inside one minute (2 players) | 40 |
+| · | **Ill Will** | Potions | Be Poisoned by another player 20 times (2 players) | 15 |
 | ◆ | **Invisible Hand** | Potions | Be given Strength by a player who is invisible at the time (2 players) | 40 |
+| ◆ | **Juiced Up** | Potions | Be given Strength by another player 120 times (2 players) | 40 |
+| · | **Lava Buddy** | Potions | Be given Fire Resistance by another player 38 times (2 players) | 15 |
+| ★ | **Legend Without A Witness** | Potions | Be turned Invisible by another player 5,500 times (2 players) | 120 |
+| · | **Lend A Lantern** | Potions | Be given Night Vision by another player 5 times (2 players) | 15 |
 | · | **Lend Me Your Eyes** | Potions | Be given Night Vision by another player while you are standing in pitch darkness (2 players) | 15 |
 | · | **Lights On** | Potions | Take Night Vision from another player's Splash Potion while you are below Y=0 (2 players) | 15 |
 | · | **Limp Grip** | Potions | Be splashed with Weakness by another player while you are holding a Netherite Sword (2 players) | 15 |
+| · | **Lobbed It** | Potions | Hurt another player with a thrown Splash Potion 5 times (2 players) | 15 |
+| ★ | **Lungs Of The Deep** | Potions | Be given Water Breathing by another player 1,800 times (2 players) | 120 |
 | · | **Malpractice** | Potions | Be splashed with Poison by another player while you are already carrying Regeneration (2 players) | 15 |
 | · | **Marco Polo** | Potions | Look straight at a player who has the Invisibility effect, from within three blocks (2 players) | 55 |
 | · | **Marked Man** | Potions | Be lit up with Glowing by another player's Spectral Arrow (2 players) | 15 |
 | · | **Milk Run** | Potions | Hand a Bucket of Milk to a player who is Poisoned, so they can wash it off (2 players) | 15 |
 | · | **Needle Point** | Potions | Put an Arrow of Poison into another player (2 players) | 15 |
 | · | **No Hard Feelings** | Potions | Be splashed with Weakness by another player, then be splashed with Strength to make up for it (2 players) | 15 |
+| ◆ | **Nobody Surfaces Alone** | Potions | Be given Water Breathing by another player 800 times (2 players) | 40 |
+| ★ | **Nobody Was Ever Here** | Potions | Be turned Invisible by another player 2,500 times (2 players) | 120 |
+| · | **Noodle Arms** | Potions | Be given Weakness by another player 40 times (2 players) | 15 |
+| ★ | **Nothing Dies On My Watch** | Potions | Be given Regeneration by another player 1,900 times (2 players) | 120 |
+| ◆ | **Nothing Hides From Us** | Potions | Be given Night Vision by another player 380 times (2 players) | 40 |
+| ★ | **Nothing Left In The Arms** | Potions | Be given Weakness by another player 2,800 times (2 players) | 120 |
 | · | **Now You Don't** | Potions | Be made invisible by another player's Splash Potion of Invisibility (2 players) | 15 |
 | ◆ | **Now You See Them** | Potions | Kill another player while they are Invisible (2 players) | 40 |
+| ◆ | **Ocean Floor Shift** | Potions | Be given Water Breathing by another player 350 times (2 players) | 40 |
 | · | **Ooze Bomb** | Potions | Load another player up with Oozing using a Tipped Arrow (2 players) | 15 |
+| · | **Out Of Sight, Out Of Mind** | Potions | Be turned Invisible by another player 42 times (2 players) | 15 |
+| ★ | **Outrunning Daylight** | Potions | Be given Speed by another player 5,000 times (2 players) | 120 |
+| ◆ | **Owl Shift** | Potions | Be given Night Vision by another player 165 times (2 players) | 40 |
+| · | **Pace Car** | Potions | Be given Speed by another player 30 times (2 players) | 15 |
 | · | **Pace Setter** | Potions | Take Speed II from another player's Splash Potion while you are already sprinting (2 players) | 15 |
 | ◆ | **Patient Zero** | Potions | Take Poison, Slowness and Weakness together from a player at least ten blocks away while you stand face to face with a different player, then die to a player with all three still on you (3 players) | 40 |
 | · | **Pest Control** | Potions | Be splashed with a Potion of Infested by another player (2 players) | 15 |
+| ◆ | **Phantom Detail** | Potions | Be turned Invisible by another player 95 times (2 players) | 40 |
 | ◆ | **Pharmacy Run** | Potions | Hand out Potions of Healing, Strength and Swiftness to other players (2 players) | 60 |
 | · | **Pinned Down** | Potions | Be slowed by another player while you are holding a Trident (2 players) | 15 |
 | ★ | **Plague Doctor** | Potions | Have other players dose you with Poison, Slowness, Weakness, Oozing, Weaving, Wind Charged and Infested (2 players) | 120 |
 | ★ | **Plague Ward** | Potions | Be handed Regeneration by another player while Poison, Wither, Weakness, Slowness and Hunger are all eating at you (2 players) | 120 |
+| ◆ | **Poisoner's Guild** | Potions | Be Poisoned by another player 110 times (2 players) | 40 |
 | · | **Prep the Cure** | Potions | Have another player weaken you while you are holding a Golden Apple (2 players) | 15 |
+| · | **Push Off** | Potions | Be given Speed by another player 5 times (2 players) | 15 |
 | ◆ | **Quiver of Spite** | Potions | Land Arrows of Poison, Slowness, Weakness and Harming on other players (2 players) | 40 |
+| ◆ | **Rain Of Glass** | Potions | Hurt another player with a thrown Splash Potion 160 times (2 players) | 40 |
+| · | **Relay Leg** | Potions | Be given Speed by another player 70 times (2 players) | 15 |
+| · | **Restock The Fog** | Potions | Pick up 30 Lingering Potions thrown to you by another player (2 players) | 15 |
+| ★ | **Resurrectionist** | Potions | Be given Regeneration by another player 4,200 times (2 players) | 120 |
 | · | **Salt in the Wound** | Potions | Take a hit from another player while you are already Poisoned (2 players) | 15 |
+| · | **Sapped** | Potions | Be given Weakness by another player 16 times (2 players) | 15 |
+| ◆ | **Saturation Bombing** | Potions | Hurt another player with a thrown Splash Potion 850 times (2 players) | 40 |
+| ★ | **Sea-Given Breath** | Potions | Be given Water Breathing by another player 9,000 times (2 players) | 120 |
 | · | **Second Opinion** | Potions | Be given Regeneration by another player while Poison is still running through you (2 players) | 15 |
 | ◆ | **Second-Hand Venom** | Potions | Hand a Poisonous Potato to a player who is already Poisoned (2 players) | 40 |
+| · | **Shared Lungs** | Potions | Be given Water Breathing by another player 5 times (2 players) | 15 |
 | ◆ | **Shared Misery** | Potions | Carry Poison, Slowness and Weakness all at once, the last of them splashed onto you by another player (2 players) | 40 |
 | · | **Sharpshooter Surgeon** | Potions | Patch a teammate up by shooting them with an Arrow of Healing (2 players) | 25 |
+| · | **Shatter Radius** | Potions | Hurt another player with a thrown Splash Potion 12 times (2 players) | 15 |
 | · | **Shell Shock** | Potions | Be locked down by another player's Splash Potion of the Turtle Master (2 players) | 15 |
 | ◆ | **Shell Shocked** | Potions | Kill another player who is hiding behind a Potion of the Turtle Master (2 players) | 40 |
+| ◆ | **Siege Strength** | Potions | Be given Strength by another player 280 times (2 players) | 40 |
+| ★ | **Sightgiver** | Potions | Be given Night Vision by another player 2,000 times (2 players) | 120 |
+| · | **Signed For** | Potions | Pick up 5 Lingering Potions thrown to you by another player (2 players) | 15 |
 | · | **Silk Trap** | Potions | Web another player up with a Tipped Arrow of Weaving (2 players) | 15 |
+| ★ | **Sky Full Of Corks** | Potions | Hurt another player with a thrown Splash Potion 4,200 times (2 players) | 120 |
 | · | **Slime Courier** | Potions | Be dosed with Oozing by another player while you are standing on a Slime Block (2 players) | 15 |
+| · | **Slipstream** | Potions | Be given Speed by another player 12 times (2 players) | 15 |
+| ◆ | **Slow Green Death** | Potions | Be Poisoned by another player 600 times (2 players) | 40 |
 | ★ | **Sniper's Pharmacy** | Potions | Take Regeneration, Poison, Slowness, Weakness and Speed off a player standing at least twenty-five blocks away each time (2 players) | 120 |
+| · | **Someone Else's Insurance** | Potions | Be given Fire Resistance by another player 6 times (2 players) | 15 |
+| ◆ | **Sonic Courier** | Potions | Be given Speed by another player 950 times (2 players) | 40 |
+| ◆ | **Stitched Back Together** | Potions | Be given Regeneration by another player 850 times (2 players) | 40 |
 | · | **Stop, Drop and Roll** | Potions | Put out a burning player with a Splash Water Bottle (2 players) | 30 |
+| ★ | **Strength Is A Gift** | Potions | Be given Strength by another player 7,500 times (2 players) | 120 |
 | · | **Tailwind Gift** | Potions | Be dosed with Wind Charging by another player while your feet are off the ground (2 players) | 15 |
 | · | **Tangled Together** | Potions | Be dosed with Weaving by another player while you are stuck in a Cobweb (2 players) | 15 |
+| ★ | **Ten Men In One** | Potions | Be given Strength by another player 3,400 times (2 players) | 120 |
+| ◆ | **The Attending Physician** | Potions | Be given Regeneration by another player 160 times (2 players) | 40 |
+| ★ | **The Bottle Blitz** | Potions | Hurt another player with a thrown Splash Potion 1,900 times (2 players) | 120 |
+| · | **The Cornerman** | Potions | Be given Strength by another player 50 times (2 players) | 15 |
+| ★ | **The Dark Has No Corners** | Potions | Be given Night Vision by another player 4,500 times (2 players) | 120 |
+| · | **The Dive Master** | Potions | Be given Water Breathing by another player 28 times (2 players) | 15 |
+| · | **The Dragon's Courier** | Potions | Pick up 12 Lingering Potions thrown to you by another player (2 players) | 15 |
+| ★ | **The Drowned Do Not Claim Us** | Potions | Be given Water Breathing by another player 4,000 times (2 players) | 120 |
+| ◆ | **The Empty Room Trick** | Potions | Be turned Invisible by another player 1,100 times (2 players) | 40 |
+| ◆ | **The Feeble Hour** | Potions | Be given Weakness by another player 220 times (2 players) | 40 |
+| ◆ | **The Fire Marshal** | Potions | Be given Fire Resistance by another player 90 times (2 players) | 40 |
+| · | **The Green Gift** | Potions | Be Poisoned by another player 48 times (2 players) | 15 |
+| ★ | **The Long Rot** | Potions | Be Poisoned by another player 7,000 times (2 players) | 120 |
+| · | **The Lookout's Gift** | Potions | Be given Night Vision by another player 70 times (2 players) | 15 |
+| · | **The Pitcher's Arm** | Potions | Hurt another player with a thrown Splash Potion 70 times (2 players) | 15 |
+| ★ | **The Unburnt Crew** | Potions | Be given Fire Resistance by another player 6,500 times (2 players) | 120 |
+| · | **The Vanishing Crew** | Potions | Be turned Invisible by another player 18 times (2 players) | 15 |
 | · | **The Weakest Link** | Potions | Kill another player while they are under the Weakness effect (2 players) | 25 |
+| ◆ | **Titan Draught** | Potions | Be given Strength by another player 650 times (2 players) | 40 |
 | · | **Tortoise Team** | Potions | Take Slowness and Resistance together from another player's Potion of the Turtle Master (2 players) | 15 |
 | ◆ | **Tortoise and the Hare** | Potions | Be hit with a Potion of the Turtle Master by another player, then be cut down by a player while you are still crawling (2 players) | 40 |
+| ★ | **Total Chemical Superiority** | Potions | Hurt another player with a thrown Splash Potion 9,000 times (2 players) | 120 |
 | · | **Toxic Shock** | Potions | Finish off another player while Poison is still eating away at them (2 players) | 15 |
 | ◆ | **Trauma Team** | Potions | Carry Regeneration, Strength, Swiftness, Fire Resistance and Resistance all at once, the last of them splashed onto you by another player (2 players) | 140 |
 | ◆ | **Triage** | Potions | Heal three players who are all below three hearts with a single Splash Potion of Healing (3 players) | 80 |
 | ◆ | **Triple Dose** | Potions | Carry Speed, Strength and Jump Boost all at once, the last of them thrown onto you by another player (2 players) | 40 |
 | ◆ | **Two Fronts** | Potions | Take a Poison splash from a player at least ten blocks away while you stand face to face with a different player (3 players) | 40 |
+| ◆ | **Two Sets Of Eyes** | Potions | Be given Night Vision by another player 900 times (2 players) | 40 |
 | · | **Uninvited Guests** | Potions | Be dosed with Infestation by another player while you are standing on Deepslate (2 players) | 15 |
+| ◆ | **Unseen Hands** | Potions | Be turned Invisible by another player 220 times (2 players) | 40 |
+| ★ | **Velocity Cartel** | Potions | Be given Speed by another player 11,000 times (2 players) | 120 |
 | · | **Venom Dart** | Potions | Put a Tipped Arrow of Poison into another player (2 players) | 15 |
+| ★ | **Venom Economy** | Potions | Be Poisoned by another player 3,200 times (2 players) | 120 |
+| ◆ | **Walk With Me Through Fire** | Potions | Be given Fire Resistance by another player 210 times (2 players) | 40 |
+| · | **Ward Rounds** | Potions | Be given Regeneration by another player 30 times (2 players) | 15 |
+| ★ | **We Are Not Here** | Potions | Be turned Invisible by another player 12,000 times (2 players) | 120 |
+| ★ | **We See Everything** | Potions | Be given Night Vision by another player 10,000 times (2 players) | 120 |
+| · | **Weak Sauce** | Potions | Be given Weakness by another player 6 times (2 players) | 15 |
+| ★ | **Weakness Is A Team Sport** | Potions | Be given Weakness by another player 6,500 times (2 players) | 120 |
 | · | **Windswept** | Potions | Prime another player with Wind Charged using a Tipped Arrow (2 players) | 15 |
 
 <details><summary>How these are detected</summary>
@@ -862,29 +1931,130 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
 | · | **Assembly Line** | Redstone | Take five Iron Ingots from one player and a Chest from another, craft a Hopper, and hand it on down the line (2 players) | 110 |
+| ★ | **Automated Medicine** | Redstone | Be given Speed by another player's brew 1,600 times (2 players) | 120 |
+| ★ | **Better Living Through Redstone** | Redstone | Be given Speed by another player's brew 3,500 times (2 players) | 120 |
+| ★ | **Blood on the Tracks** | Redstone | Land 4,800 hits on another player while they ride a Minecart (2 players) | 120 |
+| · | **Borrowed Delay** | Redstone | Throw 10 Redstone Repeaters for another player to pick up (2 players) | 15 |
+| ◆ | **Bottled and Delivered** | Redstone | Be given Speed by another player's brew 320 times (2 players) | 40 |
+| · | **Branch Line** | Redstone | Throw 64 Rails of any kind for another player to pick up (2 players) | 15 |
+| ★ | **Bulb Baron** | Redstone | Throw 2,000 Copper Bulbs for another player to pick up (2 players) | 120 |
+| · | **Bulb Exchange** | Redstone | Throw 4 Copper Bulbs for another player to pick up (2 players) | 15 |
 | · | **Bumper Carts** | Redstone | Ram another player's Minecart hard enough to stop you both dead (2 players) | 25 |
+| · | **Cart Depot** | Redstone | Pick up 42 Minecarts of any kind dropped for you by another player (2 players) | 15 |
+| · | **Cart Tap** | Redstone | Land 8 hits on another player while they ride a Minecart (2 players) | 15 |
+| ★ | **Cart Tycoon** | Redstone | Pick up 2,000 Minecarts of any kind dropped for you by another player (2 players) | 120 |
+| · | **Circuit of Two** | Redstone | Pick up 32 Redstone Dust dropped for you by another player (2 players) | 15 |
+| ★ | **City Lights** | Redstone | Throw 900 Copper Bulbs for another player to pick up (2 players) | 120 |
+| ★ | **Clockwork Partners** | Redstone | Throw 1,100 Redstone Repeaters for another player to pick up (2 players) | 120 |
+| ◆ | **Commuter Rage** | Redstone | Land 200 hits on another player while they ride a Minecart (2 players) | 40 |
+| ★ | **Comparator Cartel** | Redstone | Pick up 1,000 Redstone Comparators dropped for you by another player (2 players) | 120 |
+| · | **Comparing Notes** | Redstone | Pick up 10 Redstone Comparators dropped for you by another player (2 players) | 15 |
+| · | **Container Reader** | Redstone | Pick up 44 Redstone Comparators dropped for you by another player (2 players) | 15 |
 | ◆ | **Conveyor Belt** | Redstone | Float an item down a water channel to a player standing fifty blocks away (2 players) | 60 |
 | ◆ | **Convoy** | Redstone | Four players rolling along in four Minecarts at the same time (4 players) | 55 |
+| ◆ | **Delay Merchants** | Redstone | Throw 105 Redstone Repeaters for another player to pick up (2 players) | 40 |
+| ◆ | **Dispensary** | Redstone | Be given Speed by another player's brew 700 times (2 players) | 40 |
+| · | **Dispensed Care** | Redstone | Be given Speed by another player's brew 12 times (2 players) | 15 |
+| · | **Downrange** | Redstone | Take 25 projectile hits from another player standing at least three blocks away (2 players) | 15 |
 | ◆ | **Drag Strip** | Redstone | Race another player in Minecarts on parallel rails, side by side within four blocks at full speed (2 players) | 65 |
 | ◆ | **Drive-By** | Redstone | Kill another player while you are hurtling past in a Minecart (2 players) | 40 |
+| ★ | **Dust Baron** | Redstone | Pick up 4,096 Redstone Dust dropped for you by another player (2 players) | 120 |
+| · | **Dust Courier** | Redstone | Pick up 16 Redstone Dust dropped for you by another player (2 players) | 15 |
+| · | **Dust to Dust to You** | Redstone | Pick up 64 Redstone Dust dropped for you by another player (2 players) | 15 |
+| · | **Elbows Out** | Redstone | Land 18 hits on another player while they ride a Minecart (2 players) | 15 |
+| ◆ | **Extended Family** | Redstone | Throw 120 Pistons or Sticky Pistons for another player to pick up (2 players) | 40 |
+| · | **Eyes on You** | Redstone | Pick up 45 Observers dropped for you by another player (2 players) | 15 |
+| ◆ | **Facing Each Other** | Redstone | Pick up 100 Observers dropped for you by another player (2 players) | 40 |
+| ★ | **Fifteen Out of Fifteen** | Redstone | Pick up 2,200 Redstone Comparators dropped for you by another player (2 players) | 120 |
+| · | **First Dose** | Redstone | Be given Speed by another player's brew 5 times (2 players) | 15 |
+| ★ | **Fleet Expansion** | Redstone | Pick up 950 Minecarts of any kind dropped for you by another player (2 players) | 120 |
+| ◆ | **Flying Machine Parts** | Redstone | Throw 560 Pistons or Sticky Pistons for another player to pick up (2 players) | 40 |
 | · | **Freight Forwarder** | Redstone | Hand another player a Shulker Box while you are riding a Minecart (2 players) | 15 |
+| ◆ | **Full Contact Commute** | Redstone | Land 450 hits on another player while they ride a Minecart (2 players) | 40 |
 | ◆ | **Ghost Train** | Redstone | Take a Chest Minecart through a Nether portal and hand it to another player on the far side (2 players) | 55 |
+| ◆ | **Grid Connection** | Redstone | Pick up 256 Redstone Dust dropped for you by another player (2 players) | 40 |
+| ◆ | **Holding the Bullseye** | Redstone | Take 270 projectile hits from another player standing at least three blocks away (2 players) | 40 |
+| ◆ | **Human Target** | Redstone | Take 120 projectile hits from another player standing at least three blocks away (2 players) | 40 |
+| ★ | **Industrial Push** | Redstone | Throw 1,200 Pistons or Sticky Pistons for another player to pick up (2 players) | 120 |
+| · | **Laying the Line** | Redstone | Throw 32 Rails of any kind for another player to pick up (2 players) | 15 |
+| ◆ | **Levels of Agreement** | Redstone | Pick up 96 Redstone Comparators dropped for you by another player (2 players) | 40 |
+| ◆ | **Main Line** | Redstone | Throw 150 Rails of any kind for another player to pick up (2 players) | 40 |
+| · | **Measure Twice** | Redstone | Pick up 5 Redstone Comparators dropped for you by another player (2 players) | 15 |
 | · | **Mind the Gap** | Redstone | Lay the rail ahead of another player's rolling Minecart (2 players) | 25 |
+| · | **Mutual Pushing** | Redstone | Throw 12 Pistons or Sticky Pistons for another player to pick up (2 players) | 15 |
+| ★ | **National Grid** | Redstone | Pick up 2,048 Redstone Dust dropped for you by another player (2 players) | 120 |
+| ★ | **Nothing But Arrows** | Redstone | Take 2,800 projectile hits from another player standing at least three blocks away (2 players) | 120 |
+| ★ | **Nothing Goes Unseen** | Redstone | Pick up 2,500 Observers dropped for you by another player (2 players) | 120 |
+| ★ | **Observer Effect** | Redstone | Pick up 1,100 Observers dropped for you by another player (2 players) | 120 |
 | · | **Ore Consignment** | Redstone | Take a Silk Touched Nether Quartz Ore block from another player (2 players) | 15 |
 | · | **Park and Ride** | Redstone | Ride a Minecart another player handed you (2 players) | 25 |
+| · | **Passing Blows** | Redstone | Land 90 hits on another player while they ride a Minecart (2 players) | 15 |
+| ◆ | **Patina Partners** | Redstone | Throw 88 Copper Bulbs for another player to pick up (2 players) | 40 |
+| ★ | **Piston Foundry** | Redstone | Throw 2,600 Pistons or Sticky Pistons for another player to pick up (2 players) | 120 |
+| · | **Pocket of Dust** | Redstone | Pick up 4 Redstone Dust dropped for you by another player (2 players) | 15 |
+| ★ | **Powder Cartel** | Redstone | Pick up 1,024 Redstone Dust dropped for you by another player (2 players) | 120 |
+| · | **Powder Runner** | Redstone | Pick up 8 Redstone Dust dropped for you by another player (2 players) | 15 |
+| · | **Powered by Copper** | Redstone | Throw 8 Copper Bulbs for another player to pick up (2 players) | 15 |
+| · | **Pulse Check** | Redstone | Pick up 20 Observers dropped for you by another player (2 players) | 15 |
 | ◆ | **Quartz Consortium** | Redstone | Have another player hand you all five carved forms of Quartz (2 players) | 40 |
 | · | **Quartz Courier** | Redstone | Hand Nether Quartz to another player down in the Nether (2 players) | 15 |
+| ★ | **Rail Baron** | Redstone | Throw 1,800 Rails of any kind for another player to pick up (2 players) | 120 |
 | ◆ | **Rail Retrieval** | Redstone | Lay rail through the Nether and take delivery of a Chest Minecart from another player (2 players) | 40 |
+| · | **Range Day** | Redstone | Take 55 projectile hits from another player standing at least three blocks away (2 players) | 15 |
+| · | **Read My Signal** | Redstone | Pick up 20 Redstone Comparators dropped for you by another player (2 players) | 15 |
+| · | **Repeat Business** | Redstone | Throw 48 Redstone Repeaters for another player to pick up (2 players) | 15 |
+| · | **Repeat Prescription** | Redstone | Be given Speed by another player's brew 28 times (2 players) | 15 |
+| ★ | **Repeater Magnate** | Redstone | Throw 2,400 Redstone Repeaters for another player to pick up (2 players) | 120 |
+| · | **Ride Share** | Redstone | Pick up 20 Minecarts of any kind dropped for you by another player (2 players) | 15 |
+| ◆ | **Rolling Together** | Redstone | Pick up 90 Minecarts of any kind dropped for you by another player (2 players) | 40 |
+| · | **Rough Ride** | Redstone | Land 40 hits on another player while they ride a Minecart (2 players) | 15 |
 | ◆ | **Runaway Train** | Redstone | Take a TNT blast another player set off while you are riding a Minecart (2 players) | 55 |
+| · | **Second Pair of Eyes** | Redstone | Pick up 4 Observers dropped for you by another player (2 players) | 15 |
+| · | **Shove Off** | Redstone | Throw 6 Pistons or Sticky Pistons for another player to pick up (2 players) | 15 |
+| · | **Sighting In** | Redstone | Take 11 projectile hits from another player standing at least three blocks away (2 players) | 15 |
+| ◆ | **Signal Auditor** | Redstone | Pick up 210 Redstone Comparators dropped for you by another player (2 players) | 40 |
 | ◆ | **Signal Boost** | Redstone | Two players place thirty Repeaters each, side by side, inside one minute (2 players) | 130 |
+| ◆ | **Signal Relay Station** | Redstone | Throw 500 Redstone Repeaters for another player to pick up (2 players) | 40 |
+| ◆ | **Signal Supply** | Redstone | Pick up 128 Redstone Dust dropped for you by another player (2 players) | 40 |
+| · | **Sleepers and Steel** | Redstone | Throw 8 Rails of any kind for another player to pick up (2 players) | 15 |
+| · | **Slime and Punishment** | Redstone | Throw 25 Pistons or Sticky Pistons for another player to pick up (2 players) | 15 |
 | ◆ | **Solar Partnership** | Redstone | Place a Daylight Detector built from Quartz another player brought back (2 players) | 40 |
+| · | **Spare Cart** | Redstone | Pick up 4 Minecarts of any kind dropped for you by another player (2 players) | 15 |
 | ◆ | **Special Delivery** | Redstone | Drop a parcel on the line and have a teammate scoop it up from a rolling Minecart eight blocks away (2 players) | 55 |
 | · | **Split the Signal** | Redstone | Craft a Comparator out of Nether Quartz another player mined (2 players) | 15 |
+| ★ | **Standing in the Line of Fire** | Redstone | Take 1,300 projectile hits from another player standing at least three blocks away (2 players) | 120 |
+| ◆ | **Surveillance State** | Redstone | Pick up 500 Observers dropped for you by another player (2 players) | 40 |
+| ◆ | **The Cart Pool** | Redstone | Pick up 200 Minecarts of any kind dropped for you by another player (2 players) | 40 |
+| ◆ | **The Delay Line** | Redstone | Throw 230 Redstone Repeaters for another player to pick up (2 players) | 40 |
+| ◆ | **The Dust Trade** | Redstone | Pick up 512 Redstone Dust dropped for you by another player (2 players) | 40 |
 | ◆ | **The Great Train Robbery** | Redstone | Kill another player while they are riding in a Minecart (2 players) | 50 |
+| ★ | **The Iron Network** | Redstone | Throw 4,000 Rails of any kind for another player to pick up (2 players) | 120 |
+| ◆ | **The Lamp Room** | Redstone | Throw 420 Copper Bulbs for another player to pick up (2 players) | 40 |
+| ◆ | **The Measurement Bureau** | Redstone | Pick up 460 Redstone Comparators dropped for you by another player (2 players) | 40 |
+| · | **The Potion Line** | Redstone | Be given Speed by another player's brew 62 times (2 players) | 15 |
+| ◆ | **The Practice Dummy** | Redstone | Take 600 projectile hits from another player standing at least three blocks away (2 players) | 40 |
+| ◆ | **The Pushing Contest** | Redstone | Throw 260 Pistons or Sticky Pistons for another player to pick up (2 players) | 40 |
+| ◆ | **The Rolling Brawl** | Redstone | Land 1,000 hits on another player while they ride a Minecart (2 players) | 40 |
+| · | **The Shove Exchange** | Redstone | Throw 55 Pistons or Sticky Pistons for another player to pick up (2 players) | 15 |
+| ◆ | **The Sleeper Trade** | Redstone | Throw 350 Rails of any kind for another player to pick up (2 players) | 40 |
+| ◆ | **The Watchers** | Redstone | Pick up 225 Observers dropped for you by another player (2 players) | 40 |
+| · | **Tick Delivery** | Redstone | Throw 5 Redstone Repeaters for another player to pick up (2 players) | 15 |
 | · | **Toll Booth** | Redstone | Put up an Iron Door and charge another player sixteen Emeralds for passage (2 players) | 30 |
+| · | **Track Gang** | Redstone | Throw 16 Rails of any kind for another player to pick up (2 players) | 15 |
+| ★ | **Track Warfare** | Redstone | Land 2,200 hits on another player while they ride a Minecart (2 players) | 120 |
+| ◆ | **Transcontinental** | Redstone | Throw 800 Rails of any kind for another player to pick up (2 players) | 40 |
 | · | **Trapped!** | Redstone | Have another player set off a trapped chest that you just placed (2 players) | 20 |
 | ◆ | **Trolley Problem** | Redstone | Shoot another player dead from your Minecart while they ride a Minecart fifteen blocks down the line (2 players) | 40 |
+| · | **Two Ticks Behind** | Redstone | Throw 22 Redstone Repeaters for another player to pick up (2 players) | 15 |
+| ◆ | **Under the Influence** | Redstone | Be given Speed by another player's brew 140 times (2 players) | 40 |
 | ◆ | **Vending Machine** | Redstone | Have another player feed an Emerald into your Hopper and take what your Dispenser gives back (2 players) | 350 |
+| ◆ | **Verdigris Delivery** | Redstone | Throw 190 Copper Bulbs for another player to pick up (2 players) | 40 |
+| · | **Volunteer Target** | Redstone | Take 5 projectile hits from another player standing at least three blocks away (2 players) | 15 |
+| · | **Watched Delivery** | Redstone | Pick up 9 Observers dropped for you by another player (2 players) | 15 |
+| · | **Wax On, Wax Off** | Redstone | Throw 18 Copper Bulbs for another player to pick up (2 players) | 15 |
+| · | **Waxed and Wired** | Redstone | Throw 40 Copper Bulbs for another player to pick up (2 players) | 15 |
+| · | **Wheels Provided** | Redstone | Pick up 9 Minecarts of any kind dropped for you by another player (2 players) | 15 |
+| ◆ | **Yard Full of Carts** | Redstone | Pick up 440 Minecarts of any kind dropped for you by another player (2 players) | 40 |
 
 <details><summary>How these are detected</summary>
 
@@ -906,20 +2076,130 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ◆ | **A Hundred Funerals** | Statistics | Be killed by another player 100 times (2 players) | 40 |
+| ◆ | **A Hundred Silences** | Statistics | Kill 100 other players (2 players) | 40 |
+| · | **A Rough Welcome** | Statistics | Be killed by another player 2 times (2 players) | 15 |
+| ★ | **A Statue Made of Arrows** | Statistics | Be hit 15,000 times by another player's projectiles (2 players) | 120 |
+| ◆ | **A Thousand Little Cuts** | Statistics | Land 1,000 sword hits on other players (2 players) | 40 |
+| ◆ | **Ammunition Economy** | Statistics | Hand ammunition to other players 100 times (2 players) | 40 |
 | ★ | **Antipodes** | Statistics | Have two players stand on exactly mirrored coordinates, at least three thousand blocks from the world origin (2 players) | 200 |
+| · | **Arc of the Arrow** | Statistics | Kill 15 other players with an arrow from at least 8 blocks away (2 players) | 15 |
+| ★ | **Arrowstorm Veteran** | Statistics | Be hit 6,000 times by another player's projectiles (2 players) | 120 |
+| · | **Barbed Greeting** | Statistics | Land 5 thrown-Trident hits on other players (2 players) | 15 |
+| ◆ | **Berserker's Warmup** | Statistics | Land 150 axe hits on other players (2 players) | 40 |
+| ◆ | **Better Living Through Brewing** | Statistics | Receive 1,000 potion effects from other players (2 players) | 40 |
+| · | **Blade Christening** | Statistics | Land 10 sword hits on other players (2 players) | 15 |
 | ◆ | **Blimpin' Ain't Easy** | Statistics | Fly 5 km on a Happy Ghast without landing, with at least one passenger aboard the whole time (2 players) | 70 |
 | ★ | **Blood Feud** | Statistics | Kill another player and be killed by another player in every dimension (2 players) | 120 |
 | ◆ | **Body Count** | Statistics | Have five players who have each died at least ten times all be online together (5 players) | 60 |
+| · | **Borrowed Steel** | Statistics | Take 2 weapons or shields thrown to you by another player (2 players) | 15 |
 | ★ | **Bread Winner** | Statistics | Hand food to other players five hundred times (2 players) | 200 |
+| ◆ | **Bruise Collector** | Statistics | Take 400 melee hits from other players (2 players) | 40 |
+| · | **Bruised and Learning** | Statistics | Take 10 melee hits from other players (2 players) | 15 |
+| ★ | **Built Out of Scar Tissue** | Statistics | Take 2,500 melee hits from other players (2 players) | 120 |
+| ◆ | **Chemically Assisted** | Statistics | Receive 400 potion effects from other players (2 players) | 40 |
+| · | **Chum in the Water** | Statistics | Land 2 thrown-Trident hits on other players (2 players) | 15 |
+| ◆ | **Cleave and Repeat** | Statistics | Land 400 axe hits on other players (2 players) | 40 |
+| ◆ | **Conversations in Steel** | Statistics | Land 400 sword hits on other players (2 players) | 40 |
 | ◆ | **Crash Test Dummy** | Statistics | Take five hundred points of damage from other players (2 players) | 75 |
+| · | **Cut and Thrust** | Statistics | Land 60 sword hits on other players (2 players) | 15 |
+| ★ | **Death Comes Quietly** | Statistics | Kill 1,500 other players with an arrow from at least 8 blocks away (2 players) | 120 |
+| ★ | **Death Incarnate** | Statistics | Kill 1,500 other players (2 players) | 120 |
+| · | **Dented Plate** | Statistics | Take 60 melee hits from other players (2 players) | 15 |
+| · | **Dosed by a Friend** | Statistics | Receive 10 potion effects from other players (2 players) | 15 |
+| · | **Easy Pickings** | Statistics | Be killed by another player 15 times (2 players) | 15 |
+| · | **Edge Work** | Statistics | Land 25 sword hits on other players (2 players) | 15 |
+| ◆ | **Every Plate Buckled** | Statistics | Take 1,000 melee hits from other players (2 players) | 40 |
+| ★ | **Everyone Shoots on My Dime** | Statistics | Hand ammunition to other players 10,000 times (2 players) | 120 |
+| · | **Everyone's Punching Bag** | Statistics | Be killed by another player 40 times (2 players) | 15 |
+| ★ | **Everything I Own Was a Gift** | Statistics | Take 10,000 weapons or shields thrown to you by another player (2 players) | 120 |
+| ★ | **Executioner's Tenure** | Statistics | Land 6,000 axe hits on other players (2 players) | 120 |
+| · | **Feathered Reception** | Statistics | Be hit 25 times by another player's projectiles (2 players) | 15 |
+| · | **First Nicks** | Statistics | Land 5 sword hits on other players (2 players) | 15 |
+| · | **First Round's on Them** | Statistics | Receive 5 potion effects from other players (2 players) | 15 |
+| · | **First Sting** | Statistics | Be hit 5 times by another player's projectiles (2 players) | 15 |
 | ★ | **Gift Economy** | Statistics | Hand items to other players five hundred times (2 players) | 250 |
+| · | **Glassware Delivery** | Statistics | Receive 25 potion effects from other players (2 players) | 15 |
+| ◆ | **Graveyard Season Pass** | Statistics | Be killed by another player 250 times (2 players) | 40 |
+| ◆ | **Hammered Flat** | Statistics | Take 150 melee hits from other players (2 players) | 40 |
+| ◆ | **Harpooned** | Statistics | Land 100 thrown-Trident hits on other players (2 players) | 40 |
 | ★ | **Heart Surgeon** | Statistics | Supply other players with a hundred hearts of medicine: Golden Apples, Golden Carrots, Steak, and Splash Potions of Healing and Regeneration (2 players) | 150 |
+| ★ | **Held Together by Bandages** | Statistics | Be hit 2,500 times by another player's projectiles (2 players) | 120 |
+| · | **Impaling Season** | Statistics | Land 40 thrown-Trident hits on other players (2 players) | 15 |
+| ◆ | **Issued and Accounted For** | Statistics | Take 100 weapons or shields thrown to you by another player (2 players) | 40 |
+| · | **Keep Them Loaded** | Statistics | Hand ammunition to other players 40 times (2 players) | 15 |
+| · | **Kindling Work** | Statistics | Land 5 axe hits on other players (2 players) | 15 |
+| · | **Kitted Out** | Statistics | Take 5 weapons or shields thrown to you by another player (2 players) | 15 |
+| · | **Known Threat** | Statistics | Kill 40 other players (2 players) | 15 |
+| · | **Learning to Duck** | Statistics | Take 5 melee hits from other players (2 players) | 15 |
+| ★ | **Legend of the Broad Axe** | Statistics | Land 15,000 axe hits on other players (2 players) | 120 |
+| ★ | **Legend of the Long Draw** | Statistics | Kill 3,000 other players with an arrow from at least 8 blocks away (2 players) | 120 |
+| ★ | **Living Off the Armoury** | Statistics | Take 4,000 weapons or shields thrown to you by another player (2 players) | 120 |
+| ◆ | **Living Target Practice** | Statistics | Be hit 400 times by another player's projectiles (2 players) | 40 |
+| ◆ | **Logistics Wins Wars** | Statistics | Hand ammunition to other players 600 times (2 players) | 40 |
 | ◆ | **Long Distance Relationship** | Statistics | Have two players at least 10,000 blocks apart in the same dimension (2 players) | 50 |
+| · | **Longshot Debut** | Statistics | Kill 2 other players with an arrow from at least 8 blocks away (2 players) | 15 |
+| ★ | **Lord of the Riptide** | Statistics | Land 4,000 thrown-Trident hits on other players (2 players) | 120 |
+| · | **Making Enemies** | Statistics | Kill 15 other players (2 players) | 15 |
+| ◆ | **Marksman's Ledger** | Statistics | Kill 40 other players with an arrow from at least 8 blocks away (2 players) | 40 |
+| ★ | **Martyr of the Overworld** | Statistics | Be killed by another player 1,500 times (2 players) | 120 |
+| ★ | **Merchant of Volleys** | Statistics | Hand ammunition to other players 1,500 times (2 players) | 120 |
+| ★ | **Never Fought With My Own Sword** | Statistics | Take 1,500 weapons or shields thrown to you by another player (2 players) | 120 |
+| ◆ | **No Cover Is Cover** | Statistics | Kill 100 other players with an arrow from at least 8 blocks away (2 players) | 40 |
+| ★ | **No Shield Survives Me** | Statistics | Land 2,500 axe hits on other players (2 players) | 120 |
+| · | **Notch in the Hilt** | Statistics | Kill 5 other players (2 players) | 15 |
+| ★ | **Nothing in My Veins Is Mine** | Statistics | Receive 6,000 potion effects from other players (2 players) | 120 |
+| · | **Opening Grudge** | Statistics | Kill 2 other players (2 players) | 15 |
+| · | **Opening the Depot** | Statistics | Hand ammunition to other players 2 times (2 players) | 15 |
+| ◆ | **Perforated Beyond Repair** | Statistics | Be hit 1,000 times by another player's projectiles (2 players) | 40 |
 | ◆ | **Philanthropist** | Statistics | Give away a full stack of sixty-four Diamonds in one go (2 players) | 250 |
+| · | **Pincushioned Again** | Statistics | Be hit 10 times by another player's projectiles (2 players) | 15 |
+| ★ | **Poseidon's Payroll** | Statistics | Land 1,500 thrown-Trident hits on other players (2 players) | 120 |
+| · | **Powder and Shot** | Statistics | Hand ammunition to other players 5 times (2 players) | 15 |
+| ◆ | **Professional Casualty** | Statistics | Be killed by another player 600 times (2 players) | 40 |
+| · | **Pulled from the Ribs** | Statistics | Be hit 60 times by another player's projectiles (2 players) | 15 |
+| ◆ | **Quartermaster's Favourite** | Statistics | Take 250 weapons or shields thrown to you by another player (2 players) | 40 |
+| ◆ | **Reign of Terror** | Statistics | Kill 250 other players (2 players) | 40 |
+| · | **Requisition Approved** | Statistics | Take 40 weapons or shields thrown to you by another player (2 players) | 15 |
+| · | **Respawn Regular** | Statistics | Be killed by another player 5 times (2 players) | 15 |
 | ◆ | **Serial Offender** | Statistics | Kill fifty other players (2 players) | 40 |
+| · | **Shield Splinterer** | Statistics | Land 25 axe hits on other players (2 players) | 15 |
+| ★ | **Sniper of the Overworld** | Statistics | Kill 600 other players with an arrow from at least 8 blocks away (2 players) | 120 |
+| · | **Someone Else's Prescription** | Statistics | Receive 60 potion effects from other players (2 players) | 15 |
 | ★ | **Sparring Partners** | Statistics | Trade a hundred hits with another player without either of you dying (2 players) | 150 |
+| · | **Splitting Practice** | Statistics | Land 10 axe hits on other players (2 players) | 15 |
+| ★ | **Sponsored by the Brewery** | Statistics | Receive 15,000 potion effects from other players (2 players) | 120 |
+| ◆ | **Storm Season** | Statistics | Land 600 thrown-Trident hits on other players (2 players) | 40 |
+| ★ | **Sword Saint** | Statistics | Land 15,000 sword hits on other players (2 players) | 120 |
+| · | **Taking It on the Chin** | Statistics | Take 25 melee hits from other players (2 players) | 15 |
+| ★ | **Ten Thousand Gravestones** | Statistics | Kill 10,000 other players (2 players) | 120 |
+| ★ | **Ten Thousand Last Words** | Statistics | Be killed by another player 10,000 times (2 players) | 120 |
 | ★ | **The Amazing Race** | Statistics | Leave one spot with another player, both cover 5,000 blocks, and both be back inside a minute of each other (2 players) | 500 |
+| · | **The Armoury Opens** | Statistics | Take 15 weapons or shields thrown to you by another player (2 players) | 15 |
+| ★ | **The Blade Never Rests** | Statistics | Land 6,000 sword hits on other players (2 players) | 120 |
+| ◆ | **The Buff Line** | Statistics | Receive 150 potion effects from other players (2 players) | 40 |
+| ◆ | **The Drowned Court** | Statistics | Land 250 thrown-Trident hits on other players (2 players) | 40 |
+| ◆ | **The Duellist's Rhythm** | Statistics | Land 150 sword hits on other players (2 players) | 40 |
+| ★ | **The Horizon Is Not Safe** | Statistics | Kill 6,000 other players with an arrow from at least 8 blocks away (2 players) | 120 |
+| ★ | **The Kill Feed's Favourite** | Statistics | Be killed by another player 4,000 times (2 players) | 120 |
+| ◆ | **The Long Goodbye** | Statistics | Kill 250 other players with an arrow from at least 8 blocks away (2 players) | 40 |
+| · | **The Munitions Run** | Statistics | Hand ammunition to other players 15 times (2 players) | 15 |
+| ◆ | **The Quiver Never Empties** | Statistics | Hand ammunition to other players 250 times (2 players) | 40 |
+| ★ | **The Reaper's Ledger** | Statistics | Kill 4,000 other players (2 players) | 120 |
+| ★ | **The Sea Sends Its Regards** | Statistics | Land 10,000 thrown-Trident hits on other players (2 players) | 120 |
+| ◆ | **The Server's Nightmare** | Statistics | Kill 600 other players (2 players) | 40 |
+| ◆ | **The Sky Rains Shafts** | Statistics | Be hit 150 times by another player's projectiles (2 players) | 40 |
+| ◆ | **The Supply Line Holds** | Statistics | Take 600 weapons or shields thrown to you by another player (2 players) | 40 |
+| ★ | **The Wall That Walks** | Statistics | Take 6,000 melee hits from other players (2 players) | 120 |
+| ★ | **The War Machine's Fuel** | Statistics | Hand ammunition to other players 4,000 times (2 players) | 120 |
+| ◆ | **The Woodsman's Grudge** | Statistics | Land 1,000 axe hits on other players (2 players) | 40 |
+| · | **Tidecaller's Toll** | Statistics | Land 15 thrown-Trident hits on other players (2 players) | 15 |
+| · | **Timber and Torso** | Statistics | Land 60 axe hits on other players (2 players) | 15 |
 | ★ | **Trading Floor** | Statistics | Rack up a thousand Villager trades between two or more players (2 players) | 200 |
+| ★ | **Unkillable by Popular Demand** | Statistics | Take 15,000 melee hits from other players (2 players) | 120 |
+| ★ | **Walking Pharmacy** | Statistics | Receive 2,500 potion effects from other players (2 players) | 120 |
+| ★ | **Whetstone Economy** | Statistics | Land 2,500 sword hits on other players (2 players) | 120 |
+| · | **Windage** | Statistics | Kill 5 other players with an arrow from at least 8 blocks away (2 players) | 15 |
 
 <details><summary>How these are detected</summary>
 
@@ -980,95 +2260,205 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ★ | **A Fortune in Shells** | The End | Be handed 600 Shulker Shells by other players in the End (2 players) | 120 |
+| ◆ | **A Quiver's Worth of Regret** | The End | Be hit by another player's projectile in the End 350 times (2 players) | 40 |
+| · | **A Taste of Elsewhere** | The End | Take a handful of Chorus Fruit from another player in the End 50 times (2 players) | 15 |
+| ★ | **A Thousand Ways Down** | The End | Be killed by another player in the End 3,000 times (2 players) | 120 |
+| · | **A Whiff of Dragon** | The End | Be handed Dragon's Breath or a Lingering Potion in the End 8 times (2 players) | 15 |
 | ★ | **Air Miles** | The End | Be handed an Elytra by another player in the End, in the Nether and in the Overworld (2 players) | 120 |
+| ◆ | **Alchemist's Courier** | The End | Be handed Dragon's Breath or a Lingering Potion in the End 100 times (2 players) | 40 |
+| ◆ | **Armour by Airmail** | The End | Be handed 120 Shulker Shells by other players in the End (2 players) | 40 |
+| ◆ | **Arrows from the Islands** | The End | Be hit by another player's projectile in the End 160 times (2 players) | 40 |
 | · | **Ashes to Ashes** | The End | Have two players plunge into the End void within ten seconds of each other (2 players) | 30 |
+| ◆ | **Bedrock Was Closer** | The End | Be killed by another player in the End 160 times (2 players) | 40 |
+| ◆ | **Blade Among the Islands** | The End | Land 160 melee blows on other players in the End (2 players) | 40 |
+| ◆ | **Blink Diet** | The End | Take a handful of Chorus Fruit from another player in the End 250 times (2 players) | 40 |
+| ◆ | **Bones on the Bedrock** | The End | Kill 55 other players in the End (2 players) | 40 |
 | ◆ | **Bottled Roar** | The End | Hand another player sixteen Bottles of Dragon's Breath (2 players) | 40 |
+| ◆ | **Boxes for Everyone** | The End | Be handed 250 Shulker Shells by other players in the End (2 players) | 40 |
+| ★ | **Breath Baron** | The End | Be handed Dragon's Breath or a Lingering Potion in the End 2,400 times (2 players) | 120 |
 | · | **Breath Sample** | The End | Be handed a Bottle of Dragon's Breath by another player (2 players) | 15 |
+| · | **Breath on Loan** | The End | Be handed Dragon's Breath or a Lingering Potion in the End 20 times (2 players) | 15 |
+| · | **Bricks Between Us** | The End | Pass Purpur to another player from inside an End City 8 times (2 players) | 15 |
 | · | **Brickwork** | The End | Lay End Stone Bricks another player handed you (2 players) | 15 |
+| ★ | **Bringer of Second Fights** | The End | Hand an End Crystal to another player while you are in the End 4,500 times (2 players) | 120 |
+| ◆ | **Bruised in Zero Gravity** | The End | Land 70 melee blows on other players in the End (2 players) | 40 |
+| · | **Caught by a Cloud** | The End | Pick up Slow Falling from another player's potion in the End 3 times (2 players) | 15 |
+| ◆ | **Cauldron Diplomacy** | The End | Be handed Dragon's Breath or a Lingering Potion in the End 500 times (2 players) | 40 |
+| ◆ | **Chemistry of Mercy** | The End | Pick up Slow Falling from another player's potion in the End 450 times (2 players) | 40 |
+| ★ | **Chorus Cartel** | The End | Take a handful of Chorus Fruit from another player in the End 5,000 times (2 players) | 120 |
 | · | **Chorus Line** | The End | Be handed Chorus Fruit in the End by another player and eat it there (2 players) | 15 |
 | · | **Chorus Sickness** | The End | Take Weakness from another player's brew out in the End (2 players) | 15 |
 | ◆ | **City Break** | The End | Be handed Chorus Fruit, a Shulker Shell and an Elytra by other players, every one of them inside an End City (2 players) | 40 |
+| ★ | **City Built by Hand** | The End | Pass Purpur to another player from inside an End City 10,000 times (2 players) | 120 |
 | ◆ | **Cloak Room** | The End | Pick up Invisibility in the End from a Lingering Potion another player threw, so the Endermen stop staring (2 players) | 40 |
 | ◆ | **Colour Coded** | The End | Be handed a red, a yellow, a lime and a blue Shulker Box by other players (2 players) | 40 |
 | ◆ | **Congregation** | The End | Have every online player present in the End at the same time (4 players) | 150 |
+| ◆ | **Crystal Consignment** | The End | Hand an End Crystal to another player while you are in the End 80 times (2 players) | 40 |
 | · | **Crystal Courier** | The End | Hand another player an End Crystal (2 players) | 15 |
 | ◆ | **Crystal Grudge** | The End | Blow another player apart with an End Crystal (2 players) | 40 |
 | ◆ | **Crystal Wholesale** | The End | Hand another player sixty-four End Crystals (2 players) | 40 |
+| ★ | **Curator of Hollow Things** | The End | Be handed 5,000 Shulker Shells by other players in the End (2 players) | 120 |
 | · | **Dead Weight** | The End | Shoot another player out of the air in the End while a Shulker's Levitation has hold of them (2 players) | 15 |
+| ★ | **Dealer in Explosive Glass** | The End | Hand an End Crystal to another player while you are in the End 2,000 times (2 players) | 120 |
+| ★ | **Death Has a Regular** | The End | Be killed by another player in the End 1,500 times (2 players) | 120 |
+| ★ | **Detonation Logistics** | The End | Hand an End Crystal to another player while you are in the End 900 times (2 players) | 120 |
+| ★ | **Distilling the Dragon** | The End | Be handed Dragon's Breath or a Lingering Potion in the End 1,100 times (2 players) | 120 |
+| · | **Dragon's Exhaust** | The End | Be handed Dragon's Breath or a Lingering Potion in the End 3 times (2 players) | 15 |
 | ★ | **Dragon's Pharmacy** | The End | In the End, pick up Slow Falling, Invisibility and Night Vision from Lingering Potions other players threw (2 players) | 120 |
 | ★ | **Dragonfire and Venom** | The End | Kill another player in the End while Poison, Slowness, Weakness and Levitation are all on them (2 players) | 120 |
+| ◆ | **Dragonless Tyrant** | The End | Kill 120 other players in the End (2 players) | 40 |
+| ★ | **Drifting on Borrowed Time** | The End | Pick up Slow Falling from another player's potion in the End 4,500 times (2 players) | 120 |
+| ★ | **Duellist of the Dark Sky** | The End | Land 3,200 melee blows on other players in the End (2 players) | 120 |
+| · | **Elytra Estate** | The End | Kill 5 other players in the End (2 players) | 15 |
 | · | **End Bricklayers** | The End | Be handed End Stone Bricks by another player and build with them in the End (2 players) | 15 |
 | ◆ | **End City Siege** | The End | Kill another player inside an End City (2 players) | 40 |
+| ★ | **Every City Stripped Bare** | The End | Be handed 2,500 Shulker Shells by other players in the End (2 players) | 120 |
+| ★ | **Everyone Flies Today** | The End | Hand an Elytra to another player standing in the End 650 times (2 players) | 120 |
+| ★ | **Everyone's Aiming Up** | The End | Be hit by another player's projectile in the End 1,600 times (2 players) | 120 |
 | · | **Exit Wound** | The End | Kill another player as they stand on Bedrock in the End (2 players) | 15 |
 | ◆ | **Eye Contact** | The End | Fill an End Portal frame with two players seating six Eyes of Ender each (2 players) | 65 |
 | · | **Eyes Front** | The End | Hand another player twelve Eyes of Ender, a full portal's worth (2 players) | 15 |
 | · | **Feather Fallback** | The End | Get Slow Falling from another player out over the End below Y=40 (2 players) | 15 |
+| ◆ | **Feather-Footed Together** | The End | Pick up Slow Falling from another player's potion in the End 200 times (2 players) | 40 |
+| ◆ | **Feathering the Nest** | The End | Hand an Elytra to another player standing in the End 60 times (2 players) | 40 |
+| · | **Feathers in My Back** | The End | Be hit by another player's projectile in the End 12 times (2 players) | 15 |
+| ★ | **Feeding the Wanderers** | The End | Take a handful of Chorus Fruit from another player in the End 1,250 times (2 players) | 120 |
 | ◆ | **Ferry Cargo** | The End | Riding a Happy Ghast another player is flying, catch a Shulker Shell thrown by a third player who is gliding past (3 players) | 40 |
 | ◆ | **Final Say** | The End | Kill another player with a Netherite Sword while you are both standing on End Stone (2 players) | 40 |
+| · | **First Blood in the Void** | The End | Land 5 melee blows on other players in the End (2 players) | 15 |
 | ★ | **Five a Day** | The End | Be handed a Chorus Fruit by another player in all five End biomes (2 players) | 120 |
 | ◆ | **Floating Target** | The End | Shoot another player with an arrow while they are levitating in the End (2 players) | 40 |
 | ★ | **Formation Flying** | The End | Hold a three-player Elytra formation within ten blocks above Y=200 (3 players) | 200 |
+| · | **Fragile, Handle Together** | The End | Hand an End Crystal to another player while you are in the End 2 times (2 players) | 15 |
 | · | **Fruit Run** | The End | Hand another player a full stack of sixty-four Chorus Fruit (2 players) | 15 |
+| ◆ | **Fruit of the Outer Isles** | The End | Take a handful of Chorus Fruit from another player in the End 120 times (2 players) | 40 |
+| ◆ | **Fumes for Friends** | The End | Be handed Dragon's Breath or a Lingering Potion in the End 220 times (2 players) | 40 |
+| ◆ | **Gently Does It** | The End | Pick up Slow Falling from another player's potion in the End 90 times (2 players) | 40 |
 | ★ | **Ghost Protocol** | The End | Kill the Ender Dragon in a fight where every player who wounded it has died at least once (4 players) | 250 |
 | · | **Ground Crew** | The End | Throw a spare Elytra to a player who is already gliding (2 players) | 15 |
+| · | **Grounded Permanently** | The End | Kill 12 other players in the End (2 players) | 15 |
+| ★ | **Guardian Angels in Bottles** | The End | Pick up Slow Falling from another player's potion in the End 2,200 times (2 players) | 120 |
 | · | **Handle With Care** | The End | Be handed an End Crystal by another player while you are standing on Obsidian (2 players) | 15 |
 | ★ | **Hands Across the Void** | The End | Be handed an Ender Pearl by another player while you are both falling below Y=0 in the End (2 players) | 120 |
+| ★ | **Hands Off My Elytra** | The End | Land 1,600 melee blows on other players in the End (2 players) | 120 |
 | · | **Hangar Pass** | The End | Be handed an Elytra by another player inside an End City (2 players) | 15 |
+| ★ | **Harvest of the Floating Isles** | The End | Take a handful of Chorus Fruit from another player in the End 2,500 times (2 players) | 120 |
 | ◆ | **Head of State** | The End | Take an Ender Dragon Head off another player and wear it in the End (2 players) | 40 |
 | ◆ | **Heir Apparent** | The End | Hand the Dragon Egg over to another player (2 players) | 80 |
+| · | **Hollow Cargo** | The End | Be handed 5 Shulker Shells by other players in the End (2 players) | 15 |
 | · | **Into the Void** | The End | Put an arrow in another player as they fall below Y=20 in the End (2 players) | 50 |
+| ★ | **Last Flight of Many** | The End | Kill 2,500 other players in the End (2 players) | 120 |
+| · | **Levitation Insurance** | The End | Be handed 12 Shulker Shells by other players in the End (2 players) | 15 |
 | · | **Levitation Sickness** | The End | Kill another player while a Shulker has them floating (2 players) | 15 |
 | · | **Lighting the Way** | The End | Put up an End Rod another player handed you (2 players) | 15 |
+| · | **Loaner Wings** | The End | Hand an Elytra to another player standing in the End 2 times (2 players) | 15 |
+| ★ | **Martyr of the Outer Isles** | The End | Be killed by another player in the End 720 times (2 players) | 120 |
 | · | **Mason's Mate** | The End | Hand another player sixty-four Purpur Blocks while you are standing on Purpur (2 players) | 15 |
 | · | **Nether Import** | The End | Be handed a Chorus Fruit by another player in the Nether (2 players) | 15 |
+| ★ | **Never Hit Bottom** | The End | Pick up Slow Falling from another player's potion in the End 1,000 times (2 players) | 120 |
+| ◆ | **Nine Pillars, Two Hands** | The End | Hand an End Crystal to another player while you are in the End 400 times (2 players) | 40 |
+| ★ | **Nobody Leaves the End** | The End | Kill 1,200 other players in the End (2 players) | 120 |
+| ★ | **Nobody Walks Here** | The End | Hand an Elytra to another player standing in the End 3,000 times (2 players) | 120 |
 | ◆ | **Not My Sword** | The End | Land the killing blow on the Ender Dragon with a Sword another player handed you (2 players) | 40 |
+| ★ | **Nothing Below but You** | The End | Land 6,500 melee blows on other players in the End (2 players) | 120 |
+| ★ | **Nourished by Strangers** | The End | Take a handful of Chorus Fruit from another player in the End 10,000 times (2 players) | 120 |
+| · | **Nudged Toward the Edge** | The End | Land 12 melee blows on other players in the End (2 players) | 15 |
+| · | **Obsidian Insurance** | The End | Hand an End Crystal to another player while you are in the End 15 times (2 players) | 15 |
 | ◆ | **Off the Edge** | The End | Punt another player off an End island with a Wind Charge while they are already in mid-air (2 players) | 40 |
+| · | **One Less Wing** | The End | Kill 2 other players in the End (2 players) | 15 |
 | ★ | **One-Way Ticket** | The End | Kill another player below Y=0 in the End while Slowness holds them (2 players) | 120 |
 | ★ | **Orbital Strike** | The End | Kill another player with an arrow while you are both more than two hundred blocks above the End (2 players) | 120 |
 | ◆ | **Outer Islands Incident** | The End | Kill another player out on the outer End islands (2 players) | 40 |
+| ◆ | **Outfitting the Flock** | The End | Hand an Elytra to another player standing in the End 130 times (2 players) | 40 |
+| · | **Passing the Charge** | The End | Hand an End Crystal to another player while you are in the End 6 times (2 players) | 15 |
 | · | **Pearl Loan** | The End | Be handed sixteen Ender Pearls by another player (2 players) | 15 |
 | ◆ | **Pearl Swap** | The End | Two players throw Ender Pearls and trade places, each landing where the other was standing (2 players) | 200 |
+| ◆ | **Pillar Restocking** | The End | Hand an End Crystal to another player while you are in the End 175 times (2 players) | 40 |
 | · | **Pillar Talk** | The End | Be handed a Purpur Pillar by another player inside an End City (2 players) | 15 |
+| ★ | **Pincushion of the Void** | The End | Be hit by another player's projectile in the End 750 times (2 players) | 120 |
+| · | **Pinned at Altitude** | The End | Be hit by another player's projectile in the End 5 times (2 players) | 15 |
 | · | **Popcorn Run** | The End | Hand another player sixty-four Popped Chorus Fruit (2 players) | 15 |
 | ◆ | **Popped Over** | The End | Be handed four Popped Chorus Fruit by another player, then place the Purpur Block you make from them (2 players) | 40 |
+| · | **Purple Freight** | The End | Be handed 25 Shulker Shells by other players in the End (2 players) | 15 |
+| · | **Purple Masonry** | The End | Pass Purpur to another player from inside an End City 20 times (2 players) | 15 |
+| · | **Purple Rations** | The End | Take a handful of Chorus Fruit from another player in the End 10 times (2 players) | 15 |
 | ◆ | **Purpur Consignment** | The End | Be handed a Purpur Block, a Purpur Pillar, Purpur Stairs and a Purpur Slab by other players (2 players) | 40 |
+| ◆ | **Purpur Haulier** | The End | Pass Purpur to another player from inside an End City 100 times (2 players) | 40 |
+| ★ | **Purpur Magnate** | The End | Pass Purpur to another player from inside an End City 5,000 times (2 players) | 120 |
 | · | **Purpur Post** | The End | Take Purpur Blocks and Purpur Pillars from another player out in the End (2 players) | 15 |
+| · | **Quarrying the City** | The End | Pass Purpur to another player from inside an End City 45 times (2 players) | 15 |
+| ◆ | **Quartermaster of the Sky** | The End | Hand an Elytra to another player standing in the End 300 times (2 players) | 40 |
 | ◆ | **Rainbow Freight** | The End | Be handed Purple, Magenta, Light Blue and Yellow Shulker Boxes by other players (2 players) | 40 |
+| ◆ | **Reaper of the Isles** | The End | Kill 25 other players in the End (2 players) | 40 |
+| ★ | **Rebuilding the Spires** | The End | Pass Purpur to another player from inside an End City 2,400 times (2 players) | 120 |
 | ◆ | **Regicide** | The End | Kill another player who is holding the Dragon Egg (2 players) | 40 |
 | ◆ | **Removals Firm** | The End | Hand another player a Shulker Box packed with nothing but a full stack of Diamonds in its first slot (2 players) | 40 |
+| ◆ | **Repeat Offering** | The End | Be killed by another player in the End 75 times (2 players) | 40 |
 | ◆ | **Resurrection Committee** | The End | Bring the Ender Dragon back with four End Crystals another player handed you (2 players) | 40 |
+| ★ | **Riddled Above the Abyss** | The End | Be hit by another player's projectile in the End 3,400 times (2 players) | 120 |
 | ◆ | **Rocket Man** | The End | Pass a Firework Rocket to another player while you are both gliding (2 players) | 40 |
 | ◆ | **Rod Shipment** | The End | Hand another player sixteen End Rods (2 players) | 40 |
 | · | **Second Helping** | The End | Throw a Chorus Fruit to a player who is levitating from a Shulker (2 players) | 15 |
+| · | **Second Pair** | The End | Hand an Elytra to another player standing in the End 5 times (2 players) | 15 |
+| · | **Sent Home Early** | The End | Be killed by another player in the End 3 times (2 players) | 15 |
 | · | **Shared Locker** | The End | Be handed an Ender Chest by another player, the one box they can never look inside (2 players) | 15 |
 | · | **Shell Bank** | The End | Be handed a Shulker Shell by another player in the Overworld (2 players) | 15 |
 | ◆ | **Shell Company** | The End | Hand another player thirty-two Shulker Shells in one throw (2 players) | 40 |
 | · | **Shell Delivery** | The End | Be handed a Shulker Shell by another player inside an End City (2 players) | 15 |
 | · | **Shell Out** | The End | Hand another player eight Shulker Shells at once (2 players) | 15 |
+| ◆ | **Shot Out of the Sky** | The End | Be hit by another player's projectile in the End 70 times (2 players) | 40 |
+| ★ | **Shulker Salvage Union** | The End | Be handed 1,200 Shulker Shells by other players in the End (2 players) | 120 |
 | ◆ | **Sky Clinic** | The End | Be given Regeneration by another player while you are gliding on Elytra (2 players) | 40 |
 | · | **Sky Freight** | The End | Catch a Shulker Shell thrown by another player above Y=100 in the End (2 players) | 15 |
 | ◆ | **Soft Landing** | The End | Pick up Slow Falling in the End from a Lingering Potion another player threw (2 players) | 40 |
+| · | **Softly, Softly** | The End | Pick up Slow Falling from another player's potion in the End 8 times (2 players) | 15 |
+| ◆ | **Someone Else's Trophy** | The End | Be killed by another player in the End 340 times (2 players) | 40 |
+| · | **Someone Threw Kindness** | The End | Pick up Slow Falling from another player's potion in the End 18 times (2 players) | 15 |
 | · | **Spare Set** | The End | Be handed an Elytra by another player who is gliding past on their own wings (2 players) | 15 |
 | · | **Spare Wings** | The End | Hand another player an Elytra while you are gliding on one yourself (2 players) | 15 |
+| · | **Sparring on End Stone** | The End | Land 30 melee blows on other players in the End (2 players) | 15 |
 | · | **Stone Import** | The End | Be handed sixty-four End Stone by another player in the Overworld (2 players) | 15 |
+| ◆ | **Stone from Above** | The End | Pass Purpur to another player from inside an End City 220 times (2 players) | 40 |
 | · | **Stronghold Support** | The End | Be handed an Eye of Ender by another player inside a Stronghold (2 players) | 15 |
 | ★ | **Suspended Sentence** | The End | Kill another player while both of you are drifting under Levitation in the End (2 players) | 120 |
 | ◆ | **Tag Team** | The End | Finish the Ender Dragon after at least two different players have wounded it (2 players) | 60 |
 | ★ | **Tail Gunner** | The End | Land the killing blow on the Ender Dragon from the passenger seat of a Happy Ghast another player is flying (2 players) | 250 |
+| · | **Target Practice, Apparently** | The End | Be hit by another player's projectile in the End 30 times (2 players) | 15 |
+| · | **Teleport Fuel** | The End | Take a handful of Chorus Fruit from another player in the End 25 times (2 players) | 15 |
+| ◆ | **Terror of the Outer Isles** | The End | Land 350 melee blows on other players in the End (2 players) | 40 |
 | ★ | **The Chorus Chain** | The End | Be handed a Chorus Fruit by another player while gliding, while levitating, and while falling below Y=0 in the End (2 players) | 120 |
+| ◆ | **The Chorus Grocer** | The End | Take a handful of Chorus Fruit from another player in the End 600 times (2 players) | 40 |
+| ★ | **The Dragon Exhales for All** | The End | Be handed Dragon's Breath or a Lingering Potion in the End 5,000 times (2 players) | 120 |
+| ◆ | **The End Has a Bouncer** | The End | Kill 260 other players in the End (2 players) | 40 |
 | ★ | **The Ferryman Cometh** | The End | Carry a passenger on a Happy Ghast from the central End island out past a thousand blocks, using no Gateway (2 players) | 500 |
+| ◆ | **The Lingering Trade** | The End | Be handed Dragon's Breath or a Lingering Potion in the End 45 times (2 players) | 40 |
+| · | **The Long Way Back** | The End | Be killed by another player in the End 7 times (2 players) | 15 |
+| ◆ | **The Pillar Trade** | The End | Pass Purpur to another player from inside an End City 500 times (2 players) | 40 |
+| ◆ | **The Portal Knows My Name** | The End | Be killed by another player in the End 35 times (2 players) | 40 |
+| ◆ | **The Resurrection Kit** | The End | Hand an End Crystal to another player while you are in the End 35 times (2 players) | 40 |
+| ◆ | **The Shell Exchange** | The End | Be handed 50 Shulker Shells by other players in the End (2 players) | 40 |
+| ★ | **The Sky Rains Arrows** | The End | Be hit by another player's projectile in the End 7,000 times (2 players) | 120 |
+| ★ | **The Void Prefers You** | The End | Land 750 melee blows on other players in the End (2 players) | 120 |
+| ◆ | **The Void Waits Longer** | The End | Pick up Slow Falling from another player's potion in the End 40 times (2 players) | 40 |
+| ◆ | **The Wing Lender** | The End | Hand an Elytra to another player standing in the End 25 times (2 players) | 40 |
 | ◆ | **Transplant Op** | The End | Plant a Chorus Flower another player handed you, out in the Overworld (2 players) | 40 |
 | ◆ | **Trim Package** | The End | Be handed End Stone Brick Stairs, a Slab and a Wall by other players (2 players) | 40 |
+| ★ | **Two Masons, One City** | The End | Pass Purpur to another player from inside an End City 1,100 times (2 players) | 120 |
 | ◆ | **Two-Man Ascent** | The End | Glide above Y=250 on an Elytra and a full stack of Rockets another player supplied (2 players) | 40 |
 | · | **Undying Export** | The End | Hand another player a Totem of Undying in the End (2 players) | 15 |
 | ◆ | **Up and Away** | The End | Get three players levitating from Shulker bullets at the same time (3 players) | 60 |
 | · | **Void Bulwark** | The End | Block another player's attack with your Shield in the End (2 players) | 15 |
 | ◆ | **Void Insurance** | The End | Catch a Chorus Fruit from another player while you are falling below Y=0 in the End (2 players) | 40 |
+| · | **Void of Dignity** | The End | Be killed by another player in the End 16 times (2 players) | 15 |
+| ★ | **Warden of the End Gate** | The End | Kill 550 other players in the End (2 players) | 120 |
 | · | **Weightless Handover** | The End | Catch a Shulker Shell thrown by another player while you are levitating (2 players) | 15 |
 | ◆ | **Wing Swap** | The End | Trade Elytra with another player: hand yours over and take theirs (2 players) | 40 |
 | · | **Wing Warranty** | The End | Hand another player an Elytra worn down to its last few flights (2 players) | 15 |
 | ◆ | **Wing and a Prayer** | The End | Catch an Elytra thrown by another player while you are falling below Y=20 in the End (2 players) | 40 |
 | · | **Wingman** | The End | Take off in an Elytra another player handed you (2 players) | 50 |
+| · | **Wings for Hire** | The End | Hand an Elytra to another player standing in the End 12 times (2 players) | 15 |
+| ★ | **Wingsmith to the Void** | The End | Hand an Elytra to another player standing in the End 1,400 times (2 players) | 120 |
 
 <details><summary>How these are detected</summary>
 
@@ -1092,128 +2482,234 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 
 | | Advancement | Tab | What you do | XP |
 |---|---|---|---|---|
+| ★ | **A Thousand Quarrels** | Weaponry | Hit other players 5,000 times with Crossbow bolts (2 players) | 120 |
 | ◆ | **Act of God** | Weaponry | Call lightning down onto another player with a Channeling Trident during a thunderstorm (2 players) | 150 |
 | · | **Aegis Trade** | Weaponry | Hand another player your Shield and take theirs in return (2 players) | 15 |
+| ★ | **Aegis Unbroken** | Weaponry | Block 5,000 attacks from other players with your Shield (2 players) | 120 |
 | ★ | **Aerial Superiority** | Weaponry | Kill another Elytra-flying player while flying with an Elytra yourself (2 players) | 400 |
+| ★ | **Alchemist's Champion** | Weaponry | Be dosed with Strength by another player 1,000 times (2 players) | 120 |
+| · | **Ammo Runner** | Weaponry | Pick up 10 pieces of ammunition thrown to you by other players (2 players) | 15 |
 | ◆ | **Ammunition Supply** | Weaponry | Take a Crossbow and a full stack of Arrows from another player, then bring a monster down with them (2 players) | 40 |
+| ★ | **Anvil from Above** | Weaponry | Land 1,000 Mace blows on other players (2 players) | 120 |
 | ◆ | **Arise, Sir Loin** | Weaponry | Tap a kneeling player on the shoulder for under half a heart with a Golden Sword, wearing a Golden Helmet (2 players) | 45 |
 | · | **Arms Dealer** | Weaponry | Give another player a sword, then get killed by a player wielding one (2 players) | 30 |
 | · | **Arms Shipment** | Weaponry | Hand another player a Bow, a Crossbow and a Trident (2 players) | 15 |
 | · | **Arrow Catcher** | Weaponry | Block another player's arrow with your Shield (2 players) | 15 |
+| ★ | **Arrowsmith's Legend** | Weaponry | Kill 1,000 players with arrows loosed from a Bow (2 players) | 120 |
+| ★ | **Arsenal of Allies** | Weaponry | Pick up 10,000 pieces of ammunition thrown to you by other players (2 players) | 120 |
 | · | **Axe Feud** | Weaponry | Kill another player with an Axe, and be killed by one (2 players) | 15 |
 | ★ | **Axe Murderer** | Weaponry | Kill another player with every kind of Axe: wooden, stone, copper, iron, golden, diamond and netherite (2 players) | 120 |
+| ★ | **Axes of Evil** | Weaponry | Land 5,000 Axe blows on other players (2 players) | 120 |
 | · | **Backstabber** | Weaponry | Kill a crouching player with a Netherite Axe (2 players) | 15 |
+| ★ | **Ballista of One** | Weaponry | Hit other players 10,000 times with Crossbow bolts (2 players) | 120 |
+| · | **Barbed Welcome** | Weaponry | Skewer other players 5 times with a thrown Trident (2 players) | 15 |
 | ★ | **Bare Knuckle Boxing** | Weaponry | Beat another player to death with your bare fists, carrying absolutely nothing yourself (2 players) | 160 |
 | ★ | **Bequeathed Bludgeon** | Weaponry | Take a Mace off another player and kill another player with it (2 players) | 120 |
+| · | **Bested** | Weaponry | Be cut down by another player 5 times (2 players) | 15 |
 | ◆ | **Bite the Hand** | Weaponry | Take a Sword from another player and kill a player with it (2 players) | 40 |
 | ◆ | **Blade Exchange** | Weaponry | Swap Netherite Swords with another player, one blade for the other (2 players) | 40 |
 | ◆ | **Blades for Hire** | Weaponry | Hand another player a Sword of every material, wood through Netherite (2 players) | 40 |
 | ◆ | **Blood Debt** | Weaponry | Strike down a player who killed somebody less than a minute ago (2 players) | 70 |
+| · | **Blunt Introduction** | Weaponry | Land 5 Mace blows on other players (2 players) | 15 |
 | · | **Blunt Refusal** | Weaponry | Block a Mace blow from another player with your Shield (2 players) | 15 |
+| · | **Bolt Tally** | Weaponry | Hit other players 50 times with Crossbow bolts (2 players) | 15 |
 | ◆ | **Bolt from the Blue** | Weaponry | Kill another player with a bolt from a Crossbow (2 players) | 40 |
 | · | **Bone to Pick** | Weaponry | Kill another player while the only thing in your hands is a Bone (2 players) | 15 |
+| · | **Boots on Their Feet** | Weaponry | Hand 10 pieces of armour to other players (2 players) | 15 |
 | · | **Borrowed Bow** | Weaponry | Kill a player with a Bow that another player dropped into your hands (2 players) | 15 |
+| · | **Borrowed Shafts** | Weaponry | Pick up 25 pieces of ammunition thrown to you by other players (2 players) | 15 |
+| ◆ | **Bottomless Quiver** | Weaponry | Pick up 500 pieces of ammunition thrown to you by other players (2 players) | 40 |
 | · | **Braced for the Charge** | Weaponry | Block a charge from a player on horseback with your Shield (2 players) | 15 |
+| · | **Buffed Up** | Weaponry | Be dosed with Strength by another player 10 times (2 players) | 15 |
+| · | **Bulwark Duty** | Weaponry | Block 100 attacks from other players with your Shield (2 players) | 15 |
+| ◆ | **Bury the Hatchet** | Weaponry | Land 250 Axe blows on other players (2 players) | 40 |
 | ◆ | **Butch and Sundance** | Weaponry | Kill a hostile mob with a Crossbow from a Boat that another player is steering (2 players) | 130 |
 | · | **Catch of the Day** | Weaponry | Hook another player with a fishing rod and reel them in (2 players) | 25 |
 | ◆ | **Chainbreaker** | Weaponry | Kill another player wearing a full set of Chainmail armour (2 players) | 40 |
+| ◆ | **Chemically Emboldened** | Weaponry | Be dosed with Strength by another player 250 times (2 players) | 40 |
 | · | **Chopping Block** | Weaponry | Block a Netherite Axe swing from another player with your Shield (2 players) | 15 |
+| · | **Chopping Order** | Weaponry | Land 100 Axe blows on other players (2 players) | 15 |
 | ◆ | **Clay Pigeon** | Weaponry | Put a Crossbow bolt into an Elytra-flying player from twenty blocks away with both your feet on the ground (2 players) | 40 |
+| ◆ | **Cleaver Fever** | Weaponry | Land 1,000 Axe blows on other players (2 players) | 40 |
+| · | **Click, Thunk** | Weaponry | Hit other players 10 times with Crossbow bolts (2 players) | 15 |
 | ★ | **Clipped Wings** | Weaponry | Cut an Elytra-flying player out of the sky in melee with both your feet on the ground (2 players) | 120 |
+| ◆ | **Concussive Habit** | Weaponry | Land 250 Mace blows on other players (2 players) | 40 |
+| ★ | **Court of the Drowned Deep** | Weaponry | Skewer other players 2,000 times with a thrown Trident (2 players) | 120 |
 | ◆ | **Cover Fire** | Weaponry | Snipe a monster that is hunting a player below two hearts, from at least fifty blocks away (2 players) | 60 |
+| ★ | **Crank and Loose** | Weaponry | Hit other players 2,500 times with Crossbow bolts (2 players) | 120 |
+| · | **Crater Maker** | Weaponry | Land 50 Mace blows on other players (2 players) | 15 |
+| ★ | **Death Comes Silently** | Weaponry | Kill 2,000 players with arrows loosed from a Bow (2 players) | 120 |
+| ★ | **Death Has a Nametag** | Weaponry | Be cut down by another player 2,000 times (2 players) | 120 |
 | · | **Deep Six** | Weaponry | Hand another player a Trident while you are swimming underwater (2 players) | 15 |
 | · | **Deflection** | Weaponry | Block a Trident thrown by another player on your Shield (2 players) | 15 |
+| ★ | **Dents Beyond Counting** | Weaponry | Block 2,500 attacks from other players with your Shield (2 players) | 120 |
+| · | **Drawn Steel** | Weaponry | Land 100 Sword blows on other players (2 players) | 15 |
 | ◆ | **Duel at Dawn** | Weaponry | Stand ten paces from another player and put an arrow in them the moment the sun comes up (2 players) | 180 |
+| ◆ | **Duelist's Ledger** | Weaponry | Land 500 Sword blows on other players (2 players) | 40 |
 | ◆ | **Duellist's Courtesy** | Weaponry | Hand another player a Netherite Sword, then beat them down with a Wooden one (2 players) | 40 |
+| ◆ | **Edge of Reason** | Weaponry | Land 1,000 Sword blows on other players (2 players) | 40 |
+| ★ | **Elixir Sovereign** | Weaponry | Be dosed with Strength by another player 4,000 times (2 players) | 120 |
 | · | **Eye of the Storm** | Weaponry | Beat another player to death in melee while a thunderstorm rages overhead (2 players) | 15 |
 | ★ | **Falling Out** | Weaponry | Kill another player with an anvil you dropped on them (2 players) | 140 |
 | ★ | **Falling Star** | Weaponry | Kill another player with a Mace while neither of you is touching the ground (2 players) | 120 |
+| · | **Familiar Ceiling** | Weaponry | Be cut down by another player 50 times (2 players) | 15 |
+| · | **Familiar With the Void** | Weaponry | Be cut down by another player 25 times (2 players) | 15 |
 | · | **Fan the Flames** | Weaponry | Put an arrow into a player who is already burning (2 players) | 15 |
 | · | **First Blood** | Weaponry | Kill another player (2 players) | 20 |
+| · | **First Draught** | Weaponry | Be dosed with Strength by another player 5 times (2 players) | 15 |
+| · | **First Nick** | Weaponry | Land 10 Sword blows on other players (2 players) | 15 |
+| · | **First Parry** | Weaponry | Block 10 attacks from other players with your Shield (2 players) | 15 |
 | · | **First to Fall** | Weaponry | Be killed by another player (2 players) | 15 |
 | ◆ | **Flawless Victory** | Weaponry | Kill another player while you are still on full health (2 players) | 110 |
+| · | **Fletcher's Charity** | Weaponry | Pick up 100 pieces of ammunition thrown to you by other players (2 players) | 15 |
 | · | **Fletcher's Regret** | Weaponry | Block another player's arrow with your Shield from at least thirty blocks away (2 players) | 15 |
+| · | **Fletcher's Tally** | Weaponry | Kill 10 players with arrows loosed from a Bow (2 players) | 15 |
+| · | **Fletching's Last Word** | Weaponry | Kill 25 players with arrows loosed from a Bow (2 players) | 15 |
 | · | **Flushed Out** | Weaponry | Put an arrow into a player who is trying to sneak away (2 players) | 15 |
 | ◆ | **Food Chain** | Weaponry | Kill another player who is holding a Golden Apple, then eat one yourself (2 players) | 40 |
+| ◆ | **Full Kit Delivery** | Weaponry | Hand 500 pieces of armour to other players (2 players) | 40 |
 | · | **Gale Force** | Weaponry | Catch another player in mid-air with a Wind Charge (2 players) | 15 |
 | · | **Gift of the Mace** | Weaponry | Hand another player a Mace and then take a hit from a player swinging one (2 players) | 15 |
 | · | **Golden Rule** | Weaponry | Kill another player dressed in a full set of Golden armour using a Golden Sword (2 players) | 15 |
 | ★ | **Grand Finale** | Weaponry | Blow another player out of the sky with a Crossbow firework while they are gliding (2 players) | 120 |
 | ★ | **Grand Tour of Grudges** | Weaponry | Kill another player in the Overworld, the Nether and the End (2 players) | 120 |
 | ◆ | **Grave Digger** | Weaponry | Kill another player with a Shovel while you are both standing on Gravel (2 players) | 40 |
+| · | **Gravity Assisted** | Weaponry | Land 25 Mace blows on other players (2 players) | 15 |
+| ◆ | **Greaves and Gratitude** | Weaponry | Hand 250 pieces of armour to other players (2 players) | 40 |
 | · | **Ground Pound** | Weaponry | Land a Mace smash squarely on another player (2 players) | 15 |
 | ◆ | **Guard Break** | Weaponry | Land an Axe blow on another player that their raised Shield fails to stop (2 players) | 40 |
 | · | **Gust Front** | Weaponry | Be blasted off your feet by another player's Wind Charge (2 players) | 15 |
+| · | **Hand-Me-Down Helm** | Weaponry | Hand 25 pieces of armour to other players (2 players) | 15 |
+| · | **Harpooner's Roll** | Weaponry | Skewer other players 50 times with a thrown Trident (2 players) | 15 |
 | ★ | **Head of the Household** | Weaponry | Come away with another player's head after a Charged Creeper goes off (2 players) | 150 |
+| ★ | **Headsman Emeritus** | Weaponry | Land 10,000 Axe blows on other players (2 players) | 120 |
 | · | **Held Not Hurled** | Weaponry | Kill another player with a Trident you never let go of (2 players) | 15 |
 | · | **Highway Robbery** | Weaponry | Collect Emeralds another player dropped while you are holding a loaded Crossbow (2 players) | 35 |
 | ◆ | **Hit With Everything** | Weaponry | Be hit by another player's Arrow, Spectral Arrow, Trident, Firework Rocket and TNT (2 players) | 40 |
 | ◆ | **Hotheads** | Weaponry | Trade bare-handed blows with another player while you are both on fire (2 players) | 40 |
+| ★ | **Immortal Only in Theory** | Weaponry | Be cut down by another player 1,000 times (2 players) | 120 |
+| ★ | **Impact Winter** | Weaponry | Land 2,000 Mace blows on other players (2 players) | 120 |
+| · | **Iron for a Stranger** | Weaponry | Hand 50 pieces of armour to other players (2 players) | 15 |
+| ★ | **Judgement Descends** | Weaponry | Land 4,000 Mace blows on other players (2 players) | 120 |
 | ◆ | **Kindling** | Weaponry | Kill another player wearing a full set of Netherite armour using nothing but a Wooden Sword (2 players) | 40 |
+| · | **Kindling Duty** | Weaponry | Land 25 Axe blows on other players (2 players) | 15 |
 | ◆ | **King of the Hill** | Weaponry | Stand on one block for sixty seconds while two other players try to knock you off it (3 players) | 400 |
+| · | **Kit Issue** | Weaponry | Hand 5 pieces of armour to other players (2 players) | 15 |
 | ★ | **Last Arrow** | Weaponry | Kill another player with an arrow while you are down to your last half heart (2 players) | 120 |
 | ★ | **Last Gasp** | Weaponry | Kill another player in melee while you are down to your last half heart (2 players) | 120 |
 | ◆ | **Last Meal** | Weaponry | Be cut down by another player with nothing in your hand but food (2 players) | 40 |
 | · | **Lead the Target** | Weaponry | Put an arrow into a player at a full sprint (2 players) | 15 |
 | · | **Left-Handed Compliment** | Weaponry | Kill another player bare-fisted while your Sword sits idle in your off hand (2 players) | 15 |
+| ★ | **Legend of the Long Blade** | Weaponry | Land 10,000 Sword blows on other players (2 players) | 120 |
+| · | **Liquid Courage** | Weaponry | Be dosed with Strength by another player 25 times (2 players) | 15 |
 | ★ | **Living Will** | Weaponry | Sign your estate over: hand another player Protection IV Netherite armour, all four pieces, and a Mending Elytra (2 players) | 350 |
+| ◆ | **Logistics of War** | Weaponry | Pick up 1,000 pieces of ammunition thrown to you by other players (2 players) | 40 |
 | ★ | **Long Shot Rivalry** | Weaponry | Kill another player with a bow from at least 100 blocks away (2 players) | 160 |
+| ★ | **Lord of the Shoals** | Weaponry | Skewer other players 4,000 times with a thrown Trident (2 players) | 120 |
+| ★ | **Martyr of the Arena** | Weaponry | Be cut down by another player 4,000 times (2 players) | 120 |
 | · | **Mirror Match** | Weaponry | Kill another player who is holding a Diamond Sword while holding one yourself (2 players) | 15 |
 | ★ | **Mutually Assured Destruction** | Weaponry | Trade kills with another player within the same second (2 players) | 150 |
 | ◆ | **Neptune Denied** | Weaponry | Block a Trident another player threw at you with your Shield (2 players) | 40 |
+| ★ | **Neptune's Grudge** | Weaponry | Skewer other players 1,000 times with a thrown Trident (2 players) | 120 |
+| ★ | **Never Dry** | Weaponry | Pick up 2,500 pieces of ammunition thrown to you by other players (2 players) | 120 |
 | · | **No Parachute** | Weaponry | Get killed by another player while you are falling through open air (2 players) | 15 |
 | · | **No Refunds** | Weaponry | Kill another player who is clutching an Enchanted Golden Apple in their off hand (2 players) | 15 |
+| · | **Nocturne of Nocks** | Weaponry | Kill 50 players with arrows loosed from a Bow (2 players) | 15 |
 | ★ | **Nosebleed Seats** | Weaponry | Kill another player above Y=300, the pair of you scrapping at the build limit (2 players) | 120 |
+| · | **Notch on the Bow** | Weaponry | Kill 5 players with arrows loosed from a Bow (2 players) | 15 |
+| ◆ | **Nothing Gets Through** | Weaponry | Block 250 attacks from other players with your Shield (2 players) | 40 |
 | · | **Nothing in Hand** | Weaponry | Punch a player who is wielding a Netherite Sword with both of your hands empty (2 players) | 15 |
 | ★ | **Nowhere Is Safe** | Weaponry | Kill another player in all three dimensions, underwater, in lava, above Y=200, below Y=-60 and in mid-air (2 players) | 120 |
 | ◆ | **Off-Hand Offer** | Weaponry | Kill another player with a Shield they gave you strapped to your off hand (2 players) | 40 |
 | · | **On the Receiving End** | Weaponry | Be killed by another player's thrown Trident (2 players) | 15 |
 | ◆ | **Out of Nowhere** | Weaponry | Take a Crossbow bolt from a player at least forty blocks away (2 players) | 40 |
+| · | **Outmatched** | Weaponry | Be cut down by another player 10 times (2 players) | 15 |
 | ◆ | **Outrider** | Weaponry | Cut a mounted player out of the saddle with a Sword from the back hump of a Camel a third player is driving (3 players) | 40 |
 | · | **Pancaked** | Weaponry | Be killed by another player's Mace smash (2 players) | 15 |
+| ★ | **Panoply Provider** | Weaponry | Hand 2,000 pieces of armour to other players (2 players) | 120 |
 | · | **Pass the Shield** | Weaponry | Give another player a Shield and take a Sword back off them (2 players) | 15 |
+| ◆ | **Perpetual Underdog** | Weaponry | Be cut down by another player 500 times (2 players) | 40 |
+| ◆ | **Phalanx of One** | Weaponry | Block 1,000 attacks from other players with your Shield (2 players) | 40 |
 | · | **Pinata** | Weaponry | Kill another player who is holding a Shulker Box in their hand (2 players) | 15 |
 | · | **Pincushion** | Weaponry | Die with another player's arrow in you (2 players) | 15 |
+| ◆ | **Plate for a Friend** | Weaponry | Hand 100 pieces of armour to other players (2 players) | 40 |
+| ◆ | **Potion Dependency** | Weaponry | Be dosed with Strength by another player 500 times (2 players) | 40 |
+| · | **Practice Bout** | Weaponry | Land 25 Sword blows on other players (2 players) | 15 |
+| ◆ | **Practice Dummy** | Weaponry | Be cut down by another player 250 times (2 players) | 40 |
+| · | **Pre-Fight Ritual** | Weaponry | Be dosed with Strength by another player 50 times (2 players) | 15 |
+| · | **Prongs and Consequences** | Weaponry | Skewer other players 25 times with a thrown Trident (2 players) | 15 |
 | · | **Pumpkin Spiced** | Weaponry | Kill another player who is wearing a Carved Pumpkin (2 players) | 15 |
 | ◆ | **Punching Up** | Weaponry | Kill another player who is wielding a Netherite Sword while you hold only a Copper Sword (2 players) | 40 |
+| · | **Quarrel with Everyone** | Weaponry | Hit other players 100 times with Crossbow bolts (2 players) | 15 |
+| ★ | **Quartermaster of the Fallen** | Weaponry | Hand 4,000 pieces of armour to other players (2 players) | 120 |
 | · | **Quartermaster's Round** | Weaponry | Kit out a teammate: hand another player a Sword, a Shield and a Bow (2 players) | 15 |
+| · | **Quiver Refill** | Weaponry | Pick up 50 pieces of ammunition thrown to you by other players (2 players) | 15 |
 | · | **Quiver Run** | Weaponry | Take Arrows out of another player's hands and shoot them straight back (2 players) | 15 |
+| ◆ | **Rain of Grey Geese** | Weaponry | Kill 250 players with arrows loosed from a Bow (2 players) | 40 |
 | ◆ | **Ransom Note** | Weaponry | Kill another player, then hand back a full set of Diamond armour and a Diamond Sword (2 players) | 180 |
+| ◆ | **Repeating History** | Weaponry | Hit other players 500 times with Crossbow bolts (2 players) | 40 |
 | · | **Rest In Pieces** | Weaponry | Cut another player down in melee, then plant a Wither Rose in their memory (2 players) | 35 |
 | · | **Return Fire** | Weaponry | Take an arrow from another player and put one straight back into them (2 players) | 15 |
 | ◆ | **Riding Shotgun** | Weaponry | Land a Spear charge attack on a hostile monster from the back hump of a Camel another player is driving (2 players) | 65 |
+| ◆ | **Riptide Rivalry** | Weaponry | Skewer other players 250 times with a thrown Trident (2 players) | 40 |
 | ◆ | **Rod of Retribution** | Weaponry | Beat a Blaze to death with a Blaze Rod another player took off one of its kin (2 players) | 40 |
 | ◆ | **Roman Candle** | Weaponry | Hit another player with a Firework Rocket fired from a Crossbow (2 players) | 40 |
 | ◆ | **Rope-a-Dope** | Weaponry | Block twenty hits from another player with your shield without landing a single hit of your own (2 players) | 65 |
+| ★ | **Sagittarius Ascending** | Weaponry | Kill 4,000 players with arrows loosed from a Bow (2 players) | 120 |
+| · | **Salted Water** | Weaponry | Skewer other players 10 times with a thrown Trident (2 players) | 15 |
 | · | **Second Draw** | Weaponry | Shoot a monster dead with a Bow another player put in your hands (2 players) | 15 |
 | ★ | **Second Wind** | Weaponry | Burn a Totem of Undying, then kill another player while still under five hearts and the totem's glow (2 players) | 160 |
 | · | **Secret Handshake** | Weaponry | Trade bare-fisted blows with another player: land one and take one back (2 players) | 25 |
 | ◆ | **Shield Wall** | Weaponry | Three players within eight blocks all block a hit with their shields at once (3 players) | 70 |
+| · | **Shieldwall Apprentice** | Weaponry | Block 50 attacks from other players with your Shield (2 players) | 15 |
 | ◆ | **Shot Down** | Weaponry | Be knocked out of an Elytra glide by another player's arrow (2 players) | 40 |
+| ◆ | **Siege Mentality** | Weaponry | Hit other players 250 times with Crossbow bolts (2 players) | 40 |
 | · | **Singin' in the Rain** | Weaponry | Get killed by another player while the rain is coming down (2 players) | 15 |
 | ◆ | **Skewered** | Weaponry | Kill another player with a thrown Trident (2 players) | 40 |
+| ◆ | **Skyfall Hammer** | Weaponry | Land 100 Mace blows on other players (2 players) | 40 |
 | · | **Snipped** | Weaponry | Kill another player with a pair of Shears (2 players) | 15 |
 | ◆ | **Snowball War** | Weaponry | Hit three different players with snowballs within ten seconds (3 players) | 60 |
 | · | **Spare Arm** | Weaponry | Take a Sword from another player and fight with one in each hand (2 players) | 15 |
 | ★ | **Sparring Partner** | Weaponry | Take ten hearts off another player with one swing, no Mace and no Spear charge (2 players) | 150 |
 | · | **Spear Carrier** | Weaponry | Kill a mob with a Spear another player handed you (2 players) | 15 |
 | ★ | **Spear Joust** | Weaponry | Land a Spear charge attack on another player while both of you are riding Horses (2 players) | 170 |
+| · | **Splintered Boards** | Weaponry | Block 25 attacks from other players with your Shield (2 players) | 15 |
+| · | **Splitting Hairs** | Weaponry | Land 10 Axe blows on other players (2 players) | 15 |
 | · | **Squire** | Weaponry | Arm a kneeling teammate: hand a Sword and a Shield to another player while they crouch (2 players) | 15 |
 | · | **Star-Crossed** | Weaponry | Kill another player while holding a Nether Star (2 players) | 15 |
+| · | **Steel Answers Steel** | Weaponry | Land 50 Sword blows on other players (2 players) | 15 |
 | ★ | **Strafing Run** | Weaponry | Kill another player with a Bow while you are gliding on an Elytra (2 players) | 120 |
+| ◆ | **Straight Through** | Weaponry | Kill 100 players with arrows loosed from a Bow (2 players) | 40 |
 | ★ | **Stripped of Rank** | Weaponry | Kill another player in a full set of Netherite armour while wearing none of it yourself (2 players) | 120 |
 | ◆ | **Sword and Board** | Weaponry | Take a Sword and a Shield off another player, then kill a monster holding both (2 players) | 40 |
 | ◆ | **Table Scraps** | Weaponry | Kill another player while they are still clutching their dinner (2 players) | 40 |
 | · | **Tagged** | Weaponry | Light another player up with a Spectral Arrow so your whole team can see them (2 players) | 15 |
+| ★ | **Ten Thousand Cuts** | Weaponry | Land 2,500 Sword blows on other players (2 players) | 120 |
 | ★ | **Terminal Velocity** | Weaponry | Take twenty-five hearts off another player with a single Mace smash (2 players) | 120 |
+| ★ | **The Armoury Line** | Weaponry | Hand 1,000 pieces of armour to other players (2 players) | 120 |
+| ◆ | **The Bolt Foundry** | Weaponry | Hit other players 1,000 times with Crossbow bolts (2 players) | 40 |
+| ◆ | **The Combat Medic** | Weaponry | Be dosed with Strength by another player 100 times (2 players) | 40 |
+| ★ | **The Endless Volley** | Weaponry | Pick up 5,000 pieces of ammunition thrown to you by other players (2 players) | 120 |
+| ★ | **The Executioner's Wage** | Weaponry | Land 2,500 Axe blows on other players (2 players) | 120 |
 | ★ | **The Firing Squad** | Weaponry | Kill other players with a Bow, a Crossbow, a Trident, a Crossbow firework, a Splash Potion and a Wind Charge (2 players) | 120 |
+| ◆ | **The Heavy Hand** | Weaponry | Land 500 Mace blows on other players (2 players) | 40 |
+| ◆ | **The Immovable** | Weaponry | Block 500 attacks from other players with your Shield (2 players) | 40 |
 | ★ | **The Long Drop** | Weaponry | Shoot another player dead down at Y=0 or lower while you stand above Y=100 (2 players) | 120 |
+| ◆ | **The Longbow Ledger** | Weaponry | Kill 500 players with arrows loosed from a Bow (2 players) | 40 |
+| ◆ | **The Losing Streak** | Weaponry | Be cut down by another player 100 times (2 players) | 40 |
+| ◆ | **The Measured Cut** | Weaponry | Land 250 Sword blows on other players (2 players) | 40 |
+| ★ | **The Shield That Never Fell** | Weaponry | Block 10,000 attacks from other players with your Shield (2 players) | 120 |
+| ◆ | **The Supply Line** | Weaponry | Pick up 250 pieces of ammunition thrown to you by other players (2 players) | 40 |
 | ★ | **The Sword Ledger** | Weaponry | Kill another player with every kind of Sword: wooden, stone, copper, iron, golden, diamond and netherite (2 players) | 120 |
+| ★ | **The Sword Saint** | Weaponry | Land 5,000 Sword blows on other players (2 players) | 120 |
+| ◆ | **The Tide Collects** | Weaponry | Skewer other players 100 times with a thrown Trident (2 players) | 40 |
+| ◆ | **The Tide Turns Against You** | Weaponry | Skewer other players 500 times with a thrown Trident (2 players) | 40 |
 | ★ | **The Whole Toolbox** | Weaponry | Be killed by other players wielding a Sword, an Axe, a Mace, a Trident, a Pickaxe, a Shovel and a Hoe (2 players) | 120 |
 | · | **Third-Party Trident** | Weaponry | Kill a mob with a Trident that came out of another player's inventory (2 players) | 15 |
 | ★ | **Three Graves** | Weaponry | Be killed by another player in all three dimensions (2 players) | 120 |
 | ★ | **Three Skies, One Bow** | Weaponry | Put an arrow into another player in the Overworld, the Nether and the End (2 players) | 120 |
 | ★ | **Three Ways to Fall** | Weaponry | Kill a player with a Sword, a Bow and a Trident, every one of them handed to you (2 players) | 120 |
+| · | **Timber Feud** | Weaponry | Land 50 Axe blows on other players (2 players) | 15 |
 | ◆ | **Totem Tax** | Weaponry | Kill another player who is holding a Totem of Undying in their off-hand (2 players) | 40 |
 | ◆ | **Trident Tag** | Weaponry | Hit another player with a thrown trident and catch a Loyalty trident on the return (2 players) | 55 |
 | · | **Trophy Hunter** | Weaponry | Kill another player who is wearing a Player Head (2 players) | 15 |
@@ -1221,16 +2717,20 @@ Advancements that cannot be earned alone. Every one needs between two and five p
 | ◆ | **Two Up** | Weaponry | Put an arrow into a distant player from the back hump of a Camel a third player is driving (3 players) | 40 |
 | · | **Two-Faced** | Weaponry | Be killed by another player while you are wearing somebody's Player Head (2 players) | 15 |
 | · | **Two-Handed** | Weaponry | Kill another player with a Sword in your main hand and an Axe in your off hand (2 players) | 15 |
+| ★ | **Unbreakable by Design** | Weaponry | Be dosed with Strength by another player 2,000 times (2 players) | 120 |
 | ◆ | **Under the Hammer** | Weaponry | Finish another player off with a Mace smash (2 players) | 40 |
 | · | **Viking Funeral** | Weaponry | Kill another player with an Axe while the pair of you are both on fire (2 players) | 15 |
 | · | **Warning Shot** | Weaponry | Put an arrow into another player from less than three blocks away (2 players) | 15 |
 | ★ | **Weapon Cache** | Weaponry | Hand another player one of every weapon: Sword, Axe, Bow, Crossbow, Trident, Mace and Spear (2 players) | 120 |
+| · | **Weight of the Argument** | Weaponry | Land 10 Mace blows on other players (2 players) | 15 |
 | ◆ | **Well Padded** | Weaponry | Take a twenty-point swing from another player and lose no more than five hearts of it (2 players) | 40 |
 | · | **Wet Fish** | Weaponry | Slap another player across the face with a raw Cod (2 players) | 15 |
 | ◆ | **Wet Fish Duel** | Weaponry | Trade blows with another player while you are both armed with nothing but a raw Cod (2 players) | 40 |
 | · | **Whittled Down** | Weaponry | Kill another player with a plain Stick (2 players) | 15 |
 | ◆ | **Wind Duel** | Weaponry | Launch another player six blocks into the air with your Wind Charge (2 players) | 70 |
+| · | **Winding Up** | Weaponry | Hit other players 25 times with Crossbow bolts (2 players) | 15 |
 | ◆ | **Witching Hour** | Weaponry | Kill another player with a Sword at the stroke of midnight (2 players) | 40 |
+| ◆ | **Woodsman's Grudge** | Weaponry | Land 500 Axe blows on other players (2 players) | 40 |
 
 <details><summary>How these are detected</summary>
 
@@ -1294,177 +2794,470 @@ Milestones unlock as you finish each tab, chaining into the pack's capstone. The
 
 # Alphabetical index
 
-All 855 advancements, A to Z, with the tab each one appears in.
+All 2355 advancements, A to Z, with the tab each one appears in.
 
 | Advancement | Tab | | What you do |
 |---|---|---|---|
+| **A Basket Left at the Door** | Farming | ★ | Be handed Fruit or Berries by another player 2,000 times (2 players) |
+| **A Career In Frailty** | Potions | ★ | Be given Weakness by another player 1,200 times (2 players) |
+| **A City Roofed in Green** | Building | ★ | Hand another player 4 or more Copper blocks 1,800 times (2 players) |
+| **A Familiar Ceiling** | Nether | · | Be killed by another player in the Nether 30 times (2 players) |
+| **A Fortune in Shells** | The End | ★ | Be handed 600 Shulker Shells by other players in the End (2 players) |
+| **A Girl's Best Friends** | Mining | ★ | Pick up Diamonds thrown to you by another player 10,000 times (2 players) |
+| **A Greenhouse the Size of a Town** | Building | ★ | Be handed 32 or more Glass by another player 1,150 times (2 players) |
+| **A Grove Between Us** | Biomes | ◆ | Catch 500 Pink Petals thrown to you in a Cherry Grove (2 players) |
+| **A Hundred Funerals** | Statistics | ◆ | Be killed by another player 100 times (2 players) |
+| **A Hundred Silences** | Statistics | ◆ | Kill 100 other players (2 players) |
+| **A Lifetime of Other People's Potions** | Adventure | ◆ | Gain 650 effects from another player's potions (2 players) |
+| **A Mould for Me** | Adventure | · | Be handed 5 Smithing Templates by another player (2 players) |
+| **A Needle for a Friend** | Adventure | · | Hand another player 5 compasses (2 players) |
+| **A Quiver's Worth of Regret** | The End | ◆ | Be hit by another player's projectile in the End 350 times (2 players) |
+| **A Rain of Regeneration** | Nether | ★ | Lob a Ghast Tear across five blocks to another player 3,500 times (2 players) |
+| **A Rough Welcome** | Statistics | · | Be killed by another player 2 times (2 players) |
+| **A Rumour Of People** | Potions | ◆ | Be turned Invisible by another player 500 times (2 players) |
+| **A Slice for You** | Farming | · | Hand another player a Cake, Pumpkin Pie or Cookie 12 times (2 players) |
+| **A Statue Made of Arrows** | Statistics | ★ | Be hit 15,000 times by another player's projectiles (2 players) |
+| **A Taste of Elsewhere** | The End | · | Take a handful of Chorus Fruit from another player in the End 50 times (2 players) |
+| **A Taste Of Spite** | Potions | · | Be Poisoned by another player 8 times (2 players) |
+| **A Thaw Full of Bodies** | Biomes | ★ | Be killed by another player in a snowy biome 3,500 times (2 players) |
+| **A Thousand Breaths Owed** | Biomes | ★ | Be given Water Breathing by another player 2,000 times while underwater (2 players) |
+| **A Thousand Keen Cuts** | Enchanting | ◆ | Land 1,000 hits on another player with a sword enchanted with Sharpness (2 players) |
+| **A Thousand Little Cuts** | Statistics | ◆ | Land 1,000 sword hits on other players (2 players) |
+| **A Thousand Open Eyes** | Biomes | ★ | Pass 12,000 Eyeblossoms to another player in a Pale Garden (2 players) |
+| **A Thousand Quarrels** | Weaponry | ★ | Hit other players 5,000 times with Crossbow bolts (2 players) |
+| **A Thousand Safe Returns** | Adventure | ★ | Hand another player 1,400 compasses (2 players) |
+| **A Thousand Ways Down** | The End | ★ | Be killed by another player in the End 3,000 times (2 players) |
+| **A Whiff of Dragon** | The End | · | Be handed Dragon's Breath or a Lingering Potion in the End 8 times (2 players) |
 | **Above It All** | Nether | ◆ | Hand Ancient Debris to another player while you both stand on the roof of the Nether (2 players) |
 | **Above the Weather** | Biomes | ◆ | Kill another player above Y=200 while a thunderstorm rages far below you (2 players) |
 | **Acid Rain** | Potions | · | Drop a Splash Potion of Harming on another player (2 players) |
+| **Across the Sea of Lava** | Nether | · | Lob a Ghast Tear across five blocks to another player 15 times (2 players) |
 | **Act of God** | Weaponry | ◆ | Call lightning down onto another player with a Channeling Trident during a thunderstorm (2 players) |
 | **Aegis Trade** | Weaponry | · | Hand another player your Shield and take theirs in return (2 players) |
+| **Aegis Unbroken** | Weaponry | ★ | Block 5,000 attacks from other players with your Shield (2 players) |
 | **Aerial Superiority** | Weaponry | ★ | Kill another Elytra-flying player while flying with an Elytra yourself (2 players) |
+| **Agricultural Grievance** | Farming | ◆ | Hit another player with a Hoe 150 times (2 players) |
 | **Air Ambulance** | Nether | ◆ | Be dosed with Regeneration from fifteen blocks off while you share a Happy Ghast with another player (3 players) |
 | **Air Freight** | Nether | ★ | Take a Netherite Ingot from a player on another Happy Ghast while a third player shares yours (3 players) |
 | **Air Mail** | Nether | ★ | Hand an item to another player while you are both flying Happy Ghasts, a hundred and fifty blocks up (2 players) |
 | **Air Miles** | The End | ★ | Be handed an Elytra by another player in the End, in the Nether and in the Overworld (2 players) |
 | **Air Rescue** | Nether | ★ | Fly your Happy Ghast under a falling player so they land on it after a fifty-block drop (2 players) |
 | **Air Supply** | Potions | · | Have another player splash you with Water Breathing while you are underwater (2 players) |
+| **Alchemical Artillery** | Potions | ◆ | Hurt another player with a thrown Splash Potion 380 times (2 players) |
+| **Alchemist's Champion** | Weaponry | ★ | Be dosed with Strength by another player 1,000 times (2 players) |
+| **Alchemist's Courier** | The End | ◆ | Be handed Dragon's Breath or a Lingering Potion in the End 100 times (2 players) |
 | **All For One** | Super Challenges | ★★ | Have every online player in full Netherite armour carrying an Elytra, at once (4 players) |
+| **All Our Baggage** | Adventure | ★ | Be handed 1,500 Bundles by another player (2 players) |
+| **All Strength Spent** | Potions | ◆ | Be given Weakness by another player 95 times (2 players) |
 | **Allay Express** | Adventure | ◆ | Put an Allay to work at a Note Block sorting Paper, then hand the post on to another player (2 players) |
 | **Always the Passenger** | Animals | ★ | Climb aboard a Boat, a Camel and a Happy Ghast that another player is already riding (2 players) |
+| **Amethyst Aristocracy** | Mining | ★ | Pick up Amethyst Shards thrown to you by another player 10,000 times (2 players) |
+| **Ammo Runner** | Weaponry | · | Pick up 10 pieces of ammunition thrown to you by other players (2 players) |
+| **Ammunition Economy** | Statistics | ◆ | Hand ammunition to other players 100 times (2 players) |
 | **Ammunition Supply** | Weaponry | ◆ | Take a Crossbow and a full stack of Arrows from another player, then bring a monster down with them (2 players) |
+| **An Army in Every Colour** | Building | ★ | Hand another player 8 or more Terracotta 820 times (2 players) |
+| **An Ocean of Broth** | Farming | ★ | Be served a Stew or Soup by another player 6,000 times (2 players) |
+| **Anchor Fund** | Nether | · | Take Crying Obsidian from another player in the Nether 6 times (2 players) |
 | **Anchor Management** | Nether | ◆ | Charge a Respawn Anchor with Glowstone another player brought you (2 players) |
+| **Ancient Allowance** | Mining | · | Pick up Netherite Scrap thrown to you by another player 8 times (2 players) |
 | **Ancient Armoury** | Mining | ◆ | Be handed a Sword, a Pickaxe and an Axe by another player inside an Ancient City (2 players) |
 | **Ancient City Apothecary** | Mining | ★ | Carry Resistance, Night Vision and a Shrieker's Darkness at once in the Deep Dark, the last dose thrown by another player (2 players) |
 | **Ancient Grudge** | Mining | · | Kill another player inside an Ancient City (2 players) |
+| **Anthracite Alliance** | Mining | ★ | Pick up Coal or Charcoal thrown to you by another player 5,000 times (2 players) |
 | **Antipodes** | Statistics | ★ | Have two players stand on exactly mirrored coordinates, at least three thousand blocks from the world origin (2 players) |
+| **Anvil and Ink** | Animals | · | Take 50 Name Tags from another player's hand (2 players) |
+| **Anvil from Above** | Weaponry | ★ | Land 1,000 Mace blows on other players (2 players) |
+| **Anvil, Not Hammer** | Nether | ★ | Take 11,000 hits from other players in the Nether (2 players) |
+| **Apothecary of Ruin** | Adventure | ★ | Hand another player 1,300 Ominous Bottles (2 players) |
 | **Apothecary Wars** | Potions | ★ | Take a Harming splash from another player while carrying Poison, Slowness, Weakness, Oozing, Weaving, Wind Charged and Infested, then put an arrow into a player from close range whose eyes are on somebody far off (3 players) |
 | **Apothecary's Duel** | Potions | ◆ | Splash another player with Harming and take a Harming splash from a player straight back (2 players) |
 | **Apothecary's Oath** | Super Challenges | ★★ | Take a dose from another player in the Overworld, in Nether lava, out over the End, under a Beacon, under a Conduit and in the Deep Dark (2 players) |
 | **Apple Cart** | Farming | · | Hand another player a full stack of Apples (2 players) |
+| **Arc of the Arrow** | Statistics | · | Kill 15 other players with an arrow from at least 8 blocks away (2 players) |
+| **Archive of Other Hands** | Adventure | ★ | Be handed 800 maps by another player (2 players) |
+| **Archivist of Echoes** | Adventure | ★ | Be handed 1,700 Echo Shards by another player (2 players) |
+| **Archivist of Nothing at All** | Enchanting | ★ | Hand another player 9,000 Grindstones or plain Books (2 players) |
 | **Arise, Sir Loin** | Weaponry | ◆ | Tap a kneeling player on the shoulder for under half a heart with a Golden Sword, wearing a Golden Helmet (2 players) |
+| **Arm Of The Pack** | Potions | ★ | Be given Strength by another player 1,500 times (2 players) |
+| **Armor for the Beasts** | Animals | · | Hand Horse or Wolf Armor to other players 6 times (2 players) |
+| **Armour by Airmail** | The End | ◆ | Be handed 120 Shulker Shells by other players in the End (2 players) |
 | **Arms Dealer** | Weaponry | · | Give another player a sword, then get killed by a player wielding one (2 players) |
 | **Arms Shipment** | Weaponry | · | Hand another player a Bow, a Crossbow and a Trident (2 players) |
 | **Arrow Catcher** | Weaponry | · | Block another player's arrow with your Shield (2 players) |
+| **Arrows from the Islands** | The End | ◆ | Be hit by another player's projectile in the End 160 times (2 players) |
+| **Arrowsmith's Legend** | Weaponry | ★ | Kill 1,000 players with arrows loosed from a Bow (2 players) |
+| **Arrowstorm Veteran** | Statistics | ★ | Be hit 6,000 times by another player's projectiles (2 players) |
+| **Arsenal of Allies** | Weaponry | ★ | Pick up 10,000 pieces of ammunition thrown to you by other players (2 players) |
 | **Ash and Bone** | Nether | · | Kill another player among the bones of a Soul Sand Valley (2 players) |
 | **Ash and Ember** | Nether | ★ | Kill another player wearing full Netherite armour in the Nether (2 players) |
+| **Ash Immune** | Potions | ★ | Be given Fire Resistance by another player 2,800 times (2 players) |
+| **Ash on the Blade** | Nether | · | Kill 30 players in the Nether (2 players) |
 | **Ashes to Ashes** | The End | · | Have two players plunge into the End void within ten seconds of each other (2 players) |
+| **Ashes, Again** | Nether | ◆ | Be killed by another player in the Nether 200 times (2 players) |
+| **Ashlar Contract** | Building | ◆ | Be handed a full stack of Stone or its cousins by another player 210 times (2 players) |
+| **Assay Office** | Mining | ◆ | Have another player pick up Gold Ingots you threw 700 times (2 players) |
 | **Assembly Line** | Redstone | · | Take five Iron Ingots from one player and a Chest from another, craft a Hopper, and hand it on down the line (2 players) |
 | **Assist** | Monsters | · | Finish off a monster that a teammate had already beaten down below two hearts (2 players) |
+| **Atlas of the Anvil Yard** | Enchanting | ★ | Hand another player 1,800 Anvils (2 players) |
 | **Attic Ambush** | Nether | ◆ | Kill another player up on the roof of the Nether, both of you above Y=128 (2 players) |
+| **Automated Medicine** | Redstone | ★ | Be given Speed by another player's brew 1,600 times (2 players) |
+| **Avalanche of Blows** | Biomes | ◆ | Land 700 hits on another player above y=200 (2 players) |
 | **Avenged** | Monsters | · | Shoot down a monster that has locked onto another player at least eight blocks away (2 players) |
 | **Axe Feud** | Weaponry | · | Kill another player with an Axe, and be killed by one (2 players) |
 | **Axe Murderer** | Weaponry | ★ | Kill another player with every kind of Axe: wooden, stone, copper, iron, golden, diamond and netherite (2 players) |
+| **Axes of Evil** | Weaponry | ★ | Land 5,000 Axe blows on other players (2 players) |
+| **Azure Consignment** | Enchanting | · | Hand another player 128 Lapis Lazuli (2 players) |
 | **B-Side** | Adventure | · | Swap Music Discs with another player, one record for another (2 players) |
+| **Back to Blank** | Enchanting | ◆ | Hand another player 475 Grindstones or plain Books (2 players) |
 | **Backstabber** | Weaponry | · | Kill a crouching player with a Netherite Axe (2 players) |
 | **Bad Apple** | Adventure | ◆ | Hand a Golden Apple to a player you have Weakened, as though they were a Zombie Villager (2 players) |
 | **Bad Batch** | Potions | ★ | Have another player inflict Poison, Weakness, Slowness, Oozing, Weaving, Infestation and Wind Charging on you (2 players) |
 | **Bad Influence** | Potions | ◆ | Drink an Ominous Bottle a teammate handed you, then go on to win the raid (2 players) |
 | **Badlands Consignment** | Building | ◆ | Be handed plain Terracotta and four stained colours of it by another player (2 players) |
+| **Badlands Palette** | Building | · | Hand another player 8 or more Terracotta 28 times (2 players) |
+| **Bag It for Me** | Adventure | · | Be handed 3 Bundles by another player (2 players) |
 | **Bait and Switch** | Monsters | ★ | Loot an Ancient City chest while a Warden is chasing another player at least thirty blocks away (2 players) |
 | **Bake Sale** | Farming | ◆ | Hand another player a Cake, a Pumpkin Pie and a full stack of Cookies (2 players) |
+| **Bale and Barter** | Animals | · | Hand Wool to other players 55 times (2 players) |
 | **Ball and Chain** | Potions | · | Be slowed to a crawl by another player's Splash Potion of Slowness (2 players) |
+| **Ballista of One** | Weaponry | ★ | Hit other players 10,000 times with Crossbow bolts (2 players) |
 | **Balloon Battle** | Nether | ★ | Kill another player who is riding a Happy Ghast while you ride one of your own over the Nether (2 players) |
+| **Bankers of the Bastion** | Nether | ◆ | Hand another player four or more Gold Ingots in the Nether 3,000 times (2 players) |
+| **Bankrolled in Bottles** | Enchanting | ★ | Take 1,700 Bottles o' Enchanting from another player's hand (2 players) |
+| **Banquet Detail** | Farming | ◆ | Hand another player Cooked Meat 400 times (2 players) |
+| **Barbed Greeting** | Statistics | · | Land 5 thrown-Trident hits on other players (2 players) |
+| **Barbed Welcome** | Weaponry | · | Skewer other players 5 times with a thrown Trident (2 players) |
+| **Barding Party** | Animals | · | Hand Horse or Wolf Armor to other players 2 times (2 players) |
+| **Bare Bones Brawling** | Monsters | · | Strike another player 10 times with nothing but a bone (2 players) |
 | **Bare Knuckle Boxing** | Weaponry | ★ | Beat another player to death with your bare fists, carrying absolutely nothing yourself (2 players) |
 | **Bark Swap** | Building | · | Hand another player a Stripped Log and take a full Bark block back (2 players) |
 | **Barn Raising** | Building | ◆ | Have three players each place a hundred blocks inside the same chunk (3 players) |
+| **Baron of Blue Dust** | Enchanting | ★ | Hand another player 8,192 Lapis Lazuli (2 players) |
+| **Baron of the Bog** | Biomes | ◆ | Hand 1,800 Slimeballs to another player standing in a swamp (2 players) |
+| **Baron of the Boneyard** | Monsters | ★ | Put 5000 bones into other players' inventories (2 players) |
 | **Bars and Chains** | Mining | · | Take Copper Bars and Copper Chains from another player (2 players) |
 | **Basalt Column** | Nether | · | Hand Polished Basalt to another player standing in the Basalt Deltas (2 players) |
+| **Basket Brigade** | Animals | ◆ | Hand Eggs to other players 1,000 times (2 players) |
 | **Bastion Brawl** | Nether | · | Kill another player inside a Bastion Remnant (2 players) |
 | **Bastion Buddy** | Nether | ◆ | Loot a Bastion treasure chest in the Golden Helmet another player handed you (2 players) |
 | **Bastion Wardrobe** | Nether | ◆ | Be handed every piece of a Golden armour set by other players in the Nether (2 players) |
+| **Bathhouse Of The Damned** | Potions | ★ | Be given Fire Resistance by another player 1,200 times (2 players) |
 | **Batted Back** | Nether | ◆ | Take a Ghast fireball that another player batted at you (2 players) |
 | **Battle Ration** | Farming | ◆ | Take a Golden Carrot from another player while you are under three hearts, and eat it (2 players) |
 | **Beacon of Hope** | Nether | ★ | Craft a Beacon from a Nether Star another player handed you (2 players) |
 | **Beacon Pharmacy** | Potions | ◆ | Take Regeneration and Strength from another player while a Beacon holds you under Resistance (2 players) |
 | **Beam Top-Up** | Potions | · | Be splashed with Strength by another player while a Beacon is giving you Haste (2 players) |
+| **Bearings Given Freely** | Adventure | · | Hand another player 12 compasses (2 players) |
 | **Beast Master** | Animals | ★ | Take a Lead from another player's hand and leash a Polar Bear, an Iron Golem, a Zoglin, an Allay, a Copper Golem and a Squid with it (2 players) |
+| **Beaten Green and Blue** | Biomes | ◆ | Take 2,000 hits from another player in a jungle (2 players) |
+| **Beaten Like a Drum** | Animals | · | Take 80 hits from another player while dressed head to toe in Leather (2 players) |
+| **Bedrock in Sight** | Nether | ★ | Hand another player a full stack of Netherrack 15,000 times (2 players) |
+| **Bedrock to Battlement** | Building | ★ | Be handed a full stack of Stone or its cousins by another player 5,000 times (2 players) |
+| **Bedrock Was Closer** | The End | ◆ | Be killed by another player in the End 160 times (2 players) |
+| **Beds Are for the Overworld** | Nether | ◆ | Take Crying Obsidian from another player in the Nether 1,400 times (2 players) |
 | **Bedside Manner** | Adventure | ◆ | Cure a Zombie Villager with a Golden Apple another player handed you, then open the surgery and trade with your patient (2 players) |
+| **Beet Around the Bush** | Farming | · | Hand another player Root Vegetables 25 times (2 players) |
 | **Beet It** | Farming | · | Drink Beetroot Soup another player made for you (2 players) |
+| **Beggar's Banquet** | Monsters | · | Live off 25 handouts of zombie meat from a teammate (2 players) |
 | **Beggars and Choosers** | Monsters | · | Choke down Rotten Flesh another player handed you (2 players) |
+| **Below the Cobbles** | Building | · | Hand another player 32 or more Deepslate blocks 2 times (2 players) |
 | **Bequeathed Bludgeon** | Weaponry | ★ | Take a Mace off another player and kill another player with it (2 players) |
+| **Berry Bounty** | Farming | ◆ | Be handed Fruit or Berries by another player 175 times (2 players) |
 | **Berry Run** | Farming | · | Be handed both Sweet Berries and Glow Berries by another player (2 players) |
+| **Berserker's Warmup** | Statistics | ◆ | Land 150 axe hits on other players (2 players) |
+| **Beryl Benefactor** | Mining | ◆ | Have another player pick up Emeralds you threw 275 times (2 players) |
+| **Best Friend's Best Friend** | Mining | · | Pick up Diamonds thrown to you by another player 5 times (2 players) |
+| **Bested** | Weaponry | · | Be cut down by another player 5 times (2 players) |
+| **Better Living Through Brewing** | Statistics | ◆ | Receive 1,000 potion effects from other players (2 players) |
+| **Better Living Through Friends** | Adventure | · | Gain 8 effects from another player's potions (2 players) |
+| **Better Living Through Redstone** | Redstone | ★ | Be given Speed by another player's brew 3,500 times (2 players) |
+| **Beyond Diamond, Together** | Mining | ★ | Pick up Netherite Scrap thrown to you by another player 8,000 times (2 players) |
+| **Bioluminescent Bazaar** | Biomes | ◆ | Catch 500 Sea Pickles thrown to you by another player in a warm ocean (2 players) |
+| **Birthday Industrial Complex** | Farming | ★ | Hand another player a Cake, Pumpkin Pie or Cookie 2,000 times (2 players) |
 | **Bite the Hand** | Weaponry | ◆ | Take a Sword from another player and kill a player with it (2 players) |
 | **Bitter Draught** | Potions | · | Hand Nether Wart to another player standing in a Nether Fortress (2 players) |
 | **Bitter Medicine** | Potions | · | Kill another player while Regeneration is still ticking on them (2 players) |
 | **Blackout Blinds** | Mining | · | Take Tinted Glass from another player and wall the light out with it (2 players) |
 | **Blackstone Consortium** | Building | ◆ | Take Blackstone, Polished Blackstone, Polished Blackstone Bricks and Chiselled Polished Blackstone from another player (2 players) |
 | **Blackstone Market** | Nether | ◆ | Take Blackstone, Polished Blackstone, Polished Blackstone Bricks and Gilded Blackstone from another player in the Nether (2 players) |
+| **Blade Among the Islands** | The End | ◆ | Land 160 melee blows on other players in the End (2 players) |
+| **Blade Christening** | Statistics | · | Land 10 sword hits on other players (2 players) |
+| **Blade Discipline** | Enchanting | ◆ | Land 475 hits on another player with a sword enchanted with Sharpness (2 players) |
 | **Blade Exchange** | Weaponry | ◆ | Swap Netherite Swords with another player, one blade for the other (2 players) |
 | **Blades for Hire** | Weaponry | ◆ | Hand another player a Sword of every material, wood through Netherite (2 players) |
+| **Blasting Contractor** | Monsters | ◆ | Move 250 lots of creeper powder into another player's pack (2 players) |
+| **Blazing Consignment** | Nether | ◆ | Be handed a Blaze Rod inside a Nether Fortress 300 times (2 players) |
+| **Bleached the Bedrock** | Nether | ★ | Take Nether Quartz from another player's hand 2,500 times (2 players) |
+| **Bleed on Me** | Enchanting | · | Be struck by another player 75 times while wearing a Thorns chestplate (2 players) |
 | **Blimpin' Ain't Easy** | Statistics | ◆ | Fly 5 km on a Happy Ghast without landing, with at least one passenger aboard the whole time (2 players) |
+| **Blink Diet** | The End | ◆ | Take a handful of Chorus Fruit from another player in the End 250 times (2 players) |
 | **Blood Brothers** | Nether | ◆ | Have four players die and all come back on the same Respawn Anchor within twenty seconds (4 players) |
 | **Blood Debt** | Weaponry | ◆ | Strike down a player who killed somebody less than a minute ago (2 players) |
 | **Blood Feud** | Statistics | ★ | Kill another player and be killed by another player in every dimension (2 players) |
+| **Blood Like Brew** | Monsters | ★ | Take 2500 poisonings from other players and keep walking (2 players) |
+| **Blood on the Tracks** | Redstone | ★ | Land 4,800 hits on another player while they ride a Minecart (2 players) |
+| **Blood, Sweat and Iron** | Mining | ★ | Pick up Iron Ingots thrown to you by another player 15,000 times (2 players) |
+| **Bloom, Blink, Repeat** | Biomes | ★ | Pass 6,000 Eyeblossoms to another player in a Pale Garden (2 players) |
+| **Blossom Bureau** | Biomes | ◆ | Catch 200 Pink Petals thrown to you in a Cherry Grove (2 players) |
 | **Blossom Duel** | Biomes | · | Cut another player down beneath the falling petals of a Cherry Grove (2 players) |
+| **Blow It for Me** | Adventure | · | Hand another player 6 Goat Horns (2 players) |
+| **Blows Beneath the Basalt** | Nether | · | Land 150 melee hits on other players in the Nether (2 players) |
+| **Blue Handshake** | Enchanting | · | Hand another player 16 Lapis Lazuli (2 players) |
+| **Blunt Force Trophy** | Monsters | ★ | Deal 1000 bone-club hits to other players (2 players) |
+| **Blunt Instrument** | Monsters | ★ | Land 2500 strikes on players while wielding a bone (2 players) |
+| **Blunt Introduction** | Weaponry | · | Land 5 Mace blows on other players (2 players) |
 | **Blunt Refusal** | Weaponry | · | Block a Mace blow from another player with your Shield (2 players) |
+| **Blur Detail** | Potions | ◆ | Be given Speed by another player 400 times (2 players) |
 | **Boar War** | Animals | ◆ | Kill another player who is riding a saddled Pig while you ride one of your own (2 players) |
+| **Board Feet** | Building | ◆ | Hand another player a full stack of Planks 150 times (2 players) |
 | **Boarding Party** | Biomes | ◆ | Kill another player with an Axe while a third player shares your Boat (3 players) |
 | **Body Count** | Statistics | ◆ | Have five players who have each died at least ten times all be online together (5 players) |
 | **Bodyguard** | Nether | · | Block a Ghast's fireball with a Shield another player put in your hands (2 players) |
+| **Bodyguard Detail** | Enchanting | ◆ | Take 360 armour pieces enchanted with Protection IV from another player's hand (2 players) |
+| **Bog Delivery** | Biomes | · | Hand 10 Slimeballs to another player standing in a swamp (2 players) |
 | **Boiling Point** | Nether | ◆ | Land a hit on another player while the pair of you are standing in lava (2 players) |
+| **Bolt After Bolt** | Animals | ◆ | Hand Wool to other players 560 times (2 players) |
 | **Bolt from the Blue** | Weaponry | ◆ | Kill another player with a bolt from a Crossbow (2 players) |
+| **Bolt of Colour** | Building | · | Be handed 16 or more Wool or Carpet by another player 8 times (2 players) |
+| **Bolt Tally** | Weaponry | · | Hit other players 50 times with Crossbow bolts (2 players) |
 | **Bomb Disposal** | Monsters | ◆ | Put a Creeper down while it is about to go off in another player's face (2 players) |
+| **Bone Broker** | Monsters | · | Throw 50 bones for somebody else to run down (2 players) |
 | **Bone to Pick** | Weaponry | · | Kill another player while the only thing in your hands is a Bone (2 players) |
+| **Bonebreaker** | Monsters | ◆ | Hit another player 250 times with the crudest weapon there is (2 players) |
+| **Bonemeal Benefactor** | Monsters | ◆ | Bankroll a friend's crops with 250 handfuls of skeleton dust (2 players) |
+| **Bones Beyond Counting** | Monsters | ★ | Hand out 10000 bones and never once keep them (2 players) |
+| **Bones in the Dunes** | Biomes | ◆ | Kill 250 players in a desert (2 players) |
+| **Bones on the Bedrock** | The End | ◆ | Kill 55 other players in the End (2 players) |
+| **Boneyard Payroll** | Monsters | ★ | Pay out 1000 bones to the players who do your digging (2 players) |
 | **Book Club** | Enchanting | · | Enchant a Book and put the Enchanted Book straight into another player's hands (2 players) |
+| **Boots on Their Feet** | Weaponry | · | Hand 10 pieces of armour to other players (2 players) |
+| **Borrowed Bearings** | Adventure | · | Be handed 2 maps by another player (2 players) |
 | **Borrowed Bite** | Mining | ◆ | Take a Netherite Pickaxe off another player and be caught swinging it (2 players) |
 | **Borrowed Bow** | Weaponry | · | Kill a player with a Bow that another player dropped into your hands (2 players) |
+| **Borrowed Breath** | Biomes | · | Be given Water Breathing by another player 10 times while underwater (2 players) |
+| **Borrowed Delay** | Redstone | · | Throw 10 Redstone Repeaters for another player to pick up (2 players) |
+| **Borrowed Eyes** | Mining | · | Gain Night Vision from another player's potion 2 times (2 players) |
 | **Borrowed Lightning** | Enchanting | ◆ | Call lightning down on a monster with a Channeling Trident another player handed you (2 players) |
+| **Borrowed Muscle** | Potions | · | Be given Strength by another player 8 times (2 players) |
+| **Borrowed Shafts** | Weaponry | · | Pick up 25 pieces of ammunition thrown to you by other players (2 players) |
+| **Borrowed Steel** | Statistics | · | Take 2 weapons or shields thrown to you by another player (2 players) |
+| **Borrowed Wisdom** | Enchanting | ◆ | Take 180 Enchanted Books from another player's hand (2 players) |
+| **Bottle Barrage** | Potions | · | Hurt another player with a thrown Splash Potion 30 times (2 players) |
+| **Bottle Money** | Enchanting | · | Take 25 Bottles o' Enchanting from another player's hand (2 players) |
+| **Bottled and Delivered** | Redstone | ◆ | Be given Speed by another player's brew 320 times (2 players) |
+| **Bottled Malice** | Monsters | · | Catch poison from another player's brew 5 times (2 players) |
+| **Bottled Payroll** | Enchanting | ◆ | Take 200 Bottles o' Enchanting from another player's hand (2 players) |
 | **Bottled Roar** | The End | ◆ | Hand another player sixteen Bottles of Dragon's Breath (2 players) |
+| **Bottled Trouble, Shared** | Adventure | · | Hand another player 18 Ominous Bottles (2 players) |
 | **Bottom of the Ocean** | Biomes | ◆ | Kill another player while the two of you are swimming underwater (2 players) |
 | **Bottomless Bowl** | Farming | ◆ | Hand another player all four bowls - Mushroom Stew, Rabbit Stew, Beetroot Soup and Suspicious Stew - and take four empty Bowls back (2 players) |
+| **Bottomless Quiver** | Weaponry | ◆ | Pick up 500 pieces of ammunition thrown to you by other players (2 players) |
 | **Bounce Pass** | Potions | · | Have another player land Jump Boost on you from at least five blocks of vertical separation (2 players) |
+| **Bound in Leather** | Animals | · | Take Leather or Rabbit Hide from another player's hand 240 times (2 players) |
 | **Bounty Hunter** | Monsters | · | Get paid in Emeralds by another player within a minute of hunting a monster down (2 players) |
+| **Bowl Me Over** | Farming | · | Be served a Stew or Soup by another player 30 times (2 players) |
 | **Bowl Return** | Farming | · | Take a bowl of stew from another player and hand the empty Bowl straight back (2 players) |
+| **Boxes for Everyone** | The End | ◆ | Be handed 250 Shulker Shells by other players in the End (2 players) |
 | **Braced for the Charge** | Weaponry | · | Block a charge from a player on horseback with your Shield (2 players) |
+| **Branch Line** | Redstone | · | Throw 64 Rails of any kind for another player to pick up (2 players) |
+| **Brawler of the Basalt** | Nether | · | Land 400 melee hits on other players in the Nether (2 players) |
+| **Bread of Ages** | Farming | ★ | Hand another player Bread 6,400 times (2 players) |
 | **Bread Winner** | Statistics | ★ | Hand food to other players five hundred times (2 players) |
 | **Breaking Bread** | Farming | ◆ | Break bread with another player: hand over Bread, cooked meat, a bowl of stew and a Golden Apple, and be handed all four straight back (2 players) |
+| **Breath Baron** | The End | ★ | Be handed Dragon's Breath or a Lingering Potion in the End 2,400 times (2 players) |
+| **Breath Merchant** | Potions | ◆ | Pick up 165 Lingering Potions thrown to you by another player (2 players) |
+| **Breath on Loan** | The End | · | Be handed Dragon's Breath or a Lingering Potion in the End 20 times (2 players) |
 | **Breath Sample** | The End | · | Be handed a Bottle of Dragon's Breath by another player (2 players) |
 | **Breath Work** | Potions | · | Take a Bottle of Dragon's Breath off another player (2 players) |
+| **Breathing on Credit** | Potions | ◆ | Be given Water Breathing by another player 150 times (2 players) |
 | **Bricked In** | Building | · | Get walled in on all six sides by another player (2 players) |
 | **Bricklayer's Mate** | Building | · | Hand Nether Bricks to another player standing inside a real Nether Fortress (2 players) |
+| **Bricks Between Us** | The End | · | Pass Purpur to another player from inside an End City 8 times (2 players) |
 | **Brickwork** | The End | · | Lay End Stone Bricks another player handed you (2 players) |
+| **Bright Idea From a Friend** | Mining | ◆ | Gain Night Vision from another player's potion 100 times (2 players) |
 | **Brimstone Barter** | Building | · | Hand another player Sulfur Bricks and take Polished Sulfur back (2 players) |
+| **Brine Rations** | Farming | · | Be handed Kelp or Sea Pickles by another player 25 times (2 players) |
 | **Bring a Torch** | Mining | · | Take a Torch off another player while you are standing in pitch darkness (2 players) |
+| **Bringer of Second Fights** | The End | ★ | Hand an End Crystal to another player while you are in the End 4,500 times (2 players) |
 | **Broadside** | Biomes | · | Kill another player sitting in a Boat while you fight from a Boat of your own on the deep ocean (2 players) |
+| **Broth Brotherhood** | Farming | ◆ | Be served a Stew or Soup by another player 350 times (2 players) |
+| **Bruise Collector** | Statistics | ◆ | Take 400 melee hits from other players (2 players) |
+| **Bruise for Bruise** | Nether | ◆ | Land 2,500 melee hits on other players in the Nether (2 players) |
+| **Bruised and Basalt-Stained** | Nether | · | Take 125 hits from other players in the Nether (2 players) |
+| **Bruised and Learning** | Statistics | · | Take 10 melee hits from other players (2 players) |
+| **Bruised by Bamboo** | Biomes | · | Take 150 hits from another player in a jungle (2 players) |
+| **Bruised in Zero Gravity** | The End | ◆ | Land 70 melee blows on other players in the End (2 players) |
+| **Bruises Above the Snowline** | Biomes | · | Land 50 hits on another player above y=200 (2 players) |
 | **Brush With Greatness** | Adventure | · | Excavate a suspicious block with a Brush another player handed you (2 players) |
+| **Brutalist Tendencies** | Building | ◆ | Be handed 16 or more Concrete by another player 350 times (2 players) |
+| **Bucking Season** | Building | ◆ | Be handed 16 or more Logs by another player 90 times (2 players) |
+| **Budding Partnership** | Mining | · | Pick up Amethyst Shards thrown to you by another player 60 times (2 players) |
+| **Buddy Breathing** | Potions | · | Be given Water Breathing by another player 12 times (2 players) |
+| **Buffed by Better People** | Adventure | ◆ | Gain 280 effects from another player's potions (2 players) |
+| **Buffed Up** | Weaponry | · | Be dosed with Strength by another player 10 times (2 players) |
 | **Bug Bomb** | Potions | · | Be seeded with Infested by another player's Splash Potion (2 players) |
+| **Built Out of Scar Tissue** | Statistics | ★ | Take 2,500 melee hits from other players (2 players) |
+| **Bulb Baron** | Redstone | ★ | Throw 2,000 Copper Bulbs for another player to pick up (2 players) |
+| **Bulb Exchange** | Redstone | · | Throw 4 Copper Bulbs for another player to pick up (2 players) |
+| **Bulk Discount** | Mining | · | Take a bundle of 16 or more Raw Copper from another player 5 times (2 players) |
+| **Bullion Benefactor** | Mining | ◆ | Have another player pick up Gold Ingots you threw 300 times (2 players) |
+| **Bullion Bites** | Farming | ◆ | Be handed Golden Food by another player 120 times (2 players) |
 | **Bullion Handshake** | Nether | ★ | Hand a whole Block of Netherite to another player (2 players) |
 | **Bullion Run** | Nether | ★ | Hand another player a Block of Netherite (2 players) |
+| **Bulwark Duty** | Weaponry | · | Block 100 attacks from other players with your Shield (2 players) |
 | **Bumper Carts** | Redstone | · | Ram another player's Minecart hard enough to stop you both dead (2 players) |
 | **Bunk Beds** | Building | · | Two players sleep at the same time in beds stacked one directly above the other (2 players) |
 | **Bunker Buddy** | Mining | · | Take Resistance from another player while you are down in the Deep Dark (2 players) |
 | **Buried Dividend** | Biomes | ◆ | Take a Heart of the Sea off another player standing in the Buried Treasure it came out of (2 players) |
+| **Buried in Powder** | Biomes | ◆ | Be killed by another player in a snowy biome 100 times (2 players) |
+| **Buried Without a Grave** | Nether | ★ | Be killed by another player in the Nether 7,500 times (2 players) |
+| **Bury the Hatchet** | Weaponry | ◆ | Land 250 Axe blows on other players (2 players) |
 | **Butch and Sundance** | Weaponry | ◆ | Kill a hostile mob with a Crossbow from a Boat that another player is steering (2 players) |
 | **Cake Walk** | Farming | · | Be handed a Cake by another player and set it out for the party (2 players) |
+| **Calcium Supplement** | Monsters | ◆ | Supply another player with 100 bones for their farm (2 players) |
 | **Campfire Stories** | Building | · | Get four players crouched together beside one lit Campfire at night (4 players) |
+| **Carats and Sticks** | Mining | · | Pick up Diamonds thrown to you by another player 15 times (2 players) |
 | **Caravan Ambush** | Animals | · | Put an arrow into another player riding a Llama while you sit on a Llama yourself (2 players) |
+| **Caravan Custody** | Animals | ◆ | Take 750 Leads from another player's hand (2 players) |
 | **Caravan of Love** | Animals | ◆ | Hitch your Llama to another player's caravan with a Lead they handed you (2 players) |
+| **Carbon Copies** | Mining | ◆ | Pick up Coal or Charcoal thrown to you by another player 1,000 times (2 players) |
 | **Care Package** | Adventure | ◆ | Hand another player every piece of an Iron armour set (2 players) |
+| **Carnival of Corpses** | Monsters | ◆ | Claim 250 player kills with a skull for a helmet (2 players) |
+| **Carpenters' Guild** | Building | ◆ | Hand another player a full stack of Planks 340 times (2 players) |
 | **Carpet Bagger** | Animals | · | Ride a Llama after another player handed you the carpet for its back (2 players) |
+| **Carpet Run** | Building | · | Be handed 16 or more Wool or Carpet by another player 18 times (2 players) |
 | **Carpool** | Animals | · | Share a boat with another player (2 players) |
+| **Carried by Committee** | Adventure | ◆ | Be handed 125 Bundles by another player (2 players) |
+| **Cart Depot** | Redstone | · | Pick up 42 Minecarts of any kind dropped for you by another player (2 players) |
+| **Cart Tap** | Redstone | · | Land 8 hits on another player while they ride a Minecart (2 players) |
+| **Cart Tycoon** | Redstone | ★ | Pick up 2,000 Minecarts of any kind dropped for you by another player (2 players) |
+| **Cartography by Consensus** | Adventure | ★ | Be handed 1,600 maps by another player (2 players) |
+| **Cash for Conductors** | Mining | · | Pick up Copper Ingots thrown to you by another player 100 times (2 players) |
+| **Cat's Eyes** | Potions | · | Be given Night Vision by another player 12 times (2 players) |
 | **Catch and Cook** | Animals | ◆ | Be handed the whole catch by another player, raw and cooked: Cod, Salmon, Tropical Fish and Pufferfish (2 players) |
 | **Catch of the Day** | Weaponry | · | Hook another player with a fishing rod and reel them in (2 players) |
 | **Catch the Fall** | Potions | ◆ | Be caught in mid-air by another player's Splash Potion of Slow Falling (2 players) |
+| **Cathedral Glazing** | Building | ◆ | Be handed 32 or more Glass by another player 500 times (2 players) |
+| **Cathedral Weight** | Building | ◆ | Be handed a full stack of Stone or its cousins by another player 480 times (2 players) |
+| **Caught by a Cloud** | The End | · | Pick up Slow Falling from another player's potion in the End 3 times (2 players) |
+| **Caught in the Web** | Monsters | · | Catch 10 pieces of spider salvage thrown by another player (2 players) |
 | **Caught Mid-Air** | Potions | · | Get Slow Falling from another player while your feet are off the ground (2 players) |
+| **Cauldron Companion** | Monsters | ◆ | Suffer 250 poisonings at the hands of your own brewer (2 players) |
+| **Cauldron Diplomacy** | The End | ◆ | Be handed Dragon's Breath or a Lingering Potion in the End 500 times (2 players) |
+| **Cauldron Keeper** | Farming | ★ | Be served a Stew or Soup by another player 1,500 times (2 players) |
 | **Cavalry Charge** | Animals | ◆ | Four players in the saddle on four Horses, all inside fifteen blocks (4 players) |
+| **Cavalry Outfitter** | Animals | ◆ | Hand Horse or Wolf Armor to other players 200 times (2 players) |
+| **Cave Optics** | Mining | ◆ | Gain Night Vision from another player's potion 600 times (2 players) |
 | **Caveat Emptor** | Potions | · | Drink a Potion of Harming that another player handed you (2 players) |
+| **Cellar Stock** | Farming | ◆ | Hand another player Root Vegetables 320 times (2 players) |
 | **Chain of Supply** | Adventure | ◆ | Hand another player every piece of a Chainmail armour set (2 players) |
 | **Chainbreaker** | Weaponry | ◆ | Kill another player wearing a full set of Chainmail armour (2 players) |
+| **Chalice Of Friends** | Potions | ◆ | Be Poisoned by another player 260 times (2 players) |
+| **Champion of the Lists** | Animals | ★ | Land 1,100 hits on another player while you are mounted (2 players) |
 | **Changing of the Guard** | Nether | ★ | Climb aboard a Happy Ghast above Y=150 that another player is already flying (2 players) |
 | **Charge Account** | Nether | · | Set something alight with a Fire Charge another player crafted for you (2 players) |
+| **Charged by Committee** | Nether | ◆ | Take Crying Obsidian from another player in the Nether 240 times (2 players) |
 | **Charity Case** | Adventure | · | Be handed a helmet, a chestplate, leggings and boots by other players (2 players) |
+| **Charted by Committee** | Adventure | · | Be handed 12 maps by another player (2 players) |
 | **Chemical Warfare** | Potions | ◆ | Poison three different players with a single Lingering Potion (3 players) |
+| **Chemically Assisted** | Statistics | ◆ | Receive 400 potion effects from other players (2 players) |
+| **Chemically Emboldened** | Weaponry | ◆ | Be dosed with Strength by another player 250 times (2 players) |
+| **Chemistry of Mercy** | The End | ◆ | Pick up Slow Falling from another player's potion in the End 450 times (2 players) |
 | **Cherry Consignment** | Building | · | Take Cherry Planks from another player standing under the blossom of a Cherry Grove (2 players) |
 | **Cherry Picker** | Building | ◆ | Place a block above Y=200 from a Happy Ghast that another player is flying (2 players) |
+| **Chief of Medicine** | Potions | ◆ | Be given Regeneration by another player 380 times (2 players) |
+| **Chiming In** | Mining | · | Pick up Amethyst Shards thrown to you by another player 25 times (2 players) |
+| **Chip Off the Pot** | Adventure | · | Hand another player 3 Pottery Sherds (2 players) |
 | **Chopping Block** | Weaponry | · | Block a Netherite Axe swing from another player with your Shield (2 players) |
+| **Chopping Order** | Weaponry | · | Land 100 Axe blows on other players (2 players) |
+| **Chorus Cartel** | The End | ★ | Take a handful of Chorus Fruit from another player in the End 5,000 times (2 players) |
 | **Chorus Line** | The End | · | Be handed Chorus Fruit in the End by another player and eat it there (2 players) |
 | **Chorus Sickness** | The End | · | Take Weakness from another player's brew out in the End (2 players) |
+| **Christening Duty** | Animals | · | Take 8 Name Tags from another player's hand (2 players) |
+| **Chronic Victim** | Nether | · | Be killed by another player in the Nether 75 times (2 players) |
+| **Chuckwagon** | Farming | ◆ | Hand another player Cooked Meat 175 times (2 players) |
+| **Chum in the Water** | Statistics | · | Land 2 thrown-Trident hits on other players (2 players) |
+| **Cinched and Delivered** | Animals | · | Hand 25 Saddles to other players (2 players) |
+| **Cinderproof** | Potions | ◆ | Be given Fire Resistance by another player 500 times (2 players) |
+| **Cinders Beyond Counting** | Nether | ★ | Be handed a Blaze Rod inside a Nether Fortress 9,000 times (2 players) |
+| **Circuit of Two** | Redstone | · | Pick up 32 Redstone Dust dropped for you by another player (2 players) |
 | **City Break** | The End | ◆ | Be handed Chorus Fruit, a Shulker Shell and an Elytra by other players, every one of them inside an End City (2 players) |
+| **City Built by Hand** | The End | ★ | Pass Purpur to another player from inside an End City 10,000 times (2 players) |
+| **City Lights** | Redstone | ★ | Throw 900 Copper Bulbs for another player to pick up (2 players) |
+| **Claim Dispute** | Mining | · | Hit another player while holding a Pickaxe 2 times (2 players) |
 | **Claim Jumper** | Mining | · | Kill another player with a Pickaxe inside an Ancient City (2 players) |
 | **Clay Pigeon** | Weaponry | ◆ | Put a Crossbow bolt into an Elytra-flying player from twenty blocks away with both your feet on the ground (2 players) |
 | **Clean Plate** | Farming | · | Hand another player a Carrot, a Potato and a Beetroot (2 players) |
+| **Clearcut Contract** | Building | ◆ | Be handed 16 or more Logs by another player 450 times (2 players) |
+| **Cleave and Repeat** | Statistics | ◆ | Land 400 axe hits on other players (2 players) |
+| **Cleaver Fever** | Weaponry | ◆ | Land 1,000 Axe blows on other players (2 players) |
+| **Click, Thunk** | Weaponry | · | Hit other players 10 times with Crossbow bolts (2 players) |
 | **Clipped Wings** | Weaponry | ★ | Cut an Elytra-flying player out of the sky in melee with both your feet on the ground (2 players) |
 | **Cloak Room** | The End | ◆ | Pick up Invisibility in the End from a Lingering Potion another player threw, so the Endermen stop staring (2 players) |
+| **Clockwork Partners** | Redstone | ★ | Throw 1,100 Redstone Repeaters for another player to pick up (2 players) |
 | **Closing Time** | Adventure | ◆ | Last orders: buy Ice from a Wandering Trader with Emeralds another player handed you, and pass the ice straight back (2 players) |
+| **Clothier to the Server** | Animals | ◆ | Hand Wool to other players 1,200 times (2 players) |
+| **Cloud Consignment** | Potions | ◆ | Pick up 70 Lingering Potions thrown to you by another player (2 players) |
+| **Cloud Nine Contractor** | Building | · | Catch Slow Falling from a potion another player threw 28 times (2 players) |
+| **Clouds Left Behind** | Potions | ◆ | Pick up 400 Lingering Potions thrown to you by another player (2 players) |
+| **Clubbing Season** | Monsters | · | Batter another player 50 times with a bone in hand (2 players) |
+| **Cluster Consortium** | Mining | ★ | Pick up Amethyst Shards thrown to you by another player 2,000 times (2 players) |
+| **Coal Barons** | Mining | ★ | Pick up Coal or Charcoal thrown to you by another player 11,000 times (2 players) |
+| **Coal Ration** | Mining | · | Pick up Coal or Charcoal thrown to you by another player 30 times (2 players) |
+| **Cobalt Caravan** | Enchanting | ◆ | Hand another player 512 Lapis Lazuli (2 players) |
 | **Cobbler's Rounds** | Adventure | ◆ | Hand out boots of every armour material to other players (2 players) |
 | **Cold Chain** | Biomes | ◆ | Deliver a Bucket of Powder Snow to another player standing in a desert (2 players) |
 | **Cold Cuts** | Animals | · | Hand another player raw Beef, raw Porkchop and raw Mutton (2 players) |
 | **Cold Shoulder** | Biomes | ◆ | Finish off another player who is frozen solid inside Powder Snow (2 players) |
+| **Cold to the Touch** | Building | · | Hand another player 32 or more Deepslate blocks 5 times (2 players) |
+| **Collector of Others' Grief** | Nether | ◆ | Lob a Ghast Tear across five blocks to another player 1,500 times (2 players) |
 | **Colour Coded** | The End | ◆ | Be handed a red, a yellow, a lime and a blue Shulker Box by other players (2 players) |
+| **Colour Match** | Building | · | Be handed 16 or more Concrete by another player 5 times (2 players) |
+| **Coloured Light** | Building | ◆ | Be handed 32 or more Glass by another player 220 times (2 players) |
+| **Comb Tribute** | Farming | · | Hand another player Honey or Sugar 90 times (2 players) |
 | **Community Beacon** | Building | ★ | Have four players receiving an effect from the same beacon at once (4 players) |
+| **Commuter Rage** | Redstone | ◆ | Land 200 hits on another player while they ride a Minecart (2 players) |
+| **Company Store** | Mining | ◆ | Pick up Coal or Charcoal thrown to you by another player 180 times (2 players) |
+| **Company Timber** | Building | ◆ | Be handed 16 or more Logs by another player 200 times (2 players) |
+| **Comparator Cartel** | Redstone | ★ | Pick up 1,000 Redstone Comparators dropped for you by another player (2 players) |
+| **Comparing Notes** | Redstone | · | Pick up 10 Redstone Comparators dropped for you by another player (2 players) |
+| **Compound Luck** | Enchanting | · | Take 65 tools enchanted with Fortune III from another player's hand (2 players) |
+| **Concussive Habit** | Weaponry | ◆ | Land 250 Mace blows on other players (2 players) |
 | **Conduit Club** | Biomes | ◆ | Have three players share Conduit Power huddled within eight blocks of each other (3 players) |
 | **Conduit Commission** | Biomes | ◆ | Take a Conduit off another player and place it (2 players) |
+| **Confectioner's Guild** | Farming | ◆ | Hand another player a Cake, Pumpkin Pie or Cookie 400 times (2 players) |
+| **Confetti Courier** | Biomes | · | Catch 30 Pink Petals thrown to you in a Cherry Grove (2 players) |
 | **Congregation** | The End | ◆ | Have every online player present in the End at the same time (4 players) |
+| **Container Reader** | Redstone | · | Pick up 44 Redstone Comparators dropped for you by another player (2 players) |
+| **Continents Passed by Hand** | Nether | ★ | Hand another player a full stack of Netherrack 6,000 times (2 players) |
+| **Convalescence** | Potions | · | Be given Regeneration by another player 70 times (2 players) |
+| **Conversations in Steel** | Statistics | ◆ | Land 400 sword hits on other players (2 players) |
 | **Conveyor Belt** | Redstone | ◆ | Float an item down a water channel to a player standing fifty blocks away (2 players) |
 | **Convoy** | Redstone | ◆ | Four players rolling along in four Minecarts at the same time (4 players) |
 | **Cook's Tour** | Farming | ★ | Take a hot meal from another player in the Overworld, the Nether and the End (2 players) |
+| **Cookie Courier** | Farming | · | Hand another player a Cake, Pumpkin Pie or Cookie 5 times (2 players) |
 | **Copper Bottomed** | Mining | ◆ | Hand another player a full set of Copper tools and a Copper Sword (2 players) |
 | **Copper Conscript** | Adventure | · | Be handed all four pieces of Copper armour by other players (2 players) |
+| **Copper Handout** | Mining | · | Pick up Copper Ingots thrown to you by another player 40 times (2 players) |
+| **Copper Kettle Club** | Mining | ★ | Pick up Copper Ingots thrown to you by another player 6,500 times (2 players) |
+| **Coppers on the Take** | Mining | · | Pick up Copper Ingots thrown to you by another player 5 times (2 players) |
+| **Coral Consignment** | Biomes | ◆ | Catch 100 Sea Pickles thrown to you by another player in a warm ocean (2 players) |
+| **Cornucopia** | Farming | ◆ | Be handed Fruit or Berries by another player 900 times (2 players) |
 | **Corporate Raiders** | Nether | ◆ | Raid a Bastion's Piglins with a partner: barter inside it on gold they threw you (2 players) |
+| **Costume Kill** | Monsters | ◆ | Finish off 50 players while disguised as the dead (2 players) |
+| **Counterpuncher** | Enchanting | · | Be struck by another player 160 times while wearing a Thorns chestplate (2 players) |
+| **Courier of the Void** | Monsters | ★ | Move 2500 pearls out of your hands and into theirs (2 players) |
+| **Coursed Rubble** | Building | ◆ | Be handed a full stack of Stone or its cousins by another player 90 times (2 players) |
+| **Court of the Drowned Deep** | Weaponry | ★ | Skewer other players 2,000 times with a thrown Trident (2 players) |
 | **Cover Fire** | Weaponry | ◆ | Snipe a monster that is hunting a player below two hearts, from at least fifty blocks away (2 players) |
+| **Cowhide Constitution** | Animals | ◆ | Take 400 hits from another player while dressed head to toe in Leather (2 players) |
+| **Cracked and Chiselled** | Building | ◆ | Hand another player 32 or more Deepslate blocks 150 times (2 players) |
+| **Cracking Under Pressure** | Animals | · | Hand Eggs to other players 90 times (2 players) |
+| **Crank and Loose** | Weaponry | ★ | Hit other players 2,500 times with Crossbow bolts (2 players) |
+| **Crash Test Creeper** | Monsters | ★ | Take 1000 player-made blasts to the face (2 players) |
 | **Crash Test Dummy** | Statistics | ◆ | Take five hundred points of damage from other players (2 players) |
+| **Crater Maker** | Weaponry | · | Land 50 Mace blows on other players (2 players) |
+| **Crater Regular** | Monsters | ◆ | Be inside 50 of another player's explosions (2 players) |
 | **Cream of the Crop** | Nether | · | Take Magma Cream from another player while you are both in the Nether (2 players) |
 | **Crimson Import** | Nether | · | Take Crimson Planks from another player in the Nether and build with them there (2 players) |
 | **Crocodile Tears** | Nether | · | Take a Ghast Tear from another player while you are both down in the Nether (2 players) |
@@ -1472,86 +3265,248 @@ All 855 advancements, A to Z, with the tab each one appears in.
 | **Cross-Purposes** | Potions | ◆ | Be sped up by another player while Slowness is still weighing you down (2 players) |
 | **Crossbow Battery** | Enchanting | ◆ | Hand another player a Multishot Crossbow, a Piercing IV Crossbow and a Quick Charge III Crossbow (2 players) |
 | **Crow's Nest** | Biomes | · | Look through a Spyglass out over the deep ocean from a Boat you are sharing with another player (2 players) |
+| **Crumbs of Empire** | Farming | ★ | Hand another player a Cake, Pumpkin Pie or Cookie 8,000 times (2 players) |
+| **Crushing Depths Together** | Mining | ★ | Pick up Diamonds thrown to you by another player 4,500 times (2 players) |
+| **Crystal Cartel** | Nether | ★ | Take Nether Quartz from another player's hand 5,000 times (2 players) |
+| **Crystal Consignment** | The End | ◆ | Hand an End Crystal to another player while you are in the End 80 times (2 players) |
 | **Crystal Courier** | The End | · | Hand another player an End Crystal (2 players) |
 | **Crystal Grudge** | The End | ◆ | Blow another player apart with an End Crystal (2 players) |
+| **Crystal Handshake** | Nether | · | Take Nether Quartz from another player's hand 25 times (2 players) |
 | **Crystal Wholesale** | The End | ◆ | Hand another player sixty-four End Crystals (2 players) |
+| **Culler of Countrymen** | Nether | ◆ | Kill 180 players in the Nether (2 players) |
+| **Cuprous Kingpin** | Mining | ★ | Pick up Copper Ingots thrown to you by another player 14,000 times (2 players) |
+| **Curator of Blank Pages** | Enchanting | ★ | Hand another player 2,100 Grindstones or plain Books (2 players) |
+| **Curator of Craniums** | Monsters | ◆ | Accept 500 heads into your growing collection from another player (2 players) |
+| **Curator of Hollow Things** | The End | ★ | Be handed 5,000 Shulker Shells by other players in the End (2 players) |
+| **Curator of the Deep** | Animals | ★ | Take a Bucket of live catch from another player's hand 1,200 times (2 players) |
+| **Curator of the Given** | Adventure | ★ | Hand another player 1,100 Pottery Sherds (2 players) |
+| **Cured and Handed Over** | Animals | ◆ | Take Leather or Rabbit Hide from another player's hand 550 times (2 players) |
 | **Curse of the Deep** | Monsters | ◆ | Cut down another player inside an Ocean Monument while the Elder Guardian's Mining Fatigue is on them (2 players) |
+| **Custodian of Forever** | Enchanting | ★ | Take 1,900 items enchanted with Mending from another player's hand (2 players) |
+| **Cut and Chiselled** | Building | · | Hand another player 32 or more Sandstone 6 times (2 players) |
 | **Cut and Shut** | Mining | ◆ | Hand another player Copper Blocks and take Cut Copper Stairs and Slabs back (2 players) |
+| **Cut and Thrust** | Statistics | · | Land 60 sword hits on other players (2 players) |
+| **Cut from the Same Hide** | Animals | · | Take Leather or Rabbit Hide from another player's hand 100 times (2 players) |
+| **Cut Me a Copy** | Adventure | · | Be handed 6 Trial Keys by another player (2 players) |
+| **Cutting Out the Middleman** | Mining | · | Have another player pick up Emeralds you threw 25 times (2 players) |
+| **Daily Bread** | Farming | · | Hand another player Bread 100 times (2 players) |
 | **Dangled Carrot** | Animals | · | Ride a Pig with a Carrot on a Stick another player put in your hand (2 players) |
+| **Dark Adapted** | Potions | · | Be given Night Vision by another player 30 times (2 players) |
 | **Dead Drop** | Nether | ◆ | Leave a parcel on the ground in the Nether and be a hundred blocks away when another player collects it (2 players) |
 | **Dead Weight** | The End | · | Shoot another player out of the air in the End while a Shulker's Levitation has hold of them (2 players) |
 | **Deadshot** | Potions | ◆ | Kill another player with a Tipped Arrow of Harming (2 players) |
+| **Dealer in Explosive Glass** | The End | ★ | Hand an End Crystal to another player while you are in the End 2,000 times (2 players) |
 | **Death and Taxes** | Enchanting | · | Collect the experience another player dropped when they died (2 players) |
+| **Death by a Thousand Shafts** | Monsters | ★ | Rack up 500 deaths to another player's arrows (2 players) |
+| **Death Comes Quietly** | Statistics | ★ | Kill 1,500 other players with an arrow from at least 8 blocks away (2 players) |
+| **Death Comes Silently** | Weaponry | ★ | Kill 2,000 players with arrows loosed from a Bow (2 players) |
 | **Death Do Us Part** | Monsters | · | Have two players killed by Creepers in the same instant, in the same place (2 players) |
+| **Death Has a Nametag** | Weaponry | ★ | Be cut down by another player 2,000 times (2 players) |
+| **Death Has a Regular** | The End | ★ | Be killed by another player in the End 1,500 times (2 players) |
+| **Death Has a Season Pass** | Nether | ◆ | Be killed by another player in the Nether 3,000 times (2 players) |
+| **Death Incarnate** | Statistics | ★ | Kill 1,500 other players (2 players) |
+| **Death Takes A Number** | Potions | ★ | Be given Regeneration by another player 9,000 times (2 players) |
+| **Debris Delegation** | Mining | ◆ | Pick up Netherite Scrap thrown to you by another player 120 times (2 players) |
 | **Debris Delivery** | Nether | · | Take Ancient Debris from another player below Y=16 in the Nether (2 players) |
 | **Debris Run** | Nether | · | Take four Ancient Debris off another player (2 players) |
+| **Debt in Bubbles** | Biomes | ★ | Be given Water Breathing by another player 5,000 times while underwater (2 players) |
+| **Deep Blue Reserves** | Enchanting | ★ | Hand another player 2,048 Lapis Lazuli (2 players) |
+| **Deep City Dividend** | Adventure | ◆ | Be handed 75 Echo Shards by another player (2 players) |
 | **Deep Cut** | Mining | · | Kill another player with a Stone Sword down in the deepslate (2 players) |
 | **Deep Delivery** | Mining | · | Take Deepslate from another player while you are both below Y=0 (2 players) |
 | **Deep Dive Kit** | Biomes | ◆ | Carry Water Breathing, Night Vision and Speed underwater, the last of them thrown onto you by another player (2 players) |
+| **Deep Dose** | Mining | ◆ | Gain Night Vision from another player's potion 250 times (2 players) |
 | **Deep Prescription** | Mining | ◆ | Take Night Vision from another player below Y=0 while a Beacon down there gives you Haste (2 players) |
 | **Deep Rations** | Mining | · | Be handed food by another player while you are both below Y=0 (2 players) |
 | **Deep Recovery** | Mining | ◆ | Be there when another player falls below Y=-50, then hand their belongings back at sea level (2 players) |
 | **Deep Sea Dispensary** | Biomes | ★ | Carry Conduit Power, Water Breathing, Night Vision and Speed at once underwater, the last of them from another player (2 players) |
 | **Deep Six** | Weaponry | · | Hand another player a Trident while you are swimming underwater (2 players) |
 | **Deep Water Duel** | Biomes | · | Skewer another player with a thrown Trident while you are both swimming (2 players) |
+| **Deeper Than the Dark** | Biomes | ★ | Catch 6,000 Echo Shards thrown to you by another player in the Deep Dark (2 players) |
 | **Deflection** | Weaponry | · | Block a Trident thrown by another player on your Shield (2 players) |
+| **Delay Merchants** | Redstone | ◆ | Throw 105 Redstone Repeaters for another player to pick up (2 players) |
+| **Delivery of Iron** | Enchanting | · | Hand another player 5 Anvils (2 players) |
 | **Delta Force** | Nether | ◆ | Kill another player in the Basalt Deltas while the pair of you are on fire (2 players) |
+| **Demolition Intern** | Monsters | · | Fetch and throw 50 explosives for somebody else (2 players) |
+| **Dented Plate** | Statistics | · | Take 60 melee hits from other players (2 players) |
+| **Dents Beyond Counting** | Weaponry | ★ | Block 2,500 attacks from other players with your Shield (2 players) |
 | **Depth Charge** | Biomes | · | Hit another player with a thrown Trident while you are both swimming (2 players) |
 | **Desert Cavalry** | Animals | ◆ | Cut down another player riding a Camel out in the desert while you ride a Camel yourself (2 players) |
+| **Desert Delivery** | Building | · | Hand another player 32 or more Sandstone 14 times (2 players) |
+| **Detonation Logistics** | The End | ★ | Hand an End Crystal to another player while you are in the End 900 times (2 players) |
 | **Detox** | Potions | · | Drink a Milk Bucket another player gave you to wash the Wither effect off (2 players) |
 | **Diamond Hands** | Adventure | ◆ | Hand another player a full stack of sixty-four Diamonds (2 players) |
+| **Died Among Friends** | Nether | · | Be killed by another player in the Nether 12 times (2 players) |
 | **Dig Dividend** | Adventure | · | Take a Pottery Sherd off another player inside the Trail Ruins (2 players) |
 | **Dig Me Out** | Mining | · | Free a player buried in Gravel by breaking the block over their head (2 players) |
+| **Diminished By Design** | Potions | ◆ | Be given Weakness by another player 520 times (2 players) |
+| **Diminishing Returns for No One** | Enchanting | ★ | Take 1,350 tools enchanted with Fortune III from another player's hand (2 players) |
 | **Dinner Guest** | Farming | · | Sit down to eat: take food from a player crouched within three blocks of you while you crouch too, and eat it (2 players) |
+| **Dipped In Magma** | Potions | · | Be given Fire Resistance by another player 15 times (2 players) |
 | **Disarmed** | Potions | · | Have the strength splashed out of your arms by another player's Potion of Weakness (2 players) |
+| **Dispensary** | Redstone | ◆ | Be given Speed by another player's brew 700 times (2 players) |
+| **Dispensed Care** | Redstone | · | Be given Speed by another player's brew 12 times (2 players) |
+| **Distilling the Dragon** | The End | ★ | Be handed Dragon's Breath or a Lingering Potion in the End 1,100 times (2 players) |
 | **Distraction Tactics** | Adventure | · | Ring a Bell to pull raiders off a teammate who is down to three hearts or less (2 players) |
+| **Distribution Network** | Potions | ★ | Pick up 2,200 Lingering Potions thrown to you by another player (2 players) |
+| **Dividend in Diamonds** | Enchanting | · | Take 14 tools enchanted with Fortune III from another player's hand (2 players) |
 | **Do As I Say** | Potions | · | Get poisoned by a player who is comfortably under Regeneration themselves (2 players) |
 | **Doggy Bag** | Farming | · | Take a full stack of cooked meat from another player in one drop (2 players) |
 | **Dolphin Sitter** | Biomes | ◆ | Leash a Dolphin out at sea with a Lead another player handed you (2 players) |
+| **Don't Drop It** | Animals | · | Hand Eggs to other players 6 times (2 players) |
+| **Doom by the Dozen** | Adventure | ◆ | Hand another player 45 Ominous Bottles (2 players) |
 | **Door Gunner** | Nether | ◆ | Shoot a Ghast down with a Crossbow from the passenger seat of a Happy Ghast another player is flying (2 players) |
+| **Doping Ring** | Potions | ◆ | Be given Speed by another player 165 times (2 players) |
+| **Dosed by a Friend** | Statistics | · | Receive 10 potion effects from other players (2 players) |
+| **Dosed in the Dark** | Mining | · | Gain Night Vision from another player's potion 40 times (2 players) |
 | **Double Booking** | Adventure | · | Serve two customers at one counter: buy goods from a Villager and hand goods of that kind straight to another player (2 players) |
 | **Double Dose** | Potions | · | Take Poison II off another player's brew (2 players) |
 | **Double Indemnity** | Adventure | · | Hand another player a Totem of Undying and take one from them in return (2 players) |
 | **Down and Out** | Biomes | ◆ | Be poisoned by another player while you are underwater in a Deep Ocean (2 players) |
+| **Down to the Roots** | Farming | · | Hand another player Root Vegetables 60 times (2 players) |
+| **Down To The Wreck** | Potions | · | Be given Water Breathing by another player 65 times (2 players) |
+| **Downrange** | Redstone | · | Take 25 projectile hits from another player standing at least three blocks away (2 players) |
 | **Drag Strip** | Redstone | ◆ | Race another player in Minecarts on parallel rails, side by side within four blocks at full speed (2 players) |
+| **Dragon's Exhaust** | The End | · | Be handed Dragon's Breath or a Lingering Potion in the End 3 times (2 players) |
 | **Dragon's Pharmacy** | The End | ★ | In the End, pick up Slow Falling, Invisibility and Night Vision from Lingering Potions other players threw (2 players) |
 | **Dragonfire and Venom** | The End | ★ | Kill another player in the End while Poison, Slowness, Weakness and Levitation are all on them (2 players) |
+| **Dragonless Tyrant** | The End | ◆ | Kill 120 other players in the End (2 players) |
+| **Drawn Steel** | Weaponry | · | Land 100 Sword blows on other players (2 players) |
 | **Dress Code** | Adventure | ★ | Three players in full armour of the same material with the same armour trim (3 players) |
+| **Dressed Stone** | Building | · | Be handed a full stack of Stone or its cousins by another player 16 times (2 players) |
+| **Dried and Delivered** | Farming | ◆ | Be handed Kelp or Sea Pickles by another player 350 times (2 players) |
+| **Drifting on Borrowed Time** | The End | ★ | Pick up Slow Falling from another player's potion in the End 4,500 times (2 players) |
 | **Drive-By** | Redstone | ◆ | Kill another player while you are hurtling past in a Minecart (2 players) |
 | **Drop Shipping** | Adventure | ◆ | Throw an item down to another player standing a hundred blocks below you (2 players) |
 | **Duel at Dawn** | Weaponry | ◆ | Stand ten paces from another player and put an arrow in them the moment the sun comes up (2 players) |
+| **Duel of the Dead** | Monsters | ◆ | Win 500 exchanges armed only with a bone against a player (2 players) |
+| **Duelist's Ledger** | Weaponry | ◆ | Land 500 Sword blows on other players (2 players) |
+| **Duelling Practice** | Enchanting | · | Land 45 hits on another player with a sword enchanted with Sharpness (2 players) |
+| **Duellist of the Dark Sky** | The End | ★ | Land 3,200 melee blows on other players in the End (2 players) |
 | **Duellist's Courtesy** | Weaponry | ◆ | Hand another player a Netherite Sword, then beat them down with a Wooden one (2 players) |
 | **Dug by Proxy** | Enchanting | · | Mine with a Fortune III Pickaxe that another player enchanted for you (2 players) |
 | **Dulled Blade** | Enchanting | ◆ | Land a hit on another player with a Sharpness V sword while you are under Weakness (2 players) |
+| **Dust Baron** | Redstone | ★ | Pick up 4,096 Redstone Dust dropped for you by another player (2 players) |
+| **Dust Courier** | Redstone | · | Pick up 16 Redstone Dust dropped for you by another player (2 players) |
+| **Dust Money** | Enchanting | · | Hand another player 32 Lapis Lazuli (2 players) |
+| **Dust Settles Slowly** | Biomes | · | Kill 40 players in a desert (2 players) |
+| **Dust to Dust to You** | Redstone | · | Pick up 64 Redstone Dust dropped for you by another player (2 players) |
 | **Dying Wish** | Adventure | ◆ | Hand your belongings to another player, then let them kill you (2 players) |
+| **Ears Still Ringing** | Monsters | · | Get caught in 5 explosions another player set off (2 players) |
+| **Easy Pickings** | Statistics | · | Be killed by another player 15 times (2 players) |
+| **Echo Economy** | Biomes | ◆ | Catch 400 Echo Shards thrown to you by another player in the Deep Dark (2 players) |
+| **Edge of Reason** | Weaponry | ◆ | Land 1,000 Sword blows on other players (2 players) |
+| **Edge Work** | Statistics | · | Land 25 sword hits on other players (2 players) |
 | **Efficiency Expert** | Enchanting | · | Take a tool enchanted with Efficiency V from another player (2 players) |
+| **Effigy Executioner** | Monsters | ★ | Kill 500 players while hiding behind a monster's head (2 players) |
+| **Egg Delivery** | Animals | · | Hand Eggs to other players 15 times (2 players) |
+| **El Dorado Express** | Mining | ◆ | Have another player pick up Gold Ingots you threw 1,500 times (2 players) |
+| **Elbows Out** | Redstone | · | Land 18 hits on another player while they ride a Minecart (2 players) |
+| **Elixir Sovereign** | Weaponry | ★ | Be dosed with Strength by another player 4,000 times (2 players) |
+| **Elytra Estate** | The End | · | Kill 5 other players in the End (2 players) |
+| **Emerald City Payroll** | Mining | ★ | Have another player pick up Emeralds you threw 6,000 times (2 players) |
 | **Emergency Exit** | Nether | ◆ | Get a player who is below two hearts out of the Nether — both of you through the portal inside five seconds (2 players) |
+| **Emperor of Baked Clay** | Building | ★ | Hand another player 8 or more Terracotta 4,000 times (2 players) |
+| **Emperor of Dust** | Biomes | ★ | Kill 3,500 players in a desert (2 players) |
+| **Emperor of Eight Legs** | Monsters | ★ | Collect 10000 spider drops flung to you by other players (2 players) |
+| **Emperor of Hides** | Animals | ★ | Take Leather or Rabbit Hide from another player's hand 5,000 times (2 players) |
+| **Emperor's Provisions** | Farming | ★ | Be handed Golden Food by another player 1,200 times (2 players) |
 | **Empties** | Animals | · | Hand another player a Bucket of Milk and take the empty Bucket back (2 players) |
 | **End Bricklayers** | The End | · | Be handed End Stone Bricks by another player and build with them in the End (2 players) |
 | **End City Siege** | The End | ◆ | Kill another player inside an End City (2 players) |
+| **Endermail** | Monsters | ★ | Post 1000 pearls to the players who need them (2 players) |
 | **Endless Quiver** | Enchanting | ◆ | Be handed an Infinity Bow by another player, then kill a player with it (2 players) |
+| **Endurance of the Damned** | Nether | ★ | Take 25,000 hits from other players in the Nether (2 players) |
 | **Escort Mission** | Adventure | ◆ | Guide a player blinded by a Carved Pumpkin two hundred blocks while they stay within five blocks of you (2 players) |
 | **Escort Service** | Nether | ★ | Walk five hundred blocks through the Nether with nothing on you, guarded and untouched (2 players) |
+| **Eternity, Passed Around** | Enchanting | ◆ | Take 425 items enchanted with Mending from another player's hand (2 players) |
 | **Even Split** | Adventure | · | Hand another player exactly thirty-two Gold Ingots while still holding thirty-two yourself (2 players) |
+| **Every Beast a Name** | Animals | ★ | Take 1,400 Name Tags from another player's hand (2 players) |
+| **Every Blossom Accounted For** | Biomes | ★ | Catch 7,500 Pink Petals thrown to you in a Cherry Grove (2 players) |
+| **Every Blow Returned** | Enchanting | ◆ | Be struck by another player 340 times while wearing a Thorns chestplate (2 players) |
+| **Every City Stripped Bare** | The End | ★ | Be handed 2,500 Shulker Shells by other players in the End (2 players) |
+| **Every Cloud Has A Sender** | Potions | ★ | Pick up 5,000 Lingering Potions thrown to you by another player (2 players) |
+| **Every Coast but Mine** | Adventure | ◆ | Be handed 200 maps by another player (2 players) |
+| **Every Colour, By the Tonne** | Building | ★ | Be handed 16 or more Concrete by another player 4,000 times (2 players) |
+| **Every Death Comes Home** | Nether | ★ | Take Crying Obsidian from another player in the Nether 16,000 times (2 players) |
+| **Every Door Is Ours** | Adventure | ◆ | Be handed 250 Trial Keys by another player (2 players) |
+| **Every Egg in One Basket** | Animals | ★ | Hand Eggs to other players 4,500 times (2 players) |
+| **Every Furrow Filled** | Farming | ★ | Hand another player Seeds 1,600 times (2 players) |
+| **Every Leaf a Knife** | Biomes | ◆ | Take 800 hits from another player in a jungle (2 players) |
+| **Every Note Was Given** | Adventure | ◆ | Hand another player 100 Goat Horns (2 players) |
+| **Every Pickle in the Sea** | Biomes | ★ | Catch 5,000 Sea Pickles thrown to you by another player in a warm ocean (2 players) |
+| **Every Plate Buckled** | Statistics | ◆ | Take 1,000 melee hits from other players (2 players) |
+| **Every Rope in the Barn** | Animals | ★ | Take 1,500 Leads from another player's hand (2 players) |
+| **Every Sherd Twice Held** | Adventure | ★ | Hand another player 2,200 Pottery Sherds (2 players) |
+| **Every Trim Was a Gift** | Adventure | ★ | Be handed 750 Smithing Templates by another player (2 players) |
+| **Every Trunk in the Valley** | Building | ★ | Be handed 16 or more Logs by another player 950 times (2 players) |
+| **Every Whisper Was Handed** | Adventure | ★ | Be handed 850 Echo Shards by another player (2 players) |
+| **Everyone Flies Today** | The End | ★ | Hand an Elytra to another player standing in the End 650 times (2 players) |
+| **Everyone Gets A Dose** | Potions | ★ | Be Poisoned by another player 1,400 times (2 players) |
+| **Everyone Gets a Shard** | Adventure | ◆ | Hand another player 120 Pottery Sherds (2 players) |
+| **Everyone Gets an Omen** | Adventure | ◆ | Hand another player 260 Ominous Bottles (2 players) |
+| **Everyone Shoots on My Dime** | Statistics | ★ | Hand ammunition to other players 10,000 times (2 players) |
+| **Everyone's Aiming Up** | The End | ★ | Be hit by another player's projectile in the End 1,600 times (2 players) |
+| **Everyone's Punching Bag** | Statistics | · | Be killed by another player 40 times (2 players) |
+| **Everything Anyone Carried** | Adventure | ★ | Be handed 3,000 Bundles by another player (2 players) |
+| **Everything He Touches** | Mining | ★ | Have another player pick up Gold Ingots you threw 12,000 times (2 players) |
+| **Everything I Own Was a Gift** | Statistics | ★ | Take 10,000 weapons or shields thrown to you by another player (2 players) |
+| **Everything In My Veins Was Given** | Adventure | ★ | Gain 5,600 effects from another player's potions (2 players) |
+| **Everything the Pale Sees** | Biomes | ★ | Pass 30,000 Eyeblossoms to another player in a Pale Garden (2 players) |
+| **Everything We Saw Together** | Adventure | ★ | Hand another player 800 Spyglasses (2 players) |
+| **Executioner in Red** | Nether | ◆ | Kill 1,100 players in the Nether (2 players) |
+| **Executioner's Tenure** | Statistics | ★ | Land 6,000 axe hits on other players (2 players) |
 | **Exit Wound** | The End | · | Kill another player as they stand on Bedrock in the End (2 players) |
+| **Experience Endowment** | Enchanting | ◆ | Take 400 Bottles o' Enchanting from another player's hand (2 players) |
+| **Exposed to the Weather** | Building | ◆ | Hand another player 4 or more Copper blocks 65 times (2 players) |
+| **Extended Family** | Redstone | ◆ | Throw 120 Pistons or Sticky Pistons for another player to pick up (2 players) |
+| **Extinguished by Proxy** | Nether | ★ | Be handed a Blaze Rod inside a Nether Fortress 20,000 times (2 players) |
 | **Eye Contact** | The End | ◆ | Fill an End Portal frame with two players seating six Eyes of Ender each (2 players) |
 | **Eye of the Storm** | Weaponry | · | Beat another player to death in melee while a thunderstorm rages overhead (2 players) |
 | **Eye Witness** | Adventure | ◆ | Take the Eye Armour Trim off another player inside a Stronghold (2 players) |
+| **Eyes for the Taking** | Biomes | · | Pass 25 Eyeblossoms to another player in a Pale Garden (2 players) |
 | **Eyes Front** | The End | · | Hand another player twelve Eyes of Ender, a full portal's worth (2 players) |
+| **Eyes on Loan** | Adventure | · | Hand another player 4 Spyglasses (2 players) |
+| **Eyes on You** | Redstone | · | Pick up 45 Observers dropped for you by another player (2 players) |
+| **Face of the Foe** | Monsters | · | Take down 10 rivals with a monster's face over your own (2 players) |
+| **Facets of Friendship** | Mining | · | Pick up Diamonds thrown to you by another player 80 times (2 players) |
+| **Facing Each Other** | Redstone | ◆ | Pick up 100 Observers dropped for you by another player (2 players) |
 | **Fair Trade** | Adventure | · | Swap items with another player: you each pick up what the other dropped within 5 seconds (2 players) |
 | **Falling Out** | Weaponry | ★ | Kill another player with an anvil you dropped on them (2 players) |
+| **Falling Pink** | Biomes | · | Catch 75 Pink Petals thrown to you in a Cherry Grove (2 players) |
 | **Falling Star** | Weaponry | ★ | Kill another player with a Mace while neither of you is touching the ground (2 players) |
+| **Familiar Ceiling** | Weaponry | · | Be cut down by another player 50 times (2 players) |
+| **Familiar With the Void** | Weaponry | · | Be cut down by another player 25 times (2 players) |
+| **Famine Insurance** | Farming | ◆ | Hand another player Root Vegetables 700 times (2 players) |
+| **Famine Relief** | Monsters | ◆ | Be kept alive by 500 deliveries of somebody else's zombie leftovers (2 players) |
 | **Fan the Flames** | Weaponry | · | Put an arrow into a player who is already burning (2 players) |
+| **Fanfare of Outposts** | Adventure | ★ | Hand another player 600 Goat Horns (2 players) |
 | **Farm Share** | Farming | ◆ | Give another player a stack of Bread and take a stack of their crops back (2 players) |
 | **Fashion Police** | Super Challenges | ★★ | Five players each wearing a full suit trimmed with a different material at the same time (5 players) |
+| **Faster Than The Message** | Potions | ★ | Be given Speed by another player 2,200 times (2 players) |
 | **Feather Fallback** | The End | · | Get Slow Falling from another player out over the End below Y=40 (2 players) |
+| **Feather-Footed Together** | The End | ◆ | Pick up Slow Falling from another player's potion in the End 200 times (2 players) |
+| **Feathered Farewell** | Monsters | · | Be shot dead 5 times by another player (2 players) |
+| **Feathered Reception** | Statistics | · | Be hit 25 times by another player's projectiles (2 players) |
+| **Feathering the Nest** | The End | ◆ | Hand an Elytra to another player standing in the End 60 times (2 players) |
+| **Feathers in My Back** | The End | · | Be hit by another player's projectile in the End 12 times (2 players) |
+| **Feeding an Army** | Farming | ★ | Hand another player Cooked Meat 2,000 times (2 players) |
 | **Feeding Frenzy** | Farming | ★ | Hand other players a full stack of every cooked meat: Steak, Porkchop, Chicken, Mutton and Rabbit (2 players) |
+| **Feeding the Village** | Farming | ◆ | Hand another player Bread 800 times (2 players) |
+| **Feeding the Wanderers** | The End | ★ | Take a handful of Chorus Fruit from another player in the End 1,250 times (2 players) |
+| **Femur Fencing** | Monsters | · | Land 25 hits on a rival using a skeleton's leftovers (2 players) |
+| **Fence Jumper** | Animals | · | Be given Jump Boost by another player 12 times while in the saddle (2 players) |
 | **Fermentation Partners** | Potions | ◆ | Take every Nether brewing reagent from another player: Nether Wart, Blaze Powder, Magma Cream and a Ghast Tear (2 players) |
+| **Ferrous Commerce** | Mining | ◆ | Pick up Iron Ingots thrown to you by another player 800 times (2 players) |
 | **Ferry Cargo** | The End | ◆ | Riding a Happy Ghast another player is flying, catch a Shulker Shell thrown by a third player who is gliding past (3 players) |
+| **Ferrying the Flesh Stone** | Nether | ◆ | Hand another player a full stack of Netherrack 150 times (2 players) |
 | **Ferryman** | Adventure | ◆ | Row a player who has just respawned with nothing a thousand blocks in a boat (2 players) |
 | **Ferryman's Fee** | Biomes | ◆ | Sail 2,000 blocks in one Boat with another player aboard (2 players) |
+| **Field Dressing** | Potions | · | Be given Regeneration by another player 12 times (2 players) |
 | **Field Hospital** | Nether | ★ | Bring a Beacon to full power, then get patched up under it with another player's Regeneration (2 players) |
+| **Field Justice** | Farming | · | Hit another player with a Hoe 30 times (2 players) |
 | **Field Medic** | Potions | ◆ | Heal a player who is below three hearts with a Splash Potion of Regeneration (2 players) |
+| **Fifteen Out of Fifteen** | Redstone | ★ | Pick up 2,200 Redstone Comparators dropped for you by another player (2 players) |
 | **Fight in the Dark** | Monsters | ◆ | Take a hit from another player in the Deep Dark while the Darkness is pressing in on you (2 players) |
 | **Final Say** | The End | ◆ | Kill another player with a Netherite Sword while you are both standing on End Stone (2 players) |
 | **Fire Sale** | Adventure | ◆ | Catch a Water Bucket thrown by another player while you are burning (2 players) |
@@ -1559,41 +3514,98 @@ All 855 advancements, A to Z, with the tab each one appears in.
 | **Fired Clay Exchange** | Building | · | Hand another player Clay Balls, take the fired Bricks back, and lay a Brick block (2 players) |
 | **Fireproof Courier** | Nether | · | Be handed a Netherite Ingot while you are standing in lava (2 players) |
 | **Fireproof Friendship** | Potions | ◆ | Be splashed with Fire Resistance by another player while you are standing in lava (2 players) |
+| **Fireproofed by a Friend** | Nether | · | Take Fire Resistance from another player's brew 20 times in the Nether (2 players) |
 | **Firework Finale** | Building | ◆ | Have four players launch fireworks together within three seconds (4 players) |
+| **First Aid** | Potions | · | Be given Regeneration by another player 5 times (2 players) |
 | **First Blood** | Weaponry | · | Kill another player (2 players) |
+| **First Blood in Hell** | Nether | · | Land 25 melee hits on other players in the Nether (2 players) |
+| **First Blood in the Void** | The End | · | Land 5 melee blows on other players in the End (2 players) |
+| **First Dose** | Redstone | · | Be given Speed by another player's brew 5 times (2 players) |
+| **First Draught** | Weaponry | · | Be dosed with Strength by another player 5 times (2 players) |
+| **First Enchanted Blood** | Enchanting | · | Land 20 hits on another player with a sword enchanted with Sharpness (2 players) |
+| **First Green Spots** | Building | · | Hand another player 4 or more Copper blocks 28 times (2 players) |
+| **First Load from the Pit** | Building | · | Be handed a full stack of Stone or its cousins by another player 3 times (2 players) |
+| **First Nick** | Weaponry | · | Land 10 Sword blows on other players (2 players) |
+| **First Nicks** | Statistics | · | Land 5 sword hits on other players (2 players) |
+| **First Parry** | Weaponry | · | Block 10 attacks from other players with your Shield (2 players) |
+| **First Pick** | Farming | · | Be handed Fruit or Berries by another player 5 times (2 players) |
+| **First Round's on Them** | Statistics | · | Receive 5 potion effects from other players (2 players) |
+| **First Sting** | Statistics | · | Be hit 5 times by another player's projectiles (2 players) |
 | **First to Fall** | Weaponry | · | Be killed by another player (2 players) |
 | **Fish Course** | Animals | · | Be handed both Cooked Cod and Cooked Salmon by another player (2 players) |
 | **Five a Day** | The End | ★ | Be handed a Chorus Fruit by another player in all five End biomes (2 players) |
 | **Flak** | Nether | ◆ | Shoot a player off the back of a Happy Ghast with an arrow (2 players) |
 | **Flawless Victory** | Weaponry | ◆ | Kill another player while you are still on full health (2 players) |
+| **Fleece Baron** | Animals | ★ | Hand Wool to other players 2,500 times (2 players) |
+| **Fleece Delivery** | Animals | · | Hand Wool to other players 25 times (2 players) |
+| **Fleet Expansion** | Redstone | ★ | Pick up 950 Minecarts of any kind dropped for you by another player (2 players) |
+| **Fletcher's Charity** | Weaponry | · | Pick up 100 pieces of ammunition thrown to you by other players (2 players) |
 | **Fletcher's Regret** | Weaponry | · | Block another player's arrow with your Shield from at least thirty blocks away (2 players) |
+| **Fletcher's Tally** | Weaponry | · | Kill 10 players with arrows loosed from a Bow (2 players) |
+| **Fletching's Last Word** | Weaponry | · | Kill 25 players with arrows loosed from a Bow (2 players) |
 | **Floating Target** | The End | ◆ | Shoot another player with an arrow while they are levitating in the End (2 players) |
 | **Flushed Out** | Weaponry | · | Put an arrow into a player who is trying to sneak away (2 players) |
+| **Flying Machine Parts** | Redstone | ◆ | Throw 560 Pistons or Sticky Pistons for another player to pick up (2 players) |
+| **Fog Wholesaler** | Potions | ★ | Pick up 950 Lingering Potions thrown to you by another player (2 players) |
 | **Food Chain** | Weaponry | ◆ | Kill another player who is holding a Golden Apple, then eat one yourself (2 players) |
+| **Forge Freight** | Enchanting | ◆ | Hand another player 100 Anvils (2 players) |
 | **Forged Favour** | Nether | ◆ | Forge a Netherite Ingot out of Scrap another player threw you (2 players) |
 | **Formation Flying** | The End | ★ | Hold a three-player Elytra formation within ten blocks above Y=200 (3 players) |
+| **Formwork Crew** | Building | ◆ | Be handed 16 or more Concrete by another player 65 times (2 players) |
+| **Fort Knox Giveaway** | Mining | ★ | Have another player pick up Gold Ingots you threw 3,000 times (2 players) |
+| **Fort Knox Pantry** | Farming | ★ | Be handed Golden Food by another player 2,500 times (2 players) |
 | **Fortress Facade** | Building | · | Take Nether Bricks and Red Nether Bricks from another player (2 players) |
 | **Fortress Feud** | Nether | · | Kill another player inside a Nether Fortress (2 players) |
+| **Fortress of Borrowed Steel** | Enchanting | ★ | Take 3,200 armour pieces enchanted with Protection IV from another player's hand (2 players) |
+| **Fortress Payroll** | Nether | ◆ | Be handed a Blaze Rod inside a Nether Fortress 120 times (2 players) |
+| **Fortune's Executor** | Enchanting | ★ | Take 5,800 tools enchanted with Fortune III from another player's hand (2 players) |
+| **Foundations in the Sand** | Building | ◆ | Hand another player 32 or more Sandstone 78 times (2 players) |
+| **Foundry Freight** | Mining | ◆ | Pick up Iron Ingots thrown to you by another player 350 times (2 players) |
+| **Foundry Logistics** | Enchanting | ◆ | Hand another player 425 Anvils (2 players) |
 | **Four Faces** | Adventure | ◆ | Be handed four different Pottery Sherds by other players and end up with a Decorated Pot (2 players) |
+| **Fragile, Handle Together** | The End | · | Hand an End Crystal to another player while you are in the End 2 times (2 players) |
 | **Fragment Pool** | Mining | ◆ | Hand another player nine Disc Fragments at once (2 players) |
+| **Fragments for a Friend** | Adventure | · | Hand another player 8 Pottery Sherds (2 players) |
+| **Framing the Skyline** | Building | ★ | Hand another player a full stack of Planks 750 times (2 players) |
 | **Freight Forwarder** | Redstone | · | Hand another player a Shulker Box while you are riding a Minecart (2 players) |
+| **Fresh Catch, Fresh Hands** | Animals | · | Take a Bucket of live catch from another player's hand 3 times (2 players) |
+| **Fresh Off the Sheep** | Building | · | Be handed 16 or more Wool or Carpet by another player 3 times (2 players) |
 | **Fresh Steel** | Mining | ◆ | Break your own Sword and take a brand-new Diamond Sword off another player (2 players) |
+| **Friendly Fire Drill** | Monsters | · | Fall to 10 arrows loosed by someone on your side (2 players) |
 | **Friendly Fireball** | Nether | ★ | Deflect a Ghast's fireball into another player (2 players) |
+| **From the Saddle** | Animals | · | Land 3 hits on another player while you are mounted (2 players) |
+| **Frostbitten Ending** | Biomes | · | Be killed by another player in a snowy biome 40 times (2 players) |
+| **Frosting the Server** | Farming | ★ | Hand another player a Cake, Pumpkin Pie or Cookie 4,000 times (2 players) |
+| **Frozen Airlift** | Biomes | ★ | Catch 1,600 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) |
 | **Frozen Stiff** | Biomes | · | Be splashed with Slowness by another player while you are stuck in Powder Snow (2 players) |
 | **Fruit Bowl** | Farming | · | Be handed an Apple, a Melon Slice and a Chorus Fruit by another player (2 players) |
+| **Fruit of the Outer Isles** | The End | ◆ | Take a handful of Chorus Fruit from another player in the End 120 times (2 players) |
 | **Fruit Run** | The End | · | Hand another player a full stack of sixty-four Chorus Fruit (2 players) |
+| **Fruits of Their Labour** | Farming | ★ | Be handed Fruit or Berries by another player 4,000 times (2 players) |
+| **Fuel for the Furnace** | Mining | · | Pick up Coal or Charcoal thrown to you by another player 75 times (2 players) |
+| **Fuel for the Stand** | Nether | · | Be handed a Blaze Rod inside a Nether Fortress 50 times (2 players) |
 | **Fuel Supply** | Potions | · | Set up a Brewing Stand with Blaze Powder another player supplied (2 players) |
 | **Fugu** | Animals | · | Eat a Pufferfish another player served you (2 players) |
 | **Full Board** | Farming | ★ | Be handed a full stack of Bread, Steak, Baked Potato, Golden Carrot and Melon Slices by other players (2 players) |
+| **Full Contact Commute** | Redstone | ◆ | Land 450 hits on another player while they ride a Minecart (2 players) |
 | **Full Course of Treatment** | Potions | ★ | Have another player put Speed, Strength, Jump Boost, Regeneration, Fire Resistance, Water Breathing, Night Vision, Invisibility and Slow Falling on you (2 players) |
 | **Full Coverage** | Enchanting | ★ | Be handed a helmet, chestplate, leggings and boots each carrying a different Protection IV (2 players) |
 | **Full Kit** | Mining | ★ | Be handed a Netherite Pickaxe, Axe, Shovel, Hoe and Sword by other players (2 players) |
+| **Full Kit Delivery** | Weaponry | ◆ | Hand 500 pieces of armour to other players (2 players) |
+| **Full Kit, Not Mine** | Enchanting | ◆ | Take 175 armour pieces enchanted with Protection IV from another player's hand (2 players) |
 | **Full Quiver** | Potions | ★ | Put a Tipped Arrow of Poison, Harming, Slowness, Weakness, Weaving, Oozing, Infested and Wind Charged into another player (2 players) |
 | **Full Spectrum** | Super Challenges | ★★ | Be handed all sixteen colours of Shulker Box by other players (2 players) |
+| **Fumes for Friends** | The End | ◆ | Be handed Dragon's Breath or a Lingering Potion in the End 220 times (2 players) |
 | **Fungal Exchange** | Nether | ◆ | Swap fungi with another player: take their Crimson, give them your Warped (2 players) |
+| **Furrow Feud** | Farming | · | Hit another player with a Hoe 75 times (2 players) |
+| **Fuse Runner** | Monsters | · | Run 25 charges over to the player doing the demolition (2 players) |
 | **Gale Force** | Weaponry | · | Catch another player in mid-air with a Wind Charge (2 players) |
 | **Gallery Opening** | Building | ◆ | Have four players each hang a Painting on the same wall inside a minute (4 players) |
 | **Gas Attack** | Potions | ◆ | Kill another player with a Lingering Potion cloud (2 players) |
+| **Gems for Free** | Mining | · | Have another player pick up Emeralds you threw 120 times (2 players) |
+| **Gently Does It** | The End | ◆ | Pick up Slow Falling from another player's potion in the End 90 times (2 players) |
+| **Geode Gifting** | Mining | · | Pick up Amethyst Shards thrown to you by another player 10 times (2 players) |
+| **Germination Guild** | Farming | ◆ | Hand another player Seeds 800 times (2 players) |
 | **Ghast Fleet** | Nether | ★ | Four players out on four separate Happy Ghasts, all within twenty blocks (4 players) |
 | **Ghast Freight** | Nether | ★ | Catch Ancient Debris thrown from forty blocks away while a second player rides your Happy Ghast (3 players) |
 | **Ghast Layaway** | Nether | ◆ | Hand a Dried Ghast to another player down in the Nether (2 players) |
@@ -1601,64 +3613,137 @@ All 855 advancements, A to Z, with the tab each one appears in.
 | **Ghost Detail** | Potions | · | Be turned invisible by another player's potion while you are sneaking (2 players) |
 | **Ghost Protocol** | The End | ★ | Kill the Ender Dragon in a fight where every player who wounded it has died at least once (4 players) |
 | **Ghost Train** | Redstone | ◆ | Take a Chest Minecart through a Nether portal and hand it to another player on the far side (2 players) |
+| **Ghosted** | Potions | · | Be turned Invisible by another player 8 times (2 players) |
 | **Gift Economy** | Statistics | ★ | Hand items to other players five hundred times (2 players) |
 | **Gift of the Mace** | Weaponry | · | Hand another player a Mace and then take a hit from a player swinging one (2 players) |
+| **Gifts of the Shallows** | Farming | · | Be handed Kelp or Sea Pickles by another player 60 times (2 players) |
 | **Gilded Betrayal** | Nether | · | Kill another player with a Golden Sword inside a Bastion Remnant (2 players) |
 | **Gilded Corpse** | Mining | · | Kill another player wearing a full set of Golden armour (2 players) |
+| **Gilded Generosity** | Mining | · | Have another player pick up Gold Ingots you threw 25 times (2 players) |
 | **Gilded Gift** | Adventure | ◆ | Hand another player every piece of a Golden armour set (2 players) |
 | **Gilded Handover** | Nether | ◆ | Hand another player a full set of Golden tools while you are both down in the Nether (2 players) |
+| **Gills on Loan** | Biomes | · | Be given Water Breathing by another player 25 times while underwater (2 players) |
 | **Gilt Trip** | Nether | ◆ | Take Gilded Blackstone from another player while you are both inside a Bastion Remnant (2 players) |
+| **Girth Control** | Animals | · | Hand 60 Saddles to other players (2 players) |
+| **Given The Slip** | Potions | · | Be turned Invisible by another player 3 times (2 players) |
+| **Glacier Freight** | Biomes | ◆ | Catch 300 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) |
+| **Glassware Delivery** | Statistics | · | Receive 25 potion effects from other players (2 players) |
+| **Glaze Run** | Building | · | Hand another player 8 or more Terracotta 12 times (2 players) |
+| **Glister and Gold** | Farming | · | Be handed Golden Food by another player 20 times (2 players) |
 | **Glow Up** | Nether | · | Take Glowstone Dust from another player while you are both in the Nether (2 players) |
 | **Godsend** | Enchanting | ◆ | Hand another player a Trident carrying Loyalty III and Channeling (2 players) |
 | **Going, Going, Gone** | Adventure | ◆ | Hold an auction: three players pass Emeralds hand to hand on one spot inside thirty seconds (3 players) |
+| **Golden Handout** | Farming | · | Be handed Golden Food by another player 3 times (2 players) |
 | **Golden Handshake** | Farming | ◆ | Eat an Enchanted Golden Apple another player threw you, while you are below two hearts (2 players) |
+| **Golden Parachute** | Mining | ★ | Have another player pick up Gold Ingots you threw 6,000 times (2 players) |
 | **Golden Rule** | Weaponry | · | Kill another player dressed in a full set of Golden armour using a Golden Sword (2 players) |
 | **Golden Seam** | Mining | · | Take a Silk Touched Nether Gold Ore block from another player (2 players) |
 | **Golden Ticket** | Farming | ◆ | Hand another player a full stack of sixty-four Golden Carrots (2 players) |
 | **Good Boy, Someone Else's** | Animals | · | Repair a Wolf's armour with Armadillo Scutes out of another player's pocket (2 players) |
+| **Gourmet of the Grave** | Monsters | ★ | Be fed 10000 rations of rotten flesh by hand (2 players) |
+| **Grain of the Realm** | Farming | ★ | Hand another player Bread 1,600 times (2 players) |
 | **Grand Central** | Super Challenges | ★★ | Four players who have each laid two hundred Rails all roll into the same station at once (4 players) |
 | **Grand Finale** | Weaponry | ★ | Blow another player out of the sky with a Crossbow firework while they are gliding (2 players) |
+| **Grand Librarian of Second Hands** | Enchanting | ★ | Take 6,000 Enchanted Books from another player's hand (2 players) |
+| **Grand Marshal of the Joust** | Animals | ★ | Land 2,200 hits on another player while you are mounted (2 players) |
 | **Grand Tour of Grudges** | Weaponry | ★ | Kill another player in the Overworld, the Nether and the End (2 players) |
+| **Grandmaster of Soft Hands** | Enchanting | ★ | Hand another player 2,300 tools enchanted with Silk Touch (2 players) |
 | **Grant Money** | Enchanting | ★ | Have another player throw a whole stack of Bottles o' Enchanting at your feet and pocket every level of it (2 players) |
 | **Grave Digger** | Weaponry | ◆ | Kill another player with a Shovel while you are both standing on Gravel (2 players) |
 | **Grave Goods** | Adventure | · | Take a Totem of Undying off another player inside a Woodland Mansion (2 players) |
 | **Grave Timber** | Building | · | Hand Pale Oak Planks to another player standing in a Pale Garden (2 players) |
+| **Graveyard Season Pass** | Statistics | ◆ | Be killed by another player 250 times (2 players) |
+| **Gravity Assisted** | Weaponry | · | Land 25 Mace blows on other players (2 players) |
+| **Gravity Optional** | Animals | ★ | Be given Jump Boost by another player 750 times while in the saddle (2 players) |
+| **Gravity, Negotiated** | Building | ◆ | Catch Slow Falling from a potion another player threw 340 times (2 players) |
+| **Grease Their Palms** | Nether | · | Hand another player four or more Gold Ingots in the Nether 80 times (2 players) |
+| **Greaves and Gratitude** | Weaponry | ◆ | Hand 250 pieces of armour to other players (2 players) |
+| **Green Around the Gills** | Monsters | · | Be dosed with poison by a teammate 10 times (2 players) |
+| **Green Handshake** | Biomes | · | Hand 125 Slimeballs to another player standing in a swamp (2 players) |
+| **Green with Endowment** | Mining | ◆ | Have another player pick up Emeralds you threw 1,300 times (2 players) |
+| **Green Wood** | Building | · | Be handed 16 or more Logs by another player 3 times (2 players) |
+| **Grey on Grey** | Building | · | Hand another player 32 or more Deepslate blocks 12 times (2 players) |
+| **Grid Connection** | Redstone | ◆ | Pick up 256 Redstone Dust dropped for you by another player (2 players) |
+| **Grievances Beyond Number** | Nether | ★ | Land 80,000 melee hits on other players in the Nether (2 players) |
+| **Grill Rotation** | Farming | · | Hand another player Cooked Meat 75 times (2 players) |
+| **Grim Delivery** | Monsters | · | Collect 50 heads dropped at your feet by another player (2 players) |
+| **Grindstone Consignment** | Enchanting | · | Hand another player 105 Grindstones or plain Books (2 players) |
 | **Ground Crew** | The End | · | Throw a spare Elytra to a player who is already gliding (2 players) |
 | **Ground Pound** | Weaponry | · | Land a Mace smash squarely on another player (2 players) |
+| **Grounded Permanently** | The End | · | Kill 12 other players in the End (2 players) |
 | **Group Buff** | Potions | ◆ | Have four players together share an identical set of three or more effects (4 players) |
 | **Group Nap** | Adventure | ◆ | Every online player sleeps during the same night (2 players) |
 | **Group Therapy** | Farming | ◆ | Have three players all on three hearts or less eat a Golden Apple within three seconds of each other (3 players) |
+| **Grove Dividends** | Farming | ◆ | Be handed Fruit or Berries by another player 400 times (2 players) |
+| **Growing Together** | Mining | ◆ | Pick up Amethyst Shards thrown to you by another player 375 times (2 players) |
 | **Guard Break** | Weaponry | ◆ | Land an Axe blow on another player that their raised Shield fails to stop (2 players) |
 | **Guard Dog** | Animals | · | Tame a Wolf with Bones another player dug up for you (2 players) |
 | **Guardian Angel** | Monsters | · | Cut down in melee a monster that was hunting another player (2 players) |
+| **Guardian Angels in Bottles** | The End | ★ | Pick up Slow Falling from another player's potion in the End 2,200 times (2 players) |
 | **Guest DJ** | Adventure | ◆ | Play a Music Disc another player handed you in a Jukebox (2 players) |
 | **Guest Room** | Building | · | Sleep in a bed another player made and handed to you (2 players) |
 | **Gun Platform** | Nether | ★ | Kill a third player from the back seat of a Happy Ghast that another player is flying (3 players) |
 | **Gust Front** | Weaponry | · | Be blasted off your feet by another player's Wind Charge (2 players) |
 | **Gut Punch** | Potions | · | Take a Splash Potion of Harming full in the chest from another player (2 players) |
+| **Half a Dozen Hands** | Animals | · | Hand Eggs to other players 40 times (2 players) |
+| **Half a Loaf** | Farming | · | Hand another player Bread 10 times (2 players) |
 | **Halved and Halved Again** | Building | · | Hand another player Wooden Slabs and take Wooden Stairs back (2 players) |
+| **Hammered Flat** | Statistics | ◆ | Take 150 melee hits from other players (2 players) |
 | **Hamstrung** | Potions | · | Be splashed with Slowness by another player while you are sprinting (2 players) |
+| **Hand in the Black** | Biomes | · | Catch 5 Echo Shards thrown to you by another player in the Deep Dark (2 players) |
 | **Hand Me the Reins** | Nether | · | Steer a Strider with a Warped Fungus on a Stick another player handed you (2 players) |
+| **Hand Over Halter** | Animals | · | Take 12 Leads from another player's hand (2 players) |
 | **Hand-Me-Down** | Enchanting | · | Wear a piece of armour with Curse of Binding that another player handed to you (2 players) |
+| **Hand-Me-Down Helm** | Weaponry | · | Hand 25 pieces of armour to other players (2 players) |
 | **Hand-Trimmed** | Adventure | ◆ | Take a chestplate already trimmed with Netherite off another player and wear it (2 players) |
+| **Handed A Bigger Fist** | Potions | · | Be given Strength by another player 20 times (2 players) |
+| **Handed Above the Clouds** | Biomes | · | Catch 50 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) |
+| **Handed Something Everlasting** | Enchanting | · | Take 5 items enchanted with Mending from another player's hand (2 players) |
+| **Handed Under Creaking Boughs** | Biomes | · | Pass 150 Eyeblossoms to another player in a Pale Garden (2 players) |
 | **Handle With Care** | The End | · | Be handed an End Crystal by another player while you are standing on Obsidian (2 players) |
+| **Handled with Care** | Enchanting | · | Hand another player 12 tools enchanted with Silk Touch (2 players) |
 | **Hands Across the Void** | The End | ★ | Be handed an Ender Pearl by another player while you are both falling below Y=0 in the End (2 players) |
+| **Hands Off My Elytra** | The End | ★ | Land 1,600 melee blows on other players in the End (2 players) |
 | **Hangar Pass** | The End | · | Be handed an Elytra by another player inside an End City (2 players) |
 | **Hard Hat Handover** | Mining | · | Hand another player an Iron Helmet and take a Diamond Helmet from them in return (2 players) |
+| **Hardened Together** | Mining | ★ | Pick up Netherite Scrap thrown to you by another player 1,600 times (2 players) |
+| **Hardhat Brawl** | Mining | ★ | Hit another player while holding a Pickaxe 3,500 times (2 players) |
+| **Harpooned** | Statistics | ◆ | Land 100 thrown-Trident hits on other players (2 players) |
+| **Harpooner's Roll** | Weaponry | · | Skewer other players 50 times with a thrown Trident (2 players) |
+| **Harrowing** | Farming | ◆ | Hit another player with a Hoe 350 times (2 players) |
+| **Harvest of the Floating Isles** | The End | ★ | Take a handful of Chorus Fruit from another player in the End 2,500 times (2 players) |
 | **Harvest Time** | Farming | · | Cut another player down with a Hoe (2 players) |
+| **Hauler's Handshake** | Mining | ◆ | Take a bundle of 16 or more Raw Copper from another player 250 times (2 players) |
+| **Have a Bad Feeling** | Adventure | · | Hand another player 3 Ominous Bottles (2 players) |
 | **Have Your Cake** | Farming | · | Have four players eat Cake side by side inside thirty seconds (4 players) |
+| **Hazard Pay** | Monsters | ◆ | Get blown up 250 times by your own demolition crew (2 players) |
+| **He Who Wears the Dead** | Monsters | ★ | Reach 1000 masked kills on other players (2 players) |
 | **Head of State** | The End | ◆ | Take an Ender Dragon Head off another player and wear it in the End (2 players) |
 | **Head of the Household** | Weaponry | ★ | Come away with another player's head after a Charged Creeper goes off (2 players) |
 | **Heads Up** | Monsters | · | Hand another player a mob head (2 players) |
+| **Headsman Emeritus** | Weaponry | ★ | Land 10,000 Axe blows on other players (2 players) |
 | **Heart Surgeon** | Statistics | ★ | Supply other players with a hundred hearts of medicine: Golden Apples, Golden Carrots, Steak, and Splash Potions of Healing and Regeneration (2 players) |
 | **Heart Surgery** | Monsters | ◆ | Smash a Creaking Heart while its Creaking is fixated on a different player (2 players) |
+| **Heartwood Dynasty** | Building | ★ | Be handed 16 or more Logs by another player 2,000 times (2 players) |
 | **Heatproof Handover** | Potions | · | Hand Magma Cream to a player who is already under Fire Resistance (2 players) |
+| **Heavy Haulage** | Enchanting | · | Hand another player 25 Anvils (2 players) |
 | **Heavy Lifting** | Adventure | · | Hand another player a Heavy Core (2 players) |
 | **Heir Apparent** | The End | ◆ | Hand the Dragon Egg over to another player (2 players) |
+| **Heirloom Vault** | Farming | ◆ | Hand another player Seeds 350 times (2 players) |
 | **Held Not Hurled** | Weaponry | · | Kill another player with a Trident you never let go of (2 players) |
+| **Held Together by Bandages** | Statistics | ★ | Be hit 2,500 times by another player's projectiles (2 players) |
+| **Hell Has No Truce** | Nether | ★ | Land 35,000 melee hits on other players in the Nether (2 players) |
 | **Hell's Consignment** | Nether | ★ | Take all six treasures of the Nether from other players' hands: Quartz, a Blaze Rod, a Ghast Tear, Crying Obsidian, Ancient Debris and a Nether Star (2 players) |
+| **Hell's Duelist** | Nether | · | Kill 12 players in the Nether (2 players) |
+| **Hell's Own Reaper** | Nether | ★ | Kill 16,000 players in the Nether (2 players) |
 | **Hellfire Insurance** | Nether | · | Be doused with Fire Resistance by another player while you are burning in the Nether (2 players) |
+| **Hello, My Name Is** | Animals | · | Take 3 Name Tags from another player's hand (2 players) |
+| **Hellstone Haulage** | Nether | · | Hand another player a full stack of Netherrack 75 times (2 players) |
+| **Herald of Given Horns** | Adventure | ★ | Hand another player 1,400 Goat Horns (2 players) |
+| **Here, Look at This** | Adventure | · | Hand another player 2 Spyglasses (2 players) |
 | **Hexed Hunt** | Potions | ★ | Kill another player who is carrying Poison, Wither, Slowness, Weakness and Hunger all at once (2 players) |
+| **Hide and Sought** | Animals | · | Take Leather or Rabbit Hide from another player's hand 20 times (2 players) |
+| **Hide of the Herd** | Animals | ◆ | Take 180 hits from another player while dressed head to toe in Leather (2 players) |
 | **High-Altitude Dose** | Nether | ◆ | Take Slow Falling from a player twenty blocks off while a second player rides the Happy Ghast with you (3 players) |
 | **Highway Robbery** | Weaponry | · | Collect Emeralds another player dropped while you are holding a loaded Crossbow (2 players) |
 | **Hit With Everything** | Weaponry | ◆ | Be hit by another player's Arrow, Spectral Arrow, Trident, Firework Rocket and TNT (2 players) |
@@ -1669,8 +3754,14 @@ All 855 advancements, A to Z, with the tab each one appears in.
 | **Hog Tied** | Nether | · | Leash a Hoglin with a Lead another player handed you (2 players) |
 | **Hog Wild** | Animals | · | Ride a saddled Pig and look across at another player riding one, within five blocks (2 players) |
 | **Hold the Line** | Monsters | ◆ | Block a Ravager's charge with your shield while a teammate kills it from behind (2 players) |
+| **Holding the Bullseye** | Redstone | ◆ | Take 270 projectile hits from another player standing at least three blocks away (2 players) |
+| **Hollow Cargo** | The End | · | Be handed 5 Shulker Shells by other players in the End (2 players) |
+| **Homeward Handouts** | Adventure | ◆ | Hand another player 75 compasses (2 players) |
 | **Homing Pigeon** | Mining | ◆ | Be handed a Compass by another player and use it on a Lodestone at least 64 blocks away (2 players) |
 | **Honey Trap** | Animals | · | Drink a Honey Bottle another player handed you (2 players) |
+| **Hoof Tonic** | Animals | · | Be given Jump Boost by another player 2 times while in the saddle (2 players) |
+| **Hooves and Fists** | Animals | · | Land 20 hits on another player while you are mounted (2 players) |
+| **Horizon Held in Common** | Adventure | ★ | Hand another player 3,600 Spyglasses (2 players) |
 | **Horse Trading** | Animals | ◆ | Pass a spare Saddle to another player while you are both mounted on Horses (2 players) |
 | **Hospital Wing** | Potions | ◆ | Bring every online player from under two hearts back to full health inside one minute (2 players) |
 | **Hot and Bothered** | Nether | · | Be splashed with Poison by another player while you are on fire in the Nether (2 players) |
@@ -1679,52 +3770,156 @@ All 855 advancements, A to Z, with the tab each one appears in.
 | **Hot Swap** | Nether | · | Take a Netherite Pickaxe out of another player's hands down in the Nether (2 players) |
 | **Hotheads** | Weaponry | ◆ | Trade bare-handed blows with another player while you are both on fire (2 players) |
 | **Human Shield** | Monsters | ★ | Bring down a Warden while it is locked on to another player instead of you (2 players) |
+| **Human Target** | Redstone | ◆ | Take 120 projectile hits from another player standing at least three blocks away (2 players) |
 | **Hunger Pangs** | Monsters | · | Be struck by another player while Hunger is gnawing at you (2 players) |
+| **Hurts You More Than Me** | Enchanting | ★ | Be struck by another player 3,000 times while wearing a Thorns chestplate (2 players) |
 | **Hyphae Haulage** | Building | · | Take both Crimson and Warped Stems out of another player's hands (2 players) |
+| **Ice at Altitude** | Biomes | · | Catch 10 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) |
+| **Icing on the Cake** | Farming | ◆ | Hand another player a Cake, Pumpkin Pie or Cookie 900 times (2 players) |
 | **Igneous Trio** | Building | · | Be handed Granite, Diorite and Andesite by another player (2 players) |
+| **Ill Will** | Potions | · | Be Poisoned by another player 20 times (2 players) |
+| **Immortal Only in Spirit** | Nether | ★ | Be killed by another player in the Nether 18,000 times (2 players) |
+| **Immortal Only in Theory** | Weaponry | ★ | Be cut down by another player 1,000 times (2 players) |
+| **Immunity by Association** | Nether | ★ | Take Fire Resistance from another player's brew 4,000 times in the Nether (2 players) |
+| **Impact Winter** | Weaponry | ★ | Land 2,000 Mace blows on other players (2 players) |
+| **Impaling Season** | Statistics | · | Land 40 thrown-Trident hits on other players (2 players) |
+| **In the Blast Radius** | Monsters | · | Survive 25 detonations triggered by somebody else (2 players) |
+| **Industrial Push** | Redstone | ★ | Throw 1,200 Pistons or Sticky Pistons for another player to pick up (2 players) |
+| **Industrial Symbiosis** | Mining | ★ | Take a bundle of 16 or more Raw Copper from another player 15,000 times (2 players) |
+| **Ingots for Nothing** | Mining | · | Pick up Iron Ingots thrown to you by another player 25 times (2 players) |
 | **Inheritance** | Enchanting | ◆ | Bank thirty experience levels off Bottles o' Enchanting another player handed you (2 players) |
+| **Inheritance of Shapes** | Adventure | ◆ | Be handed 160 Smithing Templates by another player (2 players) |
+| **Insulated Party** | Nether | ◆ | Take Fire Resistance from another player's brew 120 times in the Nether (2 players) |
 | **Insurance Policy** | Super Challenges | ★★ | Have four players burn a Totem of Undying in one fight within five seconds (4 players) |
+| **Insured to the Build Limit** | Building | ★ | Catch Slow Falling from a potion another player threw 780 times (2 players) |
+| **Interlibrary Loan** | Enchanting | · | Take 90 Enchanted Books from another player's hand (2 players) |
 | **Into the Void** | The End | · | Put an arrow in another player as they fall below Y=20 in the End (2 players) |
 | **Invisible Hand** | Potions | ◆ | Be given Strength by a player who is invisible at the time (2 players) |
 | **Iron Chef** | Farming | · | Cook a raw ingredient on a Campfire and hand the finished meal to another player (2 players) |
+| **Iron Flanks** | Animals | ◆ | Hand Horse or Wolf Armor to other players 450 times (2 players) |
+| **Iron for a Stranger** | Weaponry | · | Hand 50 pieces of armour to other players (2 players) |
+| **Ironclad Economy** | Mining | ★ | Pick up Iron Ingots thrown to you by another player 3,500 times (2 players) |
+| **Ironmonger's Round** | Enchanting | ◆ | Hand another player 200 Anvils (2 players) |
+| **Issued and Accounted For** | Statistics | ◆ | Take 100 weapons or shields thrown to you by another player (2 players) |
+| **Issued Protection** | Enchanting | · | Take 18 armour pieces enchanted with Protection IV from another player's hand (2 players) |
+| **Jar for a Friend** | Farming | · | Hand another player Honey or Sugar 15 times (2 players) |
 | **Jockey's Little Helper** | Animals | · | Be splashed with Speed by another player while you are in the saddle of a Horse (2 players) |
+| **Judgement Descends** | Weaponry | ★ | Land 4,000 Mace blows on other players (2 players) |
+| **Juiced Up** | Potions | ◆ | Be given Strength by another player 120 times (2 players) |
+| **Keep Them Loaded** | Statistics | · | Hand ammunition to other players 40 times (2 players) |
+| **Keeper of Lent Lore** | Enchanting | ★ | Take 1,500 Enchanted Books from another player's hand (2 players) |
+| **Keeper of Names** | Animals | ★ | Take 2,800 Name Tags from another player's hand (2 players) |
+| **Keeper of Other People's North** | Adventure | ◆ | Hand another player 350 compasses (2 players) |
+| **Keeper of Their Kindling** | Nether | ◆ | Be handed a Blaze Rod inside a Nether Fortress 750 times (2 players) |
 | **Kelp Ration** | Farming | · | Be handed a full stack of Dried Kelp by another player (2 players) |
+| **Kelp Wanted** | Farming | · | Be handed Kelp or Sea Pickles by another player 4 times (2 players) |
+| **Kept in Repair** | Enchanting | · | Take 22 items enchanted with Mending from another player's hand (2 players) |
+| **Key Sharing** | Adventure | · | Be handed 2 Trial Keys by another player (2 players) |
 | **Killing Fields** | Biomes | ★ | Kill another player in a Desert, a Jungle, an Ice Spikes field, a Cherry Grove and Mushroom Fields (2 players) |
+| **Kiln Dried** | Building | · | Hand another player a full stack of Planks 28 times (2 players) |
+| **Kilns Burning Day and Night** | Building | ★ | Hand another player 8 or more Terracotta 1,800 times (2 players) |
 | **Kindling** | Weaponry | ◆ | Kill another player wearing a full set of Netherite armour using nothing but a Wooden Sword (2 players) |
+| **Kindling Duty** | Weaponry | · | Land 25 Axe blows on other players (2 players) |
+| **Kindling Kindness** | Mining | · | Pick up Coal or Charcoal thrown to you by another player 10 times (2 players) |
+| **Kindling Work** | Statistics | · | Land 5 axe hits on other players (2 players) |
 | **King of the Hill** | Weaponry | ◆ | Stand on one block for sixty seconds while two other players try to knock you off it (3 players) |
+| **Kingdom of Spuds** | Farming | ★ | Hand another player Root Vegetables 6,000 times (2 players) |
+| **Kit Issue** | Weaponry | · | Hand 5 pieces of armour to other players (2 players) |
+| **Kitted Out** | Statistics | · | Take 5 weapons or shields thrown to you by another player (2 players) |
+| **Knead to Share** | Farming | ◆ | Hand another player Bread 400 times (2 players) |
+| **Knee Deep and Solvent** | Biomes | ★ | Hand 4,500 Slimeballs to another player standing in a swamp (2 players) |
 | **Knocked Off the Perch** | Nether | ★ | Put an arrow into another player riding a Happy Ghast above Y=150 in the Nether (2 players) |
+| **Knot Your Problem** | Animals | · | Take 160 Leads from another player's hand (2 players) |
+| **Known Threat** | Statistics | · | Kill 40 other players (2 players) |
+| **Knuckles and Cinders** | Nether | ◆ | Land 1,000 melee hits on other players in the Nether (2 players) |
+| **Knuckles and Cornices** | Biomes | ◆ | Land 1,500 hits on another player above y=200 (2 players) |
+| **Ladle Duty** | Farming | · | Be served a Stew or Soup by another player 12 times (2 players) |
+| **Lance Practice** | Animals | · | Land 100 hits on another player while you are mounted (2 players) |
+| **Land Dispute** | Farming | · | Hit another player with a Hoe 12 times (2 players) |
+| **Land of Milk and Honey** | Farming | ★ | Hand another player Honey or Sugar 4,500 times (2 players) |
+| **Landfill Logistics** | Nether | ◆ | Hand another player a full stack of Netherrack 400 times (2 players) |
+| **Landfill of Leftovers** | Monsters | ★ | Absorb 5000 loads of flesh other players could not stomach (2 players) |
+| **Landlord of the Ocean's Air** | Biomes | ★ | Be given Water Breathing by another player 12,000 times while underwater (2 players) |
 | **Lantern Light** | Mining | · | Kill another player under the glow berries of a Lush Cave (2 players) |
 | **Lapis Loan** | Enchanting | · | Enchant an item using Lapis Lazuli that another player handed you (2 players) |
 | **Last Arrow** | Weaponry | ★ | Kill another player with an arrow while you are down to your last half heart (2 players) |
+| **Last Flight of Many** | The End | ★ | Kill 2,500 other players in the End (2 players) |
 | **Last Gasp** | Weaponry | ★ | Kill another player in melee while you are down to your last half heart (2 players) |
+| **Last Man Digging** | Mining | ★ | Hit another player while holding a Pickaxe 8,000 times (2 players) |
 | **Last Meal** | Weaponry | ◆ | Be cut down by another player with nothing in your hand but food (2 players) |
 | **Last Rites** | Monsters | ◆ | Take a Totem of Undying off another player while you are down to three hearts (2 players) |
 | **Last Stand** | Monsters | ★ | Kill a Warden after every other player who joined the fight has already died (3 players) |
+| **Lava Buddy** | Potions | · | Be given Fire Resistance by another player 38 times (2 players) |
+| **Lava Is a Suggestion** | Nether | ◆ | Take Fire Resistance from another player's brew 1,700 times in the Nether (2 players) |
 | **Lava Lifeline** | Nether | · | Be made fireproof by a player who is standing in lava themselves (2 players) |
 | **Lava Regatta** | Nether | · | Kill another player off the back of their Strider while you ride a Strider across the Nether (2 players) |
 | **Lava Walkies** | Nether | · | Leash a Strider with a Lead another player handed you (2 players) |
 | **Lava Ward** | Nether | ◆ | Carry Fire Resistance, Resistance and Regeneration while standing in lava, the last of them thrown by another player (2 players) |
+| **Layers upon Layers** | Enchanting | ★ | Take 1,550 armour pieces enchanted with Protection IV from another player's hand (2 players) |
+| **Laying the Line** | Redstone | · | Throw 32 Rails of any kind for another player to pick up (2 players) |
 | **Lead the Target** | Weaponry | · | Put an arrow into a player at a full sprint (2 players) |
+| **Leadlight Work** | Building | ◆ | Be handed 32 or more Glass by another player 95 times (2 players) |
+| **Learned the Hard Way** | Nether | · | Take 50 hits from other players in the Nether (2 players) |
+| **Learning to Duck** | Statistics | · | Take 5 melee hits from other players (2 players) |
 | **Leash of the Realms** | Animals | ★ | Take a Lead from another player's hand and leash something with it in the Overworld, the Nether and the End (2 players) |
+| **Leather Doesn't Stop Much** | Animals | · | Take 35 hits from another player while dressed head to toe in Leather (2 players) |
+| **Leatherworking Guild** | Animals | ◆ | Take Leather or Rabbit Hide from another player's hand 1,250 times (2 players) |
+| **Left in the Snow** | Biomes | · | Be killed by another player in a snowy biome 5 times (2 players) |
 | **Left-Handed Compliment** | Weaponry | · | Kill another player bare-fisted while your Sword sits idle in your off hand (2 players) |
+| **Legend of the Broad Axe** | Statistics | ★ | Land 15,000 axe hits on other players (2 players) |
+| **Legend of the Long Blade** | Weaponry | ★ | Land 10,000 Sword blows on other players (2 players) |
+| **Legend of the Long Draw** | Statistics | ★ | Kill 3,000 other players with an arrow from at least 8 blocks away (2 players) |
+| **Legend of the Sharp Hand** | Enchanting | ★ | Land 18,000 hits on another player with a sword enchanted with Sharpness (2 players) |
+| **Legend Without A Witness** | Potions | ★ | Be turned Invisible by another player 5,500 times (2 players) |
+| **Legends Told in Whispers** | Nether | ★ | Kill 2,800 players in the Nether (2 players) |
+| **Lend A Lantern** | Potions | · | Be given Night Vision by another player 5 times (2 players) |
 | **Lend Me Your Axe** | Monsters | ◆ | Chop down a Ravager with an Axe another player handed you (2 players) |
 | **Lend Me Your Eyes** | Potions | · | Be given Night Vision by another player while you are standing in pitch darkness (2 players) |
+| **Level Allowance** | Enchanting | · | Take 50 Bottles o' Enchanting from another player's hand (2 players) |
+| **Levels of Agreement** | Redstone | ◆ | Pick up 96 Redstone Comparators dropped for you by another player (2 players) |
+| **Levitation Insurance** | The End | · | Be handed 12 Shulker Shells by other players in the End (2 players) |
 | **Levitation Sickness** | The End | · | Kill another player while a Shulker has them floating (2 players) |
 | **Library Card** | Building | · | Stock a Chiseled Bookshelf, then lend one of the books out to another player (2 players) |
+| **Lifeline Below** | Biomes | ◆ | Be given Water Breathing by another player 800 times while underwater (2 players) |
 | **Lighting the Way** | The End | · | Put up an End Rod another player handed you (2 players) |
 | **Lights On** | Potions | · | Take Night Vision from another player's Splash Potion while you are below Y=0 (2 players) |
 | **Limp Grip** | Potions | · | Be splashed with Weakness by another player while you are holding a Netherite Sword (2 players) |
 | **Line Cook** | Farming | · | Hand another player raw meat and take it back cooked (2 players) |
+| **Liquid Courage** | Weaponry | · | Be dosed with Strength by another player 25 times (2 players) |
+| **Live Well** | Animals | · | Take a Bucket of live catch from another player's hand 8 times (2 players) |
+| **Living Off the Armoury** | Statistics | ★ | Take 4,000 weapons or shields thrown to you by another player (2 players) |
+| **Living Target Practice** | Statistics | ◆ | Be hit 400 times by another player's projectiles (2 players) |
+| **Living Test Range** | Monsters | ★ | Stand in 500 explosions other players are responsible for (2 players) |
 | **Living Will** | Weaponry | ★ | Sign your estate over: hand another player Protection IV Netherite armour, all four pieces, and a Mending Elytra (2 players) |
 | **Loan Shark** | Mining | ◆ | Lend another player a Diamond Pickaxe and take it back worn past half its life (2 players) |
 | **Loaned Flame** | Nether | · | Light a Nether Portal with Flint and Steel another player handed you (2 players) |
 | **Loaner Saddle** | Animals | · | Saddle a Camel with a Saddle another player handed you (2 players) |
+| **Loaner Wings** | The End | · | Hand an Elytra to another player standing in the End 2 times (2 players) |
+| **Lobbed It** | Potions | · | Hurt another player with a thrown Splash Potion 5 times (2 players) |
 | **Locked In** | Enchanting | ◆ | Kill another player who is stuck wearing a Curse of Binding helmet (2 players) |
+| **Locksmith's Apprentice** | Adventure | · | Be handed 40 Trial Keys by another player (2 players) |
+| **Logistics of War** | Weaponry | ◆ | Pick up 1,000 pieces of ammunition thrown to you by other players (2 players) |
+| **Logistics Wins Wars** | Statistics | ◆ | Hand ammunition to other players 600 times (2 players) |
 | **Long Distance Relationship** | Statistics | ◆ | Have two players at least 10,000 blocks apart in the same dimension (2 players) |
+| **Long Range Betrayal** | Monsters | ◆ | Take 100 fatal shots from the players behind you (2 players) |
 | **Long Shot Rivalry** | Weaponry | ★ | Kill another player with a bow from at least 100 blocks away (2 players) |
+| **Long-Range Sympathy** | Nether | · | Lob a Ghast Tear across five blocks to another player 40 times (2 players) |
+| **Longshot Debut** | Statistics | · | Kill 2 other players with an arrow from at least 8 blocks away (2 players) |
+| **Loom Partners** | Building | ◆ | Be handed 16 or more Wool or Carpet by another player 100 times (2 players) |
+| **Loose Levels** | Enchanting | · | Take 10 Bottles o' Enchanting from another player's hand (2 players) |
+| **Lord of the Kelp Forest** | Farming | ★ | Be handed Kelp or Sea Pickles by another player 3,500 times (2 players) |
+| **Lord of the Leash** | Animals | ★ | Take 3,000 Leads from another player's hand (2 players) |
+| **Lord of the Ridgelines** | Biomes | ★ | Land 8,000 hits on another player above y=200 (2 players) |
+| **Lord of the Riptide** | Statistics | ★ | Land 4,000 thrown-Trident hits on other players (2 players) |
+| **Lord of the Shoals** | Weaponry | ★ | Skewer other players 4,000 times with a thrown Trident (2 players) |
 | **Lost and Found** | Adventure | ◆ | Get killed out there, then have another player bring you a Recovery Compass (2 players) |
+| **Lucky Loaner** | Enchanting | · | Take 6 tools enchanted with Fortune III from another player's hand (2 players) |
+| **Lungs Of The Deep** | Potions | ★ | Be given Water Breathing by another player 1,800 times (2 players) |
 | **Lungs on Loan** | Enchanting | · | Be handed a Turtle Helmet with Respiration III by another player (2 players) |
+| **Made of Sterner Stuff** | Nether | ◆ | Take 300 hits from other players in the Nether (2 players) |
 | **Magnetic Personality** | Nether | ◆ | Bind your Compass to a Lodestone another player spent their Netherite on (2 players) |
+| **Main Line** | Redstone | ◆ | Throw 150 Rails of any kind for another player to pick up (2 players) |
+| **Making Enemies** | Statistics | · | Kill 15 other players (2 players) |
 | **Malpractice** | Potions | · | Be splashed with Poison by another player while you are already carrying Regeneration (2 players) |
 | **Man Overboard** | Biomes | · | Reel a swimming player back to your boat with a Fishing Rod, out over the deep ocean (2 players) |
 | **Mangrove Manhunt** | Biomes | · | Kill another player in the tangled roots of a Mangrove Swamp (2 players) |
@@ -1733,331 +3928,1014 @@ All 855 advancements, A to Z, with the tab each one appears in.
 | **Marco Polo** | Potions | · | Look straight at a player who has the Invisibility effect, from within three blocks (2 players) |
 | **Marked Man** | Potions | · | Be lit up with Glowing by another player's Spectral Arrow (2 players) |
 | **Market Day** | Adventure | ◆ | Work the whole market on somebody else's coin: trade with a Farmer, a Butcher, a Cartographer and a Mason using Emeralds another player keeps handing you (2 players) |
+| **Marksman's Ledger** | Statistics | ◆ | Kill 40 other players with an arrow from at least 8 blocks away (2 players) |
+| **Marrow Donor** | Monsters | · | Give away 25 pieces of skeleton salvage to a teammate (2 players) |
+| **Martyr of the Arena** | Weaponry | ★ | Be cut down by another player 4,000 times (2 players) |
+| **Martyr of the Outer Isles** | The End | ★ | Be killed by another player in the End 720 times (2 players) |
+| **Martyr of the Overworld** | Statistics | ★ | Be killed by another player 1,500 times (2 players) |
+| **Martyr of the Tundra** | Biomes | ◆ | Be killed by another player in a snowy biome 250 times (2 players) |
+| **Martyr of the Wastes** | Nether | ◆ | Be killed by another player in the Nether 1,200 times (2 players) |
 | **Mason's Mate** | The End | · | Hand another player sixty-four Purpur Blocks while you are standing on Purpur (2 players) |
+| **Masons of the Deep Dark** | Building | ★ | Hand another player 32 or more Deepslate blocks 3,600 times (2 players) |
+| **Masons of the Weeping Stone** | Nether | · | Take Crying Obsidian from another player in the Nether 100 times (2 players) |
+| **Master of Borrowed Locks** | Adventure | ★ | Be handed 2,600 Trial Keys by another player (2 players) |
+| **Master of the Loom** | Monsters | ★ | Take in 1000 pieces of thrown silk and venom (2 players) |
 | **Master's Bequest** | Super Challenges | ★★ | Sign the whole workshop over: hand another player Mending, Unbreaking III Netherite Pickaxe, Axe, Shovel, Hoe and Sword, plus a Mending Bow, Crossbow, Trident and Elytra (2 players) |
 | **Matching Outfits** | Adventure | · | Two players wearing identically dyed leather armour, all four pieces (2 players) |
+| **Mattock Melee** | Mining | · | Hit another player while holding a Pickaxe 40 times (2 players) |
+| **Measure Twice** | Redstone | · | Pick up 5 Redstone Comparators dropped for you by another player (2 players) |
+| **Meat the Neighbours** | Farming | · | Hand another player Cooked Meat 5 times (2 players) |
 | **Medevac** | Nether | ◆ | Carry a player below three hearts two hundred blocks on your Happy Ghast without them dying (2 players) |
 | **Melon Baller** | Farming | · | Hand another player a full stack of Melon Slices (2 players) |
 | **Mended Fences** | Enchanting | ◆ | Be handed a Mending Pickaxe, a Mending Sword and a Mending Bow by other players (2 players) |
+| **Merchant of Menace** | Monsters | ★ | Arm other players with a final 10000 loads of powder (2 players) |
+| **Merchant of Volleys** | Statistics | ★ | Hand ammunition to other players 1,500 times (2 players) |
 | **Mess Hall** | Farming | ◆ | Be served all four bowls by other players: Mushroom Stew, Rabbit Stew, Beetroot Soup and Suspicious Stew (2 players) |
+| **Midas Logistics** | Nether | ★ | Hand another player four or more Gold Ingots in the Nether 7,000 times (2 players) |
+| **Midas Rations** | Farming | · | Be handed Golden Food by another player 8 times (2 players) |
+| **Midas Redistributed** | Mining | · | Have another player pick up Gold Ingots you threw 125 times (2 players) |
 | **Milk and Honey** | Animals | ◆ | Hand another player a Bucket of Milk and a Honey Bottle, and take a Cake back (2 players) |
 | **Milk Run** | Potions | · | Hand a Bucket of Milk to a player who is Poisoned, so they can wash it off (2 players) |
+| **Mill Order** | Building | · | Hand another player a full stack of Planks 12 times (2 players) |
+| **Mind the Drop** | Building | · | Catch Slow Falling from a potion another player threw 5 times (2 players) |
 | **Mind the Gap** | Redstone | · | Lay the rail ahead of another player's rolling Minecart (2 players) |
 | **Miner's Lamp** | Mining | · | Be given Night Vision by another player while you are below Y=-40 (2 players) |
 | **Mineshaft Mixtape** | Mining | · | Take a Music Disc off another player below Y=0 (2 players) |
+| **Ministry of Spoilage** | Monsters | ★ | Have 2500 helpings of rot pressed upon you by other players (2 players) |
 | **Mirage** | Biomes | ◆ | Put an arrow into another player from fifty blocks across open desert (2 players) |
 | **Mirror Match** | Weaponry | · | Kill another player who is holding a Diamond Sword while holding one yourself (2 players) |
+| **Mixer Duty** | Building | · | Be handed 16 or more Concrete by another player 12 times (2 players) |
+| **Monopoly on Blue** | Enchanting | ★ | Hand another player 4,096 Lapis Lazuli (2 players) |
+| **Monster Masquerade** | Monsters | · | Defeat 25 players in your borrowed skull (2 players) |
 | **Monument Kit** | Building | ◆ | Be handed Prismarine, Prismarine Bricks and Dark Prismarine by another player and place all three (2 players) |
 | **Monument Massacre** | Adventure | ◆ | Kill another player inside an Ocean Monument (2 players) |
+| **Monuments to Nobody** | Building | ★ | Hand another player 32 or more Sandstone 2,100 times (2 players) |
+| **Mosaic Commission** | Building | ◆ | Hand another player 8 or more Terracotta 155 times (2 players) |
 | **Mosaic Partner** | Building | · | Take Bamboo Planks from another player and lay Bamboo Mosaic of your own (2 players) |
 | **Mould Share** | Adventure | ◆ | Pay another player seven Diamonds and take a duplicated Smithing Template back (2 players) |
 | **Mountain Sickness** | Biomes | ◆ | Be given Slowness by another player above Y=200 (2 players) |
+| **Mountains Moved by Hand** | Building | ★ | Be handed a full stack of Stone or its cousins by another player 1,100 times (2 players) |
 | **Mounted Medic** | Animals | ◆ | Take a Regeneration splash from a player four blocks off while you ride pillion behind a third (3 players) |
 | **Mudlarking** | Building | · | Take Packed Mud and Mud Bricks from another player (2 players) |
+| **Munitions Baron** | Monsters | ★ | Put 1000 charges of gunpowder into other people's hands (2 players) |
+| **Museum of Two Hands** | Adventure | ◆ | Hand another player 250 Pottery Sherds (2 players) |
+| **Mutual Pushing** | Redstone | · | Throw 12 Pistons or Sticky Pistons for another player to pick up (2 players) |
 | **Mutually Assured Destruction** | Weaponry | ★ | Trade kills with another player within the same second (2 players) |
+| **Nailed Into Everything** | Building | ★ | Hand another player a full stack of Planks 1,600 times (2 players) |
+| **National Grid** | Redstone | ★ | Pick up 2,048 Redstone Dust dropped for you by another player (2 players) |
+| **Nectar Nudge** | Farming | ◆ | Hand another player Honey or Sugar 200 times (2 players) |
 | **Needle Point** | Potions | · | Put an Arrow of Poison into another player (2 players) |
 | **Neptune Denied** | Weaponry | ◆ | Block a Trident another player threw at you with your Shield (2 players) |
+| **Neptune's Grudge** | Weaponry | ★ | Skewer other players 1,000 times with a thrown Trident (2 players) |
 | **Nether Import** | The End | · | Be handed a Chorus Fruit by another player in the Nether (2 players) |
 | **Netherite Deal** | Nether | ◆ | Take a Netherite Ingot off another player and be seen in the Netherite Chestplate it became (2 players) |
+| **Netherite Nepotism** | Mining | ★ | Pick up Netherite Scrap thrown to you by another player 3,500 times (2 players) |
+| **Never Drowning Alone** | Biomes | ◆ | Be given Water Breathing by another player 350 times while underwater (2 players) |
+| **Never Dry** | Weaponry | ★ | Pick up 2,500 pieces of ammunition thrown to you by other players (2 players) |
+| **Never Fought With My Own Sword** | Statistics | ★ | Take 1,500 weapons or shields thrown to you by another player (2 players) |
+| **Never Hit Bottom** | The End | ★ | Pick up Slow Falling from another player's potion in the End 1,000 times (2 players) |
 | **Night Ferry** | Biomes | · | Be given Night Vision by another player while you are riding an Oak Boat (2 players) |
 | **Night Watch** | Monsters | · | Have another player kill a monster within ten blocks of you while you sleep (2 players) |
+| **Nightshift Vision** | Mining | ★ | Gain Night Vision from another player's potion 1,400 times (2 players) |
+| **Nine Pillars, Two Hands** | The End | ◆ | Hand an End Crystal to another player while you are in the End 400 times (2 players) |
+| **No Cover Is Cover** | Statistics | ◆ | Kill 100 other players with an arrow from at least 8 blocks away (2 players) |
 | **No Hard Feelings** | Potions | · | Be splashed with Weakness by another player, then be splashed with Strength to make up for it (2 players) |
+| **No Hard Hats Required** | Building | ◆ | Catch Slow Falling from a potion another player threw 150 times (2 players) |
 | **No Man Left Behind** | Adventure | ★ | Under two hearts, take a Golden Apple from another player in a Trial Chamber, an Ancient City, the Nether and the End (2 players) |
 | **No Parachute** | Weaponry | · | Get killed by another player while you are falling through open air (2 players) |
 | **No Refunds** | Weaponry | · | Kill another player who is clutching an Enchanted Golden Apple in their off hand (2 players) |
+| **No Shield Survives Me** | Statistics | ★ | Land 2,500 axe hits on other players (2 players) |
 | **Noble Sacrifice** | Monsters | ★ | Be killed by the Wither in a fight that a teammate goes on to win (2 players) |
+| **Nobody Breathes Alone Down Here** | Biomes | ★ | Be given Water Breathing by another player 30,000 times while underwater (2 players) |
 | **Nobody Dies Tonight** | Super Challenges | ★★ | Keep three or more players alive through a full in-game week with not one death between them (3 players) |
+| **Nobody Falls on My Watch** | Building | ★ | Catch Slow Falling from a potion another player threw 1,700 times (2 players) |
+| **Nobody Leaves the End** | The End | ★ | Kill 1,200 other players in the End (2 players) |
+| **Nobody Runs on Empty** | Adventure | ◆ | Gain 120 effects from another player's potions (2 players) |
+| **Nobody Scouts Alone** | Adventure | ◆ | Hand another player 150 Spyglasses (2 players) |
+| **Nobody Surfaces Alone** | Potions | ◆ | Be given Water Breathing by another player 800 times (2 players) |
+| **Nobody Walks Here** | The End | ★ | Hand an Elytra to another player standing in the End 3,000 times (2 players) |
+| **Nobody Wanders Here** | Adventure | ◆ | Hand another player 150 compasses (2 players) |
+| **Nobody Was Ever Here** | Potions | ★ | Be turned Invisible by another player 2,500 times (2 players) |
+| **Nocturne of Nocks** | Weaponry | · | Kill 50 players with arrows loosed from a Bow (2 players) |
+| **Nomenclature** | Animals | ◆ | Take 650 Name Tags from another player's hand (2 players) |
+| **Noodle Arms** | Potions | · | Be given Weakness by another player 40 times (2 players) |
 | **Nose to Tail** | Animals | ◆ | Hand another player every cut of Rabbit: raw Rabbit, Cooked Rabbit and a Rabbit Stew (2 players) |
 | **Nosebleed Seats** | Weaponry | ★ | Kill another player above Y=300, the pair of you scrapping at the build limit (2 players) |
+| **Not a Single Pane Lost** | Building | · | Be handed 32 or more Glass by another player 7 times (2 players) |
 | **Not My Sword** | The End | ◆ | Land the killing blow on the Ender Dragon with a Sword another player handed you (2 players) |
+| **Notch in the Hilt** | Statistics | · | Kill 5 other players (2 players) |
+| **Notch on the Bow** | Weaponry | · | Kill 5 players with arrows loosed from a Bow (2 players) |
+| **Notch's Charity** | Farming | ◆ | Be handed Golden Food by another player 250 times (2 players) |
+| **Nothing Below but You** | The End | ★ | Land 6,500 melee blows on other players in the End (2 players) |
+| **Nothing Breaks Here** | Enchanting | ◆ | Take 95 items enchanted with Mending from another player's hand (2 players) |
+| **Nothing But Arrows** | Redstone | ★ | Take 2,800 projectile hits from another player standing at least three blocks away (2 players) |
+| **Nothing But Hide** | Animals | ★ | Take 850 hits from another player while dressed head to toe in Leather (2 players) |
+| **Nothing But Sky and Silica** | Building | ★ | Be handed 32 or more Glass by another player 2,600 times (2 players) |
+| **Nothing Dies On My Watch** | Potions | ★ | Be given Regeneration by another player 1,900 times (2 players) |
+| **Nothing Down Here Is Yours Alone** | Biomes | ★ | Catch 40,000 Echo Shards thrown to you by another player in the Deep Dark (2 players) |
+| **Nothing Gets Through** | Weaponry | ◆ | Block 250 attacks from other players with your Shield (2 players) |
+| **Nothing Goes Unseen** | Redstone | ★ | Pick up 2,500 Observers dropped for you by another player (2 players) |
+| **Nothing Grows Where You Walk** | Biomes | ★ | Kill 20,000 players in a desert (2 players) |
+| **Nothing Hides From Us** | Potions | ◆ | Be given Night Vision by another player 380 times (2 players) |
+| **Nothing Higher to Punch** | Biomes | ★ | Land 3,500 hits on another player above y=200 (2 players) |
 | **Nothing in Hand** | Weaponry | · | Punch a player who is wielding a Netherite Sword with both of your hands empty (2 players) |
+| **Nothing in My Veins Is Mine** | Statistics | ★ | Receive 6,000 potion effects from other players (2 players) |
+| **Nothing Left but Netherrack** | Nether | ★ | Take Nether Quartz from another player's hand 10,000 times (2 players) |
+| **Nothing Left In The Arms** | Potions | ★ | Be given Weakness by another player 2,800 times (2 players) |
+| **Nothing Left to Break** | Nether | ◆ | Take 4,500 hits from other players in the Nether (2 players) |
 | **Nothing of My Own** | Super Challenges | ★★ | Carry nothing you made yourself: be handed every Netherite tool and Spear, a Mace, Trident, Bow, Crossbow, Shield, Elytra, Fishing Rod, Flint and Steel, Shears, Brush and Spyglass by other players (2 players) |
+| **Nothing Shatters on My Watch** | Enchanting | ★ | Hand another player 1,100 tools enchanted with Silk Touch (2 players) |
+| **Nourished by Strangers** | The End | ★ | Take a handful of Chorus Fruit from another player in the End 10,000 times (2 players) |
 | **Now Playing** | Nether | ◆ | Spin Pigstep on a Jukebox using the disc another player looted for you (2 players) |
 | **Now You Don't** | Potions | · | Be made invisible by another player's Splash Potion of Invisibility (2 players) |
 | **Now You See Them** | Potions | ◆ | Kill another player while they are Invisible (2 players) |
 | **Nowhere Is Safe** | Weaponry | ★ | Kill another player in all three dimensions, underwater, in lava, above Y=200, below Y=-60 and in mid-air (2 players) |
+| **Nowhere to Run but Green** | Biomes | ★ | Take 12,000 hits from another player in a jungle (2 players) |
+| **Nudged Toward the Edge** | The End | · | Land 12 melee blows on other players in the End (2 players) |
 | **Nugget Run** | Nether | · | Take Gold Nuggets from another player while you are both in the Nether (2 players) |
+| **Observer Effect** | Redstone | ★ | Pick up 1,100 Observers dropped for you by another player (2 players) |
+| **Obsidian Insurance** | The End | · | Hand an End Crystal to another player while you are in the End 15 times (2 players) |
+| **Ocean Floor Shift** | Potions | ◆ | Be given Water Breathing by another player 350 times (2 players) |
+| **Ocean's Pantry** | Farming | ★ | Be handed Kelp or Sea Pickles by another player 1,700 times (2 players) |
+| **Off the Bandsaw** | Building | · | Hand another player a full stack of Planks 2 times (2 players) |
 | **Off the Edge** | The End | ◆ | Punt another player off an End island with a Wind Charge while they are already in mid-air (2 players) |
+| **Off the Sheep's Back** | Animals | · | Hand Wool to other players 10 times (2 players) |
 | **Off-Hand Offer** | Weaponry | ◆ | Kill another player with a Shield they gave you strapped to your off hand (2 players) |
+| **Offering to the Pale** | Biomes | · | Pass 60 Eyeblossoms to another player in a Pale Garden (2 players) |
+| **Omelette Logistics** | Animals | ★ | Hand Eggs to other players 2,200 times (2 players) |
 | **Omen Insurance** | Adventure | ◆ | Be splashed with Resistance by another player while Bad Omen is hanging over you (2 players) |
+| **Omen to Go** | Adventure | · | Hand another player 7 Ominous Bottles (2 players) |
 | **Ominous Assistance** | Adventure | ◆ | Be splashed with Strength by another player while you are under Trial Omen (2 players) |
+| **Ominous Generosity** | Adventure | ◆ | Be handed 100 Trial Keys by another player (2 players) |
 | **On the Receiving End** | Weaponry | · | Be killed by another player's thrown Trident (2 players) |
 | **On the Scent** | Animals | · | Take a Lead from another player and walk a Sniffer with it (2 players) |
+| **One Less Wing** | The End | · | Kill 2 other players in the End (2 players) |
 | **One-Way Ticket** | The End | ★ | Kill another player below Y=0 in the End while Slowness holds them (2 players) |
 | **Ooze Bomb** | Potions | · | Load another player up with Oozing using a Tipped Arrow (2 players) |
+| **Opened the Season** | Nether | · | Kill 5 players in the Nether (2 players) |
+| **Opening Grudge** | Statistics | · | Kill 2 other players (2 players) |
+| **Opening the Depot** | Statistics | · | Hand ammunition to other players 2 times (2 players) |
+| **Optics for the Whole Party** | Adventure | ★ | Hand another player 1,800 Spyglasses (2 players) |
 | **Orbital Strike** | The End | ★ | Kill another player with an arrow while you are both more than two hundred blocks above the End (2 players) |
+| **Orchard Tithe** | Farming | · | Be handed Fruit or Berries by another player 75 times (2 players) |
 | **Orchestra** | Adventure | ★ | Four players sound four different Goat Horns within five seconds (4 players) |
+| **Ore Bearer** | Mining | · | Take a bundle of 16 or more Raw Copper from another player 40 times (2 players) |
 | **Ore Consignment** | Redstone | · | Take a Silk Touched Nether Quartz Ore block from another player (2 players) |
 | **Out of Nowhere** | Weaponry | ◆ | Take a Crossbow bolt from a player at least forty blocks away (2 players) |
+| **Out Of Sight, Out Of Mind** | Potions | · | Be turned Invisible by another player 42 times (2 players) |
+| **Out of the Dunes** | Building | · | Hand another player 32 or more Sandstone 2 times (2 players) |
 | **Outer Islands Incident** | The End | ◆ | Kill another player out on the outer End islands (2 players) |
+| **Outfitting the Flock** | The End | ◆ | Hand an Elytra to another player standing in the End 130 times (2 players) |
+| **Outfitting the Stable** | Animals | ◆ | Hand 700 Saddles to other players (2 players) |
+| **Outmatched** | Weaponry | · | Be cut down by another player 10 times (2 players) |
 | **Outrider** | Weaponry | ◆ | Cut a mounted player out of the saddle with a Sword from the back hump of a Camel a third player is driving (3 players) |
+| **Outrunning Daylight** | Potions | ★ | Be given Speed by another player 5,000 times (2 players) |
 | **Outsourced** | Mining | · | Craft a Diamond Pickaxe from three Diamonds another player handed you (2 players) |
+| **Over the Moon** | Animals | ◆ | Be given Jump Boost by another player 160 times while in the saddle (2 players) |
+| **Overlord of the Ossuary** | Monsters | ★ | Have 10000 heads delivered to you by hand (2 players) |
+| **Owl Shift** | Potions | ◆ | Be given Night Vision by another player 165 times (2 players) |
+| **Oxidised Beyond Recognition** | Building | ★ | Hand another player 4 or more Copper blocks 4,000 times (2 players) |
 | **Oxidised Opponent** | Mining | · | Kill another player wearing a full set of Copper armour (2 players) |
+| **Pace Car** | Potions | · | Be given Speed by another player 30 times (2 players) |
 | **Pace Setter** | Potions | · | Take Speed II from another player's Splash Potion while you are already sprinting (2 players) |
 | **Pack Leaders** | Animals | ◆ | Three players each with an armoured Wolf at heel, all within ten blocks (3 players) |
+| **Padded Out** | Animals | · | Take 6 hits from another player while dressed head to toe in Leather (2 players) |
+| **Pail Relay** | Animals | · | Take a Bucket of live catch from another player's hand 20 times (2 players) |
+| **Pain Is a Shared Language** | Nether | ★ | Take 60,000 hits from other players in the Nether (2 players) |
 | **Painted Desert** | Biomes | · | Kill another player among the layered clay of the Badlands (2 players) |
+| **Pale Cartel** | Biomes | ◆ | Pass 2,500 Eyeblossoms to another player in a Pale Garden (2 players) |
 | **Pale Reckoning** | Biomes | · | Kill another player in the grey silence of the Pale Garden (2 players) |
+| **Palms Full of Green** | Mining | · | Have another player pick up Emeralds you threw 10 times (2 players) |
 | **Pancaked** | Weaponry | · | Be killed by another player's Mace smash (2 players) |
 | **Panda Politics** | Biomes | · | Kill another player deep in a Bamboo Jungle (2 players) |
+| **Pane by Pane** | Building | · | Be handed 32 or more Glass by another player 40 times (2 players) |
 | **Pane Relay** | Building | · | Take Glass Panes from another player and glaze a window with them (2 players) |
+| **Panoply Provider** | Weaponry | ★ | Hand 2,000 pieces of armour to other players (2 players) |
+| **Paper Trails Between Us** | Adventure | ◆ | Be handed 100 maps by another player (2 players) |
 | **Park and Ride** | Redstone | · | Ride a Minecart another player handed you (2 players) |
 | **Parting Gift** | Enchanting | ◆ | Take a Curse of Vanishing item from a teammate, then die and watch it disappear (2 players) |
+| **Pass the Platter** | Farming | · | Hand another player Cooked Meat 12 times (2 players) |
 | **Pass the Shield** | Weaponry | · | Give another player a Shield and take a Sword back off them (2 players) |
+| **Passed a Tome** | Enchanting | · | Take 10 Enchanted Books from another player's hand (2 players) |
+| **Passed Over the Peat** | Biomes | ◆ | Hand 300 Slimeballs to another player standing in a swamp (2 players) |
+| **Passing Blows** | Redstone | · | Land 90 hits on another player while they ride a Minecart (2 players) |
+| **Passing Faces** | Monsters | ◆ | Pick up 100 mob heads that somebody else was holding first (2 players) |
+| **Passing the Charge** | The End | · | Hand an End Crystal to another player while you are in the End 6 times (2 players) |
 | **Passing the Lead** | Animals | · | Take a Lead from another player's hand and leash an animal with it (2 players) |
+| **Passing the Purse** | Nether | · | Hand another player four or more Gold Ingots in the Nether 30 times (2 players) |
 | **Passing the Torch** | Mining | · | Place a Copper Torch that another player handed to you (2 players) |
 | **Patient Zero** | Potions | ◆ | Take Poison, Slowness and Weakness together from a player at least ten blocks away while you stand face to face with a different player, then die to a player with all three still on you (3 players) |
+| **Patina Partners** | Redstone | ◆ | Throw 88 Copper Bulbs for another player to pick up (2 players) |
 | **Patina Pipeline** | Mining | ★ | Take every oxidation stage of Copper Block and its waxed twin from other players (2 players) |
+| **Pattern Passed Down** | Adventure | · | Be handed 2 Smithing Templates by another player (2 players) |
 | **Pay It Forward** | Adventure | ◆ | Cheat death with a Totem of Undying that another player dropped for you (2 players) |
+| **Peak Aggression** | Biomes | · | Land 120 hits on another player above y=200 (2 players) |
 | **Pearl Loan** | The End | · | Be handed sixteen Ender Pearls by another player (2 players) |
+| **Pearl Pipeline** | Monsters | ◆ | Keep a teammate stocked with 500 thrown ender pearls (2 players) |
+| **Pearl Post** | Monsters | · | Deliver 50 pearls into somebody else's inventory (2 players) |
 | **Pearl Swap** | The End | ◆ | Two players throw Ender Pearls and trade places, each landing where the other was standing (2 players) |
+| **Pearl Tycoon** | Monsters | ★ | Hand over 5000 ender pearls in your career (2 players) |
+| **Pearls Before Friends** | Monsters | · | Hand 10 ender pearls or eyes to another player (2 players) |
+| **Peasant Discipline** | Farming | ◆ | Hit another player with a Hoe 750 times (2 players) |
 | **Peasant Revolt** | Farming | ◆ | Kill another player with a Hoe while you are both standing on a Dirt Path (2 players) |
+| **Perforated Beyond Repair** | Statistics | ◆ | Be hit 1,000 times by another player's projectiles (2 players) |
+| **Permafrost Casualty** | Biomes | ★ | Be killed by another player in a snowy biome 1,500 times (2 players) |
+| **Perpetual Loan** | Enchanting | · | Take 45 items enchanted with Mending from another player's hand (2 players) |
+| **Perpetual Underdog** | Weaponry | ◆ | Be cut down by another player 500 times (2 players) |
+| **Perpetually Medicated** | Adventure | ★ | Gain 1,400 effects from another player's potions (2 players) |
 | **Pest Control** | Potions | · | Be splashed with a Potion of Infested by another player (2 players) |
+| **Petal Post** | Biomes | · | Catch 10 Pink Petals thrown to you in a Cherry Grove (2 players) |
 | **Petal to the Metal** | Biomes | · | Kill another player with an Iron Sword in a Cherry Grove (2 players) |
+| **Phalanx of One** | Weaponry | ◆ | Block 1,000 attacks from other players with your Shield (2 players) |
+| **Phantom Detail** | Potions | ◆ | Be turned Invisible by another player 95 times (2 players) |
 | **Pharmacy Run** | Potions | ◆ | Hand out Potions of Healing, Strength and Swiftness to other players (2 players) |
 | **Philanthropist** | Statistics | ◆ | Give away a full stack of sixty-four Diamonds in one go (2 players) |
 | **Photo Finish** | Animals | ◆ | Two players gallop across the same ground within three blocks of each other, both moving faster than ten blocks a second (2 players) |
+| **Pick a Fight** | Mining | · | Hit another player while holding a Pickaxe 5 times (2 players) |
 | **Pick of the Bunch** | Mining | ◆ | Be handed a Pickaxe of all seven materials by other players (2 players) |
+| **Picked for You** | Farming | · | Be handed Fruit or Berries by another player 12 times (2 players) |
+| **Pickle Runner** | Biomes | · | Catch 10 Sea Pickles thrown to you by another player in a warm ocean (2 players) |
 | **Piece of Cake** | Farming | · | Hand a Cake to another player and have one handed back to you (2 players) |
+| **Pig Iron Payday** | Mining | · | Pick up Iron Ingots thrown to you by another player 10 times (2 players) |
 | **Pigstep Premiere** | Nether | · | Take the Pigstep disc off another player (2 players) |
+| **Pillar Consortium** | Nether | ◆ | Take Nether Quartz from another player's hand 500 times (2 players) |
+| **Pillar Restocking** | The End | ◆ | Hand an End Crystal to another player while you are in the End 175 times (2 players) |
 | **Pillar Talk** | The End | · | Be handed a Purpur Pillar by another player inside an End City (2 players) |
 | **Pillion Post** | Animals | ◆ | Catch an item thrown from at least six blocks away while riding behind another player on a Camel (3 players) |
 | **Pinata** | Weaponry | · | Kill another player who is holding a Shulker Box in their hand (2 players) |
 | **Pincer Movement** | Monsters | · | Have two players hit the same monster from opposite sides at the same moment (2 players) |
 | **Pincushion** | Weaponry | · | Die with another player's arrow in you (2 players) |
+| **Pincushion of the Void** | The End | ★ | Be hit by another player's projectile in the End 750 times (2 players) |
 | **Pincushioned** | Enchanting | · | Die to the Thorns on another player's chestplate (2 players) |
+| **Pincushioned Again** | Statistics | · | Be hit 10 times by another player's projectiles (2 players) |
+| **Pink to the Horizon** | Biomes | ★ | Catch 15,000 Pink Petals thrown to you in a Cherry Grove (2 players) |
+| **Pinned at Altitude** | The End | · | Be hit by another player's projectile in the End 5 times (2 players) |
 | **Pinned Down** | Potions | · | Be slowed by another player while you are holding a Trident (2 players) |
+| **Piston Foundry** | Redstone | ★ | Throw 2,600 Pistons or Sticky Pistons for another player to pick up (2 players) |
 | **Pit Crew** | Animals | · | Feed a Horse while another player is sitting in the saddle (2 players) |
 | **Plague Doctor** | Potions | ★ | Have other players dose you with Poison, Slowness, Weakness, Oozing, Weaving, Wind Charged and Infested (2 players) |
 | **Plague Ward** | Potions | ★ | Be handed Regeneration by another player while Poison, Wither, Weakness, Slowness and Hunger are all eating at you (2 players) |
+| **Plain Books, Plainly Given** | Enchanting | · | Hand another player 48 Grindstones or plain Books (2 players) |
 | **Plank by Plank** | Building | ★ | Be handed a full stack of Planks of all twelve wood types by other players (2 players) |
+| **Plate for a Friend** | Weaponry | ◆ | Hand 100 pieces of armour to other players (2 players) |
+| **Plated Hooves** | Animals | · | Hand Horse or Wolf Armor to other players 15 times (2 players) |
+| **Pocket Change** | Nether | · | Hand another player four or more Gold Ingots in the Nether 10 times (2 players) |
 | **Pocket Money** | Adventure | · | Hand another player a Bundle already packed with Bread, Torches, Arrows and Coal (2 players) |
+| **Pocket of Dust** | Redstone | · | Pick up 4 Redstone Dust dropped for you by another player (2 players) |
+| **Pocketful of Patina** | Mining | · | Pick up Copper Ingots thrown to you by another player 15 times (2 players) |
+| **Pockets Not My Own** | Adventure | · | Be handed 50 Bundles by another player (2 players) |
+| **Point Them Home** | Adventure | · | Hand another player 2 compasses (2 players) |
+| **Pointy End of the Pick** | Mining | ★ | Hit another player while holding a Pickaxe 1,500 times (2 players) |
+| **Poison Pen Pal** | Monsters | ◆ | Let a friend poison you 50 times over (2 players) |
+| **Poisoner's Guild** | Potions | ◆ | Be Poisoned by another player 110 times (2 players) |
 | **Polish Detail** | Building | ★ | Hand another player Granite, Diorite, Andesite, Deepslate, Blackstone, Basalt and Tuff, and take every polished version back (2 players) |
 | **Pony Express** | Adventure | ◆ | Carry the post: take a Written Book from another player in the Overworld and hand it on in the Nether (2 players) |
 | **Poolside Service** | Biomes | · | Be dosed with Regeneration by another player while you are swimming underwater (2 players) |
 | **Popcorn Run** | The End | · | Hand another player sixty-four Popped Chorus Fruit (2 players) |
 | **Popped Over** | The End | ◆ | Be handed four Popped Chorus Fruit by another player, then place the Purpur Block you make from them (2 players) |
 | **Portal Fund** | Nether | · | Take Obsidian from another player while the pair of you are stranded in the Nether (2 players) |
+| **Poseidon's Payroll** | Statistics | ★ | Land 1,500 thrown-Trident hits on other players (2 players) |
+| **Potion Dependency** | Weaponry | ◆ | Be dosed with Strength by another player 500 times (2 players) |
 | **Potluck** | Farming | ◆ | Have five players each eat a different food within ten seconds, all inside eight blocks (5 players) |
 | **Potter's Wheel** | Building | · | Hand another player a Decorated Pot (2 players) |
+| **Pour the Slab** | Building | · | Be handed 16 or more Concrete by another player 28 times (2 players) |
+| **Poured a Skyline** | Building | ★ | Be handed 16 or more Concrete by another player 800 times (2 players) |
+| **Powder and Shot** | Statistics | · | Hand ammunition to other players 5 times (2 players) |
+| **Powder Cartel** | Redstone | ★ | Pick up 1,024 Redstone Dust dropped for you by another player (2 players) |
 | **Powder Monkey** | Nether | ◆ | Craft an Eye of Ender from Blaze Powder another player ground up for you (2 players) |
+| **Powder Monopoly** | Nether | ★ | Be handed a Blaze Rod inside a Nether Fortress 4,500 times (2 players) |
+| **Powder Porter** | Monsters | · | Hand 10 lots of gunpowder or TNT to another player (2 players) |
+| **Powder Runner** | Redstone | · | Pick up 8 Redstone Dust dropped for you by another player (2 players) |
+| **Powered by Copper** | Redstone | · | Throw 8 Copper Bulbs for another player to pick up (2 players) |
+| **Practice Bout** | Weaponry | · | Land 25 Sword blows on other players (2 players) |
+| **Practice Dummy** | Weaponry | ◆ | Be cut down by another player 250 times (2 players) |
+| **Pre-Fight Ritual** | Weaponry | · | Be dosed with Strength by another player 50 times (2 players) |
 | **Prep the Cure** | Potions | · | Have another player weaken you while you are holding a Golden Apple (2 players) |
 | **Press-Ganged** | Biomes | ◆ | Take a melee blow from another player while a third shares your Boat (3 players) |
+| **Professional Casualty** | Statistics | ◆ | Be killed by another player 600 times (2 players) |
+| **Professional Poison Taster** | Monsters | ★ | Test 1000 doses of poison for the players who brewed them (2 players) |
+| **Prongs and Consequences** | Weaponry | · | Skewer other players 25 times with a thrown Trident (2 players) |
+| **Prospector's Trust** | Enchanting | ◆ | Take 140 tools enchanted with Fortune III from another player's hand (2 players) |
 | **Protection Racket** | Enchanting | ★ | Be killed by another player while wearing four pieces of Protection IV (2 players) |
+| **Pulled from the Ribs** | Statistics | · | Be hit 60 times by another player's projectiles (2 players) |
+| **Pulse Check** | Redstone | · | Pick up 20 Observers dropped for you by another player (2 players) |
 | **Pumpkin Spiced** | Weaponry | · | Kill another player who is wearing a Carved Pumpkin (2 players) |
 | **Punch Line** | Enchanting | · | Kill another player with an arrow from a Punch II bow (2 players) |
 | **Punching Up** | Weaponry | ◆ | Kill another player who is wielding a Netherite Sword while you hold only a Copper Sword (2 players) |
+| **Purple Consignment** | Nether | · | Take Crying Obsidian from another player in the Nether 16 times (2 players) |
+| **Purple Empire** | Nether | ★ | Take Crying Obsidian from another player in the Nether 7,500 times (2 players) |
+| **Purple Freight** | The End | · | Be handed 25 Shulker Shells by other players in the End (2 players) |
+| **Purple Masonry** | The End | · | Pass Purpur to another player from inside an End City 20 times (2 players) |
+| **Purple Rations** | The End | · | Take a handful of Chorus Fruit from another player in the End 10 times (2 players) |
 | **Purpur Consignment** | The End | ◆ | Be handed a Purpur Block, a Purpur Pillar, Purpur Stairs and a Purpur Slab by other players (2 players) |
+| **Purpur Haulier** | The End | ◆ | Pass Purpur to another player from inside an End City 100 times (2 players) |
+| **Purpur Magnate** | The End | ★ | Pass Purpur to another player from inside an End City 5,000 times (2 players) |
 | **Purpur Post** | The End | · | Take Purpur Blocks and Purpur Pillars from another player out in the End (2 players) |
+| **Purveyor of Bad Omens** | Adventure | ★ | Hand another player 600 Ominous Bottles (2 players) |
+| **Purveyor of Intact Things** | Enchanting | ◆ | Hand another player 250 tools enchanted with Silk Touch (2 players) |
+| **Push Off** | Potions | · | Be given Speed by another player 5 times (2 players) |
+| **Putrid Provisions** | Monsters | ◆ | Accept 250 rations of rot from the friends who love you (2 players) |
+| **Quarrel with Everyone** | Weaponry | · | Hit other players 100 times with Crossbow bolts (2 players) |
+| **Quarried Below the Quarry** | Building | ★ | Hand another player 32 or more Deepslate blocks 1,700 times (2 players) |
 | **Quarry Crew** | Mining | ★ | Take a full stack of Cobblestone, Stone, Deepslate, Granite, Diorite, Andesite and Tuff from other players (2 players) |
+| **Quarrying the City** | The End | · | Pass Purpur to another player from inside an End City 45 times (2 players) |
+| **Quarrymen's Pact** | Nether | · | Take Nether Quartz from another player's hand 100 times (2 players) |
 | **Quartered Colours** | Adventure | ◆ | Be handed four armour pieces, each trimmed with a different material (2 players) |
 | **Quartermaster** | Farming | ◆ | Issue the rations: hand other players a full stack of Bread, a full stack of Steak and a full stack of Baked Potato (2 players) |
+| **Quartermaster of Boom** | Monsters | ★ | Arm other players 5000 times over with creeper leavings (2 players) |
+| **Quartermaster of the Fallen** | Weaponry | ★ | Hand 4,000 pieces of armour to other players (2 players) |
+| **Quartermaster of the Peaks** | Biomes | ★ | Catch 25,000 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) |
+| **Quartermaster of the Sky** | The End | ◆ | Hand an Elytra to another player standing in the End 300 times (2 players) |
+| **Quartermaster of the Stables** | Animals | ★ | Hand 3,000 Saddles to other players (2 players) |
+| **Quartermaster's Blessing** | Adventure | ◆ | Be handed 700 Bundles by another player (2 players) |
+| **Quartermaster's Favourite** | Statistics | ◆ | Take 250 weapons or shields thrown to you by another player (2 players) |
 | **Quartermaster's Round** | Weaponry | · | Kit out a teammate: hand another player a Sword, a Shield and a Bow (2 players) |
 | **Quartz Consignment** | Building | ◆ | Be handed Quartz Blocks, Quartz Bricks, Quartz Pillars and Chiseled Quartz by another player (2 players) |
 | **Quartz Consortium** | Redstone | ◆ | Have another player hand you all five carved forms of Quartz (2 players) |
 | **Quartz Courier** | Redstone | · | Hand Nether Quartz to another player down in the Nether (2 players) |
+| **Quiet Handover** | Biomes | · | Catch 10 Echo Shards thrown to you by another player in the Deep Dark (2 players) |
+| **Quiver of Grievances** | Monsters | ◆ | Be killed 250 times by projectiles other players fired (2 players) |
 | **Quiver of Spite** | Potions | ◆ | Land Arrows of Poison, Slowness, Weakness and Harming on other players (2 players) |
+| **Quiver Refill** | Weaponry | · | Pick up 50 pieces of ammunition thrown to you by other players (2 players) |
 | **Quiver Run** | Weaponry | · | Take Arrows out of another player's hands and shoot them straight back (2 players) |
 | **Rabbit Food** | Animals | · | Hand another player a Rabbit Stew and take a Cooked Rabbit back (2 players) |
 | **Raid Party** | Adventure | ◆ | Three players holding Hero of the Village at the same time (3 players) |
+| **Rail Baron** | Redstone | ★ | Throw 1,800 Rails of any kind for another player to pick up (2 players) |
 | **Rail Retrieval** | Redstone | ◆ | Lay rail through the Nether and take delivery of a Chest Minecart from another player (2 players) |
+| **Rain Of Glass** | Potions | ◆ | Hurt another player with a thrown Splash Potion 160 times (2 players) |
+| **Rain of Grey Geese** | Weaponry | ◆ | Kill 250 players with arrows loosed from a Bow (2 players) |
 | **Rainbow Freight** | The End | ◆ | Be handed Purple, Magenta, Light Blue and Yellow Shulker Boxes by other players (2 players) |
+| **Range Day** | Redstone | · | Take 55 projectile hits from another player standing at least three blocks away (2 players) |
 | **Ransom Note** | Weaponry | ◆ | Kill another player, then hand back a full set of Diamond armour and a Diamond Sword (2 players) |
 | **Rare Groove** | Adventure | ★ | Be handed Pigstep, Otherside, 5, Relic and Precipice by other players (2 players) |
+| **Rationing Board** | Farming | ◆ | Hand another player Bread 200 times (2 players) |
+| **Rattle the Living** | Monsters | ★ | Club other players 10000 times with a dead thing's leg (2 players) |
+| **Raw Deal** | Mining | · | Take a bundle of 16 or more Raw Copper from another player 15 times (2 players) |
+| **Read My Signal** | Redstone | · | Pick up 20 Redstone Comparators dropped for you by another player (2 players) |
 | **Read the Room** | Enchanting | ◆ | Enchant an item at a table another player ringed with bookshelves (2 players) |
+| **Reading Circle** | Enchanting | · | Take 20 Enchanted Books from another player's hand (2 players) |
+| **Reaper of the Isles** | The End | ◆ | Kill 25 other players in the End (2 players) |
+| **Rebuilding the Spires** | The End | ★ | Pass Purpur to another player from inside an End City 2,400 times (2 players) |
 | **Red Brick Road** | Building | · | Lay Red Nether Bricks another player crafted and passed to you (2 players) |
 | **Red Forest Rivals** | Nether | · | Split another player with an Axe in a Crimson Forest (2 players) |
 | **Red Handed** | Building | ◆ | Take Cinnabar, Polished Cinnabar and Cinnabar Bricks from another player (2 players) |
+| **Red on White** | Biomes | · | Be killed by another player in a snowy biome 15 times (2 players) |
+| **Red Rock Relay** | Nether | · | Hand another player a full stack of Netherrack 12 times (2 players) |
 | **Redundant Lungs** | Biomes | · | Be splashed with Water Breathing by another player while a Conduit is already keeping you breathing (2 players) |
+| **Reef Courier** | Biomes | · | Catch 25 Sea Pickles thrown to you by another player in a warm ocean (2 players) |
+| **Reef Exchequer** | Biomes | ★ | Catch 1,000 Sea Pickles thrown to you by another player in a warm ocean (2 players) |
 | **Reef Raiders** | Biomes | · | Kill another player underwater over the coral of a warm ocean (2 players) |
 | **Regicide** | The End | ◆ | Kill another player who is holding the Dragon Egg (2 players) |
+| **Registrar of the Herd** | Animals | ◆ | Take 280 Name Tags from another player's hand (2 players) |
+| **Reign of Terror** | Statistics | ◆ | Kill 250 other players (2 players) |
+| **Relay Leg** | Potions | · | Be given Speed by another player 70 times (2 players) |
 | **Release the Hounds** | Animals | · | Have your tamed Wolves finish off another player (2 players) |
+| **Reliquary of Rot** | Monsters | ★ | Gather 5000 thrown heads into one unspeakable shrine (2 players) |
 | **Removals Firm** | The End | ◆ | Hand another player a Shulker Box packed with nothing but a full stack of Diamonds in its first slot (2 players) |
 | **Repair Job** | Enchanting | ◆ | Wear a Pickaxe down to its last few uses, hand it to another player, and get one back with its edge restored (2 players) |
+| **Repeat Business** | Redstone | · | Throw 48 Redstone Repeaters for another player to pick up (2 players) |
+| **Repeat Offering** | The End | ◆ | Be killed by another player in the End 75 times (2 players) |
+| **Repeat Prescription** | Redstone | · | Be given Speed by another player's brew 28 times (2 players) |
+| **Repeater Magnate** | Redstone | ★ | Throw 2,400 Redstone Repeaters for another player to pick up (2 players) |
+| **Repeating History** | Weaponry | ◆ | Hit other players 500 times with Crossbow bolts (2 players) |
 | **Required Reading** | Building | · | Take a signed Written Book off another player and set it out on a Lectern (2 players) |
+| **Requisition Approved** | Statistics | · | Take 40 weapons or shields thrown to you by another player (2 players) |
 | **Reservoir Dogs** | Animals | ◆ | Set your tamed Wolf on another player's tamed Wolf and win (2 players) |
 | **Resin Relay** | Biomes | · | Take Resin Bricks from another player inside a Pale Garden (2 players) |
+| **Resonant Trade** | Mining | ◆ | Pick up Amethyst Shards thrown to you by another player 150 times (2 players) |
+| **Respawn Infrastructure** | Nether | ◆ | Take Crying Obsidian from another player in the Nether 3,200 times (2 players) |
+| **Respawn Regular** | Statistics | · | Be killed by another player 5 times (2 players) |
+| **Respawn Somewhere Else** | Nether | · | Be killed by another player in the Nether 5 times (2 players) |
 | **Rest In Pieces** | Weaponry | · | Cut another player down in melee, then plant a Wither Rose in their memory (2 players) |
+| **Restock The Fog** | Potions | · | Pick up 30 Lingering Potions thrown to you by another player (2 players) |
 | **Resurrection Committee** | The End | ◆ | Bring the Ender Dragon back with four End Crystals another player handed you (2 players) |
+| **Resurrectionist** | Potions | ★ | Be given Regeneration by another player 4,200 times (2 players) |
+| **Retaliation Engine** | Enchanting | ◆ | Be struck by another player 1,450 times while wearing a Thorns chestplate (2 players) |
 | **Return Fire** | Weaponry | · | Take an arrow from another player and put one straight back into them (2 players) |
 | **Reunion** | Adventure | ◆ | Meet another player after you have each spent ten minutes with nobody within 5,000 blocks (2 players) |
+| **Riddled Above the Abyss** | The End | ★ | Be hit by another player's projectile in the End 3,400 times (2 players) |
+| **Ride Share** | Redstone | · | Pick up 20 Minecarts of any kind dropped for you by another player (2 players) |
 | **Riding Shotgun** | Weaponry | ◆ | Land a Spear charge attack on a hostile monster from the back hump of a Camel another player is driving (2 players) |
 | **Riding Two Deep** | Nether | ★ | Catch Crying Obsidian thrown from forty blocks away while sharing one Boat with another player (3 players) |
 | **Riptide Rampage** | Enchanting | ◆ | Riptide-launch yourself into another player and kill them with the Trident on the way through (2 players) |
+| **Riptide Rivalry** | Weaponry | ◆ | Skewer other players 250 times with a thrown Trident (2 players) |
+| **Roast Dynasty** | Farming | ★ | Hand another player Cooked Meat 4,000 times (2 players) |
 | **Rocket Man** | The End | ◆ | Pass a Firework Rocket to another player while you are both gliding (2 players) |
+| **Rockfall Manners** | Biomes | · | Land 25 hits on another player above y=200 (2 players) |
 | **Rod of Retribution** | Weaponry | ◆ | Beat a Blaze to death with a Blaze Rod another player took off one of its kin (2 players) |
+| **Rod Ration** | Nether | · | Be handed a Blaze Rod inside a Nether Fortress 8 times (2 players) |
 | **Rod Runner** | Nether | · | Take Blaze Rods from another player inside the Nether Fortress you are raiding together (2 players) |
 | **Rod Shipment** | The End | ◆ | Hand another player sixteen End Rods (2 players) |
+| **Rolling Together** | Redstone | ◆ | Pick up 90 Minecarts of any kind dropped for you by another player (2 players) |
 | **Roman Candle** | Weaponry | ◆ | Hit another player with a Firework Rocket fired from a Crossbow (2 players) |
+| **Roofing Detail** | Building | · | Hand another player 4 or more Copper blocks 5 times (2 players) |
 | **Room Service** | Building | · | Sleep in a bed, then eat a meal another player brings up to you (2 players) |
+| **Rope Burn** | Animals | · | Take 70 Leads from another player's hand (2 players) |
 | **Rope-a-Dope** | Weaponry | ◆ | Block twenty hits from another player with your shield without landing a single hit of your own (2 players) |
 | **Rose Window** | Building | ★ | Be handed all sixteen colours of Stained Glass Pane by other players and set one in a wall (2 players) |
+| **Rotten Rations** | Monsters | · | Take 10 helpings of rotten flesh thrown by another player (2 players) |
+| **Rough Ride** | Redstone | · | Land 40 hits on another player while they ride a Minecart (2 players) |
 | **Rough Trade** | Building | ◆ | Take Tuff, Polished Tuff, Tuff Bricks and Chiseled Tuff from another player (2 players) |
+| **Rubble Runner** | Nether | · | Hand another player a full stack of Netherrack 5 times (2 players) |
 | **Run It Into the Ground** | Mining | · | Take a Shovel off another player and dig with it until it snaps (2 players) |
 | **Runaway Train** | Redstone | ◆ | Take a TNT blast another player set off while you are riding a Minecart (2 players) |
 | **Running Battle** | Biomes | · | Kill another player out on the open savanna while you are both sprinting (2 players) |
+| **Rust Belt Revival** | Mining | ◆ | Pick up Iron Ingots thrown to you by another player 1,750 times (2 players) |
+| **Rustle in the Leaves** | Biomes | · | Take 10 hits from another player in a jungle (2 players) |
 | **Saddle Sore** | Animals | ◆ | Kill another player out of the saddle of their own Horse (2 players) |
+| **Saddle Up, Partner** | Animals | · | Hand 4 Saddles to other players (2 players) |
+| **Saddles for Everyone** | Animals | ★ | Hand 1,500 Saddles to other players (2 players) |
+| **Safety Briefing** | Building | · | Catch Slow Falling from a potion another player threw 2 times (2 players) |
+| **Sagittarius Ascending** | Weaponry | ★ | Kill 4,000 players with arrows loosed from a Bow (2 players) |
 | **Salt in the Wound** | Potions | · | Take a hit from another player while you are already Poisoned (2 players) |
+| **Salted Water** | Weaponry | · | Skewer other players 10 times with a thrown Trident (2 players) |
 | **Salvage Rights** | Biomes | · | Hand another player a Heart of the Sea while you are both underwater (2 players) |
+| **Sand Drinks It All** | Biomes | ★ | Kill 1,500 players in a desert (2 players) |
 | **Sand to Glass** | Building | · | Hand another player Sand, take the smelted Glass back, and build with it (2 players) |
+| **Sand, Fire, Clarity** | Building | · | Be handed 32 or more Glass by another player 3 times (2 players) |
 | **Sandbagging** | Building | · | Hand another player Sandstone and take Red Sandstone back (2 players) |
+| **Sandstone Pharaohs** | Building | ★ | Hand another player 32 or more Sandstone 4,600 times (2 players) |
+| **Sandstorm Standoff** | Biomes | · | Kill 15 players in a desert (2 players) |
+| **Sapped** | Potions | · | Be given Weakness by another player 16 times (2 players) |
+| **Sapper's Assistant** | Monsters | ◆ | Keep a teammate's blasting supplied with 100 charges (2 players) |
+| **Saturation Bombing** | Potions | ◆ | Hurt another player with a thrown Splash Potion 850 times (2 players) |
 | **Sawmill Shift** | Building | · | Take Logs from another player and hand back the Planks you cut out of them (2 players) |
+| **Scaffold Buddy** | Building | · | Catch Slow Falling from a potion another player threw 12 times (2 players) |
 | **Scaffold Crew** | Biomes | ◆ | Be handed Scaffolding by another player and run it up past Y=150 (2 players) |
 | **Scale Model** | Nether | ◆ | Stand together in the Nether, then come out of two Overworld portals more than 800 blocks apart (2 players) |
+| **Scar Tissue and Soot** | Nether | ◆ | Take 1,800 hits from other players in the Nether (2 players) |
+| **Scattering the Sack** | Farming | · | Hand another player Seeds 25 times (2 players) |
 | **Schadenfreude** | Adventure | · | Watch another player burn through a Spyglass from at least twenty blocks away (2 players) |
 | **Scrap Merchant** | Nether | · | Hand another player four Netherite Scrap in one go (2 players) |
+| **Scrap Sharing** | Mining | · | Pick up Netherite Scrap thrown to you by another player 3 times (2 players) |
 | **Sculk Silence** | Biomes | ★ | Have three players survive two minutes together in the Deep Dark with no Warden (3 players) |
+| **Sculk Smuggler** | Biomes | ◆ | Catch 1,000 Echo Shards thrown to you by another player in the Deep Dark (2 players) |
+| **Sculk-Adjacent Real Estate** | Building | ◆ | Hand another player 32 or more Deepslate blocks 340 times (2 players) |
 | **Scuttled** | Biomes | · | Kill another player who is sitting in a Boat (2 players) |
 | **Sea Legs** | Biomes | · | Stand on the roof of a Boat another player is sailing for two hundred blocks (2 players) |
+| **Sea-Given Breath** | Potions | ★ | Be given Water Breathing by another player 9,000 times (2 players) |
 | **Sealed Suit** | Enchanting | ◆ | Hand another player all four armour pieces cursed with Curse of Binding (2 players) |
 | **Sealed With Wax** | Mining | · | Take a Copper Block from another player and seal it with Honeycomb (2 players) |
+| **Seaweed Snack** | Farming | · | Be handed Kelp or Sea Pickles by another player 10 times (2 players) |
 | **Second Breakfast** | Farming | · | Be handed Bread and a Baked Potato by another player and eat both (2 players) |
 | **Second Draw** | Weaponry | · | Shoot a monster dead with a Bow another player put in your hands (2 players) |
 | **Second Helping** | The End | · | Throw a Chorus Fruit to a player who is levitating from a Shulker (2 players) |
+| **Second Helpings** | Farming | · | Be served a Stew or Soup by another player 75 times (2 players) |
 | **Second Home** | Nether | · | Place a Respawn Anchor another player crafted and threw to you (2 players) |
 | **Second Opinion** | Potions | · | Be given Regeneration by another player while Poison is still running through you (2 players) |
+| **Second Pair** | The End | · | Hand an Elytra to another player standing in the End 5 times (2 players) |
+| **Second Pair of Eyes** | Redstone | · | Pick up 4 Observers dropped for you by another player (2 players) |
 | **Second Set of Eyes** | Mining | · | Scout ahead through a Spyglass that another player handed you (2 players) |
+| **Second Sight** | Mining | · | Gain Night Vision from another player's potion 6 times (2 players) |
 | **Second Wind** | Weaponry | ★ | Burn a Totem of Undying, then kill another player while still under five hearts and the totem's glow (2 players) |
+| **Second-Hand Brew** | Adventure | · | Gain 20 effects from another player's potions (2 players) |
+| **Second-Hand Cartographer** | Adventure | ◆ | Be handed 50 maps by another player (2 players) |
 | **Second-Hand Knowledge** | Enchanting | ◆ | Take an Enchanted Book from another player and end up with an enchanted tool (2 players) |
+| **Second-Hand Supper** | Monsters | · | Collect 50 lots of flesh nobody else wanted (2 players) |
 | **Second-Hand Venom** | Potions | ◆ | Hand a Poisonous Potato to a player who is already Poisoned (2 players) |
 | **Secret Handshake** | Weaponry | · | Trade bare-fisted blows with another player: land one and take one back (2 players) |
 | **Secret Santa** | Adventure | ◆ | Four players in one place swapping items within ten seconds (4 players) |
 | **Seed Exchange** | Farming | ◆ | Trade ancient seeds with another player: hand a Sniffer seed over and be handed one back (2 players) |
+| **Seed Money** | Farming | · | Hand another player Seeds 4 times (2 players) |
+| **Seeds of an Empire** | Farming | ★ | Hand another player Seeds 6,400 times (2 players) |
+| **Seeing for Two** | Mining | ★ | Gain Night Vision from another player's potion 6,500 times (2 players) |
+| **Self-Healing Supply Chain** | Enchanting | ★ | Take 900 items enchanted with Mending from another player's hand (2 players) |
+| **Sent Home Early** | The End | · | Be killed by another player in the End 3 times (2 players) |
 | **Serial Offender** | Statistics | ◆ | Kill fifty other players (2 players) |
+| **Set and Cured** | Building | · | Be handed 16 or more Concrete by another player 2 times (2 players) |
 | **Setting Agent** | Building | · | Hand another player Concrete Powder and take the set Concrete back (2 players) |
+| **Shard in the Silence** | Biomes | · | Catch 25 Echo Shards thrown to you by another player in the Deep Dark (2 players) |
+| **Shard Share** | Mining | · | Pick up Amethyst Shards thrown to you by another player 4 times (2 players) |
+| **Shards from Below** | Adventure | · | Be handed 30 Echo Shards by another player (2 players) |
+| **Sharecropper** | Farming | · | Hand another player Seeds 60 times (2 players) |
 | **Shared Custody** | Animals | · | Feed an animal that another player named with a Name Tag (2 players) |
 | **Shared Locker** | The End | · | Be handed an Ender Chest by another player, the one box they can never look inside (2 players) |
+| **Shared Lungs** | Potions | · | Be given Water Breathing by another player 5 times (2 players) |
 | **Shared Misery** | Potions | ◆ | Carry Poison, Slowness and Weakness all at once, the last of them splashed onto you by another player (2 players) |
+| **Sharing a Light** | Mining | · | Pick up Coal or Charcoal thrown to you by another player 4 times (2 players) |
 | **Sharpened Elsewhere** | Enchanting | · | Take a Sword enchanted with Sharpness V from another player (2 players) |
 | **Sharpshooter Surgeon** | Potions | · | Patch a teammate up by shooting them with an Arrow of Healing (2 players) |
+| **Shatter Radius** | Potions | · | Hurt another player with a thrown Splash Potion 12 times (2 players) |
+| **Shear Volume** | Building | ★ | Be handed 16 or more Wool or Carpet by another player 2,600 times (2 players) |
 | **Shell Bank** | The End | · | Be handed a Shulker Shell by another player in the Overworld (2 players) |
 | **Shell Company** | The End | ◆ | Hand another player thirty-two Shulker Shells in one throw (2 players) |
 | **Shell Consignment** | Biomes | · | Hand another player eight Nautilus Shells at once (2 players) |
 | **Shell Delivery** | The End | · | Be handed a Shulker Shell by another player inside an End City (2 players) |
+| **Shell Game** | Animals | ◆ | Hand Eggs to other players 450 times (2 players) |
 | **Shell Out** | The End | · | Hand another player eight Shulker Shells at once (2 players) |
 | **Shell Shock** | Potions | · | Be locked down by another player's Splash Potion of the Turtle Master (2 players) |
 | **Shell Shocked** | Potions | ◆ | Kill another player who is hiding behind a Potion of the Turtle Master (2 players) |
 | **Sherd Swap** | Adventure | · | Swap Pottery Sherds with another player (2 players) |
+| **Sherpa Work** | Biomes | · | Catch 25 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) |
+| **Shield Splinterer** | Statistics | · | Land 25 axe hits on other players (2 players) |
 | **Shield Wall** | Weaponry | ◆ | Three players within eight blocks all block a hit with their shields at once (3 players) |
+| **Shieldwall Apprentice** | Weaponry | · | Block 50 attacks from other players with your Shield (2 players) |
+| **Shiny for Now** | Building | · | Hand another player 4 or more Copper blocks 2 times (2 players) |
+| **Shockwave Survivor** | Monsters | ◆ | Absorb 100 blasts lit by the players beside you (2 players) |
+| **Short Order** | Farming | · | Hand another player Cooked Meat 30 times (2 players) |
 | **Shot Down** | Weaponry | ◆ | Be knocked out of an Elytra glide by another player's arrow (2 players) |
 | **Shot from the Saddle** | Super Challenges | ★★ | Land an Arrow, a Trident, a Firework Rocket and a Spear charge on a third player, every one of them from the back hump of a Camel another player is driving (3 players) |
+| **Shot Out of the Sky** | The End | ◆ | Be hit by another player's projectile in the End 70 times (2 players) |
+| **Shove Off** | Redstone | · | Throw 6 Pistons or Sticky Pistons for another player to pick up (2 players) |
+| **Shovelled Their Way** | Nether | · | Hand another player a full stack of Netherrack 30 times (2 players) |
+| **Show Jumping** | Animals | · | Be given Jump Boost by another player 30 times while in the saddle (2 players) |
 | **Shroom Service** | Nether | · | Place a Shroomlight another player cut down for you (2 players) |
+| **Shulker Salvage Union** | The End | ★ | Be handed 1,200 Shulker Shells by other players in the End (2 players) |
+| **Siege Mentality** | Weaponry | ◆ | Hit other players 250 times with Crossbow bolts (2 players) |
+| **Siege Strength** | Potions | ◆ | Be given Strength by another player 280 times (2 players) |
+| **Sightgiver** | Potions | ★ | Be given Night Vision by another player 2,000 times (2 players) |
+| **Sighting In** | Redstone | · | Take 11 projectile hits from another player standing at least three blocks away (2 players) |
+| **Signal Auditor** | Redstone | ◆ | Pick up 210 Redstone Comparators dropped for you by another player (2 players) |
 | **Signal Boost** | Redstone | ◆ | Two players place thirty Repeaters each, side by side, inside one minute (2 players) |
+| **Signal Corps** | Adventure | ◆ | Hand another player 40 Goat Horns (2 players) |
+| **Signal Relay Station** | Redstone | ◆ | Throw 500 Redstone Repeaters for another player to pick up (2 players) |
+| **Signal Supply** | Redstone | ◆ | Pick up 128 Redstone Dust dropped for you by another player (2 players) |
+| **Signed For** | Potions | · | Pick up 5 Lingering Potions thrown to you by another player (2 players) |
+| **Signed Out of Stores** | Enchanting | · | Take 85 armour pieces enchanted with Protection IV from another player's hand (2 players) |
 | **Silent Duel** | Mining | ◆ | Kill another player in the Deep Dark while neither of you is under the Darkness a Shrieker inflicts (2 players) |
 | **Silent Partner** | Adventure | ◆ | Take the Silence Armour Trim off another player inside an Ancient City (2 players) |
+| **Silk Dynasty** | Monsters | ★ | Build an empire on 2500 spider drops other players threw down (2 players) |
+| **Silk Handshake** | Monsters | · | Receive 50 spider drops passed to you by hand (2 players) |
 | **Silk Road** | Enchanting | · | Take a Silk Touch Pickaxe out of another player's hands (2 players) |
 | **Silk Trap** | Potions | · | Web another player up with a Tipped Arrow of Weaving (2 players) |
 | **Singin' in the Rain** | Weaponry | · | Get killed by another player while the rain is coming down (2 players) |
+| **Site Safety Officer** | Building | ◆ | Catch Slow Falling from a potion another player threw 65 times (2 players) |
+| **Sixteen Bales Deep** | Building | ◆ | Be handed 16 or more Wool or Carpet by another player 520 times (2 players) |
 | **Sixteen Shades** | Super Challenges | ★★ | Take a full stack of all sixteen colours of Concrete from other players (2 players) |
+| **Sixteen Shades of Site** | Building | ◆ | Be handed 16 or more Concrete by another player 150 times (2 players) |
+| **Sixteen Tons** | Mining | ◆ | Take a bundle of 16 or more Raw Copper from another player 1,400 times (2 players) |
 | **Sixty Below** | Mining | ◆ | Kill another player at the very bottom of the world, both of you below Y=-60 (2 players) |
+| **Skeletal Sparring** | Monsters | ◆ | Trade 100 bone-handed blows with a fellow player (2 players) |
 | **Skewered** | Weaponry | ◆ | Kill another player with a thrown Trident (2 players) |
+| **Skid Road** | Building | · | Be handed 16 or more Logs by another player 18 times (2 players) |
+| **Skin in the Game** | Animals | ★ | Take Leather or Rabbit Hide from another player's hand 2,600 times (2 players) |
+| **Skull Courier** | Monsters | · | Take delivery of 25 severed heads flung by a teammate (2 players) |
 | **Skull Session** | Nether | ★ | Summon the Wither with a Wither Skeleton Skull another player pulled out of the Nether for you (2 players) |
 | **Sky Clinic** | The End | ◆ | Be given Regeneration by another player while you are gliding on Elytra (2 players) |
 | **Sky Freight** | The End | · | Catch a Shulker Shell thrown by another player above Y=100 in the End (2 players) |
+| **Sky Full Of Corks** | Potions | ★ | Hurt another player with a thrown Splash Potion 4,200 times (2 players) |
 | **Sky Lance** | Nether | ★ | Hit another player with a thrown Trident while you are both aboard Happy Ghasts (2 players) |
+| **Skyfall Hammer** | Weaponry | ◆ | Land 100 Mace blows on other players (2 players) |
+| **Slack in the Line** | Animals | · | Take 5 Leads from another player's hand (2 players) |
+| **Slag and Sweat** | Mining | ★ | Take a bundle of 16 or more Raw Copper from another player 3,200 times (2 players) |
 | **Slate Exchange** | Building | ★ | Take a full stack of every form of Deepslate from other players (2 players) |
+| **Sleepers and Steel** | Redstone | · | Throw 8 Rails of any kind for another player to pick up (2 players) |
+| **Slime and Punishment** | Redstone | · | Throw 25 Pistons or Sticky Pistons for another player to pick up (2 players) |
 | **Slime Courier** | Potions | · | Be dosed with Oozing by another player while you are standing on a Slime Block (2 players) |
+| **Slime Tithe** | Biomes | · | Hand 25 Slimeballs to another player standing in a swamp (2 players) |
+| **Slip and Sheen** | Building | ◆ | Hand another player 8 or more Terracotta 66 times (2 players) |
+| **Slipstream** | Potions | · | Be given Speed by another player 12 times (2 players) |
+| **Slow Green Death** | Potions | ◆ | Be Poisoned by another player 600 times (2 players) |
 | **Slow Roast** | Enchanting | ◆ | Kill another player with a Fire Aspect Sword while they are already burning (2 players) |
 | **Smelter's Cut** | Nether | · | Hand Netherite Scrap you smelted yourself to another player (2 players) |
+| **Smelter's Union** | Mining | · | Pick up Iron Ingots thrown to you by another player 150 times (2 players) |
+| **Smith of Shared Design** | Adventure | ★ | Be handed 1,500 Smithing Templates by another player (2 players) |
+| **Smithing Circle** | Mining | ◆ | Pick up Netherite Scrap thrown to you by another player 700 times (2 players) |
+| **Smooth as the Wind Left It** | Building | · | Hand another player 32 or more Sandstone 33 times (2 players) |
 | **Smooth Operation** | Building | ◆ | Hand another player Stone, Sandstone and Quartz Blocks and take the smooth versions back (2 players) |
+| **Sniper of the Overworld** | Statistics | ★ | Kill 600 other players with an arrow from at least 8 blocks away (2 players) |
 | **Sniper's Pharmacy** | Potions | ★ | Take Regeneration, Poison, Slowness, Weakness and Speed off a player standing at least twenty-five blocks away each time (2 players) |
 | **Snipped** | Weaponry | · | Kill another player with a pair of Shears (2 players) |
+| **Snout Economy** | Nether | ◆ | Hand another player four or more Gold Ingots in the Nether 200 times (2 players) |
 | **Snout to Snout** | Nether | ◆ | Take a Snout Armour Trim from another player inside the Bastion Remnant it came out of (2 players) |
+| **Snow Falls On You Again** | Biomes | ★ | Be killed by another player in a snowy biome 8,000 times (2 players) |
 | **Snowball War** | Weaponry | ◆ | Hit three different players with snowballs within ten seconds (3 players) |
+| **Snowfall of Petals** | Biomes | ◆ | Catch 1,200 Pink Petals thrown to you in a Cherry Grove (2 players) |
+| **Soaked the First Blow** | Nether | · | Take 20 hits from other players in the Nether (2 players) |
 | **Soft Landing** | The End | ◆ | Pick up Slow Falling in the End from a Lingering Potion another player threw (2 players) |
+| **Soft Touch Delivery** | Enchanting | · | Hand another player 5 tools enchanted with Silk Touch (2 players) |
+| **Softly, Softly** | The End | · | Pick up Slow Falling from another player's potion in the End 8 times (2 players) |
 | **Solar Partnership** | Redstone | ◆ | Place a Daylight Detector built from Quartz another player brought back (2 players) |
+| **Sole Supplier of Softwood** | Building | ★ | Hand another player a full stack of Planks 3,400 times (2 players) |
 | **Sole Traders** | Enchanting | · | Hand another player Feather Falling IV boots and take Depth Strider III boots in return (2 players) |
+| **Solid Gold Supper** | Farming | ◆ | Be handed Golden Food by another player 600 times (2 players) |
+| **Someone Braved the Dark** | Adventure | · | Be handed 5 Echo Shards by another player (2 players) |
+| **Someone Else's Brew** | Nether | · | Take Fire Resistance from another player's brew 8 times in the Nether (2 players) |
+| **Someone Else's Eyes** | Mining | · | Gain Night Vision from another player's potion 15 times (2 players) |
+| **Someone Else's Ink** | Adventure | · | Be handed 5 maps by another player (2 players) |
+| **Someone Else's Insurance** | Potions | · | Be given Fire Resistance by another player 6 times (2 players) |
+| **Someone Else's Library** | Enchanting | ◆ | Take 750 Enchanted Books from another player's hand (2 players) |
 | **Someone Else's Masterpiece** | Enchanting | ★ | Take a Pickaxe carrying Efficiency V, Fortune III, Unbreaking III and Mending off another player (2 players) |
+| **Someone Else's Oxygen** | Biomes | · | Be given Water Breathing by another player 60 times while underwater (2 players) |
+| **Someone Else's Plating** | Enchanting | · | Take 8 armour pieces enchanted with Protection IV from another player's hand (2 players) |
+| **Someone Else's Prescription** | Statistics | · | Receive 60 potion effects from other players (2 players) |
+| **Someone Else's Trophy** | The End | ◆ | Be killed by another player in the End 340 times (2 players) |
+| **Someone Packed for You** | Adventure | · | Be handed 8 Bundles by another player (2 players) |
+| **Someone Splashed You** | Adventure | · | Gain 3 effects from another player's potions (2 players) |
+| **Someone Threw Kindness** | The End | · | Pick up Slow Falling from another player's potion in the End 18 times (2 players) |
+| **Something in the Canopy** | Biomes | · | Take 25 hits from another player in a jungle (2 players) |
+| **Something Is Watching** | Biomes | · | Pass 10 Eyeblossoms to another player in a Pale Garden (2 players) |
+| **Somewhere to Respawn** | Nether | · | Take Crying Obsidian from another player in the Nether 40 times (2 players) |
+| **Sommelier of Suffering** | Monsters | ★ | Drink in 5000 doses of poison from other players' potions (2 players) |
+| **Sonic Courier** | Potions | ◆ | Be given Speed by another player 950 times (2 players) |
+| **Soot Brothers** | Mining | ★ | Pick up Coal or Charcoal thrown to you by another player 2,200 times (2 players) |
+| **Sorrow, Airmailed** | Nether | ◆ | Lob a Ghast Tear across five blocks to another player 250 times (2 players) |
 | **Soul Debt** | Nether | · | Kill another player out in a Soul Sand Valley (2 players) |
 | **Soul Searching** | Nether | · | Kill another player with a Sword while you are both standing on Soul Sand (2 players) |
 | **Soul Shoes** | Nether | · | Take Netherite Boots off another player and be seen wearing them (2 players) |
 | **Soul Shot** | Nether | · | Put an arrow into another player while they stand on Soul Sand (2 players) |
 | **Soul Sickness** | Nether | ◆ | Take Slowness from another player's brew while you are standing on Soul Sand (2 players) |
 | **Soul Trader** | Nether | · | Take both Soul Sand and Soul Soil out of another player's hands (2 players) |
+| **Sound Off, Friend** | Adventure | · | Hand another player 2 Goat Horns (2 players) |
 | **Soup Kitchen** | Farming | ◆ | Be handed food by another player while your hunger is down to three shanks, and eat it (2 players) |
+| **Soup Kitchen of the Damned** | Monsters | ★ | Receive 1000 portions of thrown rotten flesh (2 players) |
+| **Soup Run** | Farming | · | Be served a Stew or Soup by another player 5 times (2 players) |
+| **Sovereign of Second Thoughts** | Enchanting | ★ | Be struck by another player 12,500 times while wearing a Thorns chestplate (2 players) |
+| **Sovereign of Spent Experience** | Enchanting | ★ | Take 7,000 Bottles o' Enchanting from another player's hand (2 players) |
+| **Sovereign of the Cherry Grove** | Biomes | ★ | Catch 40,000 Pink Petals thrown to you in a Cherry Grove (2 players) |
+| **Sow and Tell** | Farming | · | Hand another player Seeds 10 times (2 players) |
+| **Sowing Circle** | Farming | ◆ | Hand another player Seeds 150 times (2 players) |
 | **Spare Arm** | Weaponry | · | Take a Sword from another player and fight with one in each hand (2 players) |
+| **Spare Cart** | Redstone | · | Pick up 4 Minecarts of any kind dropped for you by another player (2 players) |
 | **Spare Set** | The End | · | Be handed an Elytra by another player who is gliding past on their own wings (2 players) |
 | **Spare Wings** | The End | · | Hand another player an Elytra while you are gliding on one yourself (2 players) |
+| **Sparkler Swap** | Mining | · | Pick up Diamonds thrown to you by another player 35 times (2 players) |
+| **Sparks Passed Along** | Nether | · | Be handed a Blaze Rod inside a Nether Fortress 20 times (2 players) |
+| **Sparring in the Smoke** | Nether | · | Land 60 melee hits on other players in the Nether (2 players) |
+| **Sparring on End Stone** | The End | · | Land 30 melee blows on other players in the End (2 players) |
 | **Sparring Partner** | Weaponry | ★ | Take ten hearts off another player with one swing, no Mace and no Spear charge (2 players) |
 | **Sparring Partners** | Statistics | ★ | Trade a hundred hits with another player without either of you dying (2 players) |
 | **Spear Carrier** | Weaponry | · | Kill a mob with a Spear another player handed you (2 players) |
 | **Spear Joust** | Weaponry | ★ | Land a Spear charge attack on another player while both of you are riding Horses (2 players) |
 | **Special Delivery** | Redstone | ◆ | Drop a parcel on the line and have a teammate scoop it up from a rolling Minecart eight blocks away (2 players) |
 | **Spike Strip** | Biomes | · | Kill another player among the spires of an Ice Spikes biome (2 players) |
+| **Spinner's Apprentice** | Monsters | ◆ | Be given 100 pieces of a friend's spider harvest (2 players) |
+| **Spinning Wheel Economy** | Animals | · | Hand Wool to other players 260 times (2 players) |
+| **Splintered Boards** | Weaponry | · | Block 25 attacks from other players with your Shield (2 players) |
 | **Split Shift** | Mining | ◆ | Hand a full stack of sixty-four Iron Ingots straight into another player's hands (2 players) |
 | **Split the Party** | Adventure | ◆ | Have three players in three different dimensions at the same moment (3 players) |
 | **Split the Signal** | Redstone | · | Craft a Comparator out of Nether Quartz another player mined (2 players) |
 | **Split the Staircase** | Building | ◆ | Take Stairs of six different woods from other players (2 players) |
+| **Split the Vein** | Mining | ◆ | Pick up Diamonds thrown to you by another player 400 times (2 players) |
+| **Splitting Hairs** | Weaponry | · | Land 10 Axe blows on other players (2 players) |
+| **Splitting Practice** | Statistics | · | Land 10 axe hits on other players (2 players) |
+| **Splitting the Dig** | Adventure | · | Hand another player 20 Pottery Sherds (2 players) |
+| **Splitting the Vein** | Nether | · | Take Nether Quartz from another player's hand 10 times (2 players) |
+| **Sponsored by the Brewery** | Statistics | ★ | Receive 15,000 potion effects from other players (2 players) |
 | **Sponsored Ride** | Animals | ◆ | Ride a Horse wearing Diamond Horse Armour that another player put in your hands (2 players) |
 | **Spore War** | Biomes | · | Kill another player on a Mushroom Island, the one biome where no monster will interrupt (2 players) |
 | **Spread the Risk** | Enchanting | ◆ | Hand out four armour pieces, each carrying a different Protection enchantment (2 players) |
+| **Spring in the Step** | Animals | · | Be given Jump Boost by another player 5 times while in the saddle (2 players) |
+| **Spud Buddy** | Farming | · | Hand another player Root Vegetables 4 times (2 players) |
 | **Spud Trust** | Farming | · | Eat the Poisonous Potato another player handed you (2 players) |
 | **Squire** | Weaponry | · | Arm a kneeling teammate: hand a Sword and a Shield to another player while they crouch (2 players) |
+| **Stable Armory** | Animals | · | Hand Horse or Wolf Armor to other players 90 times (2 players) |
+| **Stacked and Strapped** | Building | · | Hand another player a full stack of Planks 5 times (2 players) |
 | **Stalactite Standoff** | Mining | · | Run another player through with a Spear in a Dripstone Cave (2 players) |
+| **Stand and Be Hit** | Enchanting | · | Be struck by another player 15 times while wearing a Thorns chestplate (2 players) |
+| **Standing in the Line of Fire** | Redstone | ★ | Take 1,300 projectile hits from another player standing at least three blocks away (2 players) |
+| **Standing Orders: Fire Res** | Nether | ◆ | Take Fire Resistance from another player's brew 300 times in the Nether (2 players) |
+| **Standing Too Close** | Monsters | · | Take 10 blasts meant for the monsters, not for you (2 players) |
 | **Star Broker** | Nether | ★ | Hand another player a Nether Star and be handed a finished Beacon back (2 players) |
 | **Star-Crossed** | Weaponry | · | Kill another player while holding a Nether Star (2 players) |
 | **Starter Kit** | Adventure | ◆ | Take a sword, a pickaxe and something to eat from other players within thirty seconds of dying (2 players) |
 | **Statuary Trade** | Mining | · | Be handed a Copper Golem Statue by another player and stand it up (2 players) |
+| **Steel Answers Steel** | Weaponry | · | Land 50 Sword blows on other players (2 players) |
+| **Steeplechase** | Animals | · | Be given Jump Boost by another player 70 times while in the saddle (2 players) |
 | **Stew Roulette** | Farming | · | Eat a Suspicious Stew another player cooked and served you (2 players) |
+| **Sticky Fingers, Willing Hands** | Biomes | ★ | Hand 10,000 Slimeballs to another player standing in a swamp (2 players) |
+| **Still Warm** | Building | · | Hand another player 8 or more Terracotta 5 times (2 players) |
 | **Sting Operation** | Animals | ◆ | Anger a beehive so that the bees kill another player (2 players) |
+| **Stirrup Service** | Animals | · | Hand 140 Saddles to other players (2 players) |
+| **Stitched Back Together** | Potions | ◆ | Be given Regeneration by another player 850 times (2 players) |
+| **Stocking the Reef** | Animals | ◆ | Take a Bucket of live catch from another player's hand 550 times (2 players) |
+| **Stockpot Saint** | Farming | ◆ | Be served a Stew or Soup by another player 700 times (2 players) |
+| **Stone from Above** | The End | ◆ | Pass Purpur to another player from inside an End City 220 times (2 players) |
 | **Stone Import** | The End | · | Be handed sixty-four End Stone by another player in the Overworld (2 players) |
 | **Stonewalled** | Building | ◆ | Be handed Stone Bricks, Mossy Stone Bricks, Cracked Stone Bricks and Chiseled Stone Bricks by another player (2 players) |
 | **Stop, Drop and Roll** | Potions | · | Put out a burning player with a Splash Water Bottle (2 players) |
 | **Storm Chasers** | Enchanting | ◆ | Riptide-launch within a second of another player and land within five blocks of them (2 players) |
+| **Storm Season** | Statistics | ◆ | Land 600 thrown-Trident hits on other players (2 players) |
 | **Strafing Run** | Weaponry | ★ | Kill another player with a Bow while you are gliding on an Elytra (2 players) |
+| **Straight from the Kiln** | Building | · | Hand another player 8 or more Terracotta 2 times (2 players) |
+| **Straight Through** | Weaponry | ◆ | Kill 100 players with arrows loosed from a Bow (2 players) |
+| **Strength Is A Gift** | Potions | ★ | Be given Strength by another player 7,500 times (2 players) |
 | **Strider Chauffeur** | Nether | · | Hand a Warped Fungus on a Stick to a player already sitting on a Strider (2 players) |
 | **Strider Rider** | Nether | ◆ | Kill another player who is riding a Strider (2 players) |
 | **Strider Service** | Nether | ◆ | Be splashed with Fire Resistance by another player while you are riding a Strider (2 players) |
+| **Strike Action** | Mining | ◆ | Hit another player while holding a Pickaxe 250 times (2 players) |
+| **Stripped and Shipped** | Enchanting | · | Hand another player 10 Grindstones or plain Books (2 players) |
 | **Stripped of Rank** | Weaponry | ★ | Kill another player in a full set of Netherite armour while wearing none of it yourself (2 players) |
 | **Stripped to the Studs** | Mining | ◆ | Wear a Diamond Chestplate down to nothing under another player's blows (2 players) |
 | **Stronghold Support** | The End | · | Be handed an Eye of Ender by another player inside a Stronghold (2 players) |
+| **Stuck Full of Feathers** | Monsters | · | Die 25 times to another player's aim (2 players) |
 | **Submarine Crew** | Biomes | ◆ | Three players riding three Nautiluses within fifteen blocks of each other (3 players) |
+| **Sugar Barons** | Farming | ★ | Hand another player Honey or Sugar 2,200 times (2 players) |
+| **Sulphur Syndicate** | Monsters | ★ | Supply 2500 loads of blasting powder to your crew (2 players) |
+| **Sultan of Stew** | Farming | ★ | Be served a Stew or Soup by another player 3,000 times (2 players) |
 | **Summit Duel** | Biomes | · | Kill another player with a Sword up on the Frozen Peaks (2 players) |
+| **Summit Logistics** | Biomes | ◆ | Catch 700 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) |
 | **Summit Meeting** | Biomes | ◆ | Kill another player on the Jagged Peaks above Y=200 (2 players) |
+| **Sun and Sand** | Biomes | · | Kill 5 players in a desert (2 players) |
+| **Supply Line to the Sky** | Biomes | ★ | Catch 10,000 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) |
 | **Surf and Turf** | Animals | · | Trade Steak for Cooked Cod with another player (2 players) |
+| **Surveillance State** | Redstone | ◆ | Pick up 500 Observers dropped for you by another player (2 players) |
+| **Survivor of the Undergrowth** | Biomes | ★ | Take 5,000 hits from another player in a jungle (2 players) |
 | **Sushi Bar** | Animals | · | Serve another player raw Cod, raw Salmon and a Tropical Fish (2 players) |
 | **Suspended Sentence** | The End | ★ | Kill another player while both of you are drifting under Levitation in the End (2 players) |
+| **Swamp Consortium** | Biomes | ◆ | Hand 750 Slimeballs to another player standing in a swamp (2 players) |
 | **Swap Meet** | Adventure | ◆ | Swap the whole stall with another player: hand over a Shulker Box, a Bundle and a Chest Minecart, and be handed all three back (2 players) |
 | **Sweet Deal** | Farming | · | Swap puddings with another player: hand over a Cake and take a Pumpkin Pie back (2 players) |
+| **Sweet Delivery** | Farming | ◆ | Hand another player a Cake, Pumpkin Pie or Cookie 180 times (2 players) |
 | **Sweet Tooth** | Farming | · | Eat a Cookie another player baked and handed to you (2 players) |
+| **Sweetener** | Farming | · | Hand another player Honey or Sugar 6 times (2 players) |
+| **Swing First, Mine Later** | Mining | ◆ | Hit another player while holding a Pickaxe 600 times (2 players) |
 | **Sword and Board** | Weaponry | ◆ | Take a Sword and a Shield off another player, then kill a monster holding both (2 players) |
+| **Sword Saint** | Statistics | ★ | Land 15,000 sword hits on other players (2 players) |
 | **Synchronised Swimming** | Biomes | · | Have four players all swimming at the same moment within six blocks of each other (4 players) |
 | **Table Scraps** | Weaponry | ◆ | Kill another player while they are still clutching their dinner (2 players) |
+| **Tack Room Duty** | Animals | · | Hand 10 Saddles to other players (2 players) |
 | **Tag Team** | The End | ◆ | Finish the Ender Dragon after at least two different players have wounded it (2 players) |
+| **Tag, You're It** | Animals | · | Take 20 Name Tags from another player's hand (2 players) |
 | **Tagged** | Weaponry | · | Light another player up with a Spectral Arrow so your whole team can see them (2 players) |
 | **Tail Gunner** | The End | ★ | Land the killing blow on the Ender Dragon from the passenger seat of a Happy Ghast another player is flying (2 players) |
 | **Tailor's Bill** | Adventure | ★ | Be handed armour trimmed with Gold, Diamond, Emerald and Amethyst by other players (2 players) |
 | **Tailored by Committee** | Super Challenges | ★★ | Be handed armour trimmed with every trim material by other players (2 players) |
 | **Tailwind Gift** | Potions | · | Be dosed with Wind Charging by another player while your feet are off the ground (2 players) |
 | **Taken for a Ride** | Animals | ◆ | Take a hit from another player while you are riding pillion behind a third (3 players) |
+| **Taking It on the Chin** | Statistics | · | Take 25 melee hits from other players (2 players) |
 | **Taking One For The Team** | Monsters | ◆ | Die beside a teammate who is down to half a heart, and have them live out the next minute (2 players) |
 | **Tangled Together** | Potions | · | Be dosed with Weaving by another player while you are stuck in a Cobweb (2 players) |
+| **Tank Transfer** | Animals | · | Take a Bucket of live catch from another player's hand 45 times (2 players) |
+| **Tanned Hide** | Animals | · | Take 15 hits from another player while dressed head to toe in Leather (2 players) |
+| **Tanner's Apprentice** | Animals | · | Take Leather or Rabbit Hide from another player's hand 8 times (2 players) |
+| **Tapestry Commission** | Building | ◆ | Be handed 16 or more Wool or Carpet by another player 230 times (2 players) |
+| **Target Practice, Apparently** | The End | · | Be hit by another player's projectile in the End 30 times (2 players) |
 | **Team Photo** | Adventure | · | Squeeze four players into a three-block radius (4 players) |
+| **Tearful Tribute** | Nether | ◆ | Lob a Ghast Tear across five blocks to another player 600 times (2 players) |
+| **Teleport Fuel** | The End | · | Take a handful of Chorus Fruit from another player in the End 25 times (2 players) |
+| **Teleport Tax** | Monsters | · | Pay 25 pearls out to the players who travel for you (2 players) |
 | **Template Trade** | Adventure | · | Hand another player an armour trim Smithing Template (2 players) |
+| **Temple Blueprint** | Building | ◆ | Hand another player 32 or more Sandstone 180 times (2 players) |
+| **Ten Men In One** | Potions | ★ | Be given Strength by another player 3,400 times (2 players) |
+| **Ten Thousand Cuts** | Weaponry | ★ | Land 2,500 Sword blows on other players (2 players) |
+| **Ten Thousand Edges** | Enchanting | ★ | Land 9,000 hits on another player with a sword enchanted with Sharpness (2 players) |
+| **Ten Thousand Gravestones** | Statistics | ★ | Kill 10,000 other players (2 players) |
+| **Ten Thousand Last Words** | Statistics | ★ | Be killed by another player 10,000 times (2 players) |
 | **Terminal Velocity** | Weaponry | ★ | Take twenty-five hearts off another player with a single Mace smash (2 players) |
+| **Terracotta Trade Route** | Building | ◆ | Hand another player 8 or more Terracotta 360 times (2 players) |
+| **Terraformed by Committee** | Nether | ◆ | Hand another player a full stack of Netherrack 1,000 times (2 players) |
+| **Terror of the Outer Isles** | The End | ◆ | Land 350 melee blows on other players in the End (2 players) |
 | **Thar She Blows** | Biomes | ◆ | Kill a Drowned with a thrown Trident from a boat another player is sharing with you (2 players) |
+| **The Alchemist's Diet** | Farming | ★ | Be handed Golden Food by another player 5,000 times (2 players) |
 | **The Amazing Race** | Statistics | ★ | Leave one spot with another player, both cover 5,000 blocks, and both be back inside a minute of each other (2 players) |
+| **The Anvil Run** | Enchanting | · | Hand another player 50 Anvils (2 players) |
+| **The Apiary Accord** | Farming | ◆ | Hand another player Honey or Sugar 1,000 times (2 players) |
+| **The Apothecary's Gift** | Monsters | · | Take 25 doses of poison thrown by another player (2 players) |
+| **The Aquarist's Round** | Animals | ◆ | Take a Bucket of live catch from another player's hand 250 times (2 players) |
+| **The Armoury Line** | Weaponry | ★ | Hand 1,000 pieces of armour to other players (2 players) |
+| **The Armoury Opens** | Statistics | · | Take 15 weapons or shields thrown to you by another player (2 players) |
+| **The Armoury Window** | Enchanting | · | Take 40 armour pieces enchanted with Protection IV from another player's hand (2 players) |
+| **The Attending Physician** | Potions | ◆ | Be given Regeneration by another player 160 times (2 players) |
+| **The Baker's Round** | Farming | · | Hand another player Bread 50 times (2 players) |
+| **The Bar Exchange** | Mining | · | Pick up Iron Ingots thrown to you by another player 60 times (2 players) |
+| **The Blade Never Rests** | Statistics | ★ | Land 6,000 sword hits on other players (2 players) |
+| **The Blue Exchequer** | Enchanting | ◆ | Hand another player 1,024 Lapis Lazuli (2 players) |
+| **The Bolt Foundry** | Weaponry | ◆ | Hit other players 1,000 times with Crossbow bolts (2 players) |
+| **The Bone Age** | Monsters | ★ | Reach 5000 hits on players with a bone in your fist (2 players) |
+| **The Borrowed Blueprint** | Adventure | · | Be handed 30 Smithing Templates by another player (2 players) |
+| **The Bottle Blitz** | Potions | ★ | Hurt another player with a thrown Splash Potion 1,900 times (2 players) |
+| **The Bottle Stipend** | Enchanting | · | Take 100 Bottles o' Enchanting from another player's hand (2 players) |
+| **The Bramble Fortress** | Enchanting | ★ | Be struck by another player 6,200 times while wearing a Thorns chestplate (2 players) |
+| **The Breathing Circle** | Biomes | ◆ | Be given Water Breathing by another player 150 times while underwater (2 players) |
+| **The Brilliant Cut** | Mining | ◆ | Pick up Diamonds thrown to you by another player 175 times (2 players) |
+| **The Buff Line** | Statistics | ◆ | Receive 150 potion effects from other players (2 players) |
+| **The Butcher's Bill** | Nether | ★ | Kill 7,000 players in the Nether (2 players) |
+| **The Cactus Doctrine** | Enchanting | ◆ | Be struck by another player 700 times while wearing a Thorns chestplate (2 players) |
+| **The Canopy Has Eyes** | Biomes | ◆ | Take 350 hits from another player in a jungle (2 players) |
+| **The Cart Pool** | Redstone | ◆ | Pick up 200 Minecarts of any kind dropped for you by another player (2 players) |
+| **The Carvery** | Farming | ◆ | Hand another player Cooked Meat 900 times (2 players) |
 | **The Chorus Chain** | The End | ★ | Be handed a Chorus Fruit by another player while gliding, while levitating, and while falling below Y=0 in the End (2 players) |
+| **The Chorus Grocer** | The End | ◆ | Take a handful of Chorus Fruit from another player in the End 600 times (2 players) |
+| **The Circulation Desk** | Enchanting | ◆ | Take 375 Enchanted Books from another player's hand (2 players) |
+| **The Cloud We Stand In** | Adventure | ★ | Gain 2,800 effects from another player's potions (2 players) |
+| **The Combat Medic** | Weaponry | ◆ | Be dosed with Strength by another player 100 times (2 players) |
+| **The Communal Kit** | Adventure | ◆ | Be handed 300 Bundles by another player (2 players) |
+| **The Concrete Jungle** | Building | ★ | Be handed 16 or more Concrete by another player 1,800 times (2 players) |
+| **The Coop Run** | Animals | · | Hand Eggs to other players 200 times (2 players) |
+| **The Copper Cartel** | Mining | ★ | Pick up Copper Ingots thrown to you by another player 3,000 times (2 players) |
+| **The Copper Conduit** | Mining | ◆ | Pick up Copper Ingots thrown to you by another player 250 times (2 players) |
+| **The Cornerman** | Potions | · | Be given Strength by another player 50 times (2 players) |
 | **The Cousteau Manoeuvre** | Biomes | ◆ | Ride Nautiluses forty blocks through an Ocean Monument with another player, neither surfacing nor dismounting (2 players) |
+| **The Crystal Ledger** | Mining | ★ | Pick up Amethyst Shards thrown to you by another player 4,500 times (2 players) |
+| **The Crystal Palace** | Building | ★ | Be handed 32 or more Glass by another player 5,500 times (2 players) |
+| **The Dark Has No Corners** | Potions | ★ | Be given Night Vision by another player 4,500 times (2 players) |
+| **The Deep Cellar** | Farming | ★ | Hand another player Root Vegetables 1,500 times (2 players) |
+| **The Deep Dark Keeps Ledgers** | Biomes | ★ | Catch 15,000 Echo Shards thrown to you by another player in the Deep Dark (2 players) |
+| **The Deep Order** | Building | ◆ | Hand another player 32 or more Deepslate blocks 65 times (2 players) |
+| **The Delay Line** | Redstone | ◆ | Throw 230 Redstone Repeaters for another player to pick up (2 players) |
+| **The Desert Remembers You** | Biomes | ★ | Kill 8,000 players in a desert (2 players) |
+| **The Dessert Cart** | Farming | · | Hand another player a Cake, Pumpkin Pie or Cookie 30 times (2 players) |
+| **The Diamond Trust** | Mining | ★ | Pick up Diamonds thrown to you by another player 2,000 times (2 players) |
+| **The Disenchantment Desk** | Enchanting | · | Hand another player 22 Grindstones or plain Books (2 players) |
+| **The Dive Master** | Potions | · | Be given Water Breathing by another player 28 times (2 players) |
+| **The Divided Urn** | Adventure | · | Hand another player 50 Pottery Sherds (2 players) |
+| **The Dragon Exhales for All** | The End | ★ | Be handed Dragon's Breath or a Lingering Potion in the End 5,000 times (2 players) |
+| **The Dragon's Courier** | Potions | · | Pick up 12 Lingering Potions thrown to you by another player (2 players) |
+| **The Drowned Court** | Statistics | ◆ | Land 250 thrown-Trident hits on other players (2 players) |
+| **The Drowned Do Not Claim Us** | Potions | ★ | Be given Water Breathing by another player 4,000 times (2 players) |
+| **The Duellist's Rhythm** | Statistics | ◆ | Land 150 sword hits on other players (2 players) |
+| **The Dust Trade** | Redstone | ◆ | Pick up 512 Redstone Dust dropped for you by another player (2 players) |
+| **The Dye Lot** | Building | · | Be handed 16 or more Wool or Carpet by another player 42 times (2 players) |
+| **The Echo Comes Back** | Adventure | · | Be handed 12 Echo Shards by another player (2 players) |
+| **The Echo Hoard** | Adventure | ◆ | Be handed 400 Echo Shards by another player (2 players) |
+| **The Emerald Reserve** | Mining | ★ | Have another player pick up Emeralds you threw 2,800 times (2 players) |
+| **The Empty Room Trick** | Potions | ◆ | Be turned Invisible by another player 1,100 times (2 players) |
+| **The End Has a Bouncer** | The End | ◆ | Kill 260 other players in the End (2 players) |
+| **The Endless Loaf** | Farming | ★ | Hand another player Bread 3,200 times (2 players) |
+| **The Endless Stacks** | Enchanting | ★ | Take 3,000 Enchanted Books from another player's hand (2 players) |
+| **The Endless Volley** | Weaponry | ★ | Pick up 5,000 pieces of ammunition thrown to you by other players (2 players) |
+| **The Eternal Barbecue** | Farming | ★ | Hand another player Cooked Meat 8,000 times (2 players) |
+| **The Everburning Covenant** | Nether | ★ | Take Fire Resistance from another player's brew 9,000 times in the Nether (2 players) |
+| **The Everlasting Orchard** | Farming | ★ | Be handed Fruit or Berries by another player 8,000 times (2 players) |
+| **The Executioner's Wage** | Weaponry | ★ | Land 2,500 Axe blows on other players (2 players) |
+| **The Falling Weight Company** | Enchanting | ★ | Hand another player 900 Anvils (2 players) |
+| **The Farrier's Forge** | Animals | · | Hand Horse or Wolf Armor to other players 40 times (2 players) |
+| **The Farsighted Fellowship** | Adventure | ◆ | Hand another player 350 Spyglasses (2 players) |
+| **The Feather Union** | Building | ★ | Catch Slow Falling from a potion another player threw 3,600 times (2 players) |
+| **The Feeble Hour** | Potions | ◆ | Be given Weakness by another player 220 times (2 players) |
 | **The Ferryman Cometh** | The End | ★ | Carry a passenger on a Happy Ghast from the central End island out past a thousand blocks, using no Gateway (2 players) |
+| **The Field Medic's Round** | Adventure | · | Gain 50 effects from another player's potions (2 players) |
+| **The Fire Marshal** | Potions | ◆ | Be given Fire Resistance by another player 90 times (2 players) |
 | **The Firing Squad** | Weaponry | ★ | Kill other players with a Bow, a Crossbow, a Trident, a Crossbow firework, a Splash Potion and a Wind Charge (2 players) |
+| **The Flying Stallion** | Animals | ◆ | Be given Jump Boost by another player 350 times while in the saddle (2 players) |
+| **The Forest Owes Us Nothing** | Building | ★ | Be handed 16 or more Logs by another player 4,000 times (2 players) |
+| **The Fortune Fund** | Enchanting | · | Take 30 tools enchanted with Fortune III from another player's hand (2 players) |
+| **The Fruit Run** | Farming | · | Be handed Fruit or Berries by another player 30 times (2 players) |
+| **The Fuel Line** | Mining | ◆ | Pick up Coal or Charcoal thrown to you by another player 450 times (2 players) |
+| **The Garden Counts Us** | Biomes | ◆ | Pass 1,000 Eyeblossoms to another player in a Pale Garden (2 players) |
 | **The Gauntlet** | Super Challenges | ★★ | Pass one Shulker Box through five different players across all three dimensions (5 players) |
+| **The Generous Curse** | Adventure | ◆ | Hand another player 110 Ominous Bottles (2 players) |
+| **The Gentle Consignment** | Enchanting | · | Hand another player 55 tools enchanted with Silk Touch (2 players) |
+| **The Gilded Larder** | Farming | · | Be handed Golden Food by another player 50 times (2 players) |
+| **The Gilded Payroll** | Nether | ◆ | Hand another player four or more Gold Ingots in the Nether 500 times (2 players) |
 | **The Glaze Trade** | Building | ★ | Hand out all sixteen colours of Glazed Terracotta to other players (2 players) |
+| **The Glazier's Apprentice** | Building | · | Be handed 32 or more Glass by another player 17 times (2 players) |
+| **The Golden Aqueduct** | Nether | ★ | Hand another player four or more Gold Ingots in the Nether 15,000 times (2 players) |
+| **The Golden Handshake** | Mining | · | Have another player pick up Gold Ingots you threw 50 times (2 players) |
+| **The Golden Hive** | Farming | ★ | Hand another player Honey or Sugar 9,000 times (2 players) |
+| **The Great Bone Drive** | Monsters | ★ | Donate 2500 bones to anyone willing to carry them (2 players) |
+| **The Great Sowing** | Farming | ★ | Hand another player Seeds 3,200 times (2 players) |
 | **The Great Train Robbery** | Redstone | ◆ | Kill another player while they are riding in a Minecart (2 players) |
+| **The Great Unenchanting** | Enchanting | ★ | Hand another player 4,400 Grindstones or plain Books (2 players) |
+| **The Green Gift** | Potions | · | Be Poisoned by another player 48 times (2 players) |
+| **The Green Glass Vault** | Enchanting | ◆ | Take 850 Bottles o' Enchanting from another player's hand (2 players) |
+| **The Green Line** | Mining | ★ | Have another player pick up Emeralds you threw 13,000 times (2 players) |
+| **The Guiding Hand** | Adventure | ★ | Hand another player 700 compasses (2 players) |
+| **The Handed Haversack** | Adventure | · | Be handed 20 Bundles by another player (2 players) |
+| **The Head Hoard** | Monsters | ★ | Take 2500 heads off other people's hands (2 players) |
+| **The Heavy Hand** | Weaponry | ◆ | Land 500 Mace blows on other players (2 players) |
+| **The High Ice Road** | Biomes | ◆ | Catch 125 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) |
+| **The Hoe Wars** | Farming | ★ | Hit another player with a Hoe 3,000 times (2 players) |
+| **The Honed Rivalry** | Enchanting | ◆ | Land 2,100 hits on another player with a sword enchanted with Sharpness (2 players) |
+| **The Horizon Is Not Safe** | Statistics | ★ | Kill 6,000 other players with an arrow from at least 8 blocks away (2 players) |
+| **The Horn Line** | Adventure | ◆ | Hand another player 250 Goat Horns (2 players) |
+| **The Human Target** | Monsters | ★ | Be shot down 1000 times by the people you trust (2 players) |
+| **The Ice Takes Everyone** | Biomes | ◆ | Be killed by another player in a snowy biome 600 times (2 players) |
+| **The Immovable** | Weaponry | ◆ | Block 500 attacks from other players with your Shield (2 players) |
+| **The Iron Network** | Redstone | ★ | Throw 4,000 Rails of any kind for another player to pick up (2 players) |
+| **The Joust Begins** | Animals | · | Land 45 hits on another player while you are mounted (2 players) |
+| **The Jungle Always Wins** | Biomes | ★ | Take 30,000 hits from another player in a jungle (2 players) |
+| **The Keen Edge** | Enchanting | · | Land 100 hits on another player with a sword enchanted with Sharpness (2 players) |
+| **The Kelp Line** | Farming | ◆ | Be handed Kelp or Sea Pickles by another player 150 times (2 players) |
+| **The Kelp Trade** | Farming | ◆ | Be handed Kelp or Sea Pickles by another player 800 times (2 players) |
+| **The Keyring Grows Heavy** | Adventure | ◆ | Be handed 600 Trial Keys by another player (2 players) |
+| **The Kill Feed's Favourite** | Statistics | ★ | Be killed by another player 4,000 times (2 players) |
+| **The Lachrymose Ledger** | Nether | ★ | Lob a Ghast Tear across five blocks to another player 8,000 times (2 players) |
+| **The Lamp Room** | Redstone | ◆ | Throw 420 Copper Bulbs for another player to pick up (2 players) |
+| **The Lantern Trade** | Biomes | ◆ | Catch 250 Sea Pickles thrown to you by another player in a warm ocean (2 players) |
+| **The Lapis Line** | Enchanting | · | Hand another player 64 Lapis Lazuli (2 players) |
+| **The Last Harvest** | Farming | ★ | Hit another player with a Hoe 6,000 times (2 players) |
+| **The Lending Lodestone** | Adventure | · | Hand another player 30 compasses (2 players) |
+| **The Lending Shelf** | Enchanting | · | Take 45 Enchanted Books from another player's hand (2 players) |
+| **The Lingering Trade** | The End | ◆ | Be handed Dragon's Breath or a Lingering Potion in the End 45 times (2 players) |
+| **The Loaned Distance** | Adventure | · | Hand another player 25 Spyglasses (2 players) |
+| **The Loaned Meridian** | Adventure | ◆ | Be handed 400 maps by another player (2 players) |
+| **The Log Drive** | Building | · | Be handed 16 or more Logs by another player 40 times (2 players) |
 | **The Long Drop** | Weaponry | ★ | Shoot another player dead down at Y=0 or lower while you stand above Y=100 (2 players) |
+| **The Long Dry** | Biomes | ◆ | Kill 600 players in a desert (2 players) |
+| **The Long Feud** | Nether | ★ | Land 15,000 melee hits on other players in the Nether (2 players) |
+| **The Long Goodbye** | Statistics | ◆ | Kill 250 other players with an arrow from at least 8 blocks away (2 players) |
+| **The Long Rot** | Potions | ★ | Be Poisoned by another player 7,000 times (2 players) |
+| **The Long Tether** | Animals | ◆ | Take 350 Leads from another player's hand (2 players) |
+| **The Long Way Back** | The End | · | Be killed by another player in the End 7 times (2 players) |
+| **The Longbow Ledger** | Weaponry | ◆ | Kill 500 players with arrows loosed from a Bow (2 players) |
+| **The Lookout's Gift** | Potions | · | Be given Night Vision by another player 70 times (2 players) |
+| **The Losing Streak** | Weaponry | ◆ | Be cut down by another player 100 times (2 players) |
+| **The Luck Cartel** | Enchanting | ◆ | Take 640 tools enchanted with Fortune III from another player's hand (2 players) |
+| **The Lumber Yard** | Building | ◆ | Hand another player a full stack of Planks 65 times (2 players) |
+| **The Marrow Line** | Monsters | ◆ | Keep a teammate stocked with 500 bones from your grinder (2 players) |
+| **The Mask Slips** | Monsters | ◆ | Slay 100 players wearing the head of something worse (2 players) |
+| **The Measured Cut** | Weaponry | ◆ | Land 250 Sword blows on other players (2 players) |
+| **The Measurement Bureau** | Redstone | ◆ | Pick up 460 Redstone Comparators dropped for you by another player (2 players) |
+| **The Meat Locker** | Monsters | ◆ | Stockpile 100 servings of flesh handed over by other players (2 players) |
+| **The Medic's Rounds** | Nether | · | Take Fire Resistance from another player's brew 50 times in the Nether (2 players) |
+| **The Mender's Gift** | Enchanting | · | Take 10 items enchanted with Mending from another player's hand (2 players) |
 | **The Merchant of Venice** | Biomes | · | Complete an item swap with another player while you are both sitting in boats on water (2 players) |
 | **The Milliner's Round** | Adventure | ◆ | Be handed a helmet of every armour material by other players (2 players) |
+| **The Mire Market** | Biomes | · | Hand 50 Slimeballs to another player standing in a swamp (2 players) |
+| **The Mire Never Runs Dry** | Biomes | ★ | Hand 25,000 Slimeballs to another player standing in a swamp (2 players) |
+| **The Mountain Keeps Score** | Biomes | ★ | Land 20,000 hits on another player above y=200 (2 players) |
+| **The Munitions Run** | Statistics | · | Hand ammunition to other players 15 times (2 players) |
+| **The Naming of Beasts** | Animals | · | Take 120 Name Tags from another player's hand (2 players) |
+| **The Nether Belongs to Me** | Nether | ◆ | Kill 450 players in the Nether (2 players) |
 | **The Nether Express** | Nether | ◆ | Have four players pass through the same Nether portal within ten seconds (4 players) |
+| **The Obsidian Underground** | Nether | ◆ | Take Crying Obsidian from another player in the Nether 600 times (2 players) |
+| **The Ore Barge** | Mining | ★ | Take a bundle of 16 or more Raw Copper from another player 7,000 times (2 players) |
+| **The Passed Horn** | Adventure | · | Hand another player 15 Goat Horns (2 players) |
+| **The Pastry Run** | Farming | · | Hand another player a Cake, Pumpkin Pie or Cookie 75 times (2 players) |
+| **The Patina Pact** | Building | ◆ | Hand another player 4 or more Copper blocks 350 times (2 players) |
+| **The Pearl Toll** | Monsters | ◆ | Give up 100 pearls to your fellow enderman hunters (2 players) |
+| **The Pearl Vault** | Monsters | ★ | Empty 10000 ender pearls into other players' pockets (2 players) |
+| **The Pillar Trade** | The End | ◆ | Pass Purpur to another player from inside an End City 500 times (2 players) |
+| **The Pink Ledger** | Biomes | ★ | Catch 3,000 Pink Petals thrown to you in a Cherry Grove (2 players) |
+| **The Pitcher's Arm** | Potions | · | Hurt another player with a thrown Splash Potion 70 times (2 players) |
+| **The Portal Knows My Name** | The End | ◆ | Be killed by another player in the End 35 times (2 players) |
+| **The Potion Line** | Redstone | · | Be given Speed by another player's brew 62 times (2 players) |
+| **The Potion Pipeline** | Nether | ◆ | Take Fire Resistance from another player's brew 700 times in the Nether (2 players) |
+| **The Powder Line** | Monsters | ◆ | Ship 500 explosive deliveries to the players holding the flint (2 players) |
+| **The Practice Dummy** | Redstone | ◆ | Take 600 projectile hits from another player standing at least three blocks away (2 players) |
+| **The Prickly Defence** | Enchanting | · | Be struck by another player 35 times while wearing a Thorns chestplate (2 players) |
+| **The Punching Post** | Nether | ◆ | Take 750 hits from other players in the Nether (2 players) |
+| **The Purple Pipeline** | Mining | ◆ | Pick up Amethyst Shards thrown to you by another player 900 times (2 players) |
+| **The Pushing Contest** | Redstone | ◆ | Throw 260 Pistons or Sticky Pistons for another player to pick up (2 players) |
+| **The Pyramid Scheme** | Building | ◆ | Hand another player 32 or more Sandstone 420 times (2 players) |
+| **The Quarry Gate** | Building | · | Be handed a full stack of Stone or its cousins by another player 38 times (2 players) |
+| **The Quartz Exchange** | Nether | ◆ | Take Nether Quartz from another player's hand 250 times (2 players) |
+| **The Quiver Never Empties** | Statistics | ◆ | Hand ammunition to other players 250 times (2 players) |
+| **The Reaper's Ledger** | Statistics | ★ | Kill 4,000 other players (2 players) |
+| **The Reassembled Past** | Adventure | ◆ | Hand another player 550 Pottery Sherds (2 players) |
+| **The Red Tide** | Nether | ★ | Hand another player a full stack of Netherrack 2,500 times (2 players) |
 | **The Relay** | Super Challenges | ★★ | Bring down the Wither, the Warden and the Ender Dragon, each of them finished off with a teammate lying dead in that fight (3 players) |
+| **The Repeat Offering** | Nether | ◆ | Be killed by another player in the Nether 500 times (2 players) |
+| **The Resurrection Kit** | The End | ◆ | Hand an End Crystal to another player while you are in the End 35 times (2 players) |
+| **The Rod Syndicate** | Nether | ◆ | Be handed a Blaze Rod inside a Nether Fortress 1,800 times (2 players) |
+| **The Rolling Brawl** | Redstone | ◆ | Land 1,000 hits on another player while they ride a Minecart (2 players) |
 | **The Royal Estate** | Super Challenges | ★★ | Be handed the Dragon Egg, a Totem of Undying, a Heart of the Sea, a Nether Star and a Block of Netherite by other players (2 players) |
+| **The Saddler's Round** | Animals | ◆ | Hand 320 Saddles to other players (2 players) |
+| **The Scrap Syndicate** | Mining | ◆ | Pick up Netherite Scrap thrown to you by another player 300 times (2 players) |
+| **The Sea Sends Its Regards** | Statistics | ★ | Land 10,000 thrown-Trident hits on other players (2 players) |
+| **The Server's Nightmare** | Statistics | ◆ | Kill 600 other players (2 players) |
+| **The Shared Atlas** | Adventure | · | Be handed 25 maps by another player (2 players) |
+| **The Shell Exchange** | The End | ◆ | Be handed 50 Shulker Shells by other players in the End (2 players) |
+| **The Shield That Never Fell** | Weaponry | ★ | Block 10,000 attacks from other players with your Shield (2 players) |
+| **The Shove Exchange** | Redstone | · | Throw 55 Pistons or Sticky Pistons for another player to pick up (2 players) |
+| **The Silent Exchange** | Biomes | ◆ | Catch 2,500 Echo Shards thrown to you by another player in the Deep Dark (2 players) |
+| **The Silk Road** | Monsters | ◆ | Run 250 loads of string down the line from another player (2 players) |
+| **The Skull Exchange** | Monsters | ◆ | Receive 250 heads across the room from a fellow head hunter (2 players) |
+| **The Sky Paddock** | Animals | ★ | Be given Jump Boost by another player 1,500 times while in the saddle (2 players) |
+| **The Sky Rains Arrows** | The End | ★ | Be hit by another player's projectile in the End 7,000 times (2 players) |
+| **The Sky Rains Shafts** | Statistics | ◆ | Be hit 150 times by another player's projectiles (2 players) |
+| **The Sleeper Trade** | Redstone | ◆ | Throw 350 Rails of any kind for another player to pick up (2 players) |
+| **The Standing Garrison** | Enchanting | ◆ | Take 750 armour pieces enchanted with Protection IV from another player's hand (2 players) |
+| **The Stew Circuit** | Farming | ◆ | Be served a Stew or Soup by another player 150 times (2 players) |
+| **The Sticky Ledger** | Farming | ◆ | Hand another player Honey or Sugar 450 times (2 players) |
+| **The Stonecutters' Compact** | Building | ★ | Be handed a full stack of Stone or its cousins by another player 2,400 times (2 players) |
+| **The Sugar Run** | Farming | · | Hand another player Honey or Sugar 40 times (2 players) |
+| **The Supply Line** | Weaponry | ◆ | Pick up 250 pieces of ammunition thrown to you by other players (2 players) |
+| **The Supply Line Holds** | Statistics | ◆ | Take 600 weapons or shields thrown to you by another player (2 players) |
 | **The Sword Ledger** | Weaponry | ★ | Kill another player with every kind of Sword: wooden, stone, copper, iron, golden, diamond and netherite (2 players) |
+| **The Sword Saint** | Weaponry | ★ | Land 5,000 Sword blows on other players (2 players) |
+| **The Tannery Line** | Animals | · | Take Leather or Rabbit Hide from another player's hand 45 times (2 players) |
+| **The Tide Collects** | Weaponry | ◆ | Skewer other players 100 times with a thrown Trident (2 players) |
+| **The Tide Provides** | Farming | ★ | Be handed Kelp or Sea Pickles by another player 7,000 times (2 players) |
+| **The Tide Turns Against You** | Weaponry | ◆ | Skewer other players 500 times with a thrown Trident (2 players) |
+| **The Toughest Leather** | Animals | ★ | Take 1,800 hits from another player while dressed head to toe in Leather (2 players) |
+| **The Tundra Never Gives Back** | Biomes | ★ | Be killed by another player in a snowy biome 20,000 times (2 players) |
+| **The Unburnt Crew** | Potions | ★ | Be given Fire Resistance by another player 6,500 times (2 players) |
+| **The Undercity Rises** | Building | ★ | Hand another player 32 or more Deepslate blocks 780 times (2 players) |
+| **The Undoing Service** | Enchanting | ◆ | Hand another player 225 Grindstones or plain Books (2 players) |
+| **The Undying Arsenal** | Enchanting | ◆ | Take 200 items enchanted with Mending from another player's hand (2 players) |
+| **The Untouched Inventory** | Enchanting | ◆ | Hand another player 525 tools enchanted with Silk Touch (2 players) |
+| **The Vanishing Crew** | Potions | · | Be turned Invisible by another player 18 times (2 players) |
+| **The Vault Runs on Trust** | Adventure | · | Be handed 15 Trial Keys by another player (2 players) |
+| **The Vegetable Cart** | Farming | ◆ | Hand another player Root Vegetables 140 times (2 players) |
+| **The Void Prefers You** | The End | ★ | Land 750 melee blows on other players in the End (2 players) |
+| **The Void Waits Longer** | The End | ◆ | Pick up Slow Falling from another player's potion in the End 40 times (2 players) |
+| **The Wall That Walks** | Statistics | ★ | Take 6,000 melee hits from other players (2 players) |
+| **The War Machine's Fuel** | Statistics | ★ | Hand ammunition to other players 4,000 times (2 players) |
+| **The Watchers** | Redstone | ◆ | Pick up 225 Observers dropped for you by another player (2 players) |
 | **The Wave** | Adventure | ★ | Four players jump one after another, each within half a second of the last (4 players) |
 | **The Weakest Link** | Potions | · | Kill another player while they are under the Weakness effect (2 players) |
+| **The Weeping Trade** | Nether | · | Lob a Ghast Tear across five blocks to another player 100 times (2 players) |
 | **The Whole Dispensary** | Super Challenges | ★★ | Have another player put all eighteen player-deliverable effects on you: Speed, Slowness, Strength, Weakness, Jump Boost, Regeneration, Poison, Fire Resistance, Water Breathing, Night Vision, Invisibility, Slow Falling, Resistance, Glowing, Oozing, Weaving, Infestation and Wind Charging (2 players) |
+| **The Whole Flock's Worth** | Animals | ★ | Hand Wool to other players 5,000 times (2 players) |
 | **The Whole Forest** | Super Challenges | ★★ | Be handed a full stack of every Log, Stem and Bamboo Block in the game by other players (2 players) |
 | **The Whole Menu** | Super Challenges | ★★ | Have other players hand you every single food in the game, raw, cooked, brewed and baked (2 players) |
+| **The Whole Reef Owes You** | Biomes | ★ | Catch 10,000 Sea Pickles thrown to you by another player in a warm ocean (2 players) |
+| **The Whole Stable in Steel** | Animals | ★ | Hand Horse or Wolf Armor to other players 2,000 times (2 players) |
 | **The Whole Toolbox** | Weaponry | ★ | Be killed by other players wielding a Sword, an Axe, a Mace, a Trident, a Pickaxe, a Shovel and a Hoe (2 players) |
+| **The Wing Lender** | The End | ◆ | Hand an Elytra to another player standing in the End 25 times (2 players) |
+| **The Witch's Understudy** | Monsters | ◆ | Be poisoned 500 times by another player's potions (2 players) |
+| **The Woodsman's Grudge** | Statistics | ◆ | Land 1,000 axe hits on other players (2 players) |
+| **The Wool Barons** | Building | ★ | Be handed 16 or more Wool or Carpet by another player 5,500 times (2 players) |
+| **The Wool Run** | Animals | · | Hand Wool to other players 120 times (2 players) |
+| **The World, Delivered** | Adventure | ★ | Be handed 3,200 maps by another player (2 players) |
+| **Thick Skinned** | Animals | · | Take 2 hits from another player while dressed head to toe in Leather (2 players) |
+| **Thin Air Scuffle** | Biomes | · | Land 10 hits on another player above y=200 (2 players) |
 | **Third-Party Trident** | Weaponry | · | Kill a mob with a Trident that came out of another player's inventory (2 players) |
 | **Thorn in Your Side** | Enchanting | ◆ | Kill another player with nothing but the Thorns on your own armour (2 players) |
+| **Thread Count** | Monsters | · | Take 25 lots of string or web off a teammate's hands (2 players) |
 | **Three Graves** | Weaponry | ★ | Be killed by another player in all three dimensions (2 players) |
 | **Three Skies, One Bow** | Weaponry | ★ | Put an arrow into another player in the Overworld, the Nether and the End (2 players) |
 | **Three Square Meals** | Farming | · | Be handed Bread, cooked meat and a bowl of stew by another player, and eat all three (2 players) |
@@ -2065,24 +4943,47 @@ All 855 advancements, A to Z, with the tab each one appears in.
 | **Three-Man Lift** | Nether | ★ | Catch a Nether Star thrown from forty blocks away while a second player rides your Happy Ghast over the Nether (3 players) |
 | **Through the Grate** | Mining | · | Be handed a Copper Grate and a Copper Bulb by another player and place them both (2 players) |
 | **Through the Looking Glass** | Nether | ◆ | Share one Boat with another player on both sides of a Nether portal (2 players) |
+| **Throw Them a Bone** | Monsters | · | Hand 10 bones, bone meal or bone blocks to another player (2 players) |
+| **Tick Delivery** | Redstone | · | Throw 5 Redstone Repeaters for another player to pick up (2 players) |
+| **Tide Tithe** | Biomes | · | Catch 50 Sea Pickles thrown to you by another player in a warm ocean (2 players) |
+| **Tidecaller's Toll** | Statistics | · | Land 15 thrown-Trident hits on other players (2 players) |
+| **Tile and Trim** | Building | · | Hand another player 32 or more Deepslate blocks 28 times (2 players) |
+| **Tilling Rights** | Farming | · | Hit another player with a Hoe 5 times (2 players) |
+| **Tilt and Charge** | Animals | · | Land 8 hits on another player while you are mounted (2 players) |
+| **Timber and Torso** | Statistics | · | Land 60 axe hits on other players (2 players) |
+| **Timber Feud** | Weaponry | · | Land 50 Axe blows on other players (2 players) |
 | **Timber Run** | Building | · | Take a full stack of Oak Logs from another player and build with them (2 players) |
+| **Tipping the Help** | Mining | · | Have another player pick up Gold Ingots you threw 10 times (2 players) |
+| **Titan Draught** | Potions | ◆ | Be given Strength by another player 650 times (2 players) |
 | **Toll Booth** | Redstone | · | Put up an Iron Door and charge another player sixteen Emeralds for passage (2 players) |
+| **Tool Assisted Argument** | Mining | · | Hit another player while holding a Pickaxe 15 times (2 players) |
 | **Tools of the Trade** | Mining | · | Be handed a Pickaxe, an Axe, a Shovel and a Hoe by other players (2 players) |
 | **Toolshare** | Mining | ★ | Take a Netherite Axe, Shovel and Hoe out of another player's hands (2 players) |
+| **Torchless Together** | Mining | ★ | Gain Night Vision from another player's potion 3,000 times (2 players) |
 | **Torpedo Run** | Biomes | ◆ | Hit another player riding a Nautilus with a thrown Trident while riding one yourself (2 players) |
 | **Tortoise and the Hare** | Potions | ◆ | Be hit with a Potion of the Turtle Master by another player, then be cut down by a player while you are still crawling (2 players) |
 | **Tortoise Team** | Potions | · | Take Slowness and Resistance together from another player's Potion of the Turtle Master (2 players) |
+| **Tossed a Tear** | Nether | · | Lob a Ghast Tear across five blocks to another player 5 times (2 players) |
+| **Total Chemical Superiority** | Potions | ★ | Hurt another player with a thrown Splash Potion 9,000 times (2 players) |
 | **Total Party Kill** | Monsters | ◆ | Wipe out: all three or more players on the server dead inside the same ten seconds (3 players) |
 | **Totem Tax** | Weaponry | ◆ | Kill another player who is holding a Totem of Undying in their off-hand (2 players) |
 | **Tourist Trap** | Adventure | · | Kill another player inside a village while the villagers look on (2 players) |
 | **Tourney Ground** | Animals | ◆ | Cut another player out of the saddle in melee while the two of you are both riding Horses (2 players) |
+| **Tourney Regular** | Animals | ◆ | Land 220 hits on another player while you are mounted (2 players) |
 | **Toxic Bastion** | Nether | ◆ | Kill another player inside a Bastion Remnant while they are Poisoned (2 players) |
 | **Toxic Shock** | Potions | · | Finish off another player while Poison is still eating away at them (2 players) |
+| **Traced from Another** | Adventure | · | Be handed 12 Smithing Templates by another player (2 players) |
+| **Track Gang** | Redstone | · | Throw 16 Rails of any kind for another player to pick up (2 players) |
+| **Track Warfare** | Redstone | ★ | Land 2,200 hits on another player while they ride a Minecart (2 players) |
+| **Trader's Trust** | Mining | ◆ | Have another player pick up Emeralds you threw 600 times (2 players) |
+| **Trading Blows** | Enchanting | · | Land 220 hits on another player with a sword enchanted with Sharpness (2 players) |
 | **Trading Floor** | Statistics | ★ | Rack up a thousand Villager trades between two or more players (2 players) |
 | **Trading Post** | Building | ◆ | Run a shop: stock a Shelf, put up a Sign, and be paid in Emeralds by a customer (2 players) |
+| **Transcontinental** | Redstone | ◆ | Throw 800 Rails of any kind for another player to pick up (2 players) |
 | **Transplant Op** | The End | ◆ | Plant a Chorus Flower another player handed you, out in the Overworld (2 players) |
 | **Trapped!** | Redstone | · | Have another player set off a trapped chest that you just placed (2 players) |
 | **Trauma Team** | Potions | ◆ | Carry Regeneration, Strength, Swiftness, Fire Resistance and Resistance all at once, the last of them splashed onto you by another player (2 players) |
+| **Treasury of Borrowed Levels** | Enchanting | ★ | Take 3,500 Bottles o' Enchanting from another player's hand (2 players) |
 | **Triage** | Potions | ◆ | Heal three players who are all below three hearts with a single Splash Potion of Healing (3 players) |
 | **Trial by Combat** | Adventure | ★ | Kill another player with a Mace smash inside a Trial Chamber (2 players) |
 | **Trial by Fire** | Monsters | · | Set three players alight at once and have all three put themselves out and live (3 players) |
@@ -2090,68 +4991,167 @@ All 855 advancements, A to Z, with the tab each one appears in.
 | **Trident Tag** | Weaponry | ◆ | Hit another player with a thrown trident and catch a Loyalty trident on the return (2 players) |
 | **Trim Package** | The End | ◆ | Be handed End Stone Brick Stairs, a Slab and a Wall by other players (2 players) |
 | **Trimmed in Debris** | Adventure | · | Be handed a piece of armour trimmed with Netherite by another player (2 players) |
+| **Trims Are a Team Sport** | Adventure | ◆ | Be handed 70 Smithing Templates by another player (2 players) |
 | **Triple Dose** | Potions | ◆ | Carry Speed, Strength and Jump Boost all at once, the last of them thrown onto you by another player (2 players) |
 | **Trolley Problem** | Redstone | ◆ | Shoot another player dead from your Minecart while they ride a Minecart fifteen blocks down the line (2 players) |
 | **Trophy Hunter** | Weaponry | · | Kill another player who is wearing a Player Head (2 players) |
+| **Trophy Toss** | Monsters | · | Catch 10 mob heads another player threw to you (2 players) |
 | **Trophy Wall** | Building | · | Take another player's head off their hands and mount it in an Item Frame (2 players) |
+| **True North for Everyone** | Adventure | ★ | Hand another player 2,800 compasses (2 players) |
 | **Trust Fall** | Adventure | ◆ | Survive a thirty-block fall into water another player placed for you (2 players) |
+| **Trust Fall in Lava** | Mining | · | Pick up Netherite Scrap thrown to you by another player 20 times (2 players) |
+| **Tuber Baron** | Farming | ★ | Hand another player Root Vegetables 3,000 times (2 players) |
+| **Tuber Tribute** | Farming | · | Hand another player Root Vegetables 10 times (2 players) |
+| **Tugging Rights** | Animals | · | Take 30 Leads from another player's hand (2 players) |
+| **Tunnel Rats** | Mining | ◆ | Hit another player while holding a Pickaxe 100 times (2 players) |
 | **Tunnel Vision** | Mining | ◆ | Dig toward each other from at least 200 blocks apart until your two tunnels meet (2 players) |
 | **Turned Aside** | Weaponry | · | Have another player's Shield stop your Netherite Sword dead (2 players) |
 | **Twin Maps** | Adventure | · | Copy a Map and hand the duplicate to another player, so you are both reading the same ground (2 players) |
+| **Two Deserts Emptied** | Building | ★ | Hand another player 32 or more Sandstone 950 times (2 players) |
 | **Two Fronts** | Potions | ◆ | Take a Poison splash from a player at least ten blocks away while you stand face to face with a different player (3 players) |
+| **Two Hands on the Anvil** | Mining | · | Pick up Netherite Scrap thrown to you by another player 50 times (2 players) |
+| **Two Hundred Blocks and Climbing** | Biomes | ★ | Catch 4,000 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players) |
+| **Two Lenses, One Horizon** | Adventure | · | Hand another player 10 Spyglasses (2 players) |
+| **Two Masons, One City** | The End | ★ | Pass Purpur to another player from inside an End City 1,100 times (2 players) |
+| **Two Sets Of Eyes** | Potions | ◆ | Be given Night Vision by another player 900 times (2 players) |
+| **Two Smiths, One Anvil** | Mining | ★ | Pick up Iron Ingots thrown to you by another player 7,000 times (2 players) |
+| **Two Ticks Behind** | Redstone | · | Throw 22 Redstone Repeaters for another player to pick up (2 players) |
 | **Two Up** | Weaponry | ◆ | Put an arrow into a distant player from the back hump of a Camel a third player is driving (3 players) |
 | **Two-Faced** | Weaponry | · | Be killed by another player while you are wearing somebody's Player Head (2 players) |
 | **Two-Handed** | Weaponry | · | Kill another player with a Sword in your main hand and an Axe in your off hand (2 players) |
 | **Two-Hump Transit** | Animals | · | Take a Camel out with a second player riding the other hump (2 players) |
 | **Two-Man Ascent** | The End | ◆ | Glide above Y=250 on an Elytra and a full stack of Rockets another player supplied (2 players) |
+| **Two-Man Lift** | Enchanting | · | Hand another player 12 Anvils (2 players) |
+| **Two-Man Saw** | Building | · | Be handed 16 or more Logs by another player 8 times (2 players) |
+| **Ultramarine Trade** | Enchanting | ◆ | Hand another player 256 Lapis Lazuli (2 players) |
+| **Unblinking Trade** | Biomes | ◆ | Pass 400 Eyeblossoms to another player in a Pale Garden (2 players) |
+| **Unbreakable by Design** | Weaponry | ★ | Be dosed with Strength by another player 2,000 times (2 players) |
+| **Unbroken in Transit** | Enchanting | · | Hand another player 25 tools enchanted with Silk Touch (2 players) |
+| **Unburnt by Their Grace** | Nether | ★ | Take Fire Resistance from another player's brew 20,000 times in the Nether (2 players) |
 | **Undead Chauffeur** | Animals | · | Ride a Skeleton Horse using a Saddle another player threw you (2 players) |
+| **Under Pressure Together** | Mining | ◆ | Pick up Diamonds thrown to you by another player 900 times (2 players) |
 | **Under the Hammer** | Weaponry | ◆ | Finish another player off with a Mace smash (2 players) |
 | **Under the Ice** | Biomes | · | Kill another player underwater beneath a frozen ocean (2 players) |
+| **Under the Influence** | Redstone | ◆ | Be given Speed by another player's brew 140 times (2 players) |
 | **Undercurrent** | Biomes | ◆ | Stab another player to death with a Trident while you are both under water (2 players) |
 | **Underwriter** | Adventure | ◆ | Burn a Totem of Undying in a Netherite Chestplate another player handed you (2 players) |
 | **Undying Export** | The End | · | Hand another player a Totem of Undying in the End (2 players) |
 | **Unhorsed** | Super Challenges | ★★ | Kill a mounted player off each of a Horse, Donkey, Mule, Pig, Camel, Llama, Strider, Boat, Minecart, Happy Ghast and Nautilus (2 players) |
 | **Uninvited Guests** | Potions | · | Be dosed with Infestation by another player while you are standing on Deepslate (2 players) |
+| **Unkillable by Popular Demand** | Statistics | ★ | Take 15,000 melee hits from other players (2 players) |
+| **Unseated Again** | Animals | ◆ | Land 500 hits on another player while you are mounted (2 players) |
+| **Unseen Hands** | Potions | ◆ | Be turned Invisible by another player 220 times (2 players) |
+| **Unsmelted Trust** | Mining | ◆ | Take a bundle of 16 or more Raw Copper from another player 600 times (2 players) |
 | **Up and Away** | The End | ◆ | Get three players levitating from Shulker bullets at the same time (3 players) |
 | **Upgrade Path** | Mining | · | Give another player a Stone Pickaxe and take an Iron one back off them (2 players) |
 | **Upgrade Sponsor** | Nether | ◆ | Forge a Netherite Sword using an Upgrade Template another player handed you (2 players) |
+| **Upholstered the Whole Hall** | Building | ★ | Be handed 16 or more Wool or Carpet by another player 1,200 times (2 players) |
+| **Upper Crust** | Farming | · | Hand another player Bread 25 times (2 players) |
 | **Vault Crew** | Adventure | ★ | Four players each unlock the same Ominous Vault (4 players) |
+| **Vault of Given Patterns** | Adventure | ◆ | Be handed 350 Smithing Templates by another player (2 players) |
+| **Vault of Multiplied Ore** | Enchanting | ★ | Take 2,800 tools enchanted with Fortune III from another player's hand (2 players) |
 | **Vault Transfer** | Mining | · | Take a Shulker Box off another player below Y=-50 (2 players) |
+| **Vaults Between Friends** | Nether | ◆ | Hand another player four or more Gold Ingots in the Nether 1,200 times (2 players) |
+| **Vein Barons** | Nether | ◆ | Take Nether Quartz from another player's hand 1,000 times (2 players) |
+| **Velocity Cartel** | Potions | ★ | Be given Speed by another player 11,000 times (2 players) |
 | **Vending Machine** | Redstone | ◆ | Have another player feed an Emerald into your Hopper and take what your Dispenser gives back (2 players) |
 | **Venom Dart** | Potions | · | Put a Tipped Arrow of Poison into another player (2 players) |
+| **Venom Economy** | Potions | ★ | Be Poisoned by another player 3,200 times (2 players) |
+| **Venom Tolerance** | Monsters | ◆ | Weather 100 helpings of somebody else's poison (2 players) |
+| **Verdigris Delivery** | Redstone | ◆ | Throw 190 Copper Bulbs for another player to pick up (2 players) |
+| **Verdigris Everywhere** | Building | ★ | Hand another player 4 or more Copper blocks 800 times (2 players) |
+| **Verdigris Vendor** | Mining | ◆ | Pick up Copper Ingots thrown to you by another player 600 times (2 players) |
 | **Vexed Vendor** | Adventure | · | Hand another player the Vex Armour Trim inside a Woodland Mansion (2 players) |
 | **Victory Tonic** | Adventure | ◆ | Be splashed with Regeneration by another player while you are still riding Hero of the Village (2 players) |
 | **Viking Funeral** | Weaponry | · | Kill another player with an Axe while the pair of you are both on fire (2 players) |
+| **Villager Bypass** | Mining | · | Have another player pick up Emeralds you threw 55 times (2 players) |
+| **Vine Ambush** | Biomes | · | Take 60 hits from another player in a jungle (2 players) |
 | **Vine Supply** | Nether | · | Take both Twisting Vines and Weeping Vines from another player (2 players) |
+| **Voice of the Given Dark** | Adventure | ◆ | Be handed 175 Echo Shards by another player (2 players) |
 | **Void Bulwark** | The End | · | Block another player's attack with your Shield in the End (2 players) |
+| **Void Freight** | Monsters | ◆ | Ship 250 pearls across to another player by hand (2 players) |
 | **Void Insurance** | The End | ◆ | Catch a Chorus Fruit from another player while you are falling below Y=0 in the End (2 players) |
+| **Void of Dignity** | The End | · | Be killed by another player in the End 16 times (2 players) |
+| **Volley of Regret** | Monsters | ◆ | Get picked off 50 times from range by a fellow player (2 players) |
+| **Volunteer Target** | Redstone | · | Take 5 projectile hits from another player standing at least three blocks away (2 players) |
+| **Vulture's Welcome** | Biomes | ◆ | Kill 100 players in a desert (2 players) |
 | **Waiter Service** | Adventure | ★ | Work the whole service for another player - a bowl of stew, a cooked main and a pudding - and take a full stack of Emeralds as your tip (2 players) |
+| **Walk With Me Through Fire** | Potions | ◆ | Be given Fire Resistance by another player 210 times (2 players) |
+| **Walking Pharmacy** | Statistics | ★ | Receive 2,500 potion effects from other players (2 players) |
+| **Ward Rounds** | Potions | · | Be given Regeneration by another player 30 times (2 players) |
 | **Warded in the Dark** | Monsters | ◆ | Be given Resistance by another player in the Deep Dark while a Shrieker's Darkness is on you (2 players) |
+| **Warden of the Armoury** | Enchanting | ★ | Take 6,600 armour pieces enchanted with Protection IV from another player's hand (2 players) |
+| **Warden of the End Gate** | The End | ★ | Kill 550 other players in the End (2 players) |
+| **Warden of the Shallows** | Biomes | ★ | Catch 2,000 Sea Pickles thrown to you by another player in a warm ocean (2 players) |
+| **Warden of the Shared Vault** | Adventure | ★ | Be handed 1,300 Trial Keys by another player (2 players) |
 | **Warden Party** | Super Challenges | ★★ | Put down a Warden with three players inside sixteen blocks, none of them recently killed (3 players) |
+| **Warden's Blind Spot** | Biomes | ◆ | Catch 150 Echo Shards thrown to you by another player in the Deep Dark (2 players) |
+| **Warehouse of Faces** | Monsters | ★ | Be handed 1000 mob heads without ever severing one yourself (2 players) |
+| **Warhorse Quartermaster** | Animals | ★ | Hand Horse or Wolf Armor to other players 1,000 times (2 players) |
+| **Warlord of the Waste** | Nether | ◆ | Land 6,000 melee hits on other players in the Nether (2 players) |
 | **Warm Welcome** | Biomes | · | Reach a player sunk in Powder Snow with Flint and Steel already in your hand (2 players) |
 | **Warning Shot** | Weaponry | · | Put an arrow into another player from less than three blocks away (2 players) |
+| **Warp and Weft** | Monsters | ★ | Be handed 5000 pieces of the spiders' leavings (2 players) |
 | **Warped Export** | Nether | · | Hand another player Warped Planks and Warped Hyphae back in the Overworld (2 players) |
 | **Warped Perspective** | Nether | · | Kill another player among the blue trees of a Warped Forest (2 players) |
 | **Wart Share** | Nether | · | Plant Nether Wart another player pulled out of a Fortress (2 players) |
 | **Waste Not** | Farming | · | Fob your worst rations off on another player: Rotten Flesh, a Spider Eye and a Poisonous Potato (2 players) |
+| **Watched Delivery** | Redstone | · | Pick up 9 Observers dropped for you by another player (2 players) |
+| **Watchtower Rotation** | Adventure | ◆ | Hand another player 60 Spyglasses (2 players) |
 | **Water Taxi** | Biomes | ◆ | Be paid an Emerald thrown from six blocks away while riding in a Boat another player is steering (3 players) |
+| **Wax On, Wax Off** | Redstone | · | Throw 18 Copper Bulbs for another player to pick up (2 players) |
+| **Waxed and Waiting** | Building | · | Hand another player 4 or more Copper blocks 12 times (2 players) |
+| **Waxed and Wired** | Redstone | · | Throw 40 Copper Bulbs for another player to pick up (2 players) |
+| **We Are Not Here** | Potions | ★ | Be turned Invisible by another player 12,000 times (2 players) |
+| **We See Everything** | Potions | ★ | Be given Night Vision by another player 10,000 times (2 players) |
+| **Weak Sauce** | Potions | · | Be given Weakness by another player 6 times (2 players) |
+| **Weakness Is A Team Sport** | Potions | ★ | Be given Weakness by another player 6,500 times (2 players) |
+| **Wealth Beyond Bartering** | Nether | ★ | Hand another player four or more Gold Ingots in the Nether 32,000 times (2 players) |
 | **Weapon Cache** | Weaponry | ★ | Hand another player one of every weapon: Sword, Axe, Bow, Crossbow, Trident, Mace and Spear (2 players) |
+| **Weapon of Mass Cultivation** | Farming | ★ | Hit another player with a Hoe 1,500 times (2 players) |
+| **Wearing the Enemy** | Monsters | · | Kill 5 players while wearing a mob head (2 players) |
+| **Weathered Together** | Building | ◆ | Hand another player 4 or more Copper blocks 150 times (2 players) |
+| **Weaver's Guild** | Monsters | ◆ | Accept 500 spider drops from your fellow arachnid farmers (2 players) |
 | **Weeping Wall** | Nether | · | Place Crying Obsidian that another player bartered for and handed over (2 players) |
+| **Weight of the Argument** | Weaponry | · | Land 10 Mace blows on other players (2 players) |
 | **Weightless Handover** | The End | · | Catch a Shulker Shell thrown by another player while you are levitating (2 players) |
 | **Well Padded** | Weaponry | ◆ | Take a twenty-point swing from another player and lose no more than five hearts of it (2 players) |
+| **Wept the Nether Dry** | Nether | ★ | Lob a Ghast Tear across five blocks to another player 18,000 times (2 players) |
 | **Wet Cement** | Building | · | Be handed Concrete Powder by another player and set a block of Concrete (2 players) |
+| **Wet Delivery** | Animals | · | Take a Bucket of live catch from another player's hand 110 times (2 players) |
 | **Wet Fish** | Weaponry | · | Slap another player across the face with a raw Cod (2 players) |
 | **Wet Fish Duel** | Weaponry | ◆ | Trade blows with another player while you are both armed with nothing but a raw Cod (2 players) |
+| **Wheelbarrow Brigade** | Mining | · | Take a bundle of 16 or more Raw Copper from another player 100 times (2 players) |
+| **Wheelbarrow Duty** | Building | · | Be handed a full stack of Stone or its cousins by another player 7 times (2 players) |
+| **Wheels Provided** | Redstone | · | Pick up 9 Minecarts of any kind dropped for you by another player (2 players) |
+| **Where the Air Runs Out** | Biomes | ◆ | Land 300 hits on another player above y=200 (2 players) |
+| **Whetstone Devotion** | Enchanting | ★ | Land 4,400 hits on another player with a sword enchanted with Sharpness (2 players) |
+| **Whetstone Economy** | Statistics | ★ | Land 2,500 sword hits on other players (2 players) |
+| **Whisper Delivery** | Adventure | · | Be handed 2 Echo Shards by another player (2 players) |
+| **Whisper Trade** | Biomes | · | Catch 60 Echo Shards thrown to you by another player in the Deep Dark (2 players) |
+| **White Seam Traffic** | Nether | · | Take Nether Quartz from another player's hand 50 times (2 players) |
 | **Whittled Down** | Weaponry | · | Kill another player with a plain Stick (2 players) |
+| **Whole Blocks, Whole Hands** | Enchanting | ◆ | Hand another player 120 tools enchanted with Silk Touch (2 players) |
+| **Whole Ocean in a Bucket** | Animals | ★ | Take a Bucket of live catch from another player's hand 2,500 times (2 players) |
+| **Wholesale Unmaking** | Enchanting | ◆ | Hand another player 1,000 Grindstones or plain Books (2 players) |
+| **Widowmaker of the Waste** | Nether | · | Kill 75 players in the Nether (2 players) |
 | **Wind Duel** | Weaponry | ◆ | Launch another player six blocks into the air with your Wind Charge (2 players) |
+| **Windage** | Statistics | · | Kill 5 other players with an arrow from at least 8 blocks away (2 players) |
+| **Windfall Holdings** | Enchanting | ◆ | Take 300 tools enchanted with Fortune III from another player's hand (2 players) |
+| **Winding Up** | Weaponry | · | Hit other players 25 times with Crossbow bolts (2 players) |
 | **Windswept** | Potions | · | Prime another player with Wind Charged using a Tipped Arrow (2 players) |
 | **Wing and a Prayer** | The End | ◆ | Catch an Elytra thrown by another player while you are falling below Y=20 in the End (2 players) |
 | **Wing Swap** | The End | ◆ | Trade Elytra with another player: hand yours over and take theirs (2 players) |
 | **Wing Warranty** | The End | · | Hand another player an Elytra worn down to its last few flights (2 players) |
 | **Wingman** | The End | · | Take off in an Elytra another player handed you (2 players) |
+| **Wings for Hire** | The End | · | Hand an Elytra to another player standing in the End 12 times (2 players) |
+| **Wingsmith to the Void** | The End | ★ | Hand an Elytra to another player standing in the End 1,400 times (2 players) |
+| **Wired Together** | Mining | ◆ | Pick up Copper Ingots thrown to you by another player 1,400 times (2 players) |
 | **Witching Hour** | Weaponry | ◆ | Kill another player with a Sword at the stroke of midnight (2 players) |
 | **Wither Committee** | Monsters | ★ | Bring down a Wither with three or more players standing within twenty blocks (3 players) |
 | **Withering Welcome** | Nether | · | Take a hit from another player in the Nether while the Wither's decay is on you (2 players) |
+| **Woodsman's Grudge** | Weaponry | ◆ | Land 500 Axe blows on other players (2 players) |
 | **Wreck Split** | Biomes | · | Trade a Heart of the Sea for a Nautilus Shell with another player (2 players) |
+| **Yard Full of Carts** | Redstone | ◆ | Pick up 440 Minecarts of any kind dropped for you by another player (2 players) |
 
-**855 advancements in total.**
+**2355 advancements in total.**

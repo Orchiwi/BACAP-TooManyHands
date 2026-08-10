@@ -1,0 +1,28 @@
+{
+  "parent": "blazeandcave:enchanting/baron_of_blacksmiths",
+  "criteria": {
+    "passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:anvil",
+            "minecraft:chipped_anvil",
+            "minecraft:damaged_anvil"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/enchanting_anvil_freight_doorbell"
+  }
+}

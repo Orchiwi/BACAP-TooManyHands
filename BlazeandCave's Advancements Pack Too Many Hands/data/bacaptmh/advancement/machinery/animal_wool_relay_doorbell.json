@@ -1,0 +1,41 @@
+{
+  "parent": "blazeandcave:animal/rainbow_collection",
+  "criteria": {
+    "fleece_taken_from_you": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_wool",
+            "minecraft:orange_wool",
+            "minecraft:magenta_wool",
+            "minecraft:light_blue_wool",
+            "minecraft:yellow_wool",
+            "minecraft:lime_wool",
+            "minecraft:pink_wool",
+            "minecraft:gray_wool",
+            "minecraft:light_gray_wool",
+            "minecraft:cyan_wool",
+            "minecraft:purple_wool",
+            "minecraft:blue_wool",
+            "minecraft:brown_wool",
+            "minecraft:green_wool",
+            "minecraft:red_wool",
+            "minecraft:black_wool"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_wool_relay_doorbell"
+  }
+}

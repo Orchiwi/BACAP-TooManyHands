@@ -1,0 +1,35 @@
+{
+  "parent": "blazeandcave:redstone/railwayman",
+  "criteria": {
+    "rails_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rail",
+            "minecraft:powered_rail",
+            "minecraft:detector_rail",
+            "minecraft:activator_rail"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/redstone_rail_shipments_doorbell"
+  }
+}

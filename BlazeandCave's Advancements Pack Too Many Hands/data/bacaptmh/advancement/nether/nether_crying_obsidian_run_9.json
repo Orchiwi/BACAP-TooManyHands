@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_concrete"
+    },
+    "title": {
+      "translate": "Purple Empire"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take Crying Obsidian from another player in the Nether 7,500 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_crying_obsidian_run_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_crying_obsidian_run_9"
+  }
+}

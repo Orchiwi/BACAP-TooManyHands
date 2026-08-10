@@ -1,0 +1,36 @@
+{
+  "parent": "blazeandcave:redstone/all_aboard",
+  "criteria": {
+    "minecart_in_hand": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:minecart",
+            "minecraft:chest_minecart",
+            "minecraft:hopper_minecart",
+            "minecraft:furnace_minecart",
+            "minecraft:tnt_minecart"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/redstone_minecart_deliveries_doorbell"
+  }
+}

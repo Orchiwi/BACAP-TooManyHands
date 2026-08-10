@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:exposed_copper"
+    },
+    "title": {
+      "translate": "Verdigris Vendor"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Copper Ingots thrown to you by another player 600 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_copper_current_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_copper_current_6"
+  }
+}

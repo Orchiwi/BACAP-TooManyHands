@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_horse_armor"
+    },
+    "title": {
+      "translate": "Grand Marshal of the Joust"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 2,200 hits on another player while you are mounted (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_mounted_duel_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_mounted_duel_9"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_block"
+    },
+    "title": {
+      "translate": "The Whole Stable in Steel"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand Horse or Wolf Armor to other players 2,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_barding_relay_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_barding_relay_9"
+  }
+}

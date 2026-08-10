@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_dye"
+    },
+    "title": {
+      "translate": "Dust Money"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 32 Lapis Lazuli (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_lapis_consignment_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_lapis_consignment_2"
+  }
+}

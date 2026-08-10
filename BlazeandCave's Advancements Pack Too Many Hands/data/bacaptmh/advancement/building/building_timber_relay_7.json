@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mangrove_log"
+    },
+    "title": {
+      "translate": "Clearcut Contract"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 16 or more Logs by another player 450 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_timber_relay_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_timber_relay_7"
+  }
+}

@@ -326,6 +326,1254 @@
           }
         }
       }
+    },
+    "monsters_head_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_head_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_head_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_head_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_head_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_head_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_head_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_head_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_head_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_head_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_head_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_head_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_head_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_head_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_head_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_head_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_head_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_head_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_head_relay_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_head_relay_10": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_supply_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_supply_1": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_supply_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_supply_2": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_supply_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_supply_3": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_supply_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_supply_4": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_supply_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_supply_5": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_supply_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_supply_6": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_supply_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_supply_7": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_supply_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_supply_8": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_supply_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_supply_9": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_supply_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_supply_10": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_silk_road_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_silk_road_1": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_silk_road_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_silk_road_2": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_silk_road_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_silk_road_3": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_silk_road_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_silk_road_4": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_silk_road_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_silk_road_5": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_silk_road_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_silk_road_6": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_silk_road_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_silk_road_7": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_silk_road_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_silk_road_8": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_silk_road_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_silk_road_9": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_silk_road_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_silk_road_10": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_powder_run_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_powder_run_1": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_powder_run_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_powder_run_2": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_powder_run_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_powder_run_3": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_powder_run_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_powder_run_4": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_powder_run_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_powder_run_5": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_powder_run_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_powder_run_6": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_powder_run_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_powder_run_7": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_powder_run_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_powder_run_8": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_powder_run_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_powder_run_9": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_powder_run_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_powder_run_10": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_flesh_ration_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_flesh_ration_1": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_flesh_ration_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_flesh_ration_2": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_flesh_ration_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_flesh_ration_3": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_flesh_ration_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_flesh_ration_4": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_flesh_ration_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_flesh_ration_5": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_flesh_ration_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_flesh_ration_6": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_flesh_ration_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_flesh_ration_7": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_flesh_ration_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_flesh_ration_8": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_flesh_ration_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_flesh_ration_9": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_flesh_ration_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_flesh_ration_10": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_duel_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_duel_1": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_duel_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_duel_2": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_duel_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_duel_3": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_duel_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_duel_4": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_duel_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_duel_5": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_duel_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_duel_6": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_duel_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_duel_7": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_duel_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_duel_8": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_duel_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_duel_9": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_bone_duel_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_bone_duel_10": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_pearl_toll_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_pearl_toll_1": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_pearl_toll_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_pearl_toll_2": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_pearl_toll_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_pearl_toll_3": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_pearl_toll_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_pearl_toll_4": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_pearl_toll_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_pearl_toll_5": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_pearl_toll_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_pearl_toll_6": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_pearl_toll_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_pearl_toll_7": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_pearl_toll_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_pearl_toll_8": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_pearl_toll_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_pearl_toll_9": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_pearl_toll_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_pearl_toll_10": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_trophy_hunt_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_trophy_hunt_1": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_trophy_hunt_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_trophy_hunt_2": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_trophy_hunt_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_trophy_hunt_3": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_trophy_hunt_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_trophy_hunt_4": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_trophy_hunt_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_trophy_hunt_5": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_trophy_hunt_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_trophy_hunt_6": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_trophy_hunt_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_trophy_hunt_7": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_trophy_hunt_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_trophy_hunt_8": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_blast_debt_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_blast_debt_1": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_blast_debt_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_blast_debt_2": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_blast_debt_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_blast_debt_3": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_blast_debt_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_blast_debt_4": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_blast_debt_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_blast_debt_5": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_blast_debt_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_blast_debt_6": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_blast_debt_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_blast_debt_7": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_blast_debt_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_blast_debt_8": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_arrow_dirge_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_arrow_dirge_1": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_arrow_dirge_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_arrow_dirge_2": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_arrow_dirge_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_arrow_dirge_3": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_arrow_dirge_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_arrow_dirge_4": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_arrow_dirge_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_arrow_dirge_5": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_arrow_dirge_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_arrow_dirge_6": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_arrow_dirge_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_arrow_dirge_7": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_arrow_dirge_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_arrow_dirge_8": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_venom_dose_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_venom_dose_1": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_venom_dose_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_venom_dose_2": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_venom_dose_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_venom_dose_3": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_venom_dose_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_venom_dose_4": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_venom_dose_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_venom_dose_5": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_venom_dose_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_venom_dose_6": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_venom_dose_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_venom_dose_7": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_venom_dose_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_venom_dose_8": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_venom_dose_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_venom_dose_9": true
+            }
+          }
+        }
+      }
+    },
+    "monsters_venom_dose_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:monsters/monsters_venom_dose_10": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

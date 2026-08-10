@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_egg"
+    },
+    "title": {
+      "translate": "Egg Delivery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand Eggs to other players 15 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_egg_relay_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_egg_relay_2"
+  }
+}

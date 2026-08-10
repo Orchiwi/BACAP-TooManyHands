@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:weaponry/artillery",
+  "criteria": {
+    "ammo_taken": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:arrow",
+            "minecraft:spectral_arrow",
+            "minecraft:tipped_arrow",
+            "minecraft:firework_rocket"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/weaponry_ammo_pickups_doorbell"
+  }
+}

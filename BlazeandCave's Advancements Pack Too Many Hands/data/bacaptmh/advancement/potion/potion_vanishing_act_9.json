@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skull_pottery_sherd"
+    },
+    "title": {
+      "translate": "Nobody Was Ever Here"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be turned Invisible by another player 2,500 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_vanishing_act_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_vanishing_act_9"
+  }
+}

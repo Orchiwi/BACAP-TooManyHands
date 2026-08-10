@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "Unburnt by Their Grace"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take Fire Resistance from another player's brew 20,000 times in the Nether (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_fire_resistance_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_fire_resistance_10"
+  }
+}

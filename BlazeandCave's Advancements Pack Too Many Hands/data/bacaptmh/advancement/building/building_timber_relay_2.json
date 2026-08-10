@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_log"
+    },
+    "title": {
+      "translate": "Two-Man Saw"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed 16 or more Logs by another player 8 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_timber_relay_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_timber_relay_2"
+  }
+}

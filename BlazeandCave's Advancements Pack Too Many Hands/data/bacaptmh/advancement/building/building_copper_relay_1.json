@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_block"
+    },
+    "title": {
+      "translate": "Shiny for Now"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player 4 or more Copper blocks 2 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/bulbous",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_copper_relay_1"
+  }
+}

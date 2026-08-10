@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_bed"
+    },
+    "title": {
+      "translate": "Armour by Airmail"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 120 Shulker Shells by other players in the End (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_shell_consignments_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_shell_consignments_5"
+  }
+}

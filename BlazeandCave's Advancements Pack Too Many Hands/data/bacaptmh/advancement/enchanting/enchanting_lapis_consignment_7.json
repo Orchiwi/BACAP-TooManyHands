@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_glazed_terracotta"
+    },
+    "title": {
+      "translate": "The Blue Exchequer"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 1,024 Lapis Lazuli (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_lapis_consignment_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_lapis_consignment_7"
+  }
+}

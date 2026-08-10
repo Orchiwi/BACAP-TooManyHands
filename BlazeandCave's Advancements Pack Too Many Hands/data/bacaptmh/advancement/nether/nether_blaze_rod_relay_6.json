@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick_stairs"
+    },
+    "title": {
+      "translate": "Keeper of Their Kindling"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed a Blaze Rod inside a Nether Fortress 750 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_blaze_rod_relay_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_blaze_rod_relay_6"
+  }
+}

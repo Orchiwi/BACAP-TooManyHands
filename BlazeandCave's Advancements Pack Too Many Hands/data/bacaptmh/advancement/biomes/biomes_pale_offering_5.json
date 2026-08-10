@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_hanging_moss"
+    },
+    "title": {
+      "translate": "Unblinking Trade"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pass 400 Eyeblossoms to another player in a Pale Garden (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_pale_offering_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_pale_offering_5"
+  }
+}

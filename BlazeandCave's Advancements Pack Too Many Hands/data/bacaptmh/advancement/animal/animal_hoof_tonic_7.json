@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:feather"
+    },
+    "title": {
+      "translate": "The Flying Stallion"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be given Jump Boost by another player 350 times while in the saddle (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_hoof_tonic_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_hoof_tonic_7"
+  }
+}

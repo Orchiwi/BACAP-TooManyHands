@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:monsters/blast_shield",
+  "criteria": {
+    "caught_the_blast": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "tags": [
+            {
+              "id": "minecraft:is_explosion",
+              "expected": true
+            }
+          ],
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_blast_debt_doorbell"
+  }
+}

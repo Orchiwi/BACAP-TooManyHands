@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:melon_seeds"
+    },
+    "title": {
+      "translate": "Scattering the Sack"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player Seeds 25 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_seed_bank_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_seed_bank_3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cherry_leaves"
+    },
+    "title": {
+      "translate": "Falling Pink"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch 75 Pink Petals thrown to you in a Cherry Grove (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_petal_post_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_petal_post_3"
+  }
+}

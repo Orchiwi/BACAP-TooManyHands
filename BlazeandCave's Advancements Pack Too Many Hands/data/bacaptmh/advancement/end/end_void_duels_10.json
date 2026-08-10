@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_void"
+    },
+    "title": {
+      "translate": "Nothing Below but You"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Land 6,500 melee blows on other players in the End (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:end/end_void_duels_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/end_void_duels_10"
+  }
+}

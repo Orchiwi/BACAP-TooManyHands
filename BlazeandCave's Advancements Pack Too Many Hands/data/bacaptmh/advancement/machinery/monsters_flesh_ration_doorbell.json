@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:monsters/zombie_slayer",
+  "criteria": {
+    "took_the_rations": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rotten_flesh"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_flesh_ration_doorbell"
+  }
+}

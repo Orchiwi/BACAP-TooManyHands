@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_terracotta"
+    },
+    "title": {
+      "translate": "Emperor of Baked Clay"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player 8 or more Terracotta 4,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_terracotta_relay_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_terracotta_relay_10"
+  }
+}

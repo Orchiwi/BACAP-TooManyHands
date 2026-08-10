@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:kelp"
+    },
+    "title": {
+      "translate": "The Kelp Trade"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed Kelp or Sea Pickles by another player 800 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_sea_greens_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_sea_greens_7"
+  }
+}

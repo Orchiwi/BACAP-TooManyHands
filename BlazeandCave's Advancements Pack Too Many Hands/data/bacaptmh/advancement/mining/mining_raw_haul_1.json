@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:raw_copper"
+    },
+    "title": {
+      "translate": "Bulk Discount"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a bundle of 16 or more Raw Copper from another player 5 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/mr_bean",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_raw_haul_1"
+  }
+}

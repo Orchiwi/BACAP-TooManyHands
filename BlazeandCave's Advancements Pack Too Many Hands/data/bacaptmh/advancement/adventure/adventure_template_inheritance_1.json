@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sentry_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Pattern Passed Down"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed 2 Smithing Templates by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/good_lookin_treasure",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_template_inheritance_1"
+  }
+}

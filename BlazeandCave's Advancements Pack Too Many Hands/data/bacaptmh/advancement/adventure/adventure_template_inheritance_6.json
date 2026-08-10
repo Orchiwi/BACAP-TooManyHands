@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:eye_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Inheritance of Shapes"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 160 Smithing Templates by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_template_inheritance_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_template_inheritance_6"
+  }
+}

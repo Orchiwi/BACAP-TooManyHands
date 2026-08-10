@@ -1,0 +1,31 @@
+{
+  "parent": "blazeandcave:animal/aquarium",
+  "criteria": {
+    "live_catch_handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cod_bucket",
+            "minecraft:salmon_bucket",
+            "minecraft:tropical_fish_bucket",
+            "minecraft:pufferfish_bucket",
+            "minecraft:axolotl_bucket",
+            "minecraft:tadpole_bucket"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_fish_bucket_relay_doorbell"
+  }
+}

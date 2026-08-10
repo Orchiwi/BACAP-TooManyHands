@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "A Thousand Keen Cuts"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land 1,000 hits on another player with a sword enchanted with Sharpness (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_sharpened_strikes_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_sharpened_strikes_6"
+  }
+}

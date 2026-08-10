@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:comparator"
+    },
+    "title": {
+      "translate": "Grid Connection"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up 256 Redstone Dust dropped for you by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_dust_relay_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_dust_relay_7"
+  }
+}

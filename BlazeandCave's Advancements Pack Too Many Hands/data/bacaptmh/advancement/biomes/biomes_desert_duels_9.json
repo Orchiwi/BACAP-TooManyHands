@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_sandstone"
+    },
+    "title": {
+      "translate": "The Desert Remembers You"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill 8,000 players in a desert (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_desert_duels_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_desert_duels_9"
+  }
+}

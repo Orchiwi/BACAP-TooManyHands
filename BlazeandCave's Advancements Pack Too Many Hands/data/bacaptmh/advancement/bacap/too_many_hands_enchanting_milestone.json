@@ -422,6 +422,1290 @@
           }
         }
       }
+    },
+    "enchanting_bottled_levels_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_bottled_levels_1": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_bottled_levels_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_bottled_levels_2": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_bottled_levels_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_bottled_levels_3": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_bottled_levels_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_bottled_levels_4": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_bottled_levels_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_bottled_levels_5": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_bottled_levels_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_bottled_levels_6": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_bottled_levels_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_bottled_levels_7": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_bottled_levels_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_bottled_levels_8": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_bottled_levels_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_bottled_levels_9": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_bottled_levels_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_bottled_levels_10": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_anvil_freight_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_anvil_freight_1": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_anvil_freight_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_anvil_freight_2": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_anvil_freight_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_anvil_freight_3": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_anvil_freight_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_anvil_freight_4": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_anvil_freight_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_anvil_freight_5": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_anvil_freight_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_anvil_freight_6": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_anvil_freight_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_anvil_freight_7": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_anvil_freight_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_anvil_freight_8": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_anvil_freight_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_anvil_freight_9": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_lapis_consignment_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_lapis_consignment_1": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_lapis_consignment_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_lapis_consignment_2": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_lapis_consignment_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_lapis_consignment_3": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_lapis_consignment_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_lapis_consignment_4": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_lapis_consignment_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_lapis_consignment_5": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_lapis_consignment_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_lapis_consignment_6": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_lapis_consignment_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_lapis_consignment_7": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_lapis_consignment_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_lapis_consignment_8": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_lapis_consignment_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_lapis_consignment_9": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_lapis_consignment_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_lapis_consignment_10": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_mending_relay_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_mending_relay_1": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_mending_relay_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_mending_relay_2": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_mending_relay_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_mending_relay_3": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_mending_relay_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_mending_relay_4": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_mending_relay_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_mending_relay_5": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_mending_relay_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_mending_relay_6": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_mending_relay_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_mending_relay_7": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_mending_relay_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_mending_relay_8": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_mending_relay_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_mending_relay_9": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_silk_consignment_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_silk_consignment_1": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_silk_consignment_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_silk_consignment_2": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_silk_consignment_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_silk_consignment_3": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_silk_consignment_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_silk_consignment_4": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_silk_consignment_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_silk_consignment_5": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_silk_consignment_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_silk_consignment_6": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_silk_consignment_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_silk_consignment_7": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_silk_consignment_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_silk_consignment_8": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_silk_consignment_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_silk_consignment_9": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_fortune_dividends_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_fortune_dividends_1": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_fortune_dividends_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_fortune_dividends_2": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_fortune_dividends_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_fortune_dividends_3": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_fortune_dividends_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_fortune_dividends_4": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_fortune_dividends_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_fortune_dividends_5": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_fortune_dividends_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_fortune_dividends_6": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_fortune_dividends_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_fortune_dividends_7": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_fortune_dividends_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_fortune_dividends_8": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_fortune_dividends_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_fortune_dividends_9": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_fortune_dividends_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_fortune_dividends_10": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_protection_details_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_protection_details_1": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_protection_details_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_protection_details_2": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_protection_details_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_protection_details_3": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_protection_details_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_protection_details_4": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_protection_details_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_protection_details_5": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_protection_details_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_protection_details_6": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_protection_details_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_protection_details_7": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_protection_details_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_protection_details_8": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_protection_details_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_protection_details_9": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_protection_details_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_protection_details_10": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_sharpened_strikes_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_sharpened_strikes_1": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_sharpened_strikes_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_sharpened_strikes_2": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_sharpened_strikes_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_sharpened_strikes_3": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_sharpened_strikes_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_sharpened_strikes_4": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_sharpened_strikes_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_sharpened_strikes_5": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_sharpened_strikes_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_sharpened_strikes_6": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_sharpened_strikes_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_sharpened_strikes_7": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_sharpened_strikes_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_sharpened_strikes_8": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_sharpened_strikes_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_sharpened_strikes_9": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_sharpened_strikes_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_sharpened_strikes_10": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_thorns_tally_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_thorns_tally_1": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_thorns_tally_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_thorns_tally_2": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_thorns_tally_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_thorns_tally_3": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_thorns_tally_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_thorns_tally_4": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_thorns_tally_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_thorns_tally_5": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_thorns_tally_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_thorns_tally_6": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_thorns_tally_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_thorns_tally_7": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_thorns_tally_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_thorns_tally_8": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_thorns_tally_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_thorns_tally_9": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_thorns_tally_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_thorns_tally_10": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_grindstone_freight_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_grindstone_freight_1": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_grindstone_freight_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_grindstone_freight_2": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_grindstone_freight_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_grindstone_freight_3": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_grindstone_freight_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_grindstone_freight_4": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_grindstone_freight_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_grindstone_freight_5": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_grindstone_freight_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_grindstone_freight_6": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_grindstone_freight_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_grindstone_freight_7": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_grindstone_freight_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_grindstone_freight_8": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_grindstone_freight_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_grindstone_freight_9": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_grindstone_freight_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_grindstone_freight_10": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_tome_handoffs_1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_tome_handoffs_1": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_tome_handoffs_2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_tome_handoffs_2": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_tome_handoffs_3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_tome_handoffs_3": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_tome_handoffs_4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_tome_handoffs_4": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_tome_handoffs_5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_tome_handoffs_5": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_tome_handoffs_6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_tome_handoffs_6": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_tome_handoffs_7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_tome_handoffs_7": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_tome_handoffs_8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_tome_handoffs_8": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_tome_handoffs_9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_tome_handoffs_9": true
+            }
+          }
+        }
+      }
+    },
+    "enchanting_tome_handoffs_10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:enchanting/enchanting_tome_handoffs_10": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

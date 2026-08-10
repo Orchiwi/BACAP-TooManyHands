@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_trial_key"
+    },
+    "title": {
+      "translate": "Ominous Generosity"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 100 Trial Keys by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_trial_key_handover_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_trial_key_handover_5"
+  }
+}

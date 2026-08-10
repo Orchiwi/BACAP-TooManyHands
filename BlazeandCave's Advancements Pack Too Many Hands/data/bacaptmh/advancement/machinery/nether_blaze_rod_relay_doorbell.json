@@ -1,0 +1,32 @@
+{
+  "parent": "blazeandcave:nether/blaze_extinguisher",
+  "criteria": {
+    "rod_in_the_fortress": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blaze_rod"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_nether",
+            "structures": "minecraft:fortress"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_blaze_rod_relay_doorbell"
+  }
+}

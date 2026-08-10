@@ -1,0 +1,24 @@
+{
+  "parent": "blazeandcave:redstone/on_a_rail",
+  "criteria": {
+    "struck_a_rider": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/redstone_rail_duels_doorbell"
+  }
+}

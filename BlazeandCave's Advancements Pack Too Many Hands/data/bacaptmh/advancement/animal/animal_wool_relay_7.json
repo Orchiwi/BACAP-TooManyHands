@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_wool"
+    },
+    "title": {
+      "translate": "Clothier to the Server"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand Wool to other players 1,200 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_wool_relay_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_wool_relay_7"
+  }
+}

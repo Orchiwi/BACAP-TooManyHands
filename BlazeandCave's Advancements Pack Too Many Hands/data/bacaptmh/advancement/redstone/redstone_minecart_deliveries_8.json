@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powered_rail"
+    },
+    "title": {
+      "translate": "Fleet Expansion"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up 950 Minecarts of any kind dropped for you by another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_minecart_deliveries_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_minecart_deliveries_8"
+  }
+}

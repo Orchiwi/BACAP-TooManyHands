@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_redstone_ore"
+    },
+    "title": {
+      "translate": "Circuit of Two"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 32 Redstone Dust dropped for you by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_dust_relay_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_dust_relay_4"
+  }
+}

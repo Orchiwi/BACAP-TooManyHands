@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:disc_fragment_5"
+    },
+    "title": {
+      "translate": "The Silent Exchange"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch 2,500 Echo Shards thrown to you by another player in the Deep Dark (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_echo_handoff_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_echo_handoff_8"
+  }
+}

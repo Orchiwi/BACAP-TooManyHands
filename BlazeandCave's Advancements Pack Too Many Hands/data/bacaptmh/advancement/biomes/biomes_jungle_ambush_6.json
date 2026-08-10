@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:melon"
+    },
+    "title": {
+      "translate": "Every Leaf a Knife"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 800 hits from another player in a jungle (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_jungle_ambush_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_jungle_ambush_6"
+  }
+}

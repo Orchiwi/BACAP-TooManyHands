@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_hoe"
+    },
+    "title": {
+      "translate": "Land Dispute"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hit another player with a Hoe 12 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_hoe_brawl_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_hoe_brawl_2"
+  }
+}

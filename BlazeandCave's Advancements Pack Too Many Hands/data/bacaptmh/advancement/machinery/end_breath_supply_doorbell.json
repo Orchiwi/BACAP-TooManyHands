@@ -1,0 +1,32 @@
+{
+  "parent": "blazeandcave:end/why_do_i_hear_boss_music",
+  "criteria": {
+    "breath_supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dragon_breath",
+            "minecraft:lingering_potion"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_breath_supply_doorbell"
+  }
+}

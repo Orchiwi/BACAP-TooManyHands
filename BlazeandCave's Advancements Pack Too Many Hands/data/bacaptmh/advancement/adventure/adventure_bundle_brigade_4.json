@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brown_bundle"
+    },
+    "title": {
+      "translate": "Pockets Not My Own"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed 50 Bundles by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_bundle_brigade_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_bundle_brigade_4"
+  }
+}

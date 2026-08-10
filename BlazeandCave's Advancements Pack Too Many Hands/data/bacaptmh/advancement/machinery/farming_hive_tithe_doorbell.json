@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:farming/sugar_sugar",
+  "criteria": {
+    "sweetness_passed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_bottle",
+            "minecraft:honeycomb",
+            "minecraft:sugar",
+            "minecraft:sugar_cane"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_hive_tithe_doorbell"
+  }
+}

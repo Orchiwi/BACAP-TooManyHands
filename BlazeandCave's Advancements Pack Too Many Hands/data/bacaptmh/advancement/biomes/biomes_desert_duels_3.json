@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dead_bush"
+    },
+    "title": {
+      "translate": "Dust Settles Slowly"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill 40 players in a desert (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_desert_duels_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_desert_duels_3"
+  }
+}

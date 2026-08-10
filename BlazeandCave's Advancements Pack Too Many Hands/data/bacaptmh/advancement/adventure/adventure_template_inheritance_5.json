@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ward_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Trims Are a Team Sport"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 70 Smithing Templates by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_template_inheritance_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_template_inheritance_5"
+  }
+}

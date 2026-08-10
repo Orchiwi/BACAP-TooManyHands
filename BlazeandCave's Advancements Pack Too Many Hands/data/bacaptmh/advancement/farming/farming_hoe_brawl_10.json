@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_hoe"
+    },
+    "title": {
+      "translate": "The Last Harvest"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hit another player with a Hoe 6,000 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_hoe_brawl_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_hoe_brawl_10"
+  }
+}

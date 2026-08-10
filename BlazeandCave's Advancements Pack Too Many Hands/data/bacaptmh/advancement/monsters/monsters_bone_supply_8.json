@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_spawn_egg"
+    },
+    "title": {
+      "translate": "The Great Bone Drive"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Donate 2500 bones to anyone willing to carry them (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_bone_supply_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_bone_supply_8"
+  }
+}

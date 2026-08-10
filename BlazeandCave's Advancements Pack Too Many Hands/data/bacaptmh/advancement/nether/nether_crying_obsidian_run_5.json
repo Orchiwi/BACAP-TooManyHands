@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_dye"
+    },
+    "title": {
+      "translate": "Charged by Committee"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Crying Obsidian from another player in the Nether 240 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_crying_obsidian_run_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_crying_obsidian_run_5"
+  }
+}

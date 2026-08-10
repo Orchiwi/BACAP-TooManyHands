@@ -1,0 +1,28 @@
+{
+  "parent": "blazeandcave:farming/the_pie",
+  "criteria": {
+    "sweets_delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cake",
+            "minecraft:pumpkin_pie",
+            "minecraft:cookie"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/farming_bakery_run_doorbell"
+  }
+}

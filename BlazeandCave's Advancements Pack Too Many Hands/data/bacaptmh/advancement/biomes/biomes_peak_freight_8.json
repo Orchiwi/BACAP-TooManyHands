@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "Two Hundred Blocks and Climbing"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Catch 4,000 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_peak_freight_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_peak_freight_8"
+  }
+}

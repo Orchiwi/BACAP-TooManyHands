@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_bundle"
+    },
+    "title": {
+      "translate": "The Communal Kit"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 300 Bundles by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_bundle_brigade_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_bundle_brigade_6"
+  }
+}

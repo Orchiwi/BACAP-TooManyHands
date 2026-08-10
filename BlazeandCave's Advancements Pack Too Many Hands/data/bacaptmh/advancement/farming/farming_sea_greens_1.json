@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:kelp"
+    },
+    "title": {
+      "translate": "Kelp Wanted"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed Kelp or Sea Pickles by another player 4 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/kelp_me",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_sea_greens_1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:potion/noxious_fumes",
+  "criteria": {
+    "consignment": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lingering_potion"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/potion_lingering_trade_doorbell"
+  }
+}

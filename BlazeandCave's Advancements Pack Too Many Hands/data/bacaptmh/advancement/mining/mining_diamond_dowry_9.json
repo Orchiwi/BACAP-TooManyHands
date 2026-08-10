@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_horse_armor"
+    },
+    "title": {
+      "translate": "Crushing Depths Together"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Pick up Diamonds thrown to you by another player 4,500 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_diamond_dowry_8",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_diamond_dowry_9"
+  }
+}

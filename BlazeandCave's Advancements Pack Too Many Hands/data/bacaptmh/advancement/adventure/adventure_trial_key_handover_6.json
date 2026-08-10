@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_spawner"
+    },
+    "title": {
+      "translate": "Every Door Is Ours"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed 250 Trial Keys by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_trial_key_handover_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_trial_key_handover_6"
+  }
+}

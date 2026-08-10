@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_coal_ore"
+    },
+    "title": {
+      "translate": "Carbon Copies"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Coal or Charcoal thrown to you by another player 1,000 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_coal_ration_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_coal_ration_7"
+  }
+}

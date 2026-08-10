@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
+    },
+    "title": {
+      "translate": "Full Kit, Not Mine"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 175 armour pieces enchanted with Protection IV from another player's hand (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:enchanting/enchanting_protection_details_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_protection_details_5"
+  }
+}

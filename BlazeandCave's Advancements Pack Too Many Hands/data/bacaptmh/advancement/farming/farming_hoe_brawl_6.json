@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
+    },
+    "title": {
+      "translate": "Harrowing"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hit another player with a Hoe 350 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_hoe_brawl_5",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_hoe_brawl_6"
+  }
+}

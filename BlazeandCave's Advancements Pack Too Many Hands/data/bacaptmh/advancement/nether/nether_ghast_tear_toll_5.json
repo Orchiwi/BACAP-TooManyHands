@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Sorrow, Airmailed"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lob a Ghast Tear across five blocks to another player 250 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_ghast_tear_toll_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_ghast_tear_toll_5"
+  }
+}

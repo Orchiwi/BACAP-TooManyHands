@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz"
+    },
+    "title": {
+      "translate": "Comparing Notes"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pick up 10 Redstone Comparators dropped for you by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:redstone/redstone_comparator_swaps_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/redstone_comparator_swaps_2"
+  }
+}

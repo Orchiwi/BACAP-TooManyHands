@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_rabbit"
+    },
+    "title": {
+      "translate": "Chuckwagon"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player Cooked Meat 175 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_roast_relay_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_roast_relay_5"
+  }
+}

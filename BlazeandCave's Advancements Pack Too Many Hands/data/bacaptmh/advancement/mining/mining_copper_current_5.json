@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_bars"
+    },
+    "title": {
+      "translate": "The Copper Conduit"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick up Copper Ingots thrown to you by another player 250 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:mining/mining_copper_current_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/mining_copper_current_5"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "blazeandcave:end/purpurfect",
+  "criteria": {
+    "purpur_delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:purpur_block",
+            "minecraft:purpur_pillar",
+            "minecraft:purpur_slab",
+            "minecraft:purpur_stairs"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:end_city"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/end_purpur_freight_doorbell"
+  }
+}

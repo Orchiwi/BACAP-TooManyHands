@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_pickle"
+    },
+    "title": {
+      "translate": "Pickle Runner"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch 10 Sea Pickles thrown to you by another player in a warm ocean (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/the_great_blocky_reef",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_reef_relay_1"
+  }
+}

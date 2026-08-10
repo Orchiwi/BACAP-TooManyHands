@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_helmet"
+    },
+    "title": {
+      "translate": "Issued and Accounted For"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take 100 weapons or shields thrown to you by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:statistics/statistics_war_supplies_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/statistics_war_supplies_5"
+  }
+}

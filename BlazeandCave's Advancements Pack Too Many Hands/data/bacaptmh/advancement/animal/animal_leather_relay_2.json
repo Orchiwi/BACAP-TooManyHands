@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_hide"
+    },
+    "title": {
+      "translate": "Hide and Sought"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Leather or Rabbit Hide from another player's hand 20 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:animal/animal_leather_relay_1",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/animal_leather_relay_2"
+  }
+}

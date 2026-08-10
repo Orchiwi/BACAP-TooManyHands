@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_horse_spawn_egg"
+    },
+    "title": {
+      "translate": "Bones Beyond Counting"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand out 10000 bones and never once keep them (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_bone_supply_9",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_bone_supply_10"
+  }
+}

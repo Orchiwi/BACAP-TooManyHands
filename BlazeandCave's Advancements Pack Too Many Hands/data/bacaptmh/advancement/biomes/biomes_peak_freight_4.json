@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snow_block"
+    },
+    "title": {
+      "translate": "The High Ice Road"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch 125 blocks of Packed or Blue Ice thrown to you above y=200 on a mountain peak (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_peak_freight_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_peak_freight_4"
+  }
+}

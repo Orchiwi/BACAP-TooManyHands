@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:burn_pottery_sherd"
+    },
+    "title": {
+      "translate": "Ash Immune"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be given Fire Resistance by another player 2,800 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:potion/potion_fireproofing_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/potion_fireproofing_8"
+  }
+}

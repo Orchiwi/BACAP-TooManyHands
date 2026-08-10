@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "Cloud Nine Contractor"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch Slow Falling from a potion another player threw 28 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_scaffold_safety_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_scaffold_safety_4"
+  }
+}

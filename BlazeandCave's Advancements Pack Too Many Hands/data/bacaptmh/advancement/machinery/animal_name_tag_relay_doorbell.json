@@ -1,0 +1,26 @@
+{
+  "parent": "blazeandcave:animal/animal_kingdom",
+  "criteria": {
+    "name_tag_handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_name_tag_relay_doorbell"
+  }
+}

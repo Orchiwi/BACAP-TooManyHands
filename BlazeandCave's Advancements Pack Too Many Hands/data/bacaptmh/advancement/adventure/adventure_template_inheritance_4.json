@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wild_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "The Borrowed Blueprint"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed 30 Smithing Templates by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_template_inheritance_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_template_inheritance_4"
+  }
+}

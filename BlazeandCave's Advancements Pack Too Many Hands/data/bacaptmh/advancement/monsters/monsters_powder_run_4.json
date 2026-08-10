@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt_minecart"
+    },
+    "title": {
+      "translate": "Sapper's Assistant"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Keep a teammate's blasting supplied with 100 charges (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_powder_run_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_powder_run_4"
+  }
+}

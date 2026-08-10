@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:coal"
+    },
+    "title": {
+      "translate": "Lucky Loaner"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take 6 tools enchanted with Fortune III from another player's hand (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/fortunate_son",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/enchanting_fortune_dividends_1"
+  }
+}

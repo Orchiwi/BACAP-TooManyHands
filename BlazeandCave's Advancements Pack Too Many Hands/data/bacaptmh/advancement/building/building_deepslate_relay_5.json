@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate_bricks"
+    },
+    "title": {
+      "translate": "The Deep Order"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player 32 or more Deepslate blocks 65 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:building/building_deepslate_relay_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/building_deepslate_relay_5"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:quartz_slab"
+    },
+    "title": {
+      "translate": "Bleached the Bedrock"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take Nether Quartz from another player's hand 2,500 times (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_quartz_relay_7",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_quartz_relay_8"
+  }
+}

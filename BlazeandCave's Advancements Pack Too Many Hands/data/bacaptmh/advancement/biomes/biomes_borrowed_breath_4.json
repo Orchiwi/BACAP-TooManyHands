@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lingering_potion"
+    },
+    "title": {
+      "translate": "The Breathing Circle"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be given Water Breathing by another player 150 times while underwater (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/biomes_borrowed_breath_3",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/biomes_borrowed_breath_4"
+  }
+}

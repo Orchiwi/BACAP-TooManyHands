@@ -1,0 +1,30 @@
+{
+  "parent": "blazeandcave:monsters/camouflage",
+  "criteria": {
+    "killed_in_costume": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player"
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:skeleton_skull",
+                "minecraft:wither_skeleton_skull",
+                "minecraft:zombie_head",
+                "minecraft:creeper_head",
+                "minecraft:piglin_head",
+                "minecraft:dragon_head"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/monsters_trophy_hunt_doorbell"
+  }
+}

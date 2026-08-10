@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:coast_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Traced from Another"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed 12 Smithing Templates by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:adventure/adventure_template_inheritance_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/adventure_template_inheritance_3"
+  }
+}

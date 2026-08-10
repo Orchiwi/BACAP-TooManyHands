@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:purple_stained_glass"
+    },
+    "title": {
+      "translate": "Beds Are for the Overworld"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Crying Obsidian from another player in the Nether 1,400 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_crying_obsidian_run_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_crying_obsidian_run_7"
+  }
+}

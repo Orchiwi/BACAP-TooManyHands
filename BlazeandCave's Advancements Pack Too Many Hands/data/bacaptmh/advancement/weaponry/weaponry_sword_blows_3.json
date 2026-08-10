@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_sword"
+    },
+    "title": {
+      "translate": "Steel Answers Steel"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Land 50 Sword blows on other players (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:weaponry/weaponry_sword_blows_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/weaponry_sword_blows_3"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "blazeandcave:statistics/big_spender",
+  "criteria": {
+    "munitions_delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:arrow",
+            "minecraft:spectral_arrow",
+            "minecraft:tipped_arrow",
+            "minecraft:firework_rocket",
+            "minecraft:snowball",
+            "minecraft:egg",
+            "minecraft:wind_charge",
+            "minecraft:fire_charge",
+            "minecraft:ender_pearl",
+            "minecraft:splash_potion",
+            "minecraft:lingering_potion"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/statistics_ammo_shipments_doorbell"
+  }
+}

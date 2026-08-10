@@ -1,0 +1,30 @@
+{
+  "parent": "blazeandcave:animal/a_horse_in_shining_armor",
+  "criteria": {
+    "barding_taken_from_you": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_horse_armor",
+            "minecraft:iron_horse_armor",
+            "minecraft:golden_horse_armor",
+            "minecraft:diamond_horse_armor",
+            "minecraft:wolf_armor"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_barding_relay_doorbell"
+  }
+}

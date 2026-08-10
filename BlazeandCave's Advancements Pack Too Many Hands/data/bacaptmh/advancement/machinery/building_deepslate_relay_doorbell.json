@@ -1,0 +1,36 @@
+{
+  "parent": "blazeandcave:building/deepslate_conspiracy",
+  "criteria": {
+    "deep_stock_passed_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:deepslate",
+            "minecraft:cobbled_deepslate",
+            "minecraft:polished_deepslate",
+            "minecraft:deepslate_bricks",
+            "minecraft:cracked_deepslate_bricks",
+            "minecraft:deepslate_tiles",
+            "minecraft:cracked_deepslate_tiles",
+            "minecraft:chiseled_deepslate"
+          ],
+          "count": {
+            "min": 32
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/building_deepslate_relay_doorbell"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_shovel"
+    },
+    "title": {
+      "translate": "Shovelled Their Way"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a full stack of Netherrack 30 times (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:nether/nether_netherrack_haul_2",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nether_netherrack_haul_3"
+  }
+}

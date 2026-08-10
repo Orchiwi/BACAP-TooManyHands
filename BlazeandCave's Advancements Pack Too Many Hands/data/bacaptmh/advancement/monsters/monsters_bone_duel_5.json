@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_spawn_egg"
+    },
+    "title": {
+      "translate": "Bonebreaker"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hit another player 250 times with the crudest weapon there is (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:monsters/monsters_bone_duel_4",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/monsters_bone_duel_5"
+  }
+}

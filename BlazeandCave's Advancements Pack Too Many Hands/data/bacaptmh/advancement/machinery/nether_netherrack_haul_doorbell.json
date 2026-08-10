@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:nether/nether_rock_collection",
+  "criteria": {
+    "stack_handed_off": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherrack"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/nether_netherrack_haul_doorbell"
+  }
+}

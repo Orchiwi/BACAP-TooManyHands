@@ -1,0 +1,29 @@
+{
+  "parent": "blazeandcave:animal/which_came_first",
+  "criteria": {
+    "eggs_taken_from_you": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:egg",
+            "minecraft:blue_egg",
+            "minecraft:brown_egg",
+            "minecraft:turtle_egg"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/animal_egg_relay_doorbell"
+  }
+}

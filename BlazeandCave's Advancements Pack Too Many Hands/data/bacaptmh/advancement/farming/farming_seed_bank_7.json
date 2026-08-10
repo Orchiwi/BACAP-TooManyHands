@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pitcher_pod"
+    },
+    "title": {
+      "translate": "Germination Guild"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player Seeds 800 times (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:farming/farming_seed_bank_6",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/farming_seed_bank_7"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "blazeandcave:adventure/treasure_map",
+  "criteria": {
+    "handed_to_me": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:map",
+            "minecraft:filled_map"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/adventure_map_relay_doorbell"
+  }
+}

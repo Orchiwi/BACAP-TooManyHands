@@ -1,0 +1,28 @@
+{
+  "parent": "blazeandcave:potion/death_by_magic",
+  "criteria": {
+    "bombarded": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:splash_potion"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:machinery/potion_bombardier_doorbell"
+  }
+}
