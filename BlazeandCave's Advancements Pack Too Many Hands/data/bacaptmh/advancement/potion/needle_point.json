@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:potion/milk_run",
+  "parent": "blazeandcave:potion/imbued_projectiles",
   "criteria": {
     "poison": {
       "trigger": "minecraft:player_hurt_entity",

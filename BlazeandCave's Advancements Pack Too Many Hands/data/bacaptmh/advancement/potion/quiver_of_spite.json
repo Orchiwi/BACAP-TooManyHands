@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:potion/potion_venom_service_19",
+  "parent": "bacaptmh:potion/pinned_down",
   "criteria": {
     "poison": {
       "trigger": "minecraft:player_hurt_entity",

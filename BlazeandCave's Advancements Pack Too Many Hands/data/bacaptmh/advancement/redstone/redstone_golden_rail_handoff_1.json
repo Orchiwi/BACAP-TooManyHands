@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:redstone/redstone_fuel_runs_10",
+  "parent": "blazeandcave:redstone/electric_rails",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"

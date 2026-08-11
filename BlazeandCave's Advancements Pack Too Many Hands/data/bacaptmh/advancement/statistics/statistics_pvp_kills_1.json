@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:statistics/statistics_pvp_deaths_20",
+  "parent": "blazeandcave:statistics/kill_or_be_killed",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"

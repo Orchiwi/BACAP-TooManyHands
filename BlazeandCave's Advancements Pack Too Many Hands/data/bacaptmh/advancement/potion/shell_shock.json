@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:potion/sharpshooter_surgeon",
+  "parent": "blazeandcave:potion/tank",
   "criteria": {
     "shell_shock": {
       "trigger": "minecraft:effects_changed",

@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:mining/mining_amethyst_offering_20",
+  "parent": "bacaptmh:mining/mineshaft_mixtape",
   "criteria": {
     "diamonds": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

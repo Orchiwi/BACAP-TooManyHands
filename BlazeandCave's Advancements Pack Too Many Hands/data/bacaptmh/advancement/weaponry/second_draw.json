@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:weaponry/off_hand_offer",
+  "parent": "blazeandcave:weaponry/the_mighty_hunter",
   "criteria": {
     "handed_the_bow": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

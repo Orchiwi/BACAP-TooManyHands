@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:potion/potion_finishing_dose_10",
+  "parent": "blazeandcave:potion/final_shout",
   "criteria": {
     "impossible": {
       "trigger": "minecraft:impossible"

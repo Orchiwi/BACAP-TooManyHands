@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:nether/now_playing",
+  "parent": "blazeandcave:nether/from_whence_it_came",
   "criteria": {
     "handed": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

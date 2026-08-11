@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:animal/you_lead_ill_follow",
+  "parent": "bacaptmh:animal/caravan_ambush",
   "criteria": {
     "given_a_lead": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

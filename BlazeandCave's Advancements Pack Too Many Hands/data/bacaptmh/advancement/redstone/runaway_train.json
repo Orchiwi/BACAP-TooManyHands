@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "bacaptmh:redstone/redstone_slime_and_honey_10",
+  "parent": "bacaptmh:redstone/rail_retrieval",
   "criteria": {
     "blown_up": {
       "trigger": "minecraft:entity_hurt_player",
