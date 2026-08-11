@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin"
+    },
+    "title": {
+      "translate": "Lantern Row"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a Jack o' Lantern while you are both standing on top of the pumpkin patch (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/pumpa_kungen",
+  "criteria": {
+    "lit_the_row": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:jack_o_lantern"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:pumpkin",
+                "minecraft:carved_pumpkin",
+                "minecraft:jack_o_lantern"
+              ]
+            }
+          }
+        },
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:pumpkin",
+                "minecraft:carved_pumpkin",
+                "minecraft:jack_o_lantern"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/lantern_row"
+  }
+}

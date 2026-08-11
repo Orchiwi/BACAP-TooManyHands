@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "Wings in a Box"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a Shulker Box with nothing inside it but an Elytra (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/organizational_wizard",
+  "criteria": {
+    "posted": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shulker_box"
+          ],
+          "components": {
+            "minecraft:container": [
+              {
+                "slot": 0,
+                "item": {
+                  "id": "minecraft:elytra"
+                }
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/wings_in_a_box"
+  }
+}

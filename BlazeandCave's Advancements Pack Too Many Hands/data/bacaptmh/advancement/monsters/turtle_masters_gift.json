@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_scute"
+    },
+    "title": {
+      "translate": "Turtle Master's Gift"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take the Turtle Master's Slowness and Resistance together from another player's brew (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/miracle_drink",
+  "criteria": {
+    "turtled": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {},
+          "minecraft:resistance": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/turtle_masters_gift"
+  }
+}

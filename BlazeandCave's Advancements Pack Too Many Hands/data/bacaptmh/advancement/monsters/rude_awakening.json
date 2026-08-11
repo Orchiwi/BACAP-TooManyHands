@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_bed"
+    },
+    "title": {
+      "translate": "Rude Awakening"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Climb into a Bed to shake off the Phantoms and take a teammate's fist for it (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/the_phantom_menace",
+  "criteria": {
+    "turned_in": {
+      "trigger": "minecraft:slept_in_bed"
+    },
+    "woken_up": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/rude_awakening"
+  }
+}

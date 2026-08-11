@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "Dowry of Wheat"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Breed a pair of animals on Wheat another player farmed and threw you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/the_parrots_and_the_bats",
+  "criteria": {
+    "wheat_gift": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:wheat"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    },
+    "matched": {
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/dowry_of_wheat"
+  }
+}

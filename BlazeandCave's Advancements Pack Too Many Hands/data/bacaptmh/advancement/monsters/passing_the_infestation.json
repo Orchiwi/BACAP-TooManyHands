@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:infested_stone"
+    },
+    "title": {
+      "translate": "Passing the Infestation"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a block of Infested Stone from another player while you are both deep underground (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/termite_control",
+  "criteria": {
+    "handed_the_nest": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:infested_stone"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/passing_the_infestation"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:strider_spawn_egg"
+    },
+    "title": {
+      "translate": "Unstrided"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pick another player off their Strider while they are out over the lava (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/poseidon_vs_hades",
+  "criteria": {
+    "unstrided": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:strider"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/unstrided"
+  }
+}

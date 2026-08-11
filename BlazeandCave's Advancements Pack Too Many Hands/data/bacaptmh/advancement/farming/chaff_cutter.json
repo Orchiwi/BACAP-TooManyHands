@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hay_block"
+    },
+    "title": {
+      "translate": "Chaff Cutter"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed a full stack of Wheat by another player and bale the lot into Hay Blocks (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/hay_there",
+  "criteria": {
+    "handed_grain": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wheat"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "baled": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:hay_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/chaff_cutter"
+  }
+}

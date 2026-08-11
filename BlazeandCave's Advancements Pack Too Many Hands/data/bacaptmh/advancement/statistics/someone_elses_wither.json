@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "Someone Else's Wither"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Light a full-power Beacon with a Nether Star another player earned and threw to you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/giga_xp_grinder",
+  "criteria": {
+    "the_star": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:nether_star"
+          ]
+        }
+      }
+    },
+    "the_beacon": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 4
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/someone_elses_wither"
+  }
+}

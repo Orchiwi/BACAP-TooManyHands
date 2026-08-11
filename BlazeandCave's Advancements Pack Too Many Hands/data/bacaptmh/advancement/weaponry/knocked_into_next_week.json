@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:piston"
+    },
+    "title": {
+      "translate": "Knocked Into Next Week"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get sent flying by a Knockback II Sword in another player's hands (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "launched": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          },
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:wooden_sword",
+                  "minecraft:stone_sword",
+                  "minecraft:copper_sword",
+                  "minecraft:iron_sword",
+                  "minecraft:golden_sword",
+                  "minecraft:diamond_sword",
+                  "minecraft:netherite_sword"
+                ],
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "minecraft:knockback",
+                      "levels": {
+                        "min": 2
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/knocked_into_next_week"
+  }
+}

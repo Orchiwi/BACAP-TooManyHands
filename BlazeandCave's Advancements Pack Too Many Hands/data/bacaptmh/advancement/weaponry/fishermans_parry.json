@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Fisherman's Parry"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch another player's Trident swing on your Shield before they ever think to throw it (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/master_shieldsman",
+  "criteria": {
+    "parried": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          },
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:trident"
+                ]
+              }
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:shield"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/fishermans_parry"
+  }
+}

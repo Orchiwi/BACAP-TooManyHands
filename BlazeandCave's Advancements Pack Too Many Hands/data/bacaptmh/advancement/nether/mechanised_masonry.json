@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "Mechanised Masonry"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Let a Crafter turn another player's Blackstone into Polished Blackstone (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/dark_ages",
+  "criteria": {
+    "blackstone": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blackstone"
+          ],
+          "count": {
+            "min": 4
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "automated": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:polished_blackstone"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/mechanised_masonry"
+  }
+}

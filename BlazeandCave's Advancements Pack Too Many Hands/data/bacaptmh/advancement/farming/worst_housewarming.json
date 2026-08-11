@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dead_bush"
+    },
+    "title": {
+      "translate": "Worst Housewarming"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Accept a Dead Bush from another player, then plant it in a Badlands where it belongs (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/yay_deadbush",
+  "criteria": {
+    "gifted": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dead_bush"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "landscaped": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dead_bush"
+                ]
+              },
+              "biomes": [
+                "minecraft:badlands",
+                "minecraft:eroded_badlands",
+                "minecraft:wooded_badlands"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/worst_housewarming"
+  }
+}

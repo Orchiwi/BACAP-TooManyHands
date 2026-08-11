@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spore_blossom"
+    },
+    "title": {
+      "translate": "Spore Exchange"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pass a Spore Blossom to another player with the ceiling of a Lush Cave over both your heads (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/particle_fan",
+  "criteria": {
+    "passed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:spore_blossom"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:lush_caves"
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:lush_caves"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/spore_exchange"
+  }
+}

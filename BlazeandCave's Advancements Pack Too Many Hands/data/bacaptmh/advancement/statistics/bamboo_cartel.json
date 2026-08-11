@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo"
+    },
+    "title": {
+      "translate": "Bamboo Cartel"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Breed two Pandas in a Jungle from Bamboo shipped in by another player (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/the_parrots_and_the_bats",
+  "criteria": {
+    "shipment": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:bamboo"
+          ],
+          "count": {
+            "min": 8
+          }
+        }
+      }
+    },
+    "cub": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:panda",
+          "location": {
+            "biomes": [
+              "minecraft:jungle",
+              "minecraft:bamboo_jungle",
+              "minecraft:sparse_jungle"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/bamboo_cartel"
+  }
+}

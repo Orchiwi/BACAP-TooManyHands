@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "Two Man Drill"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take another player's Efficiency V Netherite Pickaxe and grind a thousand blocks off its life (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/iconic_merchandising_prop",
+  "criteria": {
+    "borrowed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_pickaxe"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:efficiency",
+                "levels": {
+                  "min": 5
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "worn_down": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_pickaxe"
+          ]
+        },
+        "durability": {
+          "max": 1031
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/two_man_drill"
+  }
+}

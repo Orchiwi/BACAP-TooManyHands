@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:coal"
+    },
+    "title": {
+      "translate": "Coal Face"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a full stack of Coal off another player and turn the seam into Torches (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/coal_miner",
+  "criteria": {
+    "seam": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:coal"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "torches": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:torch"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/coal_face"
+  }
+}

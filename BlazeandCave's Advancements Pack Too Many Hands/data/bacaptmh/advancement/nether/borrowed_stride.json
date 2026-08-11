@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_boots"
+    },
+    "title": {
+      "translate": "Borrowed Stride"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wear the Soul Speed clean off another player's boots until they snap (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/soul_runnings",
+  "criteria": {
+    "lent_boots": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:soul_speed"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "worn_out": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:soul_speed"
+              }
+            ]
+          }
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/borrowed_stride"
+  }
+}

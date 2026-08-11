@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_stew"
+    },
+    "title": {
+      "translate": "Waiter, There's a Rabbit in My Stew"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat a bowl of Rabbit Stew and throw the empty Bowl back to the player who cooked it (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/om_nom_nom",
+  "criteria": {
+    "the_meal": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rabbit_stew"
+          ]
+        }
+      }
+    },
+    "the_dishes": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:bowl"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/waiter_theres_a_rabbit_in_my_stew"
+  }
+}

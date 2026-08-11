@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_tuff"
+    },
+    "title": {
+      "translate": "Packwall"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft Tuff Bricks out of the Tuff another player cleared from the workings (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/oresome",
+  "criteria": {
+    "cleared": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:tuff"
+          ],
+          "count": {
+            "min": 32
+          }
+        }
+      }
+    },
+    "bricked": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tuff_bricks"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/packwall"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest_minecart"
+    },
+    "title": {
+      "translate": "Wagonload"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed a Chest Minecart, a Hopper Minecart and a TNT Minecart without once stepping off the rails (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/moving_storage",
+  "criteria": {
+    "chest_cart": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chest_minecart"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:rail",
+                    "minecraft:powered_rail",
+                    "minecraft:detector_rail",
+                    "minecraft:activator_rail"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hopper_cart": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:hopper_minecart"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:rail",
+                    "minecraft:powered_rail",
+                    "minecraft:detector_rail",
+                    "minecraft:activator_rail"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tnt_cart": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tnt_minecart"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:rail",
+                    "minecraft:powered_rail",
+                    "minecraft:detector_rail",
+                    "minecraft:activator_rail"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/wagonload"
+  }
+}

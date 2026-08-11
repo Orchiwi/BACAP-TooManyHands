@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_ingot"
+    },
+    "title": {
+      "translate": "Cross Measure"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry Ancient Debris another player handed you in the Nether back through the portal into daylight (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/iconic_merchandising_prop",
+  "criteria": {
+    "loaded": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:ancient_debris"
+          ],
+          "count": {
+            "min": 4
+          }
+        }
+      }
+    },
+    "carried_home": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:the_nether",
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/cross_measure"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "Downdraft"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Swat another player out of the sky with a Wind Charge from at least thirty blocks below them (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/kill_or_be_killed",
+  "criteria": {
+    "swatted": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            },
+            "y": {
+              "min": 30
+            }
+          }
+        },
+        "damage": {
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/downdraft"
+  }
+}

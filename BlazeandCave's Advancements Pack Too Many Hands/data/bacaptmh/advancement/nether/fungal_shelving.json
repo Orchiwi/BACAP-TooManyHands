@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_shelf"
+    },
+    "title": {
+      "translate": "Fungal Shelving"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Build a Warped Shelf out of planks another player cut from the blue forest (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/welcome_to_warp_zone",
+  "criteria": {
+    "planks_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:warped_planks"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "shelved": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:warped_shelf"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/fungal_shelving"
+  }
+}

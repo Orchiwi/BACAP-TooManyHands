@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Deflection Drill"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Turn a Phantom's swoop aside with your shield, then catch a teammate's blow on the same shield (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/ricochet_swoop",
+  "criteria": {
+    "phantom_turned": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:phantom"
+          },
+          "blocked": true
+        }
+      }
+    },
+    "friend_turned": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          },
+          "blocked": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/deflection_drill"
+  }
+}

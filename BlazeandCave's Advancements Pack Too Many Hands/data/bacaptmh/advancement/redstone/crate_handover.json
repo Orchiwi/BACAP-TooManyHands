@@ -1,0 +1,90 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "Crate Handover"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take an empty Shulker Box off another player, pack it full and hand the loaded crate straight back (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/sculker_box",
+  "criteria": {
+    "received": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shulker_box",
+            "minecraft:white_shulker_box",
+            "minecraft:orange_shulker_box",
+            "minecraft:magenta_shulker_box",
+            "minecraft:light_blue_shulker_box",
+            "minecraft:yellow_shulker_box",
+            "minecraft:lime_shulker_box",
+            "minecraft:pink_shulker_box",
+            "minecraft:gray_shulker_box",
+            "minecraft:light_gray_shulker_box",
+            "minecraft:cyan_shulker_box",
+            "minecraft:purple_shulker_box",
+            "minecraft:blue_shulker_box",
+            "minecraft:brown_shulker_box",
+            "minecraft:green_shulker_box",
+            "minecraft:red_shulker_box",
+            "minecraft:black_shulker_box"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "returned": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shulker_box",
+            "minecraft:white_shulker_box",
+            "minecraft:orange_shulker_box",
+            "minecraft:magenta_shulker_box",
+            "minecraft:light_blue_shulker_box",
+            "minecraft:yellow_shulker_box",
+            "minecraft:lime_shulker_box",
+            "minecraft:pink_shulker_box",
+            "minecraft:gray_shulker_box",
+            "minecraft:light_gray_shulker_box",
+            "minecraft:cyan_shulker_box",
+            "minecraft:purple_shulker_box",
+            "minecraft:blue_shulker_box",
+            "minecraft:brown_shulker_box",
+            "minecraft:green_shulker_box",
+            "minecraft:red_shulker_box",
+            "minecraft:black_shulker_box"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/crate_handover"
+  }
+}

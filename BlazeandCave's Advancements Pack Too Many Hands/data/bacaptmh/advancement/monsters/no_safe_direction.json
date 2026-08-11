@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_sensor"
+    },
+    "title": {
+      "translate": "No Safe Direction"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a hit from the Warden and a hit from your own teammate inside the same Ancient City (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/now_thats_a_lot_of_damage",
+  "criteria": {
+    "warden_hit": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:warden"
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:ancient_city"
+          }
+        }
+      }
+    },
+    "friendly_hit": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:ancient_city"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/no_safe_direction"
+  }
+}

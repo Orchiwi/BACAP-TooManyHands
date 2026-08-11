@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sweet_berries"
+    },
+    "title": {
+      "translate": "Berry Bad Way to Go"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Get finished off by another player while you are tangled up in a Sweet Berry Bush (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/disen_berry_berry_bad",
+  "criteria": {
+    "berried": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player"
+        },
+        "player": {
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:sweet_berry_bush"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/berry_bad_way_to_go"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace"
+    },
+    "title": {
+      "translate": "Two-Man Furnace"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed eight Cobblestone by another player and stack them into a Furnace on the spot (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/hot_topic",
+  "criteria": {
+    "stone": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cobblestone"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "furnace": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:furnace"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/two_man_furnace"
+  }
+}

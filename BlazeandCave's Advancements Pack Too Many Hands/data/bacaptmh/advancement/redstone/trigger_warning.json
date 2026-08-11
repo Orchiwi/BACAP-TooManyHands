@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:detector_rail"
+    },
+    "title": {
+      "translate": "Trigger Warning"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Turn a Pressure Plate another player pressed on you into a Detector Rail (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/pressure_detector",
+  "criteria": {
+    "plate": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:stone_pressure_plate"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "converted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:detector_rail"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/trigger_warning"
+  }
+}

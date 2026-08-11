@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "The Cure Is Out There"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Cure a Zombie Villager on an End island using a Golden Apple another player threw across to you (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/cow_jumped_over_the_moon",
+  "criteria": {
+    "apple": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_apple"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "cured": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "zombie": {
+          "entity_type": "minecraft:zombie_villager",
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/the_cure_is_out_there"
+  }
+}

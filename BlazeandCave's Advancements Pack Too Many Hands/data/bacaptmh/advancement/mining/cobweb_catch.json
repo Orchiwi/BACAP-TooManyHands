@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:string"
+    },
+    "title": {
+      "translate": "Cobweb Catch"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed Cobwebs by another player and drop into them to break your own fall (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/eeuuwww",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cobweb"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "caught": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:cobweb"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/cobweb_catch"
+  }
+}

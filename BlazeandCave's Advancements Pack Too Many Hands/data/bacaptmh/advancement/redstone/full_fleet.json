@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace_minecart"
+    },
+    "title": {
+      "translate": "Full Fleet"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Carry all four kinds of Minecart at once, one of them pressed into your hands by another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/all_aboard",
+  "criteria": {
+    "gifted": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:furnace_minecart"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "fleet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:minecart"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:chest_minecart"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:hopper_minecart"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:tnt_minecart"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/full_fleet"
+  }
+}

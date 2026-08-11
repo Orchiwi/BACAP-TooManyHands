@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_harness"
+    },
+    "title": {
+      "translate": "Harness Crew"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Board a Happy Ghast wearing a Harness another player handed you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/test_flight",
+  "criteria": {
+    "harness_gift": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:white_harness",
+            "minecraft:orange_harness",
+            "minecraft:magenta_harness",
+            "minecraft:light_blue_harness",
+            "minecraft:yellow_harness",
+            "minecraft:lime_harness",
+            "minecraft:pink_harness",
+            "minecraft:gray_harness",
+            "minecraft:light_gray_harness",
+            "minecraft:cyan_harness",
+            "minecraft:purple_harness",
+            "minecraft:blue_harness",
+            "minecraft:brown_harness",
+            "minecraft:green_harness",
+            "minecraft:red_harness",
+            "minecraft:black_harness"
+          ]
+        }
+      }
+    },
+    "aboard": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/harness_crew"
+  }
+}

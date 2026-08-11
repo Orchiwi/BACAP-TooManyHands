@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_nether_bricks"
+    },
+    "title": {
+      "translate": "Wart Masonry"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cut Red Nether Bricks out of the Nether Wart another player grew down in the Nether (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/hay_there",
+  "criteria": {
+    "grown": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:nether_wart"
+          ],
+          "count": {
+            "min": 2
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "cut": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_nether_bricks"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/wart_masonry"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_horse_spawn_egg"
+    },
+    "title": {
+      "translate": "Sprung Trap"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have lightning spring a Skeleton Horse Trap right beside you and take a teammate's blow in the same storm (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/the_undead_cavalry",
+  "criteria": {
+    "the_trap": {
+      "trigger": "minecraft:lightning_strike",
+      "conditions": {
+        "bystander": {
+          "entity_type": "minecraft:skeleton_horse"
+        }
+      }
+    },
+    "the_blow": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/sprung_trap"
+  }
+}

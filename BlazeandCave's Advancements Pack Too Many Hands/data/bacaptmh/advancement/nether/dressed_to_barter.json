@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet"
+    },
+    "title": {
+      "translate": "Dressed to Barter"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Die at another player's hand in the Nether dressed head to toe in Gold (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/a_piglins_best_friend",
+  "criteria": {
+    "gilded_death": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:golden_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:golden_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:golden_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:golden_boots"
+                  ]
+                }
+              },
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/dressed_to_barter"
+  }
+}

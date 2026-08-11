@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel"
+    },
+    "title": {
+      "translate": "Shovelled Under"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Bury another player with a Shovel while they flounder in Powder Snow (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/spleaf",
+  "criteria": {
+    "shovelled_under": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:powder_snow"
+              ]
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_shovel",
+                    "minecraft:stone_shovel",
+                    "minecraft:copper_shovel",
+                    "minecraft:iron_shovel",
+                    "minecraft:golden_shovel",
+                    "minecraft:diamond_shovel",
+                    "minecraft:netherite_shovel"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/shovelled_under"
+  }
+}

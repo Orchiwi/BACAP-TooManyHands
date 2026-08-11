@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "Four Chests, Two Hands"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Loot a Bastion, an End City, a Woodland Mansion and a Trial Chambers supply chest, then throw another player their cut (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/i_heart_chests",
+  "criteria": {
+    "bastion": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_treasure"
+      }
+    },
+    "end_city": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/end_city_treasure"
+      }
+    },
+    "mansion": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/woodland_mansion"
+      }
+    },
+    "chambers": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/trial_chambers/supply"
+      }
+    },
+    "their_cut": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/four_chests_two_hands"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gravel"
+    },
+    "title": {
+      "translate": "Dug Out"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed a Shovel by another player while you are buried inside the Gravel yourself (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/my_work_here_is_done",
+  "criteria": {
+    "rescued": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:shovels"
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:gravel"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/dug_out"
+  }
+}

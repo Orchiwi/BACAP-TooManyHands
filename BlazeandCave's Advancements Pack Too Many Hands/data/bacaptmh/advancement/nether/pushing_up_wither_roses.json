@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_rose"
+    },
+    "title": {
+      "translate": "Pushing Up Wither Roses"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player who is standing in a Wither Rose (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/decaying_beauty",
+  "criteria": {
+    "planted_them": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:wither_rose"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/pushing_up_wither_roses"
+  }
+}

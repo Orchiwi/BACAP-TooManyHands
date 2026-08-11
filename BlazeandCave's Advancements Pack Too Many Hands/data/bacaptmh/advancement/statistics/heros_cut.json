@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Hero's Cut"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Earn Hero of the Village and give the Totem of Undying to whoever rang the bell (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/mob_hunter",
+  "criteria": {
+    "the_raid": {
+      "trigger": "minecraft:hero_of_the_village"
+    },
+    "the_cut": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/heros_cut"
+  }
+}

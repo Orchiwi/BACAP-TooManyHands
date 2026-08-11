@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brewing_stand"
+    },
+    "title": {
+      "translate": "Fire Retardant"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Brew Fire Resistance out of Magma Cream another player squished out of a Magma Cube (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/magma_cube_squisher",
+  "criteria": {
+    "cream_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:magma_cream"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "brewed": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:fire_resistance"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/fire_retardant"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "Gold Reserve"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Press nine Gold Ingots another player bartered for into a Block of Gold (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/nugget_in_a_biscuit",
+  "criteria": {
+    "ingots": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gold_ingot"
+          ],
+          "count": {
+            "min": 9
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "pressed": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/gold_reserve"
+  }
+}

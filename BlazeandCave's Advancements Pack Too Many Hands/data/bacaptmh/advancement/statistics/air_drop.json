@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "Air Drop"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pass an item to another player while both of you are gliding on Elytra above Y=200 (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/take_to_the_skies",
+  "criteria": {
+    "midair_handoff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:elytra"
+              ]
+            }
+          },
+          "location": {
+            "position": {
+              "y": {
+                "min": 200
+              }
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "items": [
+                    "minecraft:elytra"
+                  ]
+                }
+              },
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 200
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/air_drop"
+  }
+}

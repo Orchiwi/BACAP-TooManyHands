@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_pottery_sherd"
+    },
+    "title": {
+      "translate": "Long Pass"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch a Splash Potion of Healing thrown to you from at least twenty blocks away (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/medic",
+  "criteria": {
+    "caught": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:splash_potion"
+          ],
+          "predicates": {
+            "minecraft:potion_contents": [
+              "minecraft:healing",
+              "minecraft:strong_healing"
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            },
+            "horizontal": {
+              "min": 20
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/long_pass"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:jukebox"
+    },
+    "title": {
+      "translate": "Dropping the Beat"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player with a Music Disc in your fist while you stand on a Jukebox (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/expelliarmus",
+  "criteria": {
+    "encore": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:music_disc_13",
+                "minecraft:music_disc_cat",
+                "minecraft:music_disc_blocks",
+                "minecraft:music_disc_chirp",
+                "minecraft:music_disc_far",
+                "minecraft:music_disc_mall",
+                "minecraft:music_disc_mellohi",
+                "minecraft:music_disc_stal",
+                "minecraft:music_disc_strad",
+                "minecraft:music_disc_ward",
+                "minecraft:music_disc_11",
+                "minecraft:music_disc_wait",
+                "minecraft:music_disc_otherside",
+                "minecraft:music_disc_5",
+                "minecraft:music_disc_pigstep",
+                "minecraft:music_disc_relic",
+                "minecraft:music_disc_creator",
+                "minecraft:music_disc_precipice"
+              ]
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": "minecraft:jukebox"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/dropping_the_beat"
+  }
+}

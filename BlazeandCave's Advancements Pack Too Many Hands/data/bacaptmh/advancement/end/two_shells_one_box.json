@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_box"
+    },
+    "title": {
+      "translate": "Two Shells, One Box"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft a Shulker Box out of two Shells another player prised off the towers for you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/portable_storage",
+  "criteria": {
+    "shells": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shulker_shell"
+          ],
+          "count": {
+            "min": 2
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "box": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:shulker_box"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/two_shells_one_box"
+  }
+}

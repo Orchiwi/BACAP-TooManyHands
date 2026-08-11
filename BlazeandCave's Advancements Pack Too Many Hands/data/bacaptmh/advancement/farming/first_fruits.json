@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:apple"
+    },
+    "title": {
+      "translate": "First Fruits"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player an Apple while you are still stood up in the Oak Leaves you knocked it out of (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/bapple",
+  "criteria": {
+    "picked_from_the_branch": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:apple"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:oak_leaves",
+                "minecraft:dark_oak_leaves"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/first_fruits"
+  }
+}

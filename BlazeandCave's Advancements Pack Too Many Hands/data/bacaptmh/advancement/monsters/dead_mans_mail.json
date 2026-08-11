@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "Dead Man's Mail"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Strip the Chainmail off a Zombie that spawned wearing it and pass it to another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/zombie_slayer",
+  "criteria": {
+    "stripped_it": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:zombie",
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:chainmail_chestplate"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "passed_it_on": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chainmail_chestplate",
+            "minecraft:chainmail_helmet",
+            "minecraft:chainmail_leggings",
+            "minecraft:chainmail_boots"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/dead_mans_mail"
+  }
+}

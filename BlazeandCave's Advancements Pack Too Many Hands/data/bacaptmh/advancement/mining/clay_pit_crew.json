@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clay_ball"
+    },
+    "title": {
+      "translate": "Clay Pit Crew"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a stack of Clay Balls off another player and pack every one back into Clay (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/spelunker",
+  "criteria": {
+    "balls": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:clay_ball"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "packed": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:clay"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/clay_pit_crew"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potato"
+    },
+    "title": {
+      "translate": "Blight"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch Poison from another player's Splash Potion while you are standing in your own Potato field (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/die_potato",
+  "criteria": {
+    "blighted": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:poison": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": {
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:potatoes"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/blight"
+  }
+}

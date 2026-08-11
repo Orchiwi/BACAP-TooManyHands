@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_boat"
+    },
+    "title": {
+      "translate": "Bulwark at Sea"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Block another player's blow while the pair of you are bobbing about in Oak Boats (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/sir_knight",
+  "criteria": {
+    "naval_guard": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            },
+            "vehicle": {
+              "entity_type": "minecraft:oak_boat"
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "offhand": {
+                  "items": [
+                    "minecraft:shield"
+                  ]
+                }
+              },
+              "vehicle": {
+                "entity_type": "minecraft:oak_boat"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/bulwark_at_sea"
+  }
+}

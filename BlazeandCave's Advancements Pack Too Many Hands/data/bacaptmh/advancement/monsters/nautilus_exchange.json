@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:conduit"
+    },
+    "title": {
+      "translate": "Nautilus Exchange"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft a Conduit out of Nautilus Shells another player dredged up for you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/tridented_shield",
+  "criteria": {
+    "shells_delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:nautilus_shell"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "conduit_built": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:conduit"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/nautilus_exchange"
+  }
+}

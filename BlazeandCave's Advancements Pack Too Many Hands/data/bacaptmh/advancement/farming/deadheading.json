@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dead_bush"
+    },
+    "title": {
+      "translate": "Deadheading"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a Dead Bush while you are both stood in the middle of a Desert (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/yay_deadbush",
+  "criteria": {
+    "gifted_the_worst_plant": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dead_bush"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:desert"
+            ]
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:desert"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/deadheading"
+  }
+}

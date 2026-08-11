@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:scaffolding"
+    },
+    "title": {
+      "translate": "Up and Over"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Climb a tower of Scaffolding another player passed up to you, then jump the whole two hundred blocks back down (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/jumping_jacks",
+  "criteria": {
+    "the_supply": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:scaffolding"
+          ],
+          "count": {
+            "min": 64
+          }
+        }
+      }
+    },
+    "the_climb": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:scaffolding"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "the_descent": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 200.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/up_and_over"
+  }
+}

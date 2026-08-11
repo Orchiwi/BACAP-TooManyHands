@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:strider_spawn_egg"
+    },
+    "title": {
+      "translate": "Ship to Shore"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch supplies thrown by a player riding a Strider out in the middle of a lava sea (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/hot_reels",
+  "criteria": {
+    "delivery": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 5
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:strider",
+            "location": {
+              "fluid": {
+                "fluids": [
+                  "minecraft:lava"
+                ]
+              }
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/ship_to_shore"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_crystals"
+    },
+    "title": {
+      "translate": "Nautical Mile Toll"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player who is sitting in a Boat while you swim alongside it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/sailor_of_the_seven_seas",
+  "criteria": {
+    "boarded_and_taken": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "vehicle": {
+            "entity_type": "#minecraft:boat"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_swimming": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/nautical_mile_toll"
+  }
+}

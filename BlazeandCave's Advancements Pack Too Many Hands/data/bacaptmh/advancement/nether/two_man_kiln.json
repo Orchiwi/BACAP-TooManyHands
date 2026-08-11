@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_bricks"
+    },
+    "title": {
+      "translate": "Two-Man Kiln"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Lay Nether Bricks made from Nether Brick another player smelted out of Netherrack (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/nether_rock_collection",
+  "criteria": {
+    "brick_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:nether_brick"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "fired": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:nether_bricks"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/two_man_kiln"
+  }
+}

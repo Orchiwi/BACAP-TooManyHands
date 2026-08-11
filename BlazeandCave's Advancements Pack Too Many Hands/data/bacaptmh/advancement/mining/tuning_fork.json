@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": {
+      "translate": "Tuning Fork"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Calibrate a Sculk Sensor with an Amethyst Shard that another player threw you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/amethyst_miner",
+  "criteria": {
+    "shard": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:amethyst_shard"
+          ]
+        }
+      }
+    },
+    "calibrated": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:calibrated_sculk_sensor"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/tuning_fork"
+  }
+}

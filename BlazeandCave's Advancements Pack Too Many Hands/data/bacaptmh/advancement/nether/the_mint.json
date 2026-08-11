@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "The Mint"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Press a Block of Gold out of a Crafter using Ingots another player poured in (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/a_piglins_best_friend",
+  "criteria": {
+    "ingots_in": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gold_ingot"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "pressed": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gold_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/the_mint"
+  }
+}

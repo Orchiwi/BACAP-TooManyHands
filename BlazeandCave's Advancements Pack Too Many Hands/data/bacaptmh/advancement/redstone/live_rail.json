@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powered_rail"
+    },
+    "title": {
+      "translate": "Live Rail"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stand on a Powered Rail the moment the player who handed it to you switches it live (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/electric_rails",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:powered_rail"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "live": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:powered_rail",
+        "state": {
+          "powered": "true"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/live_rail"
+  }
+}

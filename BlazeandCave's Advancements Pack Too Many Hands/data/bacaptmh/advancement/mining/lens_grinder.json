@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "Lens Grinder"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Grind a Spyglass out of an Amethyst Shard another player chipped out of the geode for you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/galileo_figaro",
+  "criteria": {
+    "shard": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:amethyst_shard"
+          ]
+        }
+      }
+    },
+    "ground": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spyglass"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/lens_grinder"
+  }
+}

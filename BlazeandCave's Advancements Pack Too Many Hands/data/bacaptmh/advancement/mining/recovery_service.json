@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass"
+    },
+    "title": {
+      "translate": "Recovery Service"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Assemble a Recovery Compass out of Echo Shards another player prised from an Ancient City (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/death_pointer",
+  "criteria": {
+    "shards": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:echo_shard"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "assembled": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:recovery_compass"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/recovery_service"
+  }
+}

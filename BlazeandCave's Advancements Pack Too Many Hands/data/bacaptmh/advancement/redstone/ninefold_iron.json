@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "title": {
+      "translate": "Ninefold Iron"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Press nine Iron Ingots from another player into a Heavy Weighted Pressure Plate and stand on it (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/metal_plate",
+  "criteria": {
+    "ingots": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_ingot"
+          ],
+          "count": {
+            "min": 9
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "pressed": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:heavy_weighted_pressure_plate"
+      }
+    },
+    "weighed": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:heavy_weighted_pressure_plate",
+        "state": {
+          "powered": "true"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/ninefold_iron"
+  }
+}

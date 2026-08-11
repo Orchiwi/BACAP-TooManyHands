@@ -5042,6 +5042,1698 @@
           }
         }
       }
+    },
+    "dowry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/dowry": true
+            }
+          }
+        }
+      }
+    },
+    "shotgun_wedding": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/shotgun_wedding": true
+            }
+          }
+        }
+      }
+    },
+    "stud_fee": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/stud_fee": true
+            }
+          }
+        }
+      }
+    },
+    "bamboo_cartel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/bamboo_cartel": true
+            }
+          }
+        }
+      }
+    },
+    "sniffer_sponsorship": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/sniffer_sponsorship": true
+            }
+          }
+        }
+      }
+    },
+    "chemical_romance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/chemical_romance": true
+            }
+          }
+        }
+      }
+    },
+    "the_ark_manifest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/the_ark_manifest": true
+            }
+          }
+        }
+      }
+    },
+    "split_the_pot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/split_the_pot": true
+            }
+          }
+        }
+      }
+    },
+    "backstab_in_the_library": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/backstab_in_the_library": true
+            }
+          }
+        }
+      }
+    },
+    "quiet_accomplice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/quiet_accomplice": true
+            }
+          }
+        }
+      }
+    },
+    "wreck_divers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/wreck_divers": true
+            }
+          }
+        }
+      }
+    },
+    "loot_dispute": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/loot_dispute": true
+            }
+          }
+        }
+      }
+    },
+    "four_chests_two_hands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/four_chests_two_hands": true
+            }
+          }
+        }
+      }
+    },
+    "piggyback_assassin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/piggyback_assassin": true
+            }
+          }
+        }
+      }
+    },
+    "blind_date": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/blind_date": true
+            }
+          }
+        }
+      }
+    },
+    "right_to_the_hilt": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/right_to_the_hilt": true
+            }
+          }
+        }
+      }
+    },
+    "downdraft": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/downdraft": true
+            }
+          }
+        }
+      }
+    },
+    "reel_me_in": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/reel_me_in": true
+            }
+          }
+        }
+      }
+    },
+    "overkill_insurance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/overkill_insurance": true
+            }
+          }
+        }
+      }
+    },
+    "contact_shot": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/contact_shot": true
+            }
+          }
+        }
+      }
+    },
+    "the_bequest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/the_bequest": true
+            }
+          }
+        }
+      }
+    },
+    "respawn_point_politics": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/respawn_point_politics": true
+            }
+          }
+        }
+      }
+    },
+    "burial_at_sea": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/burial_at_sea": true
+            }
+          }
+        }
+      }
+    },
+    "terminal_prescription": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/terminal_prescription": true
+            }
+          }
+        }
+      }
+    },
+    "wearing_their_face": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/wearing_their_face": true
+            }
+          }
+        }
+      }
+    },
+    "dead_mans_boots": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/dead_mans_boots": true
+            }
+          }
+        }
+      }
+    },
+    "funeral_rites": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/funeral_rites": true
+            }
+          }
+        }
+      }
+    },
+    "steak_delivery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/steak_delivery": true
+            }
+          }
+        }
+      }
+    },
+    "bad_stew": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/bad_stew": true
+            }
+          }
+        }
+      }
+    },
+    "birthday_party": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/birthday_party": true
+            }
+          }
+        }
+      }
+    },
+    "dinner_and_drinks": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/dinner_and_drinks": true
+            }
+          }
+        }
+      }
+    },
+    "waiter_theres_a_rabbit_in_my_stew": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/waiter_theres_a_rabbit_in_my_stew": true
+            }
+          }
+        }
+      }
+    },
+    "the_condemneds_breakfast": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/the_condemneds_breakfast": true
+            }
+          }
+        }
+      }
+    },
+    "broth_brothers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/broth_brothers": true
+            }
+          }
+        }
+      }
+    },
+    "lapis_loan_shark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/lapis_loan_shark": true
+            }
+          }
+        }
+      }
+    },
+    "level_broker": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/level_broker": true
+            }
+          }
+        }
+      }
+    },
+    "bookkeeper": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/bookkeeper": true
+            }
+          }
+        }
+      }
+    },
+    "curse_delivery_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/curse_delivery_service": true
+            }
+          }
+        }
+      }
+    },
+    "blessing_on_the_blade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/blessing_on_the_blade": true
+            }
+          }
+        }
+      }
+    },
+    "hat_trick": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/hat_trick": true
+            }
+          }
+        }
+      }
+    },
+    "the_enchanters_guild": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/the_enchanters_guild": true
+            }
+          }
+        }
+      }
+    },
+    "air_drop": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/air_drop": true
+            }
+          }
+        }
+      }
+    },
+    "rocket_resupply": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/rocket_resupply": true
+            }
+          }
+        }
+      }
+    },
+    "icarus_insurance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/icarus_insurance": true
+            }
+          }
+        }
+      }
+    },
+    "winged_and_grounded": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/winged_and_grounded": true
+            }
+          }
+        }
+      }
+    },
+    "wings_over_wings": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/wings_over_wings": true
+            }
+          }
+        }
+      }
+    },
+    "special_airmail": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/special_airmail": true
+            }
+          }
+        }
+      }
+    },
+    "wing_repair": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/wing_repair": true
+            }
+          }
+        }
+      }
+    },
+    "waist_deep_and_sorry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/waist_deep_and_sorry": true
+            }
+          }
+        }
+      }
+    },
+    "boost_pad": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/boost_pad": true
+            }
+          }
+        }
+      }
+    },
+    "falling_with_friends": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/falling_with_friends": true
+            }
+          }
+        }
+      }
+    },
+    "the_slime_handshake": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/the_slime_handshake": true
+            }
+          }
+        }
+      }
+    },
+    "shulker_skeet": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/shulker_skeet": true
+            }
+          }
+        }
+      }
+    },
+    "hops_on_loan": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/hops_on_loan": true
+            }
+          }
+        }
+      }
+    },
+    "up_and_over": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/up_and_over": true
+            }
+          }
+        }
+      }
+    },
+    "star_split": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/star_split": true
+            }
+          }
+        }
+      }
+    },
+    "dragon_dividend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/dragon_dividend": true
+            }
+          }
+        }
+      }
+    },
+    "muffled_kill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/muffled_kill": true
+            }
+          }
+        }
+      }
+    },
+    "piglin_bodyguard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/piglin_bodyguard": true
+            }
+          }
+        }
+      }
+    },
+    "mop_up_crew": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/mop_up_crew": true
+            }
+          }
+        }
+      }
+    },
+    "heros_cut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/heros_cut": true
+            }
+          }
+        }
+      }
+    },
+    "creeper_cleanup": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/creeper_cleanup": true
+            }
+          }
+        }
+      }
+    },
+    "collateral_weakness": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/collateral_weakness": true
+            }
+          }
+        }
+      }
+    },
+    "estate_tax": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/estate_tax": true
+            }
+          }
+        }
+      }
+    },
+    "insurance_payout": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/insurance_payout": true
+            }
+          }
+        }
+      }
+    },
+    "level_playing_field": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/level_playing_field": true
+            }
+          }
+        }
+      }
+    },
+    "someone_elses_wither": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/someone_elses_wither": true
+            }
+          }
+        }
+      }
+    },
+    "paid_in_bottles": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/paid_in_bottles": true
+            }
+          }
+        }
+      }
+    },
+    "the_high_table": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/the_high_table": true
+            }
+          }
+        }
+      }
+    },
+    "wergild": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/wergild": true
+            }
+          }
+        }
+      }
+    },
+    "synchronised_drowning": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/synchronised_drowning": true
+            }
+          }
+        }
+      }
+    },
+    "lifeguard_on_duty": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/lifeguard_on_duty": true
+            }
+          }
+        }
+      }
+    },
+    "abyssal_handover": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/abyssal_handover": true
+            }
+          }
+        }
+      }
+    },
+    "power_sharing_agreement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/power_sharing_agreement": true
+            }
+          }
+        }
+      }
+    },
+    "last_slice_rights": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/last_slice_rights": true
+            }
+          }
+        }
+      }
+    },
+    "mystery_stew": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/mystery_stew": true
+            }
+          }
+        }
+      }
+    },
+    "taste_tester": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/taste_tester": true
+            }
+          }
+        }
+      }
+    },
+    "emergency_milk_run": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/emergency_milk_run": true
+            }
+          }
+        }
+      }
+    },
+    "dinner_at_sea": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/dinner_at_sea": true
+            }
+          }
+        }
+      }
+    },
+    "marathon_mugging": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/marathon_mugging": true
+            }
+          }
+        }
+      }
+    },
+    "roadside_assistance": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/roadside_assistance": true
+            }
+          }
+        }
+      }
+    },
+    "downhill_handoff": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/downhill_handoff": true
+            }
+          }
+        }
+      }
+    },
+    "frostbite_delivery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/frostbite_delivery": true
+            }
+          }
+        }
+      }
+    },
+    "tandem_stumble": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/tandem_stumble": true
+            }
+          }
+        }
+      }
+    },
+    "ladder_etiquette": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/ladder_etiquette": true
+            }
+          }
+        }
+      }
+    },
+    "thousand_metre_creep": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/thousand_metre_creep": true
+            }
+          }
+        }
+      }
+    },
+    "wool_over_its_ears": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/wool_over_its_ears": true
+            }
+          }
+        }
+      }
+    },
+    "ten_thousand_bounces": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/ten_thousand_bounces": true
+            }
+          }
+        }
+      }
+    },
+    "bounce_house_brawl": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/bounce_house_brawl": true
+            }
+          }
+        }
+      }
+    },
+    "lapis_patron": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/lapis_patron": true
+            }
+          }
+        }
+      }
+    },
+    "thirty_levels_in_glass": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/thirty_levels_in_glass": true
+            }
+          }
+        }
+      }
+    },
+    "pushing_our_luck": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/pushing_our_luck": true
+            }
+          }
+        }
+      }
+    },
+    "somebody_elses_book": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/somebody_elses_book": true
+            }
+          }
+        }
+      }
+    },
+    "experience_donor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/experience_donor": true
+            }
+          }
+        }
+      }
+    },
+    "dowry_of_wheat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/dowry_of_wheat": true
+            }
+          }
+        }
+      }
+    },
+    "sniffer_adoption": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/sniffer_adoption": true
+            }
+          }
+        }
+      }
+    },
+    "shears_on_loan": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/shears_on_loan": true
+            }
+          }
+        }
+      }
+    },
+    "phantom_bait": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/phantom_bait": true
+            }
+          }
+        }
+      }
+    },
+    "alarm_clock_fists": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/alarm_clock_fists": true
+            }
+          }
+        }
+      }
+    },
+    "hotel_management": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/hotel_management": true
+            }
+          }
+        }
+      }
+    },
+    "undefeated_streak": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/undefeated_streak": true
+            }
+          }
+        }
+      }
+    },
+    "hog_handover": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/hog_handover": true
+            }
+          }
+        }
+      }
+    },
+    "pork_joust": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/pork_joust": true
+            }
+          }
+        }
+      }
+    },
+    "swine_assassin": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/swine_assassin": true
+            }
+          }
+        }
+      }
+    },
+    "saddle_sponsor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/saddle_sponsor": true
+            }
+          }
+        }
+      }
+    },
+    "mounted_archery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/mounted_archery": true
+            }
+          }
+        }
+      }
+    },
+    "saddlebag_post": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/saddlebag_post": true
+            }
+          }
+        }
+      }
+    },
+    "someone_elses_rudder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/someone_elses_rudder": true
+            }
+          }
+        }
+      }
+    },
+    "lake_of_fire_duel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/lake_of_fire_duel": true
+            }
+          }
+        }
+      }
+    },
+    "hot_delivery": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/hot_delivery": true
+            }
+          }
+        }
+      }
+    },
+    "harness_crew": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/harness_crew": true
+            }
+          }
+        }
+      }
+    },
+    "airdrop_at_altitude": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/airdrop_at_altitude": true
+            }
+          }
+        }
+      }
+    },
+    "mutiny_in_the_gondola": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/mutiny_in_the_gondola": true
+            }
+          }
+        }
+      }
+    },
+    "soft_landing_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/soft_landing_service": true
+            }
+          }
+        }
+      }
+    },
+    "shell_shuttle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/shell_shuttle": true
+            }
+          }
+        }
+      }
+    },
+    "torpedoed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/torpedoed": true
+            }
+          }
+        }
+      }
+    },
+    "conscripted_sailor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/conscripted_sailor": true
+            }
+          }
+        }
+      }
+    },
+    "naval_engagement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/naval_engagement": true
+            }
+          }
+        }
+      }
+    },
+    "smugglers_run": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/smugglers_run": true
+            }
+          }
+        }
+      }
+    },
+    "punched_overboard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/punched_overboard": true
+            }
+          }
+        }
+      }
+    },
+    "emerald_backer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/emerald_backer": true
+            }
+          }
+        }
+      }
+    },
+    "the_middleman": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/the_middleman": true
+            }
+          }
+        }
+      }
+    },
+    "cornering_the_market": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/cornering_the_market": true
+            }
+          }
+        }
+      }
+    },
+    "spoils_of_the_raid": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/spoils_of_the_raid": true
+            }
+          }
+        }
+      }
+    },
+    "cure_and_custody": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/cure_and_custody": true
+            }
+          }
+        }
+      }
+    },
+    "blooded": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/blooded": true
+            }
+          }
+        }
+      }
+    },
+    "treasure_split": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/treasure_split": true
+            }
+          }
+        }
+      }
+    },
+    "two_rod_fishing_trip": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/two_rod_fishing_trip": true
+            }
+          }
+        }
+      }
+    },
+    "snagged_and_slugged": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/snagged_and_slugged": true
+            }
+          }
+        }
+      }
+    },
+    "mid_air_refuel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/mid_air_refuel": true
+            }
+          }
+        }
+      }
+    },
+    "wing_tax": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/wing_tax": true
+            }
+          }
+        }
+      }
+    },
+    "vertical_handoff": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/vertical_handoff": true
+            }
+          }
+        }
+      }
+    },
+    "beacon_fund": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/beacon_fund": true
+            }
+          }
+        }
+      }
+    },
+    "lava_scoop_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/lava_scoop_service": true
+            }
+          }
+        }
+      }
+    },
+    "first_watch_relief": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/first_watch_relief": true
+            }
+          }
+        }
+      }
+    },
+    "nautical_mile_toll": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/nautical_mile_toll": true
+            }
+          }
+        }
+      }
+    },
+    "crowd_funded_enchanter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/crowd_funded_enchanter": true
+            }
+          }
+        }
+      }
+    },
+    "saddle_up_and_settle_up": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/saddle_up_and_settle_up": true
+            }
+          }
+        }
+      }
+    },
+    "burning_the_candle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/burning_the_candle": true
+            }
+          }
+        }
+      }
+    },
+    "swim_up_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/swim_up_service": true
+            }
+          }
+        }
+      }
+    },
+    "the_climbers_belay": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:statistics/the_climbers_belay": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

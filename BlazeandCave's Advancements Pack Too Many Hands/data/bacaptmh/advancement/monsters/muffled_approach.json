@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_wool"
+    },
+    "title": {
+      "translate": "Muffled Approach"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cross a Sculk Sensor without setting it off, on Wool a teammate threw down to you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/stealth_is_optional",
+  "criteria": {
+    "wool_thrown_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:wool"
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "crossed_quietly": {
+      "trigger": "minecraft:avoid_vibration"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/muffled_approach"
+  }
+}

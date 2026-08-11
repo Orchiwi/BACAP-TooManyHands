@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bookshelf"
+    },
+    "title": {
+      "translate": "Crowd Funded Enchanter"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take all fifteen Bookshelves off another player and then spend thirty levels on one enchantment (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/novice_enchanter",
+  "criteria": {
+    "shelves": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:bookshelf"
+          ],
+          "count": {
+            "min": 15
+          }
+        }
+      }
+    },
+    "top_shelf": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "levels": {
+          "min": 30
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/crowd_funded_enchanter"
+  }
+}

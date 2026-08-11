@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "Crafter's Dispensary"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Let a Crafter turn out Tipped Arrows from a Lingering Potion another player supplied (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/imbued_projectiles",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lingering_potion"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "automated": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tipped_arrow"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/crafters_dispensary"
+  }
+}

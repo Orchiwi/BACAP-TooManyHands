@@ -1,0 +1,85 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_wool"
+    },
+    "title": {
+      "translate": "Wool Over Their Ears"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Wool off another player in the Deep Dark, then creep past a Sculk Sensor without waking it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/shriek_forever_after",
+  "criteria": {
+    "muffled": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:white_wool",
+            "minecraft:orange_wool",
+            "minecraft:magenta_wool",
+            "minecraft:light_blue_wool",
+            "minecraft:yellow_wool",
+            "minecraft:lime_wool",
+            "minecraft:pink_wool",
+            "minecraft:gray_wool",
+            "minecraft:light_gray_wool",
+            "minecraft:cyan_wool",
+            "minecraft:purple_wool",
+            "minecraft:blue_wool",
+            "minecraft:brown_wool",
+            "minecraft:green_wool",
+            "minecraft:red_wool",
+            "minecraft:black_wool"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:deep_dark"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "unheard": {
+      "trigger": "minecraft:avoid_vibration",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:deep_dark"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/wool_over_their_ears"
+  }
+}

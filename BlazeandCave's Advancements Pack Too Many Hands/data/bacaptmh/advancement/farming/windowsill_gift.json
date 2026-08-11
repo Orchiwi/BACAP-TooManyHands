@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:flower_pot"
+    },
+    "title": {
+      "translate": "Windowsill Gift"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pot up the flower another player picked and threw to you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/foliage",
+  "criteria": {
+    "picked": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dandelion",
+            "minecraft:poppy",
+            "minecraft:blue_orchid",
+            "minecraft:allium",
+            "minecraft:azure_bluet",
+            "minecraft:red_tulip",
+            "minecraft:orange_tulip",
+            "minecraft:white_tulip",
+            "minecraft:pink_tulip",
+            "minecraft:oxeye_daisy",
+            "minecraft:cornflower",
+            "minecraft:lily_of_the_valley"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "potted": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:flower_pot"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:dandelion",
+                "minecraft:poppy",
+                "minecraft:blue_orchid",
+                "minecraft:allium",
+                "minecraft:azure_bluet",
+                "minecraft:red_tulip",
+                "minecraft:orange_tulip",
+                "minecraft:white_tulip",
+                "minecraft:pink_tulip",
+                "minecraft:oxeye_daisy",
+                "minecraft:cornflower",
+                "minecraft:lily_of_the_valley"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/windowsill_gift"
+  }
+}

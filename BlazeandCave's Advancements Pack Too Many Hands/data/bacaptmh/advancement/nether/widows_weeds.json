@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_dye"
+    },
+    "title": {
+      "translate": "Widow's Weeds"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Grind Black Dye out of a Wither Rose another player picked off the Wither's leavings (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/decaying_beauty",
+  "criteria": {
+    "rose_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wither_rose"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "ground": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_dye_from_wither_rose"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/widows_weeds"
+  }
+}

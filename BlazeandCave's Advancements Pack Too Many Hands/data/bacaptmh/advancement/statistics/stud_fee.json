@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_carrot"
+    },
+    "title": {
+      "translate": "Stud Fee"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Pay another player sixteen Golden Carrots and breed a pair of Horses with what is left (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/cupid",
+  "criteria": {
+    "the_fee": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_carrot"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    },
+    "the_foal": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "entity_type": "minecraft:horse"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/stud_fee"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "Dead Man's Switch"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Lightning Rod off another player and get struck standing right on top of it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/called_shot",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:lightning_rod",
+            "minecraft:exposed_lightning_rod",
+            "minecraft:weathered_lightning_rod",
+            "minecraft:oxidized_lightning_rod",
+            "minecraft:waxed_lightning_rod",
+            "minecraft:waxed_exposed_lightning_rod",
+            "minecraft:waxed_weathered_lightning_rod",
+            "minecraft:waxed_oxidized_lightning_rod"
+          ]
+        }
+      }
+    },
+    "earthed": {
+      "trigger": "minecraft:lightning_strike",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:lightning_rod",
+                    "minecraft:exposed_lightning_rod",
+                    "minecraft:weathered_lightning_rod",
+                    "minecraft:oxidized_lightning_rod",
+                    "minecraft:waxed_lightning_rod",
+                    "minecraft:waxed_exposed_lightning_rod",
+                    "minecraft:waxed_weathered_lightning_rod",
+                    "minecraft:waxed_oxidized_lightning_rod"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/dead_mans_switch"
+  }
+}

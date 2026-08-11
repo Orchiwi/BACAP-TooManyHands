@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Hush Money"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed an Enchanted Book by another player and turn up in Leggings carrying Swift Sneak (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/fallen_kingdom",
+  "criteria": {
+    "bribed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ]
+        }
+      }
+    },
+    "sneaking": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_leggings",
+              "minecraft:chainmail_leggings",
+              "minecraft:iron_leggings",
+              "minecraft:golden_leggings",
+              "minecraft:diamond_leggings",
+              "minecraft:netherite_leggings"
+            ],
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:swift_sneak"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/hush_money"
+  }
+}

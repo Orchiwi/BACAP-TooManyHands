@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_spawn_egg"
+    },
+    "title": {
+      "translate": "Blister Pop"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Strike a player who is Oozing and let the Slimes burst out of them (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/oh_no_guys_im_oozing",
+  "criteria": {
+    "popped": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:oozing": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/blister_pop"
+  }
+}

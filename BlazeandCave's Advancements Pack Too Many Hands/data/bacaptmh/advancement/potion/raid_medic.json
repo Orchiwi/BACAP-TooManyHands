@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bell"
+    },
+    "title": {
+      "translate": "Raid Medic"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Win a raid on Regeneration another player kept topping up (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/hyper_healing",
+  "criteria": {
+    "treated": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "won": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/raid_medic"
+  }
+}

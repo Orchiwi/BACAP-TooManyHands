@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fermented_spider_eye"
+    },
+    "title": {
+      "translate": "Corrupted Brew"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Brew a Potion of Weakness with a Fermented Spider Eye another player threw you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/the_wicked_witch_of_the_west",
+  "criteria": {
+    "eye_delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:fermented_spider_eye"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "brewed": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:weakness"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/corrupted_brew"
+  }
+}

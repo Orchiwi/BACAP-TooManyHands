@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_nylium"
+    },
+    "title": {
+      "translate": "Nylium Divide"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player who is stood on Warped Nylium while your own boots are on Crimson Nylium (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/i_am_root",
+  "criteria": {
+    "border_skirmish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:warped_nylium"
+              ]
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:crimson_nylium"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/nylium_divide"
+  }
+}

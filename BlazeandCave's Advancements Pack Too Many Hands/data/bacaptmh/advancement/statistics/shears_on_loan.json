@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bee_nest"
+    },
+    "title": {
+      "translate": "Shears on Loan"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Crack open a full Bee Nest with Shears another player enchanted with Silk Touch (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/the_parrots_and_the_bats",
+  "criteria": {
+    "borrowed_shears": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:shears"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:silk_touch"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "harvested": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "block": "minecraft:bee_nest",
+        "num_bees_inside": 3
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/shears_on_loan"
+  }
+}

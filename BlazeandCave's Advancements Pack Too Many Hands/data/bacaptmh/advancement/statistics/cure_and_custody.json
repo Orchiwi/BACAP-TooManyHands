@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "Cure and Custody"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Cure a Zombie Villager on a Golden Apple another player supplied, then trade with the survivor (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/the_haggler",
+  "criteria": {
+    "apple_gift": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_apple"
+          ]
+        }
+      }
+    },
+    "cured": {
+      "trigger": "minecraft:cured_zombie_villager"
+    },
+    "first_deal": {
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/cure_and_custody"
+  }
+}

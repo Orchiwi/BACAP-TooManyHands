@@ -1,0 +1,83 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bowl"
+    },
+    "title": {
+      "translate": "Broth Brothers"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Empty a bowl of Rabbit Stew, Mushroom Stew, Beetroot Soup and Suspicious Stew, with another player ladling out at least one of them (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/food_glorious_food",
+  "criteria": {
+    "ladled": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:rabbit_stew",
+            "minecraft:mushroom_stew",
+            "minecraft:beetroot_soup",
+            "minecraft:suspicious_stew"
+          ]
+        }
+      }
+    },
+    "rabbit": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rabbit_stew"
+          ]
+        }
+      }
+    },
+    "mushroom": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mushroom_stew"
+          ]
+        }
+      }
+    },
+    "beetroot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:beetroot_soup"
+          ]
+        }
+      }
+    },
+    "suspicious": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/broth_brothers"
+  }
+}

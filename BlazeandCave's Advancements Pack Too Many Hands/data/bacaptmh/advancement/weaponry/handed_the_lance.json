@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_spear"
+    },
+    "title": {
+      "translate": "Handed the Lance"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Spear from another player's hands and put a charge attack straight through them (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/time_to_hunt",
+  "criteria": {
+    "lent_a_lance": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_spear",
+            "minecraft:stone_spear",
+            "minecraft:copper_spear",
+            "minecraft:iron_spear",
+            "minecraft:golden_spear",
+            "minecraft:diamond_spear",
+            "minecraft:netherite_spear"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "used_it": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "blazeandcave:spear",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/handed_the_lance"
+  }
+}

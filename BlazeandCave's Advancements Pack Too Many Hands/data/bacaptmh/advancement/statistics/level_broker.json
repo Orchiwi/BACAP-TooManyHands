@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "title": {
+      "translate": "Level Broker"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Reach the table with Bottles o' Enchanting from another player and blow all thirty levels in one go (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/journeyman_enchanter",
+  "criteria": {
+    "the_bottles": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:experience_bottle"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    },
+    "the_spend": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "levels": {
+          "min": 30
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/level_broker"
+  }
+}

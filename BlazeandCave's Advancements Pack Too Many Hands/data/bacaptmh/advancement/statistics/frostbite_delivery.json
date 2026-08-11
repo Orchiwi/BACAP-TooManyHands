@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "Frostbite Delivery"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand Leather Boots to another player while both of you are stuck in Powder Snow (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/out_for_a_stroll",
+  "criteria": {
+    "boots_for_the_freezing": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              },
+              "location": {
+                "block": {
+                  "blocks": "minecraft:powder_snow"
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:leather_boots"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "blocks": "minecraft:powder_snow"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/frostbite_delivery"
+  }
+}

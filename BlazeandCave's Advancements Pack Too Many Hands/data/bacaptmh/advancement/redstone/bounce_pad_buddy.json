@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_block"
+    },
+    "title": {
+      "translate": "Bounce Pad Buddy"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Slide the whole way down a Honey Block shaft while another player's Slowness potion has you crawling (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/sticky_parts",
+  "criteria": {
+    "dosed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slid": {
+      "trigger": "minecraft:slide_down_block",
+      "conditions": {
+        "block": "minecraft:honey_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/bounce_pad_buddy"
+  }
+}

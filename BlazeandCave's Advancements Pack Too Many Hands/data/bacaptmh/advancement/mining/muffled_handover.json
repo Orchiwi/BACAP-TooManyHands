@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_wool"
+    },
+    "title": {
+      "translate": "Muffled Handover"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be passed Wool inside an Ancient City and creep past a Sculk Sensor without waking it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/shriek_forever_after",
+  "criteria": {
+    "wool": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:wool",
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:ancient_city"
+          }
+        }
+      }
+    },
+    "unheard": {
+      "trigger": "minecraft:avoid_vibration"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/muffled_handover"
+  }
+}

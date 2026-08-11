@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "translate": "Dented Netherite"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stand there and let another player beat a dent into the Netherite Chestplate on your back (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/shield_luck",
+  "criteria": {
+    "took_the_hit": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        },
+        "player": {
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:netherite_chestplate"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "left_a_mark": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:netherite_chestplate"
+          ]
+        },
+        "delta": {
+          "max": -1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/dented_netherite"
+  }
+}

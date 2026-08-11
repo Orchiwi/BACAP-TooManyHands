@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "Shunting"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land a blow on another player from cart to cart, both of you running side by side (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/all_aboard",
+  "criteria": {
+    "shunted": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1,
+              "max": 4
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "movement": {
+            "speed": {
+              "min": 4.0
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:minecart"
+              },
+              "movement": {
+                "speed": {
+                  "min": 4.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/shunting"
+  }
+}

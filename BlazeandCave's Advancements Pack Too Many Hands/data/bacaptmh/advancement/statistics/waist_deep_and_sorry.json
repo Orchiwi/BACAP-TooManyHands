@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "Waist Deep and Sorry"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Sink into Powder Snow another player poured out and take a hit while you are stuck in it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/boing_boing",
+  "criteria": {
+    "sunk": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:powder_snow"
+      }
+    },
+    "picked_on": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:powder_snow"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/waist_deep_and_sorry"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_spear"
+    },
+    "title": {
+      "translate": "Spear Wall"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a ten-point Spear charge from another player and walk away with under two hearts lost (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/impiled",
+  "criteria": {
+    "absorbed": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 10.0
+          },
+          "taken": {
+            "max": 4.0
+          },
+          "blocked": false,
+          "type": {
+            "tags": [
+              {
+                "id": "blazeandcave:spear",
+                "expected": true
+              }
+            ]
+          },
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/spear_wall"
+  }
+}

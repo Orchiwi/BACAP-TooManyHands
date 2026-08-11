@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "Skull Split"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Blow a Skeleton apart with an explosion and hand the Skull straight to another player (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/spooky_skulls",
+  "criteria": {
+    "blown_apart": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:skeleton"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_explosion",
+              "expected": true
+            }
+          ]
+        }
+      }
+    },
+    "passed_the_skull": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:skeleton_skull"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/skull_split"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Lance Through the Saddle"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be run through by another player's Spear while you are still in the saddle (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/time_to_hunt",
+  "criteria": {
+    "lance_through_the_saddle": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:wooden_spear",
+                  "minecraft:stone_spear",
+                  "minecraft:copper_spear",
+                  "minecraft:iron_spear",
+                  "minecraft:golden_spear",
+                  "minecraft:diamond_spear",
+                  "minecraft:netherite_spear"
+                ]
+              }
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:horse"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/lance_through_the_saddle"
+  }
+}

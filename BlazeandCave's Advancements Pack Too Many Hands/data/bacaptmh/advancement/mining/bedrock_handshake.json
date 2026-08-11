@@ -1,0 +1,96 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "Bedrock Handshake"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Shake on a Diamond deal with another player while you are both stood on the Bedrock (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/rock_bottom",
+  "criteria": {
+    "offered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond"
+          ],
+          "count": {
+            "min": 1
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "position": {
+              "y": {
+                "max": -63.0
+              }
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": -63.0
+              }
+            }
+          }
+        }
+      }
+    },
+    "accepted": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond"
+          ],
+          "count": {
+            "min": 1
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "position": {
+              "y": {
+                "max": -63.0
+              }
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": -63.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/bedrock_handshake"
+  }
+}

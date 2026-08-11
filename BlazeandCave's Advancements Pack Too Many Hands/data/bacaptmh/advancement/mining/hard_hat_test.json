@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_helmet"
+    },
+    "title": {
+      "translate": "Hard Hat Test"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Pickaxe to the skull from another player and keep your Iron Helmet on (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/iron_man",
+  "criteria": {
+    "struck": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "items": "#blazeandcave:pickaxes"
+              }
+            }
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:iron_helmet"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/hard_hat_test"
+  }
+}

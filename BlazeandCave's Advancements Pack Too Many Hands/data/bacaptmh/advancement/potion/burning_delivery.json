@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "Burning Delivery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand a Potion of Fire Resistance to a player who is already on fire (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/stayin_frosty",
+  "criteria": {
+    "delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion",
+            "minecraft:splash_potion"
+          ],
+          "predicates": {
+            "minecraft:potion_contents": [
+              "minecraft:fire_resistance",
+              "minecraft:long_fire_resistance"
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_on_fire": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/burning_delivery"
+  }
+}

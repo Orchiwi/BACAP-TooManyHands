@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wet_sponge"
+    },
+    "title": {
+      "translate": "Sponge Bath"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Beat another player to death with a Wet Sponge while you are both underwater (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/slapfish",
+  "criteria": {
+    "scrubbed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_swimming": true
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wet_sponge"
+              ]
+            }
+          },
+          "flags": {
+            "is_swimming": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/sponge_bath"
+  }
+}

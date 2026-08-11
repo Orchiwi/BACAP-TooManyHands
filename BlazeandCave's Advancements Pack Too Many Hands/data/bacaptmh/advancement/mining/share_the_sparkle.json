@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "Share the Sparkle"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player Diamonds at the depth you found them, both of you below Y=-50 (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/diamond_miner",
+  "criteria": {
+    "shared": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:diamond"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "position": {
+              "y": {
+                "max": -50.0
+              }
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "max": -50.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/share_the_sparkle"
+  }
+}

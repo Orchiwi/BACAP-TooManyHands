@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:allay_spawn_egg"
+    },
+    "title": {
+      "translate": "Allay Liberation"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Set a caged Allay to work on a Note Block and hand another player a Note Block of their own (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/jockey_jamboree",
+  "criteria": {
+    "put_it_to_work": {
+      "trigger": "minecraft:allay_drop_item_on_block"
+    },
+    "passed_a_block": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:note_block"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/allay_liberation"
+  }
+}

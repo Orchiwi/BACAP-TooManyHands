@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shears"
+    },
+    "title": {
+      "translate": "Cut Me Out"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get stuck fast in a Cobweb and take the Shears a teammate throws you to hack your way free (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/spider_smasher",
+  "criteria": {
+    "stuck": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:cobweb"
+      }
+    },
+    "shears_thrown_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shears"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/cut_me_out"
+  }
+}

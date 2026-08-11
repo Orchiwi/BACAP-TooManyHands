@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sugar"
+    },
+    "title": {
+      "translate": "Valley Sprint"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Swiftness from another player and cover two hundred blocks out of the Soul Sand Valley (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/soul_runnings",
+  "criteria": {
+    "dosed": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sprint": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "start_position": {
+          "biomes": "minecraft:soul_sand_valley"
+        },
+        "distance": {
+          "horizontal": {
+            "min": 200
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/valley_sprint"
+  }
+}

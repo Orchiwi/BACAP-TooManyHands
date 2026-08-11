@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_golem_statue"
+    },
+    "title": {
+      "translate": "Monument to Nobody"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Stand a Copper Golem Statue another player cast in the middle of an End City where nobody will ever see it (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/in_your_face_neil_armstrong",
+  "criteria": {
+    "statue": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:copper_golem_statue"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "erected": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:copper_golem_statue"
+                ]
+              },
+              "dimension": "minecraft:the_end",
+              "structures": [
+                "minecraft:end_city"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/monument_to_nobody"
+  }
+}

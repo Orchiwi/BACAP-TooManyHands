@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rib_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "Rib Tickler"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Smith the Rib Trim onto your armour using the template another player pulled out of a Fortress (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/time_to_upgrade",
+  "criteria": {
+    "template_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:rib_armor_trim_smithing_template"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "trimmed": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:rib_armor_trim_smithing_template_smithing_trim"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/rib_tickler"
+  }
+}

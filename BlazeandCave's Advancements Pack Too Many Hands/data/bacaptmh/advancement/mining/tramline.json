@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powered_rail"
+    },
+    "title": {
+      "translate": "Tramline"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft Powered Rails out of the Gold and Redstone another player dug for you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/steals_on_wheels",
+  "criteria": {
+    "gold": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:gold_ingot"
+          ],
+          "count": {
+            "min": 6
+          }
+        }
+      }
+    },
+    "redstone": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:redstone"
+          ]
+        }
+      }
+    },
+    "laid": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:powered_rail"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/tramline"
+  }
+}

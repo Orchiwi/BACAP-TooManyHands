@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "Prescribed by a Friend"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Cure a Zombie Villager with a Golden Apple another player pressed into your hands (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/there_has_to_be_another_way",
+  "criteria": {
+    "apple_delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_apple"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "cured": {
+      "trigger": "minecraft:cured_zombie_villager"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/prescribed_by_a_friend"
+  }
+}

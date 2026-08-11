@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_cat"
+    },
+    "title": {
+      "translate": "Skeleton's Mixtape"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a Music Disc a Creeper left behind (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:monsters/creeper_killer",
+  "criteria": {
+    "the_creeper": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:creeper"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": true
+            }
+          ]
+        }
+      }
+    },
+    "passed_the_disc": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:music_disc_13",
+            "minecraft:music_disc_cat",
+            "minecraft:music_disc_blocks",
+            "minecraft:music_disc_chirp",
+            "minecraft:music_disc_far",
+            "minecraft:music_disc_mall",
+            "minecraft:music_disc_mellohi",
+            "minecraft:music_disc_stal",
+            "minecraft:music_disc_strad",
+            "minecraft:music_disc_ward",
+            "minecraft:music_disc_11",
+            "minecraft:music_disc_wait"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:monsters/skeletons_mixtape"
+  }
+}

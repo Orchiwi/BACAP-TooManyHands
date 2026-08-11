@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone_block"
+    },
+    "title": {
+      "translate": "Bone Setter"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Bone Blocks off another player's fossil dig and rebuild the beast below Y=0 (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/fossil_fuel",
+  "criteria": {
+    "excavated": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:bone_block"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    },
+    "rebuilt": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:bone_block"
+                ]
+              },
+              "position": {
+                "y": {
+                  "max": 0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/bone_setter"
+  }
+}

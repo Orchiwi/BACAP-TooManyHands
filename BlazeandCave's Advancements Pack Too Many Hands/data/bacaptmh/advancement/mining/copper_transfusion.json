@@ -1,0 +1,74 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_chestplate"
+    },
+    "title": {
+      "translate": "Copper Transfusion"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be healed by another player's Regeneration while wearing nothing but Copper armour (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:mining/copper_golem_overlord",
+  "criteria": {
+    "transfused": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:copper_helmet"
+                  ]
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:copper_chestplate"
+                  ]
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:copper_leggings"
+                  ]
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:copper_boots"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:mining/copper_transfusion"
+  }
+}

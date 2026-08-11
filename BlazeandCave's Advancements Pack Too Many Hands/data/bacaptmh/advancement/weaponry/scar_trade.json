@@ -1,0 +1,96 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_axe"
+    },
+    "title": {
+      "translate": "Scar Trade"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Open another player up with a Sword and take an Axe blow back off them (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/multiclassed",
+  "criteria": {
+    "gave_steel": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_sword",
+                "minecraft:stone_sword",
+                "minecraft:copper_sword",
+                "minecraft:iron_sword",
+                "minecraft:golden_sword",
+                "minecraft:diamond_sword",
+                "minecraft:netherite_sword"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "took_timber": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          },
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            },
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:wooden_axe",
+                  "minecraft:stone_axe",
+                  "minecraft:copper_axe",
+                  "minecraft:iron_axe",
+                  "minecraft:golden_axe",
+                  "minecraft:diamond_axe",
+                  "minecraft:netherite_axe"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/scar_trade"
+  }
+}

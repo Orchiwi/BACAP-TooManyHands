@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_rod"
+    },
+    "title": {
+      "translate": "Lit From the Nether"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft an End Rod out of a Blaze Rod another player carried across from the Nether (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/purpurfect",
+  "criteria": {
+    "rod": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:blaze_rod"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "lamp": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_rod"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/lit_from_the_nether"
+  }
+}

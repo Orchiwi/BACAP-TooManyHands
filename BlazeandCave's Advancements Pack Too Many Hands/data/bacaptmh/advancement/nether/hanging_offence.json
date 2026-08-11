@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:weeping_vines"
+    },
+    "title": {
+      "translate": "Hanging Offence"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player while you are both clinging to Weeping Vines in a Crimson Forest (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:nether/dont_blink",
+  "criteria": {
+    "cut_down": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "location": {
+            "biomes": "minecraft:crimson_forest",
+            "block": {
+              "blocks": [
+                "minecraft:weeping_vines",
+                "minecraft:weeping_vines_plant"
+              ]
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:weeping_vines",
+                    "minecraft:weeping_vines_plant"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:nether/hanging_offence"
+  }
+}

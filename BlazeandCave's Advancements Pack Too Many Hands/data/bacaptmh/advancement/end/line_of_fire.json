@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Line of Fire"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Line up two other players and run them both through with a single Piercing bolt in the End (3 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/divers_dozen",
+  "criteria": {
+    "threaded": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:player"
+          },
+          {
+            "entity_type": "minecraft:player"
+          }
+        ],
+        "fired_from_weapon": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        }
+      }
+    },
+    "confirmed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:arrow"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/line_of_fire"
+  }
+}

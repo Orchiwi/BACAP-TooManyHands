@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_block"
+    },
+    "title": {
+      "translate": "Downhill Handoff"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch an item thrown by another player while you are sliding down a Honey Block (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:statistics/out_for_a_stroll",
+  "criteria": {
+    "caught_it": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "sliding": {
+      "trigger": "minecraft:slide_down_block",
+      "conditions": {
+        "block": "minecraft:honey_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:statistics/downhill_handoff"
+  }
+}

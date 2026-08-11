@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat_seeds"
+    },
+    "title": {
+      "translate": "Winter Wheat"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed Wheat Seeds by another player out on the Snowy Plains, and plant them there anyway (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/combine_harvester",
+  "criteria": {
+    "handed_in_the_cold": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wheat_seeds"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:snowy_plains",
+              "minecraft:snowy_taiga",
+              "minecraft:ice_spikes",
+              "minecraft:snowy_slopes"
+            ]
+          }
+        }
+      }
+    },
+    "planted_anyway": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:wheat"
+                ]
+              },
+              "biomes": [
+                "minecraft:snowy_plains",
+                "minecraft:snowy_taiga",
+                "minecraft:ice_spikes",
+                "minecraft:snowy_slopes"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/winter_wheat"
+  }
+}

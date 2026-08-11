@@ -2,19 +2,19 @@
 > advancements have not been played through on a live server. Expect some not to fire, and
 > please open an issue when one doesn't — that feedback is the point of the alpha.
 
-**7,439 advancements for BlazeandCave's Advancements Pack that cannot be earned alone.**
+**9,427 advancements for BlazeandCave's Advancements Pack that cannot be earned alone.**
 Every one needs between two and five players. None duplicates any of the advancements
 already in BACAP or BACAP Enhanced Discoveries.
 
 ### Install
 
-Download **`BACAP-TooManyHands-v0.1.0-alpha.15.zip`** below and drop it into your
+Download **`BACAP-TooManyHands-v0.1.0-alpha.16.zip`** below and drop it into your
 world's `datapacks/` folder next to the BACAP zip, then `/reload`.
 
 ```
 <world>/datapacks/
   BlazeandCave's Advancements Pack 1.21.zip          <- required, install first
-  BACAP-TooManyHands-v0.1.0-alpha.15.zip                        <- this pack (rename freely)
+  BACAP-TooManyHands-v0.1.0-alpha.16.zip                        <- this pack (rename freely)
 ```
 
 **BACAP is required.** This pack registers through BACAP's fanpack hooks, so scoreboard
@@ -24,8 +24,8 @@ chain ending in *Too Many Hands Legend*.
 
 ### Before you play
 
-- **Every description ends with its player minimum in parentheses.** 7,368 need two players,
-  44 need three, 23 need four, and 4 need five. Nothing needs six.
+- **Every description ends with its player minimum in parentheses.** 9,346 need two players,
+  54 need three, 23 need four, and 4 need five. Nothing needs six.
 - **PvP must be enabled** for a subset of them — anything built around players damaging
   each other. Everything else works with PvP off.
 - **Cooperative Mode is assumed off.** Advancements grant to *every participant*, not just
@@ -41,7 +41,7 @@ dimensions.
 
 ### Notes
 
-Built for **Paper 26.2** with BACAP and Enhanced Discoveries installed. Most of the pack is tiered ladders: 526 progressions, each counted by an invisible doorbell that only another player can trigger, with rungs running from a handful up into the hundreds of thousands. 1,578 of the 2,355 use
+Built for **Paper 26.2** with BACAP and Enhanced Discoveries installed. The pack is half tiered ladders and half one-offs: 526 progressions counted by an invisible doorbell only another player can trigger, alongside thousands of single feats in BACAP's own idiom, and 87 super challenges. 1,578 of the 2,355 use
 tick-driven detection, because advancement criteria alone cannot express "two *different*
 players did X"; checks are bucketed and exit early when too few players are online.
 

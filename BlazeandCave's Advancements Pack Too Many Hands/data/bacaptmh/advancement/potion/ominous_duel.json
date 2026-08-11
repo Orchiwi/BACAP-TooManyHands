@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trial_key"
+    },
+    "title": {
+      "translate": "Ominous Duel"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player inside a Trial Chamber while the two of you both carry Trial Omen (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/gas_bomb",
+  "criteria": {
+    "doomed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "effects": {
+            "minecraft:trial_omen": {}
+          },
+          "location": {
+            "structures": "minecraft:trial_chambers"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:trial_omen": {}
+              },
+              "location": {
+                "structures": "minecraft:trial_chambers"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/ominous_duel"
+  }
+}

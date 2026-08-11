@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_weighted_pressure_plate"
+    },
+    "title": {
+      "translate": "Two Man Rule"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Get shoved onto your own Pressure Plate by another player's Wind Charge (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/under_pressure",
+  "criteria": {
+    "shoved": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          },
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:stone_pressure_plate",
+                    "minecraft:oak_pressure_plate",
+                    "minecraft:spruce_pressure_plate",
+                    "minecraft:birch_pressure_plate",
+                    "minecraft:jungle_pressure_plate",
+                    "minecraft:acacia_pressure_plate",
+                    "minecraft:dark_oak_pressure_plate",
+                    "minecraft:polished_blackstone_pressure_plate",
+                    "minecraft:light_weighted_pressure_plate",
+                    "minecraft:heavy_weighted_pressure_plate"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/two_man_rule"
+  }
+}

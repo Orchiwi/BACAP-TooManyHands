@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Outpost Smuggler"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand a Potion of Invisibility to a player standing inside a Pillager Outpost (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:potion/the_invisible_player",
+  "criteria": {
+    "smuggled": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potion",
+            "minecraft:splash_potion"
+          ],
+          "predicates": {
+            "minecraft:potion_contents": [
+              "minecraft:invisibility",
+              "minecraft:long_invisibility"
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "structures": "minecraft:pillager_outpost"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:potion/outpost_smuggler"
+  }
+}

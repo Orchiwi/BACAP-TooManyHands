@@ -1,0 +1,124 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone_meal"
+    },
+    "title": {
+      "translate": "Instant Orchard"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Plant a Sapling another player handed you and force it into a full tree with their Bone Meal (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:farming/one_course_meal",
+  "criteria": {
+    "sapling": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:oak_sapling",
+            "minecraft:spruce_sapling",
+            "minecraft:birch_sapling",
+            "minecraft:jungle_sapling",
+            "minecraft:acacia_sapling",
+            "minecraft:dark_oak_sapling",
+            "minecraft:cherry_sapling",
+            "minecraft:pale_oak_sapling"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "fertiliser": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ],
+          "count": {
+            "min": 3
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "planted": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_sapling",
+                  "minecraft:spruce_sapling",
+                  "minecraft:birch_sapling",
+                  "minecraft:jungle_sapling",
+                  "minecraft:acacia_sapling",
+                  "minecraft:dark_oak_sapling",
+                  "minecraft:cherry_sapling",
+                  "minecraft:pale_oak_sapling"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "forced": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_sapling",
+                  "minecraft:spruce_sapling",
+                  "minecraft:birch_sapling",
+                  "minecraft:jungle_sapling",
+                  "minecraft:acacia_sapling",
+                  "minecraft:dark_oak_sapling",
+                  "minecraft:cherry_sapling",
+                  "minecraft:pale_oak_sapling"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:farming/instant_orchard"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sticky_piston"
+    },
+    "title": {
+      "translate": "Slime Shipment"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Turn Slime Balls another player squeezed out of a swamp into a Sticky Piston (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/sticky_parts",
+  "criteria": {
+    "slime": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:slime_ball"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "stuck": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sticky_piston"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/slime_shipment"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_spear"
+    },
+    "title": {
+      "translate": "Through the Guard"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drive a Spear charge clean past another player's raised Shield (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:weaponry/britney_spears",
+  "criteria": {
+    "skewered_anyway": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:shield"
+              ]
+            }
+          }
+        },
+        "damage": {
+          "blocked": false,
+          "type": {
+            "tags": [
+              {
+                "id": "blazeandcave:spear",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:wooden_spear",
+                "minecraft:stone_spear",
+                "minecraft:copper_spear",
+                "minecraft:iron_spear",
+                "minecraft:golden_spear",
+                "minecraft:diamond_spear",
+                "minecraft:netherite_spear"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:weaponry/through_the_guard"
+  }
+}

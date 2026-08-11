@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:hopper_minecart"
+    },
+    "title": {
+      "translate": "Nether Freight"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Walk a Hopper Minecart five hundred blocks of Nether and hand it over on the far side (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:redstone/moving_storage",
+  "criteria": {
+    "shortcut": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {
+          "horizontal": {
+            "min": 500
+          }
+        }
+      }
+    },
+    "delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:hopper_minecart"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:redstone/nether_freight"
+  }
+}
