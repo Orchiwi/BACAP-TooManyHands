@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_block"
+    },
+    "title": {
+      "translate": "Molasses Ambush"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Land a hit on another player while they are floundering on top of a Honey Block (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/honey_im_home",
+  "criteria": {
+    "ambushed": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:honey_block"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/molasses_ambush"
+  }
+}

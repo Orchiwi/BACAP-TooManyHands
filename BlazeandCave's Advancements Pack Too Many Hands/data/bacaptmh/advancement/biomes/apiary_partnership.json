@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "Apiary Partnership"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Honeycomb off another player in a Flower Forest and craft a Beehive from it (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/enchanted_forest",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honeycomb"
+          ],
+          "count": {
+            "min": 3
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:flower_forest"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:beehive"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/apiary_partnership"
+  }
+}

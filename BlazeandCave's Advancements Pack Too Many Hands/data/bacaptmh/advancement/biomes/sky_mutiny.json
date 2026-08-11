@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_harness"
+    },
+    "title": {
+      "translate": "Sky Mutiny"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a punch from the player sharing your Happy Ghast, a hundred blocks up (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/top_of_the_world",
+  "criteria": {
+    "mutiny": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          },
+          "source_entity": {
+            "entity_type": "minecraft:player"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast",
+                "passenger": {
+                  "entity_type": "minecraft:player",
+                  "distance": {
+                    "absolute": {
+                      "min": 0.3
+                    }
+                  }
+                }
+              },
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 100
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/sky_mutiny"
+  }
+}

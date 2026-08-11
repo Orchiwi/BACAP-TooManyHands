@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "Spare Guard"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a fresh Shield off another player at the moment yours gives out (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/the_shielding",
+  "criteria": {
+    "broke": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shield"
+          ]
+        },
+        "durability": {
+          "max": 0
+        }
+      }
+    },
+    "replaced": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:shield"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/spare_guard"
+  }
+}

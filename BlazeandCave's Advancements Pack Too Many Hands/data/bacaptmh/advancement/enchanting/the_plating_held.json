@@ -1,0 +1,81 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_helmet"
+    },
+    "title": {
+      "translate": "The Plating Held"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have another player land a twenty-damage blow on you and walk away, because the plating ate most of it (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_armorer",
+  "criteria": {
+    "absorbed": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 20.0
+          },
+          "taken": {
+            "max": 12.0
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ],
+            "source_entity": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate"
+                  ],
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:protection",
+                        "levels": {
+                          "min": 4
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/the_plating_held"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Emerald Split"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Emeralds from another player above y=150 in the Windswept Hills (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/high_feet",
+  "criteria": {
+    "shares_out": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "count": {
+            "min": 4
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:windswept_hills",
+                  "minecraft:windswept_gravelly_hills",
+                  "minecraft:windswept_forest"
+                ],
+                "position": {
+                  "y": {
+                    "min": 150
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/emerald_split"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
+    },
+    "title": {
+      "translate": "Borrowed Edge"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Wear a borrowed Axe down to its last ten uses before you give it back (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/lost_its_bark",
+  "criteria": {
+    "lent": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_axe",
+            "minecraft:stone_axe",
+            "minecraft:iron_axe",
+            "minecraft:golden_axe",
+            "minecraft:diamond_axe",
+            "minecraft:netherite_axe"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "worn": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_axe",
+            "minecraft:stone_axe",
+            "minecraft:iron_axe",
+            "minecraft:golden_axe",
+            "minecraft:diamond_axe",
+            "minecraft:netherite_axe"
+          ]
+        },
+        "durability": {
+          "max": 10
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/borrowed_edge"
+  }
+}

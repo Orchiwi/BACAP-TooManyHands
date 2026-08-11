@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Thunderstorm Handoff"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Pass a Riptide III Trident to another player in the middle of a thunderstorm (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/do_a_barrel_roll",
+  "criteria": {
+    "passed_in_the_storm": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:trident"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:riptide",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:weather_check",
+            "thundering": true
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/thunderstorm_handoff"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fermented_spider_eye"
+    },
+    "title": {
+      "translate": "Nobody Built This"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have another player splash you with Invisibility and lay a block that nobody can see you place (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/living_dummy",
+  "criteria": {
+    "vanished": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "ghost_block": {
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/nobody_built_this"
+  }
+}

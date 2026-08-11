@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ghast_tear"
+    },
+    "title": {
+      "translate": "Borrowed Tears"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Build an End Crystal around a Ghast Tear another player cried out of the Nether for you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/what_for",
+  "criteria": {
+    "tear": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ghast_tear"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "assembled": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_crystal"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/borrowed_tears"
+  }
+}

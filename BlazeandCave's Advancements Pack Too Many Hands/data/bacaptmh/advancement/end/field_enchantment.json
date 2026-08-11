@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lapis_lazuli"
+    },
+    "title": {
+      "translate": "Field Enchantment"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Spend another player's Lapis on a thirty-level enchantment at a table set up in the End (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/good_luck_getting_this_one",
+  "criteria": {
+    "lapis": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lapis_lazuli"
+          ],
+          "count": {
+            "min": 3
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "charmed": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "levels": {
+          "min": 30
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/field_enchantment"
+  }
+}

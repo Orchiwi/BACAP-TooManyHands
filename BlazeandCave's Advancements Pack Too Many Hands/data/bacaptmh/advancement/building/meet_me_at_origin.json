@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": {
+      "translate": "Meet Me at Origin"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Planks off another player while the pair of you are standing within ten blocks of 0,0 (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/spawn_camping",
+  "criteria": {
+    "handover_at_zero": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "position": {
+              "x": {
+                "min": -10,
+                "max": 10
+              },
+              "z": {
+                "min": -10,
+                "max": 10
+              }
+            }
+          }
+        },
+        "item": {
+          "items": "#minecraft:planks",
+          "count": {
+            "min": 32
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -10,
+                    "max": 10
+                  },
+                  "z": {
+                    "min": -10,
+                    "max": 10
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/meet_me_at_origin"
+  }
+}

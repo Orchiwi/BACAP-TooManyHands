@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Piercing Argument"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Run one crossbow bolt through two rival players and drop them both where they stand (3 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/the_perfect_run",
+  "criteria": {
+    "double": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:player"
+          },
+          {
+            "entity_type": "minecraft:player"
+          }
+        ],
+        "fired_from_weapon": {
+          "items": [
+            "minecraft:crossbow"
+          ],
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": "minecraft:piercing",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "player_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:arrow"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/piercing_argument"
+  }
+}

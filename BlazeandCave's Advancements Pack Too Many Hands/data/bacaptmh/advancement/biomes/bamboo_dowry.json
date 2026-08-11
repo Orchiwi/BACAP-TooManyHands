@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:panda_spawn_egg"
+    },
+    "title": {
+      "translate": "Bamboo Dowry"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Bamboo off another player in a Bamboo Jungle and breed two Pandas with it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/zoologist",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bamboo"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:bamboo_jungle"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bred": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:panda"
+        },
+        "partner": {
+          "entity_type": "minecraft:panda"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/bamboo_dowry"
+  }
+}

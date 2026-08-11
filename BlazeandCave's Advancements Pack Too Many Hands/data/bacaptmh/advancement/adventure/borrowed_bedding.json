@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_bed"
+    },
+    "title": {
+      "translate": "Borrowed Bedding"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Sleep in a Bed another player handed you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/secret_of_the_igloo",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_bed",
+            "minecraft:orange_bed",
+            "minecraft:magenta_bed",
+            "minecraft:light_blue_bed",
+            "minecraft:yellow_bed",
+            "minecraft:lime_bed",
+            "minecraft:pink_bed",
+            "minecraft:gray_bed",
+            "minecraft:light_gray_bed",
+            "minecraft:cyan_bed",
+            "minecraft:purple_bed",
+            "minecraft:blue_bed",
+            "minecraft:brown_bed",
+            "minecraft:green_bed",
+            "minecraft:red_bed",
+            "minecraft:black_bed"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "slept": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/borrowed_bedding"
+  }
+}

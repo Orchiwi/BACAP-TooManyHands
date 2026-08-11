@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "Stopped Dead"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Have a Piercing IV bolt of yours stopped flat by another player's raised Shield (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_arbalist",
+  "criteria": {
+    "blocked": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 3
+            }
+          },
+          "equipment": {
+            "offhand": {
+              "items": [
+                "minecraft:shield"
+              ]
+            }
+          }
+        },
+        "damage": {
+          "blocked": true,
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:crossbow"
+                  ],
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:piercing",
+                        "levels": {
+                          "min": 4
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/stopped_dead"
+  }
+}

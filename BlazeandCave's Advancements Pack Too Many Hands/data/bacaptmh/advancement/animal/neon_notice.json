@@ -1,0 +1,88 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_ink_sac"
+    },
+    "title": {
+      "translate": "Neon Notice"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Light up a Sign with a Glow Ink Sac another player pressed into your hand (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/cephalight",
+  "criteria": {
+    "handed_the_ink": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glow_ink_sac"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "lit_the_sign": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_sign",
+                  "minecraft:spruce_sign",
+                  "minecraft:birch_sign",
+                  "minecraft:jungle_sign",
+                  "minecraft:acacia_sign",
+                  "minecraft:dark_oak_sign",
+                  "minecraft:pale_oak_sign",
+                  "minecraft:mangrove_sign",
+                  "minecraft:cherry_sign",
+                  "minecraft:bamboo_sign",
+                  "minecraft:crimson_sign",
+                  "minecraft:warped_sign",
+                  "minecraft:oak_wall_sign",
+                  "minecraft:spruce_wall_sign",
+                  "minecraft:birch_wall_sign",
+                  "minecraft:jungle_wall_sign",
+                  "minecraft:acacia_wall_sign",
+                  "minecraft:dark_oak_wall_sign",
+                  "minecraft:oak_hanging_sign",
+                  "minecraft:spruce_hanging_sign",
+                  "minecraft:birch_hanging_sign",
+                  "minecraft:cherry_hanging_sign",
+                  "minecraft:bamboo_hanging_sign",
+                  "minecraft:crimson_hanging_sign"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:glow_ink_sac"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/neon_notice"
+  }
+}

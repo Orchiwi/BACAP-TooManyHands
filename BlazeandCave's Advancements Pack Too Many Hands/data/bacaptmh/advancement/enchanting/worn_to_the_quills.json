@@ -1,0 +1,97 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_chestplate"
+    },
+    "title": {
+      "translate": "Worn to the Quills"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take enough hits from another player that your Thorns chestplate is down to its last twenty points (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/echidna",
+  "criteria": {
+    "battered": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ],
+            "source_entity": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate"
+                  ],
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:thorns"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "worn_down": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_chestplate",
+            "minecraft:chainmail_chestplate",
+            "minecraft:iron_chestplate",
+            "minecraft:golden_chestplate",
+            "minecraft:diamond_chestplate",
+            "minecraft:netherite_chestplate"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:thorns"
+              }
+            ]
+          }
+        },
+        "durability": {
+          "max": 20
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/worn_to_the_quills"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_log"
+    },
+    "title": {
+      "translate": "Log Cabin Corner"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Lay a Log directly on top of another Log, building the corner out of timber another player felled (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/barking_mad",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:oak_log",
+            "minecraft:spruce_log",
+            "minecraft:birch_log",
+            "minecraft:jungle_log",
+            "minecraft:acacia_log",
+            "minecraft:dark_oak_log"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "stacked": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_log",
+                  "minecraft:spruce_log",
+                  "minecraft:birch_log",
+                  "minecraft:jungle_log",
+                  "minecraft:acacia_log",
+                  "minecraft:dark_oak_log"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_log",
+                  "minecraft:spruce_log",
+                  "minecraft:birch_log",
+                  "minecraft:jungle_log",
+                  "minecraft:acacia_log",
+                  "minecraft:dark_oak_log"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/log_cabin_corner"
+  }
+}

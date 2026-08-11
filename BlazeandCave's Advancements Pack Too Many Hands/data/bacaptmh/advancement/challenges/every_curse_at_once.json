@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fermented_spider_eye"
+    },
+    "title": {
+      "translate": "Every Curse at Once"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Kill another player while Weakness, Slowness, Blindness, Nausea and Mining Fatigue are all working against you (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/biological_warfare",
+  "criteria": {
+    "handicapped_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:weakness": {},
+            "minecraft:slowness": {},
+            "minecraft:blindness": {},
+            "minecraft:nausea": {},
+            "minecraft:mining_fatigue": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/every_curse_at_once"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cod"
+    },
+    "title": {
+      "translate": "Cod Bribe"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Tame a stray Cat with Raw Cod another player fished up and handed you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/animal_kingdom",
+  "criteria": {
+    "handed_the_cod": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cod"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "tamed": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:cat"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/cod_bribe"
+  }
+}

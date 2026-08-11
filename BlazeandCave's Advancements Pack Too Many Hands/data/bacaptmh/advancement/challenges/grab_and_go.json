@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Grab and Go"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Catch a Totem of Undying thrown by a teammate while you are falling at over 60 blocks per second (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/immortal",
+  "criteria": {
+    "catch": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:totem_of_undying"
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1.0
+            }
+          }
+        },
+        "player": {
+          "movement": {
+            "speed": {
+              "min": 60.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/grab_and_go"
+  }
+}

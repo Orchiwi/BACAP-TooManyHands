@@ -1,0 +1,82 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": {
+      "translate": "Cliff Rescue"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Fishing Rod off another player on a mountain, then hook them out of the drop below you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/dive_bomb",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:fishing_rod"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:jagged_peaks",
+                  "minecraft:frozen_peaks",
+                  "minecraft:stony_peaks",
+                  "minecraft:snowy_slopes"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "hooked": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 20
+            },
+            "y": {
+              "min": 20
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:jagged_peaks",
+              "minecraft:frozen_peaks",
+              "minecraft:stony_peaks",
+              "minecraft:snowy_slopes"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/cliff_rescue"
+  }
+}

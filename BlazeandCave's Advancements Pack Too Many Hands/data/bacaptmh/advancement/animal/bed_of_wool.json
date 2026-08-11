@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_bed"
+    },
+    "title": {
+      "translate": "Bed of Wool"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Sleep in a Bed built out of Wool another player sheared (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/counting_sheep",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:white_wool"
+          ],
+          "count": {
+            "min": 3
+          }
+        }
+      }
+    },
+    "slept": {
+      "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/bed_of_wool"
+  }
+}

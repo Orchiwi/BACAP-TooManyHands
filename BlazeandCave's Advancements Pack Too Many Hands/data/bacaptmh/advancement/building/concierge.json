@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget"
+    },
+    "title": {
+      "translate": "Concierge"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Open a Door for another player and accept a Gold Nugget for your trouble (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/your_door_was_locked",
+  "criteria": {
+    "held_it_open": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:doors"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tipped": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:gold_nugget"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/concierge"
+  }
+}

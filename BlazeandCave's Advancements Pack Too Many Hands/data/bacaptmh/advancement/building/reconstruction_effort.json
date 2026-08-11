@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_door"
+    },
+    "title": {
+      "translate": "Reconstruction Effort"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand Doors to a player who is still glowing with Hero of the Village (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/your_door_was_locked",
+  "criteria": {
+    "delivered_to_the_hero": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:hero_of_the_village": {}
+          }
+        },
+        "item": {
+          "items": "#minecraft:doors",
+          "count": {
+            "min": 4
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/reconstruction_effort"
+  }
+}

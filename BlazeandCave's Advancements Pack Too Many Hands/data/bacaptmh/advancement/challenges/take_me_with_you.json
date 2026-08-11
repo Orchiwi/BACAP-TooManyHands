@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_fruit"
+    },
+    "title": {
+      "translate": "Take Me With You"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Be killed by another player while both of you are deep enough below the End for the void to be eating you (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/im_in_space",
+  "criteria": {
+    "killed_in_the_void": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              },
+              "location": {
+                "dimension": "the_end",
+                "position": {
+                  "y": {
+                    "max": -64.0
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "the_end",
+                "position": {
+                  "y": {
+                    "max": -64.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/take_me_with_you"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:map"
+    },
+    "title": {
+      "translate": "Far From Home"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand something to another player at least five thousand blocks out from the world's centre (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/ten_thousand_blocks",
+  "criteria": {
+    "delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:map",
+            "minecraft:filled_map",
+            "minecraft:compass",
+            "minecraft:bread",
+            "minecraft:torch"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "x": {
+                      "min": 5000
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "x": {
+                      "max": -5000
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "z": {
+                      "min": 5000
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "z": {
+                      "max": -5000
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/far_from_home"
+  }
+}

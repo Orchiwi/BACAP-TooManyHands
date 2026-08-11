@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "Cold Turkey"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Cure the Igloo's Zombie Villager with a Golden Apple another player handed you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/secret_of_the_igloo",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_apple"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "cured": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:villager",
+          "location": {
+            "structures": "minecraft:igloo"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/cold_turkey"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ice"
+    },
+    "title": {
+      "translate": "Iceboat Mutiny"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a punch from the player sharing your Boat as it slides down a frozen river (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/smooth_operator",
+  "criteria": {
+    "mutiny": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          },
+          "source_entity": {
+            "entity_type": "minecraft:player"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "#blazeandcave:all_boats",
+                "passenger": {
+                  "entity_type": "minecraft:player",
+                  "distance": {
+                    "absolute": {
+                      "min": 0.3
+                    }
+                  }
+                }
+              },
+              "location": {
+                "biomes": [
+                  "minecraft:frozen_river",
+                  "minecraft:snowy_plains",
+                  "minecraft:ice_spikes"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/iceboat_mutiny"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_catalyst"
+    },
+    "title": {
+      "translate": "The Sculk Bloomed"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Feed a Sculk Catalyst a monster, then kill another player in the Deep Dark it grew in (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/root",
+  "criteria": {
+    "fed_the_catalyst": {
+      "trigger": "minecraft:kill_mob_near_sculk_catalyst",
+      "conditions": {
+        "entity": {
+          "entity_type": "#blazeandcave:hostile_monsters"
+        }
+      }
+    },
+    "then_a_player": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:deep_dark"
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:deep_dark"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/the_sculk_bloomed"
+  }
+}

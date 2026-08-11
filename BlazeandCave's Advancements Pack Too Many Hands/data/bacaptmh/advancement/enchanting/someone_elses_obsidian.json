@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Someone Else's Obsidian"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Build an Enchanting Table out of four Obsidian another player quarried and threw to you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "stone": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:obsidian"
+          ],
+          "count": {
+            "min": 4
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "altar": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:enchanting_table"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/someone_elses_obsidian"
+  }
+}

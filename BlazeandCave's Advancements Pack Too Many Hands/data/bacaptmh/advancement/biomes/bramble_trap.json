@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sweet_berries"
+    },
+    "title": {
+      "translate": "Bramble Trap"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cut down another player while they are snagged in a Sweet Berry Bush in a taiga (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/one_with_the_forest",
+  "criteria": {
+    "snagged": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 0.1
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:taiga",
+              "minecraft:snowy_taiga",
+              "minecraft:old_growth_spruce_taiga",
+              "minecraft:old_growth_pine_taiga"
+            ],
+            "block": {
+              "blocks": [
+                "minecraft:sweet_berry_bush"
+              ]
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/bramble_trap"
+  }
+}

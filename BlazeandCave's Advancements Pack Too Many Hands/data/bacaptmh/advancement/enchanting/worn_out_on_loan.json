@@ -1,0 +1,211 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "Worn Out On Loan"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Break a Pickaxe, an Axe and a Shovel that another player put Unbreaking III on, one after another (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/super_efficient",
+  "criteria": {
+    "got_pick": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_pickaxe",
+            "minecraft:stone_pickaxe",
+            "minecraft:copper_pickaxe",
+            "minecraft:iron_pickaxe",
+            "minecraft:golden_pickaxe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:netherite_pickaxe"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:unbreaking",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "broke_pick": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {
+          "max": 0
+        },
+        "item": {
+          "items": [
+            "minecraft:wooden_pickaxe",
+            "minecraft:stone_pickaxe",
+            "minecraft:copper_pickaxe",
+            "minecraft:iron_pickaxe",
+            "minecraft:golden_pickaxe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:netherite_pickaxe"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:unbreaking",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "got_axe": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_axe",
+            "minecraft:stone_axe",
+            "minecraft:copper_axe",
+            "minecraft:iron_axe",
+            "minecraft:golden_axe",
+            "minecraft:diamond_axe",
+            "minecraft:netherite_axe"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:unbreaking",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "broke_axe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {
+          "max": 0
+        },
+        "item": {
+          "items": [
+            "minecraft:wooden_axe",
+            "minecraft:stone_axe",
+            "minecraft:copper_axe",
+            "minecraft:iron_axe",
+            "minecraft:golden_axe",
+            "minecraft:diamond_axe",
+            "minecraft:netherite_axe"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:unbreaking",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "got_shovel": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_shovel",
+            "minecraft:stone_shovel",
+            "minecraft:copper_shovel",
+            "minecraft:iron_shovel",
+            "minecraft:golden_shovel",
+            "minecraft:diamond_shovel",
+            "minecraft:netherite_shovel"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:unbreaking",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "broke_shovel": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": {
+          "max": 0
+        },
+        "item": {
+          "items": [
+            "minecraft:wooden_shovel",
+            "minecraft:stone_shovel",
+            "minecraft:copper_shovel",
+            "minecraft:iron_shovel",
+            "minecraft:golden_shovel",
+            "minecraft:diamond_shovel",
+            "minecraft:netherite_shovel"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:unbreaking",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/worn_out_on_loan"
+  }
+}

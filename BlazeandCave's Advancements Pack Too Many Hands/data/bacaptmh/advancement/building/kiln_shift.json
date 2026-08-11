@@ -1,0 +1,79 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_glazed_terracotta"
+    },
+    "title": {
+      "translate": "Kiln Shift"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player plain Terracotta and take the Glazed Terracotta straight back out of their kiln (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_glazed_terracotta_army",
+  "criteria": {
+    "plain_out": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:terracotta"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    },
+    "glazed_in": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:white_glazed_terracotta",
+            "minecraft:orange_glazed_terracotta",
+            "minecraft:magenta_glazed_terracotta",
+            "minecraft:light_blue_glazed_terracotta",
+            "minecraft:yellow_glazed_terracotta",
+            "minecraft:lime_glazed_terracotta",
+            "minecraft:pink_glazed_terracotta",
+            "minecraft:gray_glazed_terracotta",
+            "minecraft:light_gray_glazed_terracotta",
+            "minecraft:cyan_glazed_terracotta",
+            "minecraft:purple_glazed_terracotta",
+            "minecraft:blue_glazed_terracotta",
+            "minecraft:brown_glazed_terracotta",
+            "minecraft:green_glazed_terracotta",
+            "minecraft:red_glazed_terracotta",
+            "minecraft:black_glazed_terracotta"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/kiln_shift"
+  }
+}

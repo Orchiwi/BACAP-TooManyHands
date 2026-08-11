@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "Nothing Under Us"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Catch a Totem of Undying thrown by another player while you are both below the End island with nothing on your back (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/im_in_space",
+  "criteria": {
+    "void_catch": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "minecraft:totem_of_undying"
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end",
+                "position": {
+                  "y": {
+                    "max": -1
+                  }
+                }
+              },
+              "flags": {
+                "is_on_ground": false,
+                "is_flying": false,
+                "is_swimming": false
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "vehicle": {
+                  "entity_type": "#blazeandcave:player_rideables"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "count": {
+                      "min": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/nothing_under_us"
+  }
+}

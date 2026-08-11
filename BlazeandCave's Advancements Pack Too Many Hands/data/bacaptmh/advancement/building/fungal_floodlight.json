@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shroomlight"
+    },
+    "title": {
+      "translate": "Fungal Floodlight"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed Shroomlight by a player in the Crimson Forest and set it up over in the Warped Forest (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/shroom_lightyear",
+  "criteria": {
+    "harvested_for_you": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:crimson_forest"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:shroomlight"
+          ],
+          "count": {
+            "min": 8
+          }
+        }
+      }
+    },
+    "installed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:shroomlight"
+                ]
+              },
+              "biomes": "minecraft:warped_forest"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/fungal_floodlight"
+  }
+}

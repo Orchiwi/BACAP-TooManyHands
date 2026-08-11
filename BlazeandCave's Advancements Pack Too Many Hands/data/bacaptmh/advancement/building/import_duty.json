@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Import Duty"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Carry a full stack of building stock another player handed you through a Nether Portal (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/fake_fortress",
+  "criteria": {
+    "stock": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:stone_bricks"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "imported": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/import_duty"
+  }
+}

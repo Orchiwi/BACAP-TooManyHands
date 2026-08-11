@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_wool"
+    },
+    "title": {
+      "translate": "Wool Socks"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed Wool by another player and creep over a Sculk Sensor without it hearing a thing (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/root",
+  "criteria": {
+    "kitted_out": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": "#minecraft:wool"
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "unheard": {
+      "trigger": "minecraft:avoid_vibration",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/wool_socks"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Dune Sniper"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Shoot another player out of a Camel's saddle from at least 40 blocks away (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/desert_rider",
+  "criteria": {
+    "sniped": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "vehicle": {
+            "entity_type": "minecraft:camel"
+          },
+          "distance": {
+            "absolute": {
+              "min": 40
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/dune_sniper"
+  }
+}

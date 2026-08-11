@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "Lava Ferryman"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Ride a Strider fifty blocks across Overworld lava on a Saddle another player threw you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/desert_rider",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:saddle"
+          ]
+        }
+      }
+    },
+    "crossed": {
+      "trigger": "minecraft:ride_entity_in_lava",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:overworld"
+              },
+              "vehicle": {
+                "entity_type": "minecraft:strider"
+              }
+            }
+          }
+        ],
+        "distance": {
+          "horizontal": {
+            "min": 50.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/lava_ferryman"
+  }
+}

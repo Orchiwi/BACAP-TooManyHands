@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword"
+    },
+    "title": {
+      "translate": "Sold as Seen"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Palm a Looting III Sword off on another player with fewer than five swings left in it (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/complete_enchanter",
+  "criteria": {
+    "palmed_off": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": "#blazeandcave:swords",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:looting",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ],
+            "minecraft:damage": {
+              "durability": {
+                "max": 5
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/sold_as_seen"
+  }
+}

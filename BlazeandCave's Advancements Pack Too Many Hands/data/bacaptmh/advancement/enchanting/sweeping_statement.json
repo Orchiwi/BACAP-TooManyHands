@@ -1,0 +1,79 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "Sweeping Statement"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Land a Sweeping Edge III blow on another player while they are crouched and trying to hide (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_knight",
+  "criteria": {
+    "swept": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_sneaking": true
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:diamond_sword",
+                    "minecraft:netherite_sword"
+                  ],
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:sweeping_edge",
+                        "levels": {
+                          "min": 3
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/sweeping_statement"
+  }
+}

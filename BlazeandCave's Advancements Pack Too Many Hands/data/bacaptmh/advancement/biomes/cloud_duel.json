@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:happy_ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "Cloud Duel"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Shoot another player off their Happy Ghast with an arrow while you fly one of your own (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/top_of_the_world",
+  "criteria": {
+    "dogfight": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow"
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          },
+          "distance": {
+            "absolute": {
+              "min": 5
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "entity_type": "minecraft:happy_ghast"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/cloud_duel"
+  }
+}

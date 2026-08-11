@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobweb"
+    },
+    "title": {
+      "translate": "Webbed In"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Cobwebs off another player and then walk straight into the trap you strung up with them (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_walls",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:cobweb"
+          ],
+          "count": {
+            "min": 4
+          }
+        }
+      }
+    },
+    "caught": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:cobweb"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/webbed_in"
+  }
+}

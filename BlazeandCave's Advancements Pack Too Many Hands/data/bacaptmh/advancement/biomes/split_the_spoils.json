@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "Split the Spoils"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Loot a Desert Pyramid chest and hand a share to another player standing over the trap (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/warm_feet",
+  "criteria": {
+    "looted": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/desert_pyramid"
+      }
+    },
+    "shared": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gold_ingot",
+            "minecraft:diamond",
+            "minecraft:emerald",
+            "minecraft:enchanted_book",
+            "minecraft:bone",
+            "minecraft:rotten_flesh"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "structures": "minecraft:desert_pyramid"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/split_the_spoils"
+  }
+}

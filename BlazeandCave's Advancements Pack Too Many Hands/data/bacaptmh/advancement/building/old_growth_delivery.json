@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_log"
+    },
+    "title": {
+      "translate": "Old Growth Delivery"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand Spruce Logs to another player standing among the giants of an Old Growth Pine Taiga (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/spruce_lee",
+  "criteria": {
+    "delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:old_growth_pine_taiga"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:spruce_log"
+          ],
+          "count": {
+            "min": 64
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/old_growth_delivery"
+  }
+}

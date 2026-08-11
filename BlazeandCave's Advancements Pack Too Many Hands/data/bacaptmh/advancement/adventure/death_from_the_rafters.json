@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "Death From the Rafters"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill another player with a Crossbow from at least sixty blocks above them (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/you_are_the_pillager",
+  "criteria": {
+    "sniped": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            },
+            "y": {
+              "min": 60
+            }
+          }
+        },
+        "killing_blow": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:arrow"
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:crossbow"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/death_from_the_rafters"
+  }
+}

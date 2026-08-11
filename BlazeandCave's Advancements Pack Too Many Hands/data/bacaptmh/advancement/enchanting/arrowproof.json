@@ -1,0 +1,139 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {
+      "translate": "Arrowproof"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take an arrow from twenty blocks and lose under half a heart, wrapped in Projectile Protection IV (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/armor_for_the_masses",
+  "criteria": {
+    "shrugged_off": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "max": 1.0
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "source_entity": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 20
+                }
+              }
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:leather_helmet",
+                    "minecraft:chainmail_helmet",
+                    "minecraft:iron_helmet",
+                    "minecraft:golden_helmet",
+                    "minecraft:diamond_helmet",
+                    "minecraft:netherite_helmet",
+                    "minecraft:turtle_helmet"
+                  ],
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:projectile_protection",
+                        "levels": {
+                          "min": 4
+                        }
+                      }
+                    ]
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate"
+                  ],
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:projectile_protection",
+                        "levels": {
+                          "min": 4
+                        }
+                      }
+                    ]
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings",
+                    "minecraft:chainmail_leggings",
+                    "minecraft:iron_leggings",
+                    "minecraft:golden_leggings",
+                    "minecraft:diamond_leggings",
+                    "minecraft:netherite_leggings"
+                  ],
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:projectile_protection",
+                        "levels": {
+                          "min": 4
+                        }
+                      }
+                    ]
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots",
+                    "minecraft:chainmail_boots",
+                    "minecraft:iron_boots",
+                    "minecraft:golden_boots",
+                    "minecraft:diamond_boots",
+                    "minecraft:netherite_boots"
+                  ],
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:projectile_protection",
+                        "levels": {
+                          "min": 4
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/arrowproof"
+  }
+}

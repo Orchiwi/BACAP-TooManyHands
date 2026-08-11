@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_brick"
+    },
+    "title": {
+      "translate": "No Man's Nether"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Shoot a player standing in a Bastion Remnant while you stand in a Nether Fortress (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/poglin",
+  "criteria": {
+    "cross_border": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "structures": "minecraft:bastion_remnant"
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": [
+                "minecraft:arrow",
+                "minecraft:spectral_arrow"
+              ]
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "structures": "minecraft:fortress"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/no_mans_nether"
+  }
+}

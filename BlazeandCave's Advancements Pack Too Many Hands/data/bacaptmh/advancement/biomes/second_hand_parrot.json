@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:parrot_spawn_egg"
+    },
+    "title": {
+      "translate": "Second-Hand Parrot"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take seeds from another player under the jungle canopy and tame a Parrot with them (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/chatterbox",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wheat_seeds",
+            "minecraft:melon_seeds",
+            "minecraft:pumpkin_seeds",
+            "minecraft:beetroot_seeds",
+            "minecraft:torchflower_seeds"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:jungle",
+                  "minecraft:bamboo_jungle",
+                  "minecraft:sparse_jungle"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tamed": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:parrot"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/second_hand_parrot"
+  }
+}

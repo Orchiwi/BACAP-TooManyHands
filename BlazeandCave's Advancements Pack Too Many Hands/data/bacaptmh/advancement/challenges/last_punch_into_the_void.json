@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "Last Punch Into the Void"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Land a blow on another player while the pair of you are already below the End island, falling into nothing (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/endergeddon",
+  "criteria": {
+    "void_brawl": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_end",
+            "position": {
+              "y": {
+                "max": 0.0
+              }
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end",
+            "position": {
+              "y": {
+                "max": 0.0
+              }
+            }
+          },
+          "movement": {
+            "vertical_speed": {
+              "max": -40.0
+            }
+          },
+          "flags": {
+            "is_flying": false
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/last_punch_into_the_void"
+  }
+}

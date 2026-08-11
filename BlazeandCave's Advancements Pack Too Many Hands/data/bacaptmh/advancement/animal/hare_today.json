@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_rabbit"
+    },
+    "title": {
+      "translate": "Hare Today"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Drop a Rabbit with an Arrow, then hand the Cooked Rabbit to the player who fletched it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/rabbit_season",
+  "criteria": {
+    "shot": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "victims": [
+          {
+            "entity_type": "minecraft:rabbit"
+          }
+        ]
+      }
+    },
+    "served": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:cooked_rabbit"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/hare_today"
+  }
+}

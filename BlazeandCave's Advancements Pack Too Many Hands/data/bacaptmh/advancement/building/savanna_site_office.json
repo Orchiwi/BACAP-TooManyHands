@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_door"
+    },
+    "title": {
+      "translate": "Savanna Site Office"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Acacia Planks from another player out on the Savanna and hang an Acacia Door on what you build (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_acacia_king",
+  "criteria": {
+    "delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:savanna"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:acacia_planks"
+          ],
+          "count": {
+            "min": 32
+          }
+        }
+      }
+    },
+    "door_hung": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:acacia_door"
+                ]
+              },
+              "biomes": "minecraft:savanna"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/savanna_site_office"
+  }
+}

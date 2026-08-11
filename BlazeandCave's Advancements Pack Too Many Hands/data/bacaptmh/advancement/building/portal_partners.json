@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Portal Partners"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Obsidian from another player and walk through the frame the two of you set up with it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_walls",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:obsidian"
+          ],
+          "count": {
+            "min": 10
+          }
+        }
+      }
+    },
+    "stepped_through": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:nether_portal"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/portal_partners"
+  }
+}

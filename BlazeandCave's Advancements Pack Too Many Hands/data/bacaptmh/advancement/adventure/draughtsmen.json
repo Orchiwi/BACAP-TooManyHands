@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cartography_table"
+    },
+    "title": {
+      "translate": "Draughtsmen"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft a Cartography Table out of Paper another player handed you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/mapmakers_table",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:paper"
+          ],
+          "count": {
+            "min": 2
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "built": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cartography_table"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/draughtsmen"
+  }
+}

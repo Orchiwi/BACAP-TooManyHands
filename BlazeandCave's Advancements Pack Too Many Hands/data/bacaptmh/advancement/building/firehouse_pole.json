@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_block"
+    },
+    "title": {
+      "translate": "Firehouse Pole"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Slide all the way down a Honey Block shaft another player built into the tower (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/skyblock",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:honey_block"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "slid": {
+      "trigger": "minecraft:slide_down_block",
+      "conditions": {
+        "block": "minecraft:honey_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/firehouse_pole"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:disc_fragment_5"
+    },
+    "title": {
+      "translate": "Snatch and Grab"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Empty an Ancient City chest and hand what you found to another player before the Warden comes (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "bacaptmh:biomes/sculk_silence",
+  "criteria": {
+    "looted": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/ancient_city"
+      }
+    },
+    "shared": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:echo_shard",
+            "minecraft:disc_fragment_5",
+            "minecraft:enchanted_book",
+            "minecraft:sculk_catalyst",
+            "minecraft:soul_torch",
+            "minecraft:candle"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "structures": "minecraft:ancient_city"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/snatch_and_grab"
+  }
+}

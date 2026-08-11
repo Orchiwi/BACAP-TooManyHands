@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torchflower"
+    },
+    "title": {
+      "translate": "Ancient Groceries"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player the whole prehistoric harvest: a Torchflower and a Pitcher Plant (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/animal_kingdom",
+  "criteria": {
+    "torchflower": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:torchflower"
+          ]
+        }
+      }
+    },
+    "pitcher": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:pitcher_plant"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/ancient_groceries"
+  }
+}

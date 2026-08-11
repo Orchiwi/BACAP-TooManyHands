@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Frozen Bullseye"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed a Bow by another player and put an arrow dead centre into a Target out in the snow (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/cold_feet",
+  "criteria": {
+    "bow_lent": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bow"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "dead_centre": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal": 15,
+        "projectile": {
+          "entity_type": "minecraft:arrow"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:snowy_plains",
+                  "minecraft:snowy_taiga",
+                  "minecraft:snowy_slopes",
+                  "minecraft:ice_spikes",
+                  "minecraft:grove",
+                  "minecraft:frozen_peaks",
+                  "minecraft:snowy_beach"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/frozen_bullseye"
+  }
+}

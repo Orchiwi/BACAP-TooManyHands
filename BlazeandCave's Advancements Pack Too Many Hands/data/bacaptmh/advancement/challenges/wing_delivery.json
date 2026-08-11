@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "Wing Delivery"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Throw an Elytra to another player who is falling beneath the End island (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/ad_astra",
+  "criteria": {
+    "elytra_handoff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:elytra"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              },
+              "location": {
+                "dimension": "the_end",
+                "position": {
+                  "y": {
+                    "max": 0.0
+                  }
+                }
+              },
+              "flags": {
+                "is_on_ground": false
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "the_end",
+                "position": {
+                  "y": {
+                    "max": 0.0
+                  }
+                }
+              },
+              "flags": {
+                "is_on_ground": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/wing_delivery"
+  }
+}

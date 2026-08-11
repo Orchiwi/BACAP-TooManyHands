@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "Thunder Buddies"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a lightning strike with another player stood right beside you, and have them heal you back up afterwards (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/whats_up_doc",
+  "criteria": {
+    "struck": {
+      "trigger": "minecraft:lightning_strike",
+      "conditions": {
+        "bystander": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "max": 8
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "patched": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:regeneration": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/thunder_buddies"
+  }
+}

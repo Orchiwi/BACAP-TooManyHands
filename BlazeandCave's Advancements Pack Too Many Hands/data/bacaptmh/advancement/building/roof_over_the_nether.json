@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone"
+    },
+    "title": {
+      "translate": "Roof Over the Nether"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Glowstone from another player and light the bedrock roof of the Nether with it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/shroom_lightyear",
+  "criteria": {
+    "hauled_up": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:glowstone"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    },
+    "on_the_roof": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:glowstone"
+                ]
+              },
+              "dimension": "minecraft:the_nether",
+              "position": {
+                "y": {
+                  "min": 128
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/roof_over_the_nether"
+  }
+}

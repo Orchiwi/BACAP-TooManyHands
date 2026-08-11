@@ -1,0 +1,109 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Molten Handshake"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Standing in lava in a full set of Curse of Binding Netherite armour, be given Fire Resistance by another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/highway_to_hell",
+  "criteria": {
+    "rescue": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:fire_resistance": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": [
+                    "minecraft:netherite_helmet"
+                  ],
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:binding_curse"
+                      }
+                    ]
+                  }
+                },
+                "chest": {
+                  "items": [
+                    "minecraft:netherite_chestplate"
+                  ],
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:binding_curse"
+                      }
+                    ]
+                  }
+                },
+                "legs": {
+                  "items": [
+                    "minecraft:netherite_leggings"
+                  ],
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:binding_curse"
+                      }
+                    ]
+                  }
+                },
+                "feet": {
+                  "items": [
+                    "minecraft:netherite_boots"
+                  ],
+                  "predicates": {
+                    "enchantments": [
+                      {
+                        "enchantments": "minecraft:binding_curse"
+                      }
+                    ]
+                  }
+                }
+              },
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:lava"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/molten_handshake"
+  }
+}

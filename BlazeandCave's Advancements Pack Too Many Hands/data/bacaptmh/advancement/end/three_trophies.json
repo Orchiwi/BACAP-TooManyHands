@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_head"
+    },
+    "title": {
+      "translate": "Three Trophies"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hold the Dragon Egg, a Dragon Head and a Bottle of Dragon's Breath at once, the head a gift from another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/off_with_his_head",
+  "criteria": {
+    "crown": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dragon_head"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "hoard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dragon_egg"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:dragon_head"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:dragon_breath"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/three_trophies"
+  }
+}

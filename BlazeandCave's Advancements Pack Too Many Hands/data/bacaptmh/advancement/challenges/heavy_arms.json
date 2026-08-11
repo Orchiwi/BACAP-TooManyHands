@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_shard"
+    },
+    "title": {
+      "translate": "Heavy Arms"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Kill another player underwater inside an Ocean Monument while you both have Mining Fatigue (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/abyss_lord",
+  "criteria": {
+    "monument_duel": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              },
+              "effects": {
+                "minecraft:mining_fatigue": {}
+              },
+              "location": {
+                "structures": "minecraft:monument",
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:mining_fatigue": {}
+              },
+              "location": {
+                "structures": "minecraft:monument",
+                "fluid": {
+                  "fluids": [
+                    "minecraft:water"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/heavy_arms"
+  }
+}

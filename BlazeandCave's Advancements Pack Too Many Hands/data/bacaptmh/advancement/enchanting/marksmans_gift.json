@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": {
+      "translate": "Marksman's Gift"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Hand another player a single Bow carrying Power V, Punch II, Flame and Infinity (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/to_infinity_and_beyond",
+  "criteria": {
+    "bestowed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:bow"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:power",
+                "levels": {
+                  "min": 5
+                }
+              },
+              {
+                "enchantments": "minecraft:punch",
+                "levels": {
+                  "min": 2
+                }
+              },
+              {
+                "enchantments": "minecraft:flame"
+              },
+              {
+                "enchantments": "minecraft:infinity"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/marksmans_gift"
+  }
+}

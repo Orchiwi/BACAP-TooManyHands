@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cookie"
+    },
+    "title": {
+      "translate": "Cookie Accomplice"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Cookie from another player and feed it to a Parrot, both of you knowing exactly what that does (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/chatterbox",
+  "criteria": {
+    "slipped_the_cookie": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "fed_it_over": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:parrot"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/cookie_accomplice"
+  }
+}

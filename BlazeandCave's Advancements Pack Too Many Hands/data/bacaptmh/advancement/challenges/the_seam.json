@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "The Seam"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Shoot a player standing in the Deep Dark while you stand in a Lush Caves (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/explorer_of_worlds",
+  "criteria": {
+    "the_seam": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:deep_dark"
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": [
+                "minecraft:arrow",
+                "minecraft:spectral_arrow"
+              ]
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": "minecraft:lush_caves"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/the_seam"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone_meal"
+    },
+    "title": {
+      "translate": "Nursery Detail"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Force one of your Saplings into a full tree using Bone Meal another player composted (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/yay_i_got_my_wood",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bone_meal"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "forced": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_sapling",
+                  "minecraft:spruce_sapling",
+                  "minecraft:birch_sapling",
+                  "minecraft:jungle_sapling",
+                  "minecraft:acacia_sapling",
+                  "minecraft:dark_oak_sapling",
+                  "minecraft:cherry_sapling"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:bone_meal"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/nursery_detail"
+  }
+}

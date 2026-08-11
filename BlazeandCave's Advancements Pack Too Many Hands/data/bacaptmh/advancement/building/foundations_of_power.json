@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": {
+      "translate": "Foundations of Power"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Raise a full four-tier pyramid under a Beacon out of Iron Blocks another player smelted (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/root",
+  "criteria": {
+    "smelted_for_you": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_block"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "four_tiers": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "level": {
+          "min": 4
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/foundations_of_power"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Toll Road"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Shake down another player mid-journey by hitting them off their loaded Donkey (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/are_we_there_yet",
+  "criteria": {
+    "shakedown": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:donkey"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/toll_road"
+  }
+}

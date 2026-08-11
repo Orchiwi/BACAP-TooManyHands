@@ -1,0 +1,81 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:loom"
+    },
+    "title": {
+      "translate": "Weaver's Apprentice"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a Banner and a Banner Pattern and take the finished flag back off the Loom (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/prepare_to_meet_your_loom",
+  "criteria": {
+    "banner_out": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": "#minecraft:banners"
+        }
+      }
+    },
+    "pattern_out": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:flower_banner_pattern",
+            "minecraft:creeper_banner_pattern",
+            "minecraft:skull_banner_pattern",
+            "minecraft:mojang_banner_pattern",
+            "minecraft:globe_banner_pattern",
+            "minecraft:piglin_banner_pattern",
+            "minecraft:flow_banner_pattern",
+            "minecraft:guster_banner_pattern",
+            "minecraft:field_masoned_banner_pattern",
+            "minecraft:bordure_indented_banner_pattern"
+          ]
+        }
+      }
+    },
+    "flag_in": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": "#minecraft:banners"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/weavers_apprentice"
+  }
+}

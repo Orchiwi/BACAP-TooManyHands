@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit"
+    },
+    "title": {
+      "translate": "Jump Scare"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Cut down another player in mid-air while they are bounding about on Jump Boost (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/rabbit_season",
+  "criteria": {
+    "swatted": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:jump_boost": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/jump_scare"
+  }
+}

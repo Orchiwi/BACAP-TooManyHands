@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nautilus_shell"
+    },
+    "title": {
+      "translate": "Deep Sea Dividend"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Fish a Nautilus Shell out of the water on a Luck of the Sea III Rod that belongs to somebody else (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_fisher",
+  "criteria": {
+    "lent": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:fishing_rod"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:luck_of_the_sea",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "shell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nautilus_shell"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/deep_sea_dividend"
+  }
+}

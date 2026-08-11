@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": {
+      "translate": "One Foot in the End"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hit another player while they are standing in a lit End Portal, one step from leaving you behind (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/the_beginning",
+  "criteria": {
+    "nudged": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:end_portal"
+              ]
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/one_foot_in_the_end"
+  }
+}

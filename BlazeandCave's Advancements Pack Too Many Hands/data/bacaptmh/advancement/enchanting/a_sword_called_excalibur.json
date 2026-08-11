@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:name_tag"
+    },
+    "title": {
+      "translate": "A Sword Called Excalibur"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed a sword that another player christened 'Excalibur' on their own anvil (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/this_name_sounds_cooler",
+  "criteria": {
+    "bestowed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_sword",
+            "minecraft:stone_sword",
+            "minecraft:copper_sword",
+            "minecraft:iron_sword",
+            "minecraft:golden_sword",
+            "minecraft:diamond_sword",
+            "minecraft:netherite_sword"
+          ],
+          "components": {
+            "minecraft:custom_name": "Excalibur"
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/a_sword_called_excalibur"
+  }
+}

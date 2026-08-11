@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_block"
+    },
+    "title": {
+      "translate": "Iron Consortium"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Forge an Anvil out of three Blocks of Iron that another player smelted and threw over (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/heavy_metal",
+  "criteria": {
+    "iron": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_block"
+          ],
+          "count": {
+            "min": 3
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "forged": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:anvil"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/iron_consortium"
+  }
+}

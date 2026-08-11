@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:coarse_dirt"
+    },
+    "title": {
+      "translate": "Coarse Correction"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft Coarse Dirt out of Gravel another player dug from the riverbed (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/pathways",
+  "criteria": {
+    "gravel": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:gravel"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "coarsened": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:coarse_dirt"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/coarse_correction"
+  }
+}

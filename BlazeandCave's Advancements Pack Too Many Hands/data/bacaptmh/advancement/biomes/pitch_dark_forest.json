@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_sapling"
+    },
+    "title": {
+      "translate": "Pitch Dark Forest"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player in a Dark Forest with not one point of light falling on either of you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/one_with_the_forest",
+  "criteria": {
+    "blind_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:dark_forest",
+            "light": {
+              "light": {
+                "max": 0
+              }
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:dark_forest",
+                "light": {
+                  "light": {
+                    "max": 0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/pitch_dark_forest"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rabbit_hide"
+    },
+    "title": {
+      "translate": "Skinner's Guild"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Turn Rabbit Hide another player skinned into Leather, then hand the Leather straight back (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/in_a_hole_there_lived_a_rabbit",
+  "criteria": {
+    "hides": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:rabbit_hide"
+          ],
+          "count": {
+            "min": 4
+          }
+        }
+      }
+    },
+    "tanned": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather"
+      }
+    },
+    "returned": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:leather"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/skinners_guild"
+  }
+}

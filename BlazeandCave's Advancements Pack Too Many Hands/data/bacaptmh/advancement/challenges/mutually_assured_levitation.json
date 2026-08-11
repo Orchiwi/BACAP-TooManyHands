@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": {
+      "translate": "Mutually Assured Levitation"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Land a hit on another player while the pair of you are levitating (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/im_in_space",
+  "criteria": {
+    "both_rising": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:levitation": {}
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:levitation": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/mutually_assured_levitation"
+  }
+}

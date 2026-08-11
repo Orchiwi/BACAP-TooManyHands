@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:furnace"
+    },
+    "title": {
+      "translate": "Shared Hearth"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft a Furnace out of Cobblestone another player mined (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/blast_it",
+  "criteria": {
+    "cobble": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cobblestone"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "hearth": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:furnace"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/shared_hearth"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:snowball"
+    },
+    "title": {
+      "translate": "Cold-Blooded Handover"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a Bucket of Tadpole out on the snow, so the Frog grows up cold (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/frog_family",
+  "criteria": {
+    "handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:tadpole_bucket"
+          ]
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:snowy_plains",
+              "minecraft:snowy_taiga",
+              "minecraft:snowy_slopes",
+              "minecraft:grove",
+              "minecraft:ice_spikes",
+              "minecraft:frozen_peaks"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/cold_blooded_handover"
+  }
+}

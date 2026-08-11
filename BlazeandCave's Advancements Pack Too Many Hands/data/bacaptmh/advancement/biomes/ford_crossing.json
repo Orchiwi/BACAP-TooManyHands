@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bucket"
+    },
+    "title": {
+      "translate": "Ford Crossing"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Leave something on one bank of a river for another player to collect from fifteen blocks off (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/kilometre_walk",
+  "criteria": {
+    "collected": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bucket",
+            "minecraft:bread",
+            "minecraft:torch",
+            "minecraft:oak_boat",
+            "minecraft:cod",
+            "minecraft:salmon"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 15
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:river",
+              "minecraft:frozen_river"
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:river",
+                  "minecraft:frozen_river"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/ford_crossing"
+  }
+}

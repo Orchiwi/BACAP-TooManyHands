@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mossy_cobblestone"
+    },
+    "title": {
+      "translate": "Moss Agents"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft Mossy Cobblestone using Vines another player cut down in the jungle (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/rock_collection",
+  "criteria": {
+    "vines": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:vine"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "mossed": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mossy_cobblestone"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/moss_agents"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_bed"
+    },
+    "title": {
+      "translate": "Tucked In"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Get killed by another player while you are standing on a Bed (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/secret_of_the_igloo",
+  "criteria": {
+    "tucked": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "stepping_on": {
+                "block": {
+                  "blocks": [
+                    "minecraft:white_bed",
+                    "minecraft:orange_bed",
+                    "minecraft:magenta_bed",
+                    "minecraft:light_blue_bed",
+                    "minecraft:yellow_bed",
+                    "minecraft:lime_bed",
+                    "minecraft:pink_bed",
+                    "minecraft:gray_bed",
+                    "minecraft:light_gray_bed",
+                    "minecraft:cyan_bed",
+                    "minecraft:purple_bed",
+                    "minecraft:blue_bed",
+                    "minecraft:brown_bed",
+                    "minecraft:green_bed",
+                    "minecraft:red_bed",
+                    "minecraft:black_bed"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/tucked_in"
+  }
+}

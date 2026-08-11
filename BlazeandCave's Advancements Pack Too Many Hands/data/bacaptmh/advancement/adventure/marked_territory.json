@@ -1,0 +1,95 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_banner"
+    },
+    "title": {
+      "translate": "Marked Territory"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Mark another player's Banner onto your Map so you both read the same landmark (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/im_not_lost_anymore",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_banner",
+            "minecraft:orange_banner",
+            "minecraft:magenta_banner",
+            "minecraft:light_blue_banner",
+            "minecraft:yellow_banner",
+            "minecraft:lime_banner",
+            "minecraft:pink_banner",
+            "minecraft:gray_banner",
+            "minecraft:light_gray_banner",
+            "minecraft:cyan_banner",
+            "minecraft:purple_banner",
+            "minecraft:blue_banner",
+            "minecraft:brown_banner",
+            "minecraft:green_banner",
+            "minecraft:red_banner",
+            "minecraft:black_banner"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "marked": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:white_banner",
+                  "minecraft:orange_banner",
+                  "minecraft:magenta_banner",
+                  "minecraft:light_blue_banner",
+                  "minecraft:yellow_banner",
+                  "minecraft:lime_banner",
+                  "minecraft:pink_banner",
+                  "minecraft:gray_banner",
+                  "minecraft:light_gray_banner",
+                  "minecraft:cyan_banner",
+                  "minecraft:purple_banner",
+                  "minecraft:blue_banner",
+                  "minecraft:brown_banner",
+                  "minecraft:green_banner",
+                  "minecraft:red_banner",
+                  "minecraft:black_banner"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:filled_map"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/marked_territory"
+  }
+}

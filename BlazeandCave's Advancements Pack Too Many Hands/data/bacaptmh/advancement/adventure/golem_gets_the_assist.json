@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_golem_spawn_egg"
+    },
+    "title": {
+      "translate": "Golem Gets the Assist"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be softened up by another player and then finished off by a village Iron Golem (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/rekt",
+  "criteria": {
+    "softened": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "finished": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:iron_golem"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/golem_gets_the_assist"
+  }
+}

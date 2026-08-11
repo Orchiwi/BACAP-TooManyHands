@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "You Need It More"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Give your Totem of Undying away to another player while you are the one burning and falling (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/the_perfect_run",
+  "criteria": {
+    "gave_it_away": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:totem_of_undying"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_flying": false
+          }
+        },
+        "player": {
+          "flags": {
+            "is_on_fire": true,
+            "is_flying": false
+          },
+          "movement": {
+            "vertical_speed": {
+              "max": -40.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/you_need_it_more"
+  }
+}

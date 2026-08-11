@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:breeze_rod"
+    },
+    "title": {
+      "translate": "Bottled Wind"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft Wind Charges out of a Breeze Rod another player handed you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/breeze_suppressor",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:breeze_rod"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "bottled": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wind_charge"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/bottled_wind"
+  }
+}

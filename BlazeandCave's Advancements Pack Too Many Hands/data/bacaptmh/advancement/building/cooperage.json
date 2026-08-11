@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spruce_slab"
+    },
+    "title": {
+      "translate": "Cooperage"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft a Barrel out of Wooden Slabs another player cut on the sawbench (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/barrel_rider",
+  "criteria": {
+    "slabs": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:oak_slab",
+            "minecraft:spruce_slab",
+            "minecraft:birch_slab"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "coopered": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:barrel"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/cooperage"
+  }
+}

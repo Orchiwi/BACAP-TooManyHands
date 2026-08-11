@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_helmet"
+    },
+    "title": {
+      "translate": "All That Armour"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player in the End wearing a full suit of Netherite, for all the good it did them (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/dragon_vs_dragon",
+  "criteria": {
+    "overkill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:netherite_helmet"
+              ]
+            },
+            "chest": {
+              "items": [
+                "minecraft:netherite_chestplate"
+              ]
+            },
+            "legs": {
+              "items": [
+                "minecraft:netherite_leggings"
+              ]
+            },
+            "feet": {
+              "items": [
+                "minecraft:netherite_boots"
+              ]
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/all_that_armour"
+  }
+}

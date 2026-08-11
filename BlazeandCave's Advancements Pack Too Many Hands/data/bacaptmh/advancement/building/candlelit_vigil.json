@@ -1,0 +1,86 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:black_candle"
+    },
+    "title": {
+      "translate": "Candlelit Vigil"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Black Candles from another player and leave four of them burning in a Pale Garden (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_ritual_begins",
+  "criteria": {
+    "handed_the_candles": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:black_candle"
+          ],
+          "count": {
+            "min": 4
+          }
+        }
+      }
+    },
+    "set_out": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:black_candle"
+                ]
+              },
+              "biomes": "minecraft:pale_garden"
+            }
+          }
+        ]
+      }
+    },
+    "lit": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:black_candle"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:flint_and_steel"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/candlelit_vigil"
+  }
+}

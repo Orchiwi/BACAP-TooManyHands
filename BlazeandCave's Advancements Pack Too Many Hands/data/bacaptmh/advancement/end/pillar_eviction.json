@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "Pillar Eviction"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hit another player while they are standing on top of one of the obsidian pillars (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/the_start_of_something",
+  "criteria": {
+    "toppled": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_on_ground": true
+          },
+          "location": {
+            "dimension": "minecraft:the_end",
+            "position": {
+              "y": {
+                "min": 76.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/pillar_eviction"
+  }
+}

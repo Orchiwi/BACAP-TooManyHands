@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "translate": "Someone Else's Grudge"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Sharpness V sword off another player and use it to make the Illagers hate you personally (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/needle_sharp",
+  "criteria": {
+    "armed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_sword",
+            "minecraft:stone_sword",
+            "minecraft:copper_sword",
+            "minecraft:iron_sword",
+            "minecraft:golden_sword",
+            "minecraft:diamond_sword",
+            "minecraft:netherite_sword"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:sharpness",
+                "levels": {
+                  "min": 5
+                }
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "marked": {
+      "trigger": "minecraft:voluntary_exile",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/someone_elses_grudge"
+  }
+}

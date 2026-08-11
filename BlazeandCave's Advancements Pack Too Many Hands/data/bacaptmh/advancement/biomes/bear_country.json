@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Bear Country"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed a Crossbow by another player and loose a bolt from it out on the polar ice (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/were_going_on_a_bear_hunt",
+  "criteria": {
+    "crossbow_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "bolt_loosed": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:snowy_plains",
+                  "minecraft:snowy_taiga",
+                  "minecraft:snowy_slopes",
+                  "minecraft:ice_spikes",
+                  "minecraft:grove",
+                  "minecraft:frozen_peaks",
+                  "minecraft:snowy_beach"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/bear_country"
+  }
+}

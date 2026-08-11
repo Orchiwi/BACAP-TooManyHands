@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:paper"
+    },
+    "title": {
+      "translate": "Fine Print"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a Sharpness V Sword that is quietly carrying Curse of Vanishing (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/curses",
+  "criteria": {
+    "small_letters": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": "#blazeandcave:swords",
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:sharpness",
+                "levels": {
+                  "min": 5
+                }
+              },
+              {
+                "enchantments": "minecraft:vanishing_curse"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/fine_print"
+  }
+}

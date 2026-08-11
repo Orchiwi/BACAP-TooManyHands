@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mud_bricks"
+    },
+    "title": {
+      "translate": "Bricks Out of the Bog"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Mud off another player in a Mangrove Swamp and turn it into Mud Bricks (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/overgrown",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:mud",
+            "minecraft:packed_mud"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:mangrove_swamp"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "baked": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mud_bricks"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/bricks_out_of_the_bog"
+  }
+}

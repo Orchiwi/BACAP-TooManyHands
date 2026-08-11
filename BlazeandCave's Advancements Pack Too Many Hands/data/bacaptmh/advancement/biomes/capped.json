@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom_block"
+    },
+    "title": {
+      "translate": "Capped"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player who is standing on top of a huge mushroom in a Dark Forest (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/one_with_the_forest",
+  "criteria": {
+    "knocked_off_the_cap": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:red_mushroom_block",
+                "minecraft:brown_mushroom_block",
+                "minecraft:mushroom_stem"
+              ]
+            }
+          },
+          "location": {
+            "biomes": "minecraft:dark_forest"
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/capped"
+  }
+}

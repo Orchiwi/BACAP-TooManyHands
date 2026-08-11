@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_sand"
+    },
+    "title": {
+      "translate": "High Ground"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player at least thirty blocks below you from the rim of a Badlands plateau (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/warm_feet",
+  "criteria": {
+    "dropped": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 30
+            },
+            "y": {
+              "min": 30
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:badlands",
+              "minecraft:wooded_badlands",
+              "minecraft:eroded_badlands"
+            ]
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:badlands",
+              "minecraft:wooded_badlands",
+              "minecraft:eroded_badlands"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/high_ground"
+  }
+}

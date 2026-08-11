@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "Rail Shot"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Hit a teammate with an arrow from 40 blocks away while they hurtle past in a Minecart at full speed (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/the_devils_distance",
+  "criteria": {
+    "rail": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 40.0
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          },
+          "movement": {
+            "speed": {
+              "min": 8.0
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": [
+                "minecraft:arrow",
+                "minecraft:spectral_arrow"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/rail_shot"
+  }
+}

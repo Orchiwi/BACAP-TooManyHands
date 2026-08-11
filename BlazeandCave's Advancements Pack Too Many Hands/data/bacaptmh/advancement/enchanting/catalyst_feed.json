@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "translate": "Catalyst Feed"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Swift Sneak III leggings off another player and feed a kill to a Sculk Catalyst (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/like_a_ninja",
+  "criteria": {
+    "issued": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:leather_leggings",
+            "minecraft:chainmail_leggings",
+            "minecraft:iron_leggings",
+            "minecraft:golden_leggings",
+            "minecraft:diamond_leggings",
+            "minecraft:netherite_leggings"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:swift_sneak",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "fed": {
+      "trigger": "minecraft:kill_mob_near_sculk_catalyst"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/catalyst_feed"
+  }
+}

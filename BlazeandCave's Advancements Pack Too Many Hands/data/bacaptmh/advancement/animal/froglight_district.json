@@ -1,0 +1,127 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ochre_froglight"
+    },
+    "title": {
+      "translate": "Froglight District"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Lay all three Froglights, every one of them handed over by another player (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/frog_family",
+  "criteria": {
+    "ochre_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:ochre_froglight"
+          ]
+        }
+      }
+    },
+    "pearl_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:pearlescent_froglight"
+          ]
+        }
+      }
+    },
+    "verdant_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:verdant_froglight"
+          ]
+        }
+      }
+    },
+    "ochre_laid": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:ochre_froglight"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "pearl_laid": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:pearlescent_froglight"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "verdant_laid": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:verdant_froglight"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/froglight_district"
+  }
+}

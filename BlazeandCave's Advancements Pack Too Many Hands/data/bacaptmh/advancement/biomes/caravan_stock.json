@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cactus"
+    },
+    "title": {
+      "translate": "Caravan Stock"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Cactus off another player in the desert and breed two Camels with it (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/warm_feet",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cactus"
+          ],
+          "count": {
+            "min": 2
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:desert"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "bred": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:camel"
+        },
+        "partner": {
+          "entity_type": "minecraft:camel"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/caravan_stock"
+  }
+}

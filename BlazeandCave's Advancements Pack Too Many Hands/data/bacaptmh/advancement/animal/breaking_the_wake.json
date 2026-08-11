@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_crystals"
+    },
+    "title": {
+      "translate": "Breaking the Wake"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hit another player while they are being towed along by a Dolphin's Grace (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/master_angler",
+  "criteria": {
+    "broke_it": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:dolphins_grace": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/breaking_the_wake"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:conduit"
+    },
+    "title": {
+      "translate": "Night Diving"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be splashed with Night Vision by another player while Conduit Power is still running through you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/rebuilding_the_oceans",
+  "criteria": {
+    "lit_up": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:night_vision": {},
+          "minecraft:conduit_power": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/night_diving"
+  }
+}

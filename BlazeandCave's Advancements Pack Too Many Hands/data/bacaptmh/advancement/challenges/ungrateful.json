@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Ungrateful"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Kill a Hero of the Village while you yourself are carrying Bad Omen (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/were_in_the_endgame_now",
+  "criteria": {
+    "ungrateful": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:hero_of_the_village": {}
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:bad_omen": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/ungrateful"
+  }
+}

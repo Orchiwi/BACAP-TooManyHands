@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_hoe"
+    },
+    "title": {
+      "translate": "Farmhand"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed a Fortune III Hoe and bring a full stack of Nether Wart back through the portal (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_farmer",
+  "criteria": {
+    "lent": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_hoe",
+            "minecraft:stone_hoe",
+            "minecraft:copper_hoe",
+            "minecraft:iron_hoe",
+            "minecraft:golden_hoe",
+            "minecraft:diamond_hoe",
+            "minecraft:netherite_hoe"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:fortune",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "harvest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_wart"
+            ],
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/farmhand"
+  }
+}

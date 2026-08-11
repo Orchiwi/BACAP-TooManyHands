@@ -1,0 +1,77 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "Pillar Drop"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have another player Wind Charge you off an obsidian pillar and ride the blast thirty blocks down (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/the_point_of_no_return",
+  "criteria": {
+    "punted": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          },
+          "direct_entity": {
+            "entity_type": "minecraft:wind_charge"
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end",
+                "position": {
+                  "y": {
+                    "min": 70.0
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "plummet": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 30.0
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/pillar_drop"
+  }
+}

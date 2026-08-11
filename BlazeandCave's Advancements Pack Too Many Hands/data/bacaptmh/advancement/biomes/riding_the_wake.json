@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dolphin_spawn_egg"
+    },
+    "title": {
+      "translate": "Riding the Wake"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Have another player throw you Speed while a Dolphin is already lending you its Grace (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/dolphin_dasher",
+  "criteria": {
+    "double_boosted": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {},
+          "minecraft:dolphins_grace": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/riding_the_wake"
+  }
+}

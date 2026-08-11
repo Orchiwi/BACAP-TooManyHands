@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_sensor"
+    },
+    "title": {
+      "translate": "Quiet on Site"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Creep past a Sculk Sensor without setting it off while another player slips you the materials (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/pathways",
+  "criteria": {
+    "undetected": {
+      "trigger": "minecraft:avoid_vibration"
+    },
+    "slipped_the_goods": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": "#minecraft:planks",
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/quiet_on_site"
+  }
+}

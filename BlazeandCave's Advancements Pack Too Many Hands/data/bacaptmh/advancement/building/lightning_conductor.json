@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "Lightning Conductor"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Lightning Rod from another player, mount it on the roof and be standing there when the storm finds it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/let_there_be_light",
+  "criteria": {
+    "handed_the_rod": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:lightning_rod"
+          ]
+        }
+      }
+    },
+    "mounted": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:lightning_rod"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "struck": {
+      "trigger": "minecraft:lightning_strike"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/lightning_conductor"
+  }
+}

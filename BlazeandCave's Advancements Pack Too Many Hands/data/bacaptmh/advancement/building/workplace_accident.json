@@ -1,0 +1,65 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_pickaxe"
+    },
+    "title": {
+      "translate": "Workplace Accident"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player while the two of you are both standing on Scaffolding (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/skyblock",
+  "criteria": {
+    "on_the_scaffold": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              },
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:scaffolding"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "your_footing": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:scaffolding"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/workplace_accident"
+  }
+}

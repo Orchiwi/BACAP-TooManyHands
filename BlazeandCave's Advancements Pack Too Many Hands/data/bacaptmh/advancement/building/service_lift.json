@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_sand"
+    },
+    "title": {
+      "translate": "Service Lift"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Ride a bubble lift up the shaft using Soul Sand another player carried back from the Nether (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/one_pickle_two_pickle_sea_pickle_four",
+  "criteria": {
+    "carried_back": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:soul_sand"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "lifted": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:bubble_column"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/service_lift"
+  }
+}

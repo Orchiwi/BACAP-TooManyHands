@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vine"
+    },
+    "title": {
+      "translate": "Caught in the Creepers"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Kill another player while the pair of you hang in the same jungle vines (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/tarzan",
+  "criteria": {
+    "strangled": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 0.1
+            }
+          },
+          "location": {
+            "biomes": [
+              "minecraft:jungle",
+              "minecraft:bamboo_jungle",
+              "minecraft:sparse_jungle"
+            ],
+            "block": {
+              "blocks": [
+                "minecraft:vine"
+              ]
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:jungle",
+              "minecraft:bamboo_jungle",
+              "minecraft:sparse_jungle"
+            ],
+            "block": {
+              "blocks": [
+                "minecraft:vine"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/caught_in_the_creepers"
+  }
+}

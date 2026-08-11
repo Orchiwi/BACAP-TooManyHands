@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "Loaned Arbalest"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Be handed a Piercing IV Crossbow and skewer five different kinds of mob with a single bolt (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_arbalist",
+  "criteria": {
+    "loaned": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:piercing",
+                "levels": {
+                  "min": 4
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "kebab": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "unique_entity_types": {
+          "min": 5
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/loaned_arbalest"
+  }
+}

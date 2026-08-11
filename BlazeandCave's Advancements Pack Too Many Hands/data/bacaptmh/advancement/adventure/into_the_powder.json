@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "Into the Powder"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Sink into Powder Snow poured out of a Bucket another player handed you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/secret_of_the_igloo",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:powder_snow_bucket"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "sank": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:powder_snow"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/into_the_powder"
+  }
+}

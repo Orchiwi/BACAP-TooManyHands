@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mace"
+    },
+    "title": {
+      "translate": "Sudden Stop"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Land a single Mace smash on another player for at least a hundred damage (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/at_the_rim_of_the_sky",
+  "criteria": {
+    "smash": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "dealt": {
+            "min": 100
+          },
+          "blocked": false,
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:player",
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:mace"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:mace_smash",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/sudden_stop"
+  }
+}

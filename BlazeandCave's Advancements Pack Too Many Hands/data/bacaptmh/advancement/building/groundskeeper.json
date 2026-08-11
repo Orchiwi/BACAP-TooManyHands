@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel"
+    },
+    "title": {
+      "translate": "Groundskeeper"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cut a Dirt Path across the lawn with a Shovel another player lent you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/pathways",
+  "criteria": {
+    "lent": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_shovel",
+            "minecraft:stone_shovel",
+            "minecraft:iron_shovel",
+            "minecraft:golden_shovel",
+            "minecraft:diamond_shovel",
+            "minecraft:netherite_shovel"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "trodden": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:grass_block"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:wooden_shovel",
+                "minecraft:stone_shovel",
+                "minecraft:iron_shovel",
+                "minecraft:golden_shovel",
+                "minecraft:diamond_shovel",
+                "minecraft:netherite_shovel"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/groundskeeper"
+  }
+}

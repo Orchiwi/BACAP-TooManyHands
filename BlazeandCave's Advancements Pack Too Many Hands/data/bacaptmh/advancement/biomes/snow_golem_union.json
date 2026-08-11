@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:carved_pumpkin"
+    },
+    "title": {
+      "translate": "Snow Golem Union"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Carved Pumpkin off another player in a snowy biome and crown a Snow Golem with it (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/cold_feet",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:carved_pumpkin"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": [
+                  "minecraft:snowy_plains",
+                  "minecraft:snowy_taiga",
+                  "minecraft:snowy_slopes",
+                  "minecraft:grove",
+                  "minecraft:ice_spikes",
+                  "minecraft:frozen_peaks"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "crowned": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:snow_golem"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/snow_golem_union"
+  }
+}

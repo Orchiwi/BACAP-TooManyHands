@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_sand"
+    },
+    "title": {
+      "translate": "Bubble Lift"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed Soul Sand by another player and ride the Bubble Column you make with it (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/pushed_around",
+  "criteria": {
+    "sand_handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:soul_sand"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "carried_up": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:bubble_column"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/bubble_lift"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ladder"
+    },
+    "title": {
+      "translate": "Mind Your Head"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Catch a Ladder dropped down a shaft by another player standing at least 40 blocks away from where it lands (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/ladder_climbers_inc",
+  "criteria": {
+    "caught": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ladder"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 40
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/mind_your_head"
+  }
+}

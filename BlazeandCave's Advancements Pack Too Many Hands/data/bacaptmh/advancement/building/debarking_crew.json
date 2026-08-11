@@ -1,0 +1,80 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_oak_log"
+    },
+    "title": {
+      "translate": "Debarking Crew"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Strip the bark off a Log with an Axe another player lent you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/stripper",
+  "criteria": {
+    "lent": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_axe",
+            "minecraft:stone_axe",
+            "minecraft:iron_axe",
+            "minecraft:golden_axe",
+            "minecraft:diamond_axe",
+            "minecraft:netherite_axe"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "stripped": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_log",
+                  "minecraft:spruce_log",
+                  "minecraft:birch_log",
+                  "minecraft:jungle_log",
+                  "minecraft:acacia_log",
+                  "minecraft:dark_oak_log"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:wooden_axe",
+                "minecraft:stone_axe",
+                "minecraft:iron_axe",
+                "minecraft:golden_axe",
+                "minecraft:diamond_axe",
+                "minecraft:netherite_axe"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/debarking_crew"
+  }
+}

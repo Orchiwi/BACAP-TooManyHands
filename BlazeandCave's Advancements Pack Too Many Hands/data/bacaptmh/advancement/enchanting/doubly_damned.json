@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "Doubly Damned"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Put an Enchanted Book carrying both Curse of Binding and Curse of Vanishing into another player's hands (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/curses",
+  "criteria": {
+    "gifted": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "minecraft:binding_curse"
+              },
+              {
+                "enchantments": "minecraft:vanishing_curse"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/doubly_damned"
+  }
+}

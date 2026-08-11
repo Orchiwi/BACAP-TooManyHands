@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword"
+    },
+    "title": {
+      "translate": "Borrowed Strength"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Land a single blow worth at least nine hearts with a Wooden Sword, on Strength another player gave you (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/ultimate_enchanter",
+  "criteria": {
+    "given_strength": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:strength": {
+            "amplifier": {
+              "min": 1
+            }
+          }
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "big_hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 18
+          },
+          "type": {
+            "source_entity": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_sword"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/borrowed_strength"
+  }
+}

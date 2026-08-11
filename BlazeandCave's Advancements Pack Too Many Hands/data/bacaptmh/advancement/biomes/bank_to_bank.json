@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:string"
+    },
+    "title": {
+      "translate": "Bank to Bank"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Yank another player off a river bank with a Fishing Rod and put an arrow in them as they swim (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/kilometre_walk",
+  "criteria": {
+    "hooked": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 15
+            }
+          }
+        },
+        "player": {
+          "location": {
+            "biomes": [
+              "minecraft:river",
+              "minecraft:frozen_river"
+            ]
+          }
+        }
+      }
+    },
+    "shot": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "minecraft:arrow"
+            }
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 5
+            }
+          },
+          "flags": {
+            "is_swimming": true
+          },
+          "location": {
+            "biomes": [
+              "minecraft:river",
+              "minecraft:frozen_river"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/bank_to_bank"
+  }
+}

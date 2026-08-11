@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone_bricks"
+    },
+    "title": {
+      "translate": "Kiln Partners"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Cut End Stone Bricks out of stone another player quarried and threw across to you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/end_bricks",
+  "criteria": {
+    "stone": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:end_stone"
+          ],
+          "count": {
+            "min": 4
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "cut": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:end_stone_bricks"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/kiln_partners"
+  }
+}

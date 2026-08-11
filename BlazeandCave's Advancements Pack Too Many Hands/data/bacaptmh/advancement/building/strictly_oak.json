@@ -1,0 +1,145 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_planks"
+    },
+    "title": {
+      "translate": "Strictly Oak"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Take a stack of Oak Planks from another player and raise a house of nothing else: planks, stairs, slabs, fence, door and trapdoor (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/professor_oak",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:oak_planks"
+          ],
+          "count": {
+            "min": 64
+          }
+        }
+      }
+    },
+    "planks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_planks"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "stairs": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_stairs"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slab": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_slab"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "fence": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_fence"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "door": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_door"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "trapdoor": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:oak_trapdoor"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/strictly_oak"
+  }
+}

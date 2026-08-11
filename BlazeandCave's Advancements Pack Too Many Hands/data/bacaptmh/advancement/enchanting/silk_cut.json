@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bee_nest"
+    },
+    "title": {
+      "translate": "Silk Cut"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Lift a Bee Nest with three bees still inside using a Silk Touch axe another player lent you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/pick_like_silk",
+  "criteria": {
+    "borrowed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wooden_axe",
+            "minecraft:stone_axe",
+            "minecraft:copper_axe",
+            "minecraft:iron_axe",
+            "minecraft:golden_axe",
+            "minecraft:diamond_axe",
+            "minecraft:netherite_axe"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:silk_touch"
+              }
+            ]
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "lifted": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "block": "minecraft:bee_nest",
+        "num_bees_inside": 3,
+        "item": {
+          "items": [
+            "minecraft:wooden_axe",
+            "minecraft:stone_axe",
+            "minecraft:copper_axe",
+            "minecraft:iron_axe",
+            "minecraft:golden_axe",
+            "minecraft:diamond_axe",
+            "minecraft:netherite_axe"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:silk_touch"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/silk_cut"
+  }
+}

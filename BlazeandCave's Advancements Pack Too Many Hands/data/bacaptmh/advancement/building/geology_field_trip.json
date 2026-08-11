@@ -1,0 +1,118 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:calcite"
+    },
+    "title": {
+      "translate": "Geology Field Trip"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be handed Calcite, Dripstone, Amethyst and Tuff by another player down in the Dripstone Caves (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/rock_collection",
+  "criteria": {
+    "calcite": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:dripstone_caves"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:calcite"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    },
+    "dripstone": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:dripstone_caves"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:dripstone_block"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    },
+    "amethyst": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:dripstone_caves"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:amethyst_block"
+          ],
+          "count": {
+            "min": 4
+          }
+        }
+      }
+    },
+    "tuff": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:dripstone_caves"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:tuff"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/geology_field_trip"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "Above the Nether"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Have another player pass you an Enchanting Table on top of the Nether roof, then burn levels on it up there (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/complete_enchanter",
+  "criteria": {
+    "passed_up": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanting_table"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "roof_altar": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:enchanting_table"
+                ]
+              },
+              "dimension": "minecraft:the_nether",
+              "position": {
+                "y": {
+                  "min": 128
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "spent": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "levels": {
+          "min": 3
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/above_the_nether"
+  }
+}

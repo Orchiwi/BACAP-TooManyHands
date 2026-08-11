@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dandelion"
+    },
+    "title": {
+      "translate": "Pollen Partners"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Breed two Bees with a flower another player picked and tossed to you (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/ya_like_jazz",
+  "criteria": {
+    "handed_the_flower": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:dandelion",
+            "minecraft:poppy",
+            "minecraft:blue_orchid",
+            "minecraft:allium",
+            "minecraft:azure_bluet",
+            "minecraft:red_tulip",
+            "minecraft:orange_tulip",
+            "minecraft:white_tulip",
+            "minecraft:pink_tulip",
+            "minecraft:oxeye_daisy",
+            "minecraft:cornflower",
+            "minecraft:lily_of_the_valley",
+            "minecraft:sunflower",
+            "minecraft:lilac",
+            "minecraft:rose_bush",
+            "minecraft:peony"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "bred": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "entity_type": "minecraft:bee"
+        },
+        "partner": {
+          "entity_type": "minecraft:bee"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/pollen_partners"
+  }
+}

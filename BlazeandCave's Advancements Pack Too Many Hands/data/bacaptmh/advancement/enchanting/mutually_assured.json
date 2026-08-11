@@ -1,0 +1,91 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pointed_dripstone"
+    },
+    "title": {
+      "translate": "Mutually Assured"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Punch a Thorns-wearing player while wearing Thorns yourself and let the spikes argue it out (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/echidna",
+  "criteria": {
+    "argument": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:leather_chestplate",
+                "minecraft:chainmail_chestplate",
+                "minecraft:iron_chestplate",
+                "minecraft:golden_chestplate",
+                "minecraft:diamond_chestplate",
+                "minecraft:netherite_chestplate"
+              ],
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:thorns"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate",
+                    "minecraft:chainmail_chestplate",
+                    "minecraft:iron_chestplate",
+                    "minecraft:golden_chestplate",
+                    "minecraft:diamond_chestplate",
+                    "minecraft:netherite_chestplate"
+                  ],
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:thorns"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/mutually_assured"
+  }
+}

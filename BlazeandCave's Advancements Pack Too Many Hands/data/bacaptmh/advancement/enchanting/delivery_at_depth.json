@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:kelp"
+    },
+    "title": {
+      "translate": "Delivery at Depth"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Put a Riptide III Trident into another player's hands while the pair of you are underwater (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/scuba_gear",
+  "criteria": {
+    "handed_below": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "flags": {
+            "is_swimming": true
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:trident"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:riptide",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_swimming": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/delivery_at_depth"
+  }
+}

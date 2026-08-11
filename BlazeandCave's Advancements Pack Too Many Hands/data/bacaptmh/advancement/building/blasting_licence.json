@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "Blasting Licence"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take TNT from another player and get thrown clear by the charge you set with it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/the_walls",
+  "criteria": {
+    "handed_the_charge": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:tnt"
+          ],
+          "count": {
+            "min": 4
+          }
+        }
+      }
+    },
+    "thrown_clear": {
+      "trigger": "minecraft:fall_after_explosion"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/blasting_licence"
+  }
+}

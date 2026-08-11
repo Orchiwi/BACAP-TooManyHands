@@ -1,0 +1,81 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cactus"
+    },
+    "title": {
+      "translate": "Sold Them the Spikes"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hand another player a Thorns III chestplate, then hit them and bleed for it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/echidna",
+  "criteria": {
+    "sold": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:leather_chestplate",
+            "minecraft:chainmail_chestplate",
+            "minecraft:iron_chestplate",
+            "minecraft:golden_chestplate",
+            "minecraft:diamond_chestplate",
+            "minecraft:netherite_chestplate"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:thorns",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "bled": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": false
+              }
+            ],
+            "direct_entity": {
+              "entity_type": "minecraft:player"
+            },
+            "source_entity": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/sold_them_the_spikes"
+  }
+}

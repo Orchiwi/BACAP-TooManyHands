@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge"
+    },
+    "title": {
+      "translate": "Caught by the Wind"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Have a teammate break your fall with a Wind Charge while you are plummeting at over 60 blocks per second (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/immortal",
+  "criteria": {
+    "clutch": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1.0
+              }
+            }
+          },
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:wind_charge"
+            }
+          }
+        },
+        "player": {
+          "movement": {
+            "speed": {
+              "min": 60.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/caught_by_the_wind"
+  }
+}

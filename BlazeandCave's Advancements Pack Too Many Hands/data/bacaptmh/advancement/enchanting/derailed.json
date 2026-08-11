@@ -1,0 +1,79 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "Derailed"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Knock another player clean out of a moving Minecart with a Knockback II sword (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/knocking_your_socks_off",
+  "criteria": {
+    "ejected": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:minecart"
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:diamond_sword",
+                    "minecraft:netherite_sword"
+                  ],
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:knockback",
+                        "levels": {
+                          "min": 2
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/derailed"
+  }
+}

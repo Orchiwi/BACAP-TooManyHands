@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "Middleman"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Emeralds from another player and spend the whole lot at a Villager for them (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/stationary_storage",
+  "criteria": {
+    "funded": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:emerald"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    },
+    "spent": {
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/middleman"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+    "title": {
+      "translate": "Tow Line"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Hook a Boat with another player still sitting in it, using a borrowed Rod (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/someones_been_here_before",
+  "criteria": {
+    "handed_the_rod": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:fishing_rod"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "towed": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity_type": [
+            "minecraft:oak_boat",
+            "minecraft:spruce_boat",
+            "minecraft:birch_boat",
+            "minecraft:jungle_boat",
+            "minecraft:acacia_boat",
+            "minecraft:dark_oak_boat",
+            "minecraft:pale_oak_boat",
+            "minecraft:mangrove_boat",
+            "minecraft:cherry_boat",
+            "minecraft:bamboo_raft",
+            "minecraft:oak_chest_boat",
+            "minecraft:spruce_chest_boat",
+            "minecraft:birch_chest_boat",
+            "minecraft:jungle_chest_boat",
+            "minecraft:acacia_chest_boat",
+            "minecraft:dark_oak_chest_boat",
+            "minecraft:pale_oak_chest_boat",
+            "minecraft:mangrove_chest_boat",
+            "minecraft:cherry_chest_boat",
+            "minecraft:bamboo_chest_raft"
+          ],
+          "passenger": {
+            "entity_type": "minecraft:player"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/tow_line"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:vine"
+    },
+    "title": {
+      "translate": "Cut the Vine"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player while they are hanging halfway up a jungle Vine (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/tarzan",
+  "criteria": {
+    "cut_down": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:vine"
+              ]
+            },
+            "biomes": [
+              "minecraft:jungle",
+              "minecraft:bamboo_jungle",
+              "minecraft:sparse_jungle"
+            ]
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_player_attack",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/cut_the_vine"
+  }
+}

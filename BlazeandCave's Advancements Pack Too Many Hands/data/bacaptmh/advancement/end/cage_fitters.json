@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_bars"
+    },
+    "title": {
+      "translate": "Cage Fitters"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Build the cage yourself: place Iron Bars another player threw you on top of an obsidian pillar (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/the_start_of_something",
+  "criteria": {
+    "bars": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_bars"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "fitted": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:iron_bars"
+                ]
+              },
+              "dimension": "minecraft:the_end",
+              "position": {
+                "y": {
+                  "min": 76.0
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/cage_fitters"
+  }
+}

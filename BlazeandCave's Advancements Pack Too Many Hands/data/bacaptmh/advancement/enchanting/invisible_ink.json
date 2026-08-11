@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Invisible Ink"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be splashed Invisible by another player, then enchant an item while nobody can see you doing it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/complete_enchanter",
+  "criteria": {
+    "unseen": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "worked": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "levels": {
+          "min": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/invisible_ink"
+  }
+}

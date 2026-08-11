@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "translate": "Pit Stop"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Be hit mid-flight by a teammate's Splash Potion of Swiftness thrown from 30 blocks away, while gliding at 60 blocks per second (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/potion_master",
+  "criteria": {
+    "boost": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 30.0
+                }
+              }
+            }
+          }
+        ],
+        "player": {
+          "flags": {
+            "is_fall_flying": true
+          },
+          "movement": {
+            "speed": {
+              "min": 60.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/pit_stop"
+  }
+}

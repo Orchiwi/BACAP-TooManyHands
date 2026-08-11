@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nautilus_shell"
+    },
+    "title": {
+      "translate": "Luck on Loan"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Reel in treasure using a Luck of the Sea III Rod another player lent you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/master_fisher",
+  "criteria": {
+    "lent_luck": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:fishing_rod"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:luck_of_the_sea",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "treasure": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:gameplay/fishing/treasure"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/luck_on_loan"
+  }
+}

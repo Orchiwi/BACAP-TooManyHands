@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:white_banner"
+    },
+    "title": {
+      "translate": "Bad Company"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Be splashed Invisible by another player while Bad Omen hangs over you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/war_is_coming",
+  "criteria": {
+    "vanished_together": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility": {},
+          "minecraft:bad_omen": {}
+        },
+        "source": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:player",
+              "distance": {
+                "absolute": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/bad_company"
+  }
+}

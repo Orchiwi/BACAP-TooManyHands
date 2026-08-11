@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_sensor"
+    },
+    "title": {
+      "translate": "Past the Sensor"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Swift Sneak III leggings from another player and slip past a Sculk Sensor without a sound (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/like_a_ninja",
+  "criteria": {
+    "kitted": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:leather_leggings",
+            "minecraft:chainmail_leggings",
+            "minecraft:iron_leggings",
+            "minecraft:golden_leggings",
+            "minecraft:diamond_leggings",
+            "minecraft:netherite_leggings"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:swift_sneak",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "unheard": {
+      "trigger": "minecraft:avoid_vibration"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/past_the_sensor"
+  }
+}

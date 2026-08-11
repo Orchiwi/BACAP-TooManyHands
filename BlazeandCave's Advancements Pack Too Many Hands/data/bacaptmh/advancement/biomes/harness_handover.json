@@ -1,0 +1,89 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:orange_harness"
+    },
+    "title": {
+      "translate": "Harness Handover"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Harness off another player and strap it onto a Happy Ghast (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/top_of_the_world",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_harness",
+            "minecraft:orange_harness",
+            "minecraft:magenta_harness",
+            "minecraft:light_blue_harness",
+            "minecraft:yellow_harness",
+            "minecraft:lime_harness",
+            "minecraft:pink_harness",
+            "minecraft:gray_harness",
+            "minecraft:light_gray_harness",
+            "minecraft:cyan_harness",
+            "minecraft:purple_harness",
+            "minecraft:blue_harness",
+            "minecraft:brown_harness",
+            "minecraft:green_harness",
+            "minecraft:red_harness",
+            "minecraft:black_harness"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "strapped": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_harness",
+            "minecraft:orange_harness",
+            "minecraft:magenta_harness",
+            "minecraft:light_blue_harness",
+            "minecraft:yellow_harness",
+            "minecraft:lime_harness",
+            "minecraft:pink_harness",
+            "minecraft:gray_harness",
+            "minecraft:light_gray_harness",
+            "minecraft:cyan_harness",
+            "minecraft:purple_harness",
+            "minecraft:blue_harness",
+            "minecraft:brown_harness",
+            "minecraft:green_harness",
+            "minecraft:red_harness",
+            "minecraft:black_harness"
+          ]
+        },
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "entity_type": "minecraft:happy_ghast"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/harness_handover"
+  }
+}

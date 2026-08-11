@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "Blood Money"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player and spend the levels that spill out of them on an enchantment (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/complete_enchanter",
+  "criteria": {
+    "collected": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "spent": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {
+        "levels": {
+          "min": 3
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/blood_money"
+  }
+}

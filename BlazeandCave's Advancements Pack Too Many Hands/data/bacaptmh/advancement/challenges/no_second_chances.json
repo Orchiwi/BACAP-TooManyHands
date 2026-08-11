@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "No Second Chances"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Put another player down twice over: kill them inside the five seconds their own Totem of Undying bought them (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/immortal",
+  "criteria": {
+    "no_second_chances": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:absorption": {
+              "amplifier": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            "minecraft:regeneration": {
+              "amplifier": {
+                "min": 1
+              }
+            },
+            "minecraft:fire_resistance": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/no_second_chances"
+  }
+}

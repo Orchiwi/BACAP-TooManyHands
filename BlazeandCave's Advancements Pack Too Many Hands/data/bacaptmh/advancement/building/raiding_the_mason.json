@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:clay"
+    },
+    "title": {
+      "translate": "Raiding the Mason"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Crack open a village Mason's chest and be handed your share of the Clay by the player who found it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/clay_dough",
+  "criteria": {
+    "chest": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/village/village_mason"
+      }
+    },
+    "share": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:clay_ball"
+          ],
+          "count": {
+            "min": 8
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/raiding_the_mason"
+  }
+}

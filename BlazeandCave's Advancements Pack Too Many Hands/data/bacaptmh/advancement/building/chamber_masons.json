@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tuff_bricks"
+    },
+    "title": {
+      "translate": "Chamber Masons"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Tuff Bricks from another player inside the Trial Chambers and repoint the walls there (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/tuff_stuff",
+  "criteria": {
+    "delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "structures": "trial_chambers"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:tuff_bricks"
+          ],
+          "count": {
+            "min": 16
+          }
+        }
+      }
+    },
+    "repointed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:tuff_bricks"
+                ]
+              },
+              "structures": "trial_chambers"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/chamber_masons"
+  }
+}

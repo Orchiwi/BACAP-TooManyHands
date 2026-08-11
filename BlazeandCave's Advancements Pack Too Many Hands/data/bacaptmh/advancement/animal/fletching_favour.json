@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:feather"
+    },
+    "title": {
+      "translate": "Fletching Favour"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Craft Arrows out of Feathers another player plucked and threw your way (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/tickle_time",
+  "criteria": {
+    "handed_the_feathers": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:feather"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:arrow"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/fletching_favour"
+  }
+}

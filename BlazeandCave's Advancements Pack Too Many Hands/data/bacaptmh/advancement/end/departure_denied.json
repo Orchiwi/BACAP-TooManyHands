@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "Departure Denied"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player as they stand in the End's exit portal, on the very last step home (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/unending_hell",
+  "criteria": {
+    "blocked": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "dimension": "minecraft:the_end",
+            "block": {
+              "blocks": [
+                "minecraft:end_portal"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/departure_denied"
+  }
+}

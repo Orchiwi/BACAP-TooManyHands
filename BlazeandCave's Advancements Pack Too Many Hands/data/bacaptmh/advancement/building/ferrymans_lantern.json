@@ -1,0 +1,61 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_lantern"
+    },
+    "title": {
+      "translate": "Ferryman's Lantern"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take a Soul Lantern from a player standing out in a Soul Sand Valley and hang it above them (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/torched",
+  "criteria": {
+    "handed_over": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "biomes": "minecraft:soul_sand_valley"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:soul_lantern"
+          ]
+        }
+      }
+    },
+    "hung": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:soul_lantern"
+                ]
+              },
+              "biomes": "minecraft:soul_sand_valley"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/ferrymans_lantern"
+  }
+}

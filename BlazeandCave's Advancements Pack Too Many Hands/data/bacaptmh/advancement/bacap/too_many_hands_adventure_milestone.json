@@ -6362,6 +6362,1626 @@
           }
         }
       }
+    },
+    "second_fiddle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/second_fiddle": true
+            }
+          }
+        }
+      }
+    },
+    "armed_allay": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/armed_allay": true
+            }
+          }
+        }
+      }
+    },
+    "errand_boy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/errand_boy": true
+            }
+          }
+        }
+      }
+    },
+    "muffled": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/muffled": true
+            }
+          }
+        }
+      }
+    },
+    "tiptoe_twosome": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/tiptoe_twosome": true
+            }
+          }
+        }
+      }
+    },
+    "ice_breakers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/ice_breakers": true
+            }
+          }
+        }
+      }
+    },
+    "grave_bloom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/grave_bloom": true
+            }
+          }
+        }
+      }
+    },
+    "bloom_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/bloom_service": true
+            }
+          }
+        }
+      }
+    },
+    "trowel_and_error": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/trowel_and_error": true
+            }
+          }
+        }
+      }
+    },
+    "bristle_duty": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/bristle_duty": true
+            }
+          }
+        }
+      }
+    },
+    "hand_thrown": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/hand_thrown": true
+            }
+          }
+        }
+      }
+    },
+    "museum_piece": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/museum_piece": true
+            }
+          }
+        }
+      }
+    },
+    "relic_hunters": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/relic_hunters": true
+            }
+          }
+        }
+      }
+    },
+    "dressed_to_kill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/dressed_to_kill": true
+            }
+          }
+        }
+      }
+    },
+    "ingot_on_loan": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/ingot_on_loan": true
+            }
+          }
+        }
+      }
+    },
+    "netherite_nest_egg": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/netherite_nest_egg": true
+            }
+          }
+        }
+      }
+    },
+    "marked_territory": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/marked_territory": true
+            }
+          }
+        }
+      }
+    },
+    "shared_anchor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/shared_anchor": true
+            }
+          }
+        }
+      }
+    },
+    "dig_where_i_point": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/dig_where_i_point": true
+            }
+          }
+        }
+      }
+    },
+    "split_the_chest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/split_the_chest": true
+            }
+          }
+        }
+      }
+    },
+    "commissioned": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/commissioned": true
+            }
+          }
+        }
+      }
+    },
+    "draughtsmen": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/draughtsmen": true
+            }
+          }
+        }
+      }
+    },
+    "borrowed_bedding": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/borrowed_bedding": true
+            }
+          }
+        }
+      }
+    },
+    "tucked_in": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/tucked_in": true
+            }
+          }
+        }
+      }
+    },
+    "bellringers_mate": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/bellringers_mate": true
+            }
+          }
+        }
+      }
+    },
+    "rung_for_help": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/rung_for_help": true
+            }
+          }
+        }
+      }
+    },
+    "walk_the_plank": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/walk_the_plank": true
+            }
+          }
+        }
+      }
+    },
+    "wind_assisted": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/wind_assisted": true
+            }
+          }
+        }
+      }
+    },
+    "bottled_wind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/bottled_wind": true
+            }
+          }
+        }
+      }
+    },
+    "cat_sitter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/cat_sitter": true
+            }
+          }
+        }
+      }
+    },
+    "kitten_committee": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/kitten_committee": true
+            }
+          }
+        }
+      }
+    },
+    "covering_fire": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/covering_fire": true
+            }
+          }
+        }
+      }
+    },
+    "both_barrels": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/both_barrels": true
+            }
+          }
+        }
+      }
+    },
+    "deflected": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/deflected": true
+            }
+          }
+        }
+      }
+    },
+    "now_you_see_him": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/now_you_see_him": true
+            }
+          }
+        }
+      }
+    },
+    "your_own_medicine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/your_own_medicine": true
+            }
+          }
+        }
+      }
+    },
+    "hundred_metre_duel": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/hundred_metre_duel": true
+            }
+          }
+        }
+      }
+    },
+    "nose_to_nose": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/nose_to_nose": true
+            }
+          }
+        }
+      }
+    },
+    "bailing_out": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/bailing_out": true
+            }
+          }
+        }
+      }
+    },
+    "pyramid_payout": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/pyramid_payout": true
+            }
+          }
+        }
+      }
+    },
+    "booby_trap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/booby_trap": true
+            }
+          }
+        }
+      }
+    },
+    "temple_torchlight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/temple_torchlight": true
+            }
+          }
+        }
+      }
+    },
+    "cellar_split": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/cellar_split": true
+            }
+          }
+        }
+      }
+    },
+    "cold_turkey": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/cold_turkey": true
+            }
+          }
+        }
+      }
+    },
+    "winter_coat": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/winter_coat": true
+            }
+          }
+        }
+      }
+    },
+    "into_the_powder": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/into_the_powder": true
+            }
+          }
+        }
+      }
+    },
+    "the_four_ruins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/the_four_ruins": true
+            }
+          }
+        }
+      }
+    },
+    "golem_repair_crew": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/golem_repair_crew": true
+            }
+          }
+        }
+      }
+    },
+    "village_justice": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/village_justice": true
+            }
+          }
+        }
+      }
+    },
+    "raise_the_guard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/raise_the_guard": true
+            }
+          }
+        }
+      }
+    },
+    "lending_library": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/lending_library": true
+            }
+          }
+        }
+      }
+    },
+    "moneychangers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/moneychangers": true
+            }
+          }
+        }
+      }
+    },
+    "victory_lap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/victory_lap": true
+            }
+          }
+        }
+      }
+    },
+    "answer_the_call": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/answer_the_call": true
+            }
+          }
+        }
+      }
+    },
+    "key_money": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/key_money": true
+            }
+          }
+        }
+      }
+    },
+    "reading_group": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/reading_group": true
+            }
+          }
+        }
+      }
+    },
+    "breathing_lessons": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/breathing_lessons": true
+            }
+          }
+        }
+      }
+    },
+    "ghost_divers": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/ghost_divers": true
+            }
+          }
+        }
+      }
+    },
+    "two_man_sub": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/two_man_sub": true
+            }
+          }
+        }
+      }
+    },
+    "blind_trust": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/blind_trust": true
+            }
+          }
+        }
+      }
+    },
+    "notchs_gift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/notchs_gift": true
+            }
+          }
+        }
+      }
+    },
+    "two_man_band": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/two_man_band": true
+            }
+          }
+        }
+      }
+    },
+    "thunder_buddies": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/thunder_buddies": true
+            }
+          }
+        }
+      }
+    },
+    "woodsmans_loan": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/woodsmans_loan": true
+            }
+          }
+        }
+      }
+    },
+    "core_business": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/core_business": true
+            }
+          }
+        }
+      }
+    },
+    "slide_rule": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/slide_rule": true
+            }
+          }
+        }
+      }
+    },
+    "beacon_crew": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/beacon_crew": true
+            }
+          }
+        }
+      }
+    },
+    "two_way_recall": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/two_way_recall": true
+            }
+          }
+        }
+      }
+    },
+    "rented_lungs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/rented_lungs": true
+            }
+          }
+        }
+      }
+    },
+    "the_fatigue_cure": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/the_fatigue_cure": true
+            }
+          }
+        }
+      }
+    },
+    "night_diving": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/night_diving": true
+            }
+          }
+        }
+      }
+    },
+    "elder_care": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/elder_care": true
+            }
+          }
+        }
+      }
+    },
+    "still_damp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/still_damp": true
+            }
+          }
+        }
+      }
+    },
+    "dry_cleaning": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/dry_cleaning": true
+            }
+          }
+        }
+      }
+    },
+    "under_the_beam": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/under_the_beam": true
+            }
+          }
+        }
+      }
+    },
+    "heart_transplant": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/heart_transplant": true
+            }
+          }
+        }
+      }
+    },
+    "guided_tour": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/guided_tour": true
+            }
+          }
+        }
+      }
+    },
+    "reef_restoration": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/reef_restoration": true
+            }
+          }
+        }
+      }
+    },
+    "twice_cursed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/twice_cursed": true
+            }
+          }
+        }
+      }
+    },
+    "somebody_elses_curse": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/somebody_elses_curse": true
+            }
+          }
+        }
+      }
+    },
+    "contract_killing": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/contract_killing": true
+            }
+          }
+        }
+      }
+    },
+    "sharing_the_spoils": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/sharing_the_spoils": true
+            }
+          }
+        }
+      }
+    },
+    "veterans_pension": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/veterans_pension": true
+            }
+          }
+        }
+      }
+    },
+    "bad_company": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/bad_company": true
+            }
+          }
+        }
+      }
+    },
+    "passed_the_pike": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/passed_the_pike": true
+            }
+          }
+        }
+      }
+    },
+    "zeus_complex": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/zeus_complex": true
+            }
+          }
+        }
+      }
+    },
+    "someone_elses_key": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/someone_elses_key": true
+            }
+          }
+        }
+      }
+    },
+    "ominous_endorsement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/ominous_endorsement": true
+            }
+          }
+        }
+      }
+    },
+    "web_of_trust": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/web_of_trust": true
+            }
+          }
+        }
+      }
+    },
+    "infestation_service": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/infestation_service": true
+            }
+          }
+        }
+      }
+    },
+    "oozing_with_gratitude": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/oozing_with_gratitude": true
+            }
+          }
+        }
+      }
+    },
+    "gone_with_the_wind": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/gone_with_the_wind": true
+            }
+          }
+        }
+      }
+    },
+    "blown_upstairs": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/blown_upstairs": true
+            }
+          }
+        }
+      }
+    },
+    "mace_of_two_hands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/mace_of_two_hands": true
+            }
+          }
+        }
+      }
+    },
+    "split_the_reward": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/split_the_reward": true
+            }
+          }
+        }
+      }
+    },
+    "gusters_gift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/gusters_gift": true
+            }
+          }
+        }
+      }
+    },
+    "amateur_hour": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/amateur_hour": true
+            }
+          }
+        }
+      }
+    },
+    "lookout_duty": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/lookout_duty": true
+            }
+          }
+        }
+      }
+    },
+    "outpost_dividend": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/outpost_dividend": true
+            }
+          }
+        }
+      }
+    },
+    "borrowed_aim": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/borrowed_aim": true
+            }
+          }
+        }
+      }
+    },
+    "live_fire_drill": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/live_fire_drill": true
+            }
+          }
+        }
+      }
+    },
+    "death_from_the_rafters": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/death_from_the_rafters": true
+            }
+          }
+        }
+      }
+    },
+    "two_for_the_price_of_none": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/two_for_the_price_of_none": true
+            }
+          }
+        }
+      }
+    },
+    "squires_kit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/squires_kit": true
+            }
+          }
+        }
+      }
+    },
+    "spare_guard": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/spare_guard": true
+            }
+          }
+        }
+      }
+    },
+    "hired_blade": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/hired_blade": true
+            }
+          }
+        }
+      }
+    },
+    "poltergeist_cover": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/poltergeist_cover": true
+            }
+          }
+        }
+      }
+    },
+    "house_guest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/house_guest": true
+            }
+          }
+        }
+      }
+    },
+    "johnny_and_johnny": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/johnny_and_johnny": true
+            }
+          }
+        }
+      }
+    },
+    "look_away": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/look_away": true
+            }
+          }
+        }
+      }
+    },
+    "nobody_here_but_us": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/nobody_here_but_us": true
+            }
+          }
+        }
+      }
+    },
+    "career_opportunity": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/career_opportunity": true
+            }
+          }
+        }
+      }
+    },
+    "town_charter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/town_charter": true
+            }
+          }
+        }
+      }
+    },
+    "founding_ceremony": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/founding_ceremony": true
+            }
+          }
+        }
+      }
+    },
+    "nobody_came": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/nobody_came": true
+            }
+          }
+        }
+      }
+    },
+    "levels_on_credit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/levels_on_credit": true
+            }
+          }
+        }
+      }
+    },
+    "under_the_spotlight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/under_the_spotlight": true
+            }
+          }
+        }
+      }
+    },
+    "llama_drama": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/llama_drama": true
+            }
+          }
+        }
+      }
+    },
+    "apology_apple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/apology_apple": true
+            }
+          }
+        }
+      }
+    },
+    "trowel_buddy": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/trowel_buddy": true
+            }
+          }
+        }
+      }
+    },
+    "handover_in_the_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/handover_in_the_dark": true
+            }
+          }
+        }
+      }
+    },
+    "woolly_silence": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/woolly_silence": true
+            }
+          }
+        }
+      }
+    },
+    "icebox_split": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/icebox_split": true
+            }
+          }
+        }
+      }
+    },
+    "golem_mechanic": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/golem_mechanic": true
+            }
+          }
+        }
+      }
+    },
+    "golem_gets_the_assist": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/golem_gets_the_assist": true
+            }
+          }
+        }
+      }
+    },
+    "waste_of_a_good_apple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/waste_of_a_good_apple": true
+            }
+          }
+        }
+      }
+    },
+    "restoration_project": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/restoration_project": true
+            }
+          }
+        }
+      }
+    },
+    "someone_has_to_light_it": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/someone_has_to_light_it": true
+            }
+          }
+        }
+      }
+    },
+    "temple_trap": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/temple_trap": true
+            }
+          }
+        }
+      }
+    },
+    "finders_cut": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/finders_cut": true
+            }
+          }
+        }
+      }
+    },
+    "foster_parent": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/foster_parent": true
+            }
+          }
+        }
+      }
+    },
+    "sniffer_dowry": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/sniffer_dowry": true
+            }
+          }
+        }
+      }
+    },
+    "christening_gift": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/christening_gift": true
+            }
+          }
+        }
+      }
+    },
+    "honey_for_the_poison": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/honey_for_the_poison": true
+            }
+          }
+        }
+      }
+    },
+    "upgraded_on_credit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "bacaptmh:adventure/upgraded_on_credit": true
+            }
+          }
+        }
+      }
     }
   },
   "rewards": {

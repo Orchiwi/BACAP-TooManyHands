@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dark_oak_planks"
+    },
+    "title": {
+      "translate": "Mansion Restoration"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take Dark Oak Planks from another player inside a Woodland Mansion and patch the walls back up (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/professor_dark_oak",
+  "criteria": {
+    "delivered": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "structures": "mansion"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:dark_oak_planks"
+          ],
+          "count": {
+            "min": 32
+          }
+        }
+      }
+    },
+    "patched": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dark_oak_planks"
+                ]
+              },
+              "structures": "mansion"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/mansion_restoration"
+  }
+}

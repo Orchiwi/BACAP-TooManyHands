@@ -1,0 +1,143 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "The Umbrella Clause"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Block another player's Mace smash with a Shield while wearing no armour at all (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/the_perfect_run",
+  "criteria": {
+    "blocked_smash": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "type": {
+            "source_entity": {
+              "entity_type": "minecraft:player"
+            },
+            "direct_entity": {
+              "entity_type": "minecraft:player",
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:mace"
+                  ]
+                }
+              }
+            },
+            "tags": [
+              {
+                "id": "minecraft:mace_smash",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "head": {
+                    "items": [
+                      "minecraft:leather_helmet",
+                      "minecraft:chainmail_helmet",
+                      "minecraft:iron_helmet",
+                      "minecraft:golden_helmet",
+                      "minecraft:copper_helmet",
+                      "minecraft:diamond_helmet",
+                      "minecraft:netherite_helmet",
+                      "minecraft:turtle_helmet"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "chest": {
+                    "items": [
+                      "minecraft:leather_chestplate",
+                      "minecraft:chainmail_chestplate",
+                      "minecraft:iron_chestplate",
+                      "minecraft:golden_chestplate",
+                      "minecraft:copper_chestplate",
+                      "minecraft:diamond_chestplate",
+                      "minecraft:netherite_chestplate",
+                      "minecraft:elytra"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "legs": {
+                    "items": [
+                      "minecraft:leather_leggings",
+                      "minecraft:chainmail_leggings",
+                      "minecraft:iron_leggings",
+                      "minecraft:golden_leggings",
+                      "minecraft:copper_leggings",
+                      "minecraft:diamond_leggings",
+                      "minecraft:netherite_leggings"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": [
+                      "minecraft:leather_boots",
+                      "minecraft:chainmail_boots",
+                      "minecraft:iron_boots",
+                      "minecraft:golden_boots",
+                      "minecraft:copper_boots",
+                      "minecraft:diamond_boots",
+                      "minecraft:netherite_boots"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/the_umbrella_clause"
+  }
+}

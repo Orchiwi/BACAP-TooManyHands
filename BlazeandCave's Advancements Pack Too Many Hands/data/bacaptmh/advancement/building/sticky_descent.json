@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_block"
+    },
+    "title": {
+      "translate": "Sticky Descent"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Honey Blocks from another player, build the wall with them and slide the whole way back down (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/ladder_climbers_inc",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:honey_block"
+          ],
+          "count": {
+            "min": 8
+          }
+        }
+      }
+    },
+    "built": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:honey_block"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "slid": {
+      "trigger": "minecraft:slide_down_block",
+      "conditions": {
+        "block": "minecraft:honey_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/sticky_descent"
+  }
+}

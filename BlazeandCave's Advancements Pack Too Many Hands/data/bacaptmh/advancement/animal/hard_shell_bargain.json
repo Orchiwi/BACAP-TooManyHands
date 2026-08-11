@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_scute"
+    },
+    "title": {
+      "translate": "Hard Shell Bargain"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Craft a Turtle Helmet out of Scutes another player hauled back, then hand the finished shell straight to them (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/turtle_army",
+  "criteria": {
+    "scutes": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:turtle_scute"
+          ],
+          "count": {
+            "min": 5
+          }
+        }
+      }
+    },
+    "crafted": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:turtle_helmet"
+      }
+    },
+    "shipped": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:turtle_helmet"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/hard_shell_bargain"
+  }
+}

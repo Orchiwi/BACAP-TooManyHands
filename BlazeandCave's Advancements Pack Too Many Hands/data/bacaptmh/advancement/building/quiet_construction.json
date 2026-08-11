@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_sensor"
+    },
+    "title": {
+      "translate": "Quiet Construction"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Build in the Deep Dark with Wool another player passed down, and crouch past a Sculk Sensor without setting it off (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/deepslate_conspiracy",
+  "criteria": {
+    "passed_down": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:white_wool"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "crept": {
+      "trigger": "minecraft:avoid_vibration"
+    },
+    "muffled": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:white_wool"
+                ]
+              },
+              "biomes": "minecraft:deep_dark"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/quiet_construction"
+  }
+}

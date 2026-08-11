@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tube_coral_block"
+    },
+    "title": {
+      "translate": "Reef Restoration"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Buy Coral from the Wandering Trader with Emeralds another player handed you, then plant it (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/rebuilding_the_oceans",
+  "criteria": {
+    "funded": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:emerald"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "bought": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "villager": {
+          "entity_type": "minecraft:wandering_trader"
+        }
+      }
+    },
+    "planted": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:tube_coral_block",
+                  "minecraft:brain_coral_block",
+                  "minecraft:bubble_coral_block",
+                  "minecraft:fire_coral_block",
+                  "minecraft:horn_coral_block"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/reef_restoration"
+  }
+}

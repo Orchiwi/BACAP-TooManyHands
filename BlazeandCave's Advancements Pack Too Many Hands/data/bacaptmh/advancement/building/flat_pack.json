@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo"
+    },
+    "title": {
+      "translate": "Flat Pack"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Be handed the Bamboo and the String by another player and assemble the Scaffolding yourself (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/skyblock",
+  "criteria": {
+    "bamboo": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:bamboo"
+          ],
+          "count": {
+            "min": 32
+          }
+        }
+      }
+    },
+    "string": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:string"
+          ],
+          "count": {
+            "min": 4
+          }
+        }
+      }
+    },
+    "assembled": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:scaffolding"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/flat_pack"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crafter"
+    },
+    "title": {
+      "translate": "Reeds In, Pages Out"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Feed a Crafter the Sugar Cane another player grew and let the machine make your Paper for you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/librarian",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:sugar_cane"
+          ],
+          "count": {
+            "min": 3
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "automated": {
+      "trigger": "minecraft:crafter_recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:paper"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/reeds_in_pages_out"
+  }
+}

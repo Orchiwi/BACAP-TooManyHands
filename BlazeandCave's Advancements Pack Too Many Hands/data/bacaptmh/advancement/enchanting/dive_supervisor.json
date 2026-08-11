@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_lantern"
+    },
+    "title": {
+      "translate": "Dive Supervisor"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand out a Respiration III helmet while standing inside your own Conduit Power (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/scuba_gear",
+  "criteria": {
+    "supervised": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:leather_helmet",
+            "minecraft:chainmail_helmet",
+            "minecraft:iron_helmet",
+            "minecraft:golden_helmet",
+            "minecraft:diamond_helmet",
+            "minecraft:netherite_helmet",
+            "minecraft:turtle_helmet"
+          ],
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "minecraft:respiration",
+                "levels": {
+                  "min": 3
+                }
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:conduit_power": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/dive_supervisor"
+  }
+}

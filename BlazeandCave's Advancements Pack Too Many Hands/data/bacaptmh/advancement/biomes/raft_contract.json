@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo_raft"
+    },
+    "title": {
+      "translate": "Raft Contract"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Take Bamboo off another player in a Bamboo Jungle and build a Bamboo Raft out of it (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:biomes/bamboom",
+  "criteria": {
+    "supplied": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bamboo"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:bamboo_jungle"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "built": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bamboo_raft"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:biomes/raft_contract"
+  }
+}

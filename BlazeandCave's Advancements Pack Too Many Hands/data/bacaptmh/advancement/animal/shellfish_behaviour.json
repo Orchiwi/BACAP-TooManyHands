@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nautilus_shell"
+    },
+    "title": {
+      "translate": "Shellfish Behaviour"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Take a Nautilus Shell off another player while the two of you are stood on the ocean floor below Y=45 (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/aquarium",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:nautilus_shell"
+          ]
+        },
+        "player": {
+          "location": {
+            "fluid": {
+              "fluids": [
+                "minecraft:water"
+              ]
+            },
+            "position": {
+              "y": {
+                "max": 45.0
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/shellfish_behaviour"
+  }
+}

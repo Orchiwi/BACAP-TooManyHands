@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "Blast Lift"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Get launched off the site by another player's TNT and live through the landing (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/skyblock",
+  "criteria": {
+    "launched": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "entity_type": "minecraft:player",
+            "distance": {
+              "absolute": {
+                "min": 1
+              }
+            }
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    "came_down": {
+      "trigger": "minecraft:fall_after_explosion",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 10
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/blast_lift"
+  }
+}

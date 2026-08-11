@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "translate": "Skipping the Overworld"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Stock up on sixteen Ender Pearls from another player and go straight from the End to the Nether (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:end/unending_hell",
+  "criteria": {
+    "pearls": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ender_pearl"
+          ],
+          "count": {
+            "min": 16
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "shortcut": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:the_end",
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:end/skipping_the_overworld"
+  }
+}

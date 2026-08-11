@@ -1,0 +1,93 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_wool"
+    },
+    "title": {
+      "translate": "Dyed in the Wool"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Build in red, blue and yellow Wool that another player dyed and handed to you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/rainbow_collection",
+  "criteria": {
+    "handed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:red_wool",
+            "minecraft:blue_wool",
+            "minecraft:yellow_wool"
+          ]
+        }
+      }
+    },
+    "laid_red": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:red_wool"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "laid_blue": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:blue_wool"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "laid_yellow": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:yellow_wool"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/dyed_in_the_wool"
+  }
+}

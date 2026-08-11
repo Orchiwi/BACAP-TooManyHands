@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "translate": "Pull!"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Kill another player off the back of a flying Happy Ghast with a Firework Rocket, from at least forty blocks away (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/im_in_space",
+  "criteria": {
+    "skeet": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 40
+            }
+          },
+          "vehicle": {
+            "entity_type": "minecraft:happy_ghast"
+          }
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:firework_rocket"
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:crossbow"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/pull"
+  }
+}

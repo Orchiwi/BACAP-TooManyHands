@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:light_blue_bed"
+    },
+    "title": {
+      "translate": "Innkeeper"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand a Bed to a player standing in a Village and let them sleep the night off (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/rainbow_dreams",
+  "criteria": {
+    "gave_the_bed": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "location": {
+            "structures": "#minecraft:village"
+          }
+        },
+        "item": {
+          "items": "#minecraft:beds"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/innkeeper"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brick"
+    },
+    "title": {
+      "translate": "Full Hod"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Fill every last slot of your inventory with stock another player keeps passing you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/stationary_storage",
+  "criteria": {
+    "passing": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:bricks"
+          ],
+          "count": {
+            "min": 64
+          }
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "loaded": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "slots": {
+          "occupied": {
+            "min": 36
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/full_hod"
+  }
+}

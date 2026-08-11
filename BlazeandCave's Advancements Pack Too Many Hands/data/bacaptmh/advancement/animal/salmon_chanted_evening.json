@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_salmon"
+    },
+    "title": {
+      "translate": "Salmon Chanted Evening"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Eat a Cooked Salmon another player smoked for you and turn straight in for the night (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/delicious_fish",
+  "criteria": {
+    "served": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:cooked_salmon"
+          ]
+        }
+      }
+    },
+    "eaten": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_salmon"
+          ]
+        }
+      }
+    },
+    "slept": {
+      "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/salmon_chanted_evening"
+  }
+}

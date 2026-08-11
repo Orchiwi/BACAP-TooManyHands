@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nautilus_shell"
+    },
+    "title": {
+      "translate": "Blessings of the Deep"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Kill a player under Conduit Power while you swim under Dolphin's Grace (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/hearts_of_the_stack",
+  "criteria": {
+    "two_blessings": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "effects": {
+            "minecraft:conduit_power": {}
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:dolphins_grace": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/blessings_of_the_deep"
+  }
+}

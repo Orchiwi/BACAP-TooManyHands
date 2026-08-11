@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:azure_bluet"
+    },
+    "title": {
+      "translate": "Blind Swing"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Kill another player while you are the one blinded, going on sound alone (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:animal/live_and_let_dye",
+  "criteria": {
+    "swung_blind": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "player": {
+          "effects": {
+            "minecraft:blindness": {}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:animal/blind_swing"
+  }
+}

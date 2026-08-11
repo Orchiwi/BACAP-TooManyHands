@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel"
+    },
+    "title": {
+      "translate": "Groundskeepers"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Hand another player a Shovel so the two of you can cut the Dirt Path from both ends (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:building/pathways",
+  "criteria": {
+    "lent_the_shovel": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "item": {
+          "items": "#minecraft:shovels"
+        }
+      }
+    },
+    "cut_the_path": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dirt_path",
+                  "minecraft:grass_block",
+                  "minecraft:dirt",
+                  "minecraft:coarse_dirt"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#minecraft:shovels"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:building/groundskeepers"
+  }
+}

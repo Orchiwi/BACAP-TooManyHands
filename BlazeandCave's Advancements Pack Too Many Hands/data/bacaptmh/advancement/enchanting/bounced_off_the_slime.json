@@ -1,0 +1,83 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_block"
+    },
+    "title": {
+      "translate": "Bounced Off the Slime"
+    },
+    "description": {
+      "color": "green",
+      "translate": "Catch another player standing on a Slime Block with a Knockback II sword and send them into orbit (2 players)"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:enchanting/knocking_your_socks_off",
+  "criteria": {
+    "launched": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          },
+          "stepping_on": {
+            "block": {
+              "blocks": [
+                "minecraft:slime_block"
+              ]
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_player_attack",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:wooden_sword",
+                    "minecraft:stone_sword",
+                    "minecraft:copper_sword",
+                    "minecraft:iron_sword",
+                    "minecraft:golden_sword",
+                    "minecraft:diamond_sword",
+                    "minecraft:netherite_sword"
+                  ],
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:knockback",
+                        "levels": {
+                          "min": 2
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:enchanting/bounced_off_the_slime"
+  }
+}

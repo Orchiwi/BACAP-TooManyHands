@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arrow"
+    },
+    "title": {
+      "translate": "Two for the Price of None"
+    },
+    "description": {
+      "color": "#75E1FF",
+      "translate": "Skewer two different kinds of mob with one bolt from a Crossbow another player handed you (2 players)"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/you_are_the_pillager",
+  "criteria": {
+    "handed_the_bow": {
+      "trigger": "minecraft:thrown_item_picked_up_by_player",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        },
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    "skewered": {
+      "trigger": "minecraft:killed_by_arrow",
+      "conditions": {
+        "unique_entity_types": {
+          "min": 2
+        },
+        "fired_from_weapon": {
+          "items": [
+            "minecraft:crossbow"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/two_for_the_price_of_none"
+  }
+}

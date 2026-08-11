@@ -1,0 +1,52 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "The Long Shot"
+    },
+    "description": {
+      "color": "#FF2A2A",
+      "translate": "Land the killing blow on another player with an arrow from 100 blocks away (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:challenges/a_million_blocks_away",
+  "criteria": {
+    "snipe": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 100.0
+            },
+            "horizontal": {
+              "min": 100.0
+            }
+          }
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:is_projectile",
+              "expected": true
+            }
+          ],
+          "direct_entity": {
+            "entity_type": [
+              "minecraft:arrow",
+              "minecraft:spectral_arrow"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:challenges/the_long_shot"
+  }
+}

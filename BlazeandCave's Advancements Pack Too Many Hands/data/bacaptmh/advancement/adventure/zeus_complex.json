@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Zeus Complex"
+    },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Channel a thunderbolt straight into another player with a Trident during a storm (2 players)"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:adventure/picador",
+  "criteria": {
+    "smote": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "entity_type": "minecraft:player",
+          "distance": {
+            "absolute": {
+              "min": 1
+            }
+          }
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:lightning_bolt"
+            }
+          }
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:trident"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "channelled": {
+      "trigger": "minecraft:channeled_lightning"
+    }
+  },
+  "rewards": {
+    "function": "bacaptmh_rewards:adventure/zeus_complex"
+  }
+}
