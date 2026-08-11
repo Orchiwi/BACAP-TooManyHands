@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:mining/rest_in_pickaxes",
+  "parent": "bacaptmh:mining/patina_pipeline",
   "criteria": {
     "wooden": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

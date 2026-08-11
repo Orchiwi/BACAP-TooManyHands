@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:building/built_on_sand_set_in_stone",
+  "parent": "bacaptmh:building/sand_to_glass",
   "criteria": {
     "gave_sandstone": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:nether/welcome_to_warp_zone",
+  "parent": "bacaptmh:nether/warped_export",
   "criteria": {
     "warped_kill": {
       "trigger": "minecraft:player_killed_entity",

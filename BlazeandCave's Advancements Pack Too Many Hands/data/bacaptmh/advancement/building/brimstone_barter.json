@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:building/the_smell_of_rotten_eggs",
+  "parent": "bacaptmh:building/bricked_in",
   "criteria": {
     "gave_bricks": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

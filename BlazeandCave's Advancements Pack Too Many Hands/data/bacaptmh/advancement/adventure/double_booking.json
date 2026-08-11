@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:adventure/do_you_want_to_trade",
+  "parent": "bacaptmh:adventure/distraction_tactics",
   "criteria": {
     "traded": {
       "trigger": "minecraft:villager_trade",

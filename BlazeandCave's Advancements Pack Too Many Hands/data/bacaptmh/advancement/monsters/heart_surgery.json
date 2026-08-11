@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:monsters/blind_stare",
+  "parent": "bacaptmh:monsters/heads_up",
   "criteria": {
     "smashed": {
       "trigger": "minecraft:player_killed_entity",

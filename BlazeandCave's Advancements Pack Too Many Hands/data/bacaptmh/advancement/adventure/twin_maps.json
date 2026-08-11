@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:adventure/map_room",
+  "parent": "bacaptmh:adventure/hand_trimmed",
   "criteria": {
     "handed_a_copy": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

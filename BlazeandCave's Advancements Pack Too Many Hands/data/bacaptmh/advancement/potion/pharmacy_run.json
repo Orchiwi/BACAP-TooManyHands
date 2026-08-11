@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/hyper_healing",
+  "parent": "bacaptmh:potion/uninvited_guests",
   "criteria": {
     "healing": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

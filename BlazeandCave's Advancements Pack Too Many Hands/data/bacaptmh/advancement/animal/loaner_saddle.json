@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:animal/desert_rider",
+  "parent": "bacaptmh:animal/mounted_medic",
   "criteria": {
     "handed_the_saddle": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

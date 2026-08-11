@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:adventure/mold_maker",
+  "parent": "bacaptmh:adventure/monument_massacre",
   "criteria": {
     "paid_the_smith": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

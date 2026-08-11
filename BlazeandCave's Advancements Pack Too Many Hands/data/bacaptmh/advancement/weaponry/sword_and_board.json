@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:weaponry/master_shieldsman",
+  "parent": "bacaptmh:weaponry/strafing_run",
   "criteria": {
     "got_sword": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

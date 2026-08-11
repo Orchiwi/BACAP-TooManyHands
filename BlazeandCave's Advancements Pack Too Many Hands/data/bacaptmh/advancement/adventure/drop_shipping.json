@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:adventure/master_trader",
+  "parent": "bacaptmh:adventure/waiter_service",
   "criteria": {
     "air_dropped": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

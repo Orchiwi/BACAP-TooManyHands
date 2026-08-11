@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/failed_concoctions",
+  "parent": "bacaptmh:potion/pharmacy_run",
   "criteria": {
     "pinned": {
       "trigger": "minecraft:effects_changed",

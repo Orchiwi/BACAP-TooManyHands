@@ -18,7 +18,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/imbued_projectiles",
+  "parent": "bacaptmh:potion/plague_doctor",
   "criteria": {
     "healing_arrow": {
       "trigger": "minecraft:player_hurt_entity",

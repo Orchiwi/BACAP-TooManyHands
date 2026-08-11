@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:potion/medic",
+  "parent": "bacaptmh:potion/marked_man",
   "criteria": {
     "delivered": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

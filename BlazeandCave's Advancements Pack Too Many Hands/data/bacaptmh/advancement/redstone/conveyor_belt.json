@@ -13,7 +13,7 @@
     "frame": "goal",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:redstone/space_hopper",
+  "parent": "bacaptmh:redstone/bumper_carts",
   "criteria": {
     "downstream": {
       "trigger": "minecraft:thrown_item_picked_up_by_entity",

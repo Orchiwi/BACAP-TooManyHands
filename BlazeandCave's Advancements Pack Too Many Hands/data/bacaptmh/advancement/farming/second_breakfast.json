@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:farming/die_potato",
+  "parent": "bacaptmh:farming/feeding_frenzy",
   "criteria": {
     "got_bread": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",

@@ -13,7 +13,7 @@
     "frame": "task",
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:building/help_ive_been_framed",
+  "parent": "bacaptmh:building/trading_post",
   "criteria": {
     "handed_the_head": {
       "trigger": "minecraft:thrown_item_picked_up_by_player",
